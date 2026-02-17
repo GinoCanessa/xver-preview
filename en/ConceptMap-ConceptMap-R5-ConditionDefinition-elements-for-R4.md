@@ -1,4 +1,4 @@
-# ConceptMapR5ConditionDefinitionElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ConditionDefinitionElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ConditionDefinitionElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.6843499-06:00",
+  "date" : "2026-02-17T14:42:27.1067034-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -149,7 +149,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "url",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:url",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.url",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.url` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "version",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:version",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.version",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.version` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:versionAlgorithm",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.versionAlgorithm",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.versionAlgorithm[x]` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "name",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:name",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.name",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.name` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:title",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.title",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.title` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subtitle",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:subtitle",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.subtitle",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.subtitle` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:status",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.status",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.status` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -237,7 +237,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "experimental",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:experimental",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.experimental",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.experimental` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "date",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:date",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.date",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.date` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "publisher",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:publisher",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.publisher",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.publisher` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "contact",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:contact",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.contact",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.contact` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:description",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.description",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.description` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -292,7 +292,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "useContext",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:useContext",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.useContext",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.useContext` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "jurisdiction",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:jurisdiction",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.jurisdiction",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:code",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.code",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.code` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "severity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:severity",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.severity",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.severity` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "bodySite",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:bodySite",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.bodySite",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.bodySite` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -347,7 +347,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "stage",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:stage",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.stage",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.stage` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -358,7 +358,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "hasSeverity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:hasSeverity",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.hasSeverity",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.hasSeverity` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -369,7 +369,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "hasBodySite",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:hasBodySite",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.hasBodySite",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.hasBodySite` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -380,7 +380,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "hasStage",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:hasStage",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.hasStage",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.hasStage` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -391,7 +391,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "definition",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:definition",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.definition",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.definition` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -413,7 +413,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "category",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.observation:category",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.observation:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.observation.category",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.observation.category` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -424,7 +424,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.observation:code",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.observation:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.observation.code",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.observation.code` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -446,7 +446,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "category",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.medication:category",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.medication:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.medication.category",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.medication.category` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -457,7 +457,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.medication:code",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.medication:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.medication.code",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.medication.code` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -479,7 +479,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition.type",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.precondition.type` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -490,7 +490,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition:code",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition.code",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.precondition.code` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -501,7 +501,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition:value",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition.value",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.precondition.value[x]` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -512,7 +512,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "team",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:team",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.team",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.team` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -534,7 +534,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "purpose",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.questionnaire:purpose",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.questionnaire:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.questionnaire.purpose",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.questionnaire.purpose` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -545,7 +545,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.questionnaire:reference",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.questionnaire:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.questionnaire.reference",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.questionnaire.reference` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -567,7 +567,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "role",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.plan:role",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.plan.role",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.plan.role` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }
@@ -578,7 +578,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.plan:reference",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.plan:http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.plan.reference",
               "equivalence" : "relatedto",
               "comment" : "Element `ConditionDefinition.plan.reference` is not mapped to FHIR R4, since FHIR R5 `ConditionDefinition` is not mapped."
             }

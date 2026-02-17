@@ -1,4 +1,4 @@
-# ConceptMapR5GraphDefinitionElementsForR4GraphDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5GraphDefinitionElementsForR4GraphDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5GraphDefinitionElementsForR4GraphDefinition 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.9020356-06:00",
+  "date" : "2026-02-17T14:42:27.2895406-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `GraphDefinition` is representable via FHIR R4 Resource `GraphDefinition`.\nElement `GraphDefinition` is mapped to FHIR R4 element `GraphDefinition`."
+              "comment" : "FHIR R5 Resource `GraphDefinition` is representable via FHIR R4 Resource `GraphDefinition`.\nElement `GraphDefinition` has is mapped to FHIR R4 element `GraphDefinition`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.meta` is mapped to FHIR R4 element `GraphDefinition.meta`."
+              "comment" : "Element `GraphDefinition.meta` has is mapped to FHIR R4 element `GraphDefinition.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.implicitRules` is mapped to FHIR R4 element `GraphDefinition.implicitRules`."
+              "comment" : "Element `GraphDefinition.implicitRules` has is mapped to FHIR R4 element `GraphDefinition.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.language` is mapped to FHIR R4 element `GraphDefinition.language`."
+              "comment" : "Element `GraphDefinition.language` has is mapped to FHIR R4 element `GraphDefinition.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.text` is mapped to FHIR R4 element `GraphDefinition.text`."
+              "comment" : "Element `GraphDefinition.text` has is mapped to FHIR R4 element `GraphDefinition.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.contained` is mapped to FHIR R4 element `GraphDefinition.contained`."
+              "comment" : "Element `GraphDefinition.contained` has is mapped to FHIR R4 element `GraphDefinition.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.url` is mapped to FHIR R4 element `GraphDefinition.url`."
+              "comment" : "Element `GraphDefinition.url` has is mapped to FHIR R4 element `GraphDefinition.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `GraphDefinition.identifier` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `GraphDefinition.identifier` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.version` is mapped to FHIR R4 element `GraphDefinition.version`."
+              "comment" : "Element `GraphDefinition.version` has is mapped to FHIR R4 element `GraphDefinition.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.versionAlgorithm[x]` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.versionAlgorithm[x]` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.name` is mapped to FHIR R4 element `GraphDefinition.name`."
+              "comment" : "Element `GraphDefinition.name` has is mapped to FHIR R4 element `GraphDefinition.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.title` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.title` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.status` is mapped to FHIR R4 element `GraphDefinition.status`."
+              "comment" : "Element `GraphDefinition.status` has is mapped to FHIR R4 element `GraphDefinition.status`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.experimental` is mapped to FHIR R4 element `GraphDefinition.experimental`."
+              "comment" : "Element `GraphDefinition.experimental` has is mapped to FHIR R4 element `GraphDefinition.experimental`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.date` is mapped to FHIR R4 element `GraphDefinition.date`."
+              "comment" : "Element `GraphDefinition.date` has is mapped to FHIR R4 element `GraphDefinition.date`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.publisher` is mapped to FHIR R4 element `GraphDefinition.publisher`."
+              "comment" : "Element `GraphDefinition.publisher` has is mapped to FHIR R4 element `GraphDefinition.publisher`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.contact` is mapped to FHIR R4 element `GraphDefinition.contact`."
+              "comment" : "Element `GraphDefinition.contact` has is mapped to FHIR R4 element `GraphDefinition.contact`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.description` is mapped to FHIR R4 element `GraphDefinition.description`."
+              "comment" : "Element `GraphDefinition.description` has is mapped to FHIR R4 element `GraphDefinition.description`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.useContext` is mapped to FHIR R4 element `GraphDefinition.useContext`."
+              "comment" : "Element `GraphDefinition.useContext` has is mapped to FHIR R4 element `GraphDefinition.useContext`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.jurisdiction` is mapped to FHIR R4 element `GraphDefinition.jurisdiction`."
+              "comment" : "Element `GraphDefinition.jurisdiction` has is mapped to FHIR R4 element `GraphDefinition.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.purpose` is mapped to FHIR R4 element `GraphDefinition.purpose`."
+              "comment" : "Element `GraphDefinition.purpose` has is mapped to FHIR R4 element `GraphDefinition.purpose`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.copyright` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.copyright` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.copyrightLabel` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.copyrightLabel` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.start",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.start` is mapped to FHIR R4 element `GraphDefinition.start`."
+              "comment" : "Element `GraphDefinition.start` has is mapped to FHIR R4 element `GraphDefinition.start`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.node` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.node` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.nodeId` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.nodeId` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.description` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.description` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.type` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.type` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.node.profile` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `GraphDefinition.node.profile` is will have a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.node.profile` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `GraphDefinition.node.profile` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link` is mapped to FHIR R4 element `GraphDefinition.link`."
+              "comment" : "Element `GraphDefinition.link` has is mapped to FHIR R4 element `GraphDefinition.link`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.description` is mapped to FHIR R4 element `GraphDefinition.link.description`."
+              "comment" : "Element `GraphDefinition.link.description` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.description` has is mapped to FHIR R4 element `GraphDefinition.link.description`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.min",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.min` is mapped to FHIR R4 element `GraphDefinition.link.min`."
+              "comment" : "Element `GraphDefinition.link.min` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.min` has is mapped to FHIR R4 element `GraphDefinition.link.min`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.max",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.max` is mapped to FHIR R4 element `GraphDefinition.link.max`."
+              "comment" : "Element `GraphDefinition.link.max` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.max` has is mapped to FHIR R4 element `GraphDefinition.link.max`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.sourceId` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.link.sourceId` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sourceId` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.path",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.path` is mapped to FHIR R4 element `GraphDefinition.link.path`."
+              "comment" : "Element `GraphDefinition.link.path` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.path` has is mapped to FHIR R4 element `GraphDefinition.link.path`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link.sliceName",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.sliceName` is mapped to FHIR R4 element `GraphDefinition.link.sliceName`."
+              "comment" : "Element `GraphDefinition.link.sliceName` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sliceName` has is mapped to FHIR R4 element `GraphDefinition.link.sliceName`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.targetId` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.link.targetId` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.targetId` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.params` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.link.params` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.params` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.compartment` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.link.compartment` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.compartment` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/GraphDefinition#GraphDefinition.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` is will have a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
+              "comment" : "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`."
             }
           ]
         }

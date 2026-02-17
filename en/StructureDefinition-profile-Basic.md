@@ -1,4 +1,4 @@
-# ProfileBasic - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileBasic - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileBasic 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Basic.csv
   "title" : "Cross-version Profile for R5.Basic for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:42.9879425-06:00",
+  "date" : "2026-02-17T14:42:26.7364182-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -164,7 +164,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Basic.csv
         "path" : "Basic.created.extension",
         "sliceName" : "created",
         "short" : "Cross-version extension for Basic.created from R5 for use in FHIR R4",
-        "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:0..1 -> basic: `date`:0..1).\nElement `Basic.created` is mapped to FHIR R4 element `Basic.created`.",
+        "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `dateTime`:0..1 -> basic: `date`:0..1).\nElement `Basic.created` has is mapped to FHIR R4 element `Basic.created`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {

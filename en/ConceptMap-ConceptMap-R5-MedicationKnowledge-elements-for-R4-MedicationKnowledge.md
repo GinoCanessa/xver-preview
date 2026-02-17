@@ -1,4 +1,4 @@
-# ConceptMapR5MedicationKnowledgeElementsForR4MedicationKnowledge - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5MedicationKnowledgeElementsForR4MedicationKnowledge - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5MedicationKnowledgeElementsForR4MedicationKnowledge 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.0177058-06:00",
+  "date" : "2026-02-17T14:42:27.3758377-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `MedicationKnowledge` is representable via FHIR R4 Resource `MedicationKnowledge`.\nElement `MedicationKnowledge` is mapped to FHIR R4 element `MedicationKnowledge`."
+              "comment" : "FHIR R5 Resource `MedicationKnowledge` is representable via FHIR R4 Resource `MedicationKnowledge`.\nElement `MedicationKnowledge` has is mapped to FHIR R4 element `MedicationKnowledge`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.meta` is mapped to FHIR R4 element `MedicationKnowledge.meta`."
+              "comment" : "Element `MedicationKnowledge.meta` has is mapped to FHIR R4 element `MedicationKnowledge.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.implicitRules` is mapped to FHIR R4 element `MedicationKnowledge.implicitRules`."
+              "comment" : "Element `MedicationKnowledge.implicitRules` has is mapped to FHIR R4 element `MedicationKnowledge.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.language` is mapped to FHIR R4 element `MedicationKnowledge.language`."
+              "comment" : "Element `MedicationKnowledge.language` has is mapped to FHIR R4 element `MedicationKnowledge.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.text` is mapped to FHIR R4 element `MedicationKnowledge.text`."
+              "comment" : "Element `MedicationKnowledge.text` has is mapped to FHIR R4 element `MedicationKnowledge.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.contained` is mapped to FHIR R4 element `MedicationKnowledge.contained`."
+              "comment" : "Element `MedicationKnowledge.contained` has is mapped to FHIR R4 element `MedicationKnowledge.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `MedicationKnowledge.identifier` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `MedicationKnowledge.identifier` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.code` is mapped to FHIR R4 element `MedicationKnowledge.code`."
+              "comment" : "Element `MedicationKnowledge.code` has is mapped to FHIR R4 element `MedicationKnowledge.code`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.status` is mapped to FHIR R4 element `MedicationKnowledge.status`."
+              "comment" : "Element `MedicationKnowledge.status` has is mapped to FHIR R4 element `MedicationKnowledge.status`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.author` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element matches Basic element path `Basic.author`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.author` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.intendedJurisdiction` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.intendedJurisdiction` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.synonym",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.name` is mapped to FHIR R4 element `MedicationKnowledge.synonym`."
+              "comment" : "Element `MedicationKnowledge.name` has is mapped to FHIR R4 element `MedicationKnowledge.synonym`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.relatedMedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.relatedMedicationKnowledge` is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.relatedMedicationKnowledge` has is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.relatedMedicationKnowledge.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.relatedMedicationKnowledge.type` is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge.type`."
+              "comment" : "Element `MedicationKnowledge.relatedMedicationKnowledge.type` is part of an existing definition because parent element `MedicationKnowledge.relatedMedicationKnowledge` requires a cross-version extension.\nElement `MedicationKnowledge.relatedMedicationKnowledge.type` has is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge.type`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.relatedMedicationKnowledge.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.relatedMedicationKnowledge.reference` is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge.reference`."
+              "comment" : "Element `MedicationKnowledge.relatedMedicationKnowledge.reference` is part of an existing definition because parent element `MedicationKnowledge.relatedMedicationKnowledge` requires a cross-version extension.\nElement `MedicationKnowledge.relatedMedicationKnowledge.reference` has is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge.reference`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.associatedMedication",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.associatedMedication` is mapped to FHIR R4 element `MedicationKnowledge.associatedMedication`."
+              "comment" : "Element `MedicationKnowledge.associatedMedication` has is mapped to FHIR R4 element `MedicationKnowledge.associatedMedication`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.productType",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.productType` is mapped to FHIR R4 element `MedicationKnowledge.productType`."
+              "comment" : "Element `MedicationKnowledge.productType` has is mapped to FHIR R4 element `MedicationKnowledge.productType`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.monograph",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.monograph` is mapped to FHIR R4 element `MedicationKnowledge.monograph`."
+              "comment" : "Element `MedicationKnowledge.monograph` has is mapped to FHIR R4 element `MedicationKnowledge.monograph`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.monograph.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.monograph.type` is mapped to FHIR R4 element `MedicationKnowledge.monograph.type`."
+              "comment" : "Element `MedicationKnowledge.monograph.type` is part of an existing definition because parent element `MedicationKnowledge.monograph` requires a cross-version extension.\nElement `MedicationKnowledge.monograph.type` has is mapped to FHIR R4 element `MedicationKnowledge.monograph.type`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.monograph.source",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.monograph.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.monograph.source` is mapped to FHIR R4 element `MedicationKnowledge.monograph.source`."
+              "comment" : "Element `MedicationKnowledge.monograph.source` is part of an existing definition because parent element `MedicationKnowledge.monograph` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.monograph.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.monograph.source` has is mapped to FHIR R4 element `MedicationKnowledge.monograph.source`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.preparationInstruction",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.preparationInstruction` is mapped to FHIR R4 element `MedicationKnowledge.preparationInstruction`."
+              "comment" : "Element `MedicationKnowledge.preparationInstruction` has is mapped to FHIR R4 element `MedicationKnowledge.preparationInstruction`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.cost",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.cost` is mapped to FHIR R4 element `MedicationKnowledge.cost`."
+              "comment" : "Element `MedicationKnowledge.cost` has is mapped to FHIR R4 element `MedicationKnowledge.cost`, but has no comparisons.\nNote available implied context: `MedicationKnowledge.packaging.cost` because `MedicationKnowledge.packaging.cost` is defined as a content reference to `MedicationKnowledge.cost`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.cost",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.cost.effectiveDate` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).\nElement `MedicationKnowledge.cost.effectiveDate` is will have a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.cost.effectiveDate` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.\nElement `MedicationKnowledge.cost.effectiveDate` has a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.cost.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.cost.type` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).\nElement `MedicationKnowledge.cost.type` is mapped to FHIR R4 element `MedicationKnowledge.cost.type`."
+              "comment" : "Element `MedicationKnowledge.cost.type` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.\nElement `MedicationKnowledge.cost.type` has is mapped to FHIR R4 element `MedicationKnowledge.cost.type`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.cost.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.cost.source` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).\nElement `MedicationKnowledge.cost.source` is mapped to FHIR R4 element `MedicationKnowledge.cost.source`."
+              "comment" : "Element `MedicationKnowledge.cost.source` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.\nElement `MedicationKnowledge.cost.source` has is mapped to FHIR R4 element `MedicationKnowledge.cost.source`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.cost.cost",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.cost.cost[x]` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).\nElement `MedicationKnowledge.cost.cost[x]` is mapped to FHIR R4 element `MedicationKnowledge.cost.cost`."
+              "comment" : "Element `MedicationKnowledge.cost.cost[x]` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.\nElement `MedicationKnowledge.cost.cost[x]` has is mapped to FHIR R4 element `MedicationKnowledge.cost.cost`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.monitoringProgram",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.monitoringProgram` is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram`."
+              "comment" : "Element `MedicationKnowledge.monitoringProgram` has is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.monitoringProgram.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.monitoringProgram.type` is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram.type`."
+              "comment" : "Element `MedicationKnowledge.monitoringProgram.type` is part of an existing definition because parent element `MedicationKnowledge.monitoringProgram` requires a cross-version extension.\nElement `MedicationKnowledge.monitoringProgram.type` has is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram.type`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.monitoringProgram.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.monitoringProgram.name` is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram.name`."
+              "comment" : "Element `MedicationKnowledge.monitoringProgram.name` is part of an existing definition because parent element `MedicationKnowledge.monitoringProgram` requires a cross-version extension.\nElement `MedicationKnowledge.monitoringProgram.name` has is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram.name`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.indicationGuideline` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline` has is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines.indication[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `MedicationKnowledge.administrationGuidelines.indication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines`.\nElement `MedicationKnowledge.indicationGuideline.indication` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.indication[x]`.\nNote that the target element context `MedicationKnowledge.administrationGuidelines.indication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline.indication` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline` requires a cross-version extension.\nNote that the target element context `MedicationKnowledge.administrationGuidelines.indication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines`.\nElement `MedicationKnowledge.indicationGuideline.indication` has is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.indication[x]`, but has no comparisons.\nNote that the target element context `MedicationKnowledge.administrationGuidelines.indication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines`."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline` is will have a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline` has a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is will have a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.treatmentIntent` has a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines.dosage",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` has is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines.dosage.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.type`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.type` has is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.type`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines.dosage.dosage",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.dosage`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.dosage.dosage` has is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.dosage.dosage`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is will have a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.administrationTreatment` has a context of MedicationKnowledge.administrationGuidelines based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines.patientCharacteristics",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` has is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines.patientCharacteristics",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is will have a context of MedicationKnowledge.administrationGuidelines.patientCharacteristics based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.type` has a context of MedicationKnowledge.administrationGuidelines.patientCharacteristics based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.\nNote that the target element context `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines.patientCharacteristics`.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]`.\nNote that the target element context `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines.patientCharacteristics`."
+              "comment" : "Element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` is part of an existing definition because parent element `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic` requires a cross-version extension.\nNote that the target element context `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines.patientCharacteristics`.\nElement `MedicationKnowledge.indicationGuideline.dosingGuideline.patientCharacteristic.value[x]` has is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]`, but has no comparisons.\nNote that the target element context `MedicationKnowledge.administrationGuidelines.patientCharacteristics.characteristic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.administrationGuidelines.patientCharacteristics`."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.medicineClassification",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.medicineClassification` is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification`."
+              "comment" : "Element `MedicationKnowledge.medicineClassification` has is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.medicineClassification.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.medicineClassification.type` is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification.type`."
+              "comment" : "Element `MedicationKnowledge.medicineClassification.type` is part of an existing definition because parent element `MedicationKnowledge.medicineClassification` requires a cross-version extension.\nElement `MedicationKnowledge.medicineClassification.type` has is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification.type`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.medicineClassification",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.medicineClassification.source[x]` is will have a context of MedicationKnowledge.medicineClassification based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.medicineClassification.source[x]` is part of an existing definition because parent element `MedicationKnowledge.medicineClassification` requires a cross-version extension.\nElement `MedicationKnowledge.medicineClassification.source[x]` has a context of MedicationKnowledge.medicineClassification based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.medicineClassification.classification",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.medicineClassification.classification` is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification.classification`."
+              "comment" : "Element `MedicationKnowledge.medicineClassification.classification` is part of an existing definition because parent element `MedicationKnowledge.medicineClassification` requires a cross-version extension.\nElement `MedicationKnowledge.medicineClassification.classification` has is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification.classification`, but has no comparisons."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.packaging",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.packaging` is mapped to FHIR R4 element `MedicationKnowledge.packaging`."
+              "comment" : "Element `MedicationKnowledge.packaging` has is mapped to FHIR R4 element `MedicationKnowledge.packaging`, but has no comparisons."
             }
           ]
         },
@@ -580,51 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.packaging",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.packaging.cost` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."
-            }
-          ]
-        },
-        {
-          "code" : "MedicationKnowledge.packaging.cost.effectiveDate",
-          "display" : "effectiveDate",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.packaging",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.packaging.cost.effectiveDate` is part of an existing definition because parent element `MedicationKnowledge.packaging.cost` requires a cross-version extension.\nElement `MedicationKnowledge.packaging.cost.effectiveDate` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."
-            }
-          ]
-        },
-        {
-          "code" : "MedicationKnowledge.packaging.cost.type",
-          "display" : "type",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.packaging",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.packaging.cost.type` is part of an existing definition because parent element `MedicationKnowledge.packaging.cost` requires a cross-version extension.\nElement `MedicationKnowledge.packaging.cost.type` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."
-            }
-          ]
-        },
-        {
-          "code" : "MedicationKnowledge.packaging.cost.source",
-          "display" : "source",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.packaging",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.packaging.cost.source` is part of an existing definition because parent element `MedicationKnowledge.packaging.cost` requires a cross-version extension.\nElement `MedicationKnowledge.packaging.cost.source` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."
-            }
-          ]
-        },
-        {
-          "code" : "MedicationKnowledge.packaging.cost.cost[x]",
-          "display" : "cost[x]",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.packaging",
-              "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.packaging.cost.cost[x]` is part of an existing definition because parent element `MedicationKnowledge.packaging.cost` requires a cross-version extension.\nElement `MedicationKnowledge.packaging.cost.cost[x]` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.packaging.cost` is part of an existing definition because parent element `MedicationKnowledge.packaging` requires a cross-version extension.\nElement `MedicationKnowledge.packaging.cost` has a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -635,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.packaging",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.packaging.packagedProduct` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.packaging.packagedProduct` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.packaging.packagedProduct` is part of an existing definition because parent element `MedicationKnowledge.packaging` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.packaging.packagedProduct` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.packaging.packagedProduct` has a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -646,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.contraindication",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.clinicalUseIssue` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.clinicalUseIssue` is mapped to FHIR R4 element `MedicationKnowledge.contraindication`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.clinicalUseIssue` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.clinicalUseIssue` has is mapped to FHIR R4 element `MedicationKnowledge.contraindication`, but has no comparisons."
             }
           ]
         },
@@ -657,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.storageGuideline` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.storageGuideline` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -668,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.storageGuideline.reference` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.reference` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.storageGuideline.reference` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.reference` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -679,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.storageGuideline.note` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.note` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.storageGuideline.note` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.note` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -690,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.storageGuideline.stabilityDuration` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.stabilityDuration` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.storageGuideline.stabilityDuration` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.stabilityDuration` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -701,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -712,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting.type` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting.type` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting.type` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -723,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is will have a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` is part of an existing definition because parent element `MedicationKnowledge.storageGuideline.environmentalSetting` requires a cross-version extension.\nElement `MedicationKnowledge.storageGuideline.environmentalSetting.value[x]` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -734,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.regulatory",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.regulatory` is mapped to FHIR R4 element `MedicationKnowledge.regulatory`."
+              "comment" : "Element `MedicationKnowledge.regulatory` has is mapped to FHIR R4 element `MedicationKnowledge.regulatory`, but has no comparisons."
             }
           ]
         },
@@ -745,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.regulatory.regulatoryAuthority",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.regulatory.regulatoryAuthority` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.regulatoryAuthority`."
+              "comment" : "Element `MedicationKnowledge.regulatory.regulatoryAuthority` is part of an existing definition because parent element `MedicationKnowledge.regulatory` requires a cross-version extension.\nElement `MedicationKnowledge.regulatory.regulatoryAuthority` has is mapped to FHIR R4 element `MedicationKnowledge.regulatory.regulatoryAuthority`, but has no comparisons."
             }
           ]
         },
@@ -756,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.regulatory.substitution",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.regulatory.substitution` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution`."
+              "comment" : "Element `MedicationKnowledge.regulatory.substitution` is part of an existing definition because parent element `MedicationKnowledge.regulatory` requires a cross-version extension.\nElement `MedicationKnowledge.regulatory.substitution` has is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution`, but has no comparisons."
             }
           ]
         },
@@ -767,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.regulatory.substitution.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.regulatory.substitution.type` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution.type`."
+              "comment" : "Element `MedicationKnowledge.regulatory.substitution.type` is part of an existing definition because parent element `MedicationKnowledge.regulatory.substitution` requires a cross-version extension.\nElement `MedicationKnowledge.regulatory.substitution.type` has is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution.type`, but has no comparisons."
             }
           ]
         },
@@ -778,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.regulatory.substitution.allowed",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.regulatory.substitution.allowed` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution.allowed`."
+              "comment" : "Element `MedicationKnowledge.regulatory.substitution.allowed` is part of an existing definition because parent element `MedicationKnowledge.regulatory.substitution` requires a cross-version extension.\nElement `MedicationKnowledge.regulatory.substitution.allowed` has is mapped to FHIR R4 element `MedicationKnowledge.regulatory.substitution.allowed`, but has no comparisons."
             }
           ]
         },
@@ -789,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.regulatory.schedule.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.regulatory.schedule` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.schedule.schedule`."
+              "comment" : "Element `MedicationKnowledge.regulatory.schedule` is part of an existing definition because parent element `MedicationKnowledge.regulatory` requires a cross-version extension.\nElement `MedicationKnowledge.regulatory.schedule` has is mapped to FHIR R4 element `MedicationKnowledge.regulatory.schedule.schedule`, but has no comparisons."
             }
           ]
         },
@@ -800,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.regulatory.maxDispense",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.regulatory.maxDispense` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense`."
+              "comment" : "Element `MedicationKnowledge.regulatory.maxDispense` is part of an existing definition because parent element `MedicationKnowledge.regulatory` requires a cross-version extension.\nElement `MedicationKnowledge.regulatory.maxDispense` has is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense`, but has no comparisons."
             }
           ]
         },
@@ -811,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.regulatory.maxDispense.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.regulatory.maxDispense.quantity` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense.quantity`."
+              "comment" : "Element `MedicationKnowledge.regulatory.maxDispense.quantity` is part of an existing definition because parent element `MedicationKnowledge.regulatory.maxDispense` requires a cross-version extension.\nElement `MedicationKnowledge.regulatory.maxDispense.quantity` has is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense.quantity`, but has no comparisons."
             }
           ]
         },
@@ -822,7 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.regulatory.maxDispense.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.regulatory.maxDispense.period` is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense.period`."
+              "comment" : "Element `MedicationKnowledge.regulatory.maxDispense.period` is part of an existing definition because parent element `MedicationKnowledge.regulatory.maxDispense` requires a cross-version extension.\nElement `MedicationKnowledge.regulatory.maxDispense.period` has is mapped to FHIR R4 element `MedicationKnowledge.regulatory.maxDispense.period`, but has no comparisons."
             }
           ]
         },
@@ -833,12 +789,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge`.\nElement `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic`."
+              "comment" : "Element `MedicationKnowledge.definitional` has is mapped to FHIR R4 element `MedicationKnowledge`, but has no comparisons.\nElement `MedicationKnowledge.definitional` has is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.drugCharacteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge`.\nElement `MedicationKnowledge.definitional` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic`."
+              "comment" : "Element `MedicationKnowledge.definitional` has is mapped to FHIR R4 element `MedicationKnowledge`, but has no comparisons.\nElement `MedicationKnowledge.definitional` has is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic`, but has no comparisons."
             }
           ]
         },
@@ -849,7 +805,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.drugCharacteristic",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.definitional.definition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.definitional.definition` is will have a context of MedicationKnowledge.drugCharacteristic based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.definitional.definition` is part of an existing definition because parent element `MedicationKnowledge.definitional` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.definitional.definition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.definitional.definition` has a context of MedicationKnowledge.drugCharacteristic based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -860,7 +816,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.doseForm",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.definitional.doseForm` is mapped to FHIR R4 element `MedicationKnowledge.doseForm`."
+              "comment" : "Element `MedicationKnowledge.definitional.doseForm` is part of an existing definition because parent element `MedicationKnowledge.definitional` requires a cross-version extension.\nElement `MedicationKnowledge.definitional.doseForm` has is mapped to FHIR R4 element `MedicationKnowledge.doseForm`, but has no comparisons."
             }
           ]
         },
@@ -871,7 +827,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.intendedRoute",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.definitional.intendedRoute` is mapped to FHIR R4 element `MedicationKnowledge.intendedRoute`."
+              "comment" : "Element `MedicationKnowledge.definitional.intendedRoute` is part of an existing definition because parent element `MedicationKnowledge.definitional` requires a cross-version extension.\nElement `MedicationKnowledge.definitional.intendedRoute` has is mapped to FHIR R4 element `MedicationKnowledge.intendedRoute`, but has no comparisons."
             }
           ]
         },
@@ -882,7 +838,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.ingredient",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.definitional.ingredient` is mapped to FHIR R4 element `MedicationKnowledge.ingredient`."
+              "comment" : "Element `MedicationKnowledge.definitional.ingredient` is part of an existing definition because parent element `MedicationKnowledge.definitional` requires a cross-version extension.\nElement `MedicationKnowledge.definitional.ingredient` has is mapped to FHIR R4 element `MedicationKnowledge.ingredient`, but has no comparisons."
             }
           ]
         },
@@ -893,7 +849,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.ingredient.item[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `MedicationKnowledge.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.ingredient`.\nElement `MedicationKnowledge.definitional.ingredient.item` is mapped to FHIR R4 element `MedicationKnowledge.ingredient.item[x]`.\nNote that the target element context `MedicationKnowledge.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.ingredient`."
+              "comment" : "Element `MedicationKnowledge.definitional.ingredient.item` is part of an existing definition because parent element `MedicationKnowledge.definitional.ingredient` requires a cross-version extension.\nNote that the target element context `MedicationKnowledge.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.ingredient`.\nElement `MedicationKnowledge.definitional.ingredient.item` has is mapped to FHIR R4 element `MedicationKnowledge.ingredient.item[x]`, but has no comparisons.\nNote that the target element context `MedicationKnowledge.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.ingredient`."
             }
           ]
         },
@@ -904,7 +860,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.ingredient",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.definitional.ingredient.type` is will have a context of MedicationKnowledge.ingredient based on following the parent source element upwards and mapping to `MedicationKnowledge`."
+              "comment" : "Element `MedicationKnowledge.definitional.ingredient.type` is part of an existing definition because parent element `MedicationKnowledge.definitional.ingredient` requires a cross-version extension.\nElement `MedicationKnowledge.definitional.ingredient.type` has a context of MedicationKnowledge.ingredient based on following the parent source element upwards and mapping to `MedicationKnowledge`."
             }
           ]
         },
@@ -915,7 +871,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.ingredient.strength",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.definitional.ingredient.strength[x]` is mapped to FHIR R4 element `MedicationKnowledge.ingredient.strength`."
+              "comment" : "Element `MedicationKnowledge.definitional.ingredient.strength[x]` is part of an existing definition because parent element `MedicationKnowledge.definitional.ingredient` requires a cross-version extension.\nElement `MedicationKnowledge.definitional.ingredient.strength[x]` has is mapped to FHIR R4 element `MedicationKnowledge.ingredient.strength`, but has no comparisons."
             }
           ]
         },
@@ -926,7 +882,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.drugCharacteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.definitional.drugCharacteristic` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic`."
+              "comment" : "Element `MedicationKnowledge.definitional.drugCharacteristic` is part of an existing definition because parent element `MedicationKnowledge.definitional` requires a cross-version extension.\nElement `MedicationKnowledge.definitional.drugCharacteristic` has is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic`, but has no comparisons."
             }
           ]
         },
@@ -937,7 +893,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.drugCharacteristic.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `MedicationKnowledge.definitional.drugCharacteristic.type` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic.type`."
+              "comment" : "Element `MedicationKnowledge.definitional.drugCharacteristic.type` is part of an existing definition because parent element `MedicationKnowledge.definitional.drugCharacteristic` requires a cross-version extension.\nElement `MedicationKnowledge.definitional.drugCharacteristic.type` has is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic.type`, but has no comparisons."
             }
           ]
         },
@@ -948,7 +904,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MedicationKnowledge#MedicationKnowledge.drugCharacteristic.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `MedicationKnowledge.drugCharacteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.drugCharacteristic`.\nElement `MedicationKnowledge.definitional.drugCharacteristic.value[x]` is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic.value[x]`.\nNote that the target element context `MedicationKnowledge.drugCharacteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.drugCharacteristic`."
+              "comment" : "Element `MedicationKnowledge.definitional.drugCharacteristic.value[x]` is part of an existing definition because parent element `MedicationKnowledge.definitional.drugCharacteristic` requires a cross-version extension.\nNote that the target element context `MedicationKnowledge.drugCharacteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.drugCharacteristic`.\nElement `MedicationKnowledge.definitional.drugCharacteristic.value[x]` has is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic.value[x]`, but has no comparisons.\nNote that the target element context `MedicationKnowledge.drugCharacteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationKnowledge.drugCharacteristic`."
             }
           ]
         }

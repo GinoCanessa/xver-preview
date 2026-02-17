@@ -1,4 +1,4 @@
-# Resource FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4
+# Resource Extensions for Using Data Elements from FHIR R5 in FHIR R4
 
 
 
@@ -26,9 +26,9 @@
   "url" : "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4",
   "version" : "0.0.1-snapshot-3",
   "name" : "Hl7_fhir_uv_xver_r5_r4",
-  "title" : "FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4",
+  "title" : "Extensions for Using Data Elements from FHIR R5 in FHIR R4",
   "status" : "active",
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -41,7 +41,7 @@
       ]
     }
   ],
-  "description" : "FHIR Cross-Version for using FHIR R5 in FHIR R4",
+  "description" : "Extensions for Using Data Elements from FHIR R5 in FHIR R4",
   "jurisdiction" : [
     {
       "coding" : [
@@ -1216,474 +1216,6 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-AuditEvent.agent"
-        },
-        "name" : "ExtensionAuditEvent_Agent",
-        "description" : "This cross-version extension represents the FHIR R5 element `AuditEvent.agent` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-BodyStructure.includedStructure"
-        },
-        "name" : "ExtensionBodyStructure_IncludedStructure",
-        "description" : "This cross-version extension represents the FHIR R5 element `BodyStructure.includedStructure` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Bundle.link"
-        },
-        "name" : "ExtensionBundle_Link",
-        "description" : "This cross-version extension represents the FHIR R5 element `Bundle.link` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.res.res.searchParam"
-        },
-        "name" : "ExtensionCapabilityStatement_Rest_Resource_SearchParam",
-        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.rest.resource.searchParam` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.res.res.operation"
-        },
-        "name" : "ExtensionCapabilityStatement_Rest_Resource_Operation",
-        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.rest.resource.operation` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.ite.adjudication"
-        },
-        "name" : "ExtensionClaimResponse_Item_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CodeSystem.concept"
-        },
-        "name" : "ExtensionCodeSystem_Concept",
-        "description" : "This cross-version extension represents the FHIR R5 element `CodeSystem.concept` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Composition.section"
-        },
-        "name" : "ExtensionComposition_Section",
-        "description" : "This cross-version extension represents the FHIR R5 element `Composition.section` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Consent.provision"
-        },
-        "name" : "ExtensionConsent_Provision",
-        "description" : "This cross-version extension represents the FHIR R5 element `Consent.provision` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Contract.term"
-        },
-        "name" : "ExtensionContract_Term",
-        "description" : "This cross-version extension represents the FHIR R5 element `Contract.term` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Contract.ter.off.answer"
-        },
-        "name" : "ExtensionContract_Term_Offer_Answer",
-        "description" : "This cross-version extension represents the FHIR R5 element `Contract.term.offer.answer` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-DeviceDefinition.udiDeviceIdentifier"
-        },
-        "name" : "ExtensionDeviceDefinition_UdiDeviceIdentifier",
-        "description" : "This cross-version extension represents the FHIR R5 element `DeviceDefinition.udiDeviceIdentifier` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.characteristic"
-        },
-        "name" : "ExtensionEvidenceVariable_Characteristic",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExampleScenario.ins.containedInstance"
-        },
-        "name" : "ExtensionExampleScenario_Instance_ContainedInstance",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.instance.containedInstance` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExampleScenario.process"
-        },
-        "name" : "ExtensionExampleScenario_Process",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.process` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.adjudication"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ImplementationGuide.def.page"
-        },
-        "name" : "ExtensionImplementationGuide_Definition_Page",
-        "description" : "This cross-version extension represents the FHIR R5 element `ImplementationGuide.definition.page` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.cost"
-        },
-        "name" : "ExtensionMedicationKnowledge_Cost",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.cost` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Observation.referenceRange"
-        },
-        "name" : "ExtensionObservation_ReferenceRange",
-        "description" : "This cross-version extension represents the FHIR R5 element `Observation.referenceRange` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ObservationDefinition.qualifiedValue"
-        },
-        "name" : "ExtensionObservationDefinition_QualifiedValue",
-        "description" : "This cross-version extension represents the FHIR R5 element `ObservationDefinition.qualifiedValue` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-OperationDefinition.parameter"
-        },
-        "name" : "ExtensionOperationDefinition_Parameter",
-        "description" : "This cross-version extension represents the FHIR R5 element `OperationDefinition.parameter` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Parameters.parameter"
-        },
-        "name" : "ExtensionParameters_Parameter",
-        "description" : "This cross-version extension represents the FHIR R5 element `Parameters.parameter` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PlanDefinition.action"
-        },
-        "name" : "ExtensionPlanDefinition_Action",
-        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.action` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Provenance.agent"
-        },
-        "name" : "ExtensionProvenance_Agent",
-        "description" : "This cross-version extension represents the FHIR R5 element `Provenance.agent` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Questionnaire.item"
-        },
-        "name" : "ExtensionQuestionnaire_Item",
-        "description" : "This cross-version extension represents the FHIR R5 element `Questionnaire.item` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-QuestionnaireResponse.item"
-        },
-        "name" : "ExtensionQuestionnaireResponse_Item",
-        "description" : "This cross-version extension represents the FHIR R5 element `QuestionnaireResponse.item` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-RequestOrchestration.action"
-        },
-        "name" : "ExtensionRequestOrchestration_Action",
-        "description" : "This cross-version extension represents the FHIR R5 element `RequestOrchestration.action` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-StructureMap.gro.rule"
-        },
-        "name" : "ExtensionStructureMap_Group_Rule",
-        "description" : "This cross-version extension represents the FHIR R5 element `StructureMap.group.rule` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.name"
-        },
-        "name" : "ExtensionSubstanceDefinition_Name",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.name` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestReport.set.act.operation"
-        },
-        "name" : "ExtensionTestReport_Setup_Action_Operation",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestReport.setup.action.operation` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestReport.set.act.assert"
-        },
-        "name" : "ExtensionTestReport_Setup_Action_Assert",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestReport.setup.action.assert` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestScript.set.act.operation"
-        },
-        "name" : "ExtensionTestScript_Setup_Action_Operation",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.setup.action.operation` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestScript.set.act.assert"
-        },
-        "name" : "ExtensionTestScript_Setup_Action_Assert",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.setup.action.assert` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.com.include"
-        },
-        "name" : "ExtensionValueSet_Compose_Include",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.compose.include` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.com.inc.con.designation"
-        },
-        "name" : "ExtensionValueSet_Compose_Include_Concept_Designation",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.compose.include.concept.designation` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.exp.contains"
-        },
-        "name" : "ExtensionValueSet_Expansion_Contains",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.expansion.contains` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
           "reference" : "StructureDefinition/ext-R5-Age.comparator"
         },
         "name" : "ExtensionAge_Comparator",
@@ -1814,10 +1346,49 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-DataRequirement.codeFilter"
+        },
+        "name" : "ExtensionDataRequirement_CodeFilter",
+        "description" : "This cross-version extension represents the FHIR R5 element `DataRequirement.codeFilter` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-DataRequirement.dateFilter"
+        },
+        "name" : "ExtensionDataRequirement_DateFilter",
+        "description" : "This cross-version extension represents the FHIR R5 element `DataRequirement.dateFilter` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-DataRequirement.valueFilter"
         },
         "name" : "ExtensionDataRequirement_ValueFilter",
         "description" : "This cross-version extension represents the FHIR R5 element `DataRequirement.valueFilter` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-DataRequirement.sort"
+        },
+        "name" : "ExtensionDataRequirement_Sort",
+        "description" : "This cross-version extension represents the FHIR R5 element `DataRequirement.sort` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -1840,6 +1411,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Dosage.doseAndRate"
+        },
+        "name" : "ExtensionDosage_DoseAndRate",
+        "description" : "This cross-version extension represents the FHIR R5 element `Dosage.doseAndRate` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-Duration.comparator"
         },
         "name" : "ExtensionDuration_Comparator",
@@ -1853,10 +1437,36 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ElementDefinition.sli.dis.type"
+          "reference" : "StructureDefinition/ext-R5-ElementDefinition.slicing"
         },
-        "name" : "ExtensionElementDefinition_Slicing_Discriminator_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.slicing.discriminator.type` for use in FHIR R4."
+        "name" : "ExtensionElementDefinition_Slicing",
+        "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.slicing` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ElementDefinition.base"
+        },
+        "name" : "ExtensionElementDefinition_Base",
+        "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.base` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ElementDefinition.type"
+        },
+        "name" : "ExtensionElementDefinition_Type",
+        "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.type` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -1905,10 +1515,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ElementDefinition.exa.value"
+          "reference" : "StructureDefinition/ext-R5-ElementDefinition.example"
         },
-        "name" : "ExtensionElementDefinition_Example_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.example.value[x]` for use in FHIR R4."
+        "name" : "ExtensionElementDefinition_Example",
+        "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.example` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -1944,10 +1554,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ElementDefinition.con.suppress"
+          "reference" : "StructureDefinition/ext-R5-ElementDefinition.constraint"
         },
-        "name" : "ExtensionElementDefinition_Constraint_Suppress",
-        "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.constraint.suppress` for use in FHIR R4."
+        "name" : "ExtensionElementDefinition_Constraint",
+        "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.constraint` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -1961,6 +1571,32 @@
         },
         "name" : "ExtensionElementDefinition_MustHaveValue",
         "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.mustHaveValue` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ElementDefinition.binding"
+        },
+        "name" : "ExtensionElementDefinition_Binding",
+        "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.binding` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ElementDefinition.mapping"
+        },
+        "name" : "ExtensionElementDefinition_Mapping",
+        "description" : "This cross-version extension represents the FHIR R5 element `ElementDefinition.mapping` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -2152,10 +1788,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Timing.rep.when"
+          "reference" : "StructureDefinition/ext-R5-Timing.repeat"
         },
-        "name" : "ExtensionTiming_Repeat_When",
-        "description" : "This cross-version extension represents the FHIR R5 element `Timing.repeat.when` for use in FHIR R4."
+        "name" : "ExtensionTiming_Repeat",
+        "description" : "This cross-version extension represents the FHIR R5 element `Timing.repeat` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -2204,6 +1840,32 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Account.coverage"
+        },
+        "name" : "ExtensionAccount_Coverage",
+        "description" : "This cross-version extension represents the FHIR R5 element `Account.coverage` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Account.guarantor"
+        },
+        "name" : "ExtensionAccount_Guarantor",
+        "description" : "This cross-version extension represents the FHIR R5 element `Account.guarantor` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-Account.diagnosis"
         },
         "name" : "ExtensionAccount_Diagnosis",
@@ -2230,10 +1892,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Account.rel.relationship"
+          "reference" : "StructureDefinition/ext-R5-Account.relatedAccount"
         },
-        "name" : "ExtensionAccount_RelatedAccount_Relationship",
-        "description" : "This cross-version extension represents the FHIR R5 element `Account.relatedAccount.relationship` for use in FHIR R4."
+        "name" : "ExtensionAccount_RelatedAccount",
+        "description" : "This cross-version extension represents the FHIR R5 element `Account.relatedAccount` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -2360,23 +2022,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ActivityDefinition.par.type"
+          "reference" : "StructureDefinition/ext-R5-ActivityDefinition.participant"
         },
-        "name" : "ExtensionActivityDefinition_Participant_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `ActivityDefinition.participant.type` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ActivityDefinition.par.function"
-        },
-        "name" : "ExtensionActivityDefinition_Participant_Function",
-        "description" : "This cross-version extension represents the FHIR R5 element `ActivityDefinition.participant.function` for use in FHIR R4."
+        "name" : "ExtensionActivityDefinition_Participant",
+        "description" : "This cross-version extension represents the FHIR R5 element `ActivityDefinition.participant` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -2390,6 +2039,19 @@
         },
         "name" : "ExtensionActivityDefinition_Product",
         "description" : "This cross-version extension represents the FHIR R5 element `ActivityDefinition.product[x]` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ActivityDefinition.dynamicValue"
+        },
+        "name" : "ExtensionActivityDefinition_DynamicValue",
+        "description" : "This cross-version extension represents the FHIR R5 element `ActivityDefinition.dynamicValue` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -2477,23 +2139,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-AdverseEvent.sus.instance"
+          "reference" : "StructureDefinition/ext-R5-AdverseEvent.suspectEntity"
         },
-        "name" : "ExtensionAdverseEvent_SuspectEntity_Instance",
-        "description" : "This cross-version extension represents the FHIR R5 element `AdverseEvent.suspectEntity.instance[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-AdverseEvent.sus.cau.entityRelatedness"
-        },
-        "name" : "ExtensionAdverseEvent_SuspectEntity_Causality_EntityRelatedness",
-        "description" : "This cross-version extension represents the FHIR R5 element `AdverseEvent.suspectEntity.causality.entityRelatedness` for use in FHIR R4."
+        "name" : "ExtensionAdverseEvent_SuspectEntity",
+        "description" : "This cross-version extension represents the FHIR R5 element `AdverseEvent.suspectEntity` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -2607,10 +2256,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-AllergyIntolerance.rea.manifestation"
+          "reference" : "StructureDefinition/ext-R5-AllergyIntolerance.reaction"
         },
-        "name" : "ExtensionAllergyIntolerance_Reaction_Manifestation",
-        "description" : "This cross-version extension represents the FHIR R5 element `AllergyIntolerance.reaction.manifestation` for use in FHIR R4."
+        "name" : "ExtensionAllergyIntolerance_Reaction",
+        "description" : "This cross-version extension represents the FHIR R5 element `AllergyIntolerance.reaction` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -2711,10 +2360,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Appointment.par.required"
+          "reference" : "StructureDefinition/ext-R5-Appointment.participant"
         },
-        "name" : "ExtensionAppointment_Participant_Required",
-        "description" : "This cross-version extension represents the FHIR R5 element `Appointment.participant.required` for use in FHIR R4."
+        "name" : "ExtensionAppointment_Participant",
+        "description" : "This cross-version extension represents the FHIR R5 element `Appointment.participant` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -2906,6 +2555,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-AuditEvent.agent"
+        },
+        "name" : "ExtensionAuditEvent_Agent",
+        "description" : "This cross-version extension represents the FHIR R5 element `AuditEvent.agent` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-AuditEvent.source"
         },
         "name" : "ExtensionAuditEvent_Source",
@@ -2919,49 +2581,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-AuditEvent.ent.role"
+          "reference" : "StructureDefinition/ext-R5-AuditEvent.entity"
         },
-        "name" : "ExtensionAuditEvent_Entity_Role",
-        "description" : "This cross-version extension represents the FHIR R5 element `AuditEvent.entity.role` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-AuditEvent.ent.securityLabel"
-        },
-        "name" : "ExtensionAuditEvent_Entity_SecurityLabel",
-        "description" : "This cross-version extension represents the FHIR R5 element `AuditEvent.entity.securityLabel` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-AuditEvent.ent.detail"
-        },
-        "name" : "ExtensionAuditEvent_Entity_Detail",
-        "description" : "This cross-version extension represents the FHIR R5 element `AuditEvent.entity.detail` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-AuditEvent.ent.agent"
-        },
-        "name" : "ExtensionAuditEvent_Entity_Agent",
-        "description" : "This cross-version extension represents the FHIR R5 element `AuditEvent.entity.agent` for use in FHIR R4."
+        "name" : "ExtensionAuditEvent_Entity",
+        "description" : "This cross-version extension represents the FHIR R5 element `AuditEvent.entity` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3049,6 +2672,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-BiologicallyDerivedProduct.collection"
+        },
+        "name" : "ExtensionBiologicallyDerivedProduct_Collection",
+        "description" : "This cross-version extension represents the FHIR R5 element `BiologicallyDerivedProduct.collection` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-BDP.sTR"
         },
         "name" : "ExtensionBiologicallyDerivedProduct_StorageTempRequirements",
@@ -3088,49 +2724,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-BodyStructure.inc.structure"
+          "reference" : "StructureDefinition/ext-R5-BodyStructure.includedStructure"
         },
-        "name" : "ExtensionBodyStructure_IncludedStructure_Structure",
-        "description" : "This cross-version extension represents the FHIR R5 element `BodyStructure.includedStructure.structure` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-BodyStructure.inc.laterality"
-        },
-        "name" : "ExtensionBodyStructure_IncludedStructure_Laterality",
-        "description" : "This cross-version extension represents the FHIR R5 element `BodyStructure.includedStructure.laterality` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-BodyStructure.inc.bLO"
-        },
-        "name" : "ExtensionBodyStructure_IncludedStructure_BodyLandmarkOrientation",
-        "description" : "This cross-version extension represents the FHIR R5 element `BodyStructure.includedStructure.bodyLandmarkOrientation` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-BodyStructure.excludedStructure"
-        },
-        "name" : "ExtensionBodyStructure_ExcludedStructure",
-        "description" : "This cross-version extension represents the FHIR R5 element `BodyStructure.excludedStructure` for use in FHIR R4."
+        "name" : "ExtensionBodyStructure_IncludedStructure",
+        "description" : "This cross-version extension represents the FHIR R5 element `BodyStructure.includedStructure` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3153,10 +2750,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Bundle.lin.relation"
+          "reference" : "StructureDefinition/ext-R5-Bundle.link"
         },
-        "name" : "ExtensionBundle_Link_Relation",
-        "description" : "This cross-version extension represents the FHIR R5 element `Bundle.link.relation` for use in FHIR R4."
+        "name" : "ExtensionBundle_Link",
+        "description" : "This cross-version extension represents the FHIR R5 element `Bundle.link` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3166,10 +2763,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Bundle.ent.link"
+          "reference" : "StructureDefinition/ext-R5-Bundle.entry"
         },
-        "name" : "ExtensionBundle_Entry_Link",
-        "description" : "This cross-version extension represents the FHIR R5 element `Bundle.entry.link` for use in FHIR R4."
+        "name" : "ExtensionBundle_Entry",
+        "description" : "This cross-version extension represents the FHIR R5 element `Bundle.entry` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3218,6 +2815,32 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.software"
+        },
+        "name" : "ExtensionCapabilityStatement_Software",
+        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.software` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.implementation"
+        },
+        "name" : "ExtensionCapabilityStatement_Implementation",
+        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.implementation` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-CapabilityStatement.fhirVersion"
         },
         "name" : "ExtensionCapabilityStatement_FhirVersion",
@@ -3244,10 +2867,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.res.res.type"
+          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.rest"
         },
-        "name" : "ExtensionCapabilityStatement_Rest_Resource_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.rest.resource.type` for use in FHIR R4."
+        "name" : "ExtensionCapabilityStatement_Rest",
+        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.rest` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3257,10 +2880,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.res.res.conditionalPatch"
+          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.messaging"
         },
-        "name" : "ExtensionCapabilityStatement_Rest_Resource_ConditionalPatch",
-        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.rest.resource.conditionalPatch` for use in FHIR R4."
+        "name" : "ExtensionCapabilityStatement_Messaging",
+        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.messaging` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3270,23 +2893,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.res.searchParam"
+          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.document"
         },
-        "name" : "ExtensionCapabilityStatement_Rest_SearchParam",
-        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.rest.searchParam` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CapabilityStatement.res.operation"
-        },
-        "name" : "ExtensionCapabilityStatement_Rest_Operation",
-        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.rest.operation` for use in FHIR R4."
+        "name" : "ExtensionCapabilityStatement_Document",
+        "description" : "This cross-version extension represents the FHIR R5 element `CapabilityStatement.document` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3322,10 +2932,36 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CareTeam.par.coverage"
+          "reference" : "StructureDefinition/ext-R5-CarePlan.activity"
         },
-        "name" : "ExtensionCareTeam_Participant_Coverage",
-        "description" : "This cross-version extension represents the FHIR R5 element `CareTeam.participant.coverage[x]` for use in FHIR R4."
+        "name" : "ExtensionCarePlan_Activity",
+        "description" : "This cross-version extension represents the FHIR R5 element `CarePlan.activity` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-CareTeam.participant"
+        },
+        "name" : "ExtensionCareTeam_Participant",
+        "description" : "This cross-version extension represents the FHIR R5 element `CareTeam.participant` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ChargeItem.performer"
+        },
+        "name" : "ExtensionChargeItem_Performer",
+        "description" : "This cross-version extension represents the FHIR R5 element `ChargeItem.performer` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3452,10 +3088,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ChargeItemDefinition.pro.applicability"
+          "reference" : "StructureDefinition/ext-R5-ChargeItemDefinition.propertyGroup"
         },
-        "name" : "ExtensionChargeItemDefinition_PropertyGroup_Applicability",
-        "description" : "This cross-version extension represents the FHIR R5 element `ChargeItemDefinition.propertyGroup.applicability` for use in FHIR R4."
+        "name" : "ExtensionChargeItemDefinition_PropertyGroup",
+        "description" : "This cross-version extension represents the FHIR R5 element `ChargeItemDefinition.propertyGroup` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3491,6 +3127,32 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Claim.related"
+        },
+        "name" : "ExtensionClaim_Related",
+        "description" : "This cross-version extension represents the FHIR R5 element `Claim.related` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Claim.payee"
+        },
+        "name" : "ExtensionClaim_Payee",
+        "description" : "This cross-version extension represents the FHIR R5 element `Claim.payee` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-Claim.diagnosisRelatedGroup"
         },
         "name" : "ExtensionClaim_DiagnosisRelatedGroup",
@@ -3517,10 +3179,75 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.sup.value"
+          "reference" : "StructureDefinition/ext-R5-Claim.careTeam"
         },
-        "name" : "ExtensionClaim_SupportingInfo_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.supportingInfo.value[x]` for use in FHIR R4."
+        "name" : "ExtensionClaim_CareTeam",
+        "description" : "This cross-version extension represents the FHIR R5 element `Claim.careTeam` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Claim.supportingInfo"
+        },
+        "name" : "ExtensionClaim_SupportingInfo",
+        "description" : "This cross-version extension represents the FHIR R5 element `Claim.supportingInfo` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Claim.diagnosis"
+        },
+        "name" : "ExtensionClaim_Diagnosis",
+        "description" : "This cross-version extension represents the FHIR R5 element `Claim.diagnosis` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Claim.procedure"
+        },
+        "name" : "ExtensionClaim_Procedure",
+        "description" : "This cross-version extension represents the FHIR R5 element `Claim.procedure` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Claim.insurance"
+        },
+        "name" : "ExtensionClaim_Insurance",
+        "description" : "This cross-version extension represents the FHIR R5 element `Claim.insurance` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Claim.accident"
+        },
+        "name" : "ExtensionClaim_Accident",
+        "description" : "This cross-version extension represents the FHIR R5 element `Claim.accident` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3543,153 +3270,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.traceNumber"
+          "reference" : "StructureDefinition/ext-R5-Claim.item"
         },
-        "name" : "ExtensionClaim_Item_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.productOrServiceEnd"
-        },
-        "name" : "ExtensionClaim_Item_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.patientPaid"
-        },
-        "name" : "ExtensionClaim_Item_PatientPaid",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.patientPaid` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.tax"
-        },
-        "name" : "ExtensionClaim_Item_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.tax` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.det.traceNumber"
-        },
-        "name" : "ExtensionClaim_Item_Detail_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.detail.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.det.productOrServiceEnd"
-        },
-        "name" : "ExtensionClaim_Item_Detail_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.detail.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.det.patientPaid"
-        },
-        "name" : "ExtensionClaim_Item_Detail_PatientPaid",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.detail.patientPaid` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.det.tax"
-        },
-        "name" : "ExtensionClaim_Item_Detail_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.detail.tax` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.det.sub.traceNumber"
-        },
-        "name" : "ExtensionClaim_Item_Detail_SubDetail_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.detail.subDetail.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.det.sub.productOrServiceEnd"
-        },
-        "name" : "ExtensionClaim_Item_Detail_SubDetail_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.detail.subDetail.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.det.sub.patientPaid"
-        },
-        "name" : "ExtensionClaim_Item_Detail_SubDetail_PatientPaid",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.detail.subDetail.patientPaid` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Claim.ite.det.sub.tax"
-        },
-        "name" : "ExtensionClaim_Item_Detail_SubDetail_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item.detail.subDetail.tax` for use in FHIR R4."
+        "name" : "ExtensionClaim_Item",
+        "description" : "This cross-version extension represents the FHIR R5 element `Claim.item` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3751,10 +3335,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.ite.traceNumber"
+          "reference" : "StructureDefinition/ext-R5-ClaimResponse.item"
         },
-        "name" : "ExtensionClaimResponse_Item_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item.traceNumber` for use in FHIR R4."
+        "name" : "ExtensionClaimResponse_Item",
+        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3764,10 +3348,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.ite.reviewOutcome"
+          "reference" : "StructureDefinition/ext-R5-ClaimResponse.addItem"
         },
-        "name" : "ExtensionClaimResponse_Item_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item.reviewOutcome` for use in FHIR R4."
+        "name" : "ExtensionClaimResponse_AddItem",
+        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3777,10 +3361,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.ite.adj.quantity"
+          "reference" : "StructureDefinition/ext-R5-ClaimResponse.total"
         },
-        "name" : "ExtensionClaimResponse_Item_Adjudication_Quantity",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item.adjudication.quantity` for use in FHIR R4."
+        "name" : "ExtensionClaimResponse_Total",
+        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.total` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3790,10 +3374,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.ite.det.traceNumber"
+          "reference" : "StructureDefinition/ext-R5-ClaimResponse.payment"
         },
-        "name" : "ExtensionClaimResponse_Item_Detail_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item.detail.traceNumber` for use in FHIR R4."
+        "name" : "ExtensionClaimResponse_Payment",
+        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.payment` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3803,10 +3387,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.ite.det.reviewOutcome"
+          "reference" : "StructureDefinition/ext-R5-ClaimResponse.processNote"
         },
-        "name" : "ExtensionClaimResponse_Item_Detail_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item.detail.reviewOutcome` for use in FHIR R4."
+        "name" : "ExtensionClaimResponse_ProcessNote",
+        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.processNote` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3816,10 +3400,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.ite.det.adjudication"
+          "reference" : "StructureDefinition/ext-R5-ClaimResponse.insurance"
         },
-        "name" : "ExtensionClaimResponse_Item_Detail_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item.detail.adjudication` for use in FHIR R4."
+        "name" : "ExtensionClaimResponse_Insurance",
+        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.insurance` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -3829,322 +3413,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.ite.det.sub.traceNumber"
+          "reference" : "StructureDefinition/ext-R5-ClaimResponse.error"
         },
-        "name" : "ExtensionClaimResponse_Item_Detail_SubDetail_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item.detail.subDetail.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.ite.det.sub.reviewOutcome"
-        },
-        "name" : "ExtensionClaimResponse_Item_Detail_SubDetail_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item.detail.subDetail.reviewOutcome` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.ite.det.sub.adjudication"
-        },
-        "name" : "ExtensionClaimResponse_Item_Detail_SubDetail_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.item.detail.subDetail.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.traceNumber"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.revenue"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Revenue",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.revenue` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.productOrServiceEnd"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.tax"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.tax` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.bodySite"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_BodySite",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.bodySite` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.reviewOutcome"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.reviewOutcome` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.adjudication"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.traceNumber"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.revenue"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_Revenue",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.revenue` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.productOrServiceEnd"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.tax"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.tax` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.reviewOutcome"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.reviewOutcome` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.adjudication"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.sub.traceNumber"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.subDetail.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.sub.revenue"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_Revenue",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.subDetail.revenue` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.sub.productOrServiceEnd"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.subDetail.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.sub.tax"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.subDetail.tax` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.sub.reviewOutcome"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.subDetail.reviewOutcome` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.add.det.sub.adjudication"
-        },
-        "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.addItem.detail.subDetail.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.adjudication"
-        },
-        "name" : "ExtensionClaimResponse_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.pro.type"
-        },
-        "name" : "ExtensionClaimResponse_ProcessNote_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.processNote.type` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ClaimResponse.err.expression"
-        },
-        "name" : "ExtensionClaimResponse_Error_Expression",
-        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.error.expression` for use in FHIR R4."
+        "name" : "ExtensionClaimResponse_Error",
+        "description" : "This cross-version extension represents the FHIR R5 element `ClaimResponse.error` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -4171,6 +3443,19 @@
         },
         "name" : "ExtensionClinicalImpression_ChangePattern",
         "description" : "This cross-version extension represents the FHIR R5 element `ClinicalImpression.changePattern` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ClinicalImpression.finding"
+        },
+        "name" : "ExtensionClinicalImpression_Finding",
+        "description" : "This cross-version extension represents the FHIR R5 element `ClinicalImpression.finding` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -4336,10 +3621,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CodeSystem.fil.operator"
+          "reference" : "StructureDefinition/ext-R5-CodeSystem.filter"
         },
-        "name" : "ExtensionCodeSystem_Filter_Operator",
-        "description" : "This cross-version extension represents the FHIR R5 element `CodeSystem.filter.operator` for use in FHIR R4."
+        "name" : "ExtensionCodeSystem_Filter",
+        "description" : "This cross-version extension represents the FHIR R5 element `CodeSystem.filter` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -4349,10 +3634,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CodeSystem.con.des.additionalUse"
+          "reference" : "StructureDefinition/ext-R5-CodeSystem.property"
         },
-        "name" : "ExtensionCodeSystem_Concept_Designation_AdditionalUse",
-        "description" : "This cross-version extension represents the FHIR R5 element `CodeSystem.concept.designation.additionalUse` for use in FHIR R4."
+        "name" : "ExtensionCodeSystem_Property",
+        "description" : "This cross-version extension represents the FHIR R5 element `CodeSystem.property` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-CodeSystem.concept"
+        },
+        "name" : "ExtensionCodeSystem_Concept",
+        "description" : "This cross-version extension represents the FHIR R5 element `CodeSystem.concept` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -4440,36 +3738,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CD.res.code"
+          "reference" : "StructureDefinition/ext-R5-CompartmentDefinition.resource"
         },
-        "name" : "ExtensionCompartmentDefinition_Resource_Code",
-        "description" : "This cross-version extension represents the FHIR R5 element `CompartmentDefinition.resource.code` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CD.res.startParam"
-        },
-        "name" : "ExtensionCompartmentDefinition_Resource_StartParam",
-        "description" : "This cross-version extension represents the FHIR R5 element `CompartmentDefinition.resource.startParam` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CD.res.endParam"
-        },
-        "name" : "ExtensionCompartmentDefinition_Resource_EndParam",
-        "description" : "This cross-version extension represents the FHIR R5 element `CompartmentDefinition.resource.endParam` for use in FHIR R4."
+        "name" : "ExtensionCompartmentDefinition_Resource",
+        "description" : "This cross-version extension represents the FHIR R5 element `CompartmentDefinition.resource` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -4557,10 +3829,36 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Composition.att.mode"
+          "reference" : "StructureDefinition/ext-R5-Composition.attester"
         },
-        "name" : "ExtensionComposition_Attester_Mode",
-        "description" : "This cross-version extension represents the FHIR R5 element `Composition.attester.mode` for use in FHIR R4."
+        "name" : "ExtensionComposition_Attester",
+        "description" : "This cross-version extension represents the FHIR R5 element `Composition.attester` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Composition.event"
+        },
+        "name" : "ExtensionComposition_Event",
+        "description" : "This cross-version extension represents the FHIR R5 element `Composition.event` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Composition.section"
+        },
+        "name" : "ExtensionComposition_Section",
+        "description" : "This cross-version extension represents the FHIR R5 element `Composition.section` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -4739,62 +4037,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ConceptMap.gro.ele.noMap"
+          "reference" : "StructureDefinition/ext-R5-ConceptMap.group"
         },
-        "name" : "ExtensionConceptMap_Group_Element_NoMap",
-        "description" : "This cross-version extension represents the FHIR R5 element `ConceptMap.group.element.noMap` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ConceptMap.gro.ele.tar.property"
-        },
-        "name" : "ExtensionConceptMap_Group_Element_Target_Property",
-        "description" : "This cross-version extension represents the FHIR R5 element `ConceptMap.group.element.target.property` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ConceptMap.gro.ele.tar.dependsOn"
-        },
-        "name" : "ExtensionConceptMap_Group_Element_Target_DependsOn",
-        "description" : "This cross-version extension represents the FHIR R5 element `ConceptMap.group.element.target.dependsOn` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ConceptMap.gro.ele.tar.product"
-        },
-        "name" : "ExtensionConceptMap_Group_Element_Target_Product",
-        "description" : "This cross-version extension represents the FHIR R5 element `ConceptMap.group.element.target.product` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ConceptMap.gro.unm.relationship"
-        },
-        "name" : "ExtensionConceptMap_Group_Unmapped_Relationship",
-        "description" : "This cross-version extension represents the FHIR R5 element `ConceptMap.group.unmapped.relationship` for use in FHIR R4."
+        "name" : "ExtensionConceptMap_Group",
+        "description" : "This cross-version extension represents the FHIR R5 element `ConceptMap.group` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -4821,6 +4067,19 @@
         },
         "name" : "ExtensionCondition_Participant",
         "description" : "This cross-version extension represents the FHIR R5 element `Condition.participant` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Condition.stage"
+        },
+        "name" : "ExtensionCondition_Stage",
+        "description" : "This cross-version extension represents the FHIR R5 element `Condition.stage` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -4869,10 +4128,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Consent.ver.verificationType"
+          "reference" : "StructureDefinition/ext-R5-Consent.policyBasis"
         },
-        "name" : "ExtensionConsent_Verification_VerificationType",
-        "description" : "This cross-version extension represents the FHIR R5 element `Consent.verification.verificationType` for use in FHIR R4."
+        "name" : "ExtensionConsent_PolicyBasis",
+        "description" : "This cross-version extension represents the FHIR R5 element `Consent.policyBasis` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Consent.verification"
+        },
+        "name" : "ExtensionConsent_Verification",
+        "description" : "This cross-version extension represents the FHIR R5 element `Consent.verification` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -4895,10 +4167,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Consent.pro.expression"
+          "reference" : "StructureDefinition/ext-R5-Consent.provision"
         },
-        "name" : "ExtensionConsent_Provision_Expression",
-        "description" : "This cross-version extension represents the FHIR R5 element `Consent.provision.expression` for use in FHIR R4."
+        "name" : "ExtensionConsent_Provision",
+        "description" : "This cross-version extension represents the FHIR R5 element `Consent.provision` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -4908,10 +4180,36 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Contract.ter.ass.answer"
+          "reference" : "StructureDefinition/ext-R5-Contract.contentDefinition"
         },
-        "name" : "ExtensionContract_Term_Asset_Answer",
-        "description" : "This cross-version extension represents the FHIR R5 element `Contract.term.asset.answer` for use in FHIR R4."
+        "name" : "ExtensionContract_ContentDefinition",
+        "description" : "This cross-version extension represents the FHIR R5 element `Contract.contentDefinition` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Contract.term"
+        },
+        "name" : "ExtensionContract_Term",
+        "description" : "This cross-version extension represents the FHIR R5 element `Contract.term` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Contract.signer"
+        },
+        "name" : "ExtensionContract_Signer",
+        "description" : "This cross-version extension represents the FHIR R5 element `Contract.signer` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5012,10 +4310,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Coverage.cla.value"
+          "reference" : "StructureDefinition/ext-R5-Coverage.class"
         },
-        "name" : "ExtensionCoverage_Class_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `Coverage.class.value` for use in FHIR R4."
+        "name" : "ExtensionCoverage_Class",
+        "description" : "This cross-version extension represents the FHIR R5 element `Coverage.class` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5025,49 +4323,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Coverage.cos.category"
+          "reference" : "StructureDefinition/ext-R5-Coverage.costToBeneficiary"
         },
-        "name" : "ExtensionCoverage_CostToBeneficiary_Category",
-        "description" : "This cross-version extension represents the FHIR R5 element `Coverage.costToBeneficiary.category` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Coverage.cos.network"
-        },
-        "name" : "ExtensionCoverage_CostToBeneficiary_Network",
-        "description" : "This cross-version extension represents the FHIR R5 element `Coverage.costToBeneficiary.network` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Coverage.cos.unit"
-        },
-        "name" : "ExtensionCoverage_CostToBeneficiary_Unit",
-        "description" : "This cross-version extension represents the FHIR R5 element `Coverage.costToBeneficiary.unit` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Coverage.cos.term"
-        },
-        "name" : "ExtensionCoverage_CostToBeneficiary_Term",
-        "description" : "This cross-version extension represents the FHIR R5 element `Coverage.costToBeneficiary.term` for use in FHIR R4."
+        "name" : "ExtensionCoverage_CostToBeneficiary",
+        "description" : "This cross-version extension represents the FHIR R5 element `Coverage.costToBeneficiary` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5090,6 +4349,45 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-CoverageEligibilityRequest.supportingInfo"
+        },
+        "name" : "ExtensionCoverageEligibilityRequest_SupportingInfo",
+        "description" : "This cross-version extension represents the FHIR R5 element `CoverageEligibilityRequest.supportingInfo` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-CoverageEligibilityRequest.insurance"
+        },
+        "name" : "ExtensionCoverageEligibilityRequest_Insurance",
+        "description" : "This cross-version extension represents the FHIR R5 element `CoverageEligibilityRequest.insurance` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-CoverageEligibilityRequest.item"
+        },
+        "name" : "ExtensionCoverageEligibilityRequest_Item",
+        "description" : "This cross-version extension represents the FHIR R5 element `CoverageEligibilityRequest.item` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-CoverageEligibilityResponse.event"
         },
         "name" : "ExtensionCoverageEligibilityResponse_Event",
@@ -5103,10 +4401,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-CER.err.expression"
+          "reference" : "StructureDefinition/ext-R5-CoverageEligibilityResponse.insurance"
         },
-        "name" : "ExtensionCoverageEligibilityResponse_Error_Expression",
-        "description" : "This cross-version extension represents the FHIR R5 element `CoverageEligibilityResponse.error.expression` for use in FHIR R4."
+        "name" : "ExtensionCoverageEligibilityResponse_Insurance",
+        "description" : "This cross-version extension represents the FHIR R5 element `CoverageEligibilityResponse.insurance` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-CoverageEligibilityResponse.error"
+        },
+        "name" : "ExtensionCoverageEligibilityResponse_Error",
+        "description" : "This cross-version extension represents the FHIR R5 element `CoverageEligibilityResponse.error` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5142,10 +4453,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-DetectedIssue.mit.note"
+          "reference" : "StructureDefinition/ext-R5-DetectedIssue.evidence"
         },
-        "name" : "ExtensionDetectedIssue_Mitigation_Note",
-        "description" : "This cross-version extension represents the FHIR R5 element `DetectedIssue.mitigation.note` for use in FHIR R4."
+        "name" : "ExtensionDetectedIssue_Evidence",
+        "description" : "This cross-version extension represents the FHIR R5 element `DetectedIssue.evidence` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-DetectedIssue.mitigation"
+        },
+        "name" : "ExtensionDetectedIssue_Mitigation",
+        "description" : "This cross-version extension represents the FHIR R5 element `DetectedIssue.mitigation` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5181,10 +4505,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Device.udi.entryType"
+          "reference" : "StructureDefinition/ext-R5-Device.udiCarrier"
         },
-        "name" : "ExtensionDevice_UdiCarrier_EntryType",
-        "description" : "This cross-version extension represents the FHIR R5 element `Device.udiCarrier.entryType` for use in FHIR R4."
+        "name" : "ExtensionDevice_UdiCarrier",
+        "description" : "This cross-version extension represents the FHIR R5 element `Device.udiCarrier` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5220,6 +4544,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Device.name"
+        },
+        "name" : "ExtensionDevice_Name",
+        "description" : "This cross-version extension represents the FHIR R5 element `Device.name` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-Device.category"
         },
         "name" : "ExtensionDevice_Category",
@@ -5233,10 +4570,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Device.ver.installDate"
+          "reference" : "StructureDefinition/ext-R5-Device.version"
         },
-        "name" : "ExtensionDevice_Version_InstallDate",
-        "description" : "This cross-version extension represents the FHIR R5 element `Device.version.installDate` for use in FHIR R4."
+        "name" : "ExtensionDevice_Version",
+        "description" : "This cross-version extension represents the FHIR R5 element `Device.version` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5246,10 +4583,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Device.con.version"
+          "reference" : "StructureDefinition/ext-R5-Device.conformsTo"
         },
-        "name" : "ExtensionDevice_ConformsTo_Version",
-        "description" : "This cross-version extension represents the FHIR R5 element `Device.conformsTo.version` for use in FHIR R4."
+        "name" : "ExtensionDevice_ConformsTo",
+        "description" : "This cross-version extension represents the FHIR R5 element `Device.conformsTo` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5259,10 +4596,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Device.pro.value"
+          "reference" : "StructureDefinition/ext-R5-Device.property"
         },
-        "name" : "ExtensionDevice_Property_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `Device.property.value[x]` for use in FHIR R4."
+        "name" : "ExtensionDevice_Property",
+        "description" : "This cross-version extension represents the FHIR R5 element `Device.property` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5402,10 +4739,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-DeviceDefinition.udi.marketDistribution"
+          "reference" : "StructureDefinition/ext-R5-DeviceDefinition.udiDeviceIdentifier"
         },
-        "name" : "ExtensionDeviceDefinition_UdiDeviceIdentifier_MarketDistribution",
-        "description" : "This cross-version extension represents the FHIR R5 element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` for use in FHIR R4."
+        "name" : "ExtensionDeviceDefinition_UdiDeviceIdentifier",
+        "description" : "This cross-version extension represents the FHIR R5 element `DeviceDefinition.udiDeviceIdentifier` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5441,10 +4778,36 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-DeviceDefinition.deviceName"
+        },
+        "name" : "ExtensionDeviceDefinition_DeviceName",
+        "description" : "This cross-version extension represents the FHIR R5 element `DeviceDefinition.deviceName` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-DeviceDefinition.classification"
         },
         "name" : "ExtensionDeviceDefinition_Classification",
         "description" : "This cross-version extension represents the FHIR R5 element `DeviceDefinition.classification` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-DeviceDefinition.conformsTo"
+        },
+        "name" : "ExtensionDeviceDefinition_ConformsTo",
+        "description" : "This cross-version extension represents the FHIR R5 element `DeviceDefinition.conformsTo` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5493,10 +4856,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-DeviceDefinition.pro.value"
+          "reference" : "StructureDefinition/ext-R5-DeviceDefinition.property"
         },
-        "name" : "ExtensionDeviceDefinition_Property_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `DeviceDefinition.property.value[x]` for use in FHIR R4."
+        "name" : "ExtensionDeviceDefinition_Property",
+        "description" : "This cross-version extension represents the FHIR R5 element `DeviceDefinition.property` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5510,6 +4873,19 @@
         },
         "name" : "ExtensionDeviceDefinition_Link",
         "description" : "This cross-version extension represents the FHIR R5 element `DeviceDefinition.link` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-DeviceDefinition.material"
+        },
+        "name" : "ExtensionDeviceDefinition_Material",
+        "description" : "This cross-version extension represents the FHIR R5 element `DeviceDefinition.material` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5597,6 +4973,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-DeviceMetric.calibration"
+        },
+        "name" : "ExtensionDeviceMetric_Calibration",
+        "description" : "This cross-version extension represents the FHIR R5 element `DeviceMetric.calibration` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-DeviceRequest.doNotPerform"
         },
         "name" : "ExtensionDeviceRequest_DoNotPerform",
@@ -5614,6 +5003,19 @@
         },
         "name" : "ExtensionDeviceRequest_Quantity",
         "description" : "This cross-version extension represents the FHIR R5 element `DeviceRequest.quantity` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-DeviceRequest.parameter"
+        },
+        "name" : "ExtensionDeviceRequest_Parameter",
+        "description" : "This cross-version extension represents the FHIR R5 element `DeviceRequest.parameter` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5779,6 +5181,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-DiagnosticReport.media"
+        },
+        "name" : "ExtensionDiagnosticReport_Media",
+        "description" : "This cross-version extension represents the FHIR R5 element `DiagnosticReport.media` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-DocumentReference.version"
         },
         "name" : "ExtensionDocumentReference_Version",
@@ -5857,10 +5272,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-DocumentReference.con.profile"
+          "reference" : "StructureDefinition/ext-R5-DocumentReference.content"
         },
-        "name" : "ExtensionDocumentReference_Content_Profile",
-        "description" : "This cross-version extension represents the FHIR R5 element `DocumentReference.content.profile` for use in FHIR R4."
+        "name" : "ExtensionDocumentReference_Content",
+        "description" : "This cross-version extension represents the FHIR R5 element `DocumentReference.content` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -5922,6 +5337,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Encounter.participant"
+        },
+        "name" : "ExtensionEncounter_Participant",
+        "description" : "This cross-version extension represents the FHIR R5 element `Encounter.participant` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-Encounter.virtualService"
         },
         "name" : "ExtensionEncounter_VirtualService",
@@ -5961,10 +5389,49 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Encounter.dia.condition"
+          "reference" : "StructureDefinition/ext-R5-Encounter.reason"
         },
-        "name" : "ExtensionEncounter_Diagnosis_Condition",
-        "description" : "This cross-version extension represents the FHIR R5 element `Encounter.diagnosis.condition` for use in FHIR R4."
+        "name" : "ExtensionEncounter_Reason",
+        "description" : "This cross-version extension represents the FHIR R5 element `Encounter.reason` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Encounter.diagnosis"
+        },
+        "name" : "ExtensionEncounter_Diagnosis",
+        "description" : "This cross-version extension represents the FHIR R5 element `Encounter.diagnosis` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Encounter.admission"
+        },
+        "name" : "ExtensionEncounter_Admission",
+        "description" : "This cross-version extension represents the FHIR R5 element `Encounter.admission` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Encounter.location"
+        },
+        "name" : "ExtensionEncounter_Location",
+        "description" : "This cross-version extension represents the FHIR R5 element `Encounter.location` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6065,10 +5532,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EncounterHistory.loc.form"
+          "reference" : "StructureDefinition/ext-R5-EncounterHistory.location"
         },
-        "name" : "ExtensionEncounterHistory_Location_Form",
-        "description" : "This cross-version extension represents the FHIR R5 element `EncounterHistory.location.form` for use in FHIR R4."
+        "name" : "ExtensionEncounterHistory_Location",
+        "description" : "This cross-version extension represents the FHIR R5 element `EncounterHistory.location` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6117,10 +5584,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Endpoint.pay.type"
+          "reference" : "StructureDefinition/ext-R5-Endpoint.payload"
         },
-        "name" : "ExtensionEndpoint_Payload_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `Endpoint.payload.type` for use in FHIR R4."
+        "name" : "ExtensionEndpoint_Payload",
+        "description" : "This cross-version extension represents the FHIR R5 element `Endpoint.payload` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-EpisodeOfCare.statusHistory"
+        },
+        "name" : "ExtensionEpisodeOfCare_StatusHistory",
+        "description" : "This cross-version extension represents the FHIR R5 element `EpisodeOfCare.statusHistory` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6143,10 +5623,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EpisodeOfCare.dia.condition"
+          "reference" : "StructureDefinition/ext-R5-EpisodeOfCare.diagnosis"
         },
-        "name" : "ExtensionEpisodeOfCare_Diagnosis_Condition",
-        "description" : "This cross-version extension represents the FHIR R5 element `EpisodeOfCare.diagnosis.condition` for use in FHIR R4."
+        "name" : "ExtensionEpisodeOfCare_Diagnosis",
+        "description" : "This cross-version extension represents the FHIR R5 element `EpisodeOfCare.diagnosis` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6481,127 +5961,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.cha.linkId"
+          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.characteristic"
         },
-        "name" : "ExtensionEvidenceVariable_Characteristic_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic.linkId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.cha.note"
-        },
-        "name" : "ExtensionEvidenceVariable_Characteristic_Note",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic.note` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.cha.dCC"
-        },
-        "name" : "ExtensionEvidenceVariable_Characteristic_DefinitionCodeableConcept",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic.definitionCodeableConcept` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.cha.definitionExpression"
-        },
-        "name" : "ExtensionEvidenceVariable_Characteristic_DefinitionExpression",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic.definitionExpression` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.cha.definitionId"
-        },
-        "name" : "ExtensionEvidenceVariable_Characteristic_DefinitionId",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic.definitionId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.cha.dBTAV"
-        },
-        "name" : "ExtensionEvidenceVariable_Characteristic_DefinitionByTypeAndValue",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic.definitionByTypeAndValue` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.cha.dBC"
-        },
-        "name" : "ExtensionEvidenceVariable_Characteristic_DefinitionByCombination",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic.definitionByCombination` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.cha.instances"
-        },
-        "name" : "ExtensionEvidenceVariable_Characteristic_Instances",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic.instances[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.cha.duration"
-        },
-        "name" : "ExtensionEvidenceVariable_Characteristic_Duration",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic.duration[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-EvidenceVariable.cha.timeFromEvent"
-        },
-        "name" : "ExtensionEvidenceVariable_Characteristic_TimeFromEvent",
-        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic.timeFromEvent` for use in FHIR R4."
+        "name" : "ExtensionEvidenceVariable_Characteristic",
+        "description" : "This cross-version extension represents the FHIR R5 element `EvidenceVariable.characteristic` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6689,10 +6052,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExampleScenario.ins.structureType"
+          "reference" : "StructureDefinition/ext-R5-ExampleScenario.actor"
         },
-        "name" : "ExtensionExampleScenario_Instance_StructureType",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.instance.structureType` for use in FHIR R4."
+        "name" : "ExtensionExampleScenario_Actor",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.actor` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6702,10 +6065,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExampleScenario.ins.structureVersion"
+          "reference" : "StructureDefinition/ext-R5-ExampleScenario.instance"
         },
-        "name" : "ExtensionExampleScenario_Instance_StructureVersion",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.instance.structureVersion` for use in FHIR R4."
+        "name" : "ExtensionExampleScenario_Instance",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.instance` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6715,75 +6078,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExampleScenario.ins.structureProfile"
+          "reference" : "StructureDefinition/ext-R5-ExampleScenario.process"
         },
-        "name" : "ExtensionExampleScenario_Instance_StructureProfile",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.instance.structureProfile[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExampleScenario.ins.ver.title"
-        },
-        "name" : "ExtensionExampleScenario_Instance_Version_Title",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.instance.version.title` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExampleScenario.pro.ste.number"
-        },
-        "name" : "ExtensionExampleScenario_Process_Step_Number",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.process.step.number` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExampleScenario.pro.ste.ope.type"
-        },
-        "name" : "ExtensionExampleScenario_Process_Step_Operation_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.process.step.operation.type` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExampleScenario.pro.ste.ope.request"
-        },
-        "name" : "ExtensionExampleScenario_Process_Step_Operation_Request",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.process.step.operation.request` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExampleScenario.pro.ste.ope.response"
-        },
-        "name" : "ExtensionExampleScenario_Process_Step_Operation_Response",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.process.step.operation.response` for use in FHIR R4."
+        "name" : "ExtensionExampleScenario_Process",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExampleScenario.process` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6806,10 +6104,36 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.related"
+        },
+        "name" : "ExtensionExplanationOfBenefit_Related",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.related` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.event"
         },
         "name" : "ExtensionExplanationOfBenefit_Event",
         "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.event` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.payee"
+        },
+        "name" : "ExtensionExplanationOfBenefit_Payee",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.payee` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6845,10 +6169,75 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.sup.value"
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.careTeam"
         },
-        "name" : "ExtensionExplanationOfBenefit_SupportingInfo_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.supportingInfo.value[x]` for use in FHIR R4."
+        "name" : "ExtensionExplanationOfBenefit_CareTeam",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.careTeam` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.supportingInfo"
+        },
+        "name" : "ExtensionExplanationOfBenefit_SupportingInfo",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.supportingInfo` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.diagnosis"
+        },
+        "name" : "ExtensionExplanationOfBenefit_Diagnosis",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.diagnosis` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.procedure"
+        },
+        "name" : "ExtensionExplanationOfBenefit_Procedure",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.procedure` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.insurance"
+        },
+        "name" : "ExtensionExplanationOfBenefit_Insurance",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.insurance` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.accident"
+        },
+        "name" : "ExtensionExplanationOfBenefit_Accident",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.accident` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6871,10 +6260,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.traceNumber"
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.item"
         },
-        "name" : "ExtensionExplanationOfBenefit_Item_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.traceNumber` for use in FHIR R4."
+        "name" : "ExtensionExplanationOfBenefit_Item",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6884,10 +6273,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.productOrServiceEnd"
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.addItem"
         },
-        "name" : "ExtensionExplanationOfBenefit_Item_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.productOrServiceEnd` for use in FHIR R4."
+        "name" : "ExtensionExplanationOfBenefit_AddItem",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6897,10 +6286,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.patientPaid"
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.total"
         },
-        "name" : "ExtensionExplanationOfBenefit_Item_PatientPaid",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.patientPaid` for use in FHIR R4."
+        "name" : "ExtensionExplanationOfBenefit_Total",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.total` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6910,10 +6299,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.tax"
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.payment"
         },
-        "name" : "ExtensionExplanationOfBenefit_Item_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.tax` for use in FHIR R4."
+        "name" : "ExtensionExplanationOfBenefit_Payment",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.payment` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6923,10 +6312,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.reviewOutcome"
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.processNote"
         },
-        "name" : "ExtensionExplanationOfBenefit_Item_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.reviewOutcome` for use in FHIR R4."
+        "name" : "ExtensionExplanationOfBenefit_ProcessNote",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.processNote` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -6936,478 +6325,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.adj.quantity"
+          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.benefitBalance"
         },
-        "name" : "ExtensionExplanationOfBenefit_Item_Adjudication_Quantity",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.adjudication.quantity` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.traceNumber"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.productOrServiceEnd"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.patientPaid"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_PatientPaid",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.patientPaid` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.tax"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.tax` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.reviewOutcome"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.reviewOutcome` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.adjudication"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.sub.traceNumber"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.subDetail.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.sub.productOrServiceEnd"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.subDetail.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.sub.patientPaid"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_PatientPaid",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.subDetail.patientPaid` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.sub.tax"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.subDetail.tax` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.sub.reviewOutcome"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.subDetail.reviewOutcome` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.ite.det.sub.adjudication"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.item.detail.subDetail.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.traceNumber"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.revenue"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Revenue",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.revenue` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.productOrServiceEnd"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.patientPaid"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_PatientPaid",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.patientPaid` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.tax"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.tax` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.bodySite"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_BodySite",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.bodySite` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.reviewOutcome"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.reviewOutcome` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.adjudication"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.traceNumber"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.revenue"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_Revenue",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.revenue` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.productOrServiceEnd"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.patientPaid"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_PatientPaid",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.patientPaid` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.tax"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.tax` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.reviewOutcome"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.reviewOutcome` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.adjudication"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.sub.traceNumber"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_TraceNumber",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.subDetail.traceNumber` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.sub.revenue"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_Revenue",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.subDetail.revenue` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.sub.productOrServiceEnd"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_ProductOrServiceEnd",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.sub.patientPaid"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_PatientPaid",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.subDetail.patientPaid` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.sub.tax"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_Tax",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.subDetail.tax` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.sub.reviewOutcome"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_ReviewOutcome",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.add.det.sub.adjudication"
-        },
-        "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.addItem.detail.subDetail.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.adjudication"
-        },
-        "name" : "ExtensionExplanationOfBenefit_Adjudication",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.adjudication` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ExplanationOfBenefit.pro.type"
-        },
-        "name" : "ExtensionExplanationOfBenefit_ProcessNote_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.processNote.type` for use in FHIR R4."
+        "name" : "ExtensionExplanationOfBenefit_BenefitBalance",
+        "description" : "This cross-version extension represents the FHIR R5 element `ExplanationOfBenefit.benefitBalance` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7421,6 +6342,19 @@
         },
         "name" : "ExtensionFamilyMemberHistory_Participant",
         "description" : "This cross-version extension represents the FHIR R5 element `FamilyMemberHistory.participant` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-FamilyMemberHistory.condition"
+        },
+        "name" : "ExtensionFamilyMemberHistory_Condition",
+        "description" : "This cross-version extension represents the FHIR R5 element `FamilyMemberHistory.condition` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7473,6 +6407,19 @@
         },
         "name" : "ExtensionGoal_Continuous",
         "description" : "This cross-version extension represents the FHIR R5 element `Goal.continuous` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Goal.target"
+        },
+        "name" : "ExtensionGoal_Target",
+        "description" : "This cross-version extension represents the FHIR R5 element `Goal.target` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7547,49 +6494,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-GraphDefinition.lin.sourceId"
+          "reference" : "StructureDefinition/ext-R5-GraphDefinition.link"
         },
-        "name" : "ExtensionGraphDefinition_Link_SourceId",
-        "description" : "This cross-version extension represents the FHIR R5 element `GraphDefinition.link.sourceId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-GraphDefinition.lin.targetId"
-        },
-        "name" : "ExtensionGraphDefinition_Link_TargetId",
-        "description" : "This cross-version extension represents the FHIR R5 element `GraphDefinition.link.targetId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-GraphDefinition.lin.params"
-        },
-        "name" : "ExtensionGraphDefinition_Link_Params",
-        "description" : "This cross-version extension represents the FHIR R5 element `GraphDefinition.link.params` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-GraphDefinition.lin.compartment"
-        },
-        "name" : "ExtensionGraphDefinition_Link_Compartment",
-        "description" : "This cross-version extension represents the FHIR R5 element `GraphDefinition.link.compartment` for use in FHIR R4."
+        "name" : "ExtensionGraphDefinition_Link",
+        "description" : "This cross-version extension represents the FHIR R5 element `GraphDefinition.link` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7638,10 +6546,49 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Group.characteristic"
+        },
+        "name" : "ExtensionGroup_Characteristic",
+        "description" : "This cross-version extension represents the FHIR R5 element `Group.characteristic` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Group.member"
+        },
+        "name" : "ExtensionGroup_Member",
+        "description" : "This cross-version extension represents the FHIR R5 element `Group.member` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-HealthcareService.contact"
         },
         "name" : "ExtensionHealthcareService_Contact",
         "description" : "This cross-version extension represents the FHIR R5 element `HealthcareService.contact` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-HealthcareService.eligibility"
+        },
+        "name" : "ExtensionHealthcareService_Eligibility",
+        "description" : "This cross-version extension represents the FHIR R5 element `HealthcareService.eligibility` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7677,36 +6624,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ImagingStudy.ser.modality"
+          "reference" : "StructureDefinition/ext-R5-ImagingStudy.series"
         },
-        "name" : "ExtensionImagingStudy_Series_Modality",
-        "description" : "This cross-version extension represents the FHIR R5 element `ImagingStudy.series.modality` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ImagingStudy.ser.bodySite"
-        },
-        "name" : "ExtensionImagingStudy_Series_BodySite",
-        "description" : "This cross-version extension represents the FHIR R5 element `ImagingStudy.series.bodySite` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ImagingStudy.ser.laterality"
-        },
-        "name" : "ExtensionImagingStudy_Series_Laterality",
-        "description" : "This cross-version extension represents the FHIR R5 element `ImagingStudy.series.laterality` for use in FHIR R4."
+        "name" : "ExtensionImagingStudy_Series",
+        "description" : "This cross-version extension represents the FHIR R5 element `ImagingStudy.series` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7755,10 +6676,62 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Immunization.performer"
+        },
+        "name" : "ExtensionImmunization_Performer",
+        "description" : "This cross-version extension represents the FHIR R5 element `Immunization.performer` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-Immunization.programEligibility"
         },
         "name" : "ExtensionImmunization_ProgramEligibility",
         "description" : "This cross-version extension represents the FHIR R5 element `Immunization.programEligibility` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Immunization.reaction"
+        },
+        "name" : "ExtensionImmunization_Reaction",
+        "description" : "This cross-version extension represents the FHIR R5 element `Immunization.reaction` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Immunization.protocolApplied"
+        },
+        "name" : "ExtensionImmunization_ProtocolApplied",
+        "description" : "This cross-version extension represents the FHIR R5 element `Immunization.protocolApplied` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ImmunizationRecommendation.recommendation"
+        },
+        "name" : "ExtensionImmunizationRecommendation_Recommendation",
+        "description" : "This cross-version extension represents the FHIR R5 element `ImmunizationRecommendation.recommendation` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7820,10 +6793,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ImplementationGuide.dep.reason"
+          "reference" : "StructureDefinition/ext-R5-ImplementationGuide.dependsOn"
         },
-        "name" : "ExtensionImplementationGuide_DependsOn_Reason",
-        "description" : "This cross-version extension represents the FHIR R5 element `ImplementationGuide.dependsOn.reason` for use in FHIR R4."
+        "name" : "ExtensionImplementationGuide_DependsOn",
+        "description" : "This cross-version extension represents the FHIR R5 element `ImplementationGuide.dependsOn` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7833,10 +6806,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ImplementationGuide.glo.type"
+          "reference" : "StructureDefinition/ext-R5-ImplementationGuide.global"
         },
-        "name" : "ExtensionImplementationGuide_Global_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `ImplementationGuide.global.type` for use in FHIR R4."
+        "name" : "ExtensionImplementationGuide_Global",
+        "description" : "This cross-version extension represents the FHIR R5 element `ImplementationGuide.global` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7846,10 +6819,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ImplementationGuide.def.res.fhirVersion"
+          "reference" : "StructureDefinition/ext-R5-ImplementationGuide.definition"
         },
-        "name" : "ExtensionImplementationGuide_Definition_Resource_FhirVersion",
-        "description" : "This cross-version extension represents the FHIR R5 element `ImplementationGuide.definition.resource.fhirVersion` for use in FHIR R4."
+        "name" : "ExtensionImplementationGuide_Definition",
+        "description" : "This cross-version extension represents the FHIR R5 element `ImplementationGuide.definition` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7859,23 +6832,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ImplementationGuide.def.pag.source"
+          "reference" : "StructureDefinition/ext-R5-ImplementationGuide.manifest"
         },
-        "name" : "ExtensionImplementationGuide_Definition_Page_Source",
-        "description" : "This cross-version extension represents the FHIR R5 element `ImplementationGuide.definition.page.source[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ImplementationGuide.def.par.code"
-        },
-        "name" : "ExtensionImplementationGuide_Definition_Parameter_Code",
-        "description" : "This cross-version extension represents the FHIR R5 element `ImplementationGuide.definition.parameter.code` for use in FHIR R4."
+        "name" : "ExtensionImplementationGuide_Manifest",
+        "description" : "This cross-version extension represents the FHIR R5 element `ImplementationGuide.manifest` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7889,6 +6849,32 @@
         },
         "name" : "ExtensionIngredient",
         "description" : "This cross-version extension represents the FHIR R5 element `Ingredient` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-InsurancePlan.coverage"
+        },
+        "name" : "ExtensionInsurancePlan_Coverage",
+        "description" : "This cross-version extension represents the FHIR R5 element `InsurancePlan.coverage` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-InsurancePlan.plan"
+        },
+        "name" : "ExtensionInsurancePlan_Plan",
+        "description" : "This cross-version extension represents the FHIR R5 element `InsurancePlan.plan` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7950,10 +6936,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Invoice.lin.serviced"
+          "reference" : "StructureDefinition/ext-R5-Invoice.participant"
         },
-        "name" : "ExtensionInvoice_LineItem_Serviced",
-        "description" : "This cross-version extension represents the FHIR R5 element `Invoice.lineItem.serviced[x]` for use in FHIR R4."
+        "name" : "ExtensionInvoice_Participant",
+        "description" : "This cross-version extension represents the FHIR R5 element `Invoice.participant` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Invoice.lineItem"
+        },
+        "name" : "ExtensionInvoice_LineItem",
+        "description" : "This cross-version extension represents the FHIR R5 element `Invoice.lineItem` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -7989,10 +6988,49 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Linkage.item"
+        },
+        "name" : "ExtensionLinkage_Item",
+        "description" : "This cross-version extension represents the FHIR R5 element `Linkage.item` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-List.entry"
+        },
+        "name" : "ExtensionList_Entry",
+        "description" : "This cross-version extension represents the FHIR R5 element `List.entry` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-Location.contact"
         },
         "name" : "ExtensionLocation_Contact",
         "description" : "This cross-version extension represents the FHIR R5 element `Location.contact` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Location.position"
+        },
+        "name" : "ExtensionLocation_Position",
+        "description" : "This cross-version extension represents the FHIR R5 element `Location.position` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8106,10 +7144,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.linkId"
+          "reference" : "StructureDefinition/ext-R5-Measure.group"
         },
-        "name" : "ExtensionMeasure_Group_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.linkId` for use in FHIR R4."
+        "name" : "ExtensionMeasure_Group",
+        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8119,166 +7157,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.type"
+          "reference" : "StructureDefinition/ext-R5-Measure.supplementalData"
         },
-        "name" : "ExtensionMeasure_Group_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.type` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.subject"
-        },
-        "name" : "ExtensionMeasure_Group_Subject",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.subject[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.basis"
-        },
-        "name" : "ExtensionMeasure_Group_Basis",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.basis` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.scoring"
-        },
-        "name" : "ExtensionMeasure_Group_Scoring",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.scoring` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.scoringUnit"
-        },
-        "name" : "ExtensionMeasure_Group_ScoringUnit",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.scoringUnit` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.rateAggregation"
-        },
-        "name" : "ExtensionMeasure_Group_RateAggregation",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.rateAggregation` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.improvementNotation"
-        },
-        "name" : "ExtensionMeasure_Group_ImprovementNotation",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.improvementNotation` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.pop.linkId"
-        },
-        "name" : "ExtensionMeasure_Group_Population_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.population.linkId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.pop.inputPopulationId"
-        },
-        "name" : "ExtensionMeasure_Group_Population_InputPopulationId",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.population.inputPopulationId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.pop.aggregateMethod"
-        },
-        "name" : "ExtensionMeasure_Group_Population_AggregateMethod",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.population.aggregateMethod` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.str.linkId"
-        },
-        "name" : "ExtensionMeasure_Group_Stratifier_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.stratifier.linkId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.gro.str.com.linkId"
-        },
-        "name" : "ExtensionMeasure_Group_Stratifier_Component_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.group.stratifier.component.linkId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Measure.sup.linkId"
-        },
-        "name" : "ExtensionMeasure_SupplementalData_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `Measure.supplementalData.linkId` for use in FHIR R4."
+        "name" : "ExtensionMeasure_SupplementalData",
+        "description" : "This cross-version extension represents the FHIR R5 element `Measure.supplementalData` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8314,114 +7196,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MeasureReport.gro.linkId"
+          "reference" : "StructureDefinition/ext-R5-MeasureReport.group"
         },
-        "name" : "ExtensionMeasureReport_Group_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `MeasureReport.group.linkId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MeasureReport.gro.pop.linkId"
-        },
-        "name" : "ExtensionMeasureReport_Group_Population_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `MeasureReport.group.population.linkId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MeasureReport.gro.measureScore"
-        },
-        "name" : "ExtensionMeasureReport_Group_MeasureScore",
-        "description" : "This cross-version extension represents the FHIR R5 element `MeasureReport.group.measureScore[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MeasureReport.gro.str.linkId"
-        },
-        "name" : "ExtensionMeasureReport_Group_Stratifier_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `MeasureReport.group.stratifier.linkId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MeasureReport.gro.str.str.value"
-        },
-        "name" : "ExtensionMeasureReport_Group_Stratifier_Stratum_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `MeasureReport.group.stratifier.stratum.value[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MeasureReport.gro.str.str.com.linkId"
-        },
-        "name" : "ExtensionMeasureReport_Group_Stratifier_Stratum_Component_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `MeasureReport.group.stratifier.stratum.component.linkId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MeasureReport.gro.str.str.com.value"
-        },
-        "name" : "ExtensionMeasureReport_Group_Stratifier_Stratum_Component_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `MeasureReport.group.stratifier.stratum.component.value[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MeasureReport.gro.str.str.pop.linkId"
-        },
-        "name" : "ExtensionMeasureReport_Group_Stratifier_Stratum_Population_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `MeasureReport.group.stratifier.stratum.population.linkId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MeasureReport.gro.str.str.measureScore"
-        },
-        "name" : "ExtensionMeasureReport_Group_Stratifier_Stratum_MeasureScore",
-        "description" : "This cross-version extension represents the FHIR R5 element `MeasureReport.group.stratifier.stratum.measureScore[x]` for use in FHIR R4."
+        "name" : "ExtensionMeasureReport_Group",
+        "description" : "This cross-version extension represents the FHIR R5 element `MeasureReport.group` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8444,10 +7222,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Medication.ing.strength"
+          "reference" : "StructureDefinition/ext-R5-Medication.ingredient"
         },
-        "name" : "ExtensionMedication_Ingredient_Strength",
-        "description" : "This cross-version extension represents the FHIR R5 element `Medication.ingredient.strength[x]` for use in FHIR R4."
+        "name" : "ExtensionMedication_Ingredient",
+        "description" : "This cross-version extension represents the FHIR R5 element `Medication.ingredient` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Medication.batch"
+        },
+        "name" : "ExtensionMedication_Batch",
+        "description" : "This cross-version extension represents the FHIR R5 element `Medication.batch` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8509,10 +7300,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MA.per.actor"
+          "reference" : "StructureDefinition/ext-R5-MedicationAdministration.performer"
         },
-        "name" : "ExtensionMedicationAdministration_Performer_Actor",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationAdministration.performer.actor` for use in FHIR R4."
+        "name" : "ExtensionMedicationAdministration_Performer",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationAdministration.performer` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8535,10 +7326,36 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-MedicationAdministration.dosage"
+        },
+        "name" : "ExtensionMedicationAdministration_Dosage",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationAdministration.dosage` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-MedicationDispense.statusChanged"
         },
         "name" : "ExtensionMedicationDispense_StatusChanged",
         "description" : "This cross-version extension represents the FHIR R5 element `MedicationDispense.statusChanged` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-MedicationDispense.performer"
+        },
+        "name" : "ExtensionMedicationDispense_Performer",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationDispense.performer` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8574,6 +7391,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-MedicationDispense.substitution"
+        },
+        "name" : "ExtensionMedicationDispense_Substitution",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationDispense.substitution` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.intendedJurisdiction"
         },
         "name" : "ExtensionMedicationKnowledge_IntendedJurisdiction",
@@ -8587,10 +7417,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.cos.effectiveDate"
+          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.rMK"
         },
-        "name" : "ExtensionMedicationKnowledge_Cost_EffectiveDate",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.cost.effectiveDate` for use in FHIR R4."
+        "name" : "ExtensionMedicationKnowledge_RelatedMedicationKnowledge",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.relatedMedicationKnowledge` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8600,10 +7430,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.cos.cost"
+          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.monograph"
         },
-        "name" : "ExtensionMedicationKnowledge_Cost_Cost",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.cost.cost[x]` for use in FHIR R4."
+        "name" : "ExtensionMedicationKnowledge_Monograph",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.monograph` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8613,10 +7443,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.ind.dosingGuideline"
+          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.cost"
         },
-        "name" : "ExtensionMedicationKnowledge_IndicationGuideline_DosingGuideline",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.indicationGuideline.dosingGuideline` for use in FHIR R4."
+        "name" : "ExtensionMedicationKnowledge_Cost",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.cost` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8626,10 +7456,36 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.med.source"
+          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.monitoringProgram"
         },
-        "name" : "ExtensionMedicationKnowledge_MedicineClassification_Source",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.medicineClassification.source[x]` for use in FHIR R4."
+        "name" : "ExtensionMedicationKnowledge_MonitoringProgram",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.monitoringProgram` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.indicationGuideline"
+        },
+        "name" : "ExtensionMedicationKnowledge_IndicationGuideline",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.indicationGuideline` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.medicineClassification"
+        },
+        "name" : "ExtensionMedicationKnowledge_MedicineClassification",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.medicineClassification` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8665,10 +7521,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.def.ing.type"
+          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.regulatory"
         },
-        "name" : "ExtensionMedicationKnowledge_Definitional_Ingredient_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.definitional.ingredient.type` for use in FHIR R4."
+        "name" : "ExtensionMedicationKnowledge_Regulatory",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.regulatory` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8678,23 +7534,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.def.ing.strength"
+          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.definitional"
         },
-        "name" : "ExtensionMedicationKnowledge_Definitional_Ingredient_Strength",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.definitional.ingredient.strength[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MedicationKnowledge.def.dru.value"
-        },
-        "name" : "ExtensionMedicationKnowledge_Definitional_DrugCharacteristic_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.definitional.drugCharacteristic.value[x]` for use in FHIR R4."
+        "name" : "ExtensionMedicationKnowledge_Definitional",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationKnowledge.definitional` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8769,10 +7612,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MedicationRequest.dis.dispenserInstruction"
+          "reference" : "StructureDefinition/ext-R5-MedicationRequest.dispenseRequest"
         },
-        "name" : "ExtensionMedicationRequest_DispenseRequest_DispenserInstruction",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationRequest.dispenseRequest.dispenserInstruction` for use in FHIR R4."
+        "name" : "ExtensionMedicationRequest_DispenseRequest",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationRequest.dispenseRequest` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -8782,10 +7625,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MedicationRequest.dis.dAA"
+          "reference" : "StructureDefinition/ext-R5-MedicationRequest.substitution"
         },
-        "name" : "ExtensionMedicationRequest_DispenseRequest_DoseAdministrationAid",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicationRequest.dispenseRequest.doseAdministrationAid` for use in FHIR R4."
+        "name" : "ExtensionMedicationRequest_Substitution",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicationRequest.substitution` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9029,36 +7872,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MPD.nam.type"
+          "reference" : "StructureDefinition/ext-R5-MedicinalProductDefinition.name"
         },
-        "name" : "ExtensionMedicinalProductDefinition_Name_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicinalProductDefinition.name.type` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MPD.nam.par.type"
-        },
-        "name" : "ExtensionMedicinalProductDefinition_Name_Part_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicinalProductDefinition.name.part.type` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MPD.nam.usa.language"
-        },
-        "name" : "ExtensionMedicinalProductDefinition_Name_Usage_Language",
-        "description" : "This cross-version extension represents the FHIR R5 element `MedicinalProductDefinition.name.usage.language` for use in FHIR R4."
+        "name" : "ExtensionMedicinalProductDefinition_Name",
+        "description" : "This cross-version extension represents the FHIR R5 element `MedicinalProductDefinition.name` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9133,10 +7950,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MessageDefinition.foc.code"
+          "reference" : "StructureDefinition/ext-R5-MessageDefinition.focus"
         },
-        "name" : "ExtensionMessageDefinition_Focus_Code",
-        "description" : "This cross-version extension represents the FHIR R5 element `MessageDefinition.focus.code` for use in FHIR R4."
+        "name" : "ExtensionMessageDefinition_Focus",
+        "description" : "This cross-version extension represents the FHIR R5 element `MessageDefinition.focus` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9146,10 +7963,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MessageHeader.des.endpoint"
+          "reference" : "StructureDefinition/ext-R5-MessageDefinition.allowedResponse"
         },
-        "name" : "ExtensionMessageHeader_Destination_Endpoint",
-        "description" : "This cross-version extension represents the FHIR R5 element `MessageHeader.destination.endpoint[x]` for use in FHIR R4."
+        "name" : "ExtensionMessageDefinition_AllowedResponse",
+        "description" : "This cross-version extension represents the FHIR R5 element `MessageDefinition.allowedResponse` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9159,10 +7976,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MessageHeader.sou.endpoint"
+          "reference" : "StructureDefinition/ext-R5-MessageHeader.destination"
         },
-        "name" : "ExtensionMessageHeader_Source_Endpoint",
-        "description" : "This cross-version extension represents the FHIR R5 element `MessageHeader.source.endpoint[x]` for use in FHIR R4."
+        "name" : "ExtensionMessageHeader_Destination",
+        "description" : "This cross-version extension represents the FHIR R5 element `MessageHeader.destination` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9172,10 +7989,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MessageHeader.res.identifier"
+          "reference" : "StructureDefinition/ext-R5-MessageHeader.source"
         },
-        "name" : "ExtensionMessageHeader_Response_Identifier",
-        "description" : "This cross-version extension represents the FHIR R5 element `MessageHeader.response.identifier` for use in FHIR R4."
+        "name" : "ExtensionMessageHeader_Source",
+        "description" : "This cross-version extension represents the FHIR R5 element `MessageHeader.source` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-MessageHeader.response"
+        },
+        "name" : "ExtensionMessageHeader_Response",
+        "description" : "This cross-version extension represents the FHIR R5 element `MessageHeader.response` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9198,88 +8028,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MolecularSequence.rel.coordinateSystem"
+          "reference" : "StructureDefinition/ext-R5-MolecularSequence.relative"
         },
-        "name" : "ExtensionMolecularSequence_Relative_CoordinateSystem",
-        "description" : "This cross-version extension represents the FHIR R5 element `MolecularSequence.relative.coordinateSystem` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MolecularSequence.rel.ordinalPosition"
-        },
-        "name" : "ExtensionMolecularSequence_Relative_OrdinalPosition",
-        "description" : "This cross-version extension represents the FHIR R5 element `MolecularSequence.relative.ordinalPosition` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MolecularSequence.rel.sequenceRange"
-        },
-        "name" : "ExtensionMolecularSequence_Relative_SequenceRange",
-        "description" : "This cross-version extension represents the FHIR R5 element `MolecularSequence.relative.sequenceRange` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MolecularSequence.rel.sta.genomeAssembly"
-        },
-        "name" : "ExtensionMolecularSequence_Relative_StartingSequence_GenomeAssembly",
-        "description" : "This cross-version extension represents the FHIR R5 element `MolecularSequence.relative.startingSequence.genomeAssembly` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MolecularSequence.rel.sta.chromosome"
-        },
-        "name" : "ExtensionMolecularSequence_Relative_StartingSequence_Chromosome",
-        "description" : "This cross-version extension represents the FHIR R5 element `MolecularSequence.relative.startingSequence.chromosome` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MolecularSequence.rel.sta.sequence"
-        },
-        "name" : "ExtensionMolecularSequence_Relative_StartingSequence_Sequence",
-        "description" : "This cross-version extension represents the FHIR R5 element `MolecularSequence.relative.startingSequence.sequence[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-MolecularSequence.rel.edi.start"
-        },
-        "name" : "ExtensionMolecularSequence_Relative_Edit_Start",
-        "description" : "This cross-version extension represents the FHIR R5 element `MolecularSequence.relative.edit.start` for use in FHIR R4."
+        "name" : "ExtensionMolecularSequence_Relative",
+        "description" : "This cross-version extension represents the FHIR R5 element `MolecularSequence.relative` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9510,23 +8262,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-NamingSystem.uni.type"
+          "reference" : "StructureDefinition/ext-R5-NamingSystem.uniqueId"
         },
-        "name" : "ExtensionNamingSystem_UniqueId_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `NamingSystem.uniqueId.type` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-NamingSystem.uni.authoritative"
-        },
-        "name" : "ExtensionNamingSystem_UniqueId_Authoritative",
-        "description" : "This cross-version extension represents the FHIR R5 element `NamingSystem.uniqueId.authoritative` for use in FHIR R4."
+        "name" : "ExtensionNamingSystem_UniqueId",
+        "description" : "This cross-version extension represents the FHIR R5 element `NamingSystem.uniqueId` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9601,10 +8340,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-NutritionOrder.ora.schedule"
+          "reference" : "StructureDefinition/ext-R5-NutritionOrder.oralDiet"
         },
-        "name" : "ExtensionNutritionOrder_OralDiet_Schedule",
-        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.oralDiet.schedule` for use in FHIR R4."
+        "name" : "ExtensionNutritionOrder_OralDiet",
+        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.oralDiet` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9614,10 +8353,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-NutritionOrder.sup.type"
+          "reference" : "StructureDefinition/ext-R5-NutritionOrder.supplement"
         },
-        "name" : "ExtensionNutritionOrder_Supplement_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.supplement.type` for use in FHIR R4."
+        "name" : "ExtensionNutritionOrder_Supplement",
+        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.supplement` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9627,75 +8366,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-NutritionOrder.sup.schedule"
+          "reference" : "StructureDefinition/ext-R5-NutritionOrder.enteralFormula"
         },
-        "name" : "ExtensionNutritionOrder_Supplement_Schedule",
-        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.supplement.schedule` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-NutritionOrder.ent.baseFormulaType"
-        },
-        "name" : "ExtensionNutritionOrder_EnteralFormula_BaseFormulaType",
-        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.enteralFormula.baseFormulaType` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-NutritionOrder.ent.deliveryDevice"
-        },
-        "name" : "ExtensionNutritionOrder_EnteralFormula_DeliveryDevice",
-        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.enteralFormula.deliveryDevice` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-NutritionOrder.ent.add.type"
-        },
-        "name" : "ExtensionNutritionOrder_EnteralFormula_Additive_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.enteralFormula.additive.type` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-NutritionOrder.ent.add.quantity"
-        },
-        "name" : "ExtensionNutritionOrder_EnteralFormula_Additive_Quantity",
-        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.enteralFormula.additive.quantity` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-NutritionOrder.ent.adm.schedule"
-        },
-        "name" : "ExtensionNutritionOrder_EnteralFormula_Administration_Schedule",
-        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.enteralFormula.administration.schedule` for use in FHIR R4."
+        "name" : "ExtensionNutritionOrder_EnteralFormula",
+        "description" : "This cross-version extension represents the FHIR R5 element `NutritionOrder.enteralFormula` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9757,10 +8431,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Observation.ref.normalValue"
+          "reference" : "StructureDefinition/ext-R5-Observation.referenceRange"
         },
-        "name" : "ExtensionObservation_ReferenceRange_NormalValue",
-        "description" : "This cross-version extension represents the FHIR R5 element `Observation.referenceRange.normalValue` for use in FHIR R4."
+        "name" : "ExtensionObservation_ReferenceRange",
+        "description" : "This cross-version extension represents the FHIR R5 element `Observation.referenceRange` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -9770,23 +8444,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Observation.com.value"
+          "reference" : "StructureDefinition/ext-R5-Observation.component"
         },
-        "name" : "ExtensionObservation_Component_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `Observation.component.value[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Observation.com.referenceRange"
-        },
-        "name" : "ExtensionObservation_Component_ReferenceRange",
-        "description" : "This cross-version extension represents the FHIR R5 element `Observation.component.referenceRange` for use in FHIR R4."
+        "name" : "ExtensionObservation_Component",
+        "description" : "This cross-version extension represents the FHIR R5 element `Observation.component` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10095,6 +8756,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-ObservationDefinition.qualifiedValue"
+        },
+        "name" : "ExtensionObservationDefinition_QualifiedValue",
+        "description" : "This cross-version extension represents the FHIR R5 element `ObservationDefinition.qualifiedValue` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-ObservationDefinition.component"
         },
         "name" : "ExtensionObservationDefinition_Component",
@@ -10147,10 +8821,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-OperationDefinition.par.scope"
+          "reference" : "StructureDefinition/ext-R5-OperationDefinition.parameter"
         },
-        "name" : "ExtensionOperationDefinition_Parameter_Scope",
-        "description" : "This cross-version extension represents the FHIR R5 element `OperationDefinition.parameter.scope` for use in FHIR R4."
+        "name" : "ExtensionOperationDefinition_Parameter",
+        "description" : "This cross-version extension represents the FHIR R5 element `OperationDefinition.parameter` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10160,10 +8834,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-OperationDefinition.par.allowedType"
+          "reference" : "StructureDefinition/ext-R5-OperationDefinition.overload"
         },
-        "name" : "ExtensionOperationDefinition_Parameter_AllowedType",
-        "description" : "This cross-version extension represents the FHIR R5 element `OperationDefinition.parameter.allowedType` for use in FHIR R4."
+        "name" : "ExtensionOperationDefinition_Overload",
+        "description" : "This cross-version extension represents the FHIR R5 element `OperationDefinition.overload` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10173,23 +8847,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-OperationOutcome.iss.severity"
+          "reference" : "StructureDefinition/ext-R5-OperationOutcome.issue"
         },
-        "name" : "ExtensionOperationOutcome_Issue_Severity",
-        "description" : "This cross-version extension represents the FHIR R5 element `OperationOutcome.issue.severity` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-OperationOutcome.iss.code"
-        },
-        "name" : "ExtensionOperationOutcome_Issue_Code",
-        "description" : "This cross-version extension represents the FHIR R5 element `OperationOutcome.issue.code` for use in FHIR R4."
+        "name" : "ExtensionOperationOutcome_Issue",
+        "description" : "This cross-version extension represents the FHIR R5 element `OperationOutcome.issue` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10251,10 +8912,49 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Parameters.par.value"
+          "reference" : "StructureDefinition/ext-R5-Parameters.parameter"
         },
-        "name" : "ExtensionParameters_Parameter_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `Parameters.parameter.value[x]` for use in FHIR R4."
+        "name" : "ExtensionParameters_Parameter",
+        "description" : "This cross-version extension represents the FHIR R5 element `Parameters.parameter` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Patient.contact"
+        },
+        "name" : "ExtensionPatient_Contact",
+        "description" : "This cross-version extension represents the FHIR R5 element `Patient.contact` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Patient.communication"
+        },
+        "name" : "ExtensionPatient_Communication",
+        "description" : "This cross-version extension represents the FHIR R5 element `Patient.communication` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Patient.link"
+        },
+        "name" : "ExtensionPatient_Link",
+        "description" : "This cross-version extension represents the FHIR R5 element `Patient.link` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10420,10 +9120,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PR.all.targetItem"
+          "reference" : "StructureDefinition/ext-R5-PaymentReconciliation.allocation"
         },
-        "name" : "ExtensionPaymentReconciliation_Allocation_TargetItem",
-        "description" : "This cross-version extension represents the FHIR R5 element `PaymentReconciliation.allocation.targetItem[x]` for use in FHIR R4."
+        "name" : "ExtensionPaymentReconciliation_Allocation",
+        "description" : "This cross-version extension represents the FHIR R5 element `PaymentReconciliation.allocation` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-PaymentReconciliation.processNote"
+        },
+        "name" : "ExtensionPaymentReconciliation_ProcessNote",
+        "description" : "This cross-version extension represents the FHIR R5 element `PaymentReconciliation.processNote` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10485,6 +9198,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Person.link"
+        },
+        "name" : "ExtensionPerson_Link",
+        "description" : "This cross-version extension represents the FHIR R5 element `Person.link` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-PlanDefinition.versionAlgorithm"
         },
         "name" : "ExtensionPlanDefinition_VersionAlgorithm",
@@ -10524,10 +9250,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PlanDefinition.goa.tar.detail"
+          "reference" : "StructureDefinition/ext-R5-PlanDefinition.goal"
         },
-        "name" : "ExtensionPlanDefinition_Goal_Target_Detail",
-        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.goal.target.detail[x]` for use in FHIR R4."
+        "name" : "ExtensionPlanDefinition_Goal",
+        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.goal` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10550,101 +9276,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PlanDefinition.act.linkId"
+          "reference" : "StructureDefinition/ext-R5-PlanDefinition.action"
         },
-        "name" : "ExtensionPlanDefinition_Action_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.action.linkId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PlanDefinition.act.subject"
-        },
-        "name" : "ExtensionPlanDefinition_Action_Subject",
-        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.action.subject[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PlanDefinition.act.input"
-        },
-        "name" : "ExtensionPlanDefinition_Action_Input",
-        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.action.input` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PlanDefinition.act.output"
-        },
-        "name" : "ExtensionPlanDefinition_Action_Output",
-        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.action.output` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PlanDefinition.act.location"
-        },
-        "name" : "ExtensionPlanDefinition_Action_Location",
-        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.action.location` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PlanDefinition.act.par.actorId"
-        },
-        "name" : "ExtensionPlanDefinition_Action_Participant_ActorId",
-        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.action.participant.actorId` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PlanDefinition.act.par.type"
-        },
-        "name" : "ExtensionPlanDefinition_Action_Participant_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.action.participant.type` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-PlanDefinition.act.par.function"
-        },
-        "name" : "ExtensionPlanDefinition_Action_Participant_Function",
-        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.action.participant.function` for use in FHIR R4."
+        "name" : "ExtensionPlanDefinition_Action",
+        "description" : "This cross-version extension represents the FHIR R5 element `PlanDefinition.action` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10671,6 +9306,19 @@
         },
         "name" : "ExtensionPractitioner_Deceased",
         "description" : "This cross-version extension represents the FHIR R5 element `Practitioner.deceased[x]` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Practitioner.qualification"
+        },
+        "name" : "ExtensionPractitioner_Qualification",
+        "description" : "This cross-version extension represents the FHIR R5 element `Practitioner.qualification` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10784,10 +9432,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Procedure.per.period"
+          "reference" : "StructureDefinition/ext-R5-Procedure.performer"
         },
-        "name" : "ExtensionProcedure_Performer_Period",
-        "description" : "This cross-version extension represents the FHIR R5 element `Procedure.performer.period` for use in FHIR R4."
+        "name" : "ExtensionProcedure_Performer",
+        "description" : "This cross-version extension represents the FHIR R5 element `Procedure.performer` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Procedure.focalDevice"
+        },
+        "name" : "ExtensionProcedure_FocalDevice",
+        "description" : "This cross-version extension represents the FHIR R5 element `Procedure.focalDevice` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10810,10 +9471,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Provenance.ent.role"
+          "reference" : "StructureDefinition/ext-R5-Provenance.agent"
         },
-        "name" : "ExtensionProvenance_Entity_Role",
-        "description" : "This cross-version extension represents the FHIR R5 element `Provenance.entity.role` for use in FHIR R4."
+        "name" : "ExtensionProvenance_Agent",
+        "description" : "This cross-version extension represents the FHIR R5 element `Provenance.agent` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10823,10 +9484,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Provenance.ent.agent"
+          "reference" : "StructureDefinition/ext-R5-Provenance.entity"
         },
-        "name" : "ExtensionProvenance_Entity_Agent",
-        "description" : "This cross-version extension represents the FHIR R5 element `Provenance.entity.agent` for use in FHIR R4."
+        "name" : "ExtensionProvenance_Entity",
+        "description" : "This cross-version extension represents the FHIR R5 element `Provenance.entity` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10875,10 +9536,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Questionnaire.ite.type"
+          "reference" : "StructureDefinition/ext-R5-Questionnaire.item"
         },
-        "name" : "ExtensionQuestionnaire_Item_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `Questionnaire.item.type` for use in FHIR R4."
+        "name" : "ExtensionQuestionnaire_Item",
+        "description" : "This cross-version extension represents the FHIR R5 element `Questionnaire.item` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10888,10 +9549,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Questionnaire.ite.disabledDisplay"
+          "reference" : "StructureDefinition/ext-R5-QuestionnaireResponse.item"
         },
-        "name" : "ExtensionQuestionnaire_Item_DisabledDisplay",
-        "description" : "This cross-version extension represents the FHIR R5 element `Questionnaire.item.disabledDisplay` for use in FHIR R4."
+        "name" : "ExtensionQuestionnaireResponse_Item",
+        "description" : "This cross-version extension represents the FHIR R5 element `QuestionnaireResponse.item` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10914,10 +9575,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-RequestOrchestration.act.linkId"
+          "reference" : "StructureDefinition/ext-R5-RelatedPerson.communication"
         },
-        "name" : "ExtensionRequestOrchestration_Action_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `RequestOrchestration.action.linkId` for use in FHIR R4."
+        "name" : "ExtensionRelatedPerson_Communication",
+        "description" : "This cross-version extension represents the FHIR R5 element `RelatedPerson.communication` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -10927,88 +9588,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-RequestOrchestration.act.input"
+          "reference" : "StructureDefinition/ext-R5-RequestOrchestration.action"
         },
-        "name" : "ExtensionRequestOrchestration_Action_Input",
-        "description" : "This cross-version extension represents the FHIR R5 element `RequestOrchestration.action.input` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-RequestOrchestration.act.output"
-        },
-        "name" : "ExtensionRequestOrchestration_Action_Output",
-        "description" : "This cross-version extension represents the FHIR R5 element `RequestOrchestration.action.output` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-RequestOrchestration.act.rel.endRelationship"
-        },
-        "name" : "ExtensionRequestOrchestration_Action_RelatedAction_EndRelationship",
-        "description" : "This cross-version extension represents the FHIR R5 element `RequestOrchestration.action.relatedAction.endRelationship` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-RequestOrchestration.act.location"
-        },
-        "name" : "ExtensionRequestOrchestration_Action_Location",
-        "description" : "This cross-version extension represents the FHIR R5 element `RequestOrchestration.action.location` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-RequestOrchestration.act.participant"
-        },
-        "name" : "ExtensionRequestOrchestration_Action_Participant",
-        "description" : "This cross-version extension represents the FHIR R5 element `RequestOrchestration.action.participant` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-RequestOrchestration.act.definition"
-        },
-        "name" : "ExtensionRequestOrchestration_Action_Definition",
-        "description" : "This cross-version extension represents the FHIR R5 element `RequestOrchestration.action.definition[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-RequestOrchestration.act.dynamicValue"
-        },
-        "name" : "ExtensionRequestOrchestration_Action_DynamicValue",
-        "description" : "This cross-version extension represents the FHIR R5 element `RequestOrchestration.action.dynamicValue` for use in FHIR R4."
+        "name" : "ExtensionRequestOrchestration_Action",
+        "description" : "This cross-version extension represents the FHIR R5 element `RequestOrchestration.action` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -11200,10 +9783,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ResearchStudy.com.linkId"
+          "reference" : "StructureDefinition/ext-R5-ResearchStudy.comparisonGroup"
         },
-        "name" : "ExtensionResearchStudy_ComparisonGroup_LinkId",
-        "description" : "This cross-version extension represents the FHIR R5 element `ResearchStudy.comparisonGroup.linkId` for use in FHIR R4."
+        "name" : "ExtensionResearchStudy_ComparisonGroup",
+        "description" : "This cross-version extension represents the FHIR R5 element `ResearchStudy.comparisonGroup` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -11213,10 +9796,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ResearchStudy.obj.description"
+          "reference" : "StructureDefinition/ext-R5-ResearchStudy.objective"
         },
-        "name" : "ExtensionResearchStudy_Objective_Description",
-        "description" : "This cross-version extension represents the FHIR R5 element `ResearchStudy.objective.description` for use in FHIR R4."
+        "name" : "ExtensionResearchStudy_Objective",
+        "description" : "This cross-version extension represents the FHIR R5 element `ResearchStudy.objective` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -11256,6 +9839,19 @@
         },
         "name" : "ExtensionResearchSubject_Progress",
         "description" : "This cross-version extension represents the FHIR R5 element `ResearchSubject.progress` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-RiskAssessment.prediction"
+        },
+        "name" : "ExtensionRiskAssessment_Prediction",
+        "description" : "This cross-version extension represents the FHIR R5 element `RiskAssessment.prediction` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -11382,6 +9978,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-SearchParameter.component"
+        },
+        "name" : "ExtensionSearchParameter_Component",
+        "description" : "This cross-version extension represents the FHIR R5 element `SearchParameter.component` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-ServiceRequest.code"
         },
         "name" : "ExtensionServiceRequest_Code",
@@ -11486,10 +10095,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Specimen.col.device"
+          "reference" : "StructureDefinition/ext-R5-Specimen.collection"
         },
-        "name" : "ExtensionSpecimen_Collection_Device",
-        "description" : "This cross-version extension represents the FHIR R5 element `Specimen.collection.device` for use in FHIR R4."
+        "name" : "ExtensionSpecimen_Collection",
+        "description" : "This cross-version extension represents the FHIR R5 element `Specimen.collection` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -11499,10 +10108,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Specimen.col.bodySite"
+          "reference" : "StructureDefinition/ext-R5-Specimen.processing"
         },
-        "name" : "ExtensionSpecimen_Collection_BodySite",
-        "description" : "This cross-version extension represents the FHIR R5 element `Specimen.collection.bodySite` for use in FHIR R4."
+        "name" : "ExtensionSpecimen_Processing",
+        "description" : "This cross-version extension represents the FHIR R5 element `Specimen.processing` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Specimen.container"
+        },
+        "name" : "ExtensionSpecimen_Container",
+        "description" : "This cross-version extension represents the FHIR R5 element `Specimen.container` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -11785,36 +10407,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SpecimenDefinition.typ.con.additive"
+          "reference" : "StructureDefinition/ext-R5-SpecimenDefinition.typeTested"
         },
-        "name" : "ExtensionSpecimenDefinition_TypeTested_Container_Additive",
-        "description" : "This cross-version extension represents the FHIR R5 element `SpecimenDefinition.typeTested.container.additive` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SpecimenDefinition.typ.singleUse"
-        },
-        "name" : "ExtensionSpecimenDefinition_TypeTested_SingleUse",
-        "description" : "This cross-version extension represents the FHIR R5 element `SpecimenDefinition.typeTested.singleUse` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SpecimenDefinition.typ.testingDestination"
-        },
-        "name" : "ExtensionSpecimenDefinition_TypeTested_TestingDestination",
-        "description" : "This cross-version extension represents the FHIR R5 element `SpecimenDefinition.typeTested.testingDestination` for use in FHIR R4."
+        "name" : "ExtensionSpecimenDefinition_TypeTested",
+        "description" : "This cross-version extension represents the FHIR R5 element `SpecimenDefinition.typeTested` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -11863,6 +10459,58 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-StructureDefinition.mapping"
+        },
+        "name" : "ExtensionStructureDefinition_Mapping",
+        "description" : "This cross-version extension represents the FHIR R5 element `StructureDefinition.mapping` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-StructureDefinition.context"
+        },
+        "name" : "ExtensionStructureDefinition_Context",
+        "description" : "This cross-version extension represents the FHIR R5 element `StructureDefinition.context` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-StructureDefinition.snapshot"
+        },
+        "name" : "ExtensionStructureDefinition_Snapshot",
+        "description" : "This cross-version extension represents the FHIR R5 element `StructureDefinition.snapshot` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-StructureDefinition.differential"
+        },
+        "name" : "ExtensionStructureDefinition_Differential",
+        "description" : "This cross-version extension represents the FHIR R5 element `StructureDefinition.differential` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-StructureMap.versionAlgorithm"
         },
         "name" : "ExtensionStructureMap_VersionAlgorithm",
@@ -11889,6 +10537,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-StructureMap.structure"
+        },
+        "name" : "ExtensionStructureMap_Structure",
+        "description" : "This cross-version extension represents the FHIR R5 element `StructureMap.structure` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-StructureMap.const"
         },
         "name" : "ExtensionStructureMap_Const",
@@ -11902,23 +10563,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-StructureMap.gro.rul.tar.parameter"
+          "reference" : "StructureDefinition/ext-R5-StructureMap.group"
         },
-        "name" : "ExtensionStructureMap_Group_Rule_Target_Parameter",
-        "description" : "This cross-version extension represents the FHIR R5 element `StructureMap.group.rule.target.parameter` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-StructureMap.gro.rul.dep.parameter"
-        },
-        "name" : "ExtensionStructureMap_Group_Rule_Dependent_Parameter",
-        "description" : "This cross-version extension represents the FHIR R5 element `StructureMap.group.rule.dependent.parameter` for use in FHIR R4."
+        "name" : "ExtensionStructureMap_Group",
+        "description" : "This cross-version extension represents the FHIR R5 element `StructureMap.group` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12084,6 +10732,19 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Substance.ingredient"
+        },
+        "name" : "ExtensionSubstance_Ingredient",
+        "description" : "This cross-version extension represents the FHIR R5 element `Substance.ingredient` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.version"
         },
         "name" : "ExtensionSubstanceDefinition_Version",
@@ -12136,10 +10797,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.moi.measurementType"
+          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.moiety"
         },
-        "name" : "ExtensionSubstanceDefinition_Moiety_MeasurementType",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.moiety.measurementType` for use in FHIR R4."
+        "name" : "ExtensionSubstanceDefinition_Moiety",
+        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.moiety` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12188,10 +10849,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.str.molecularWeight"
+          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.structure"
         },
-        "name" : "ExtensionSubstanceDefinition_Structure_MolecularWeight",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.structure.molecularWeight` for use in FHIR R4."
+        "name" : "ExtensionSubstanceDefinition_Structure",
+        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.structure` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12201,10 +10862,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.str.technique"
+          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.code"
         },
-        "name" : "ExtensionSubstanceDefinition_Structure_Technique",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.structure.technique` for use in FHIR R4."
+        "name" : "ExtensionSubstanceDefinition_Code",
+        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.code` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12214,10 +10875,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.str.rep.format"
+          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.name"
         },
-        "name" : "ExtensionSubstanceDefinition_Structure_Representation_Format",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.structure.representation.format` for use in FHIR R4."
+        "name" : "ExtensionSubstanceDefinition_Name",
+        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.name` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12227,75 +10888,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.cod.note"
+          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.relationship"
         },
-        "name" : "ExtensionSubstanceDefinition_Code_Note",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.code.note` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.nam.language"
-        },
-        "name" : "ExtensionSubstanceDefinition_Name_Language",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.name.language` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.rel.substanceDefinition"
-        },
-        "name" : "ExtensionSubstanceDefinition_Relationship_SubstanceDefinition",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.relationship.substanceDefinition[x]` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.rel.type"
-        },
-        "name" : "ExtensionSubstanceDefinition_Relationship_Type",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.relationship.type` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.rel.ratioHighLimitAmount"
-        },
-        "name" : "ExtensionSubstanceDefinition_Relationship_RatioHighLimitAmount",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.relationship.ratioHighLimitAmount` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SubstanceDefinition.rel.comparator"
-        },
-        "name" : "ExtensionSubstanceDefinition_Relationship_Comparator",
-        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.relationship.comparator` for use in FHIR R4."
+        "name" : "ExtensionSubstanceDefinition_Relationship",
+        "description" : "This cross-version extension represents the FHIR R5 element `SubstanceDefinition.relationship` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12396,10 +10992,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-SupplyDelivery.sup.item"
+          "reference" : "StructureDefinition/ext-R5-SupplyDelivery.suppliedItem"
         },
-        "name" : "ExtensionSupplyDelivery_SuppliedItem_Item",
-        "description" : "This cross-version extension represents the FHIR R5 element `SupplyDelivery.suppliedItem.item[x]` for use in FHIR R4."
+        "name" : "ExtensionSupplyDelivery_SuppliedItem",
+        "description" : "This cross-version extension represents the FHIR R5 element `SupplyDelivery.suppliedItem` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-SupplyRequest.parameter"
+        },
+        "name" : "ExtensionSupplyRequest_Parameter",
+        "description" : "This cross-version extension represents the FHIR R5 element `SupplyRequest.parameter` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12474,10 +11083,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Task.inp.value"
+          "reference" : "StructureDefinition/ext-R5-Task.restriction"
         },
-        "name" : "ExtensionTask_Input_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `Task.input.value[x]` for use in FHIR R4."
+        "name" : "ExtensionTask_Restriction",
+        "description" : "This cross-version extension represents the FHIR R5 element `Task.restriction` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12487,10 +11096,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-Task.out.value"
+          "reference" : "StructureDefinition/ext-R5-Task.input"
         },
-        "name" : "ExtensionTask_Output_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `Task.output.value[x]` for use in FHIR R4."
+        "name" : "ExtensionTask_Input",
+        "description" : "This cross-version extension represents the FHIR R5 element `Task.input` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-Task.output"
+        },
+        "name" : "ExtensionTask_Output",
+        "description" : "This cross-version extension represents the FHIR R5 element `Task.output` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12526,10 +11148,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TC.cod.ver.language"
+          "reference" : "StructureDefinition/ext-R5-TerminologyCapabilities.software"
         },
-        "name" : "ExtensionTerminologyCapabilities_CodeSystem_Version_Language",
-        "description" : "This cross-version extension represents the FHIR R5 element `TerminologyCapabilities.codeSystem.version.language` for use in FHIR R4."
+        "name" : "ExtensionTerminologyCapabilities_Software",
+        "description" : "This cross-version extension represents the FHIR R5 element `TerminologyCapabilities.software` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12539,10 +11161,36 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TC.cod.content"
+          "reference" : "StructureDefinition/ext-R5-TerminologyCapabilities.implementation"
         },
-        "name" : "ExtensionTerminologyCapabilities_CodeSystem_Content",
-        "description" : "This cross-version extension represents the FHIR R5 element `TerminologyCapabilities.codeSystem.content` for use in FHIR R4."
+        "name" : "ExtensionTerminologyCapabilities_Implementation",
+        "description" : "This cross-version extension represents the FHIR R5 element `TerminologyCapabilities.implementation` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-TerminologyCapabilities.codeSystem"
+        },
+        "name" : "ExtensionTerminologyCapabilities_CodeSystem",
+        "description" : "This cross-version extension represents the FHIR R5 element `TerminologyCapabilities.codeSystem` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-TerminologyCapabilities.expansion"
+        },
+        "name" : "ExtensionTerminologyCapabilities_Expansion",
+        "description" : "This cross-version extension represents the FHIR R5 element `TerminologyCapabilities.expansion` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12565,6 +11213,45 @@
           }
         ],
         "reference" : {
+          "reference" : "StructureDefinition/ext-R5-TerminologyCapabilities.validateCode"
+        },
+        "name" : "ExtensionTerminologyCapabilities_ValidateCode",
+        "description" : "This cross-version extension represents the FHIR R5 element `TerminologyCapabilities.validateCode` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-TerminologyCapabilities.translation"
+        },
+        "name" : "ExtensionTerminologyCapabilities_Translation",
+        "description" : "This cross-version extension represents the FHIR R5 element `TerminologyCapabilities.translation` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-TerminologyCapabilities.closure"
+        },
+        "name" : "ExtensionTerminologyCapabilities_Closure",
+        "description" : "This cross-version extension represents the FHIR R5 element `TerminologyCapabilities.closure` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
           "reference" : "StructureDefinition/ext-R5-TestPlan"
         },
         "name" : "ExtensionTestPlan",
@@ -12578,10 +11265,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestReport.set.act.ass.requirement"
+          "reference" : "StructureDefinition/ext-R5-TestReport.participant"
         },
-        "name" : "ExtensionTestReport_Setup_Action_Assert_Requirement",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestReport.setup.action.assert.requirement` for use in FHIR R4."
+        "name" : "ExtensionTestReport_Participant",
+        "description" : "This cross-version extension represents the FHIR R5 element `TestReport.participant` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12591,10 +11278,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestReport.tes.action"
+          "reference" : "StructureDefinition/ext-R5-TestReport.setup"
         },
-        "name" : "ExtensionTestReport_Test_Action",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestReport.test.action` for use in FHIR R4."
+        "name" : "ExtensionTestReport_Setup",
+        "description" : "This cross-version extension represents the FHIR R5 element `TestReport.setup` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-TestReport.test"
+        },
+        "name" : "ExtensionTestReport_Test",
+        "description" : "This cross-version extension represents the FHIR R5 element `TestReport.test` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12643,10 +11343,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestScript.ori.url"
+          "reference" : "StructureDefinition/ext-R5-TestScript.origin"
         },
-        "name" : "ExtensionTestScript_Origin_Url",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.origin.url` for use in FHIR R4."
+        "name" : "ExtensionTestScript_Origin",
+        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.origin` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12656,10 +11356,23 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestScript.des.url"
+          "reference" : "StructureDefinition/ext-R5-TestScript.destination"
         },
-        "name" : "ExtensionTestScript_Destination_Url",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.destination.url` for use in FHIR R4."
+        "name" : "ExtensionTestScript_Destination",
+        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.destination` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-TestScript.metadata"
+        },
+        "name" : "ExtensionTestScript_Metadata",
+        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.metadata` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12682,10 +11395,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestScript.set.act.ass.dMC"
+          "reference" : "StructureDefinition/ext-R5-TestScript.fixture"
         },
-        "name" : "ExtensionTestScript_Setup_Action_Assert_DefaultManualCompletion",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.setup.action.assert.defaultManualCompletion` for use in FHIR R4."
+        "name" : "ExtensionTestScript_Fixture",
+        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.fixture` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12695,10 +11408,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestScript.set.act.ass.operator"
+          "reference" : "StructureDefinition/ext-R5-TestScript.variable"
         },
-        "name" : "ExtensionTestScript_Setup_Action_Assert_Operator",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.setup.action.assert.operator` for use in FHIR R4."
+        "name" : "ExtensionTestScript_Variable",
+        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.variable` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12708,10 +11421,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestScript.set.act.ass.response"
+          "reference" : "StructureDefinition/ext-R5-TestScript.setup"
         },
-        "name" : "ExtensionTestScript_Setup_Action_Assert_Response",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.setup.action.assert.response` for use in FHIR R4."
+        "name" : "ExtensionTestScript_Setup",
+        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.setup` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12721,36 +11434,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestScript.set.act.ass.stopTestOnFail"
+          "reference" : "StructureDefinition/ext-R5-TestScript.test"
         },
-        "name" : "ExtensionTestScript_Setup_Action_Assert_StopTestOnFail",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.setup.action.assert.stopTestOnFail` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestScript.set.act.ass.requirement"
-        },
-        "name" : "ExtensionTestScript_Setup_Action_Assert_Requirement",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.setup.action.assert.requirement` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-TestScript.tes.action"
-        },
-        "name" : "ExtensionTestScript_Test_Action",
-        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.test.action` for use in FHIR R4."
+        "name" : "ExtensionTestScript_Test",
+        "description" : "This cross-version extension represents the FHIR R5 element `TestScript.test` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12929,10 +11616,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.com.inc.con.des.additionalUse"
+          "reference" : "StructureDefinition/ext-R5-ValueSet.compose"
         },
-        "name" : "ExtensionValueSet_Compose_Include_Concept_Designation_AdditionalUse",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.compose.include.concept.designation.additionalUse` for use in FHIR R4."
+        "name" : "ExtensionValueSet_Compose",
+        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.compose` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -12942,88 +11629,10 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.com.inc.fil.op"
+          "reference" : "StructureDefinition/ext-R5-ValueSet.expansion"
         },
-        "name" : "ExtensionValueSet_Compose_Include_Filter_Op",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.compose.include.filter.op` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.com.inc.copyright"
-        },
-        "name" : "ExtensionValueSet_Compose_Include_Copyright",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.compose.include.copyright` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.com.exclude"
-        },
-        "name" : "ExtensionValueSet_Compose_Exclude",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.compose.exclude` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.com.property"
-        },
-        "name" : "ExtensionValueSet_Compose_Property",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.compose.property` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.exp.next"
-        },
-        "name" : "ExtensionValueSet_Expansion_Next",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.expansion.next` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.exp.property"
-        },
-        "name" : "ExtensionValueSet_Expansion_Property",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.expansion.property` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.exp.con.property"
-        },
-        "name" : "ExtensionValueSet_Expansion_Contains_Property",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.expansion.contains.property` for use in FHIR R4."
+        "name" : "ExtensionValueSet_Expansion",
+        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.expansion` for use in FHIR R4."
       },
       {
         "extension" : [
@@ -13046,62 +11655,62 @@
           }
         ],
         "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.exp.con.des.language"
-        },
-        "name" : "ExtensionValueSet_Expansion_Contains_Designation_Language",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.expansion.contains.designation.language` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.exp.con.des.use"
-        },
-        "name" : "ExtensionValueSet_Expansion_Contains_Designation_Use",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.expansion.contains.designation.use` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.exp.con.des.additionalUse"
-        },
-        "name" : "ExtensionValueSet_Expansion_Contains_Designation_AdditionalUse",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.expansion.contains.designation.additionalUse` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
-          "reference" : "StructureDefinition/ext-R5-ValueSet.exp.con.des.value"
-        },
-        "name" : "ExtensionValueSet_Expansion_Contains_Designation_Value",
-        "description" : "This cross-version extension represents the FHIR R5 element `ValueSet.expansion.contains.designation.value` for use in FHIR R4."
-      },
-      {
-        "extension" : [
-          {
-            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString" : "StructureDefinition:extension"
-          }
-        ],
-        "reference" : {
           "reference" : "StructureDefinition/ext-R5-VerificationResult.status"
         },
         "name" : "ExtensionVerificationResult_Status",
         "description" : "This cross-version extension represents the FHIR R5 element `VerificationResult.status` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-VerificationResult.primarySource"
+        },
+        "name" : "ExtensionVerificationResult_PrimarySource",
+        "description" : "This cross-version extension represents the FHIR R5 element `VerificationResult.primarySource` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-VerificationResult.attestation"
+        },
+        "name" : "ExtensionVerificationResult_Attestation",
+        "description" : "This cross-version extension represents the FHIR R5 element `VerificationResult.attestation` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-VerificationResult.validator"
+        },
+        "name" : "ExtensionVerificationResult_Validator",
+        "description" : "This cross-version extension represents the FHIR R5 element `VerificationResult.validator` for use in FHIR R4."
+      },
+      {
+        "extension" : [
+          {
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString" : "StructureDefinition:extension"
+          }
+        ],
+        "reference" : {
+          "reference" : "StructureDefinition/ext-R5-VisionPrescription.lensSpecification"
+        },
+        "name" : "ExtensionVisionPrescription_LensSpecification",
+        "description" : "This cross-version extension represents the FHIR R5 element `VisionPrescription.lensSpecification` for use in FHIR R4."
       },
       {
         "extension" : [

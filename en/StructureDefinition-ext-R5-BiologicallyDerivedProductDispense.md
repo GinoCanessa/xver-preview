@@ -1,4 +1,4 @@
-# ExtensionBiologicallyDerivedProductDispense - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionBiologicallyDerivedProductDispense - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.BiologicallyDerivedProductDispense` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
   "title" : "Cross-version Extension `R5.BiologicallyDerivedProductDispense` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "basedOn"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.basedOn"
       },
       {
         "id" : "Extension.extension:basedOn.value[x]",
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "partOf"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.partOf"
       },
       {
         "id" : "Extension.extension:partOf.value[x]",
@@ -301,7 +301,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -346,7 +346,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "originRelationshipType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.originRelationshipType"
       },
       {
         "id" : "Extension.extension:originRelationshipType.value[x]",
@@ -391,7 +391,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "product"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.product"
       },
       {
         "id" : "Extension.extension:product.value[x]",
@@ -440,7 +440,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "patient"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.patient"
       },
       {
         "id" : "Extension.extension:patient.value[x]",
@@ -489,7 +489,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "matchStatus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.matchStatus"
       },
       {
         "id" : "Extension.extension:matchStatus.value[x]",
@@ -570,7 +570,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "function"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.performer.function"
       },
       {
         "id" : "Extension.extension:performer.extension:function.value[x]",
@@ -615,7 +615,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.performer.actor"
       },
       {
         "id" : "Extension.extension:performer.extension:actor.value[x]",
@@ -687,7 +687,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "location"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.location"
       },
       {
         "id" : "Extension.extension:location.value[x]",
@@ -736,7 +736,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "quantity"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.quantity"
       },
       {
         "id" : "Extension.extension:quantity.value[x]",
@@ -784,7 +784,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "preparedDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.preparedDate"
       },
       {
         "id" : "Extension.extension:preparedDate.value[x]",
@@ -829,7 +829,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "whenHandedOver"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.whenHandedOver"
       },
       {
         "id" : "Extension.extension:whenHandedOver.value[x]",
@@ -874,7 +874,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "destination"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.destination"
       },
       {
         "id" : "Extension.extension:destination.value[x]",
@@ -923,7 +923,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.note"
       },
       {
         "id" : "Extension.extension:note.value[x]",
@@ -968,7 +968,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Biological
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "usageInstruction"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProductDispense.usageInstruction"
       },
       {
         "id" : "Extension.extension:usageInstruction.value[x]",

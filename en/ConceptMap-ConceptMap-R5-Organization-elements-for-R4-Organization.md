@@ -1,4 +1,4 @@
-# ConceptMapR5OrganizationElementsForR4Organization - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5OrganizationElementsForR4Organization - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5OrganizationElementsForR4Organization 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1003655-06:00",
+  "date" : "2026-02-17T14:42:27.4435839-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Organization` is representable via FHIR R4 Resource `Organization`.\nElement `Organization` is mapped to FHIR R4 element `Organization`."
+              "comment" : "FHIR R5 Resource `Organization` is representable via FHIR R4 Resource `Organization`.\nElement `Organization` has is mapped to FHIR R4 element `Organization`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.meta` is mapped to FHIR R4 element `Organization.meta`."
+              "comment" : "Element `Organization.meta` has is mapped to FHIR R4 element `Organization.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.implicitRules` is mapped to FHIR R4 element `Organization.implicitRules`."
+              "comment" : "Element `Organization.implicitRules` has is mapped to FHIR R4 element `Organization.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.language` is mapped to FHIR R4 element `Organization.language`."
+              "comment" : "Element `Organization.language` has is mapped to FHIR R4 element `Organization.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.text` is mapped to FHIR R4 element `Organization.text`."
+              "comment" : "Element `Organization.text` has is mapped to FHIR R4 element `Organization.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.contained` is mapped to FHIR R4 element `Organization.contained`."
+              "comment" : "Element `Organization.contained` has is mapped to FHIR R4 element `Organization.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.identifier` is mapped to FHIR R4 element `Organization.identifier`."
+              "comment" : "Element `Organization.identifier` has is mapped to FHIR R4 element `Organization.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.active",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.active` is mapped to FHIR R4 element `Organization.active`."
+              "comment" : "Element `Organization.active` has is mapped to FHIR R4 element `Organization.active`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.type` is mapped to FHIR R4 element `Organization.type`."
+              "comment" : "Element `Organization.type` has is mapped to FHIR R4 element `Organization.type`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.name` is mapped to FHIR R4 element `Organization.name`."
+              "comment" : "Element `Organization.name` has is mapped to FHIR R4 element `Organization.name`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.alias",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.alias` is mapped to FHIR R4 element `Organization.alias`."
+              "comment" : "Element `Organization.alias` has is mapped to FHIR R4 element `Organization.alias`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.description` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`."
+              "comment" : "Element `Organization.description` has a context of Organization based on following the parent source element upwards and mapping to `Organization`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.contact` is mapped to FHIR R4 element `Organization.contact`."
+              "comment" : "Element `Organization.contact` has is mapped to FHIR R4 element `Organization.contact`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.partOf` is mapped to FHIR R4 element `Organization.partOf`."
+              "comment" : "Element `Organization.partOf` has is mapped to FHIR R4 element `Organization.partOf`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.endpoint` is mapped to FHIR R4 element `Organization.endpoint`."
+              "comment" : "Element `Organization.endpoint` has is mapped to FHIR R4 element `Organization.endpoint`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.qualification` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`."
+              "comment" : "Element `Organization.qualification` has a context of Organization based on following the parent source element upwards and mapping to `Organization`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.identifier` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`."
+              "comment" : "Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.identifier` has a context of Organization based on following the parent source element upwards and mapping to `Organization`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.code` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`."
+              "comment" : "Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.code` has a context of Organization based on following the parent source element upwards and mapping to `Organization`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.period` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`."
+              "comment" : "Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.period` has a context of Organization based on following the parent source element upwards and mapping to `Organization`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Organization#Organization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Organization.qualification.issuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Organization.qualification.issuer` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`."
+              "comment" : "Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Organization.qualification.issuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Organization.qualification.issuer` has a context of Organization based on following the parent source element upwards and mapping to `Organization`."
             }
           ]
         }

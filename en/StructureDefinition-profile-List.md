@@ -1,4 +1,4 @@
-# ProfileList - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileList - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileList 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 List content to be represented via FHIR R4 
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.MeasureReport.group` for use in FHIR R4](StructureDefinition-ext-R5-MeasureReport.group.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-List)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-List.csv)
   "title" : "Cross-version Profile for R5.List for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1852707-06:00",
+  "date" : "2026-02-17T14:42:26.8371117-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -165,7 +165,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-List.csv)
         "sliceName" : "source",
         "short" : "Cross-version extension for List.source from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `List.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `List.source` is mapped to FHIR R4 element `List.source`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `List.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `List.source` has is mapped to FHIR R4 element `List.source`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -178,6 +178,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-List.csv)
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "List.entry.extension",
+        "path" : "List.entry.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "List.entry.extension:entry",
+        "path" : "List.entry.extension",
+        "sliceName" : "entry",
+        "short" : "Cross-version extension for List.entry from R5 for use in FHIR R4",
+        "comment" : "Element `List.entry` has is mapped to FHIR R4 element `List.entry`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-List.entry|0.0.1-snapshot-3"
             ]
           }
         ]

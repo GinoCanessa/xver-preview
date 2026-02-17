@@ -1,4 +1,4 @@
-# ConceptMapR5AgeElementsForR4Age - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5AgeElementsForR4Age - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5AgeElementsForR4Age 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.4540203-06:00",
+  "date" : "2026-02-17T14:42:26.9737821-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Age` is representable via FHIR R4 extensions.\nElement `Age` is mapped to FHIR R4 element `Age`."
+              "comment" : "FHIR R5 ComplexType `Age` is representable via FHIR R4 extensions.\nElement `Age` has is mapped to FHIR R4 element `Age`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Age.value` is mapped to FHIR R4 element `Age.value`."
+              "comment" : "Element `Age.value` has is mapped to FHIR R4 element `Age.value`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age.comparator",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Age.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Age.comparator` is mapped to FHIR R4 element `Age.comparator`."
+              "comment" : "Note that the target element context `Age.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Age.comparator` has is mapped to FHIR R4 element `Age.comparator`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `Age.unit` is mapped to FHIR R4 element `Age.unit`."
+              "comment" : "Element `Age.unit` has is mapped to FHIR R4 element `Age.unit`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Age.system` is mapped to FHIR R4 element `Age.system`."
+              "comment" : "Element `Age.system` has is mapped to FHIR R4 element `Age.system`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Age#Age.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Age.code` is mapped to FHIR R4 element `Age.code`."
+              "comment" : "Element `Age.code` has is mapped to FHIR R4 element `Age.code`, but has no comparisons."
             }
           ]
         }

@@ -1,4 +1,4 @@
-# ConceptMapR5ProcedureElementsForR4Procedure - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ProcedureElementsForR4Procedure - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ProcedureElementsForR4Procedure 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1493323-06:00",
+  "date" : "2026-02-17T14:42:27.484984-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Procedure` is representable via FHIR R4 Resource `Procedure`.\nElement `Procedure` is mapped to FHIR R4 element `Procedure`."
+              "comment" : "FHIR R5 Resource `Procedure` is representable via FHIR R4 Resource `Procedure`.\nElement `Procedure` has is mapped to FHIR R4 element `Procedure`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.meta` is mapped to FHIR R4 element `Procedure.meta`."
+              "comment" : "Element `Procedure.meta` has is mapped to FHIR R4 element `Procedure.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.implicitRules` is mapped to FHIR R4 element `Procedure.implicitRules`."
+              "comment" : "Element `Procedure.implicitRules` has is mapped to FHIR R4 element `Procedure.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.language` is mapped to FHIR R4 element `Procedure.language`."
+              "comment" : "Element `Procedure.language` has is mapped to FHIR R4 element `Procedure.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.text` is mapped to FHIR R4 element `Procedure.text`."
+              "comment" : "Element `Procedure.text` has is mapped to FHIR R4 element `Procedure.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.contained` is mapped to FHIR R4 element `Procedure.contained`."
+              "comment" : "Element `Procedure.contained` has is mapped to FHIR R4 element `Procedure.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.identifier` is mapped to FHIR R4 element `Procedure.identifier`."
+              "comment" : "Element `Procedure.identifier` has is mapped to FHIR R4 element `Procedure.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.instantiatesCanonical",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.instantiatesCanonical` is mapped to FHIR R4 element `Procedure.instantiatesCanonical`."
+              "comment" : "Element `Procedure.instantiatesCanonical` has is mapped to FHIR R4 element `Procedure.instantiatesCanonical`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.instantiatesUri",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.instantiatesUri` is mapped to FHIR R4 element `Procedure.instantiatesUri`."
+              "comment" : "Element `Procedure.instantiatesUri` has is mapped to FHIR R4 element `Procedure.instantiatesUri`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.basedOn` is mapped to FHIR R4 element `Procedure.basedOn`."
+              "comment" : "Element `Procedure.basedOn` has is mapped to FHIR R4 element `Procedure.basedOn`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.partOf` is mapped to FHIR R4 element `Procedure.partOf`."
+              "comment" : "Element `Procedure.partOf` has is mapped to FHIR R4 element `Procedure.partOf`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.status` is mapped to FHIR R4 element `Procedure.status`."
+              "comment" : "Element `Procedure.status` has is mapped to FHIR R4 element `Procedure.status`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.statusReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.statusReason` is mapped to FHIR R4 element `Procedure.statusReason`."
+              "comment" : "Element `Procedure.statusReason` has is mapped to FHIR R4 element `Procedure.statusReason`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.category` is mapped to FHIR R4 element `Procedure.category`."
+              "comment" : "Element `Procedure.category` has is mapped to FHIR R4 element `Procedure.category`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.code` is mapped to FHIR R4 element `Procedure.code`."
+              "comment" : "Element `Procedure.code` has is mapped to FHIR R4 element `Procedure.code`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.subject` is mapped to FHIR R4 element `Procedure.subject`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.subject` has is mapped to FHIR R4 element `Procedure.subject`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.focus` is will have a context of Procedure based on following the parent source element upwards and mapping to `Procedure`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.focus` has a context of Procedure based on following the parent source element upwards and mapping to `Procedure`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.encounter` is mapped to FHIR R4 element `Procedure.encounter`."
+              "comment" : "Element `Procedure.encounter` has is mapped to FHIR R4 element `Procedure.encounter`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.performed[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`.\nElement `Procedure.occurrence[x]` is mapped to FHIR R4 element `Procedure.performed[x]`.\nNote that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`."
+              "comment" : "Note that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`.\nElement `Procedure.occurrence[x]` has is mapped to FHIR R4 element `Procedure.performed[x]`, but has no comparisons.\nNote that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.recorded` is will have a context of Procedure based on following the parent source element upwards and mapping to `Procedure`."
+              "comment" : "Element `Procedure.recorded` has a context of Procedure based on following the parent source element upwards and mapping to `Procedure`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.recorder",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.recorder` is mapped to FHIR R4 element `Procedure.recorder`."
+              "comment" : "Element `Procedure.recorder` has is mapped to FHIR R4 element `Procedure.recorder`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.reported[x]` is will have a context of Procedure based on following the parent source element upwards and mapping to `Procedure`."
+              "comment" : "Element `Procedure.reported[x]` has a context of Procedure based on following the parent source element upwards and mapping to `Procedure`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.performer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.performer` is mapped to FHIR R4 element `Procedure.performer`."
+              "comment" : "Element `Procedure.performer` has is mapped to FHIR R4 element `Procedure.performer`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.performer.function",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.performer.function` is mapped to FHIR R4 element `Procedure.performer.function`."
+              "comment" : "Element `Procedure.performer.function` is part of an existing definition because parent element `Procedure.performer` requires a cross-version extension.\nElement `Procedure.performer.function` has is mapped to FHIR R4 element `Procedure.performer.function`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.performer.actor",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.performer.actor` is mapped to FHIR R4 element `Procedure.performer.actor`."
+              "comment" : "Element `Procedure.performer.actor` is part of an existing definition because parent element `Procedure.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.performer.actor` has is mapped to FHIR R4 element `Procedure.performer.actor`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.performer.onBehalfOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.performer.onBehalfOf` is mapped to FHIR R4 element `Procedure.performer.onBehalfOf`."
+              "comment" : "Element `Procedure.performer.onBehalfOf` is part of an existing definition because parent element `Procedure.performer` requires a cross-version extension.\nElement `Procedure.performer.onBehalfOf` has is mapped to FHIR R4 element `Procedure.performer.onBehalfOf`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.performer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.performer.period` is will have a context of Procedure.performer based on following the parent source element upwards and mapping to `Procedure`."
+              "comment" : "Element `Procedure.performer.period` is part of an existing definition because parent element `Procedure.performer` requires a cross-version extension.\nElement `Procedure.performer.period` has a context of Procedure.performer based on following the parent source element upwards and mapping to `Procedure`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.location` is mapped to FHIR R4 element `Procedure.location`."
+              "comment" : "Element `Procedure.location` has is mapped to FHIR R4 element `Procedure.location`, but has no comparisons."
             }
           ]
         },
@@ -393,12 +393,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.reason` is mapped to FHIR R4 element `Procedure.reasonCode`.\nElement `Procedure.reason` is mapped to FHIR R4 element `Procedure.reasonReference`."
+              "comment" : "Element `Procedure.reason` has is mapped to FHIR R4 element `Procedure.reasonCode`, but has no comparisons.\nElement `Procedure.reason` has is mapped to FHIR R4 element `Procedure.reasonReference`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.reason` is mapped to FHIR R4 element `Procedure.reasonCode`.\nElement `Procedure.reason` is mapped to FHIR R4 element `Procedure.reasonReference`."
+              "comment" : "Element `Procedure.reason` has is mapped to FHIR R4 element `Procedure.reasonCode`, but has no comparisons.\nElement `Procedure.reason` has is mapped to FHIR R4 element `Procedure.reasonReference`, but has no comparisons."
             }
           ]
         },
@@ -409,7 +409,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.bodySite` is mapped to FHIR R4 element `Procedure.bodySite`."
+              "comment" : "Element `Procedure.bodySite` has is mapped to FHIR R4 element `Procedure.bodySite`, but has no comparisons."
             }
           ]
         },
@@ -420,7 +420,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.outcome",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.outcome` is mapped to FHIR R4 element `Procedure.outcome`."
+              "comment" : "Element `Procedure.outcome` has is mapped to FHIR R4 element `Procedure.outcome`, but has no comparisons."
             }
           ]
         },
@@ -431,7 +431,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.report",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.report` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.report` is mapped to FHIR R4 element `Procedure.report`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.report` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.report` has is mapped to FHIR R4 element `Procedure.report`, but has no comparisons."
             }
           ]
         },
@@ -442,7 +442,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.complication",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.complication` is mapped to FHIR R4 element `Procedure.complication`."
+              "comment" : "Element `Procedure.complication` has is mapped to FHIR R4 element `Procedure.complication`, but has no comparisons."
             }
           ]
         },
@@ -453,7 +453,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.followUp",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.followUp` is mapped to FHIR R4 element `Procedure.followUp`."
+              "comment" : "Element `Procedure.followUp` has is mapped to FHIR R4 element `Procedure.followUp`, but has no comparisons."
             }
           ]
         },
@@ -464,7 +464,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.note` is mapped to FHIR R4 element `Procedure.note`."
+              "comment" : "Element `Procedure.note` has is mapped to FHIR R4 element `Procedure.note`, but has no comparisons."
             }
           ]
         },
@@ -475,7 +475,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.focalDevice",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.focalDevice` is mapped to FHIR R4 element `Procedure.focalDevice`."
+              "comment" : "Element `Procedure.focalDevice` has is mapped to FHIR R4 element `Procedure.focalDevice`, but has no comparisons."
             }
           ]
         },
@@ -486,7 +486,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.focalDevice.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.focalDevice.action` is mapped to FHIR R4 element `Procedure.focalDevice.action`."
+              "comment" : "Element `Procedure.focalDevice.action` is part of an existing definition because parent element `Procedure.focalDevice` requires a cross-version extension.\nElement `Procedure.focalDevice.action` has is mapped to FHIR R4 element `Procedure.focalDevice.action`, but has no comparisons."
             }
           ]
         },
@@ -497,7 +497,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.focalDevice.manipulated",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.focalDevice.manipulated` is mapped to FHIR R4 element `Procedure.focalDevice.manipulated`."
+              "comment" : "Element `Procedure.focalDevice.manipulated` is part of an existing definition because parent element `Procedure.focalDevice` requires a cross-version extension.\nElement `Procedure.focalDevice.manipulated` has is mapped to FHIR R4 element `Procedure.focalDevice.manipulated`, but has no comparisons."
             }
           ]
         },
@@ -508,12 +508,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.usedCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.used` is mapped to FHIR R4 element `Procedure.usedReference`.\nElement `Procedure.used` is mapped to FHIR R4 element `Procedure.usedCode`."
+              "comment" : "Element `Procedure.used` has is mapped to FHIR R4 element `Procedure.usedReference`, but has no comparisons.\nElement `Procedure.used` has is mapped to FHIR R4 element `Procedure.usedCode`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure.usedReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Procedure.used` is mapped to FHIR R4 element `Procedure.usedReference`.\nElement `Procedure.used` is mapped to FHIR R4 element `Procedure.usedCode`."
+              "comment" : "Element `Procedure.used` has is mapped to FHIR R4 element `Procedure.usedReference`, but has no comparisons.\nElement `Procedure.used` has is mapped to FHIR R4 element `Procedure.usedCode`, but has no comparisons."
             }
           ]
         },
@@ -524,7 +524,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Procedure#Procedure",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.supportingInfo` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.supportingInfo` is will have a context of Procedure based on following the parent source element upwards and mapping to `Procedure`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.supportingInfo` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.supportingInfo` has a context of Procedure based on following the parent source element upwards and mapping to `Procedure`."
             }
           ]
         }

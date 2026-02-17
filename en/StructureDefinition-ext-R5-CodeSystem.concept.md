@@ -1,4 +1,4 @@
-# ExtensionCodeSystem_Concept - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionCodeSystem_Concept - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.CodeSystem.concept` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `CodeSystem.concept`
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.CodeSystem for use in FHIR R4](StructureDefinition-profile-CodeSystem.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-CodeSystem.concept)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
   "title" : "Cross-version Extension `R5.CodeSystem.concept` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `CodeSystem.concept` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`CodeSystem.concept` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `CodeSystem.concept` 0..* `BackboneElement`\n*  R4B: `CodeSystem.concept` 0..* `BackboneElement`\n*  R4: `CodeSystem.concept` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `CodeSystem.concept` is mapped to FHIR R4 element `CodeSystem.concept`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `CodeSystem.concept` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`CodeSystem.concept` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `CodeSystem.concept` 0..* `BackboneElement`\n*  R4B: `CodeSystem.concept` 0..* `BackboneElement`\n*  R4: `CodeSystem.concept` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `CodeSystem.concept` has is mapped to FHIR R4 element `CodeSystem.concept`, but has no comparisons.\nNote available implied context: `CodeSystem.concept.concept` because `CodeSystem.concept.concept` is defined as a content reference to `CodeSystem.concept`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "CodeSystem.concept"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "sliceName" : "code",
         "short" : "Code that identifies concept",
         "definition" : "A code - a text symbol - that uniquely identifies the concept within the code system.",
-        "requirements" : "Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.code` is mapped to FHIR R4 element `CodeSystem.concept.code`.",
+        "requirements" : "Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.code` has is mapped to FHIR R4 element `CodeSystem.concept.code`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "sliceName" : "display",
         "short" : "Text to display to the user",
         "definition" : "A human readable string that is the recommended default way to present this concept to a user.",
-        "requirements" : "Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.display` is mapped to FHIR R4 element `CodeSystem.concept.display`.",
+        "requirements" : "Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.display` has is mapped to FHIR R4 element `CodeSystem.concept.display`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -275,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "sliceName" : "definition",
         "short" : "Formal definition",
         "definition" : "The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept.",
-        "requirements" : "Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.definition` is mapped to FHIR R4 element `CodeSystem.concept.definition`.",
+        "requirements" : "Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.definition` has is mapped to FHIR R4 element `CodeSystem.concept.definition`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -321,7 +321,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "short" : "Additional representations for the concept",
         "definition" : "Additional representations for the concept - other languages, aliases, specialized purposes, used for particular purposes, etc.",
         "comment" : "Concepts have both a ```display``` and an array of ```designation```. The display is equivalent to a special designation with an implied ```designation.use``` of \"primary code\" and a language equal to the [Resource Language](https://hl7.org/fhir/resource..html#language).",
-        "requirements" : "Many concept definition systems support multiple representations, in multiple languages, and for multiple purposes. Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.designation` is mapped to FHIR R4 element `CodeSystem.concept.designation`.",
+        "requirements" : "Many concept definition systems support multiple representations, in multiple languages, and for multiple purposes. Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.designation` has is mapped to FHIR R4 element `CodeSystem.concept.designation`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -358,7 +358,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "short" : "Human language of the designation",
         "definition" : "The language this designation is defined for.",
         "comment" : "In the absence of a language, the resource language applies.",
-        "requirements" : "Element `CodeSystem.concept.designation.language` is mapped to FHIR R4 element `CodeSystem.concept.designation.language`.",
+        "requirements" : "Element `CodeSystem.concept.designation.language` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.language` has is mapped to FHIR R4 element `CodeSystem.concept.designation.language`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -405,7 +405,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "short" : "Details how this designation would be used",
         "definition" : "A code that details how this designation would be used.",
         "comment" : "If no use is provided, the designation can be assumed to be suitable for general display to a human user.",
-        "requirements" : "Element `CodeSystem.concept.designation.use` is mapped to FHIR R4 element `CodeSystem.concept.designation.use`.",
+        "requirements" : "Element `CodeSystem.concept.designation.use` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.use` has is mapped to FHIR R4 element `CodeSystem.concept.designation.use`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -457,7 +457,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "short" : "Additional ways how this designation would be used",
         "definition" : "Additional codes that detail how this designation would be used, if there is more than one use.",
         "comment" : "This was added rather than increasing the cardinality of .use to 0..* in order to maintain backward compatibility.",
-        "requirements" : "Element `CodeSystem.concept.designation.additionalUse` is will have a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`.",
+        "requirements" : "Element `CodeSystem.concept.designation.additionalUse` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.additionalUse` has a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -508,7 +508,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "sliceName" : "value",
         "short" : "The text value for this designation",
         "definition" : "The text value for this designation.",
-        "requirements" : "Element `CodeSystem.concept.designation.value` is mapped to FHIR R4 element `CodeSystem.concept.designation.value`.",
+        "requirements" : "Element `CodeSystem.concept.designation.value` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.value` has is mapped to FHIR R4 element `CodeSystem.concept.designation.value`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -576,7 +576,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "sliceName" : "property",
         "short" : "Property value for the concept",
         "definition" : "A property value for this concept.",
-        "requirements" : "Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.property` is mapped to FHIR R4 element `CodeSystem.concept.property`.",
+        "requirements" : "Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.property` has is mapped to FHIR R4 element `CodeSystem.concept.property`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -612,7 +612,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "sliceName" : "code",
         "short" : "Reference to CodeSystem.property.code",
         "definition" : "A code that is a reference to CodeSystem.property.code.",
-        "requirements" : "Element `CodeSystem.concept.property.code` is mapped to FHIR R4 element `CodeSystem.concept.property.code`.",
+        "requirements" : "Element `CodeSystem.concept.property.code` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.\nElement `CodeSystem.concept.property.code` has is mapped to FHIR R4 element `CodeSystem.concept.property.code`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -657,7 +657,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "sliceName" : "value",
         "short" : "Value of the property for this concept",
         "definition" : "The value of this property.",
-        "requirements" : "Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.\nElement `CodeSystem.concept.property.value[x]` is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]`.\nNote that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.",
+        "requirements" : "Element `CodeSystem.concept.property.value[x]` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.\nNote that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.\nElement `CodeSystem.concept.property.value[x]` has is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]`, but has no comparisons.\nNote that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -743,7 +743,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CodeSystem
         "sliceName" : "concept",
         "short" : "Child Concepts (is-a/contains/categorizes)",
         "definition" : "Defines children of a concept to produce a hierarchy of concepts. The nature of the relationships is variable (is-a/contains/categorizes) - see hierarchyMeaning.",
-        "requirements" : "Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.concept` is mapped to FHIR R4 element `CodeSystem.concept.concept`.",
+        "requirements" : "Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.concept` has is mapped to FHIR R4 element `CodeSystem.concept.concept`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

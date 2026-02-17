@@ -1,4 +1,4 @@
-# ProfileImagingStudy - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileImagingStudy - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileImagingStudy 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ImagingSt
   "title" : "Cross-version Profile for R5.ImagingStudy for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1529318-06:00",
+  "date" : "2026-02-17T14:42:26.8245204-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -180,7 +180,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ImagingSt
         "sliceName" : "partOf",
         "short" : "Cross-version extension for ImagingStudy.partOf from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Procedure in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImagingStudy.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ImagingStudy.partOf` is will have a context of ImagingStudy based on following the parent source element upwards and mapping to `ImagingStudy`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImagingStudy.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ImagingStudy.partOf` has a context of ImagingStudy based on following the parent source element upwards and mapping to `ImagingStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -223,7 +223,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ImagingSt
         "path" : "ImagingStudy.modality.extension",
         "sliceName" : "modality",
         "short" : "Cross-version extension for ImagingStudy.modality from R5 for use in FHIR R4",
-        "comment" : "Element `ImagingStudy.modality` is mapped to FHIR R4 element `ImagingStudy.modality`.",
+        "comment" : "Element `ImagingStudy.modality` has is mapped to FHIR R4 element `ImagingStudy.modality`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -241,51 +241,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ImagingSt
         ]
       },
       {
-        "id" : "ImagingStudy.series.modality.extension",
-        "path" : "ImagingStudy.series.modality.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1,
-        "max" : "*",
-        "base" : {
-          "path" : "ImagingStudy.series.modality",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ImagingStudy.series.modality.extension:modality",
-        "path" : "ImagingStudy.series.modality.extension",
-        "sliceName" : "modality",
-        "short" : "Cross-version extension for ImagingStudy.series.modality from R5 for use in FHIR R4",
-        "comment" : "Element `ImagingStudy.series.modality` is mapped to FHIR R4 element `ImagingStudy.series.modality`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.modality|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ImagingStudy.series.bodySite.extension",
-        "path" : "ImagingStudy.series.bodySite.extension",
+        "id" : "ImagingStudy.series.extension",
+        "path" : "ImagingStudy.series.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -299,63 +256,20 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ImagingSt
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "ImagingStudy.series.bodySite",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "ImagingStudy.series.bodySite.extension:bodySite",
-        "path" : "ImagingStudy.series.bodySite.extension",
-        "sliceName" : "bodySite",
-        "short" : "Cross-version extension for ImagingStudy.series.bodySite from R5 for use in FHIR R4",
-        "comment" : "Element `ImagingStudy.series.bodySite` is mapped to FHIR R4 element `ImagingStudy.series.bodySite`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.bodySite|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ImagingStudy.series.laterality.extension",
-        "path" : "ImagingStudy.series.laterality.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
+        "id" : "ImagingStudy.series.extension:series",
+        "path" : "ImagingStudy.series.extension",
+        "sliceName" : "series",
+        "short" : "Cross-version extension for ImagingStudy.series from R5 for use in FHIR R4",
+        "comment" : "Element `ImagingStudy.series` has is mapped to FHIR R4 element `ImagingStudy.series`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "ImagingStudy.series.laterality",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ImagingStudy.series.laterality.extension:laterality",
-        "path" : "ImagingStudy.series.laterality.extension",
-        "sliceName" : "laterality",
-        "short" : "Cross-version extension for ImagingStudy.series.laterality from R5 for use in FHIR R4",
-        "comment" : "Element `ImagingStudy.series.laterality` is mapped to FHIR R4 element `ImagingStudy.series.laterality`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
           "max" : "*"
@@ -364,51 +278,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ImagingSt
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.laterality|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ImagingStudy.series.performer.actor.extension",
-        "path" : "ImagingStudy.series.performer.actor.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1,
-        "max" : "*",
-        "base" : {
-          "path" : "ImagingStudy.series.performer.actor",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ImagingStudy.series.performer.actor.extension:actor",
-        "path" : "ImagingStudy.series.performer.actor.extension",
-        "sliceName" : "actor",
-        "short" : "Cross-version extension for ImagingStudy.series.performer.actor from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/HealthcareService in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImagingStudy.series.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ImagingStudy.series.performer.actor` is mapped to FHIR R4 element `ImagingStudy.series.performer.actor`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series|0.0.1-snapshot-3"
             ]
           }
         ]

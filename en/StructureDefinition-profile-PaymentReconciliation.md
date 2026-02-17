@@ -1,4 +1,4 @@
-# ProfilePaymentReconciliation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfilePaymentReconciliation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfilePaymentReconciliation 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
   "title" : "Cross-version Profile for R5.PaymentReconciliation for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2656992-06:00",
+  "date" : "2026-02-17T14:42:26.8754247-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "type",
         "short" : "Cross-version extension for PaymentReconciliation.type from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.type` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.type` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "kind",
         "short" : "Cross-version extension for PaymentReconciliation.kind from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.kind` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.kind` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "issuerType",
         "short" : "Cross-version extension for PaymentReconciliation.issuerType from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.issuerType` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.issuerType` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "method",
         "short" : "Cross-version extension for PaymentReconciliation.method from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.method` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.method` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -262,7 +262,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "cardBrand",
         "short" : "Cross-version extension for PaymentReconciliation.cardBrand from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.cardBrand` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.cardBrand` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "accountNumber",
         "short" : "Cross-version extension for PaymentReconciliation.accountNumber from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.accountNumber` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.accountNumber` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -306,7 +306,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "expirationDate",
         "short" : "Cross-version extension for PaymentReconciliation.expirationDate from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.expirationDate` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.expirationDate` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -328,7 +328,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "processor",
         "short" : "Cross-version extension for PaymentReconciliation.processor from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.processor` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.processor` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -350,7 +350,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "referenceNumber",
         "short" : "Cross-version extension for PaymentReconciliation.referenceNumber from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.referenceNumber` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.referenceNumber` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -372,7 +372,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "authorization",
         "short" : "Cross-version extension for PaymentReconciliation.authorization from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.authorization` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.authorization` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -394,7 +394,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "tenderedAmount",
         "short" : "Cross-version extension for PaymentReconciliation.tenderedAmount from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.tenderedAmount` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.tenderedAmount` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -416,7 +416,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "path" : "PaymentReconciliation.extension",
         "sliceName" : "returnedAmount",
         "short" : "Cross-version extension for PaymentReconciliation.returnedAmount from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.returnedAmount` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Element `PaymentReconciliation.returnedAmount` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -439,7 +439,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "sliceName" : "enterer",
         "short" : "Cross-version extension for PaymentReconciliation.enterer from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.enterer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.enterer` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.enterer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.enterer` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -462,7 +462,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "sliceName" : "location",
         "short" : "Cross-version extension for PaymentReconciliation.location from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Location in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.location` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.location` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.location` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.location` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -506,7 +506,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "sliceName" : "paymentIssuer",
         "short" : "Cross-version extension for PaymentReconciliation.paymentIssuer from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.paymentIssuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.paymentIssuer` is mapped to FHIR R4 element `PaymentReconciliation.paymentIssuer`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.paymentIssuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.paymentIssuer` has is mapped to FHIR R4 element `PaymentReconciliation.paymentIssuer`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -545,13 +545,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         }
       },
       {
-        "id" : "PaymentReconciliation.detail.extension:targetItem",
+        "id" : "PaymentReconciliation.detail.extension:allocation",
         "path" : "PaymentReconciliation.detail.extension",
-        "sliceName" : "targetItem",
-        "short" : "Cross-version extension for PaymentReconciliation.allocation.targetItem[x] from R5 for use in FHIR R4",
-        "comment" : "Element `PaymentReconciliation.allocation.targetItem[x]` is will have a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
+        "sliceName" : "allocation",
+        "short" : "Cross-version extension for PaymentReconciliation.allocation from R5 for use in FHIR R4",
+        "comment" : "Element `PaymentReconciliation.allocation` has is mapped to FHIR R4 element `PaymentReconciliation.detail`, but has no comparisons.",
         "min" : 0,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -561,83 +561,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.targetItem|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation|0.0.1-snapshot-3"
             ]
           }
         ]
       },
       {
-        "id" : "PaymentReconciliation.detail.extension:target",
-        "path" : "PaymentReconciliation.detail.extension",
-        "sliceName" : "target",
-        "short" : "Cross-version extension for PaymentReconciliation.allocation.target from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Account,http://hl7.org/fhir/StructureDefinition/ChargeItem,http://hl7.org/fhir/StructureDefinition/Claim,http://hl7.org/fhir/StructureDefinition/Contract,http://hl7.org/fhir/StructureDefinition/Encounter,http://hl7.org/fhir/StructureDefinition/Invoice in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.target` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.target` is will have a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "PaymentReconciliation.detail.extension:encounter",
-        "path" : "PaymentReconciliation.detail.extension",
-        "sliceName" : "encounter",
-        "short" : "Cross-version extension for PaymentReconciliation.allocation.encounter from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.encounter` is will have a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "PaymentReconciliation.detail.extension:account",
-        "path" : "PaymentReconciliation.detail.extension",
-        "sliceName" : "account",
-        "short" : "Cross-version extension for PaymentReconciliation.allocation.account from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Account in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.account` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.account` is will have a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "PaymentReconciliation.detail.response.extension",
-        "path" : "PaymentReconciliation.detail.response.extension",
+        "id" : "PaymentReconciliation.processNote.extension",
+        "path" : "PaymentReconciliation.processNote.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -651,20 +582,19 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "PaymentReconciliation.detail.response",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "PaymentReconciliation.detail.response.extension:response",
-        "path" : "PaymentReconciliation.detail.response.extension",
-        "sliceName" : "response",
-        "short" : "Cross-version extension for PaymentReconciliation.allocation.response from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/ClaimResponse in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.response` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.response` is mapped to FHIR R4 element `PaymentReconciliation.detail.response`.",
+        "id" : "PaymentReconciliation.processNote.extension:processNote",
+        "path" : "PaymentReconciliation.processNote.extension",
+        "sliceName" : "processNote",
+        "short" : "Cross-version extension for PaymentReconciliation.processNote from R5 for use in FHIR R4",
+        "comment" : "Element `PaymentReconciliation.processNote` has is mapped to FHIR R4 element `PaymentReconciliation.processNote`, but has no comparisons.",
         "min" : 0,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -674,7 +604,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-PaymentRe
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.processNote|0.0.1-snapshot-3"
             ]
           }
         ]

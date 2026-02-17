@@ -1,4 +1,4 @@
-# ExtensionTestScript_Scope - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionTestScript_Scope - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.TestScript.scope` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
   "title" : "Cross-version Extension `R5.TestScript.scope` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `TestScript.scope` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`TestScript.scope` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `TestScript.scope` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `TestScript.scope` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `TestScript.scope` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`TestScript.scope` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `TestScript.scope` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `TestScript.scope` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
         "sliceName" : "artifact",
         "short" : "The specific conformance artifact being tested",
         "definition" : "The specific conformance artifact being tested. The canonical reference can be version-specific.",
-        "requirements" : "Element `TestScript.scope.artifact` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestScript.scope.artifact` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestScript.scope.artifact` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
+        "requirements" : "Element `TestScript.scope.artifact` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestScript.scope.artifact` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestScript.scope.artifact` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "artifact"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope.artifact"
       },
       {
         "id" : "Extension.extension:artifact.value[x]",
@@ -233,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
         "sliceName" : "conformance",
         "short" : "required | optional | strict",
         "definition" : "The expectation of whether the test must pass for the system to be considered conformant with the artifact: required - all tests are expected to pass, optional - all test are expected to pass but non-pass status may be allowed, strict - all tests are expected to pass and warnings are treated as a failure.",
-        "requirements" : "Element `TestScript.scope.conformance` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nElement `TestScript.scope.conformance` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
+        "requirements" : "Element `TestScript.scope.conformance` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nElement `TestScript.scope.conformance` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "conformance"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope.conformance"
       },
       {
         "id" : "Extension.extension:conformance.value[x]",
@@ -278,7 +278,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
         "sliceName" : "phase",
         "short" : "unit | integration | production",
         "definition" : "The phase of testing for this artifact: unit - development / implementation phase, integration - internal system to system phase, production - live system to system phase (Note, this may involve pii/phi data).",
-        "requirements" : "Element `TestScript.scope.phase` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nElement `TestScript.scope.phase` is will have a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
+        "requirements" : "Element `TestScript.scope.phase` is part of an existing definition because parent element `TestScript.scope` requires a cross-version extension.\nElement `TestScript.scope.phase` has a context of TestScript based on following the parent source element upwards and mapping to `TestScript`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -297,7 +297,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestScript
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "phase"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.scope.phase"
       },
       {
         "id" : "Extension.extension:phase.value[x]",

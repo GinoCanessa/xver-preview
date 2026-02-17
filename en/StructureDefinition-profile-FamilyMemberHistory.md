@@ -1,4 +1,4 @@
-# ProfileFamilyMemberHistory - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileFamilyMemberHistory - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileFamilyMemberHistory 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-FamilyMem
   "title" : "Cross-version Profile for R5.FamilyMemberHistory for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1326957-06:00",
+  "date" : "2026-02-17T14:42:26.814597-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-FamilyMem
         "path" : "FamilyMemberHistory.extension",
         "sliceName" : "participant",
         "short" : "Cross-version extension for FamilyMemberHistory.participant from R5 for use in FHIR R4",
-        "comment" : "Element `FamilyMemberHistory.participant` is will have a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
+        "comment" : "Element `FamilyMemberHistory.participant` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-FamilyMem
         "path" : "FamilyMemberHistory.extension",
         "sliceName" : "procedure",
         "short" : "Cross-version extension for FamilyMemberHistory.procedure from R5 for use in FHIR R4",
-        "comment" : "Element `FamilyMemberHistory.procedure` is will have a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
+        "comment" : "Element `FamilyMemberHistory.procedure` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -209,6 +209,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-FamilyMem
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "FamilyMemberHistory.condition.extension",
+        "path" : "FamilyMemberHistory.condition.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "FamilyMemberHistory.condition.extension:condition",
+        "path" : "FamilyMemberHistory.condition.extension",
+        "sliceName" : "condition",
+        "short" : "Cross-version extension for FamilyMemberHistory.condition from R5 for use in FHIR R4",
+        "comment" : "Element `FamilyMemberHistory.condition` has is mapped to FHIR R4 element `FamilyMemberHistory.condition`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.condition|0.0.1-snapshot-3"
             ]
           }
         ]

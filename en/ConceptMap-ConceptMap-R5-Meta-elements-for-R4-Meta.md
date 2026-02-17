@@ -1,4 +1,4 @@
-# ConceptMapR5MetaElementsForR4Meta - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5MetaElementsForR4Meta - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5MetaElementsForR4Meta 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.0534478-06:00",
+  "date" : "2026-02-17T14:42:27.3987701-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Meta#Meta",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Meta` is representable via FHIR R4 extensions.\nElement `Meta` is mapped to FHIR R4 element `Meta`."
+              "comment" : "FHIR R5 ComplexType `Meta` is representable via FHIR R4 extensions.\nElement `Meta` has is mapped to FHIR R4 element `Meta`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Meta#Meta.versionId",
               "equivalence" : "relatedto",
-              "comment" : "Element `Meta.versionId` is mapped to FHIR R4 element `Meta.versionId`."
+              "comment" : "Element `Meta.versionId` has is mapped to FHIR R4 element `Meta.versionId`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Meta#Meta.lastUpdated",
               "equivalence" : "relatedto",
-              "comment" : "Element `Meta.lastUpdated` is mapped to FHIR R4 element `Meta.lastUpdated`."
+              "comment" : "Element `Meta.lastUpdated` has is mapped to FHIR R4 element `Meta.lastUpdated`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Meta#Meta.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `Meta.source` is mapped to FHIR R4 element `Meta.source`."
+              "comment" : "Element `Meta.source` has is mapped to FHIR R4 element `Meta.source`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Meta#Meta.profile",
               "equivalence" : "relatedto",
-              "comment" : "Element `Meta.profile` is mapped to FHIR R4 element `Meta.profile`."
+              "comment" : "Element `Meta.profile` has is mapped to FHIR R4 element `Meta.profile`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Meta#Meta.security",
               "equivalence" : "relatedto",
-              "comment" : "Element `Meta.security` is mapped to FHIR R4 element `Meta.security`."
+              "comment" : "Element `Meta.security` has is mapped to FHIR R4 element `Meta.security`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Meta#Meta.tag",
               "equivalence" : "relatedto",
-              "comment" : "Element `Meta.tag` is mapped to FHIR R4 element `Meta.tag`."
+              "comment" : "Element `Meta.tag` has is mapped to FHIR R4 element `Meta.tag`, but has no comparisons."
             }
           ]
         }

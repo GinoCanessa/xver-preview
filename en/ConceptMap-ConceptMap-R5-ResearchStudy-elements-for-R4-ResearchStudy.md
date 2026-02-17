@@ -1,4 +1,4 @@
-# ConceptMapR5ResearchStudyElementsForR4ResearchStudy - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ResearchStudyElementsForR4ResearchStudy - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ResearchStudyElementsForR4ResearchStudy 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1875136-06:00",
+  "date" : "2026-02-17T14:42:27.5201899-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ResearchStudy` is representable via FHIR R4 Resource `ResearchStudy`.\nElement `ResearchStudy` is mapped to FHIR R4 element `ResearchStudy`."
+              "comment" : "FHIR R5 Resource `ResearchStudy` is representable via FHIR R4 Resource `ResearchStudy`.\nElement `ResearchStudy` has is mapped to FHIR R4 element `ResearchStudy`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.meta` is mapped to FHIR R4 element `ResearchStudy.meta`."
+              "comment" : "Element `ResearchStudy.meta` has is mapped to FHIR R4 element `ResearchStudy.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.implicitRules` is mapped to FHIR R4 element `ResearchStudy.implicitRules`."
+              "comment" : "Element `ResearchStudy.implicitRules` has is mapped to FHIR R4 element `ResearchStudy.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.language` is mapped to FHIR R4 element `ResearchStudy.language`."
+              "comment" : "Element `ResearchStudy.language` has is mapped to FHIR R4 element `ResearchStudy.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.text` is mapped to FHIR R4 element `ResearchStudy.text`."
+              "comment" : "Element `ResearchStudy.text` has is mapped to FHIR R4 element `ResearchStudy.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.contained` is mapped to FHIR R4 element `ResearchStudy.contained`."
+              "comment" : "Element `ResearchStudy.contained` has is mapped to FHIR R4 element `ResearchStudy.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.url` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.url` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.identifier` is mapped to FHIR R4 element `ResearchStudy.identifier`."
+              "comment" : "Element `ResearchStudy.identifier` has is mapped to FHIR R4 element `ResearchStudy.identifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.version` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.version` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.name` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.name` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.title` is mapped to FHIR R4 element `ResearchStudy.title`."
+              "comment" : "Element `ResearchStudy.title` has is mapped to FHIR R4 element `ResearchStudy.title`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.label` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.label` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.label.type` is part of an existing definition because parent element `ResearchStudy.label` requires a cross-version extension.\nElement `ResearchStudy.label.type` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.label.type` is part of an existing definition because parent element `ResearchStudy.label` requires a cross-version extension.\nElement `ResearchStudy.label.type` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.label.value` is part of an existing definition because parent element `ResearchStudy.label` requires a cross-version extension.\nElement `ResearchStudy.label.value` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.label.value` is part of an existing definition because parent element `ResearchStudy.label` requires a cross-version extension.\nElement `ResearchStudy.label.value` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.protocol",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.protocol` is mapped to FHIR R4 element `ResearchStudy.protocol`."
+              "comment" : "Element `ResearchStudy.protocol` has is mapped to FHIR R4 element `ResearchStudy.protocol`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.partOf` is mapped to FHIR R4 element `ResearchStudy.partOf`."
+              "comment" : "Element `ResearchStudy.partOf` has is mapped to FHIR R4 element `ResearchStudy.partOf`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.relatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.relatedArtifact` is mapped to FHIR R4 element `ResearchStudy.relatedArtifact`."
+              "comment" : "Element `ResearchStudy.relatedArtifact` has is mapped to FHIR R4 element `ResearchStudy.relatedArtifact`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.date` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.date` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.status",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ResearchStudy.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchStudy.status` is mapped to FHIR R4 element `ResearchStudy.status`."
+              "comment" : "Note that the target element context `ResearchStudy.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchStudy.status` has is mapped to FHIR R4 element `ResearchStudy.status`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.primaryPurposeType",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.primaryPurposeType` is mapped to FHIR R4 element `ResearchStudy.primaryPurposeType`."
+              "comment" : "Element `ResearchStudy.primaryPurposeType` has is mapped to FHIR R4 element `ResearchStudy.primaryPurposeType`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.phase",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.phase` is mapped to FHIR R4 element `ResearchStudy.phase`."
+              "comment" : "Element `ResearchStudy.phase` has is mapped to FHIR R4 element `ResearchStudy.phase`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.studyDesign` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.studyDesign` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.focus",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.focus` is mapped to FHIR R4 element `ResearchStudy.focus`."
+              "comment" : "Element `ResearchStudy.focus` has is mapped to FHIR R4 element `ResearchStudy.focus`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.condition` is mapped to FHIR R4 element `ResearchStudy.condition`."
+              "comment" : "Element `ResearchStudy.condition` has is mapped to FHIR R4 element `ResearchStudy.condition`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.keyword",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.keyword` is mapped to FHIR R4 element `ResearchStudy.keyword`."
+              "comment" : "Element `ResearchStudy.keyword` has is mapped to FHIR R4 element `ResearchStudy.keyword`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.region` is mapped to FHIR R4 element `ResearchStudy.location`."
+              "comment" : "Element `ResearchStudy.region` has is mapped to FHIR R4 element `ResearchStudy.location`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.descriptionSummary` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.descriptionSummary` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.description` is mapped to FHIR R4 element `ResearchStudy.description`."
+              "comment" : "Element `ResearchStudy.description` has is mapped to FHIR R4 element `ResearchStudy.description`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.period` is mapped to FHIR R4 element `ResearchStudy.period`."
+              "comment" : "Element `ResearchStudy.period` has is mapped to FHIR R4 element `ResearchStudy.period`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.site",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.site` is mapped to FHIR R4 element `ResearchStudy.site`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.site` has is mapped to FHIR R4 element `ResearchStudy.site`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.note` is mapped to FHIR R4 element `ResearchStudy.note`."
+              "comment" : "Element `ResearchStudy.note` has is mapped to FHIR R4 element `ResearchStudy.note`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.classifier` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.classifier` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.associatedParty` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.associatedParty` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.associatedParty.name` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.name` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.associatedParty.name` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.name` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.associatedParty.role` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.role` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.associatedParty.role` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.role` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.associatedParty.period` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.period` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.associatedParty.period` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.period` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.associatedParty.classifier` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.classifier` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.associatedParty.classifier` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nElement `ResearchStudy.associatedParty.classifier` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.associatedParty.party` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.associatedParty.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.associatedParty.party` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.associatedParty.party` is part of an existing definition because parent element `ResearchStudy.associatedParty` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.associatedParty.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.associatedParty.party` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.progressStatus` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.progressStatus` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.progressStatus.state` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.state` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.progressStatus.state` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.state` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.progressStatus.actual` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.actual` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.progressStatus.actual` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.actual` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.progressStatus.period` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.period` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.progressStatus.period` is part of an existing definition because parent element `ResearchStudy.progressStatus` requires a cross-version extension.\nElement `ResearchStudy.progressStatus.period` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.reasonStopped",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.whyStopped` is mapped to FHIR R4 element `ResearchStudy.reasonStopped`."
+              "comment" : "Element `ResearchStudy.whyStopped` has is mapped to FHIR R4 element `ResearchStudy.reasonStopped`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.recruitment` is mapped to FHIR R4 element `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.recruitment` has is mapped to FHIR R4 element `ResearchStudy`, but has no comparisons."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.recruitment.targetNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.recruitment.targetNumber` is part of an existing definition because parent element `ResearchStudy.recruitment` requires a cross-version extension.\nElement `ResearchStudy.recruitment.targetNumber` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.recruitment.actualNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.recruitment.actualNumber` is part of an existing definition because parent element `ResearchStudy.recruitment` requires a cross-version extension.\nElement `ResearchStudy.recruitment.actualNumber` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.enrollment",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.eligibility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment`."
+              "comment" : "Element `ResearchStudy.recruitment.eligibility` is part of an existing definition because parent element `ResearchStudy.recruitment` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.eligibility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.recruitment.eligibility` has is mapped to FHIR R4 element `ResearchStudy.enrollment`, but has no comparisons."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.actualGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.recruitment.actualGroup` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.recruitment.actualGroup` is part of an existing definition because parent element `ResearchStudy.recruitment` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.actualGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.recruitment.actualGroup` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.arm",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.comparisonGroup` is mapped to FHIR R4 element `ResearchStudy.arm`."
+              "comment" : "Element `ResearchStudy.comparisonGroup` has is mapped to FHIR R4 element `ResearchStudy.arm`, but has no comparisons."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.arm",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.comparisonGroup.linkId` is will have a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.comparisonGroup.linkId` is part of an existing definition because parent element `ResearchStudy.comparisonGroup` requires a cross-version extension.\nElement `ResearchStudy.comparisonGroup.linkId` has a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -635,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.arm.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.comparisonGroup.name` is mapped to FHIR R4 element `ResearchStudy.arm.name`."
+              "comment" : "Element `ResearchStudy.comparisonGroup.name` is part of an existing definition because parent element `ResearchStudy.comparisonGroup` requires a cross-version extension.\nElement `ResearchStudy.comparisonGroup.name` has is mapped to FHIR R4 element `ResearchStudy.arm.name`, but has no comparisons."
             }
           ]
         },
@@ -646,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.arm.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.comparisonGroup.type` is mapped to FHIR R4 element `ResearchStudy.arm.type`."
+              "comment" : "Element `ResearchStudy.comparisonGroup.type` is part of an existing definition because parent element `ResearchStudy.comparisonGroup` requires a cross-version extension.\nElement `ResearchStudy.comparisonGroup.type` has is mapped to FHIR R4 element `ResearchStudy.arm.type`, but has no comparisons."
             }
           ]
         },
@@ -657,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.arm.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.comparisonGroup.description` is mapped to FHIR R4 element `ResearchStudy.arm.description`."
+              "comment" : "Element `ResearchStudy.comparisonGroup.description` is part of an existing definition because parent element `ResearchStudy.comparisonGroup` requires a cross-version extension.\nElement `ResearchStudy.comparisonGroup.description` has is mapped to FHIR R4 element `ResearchStudy.arm.description`, but has no comparisons."
             }
           ]
         },
@@ -668,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.arm",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.comparisonGroup.intendedExposure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.comparisonGroup.intendedExposure` is will have a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.comparisonGroup.intendedExposure` is part of an existing definition because parent element `ResearchStudy.comparisonGroup` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.comparisonGroup.intendedExposure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.comparisonGroup.intendedExposure` has a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -679,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.arm",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.comparisonGroup.observedGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.comparisonGroup.observedGroup` is will have a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.comparisonGroup.observedGroup` is part of an existing definition because parent element `ResearchStudy.comparisonGroup` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.comparisonGroup.observedGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.comparisonGroup.observedGroup` has a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -690,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.objective",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.objective` is mapped to FHIR R4 element `ResearchStudy.objective`."
+              "comment" : "Element `ResearchStudy.objective` has is mapped to FHIR R4 element `ResearchStudy.objective`, but has no comparisons."
             }
           ]
         },
@@ -701,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.objective.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.objective.name` is mapped to FHIR R4 element `ResearchStudy.objective.name`."
+              "comment" : "Element `ResearchStudy.objective.name` is part of an existing definition because parent element `ResearchStudy.objective` requires a cross-version extension.\nElement `ResearchStudy.objective.name` has is mapped to FHIR R4 element `ResearchStudy.objective.name`, but has no comparisons."
             }
           ]
         },
@@ -712,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.objective.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.objective.type` is mapped to FHIR R4 element `ResearchStudy.objective.type`."
+              "comment" : "Element `ResearchStudy.objective.type` is part of an existing definition because parent element `ResearchStudy.objective` requires a cross-version extension.\nElement `ResearchStudy.objective.type` has is mapped to FHIR R4 element `ResearchStudy.objective.type`, but has no comparisons."
             }
           ]
         },
@@ -723,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy.objective",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.objective.description` is will have a context of ResearchStudy.objective based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.objective.description` is part of an existing definition because parent element `ResearchStudy.objective` requires a cross-version extension.\nElement `ResearchStudy.objective.description` has a context of ResearchStudy.objective based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -734,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.outcomeMeasure` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.outcomeMeasure` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -745,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.outcomeMeasure.name` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.name` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.outcomeMeasure.name` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.name` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -756,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.outcomeMeasure.type` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.type` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.outcomeMeasure.type` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.type` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -767,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.outcomeMeasure.description` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.description` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.outcomeMeasure.description` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nElement `ResearchStudy.outcomeMeasure.description` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -778,7 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Element `ResearchStudy.outcomeMeasure.reference` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.outcomeMeasure.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.outcomeMeasure.reference` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Element `ResearchStudy.outcomeMeasure.reference` is part of an existing definition because parent element `ResearchStudy.outcomeMeasure` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.outcomeMeasure.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.outcomeMeasure.reference` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         },
@@ -789,7 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ResearchStudy#ResearchStudy",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.result` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.result` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.result` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.result` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`."
             }
           ]
         }

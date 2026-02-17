@@ -1,4 +1,4 @@
-# ExtensionTestPlan - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionTestPlan - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.TestPlan` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
   "title" : "Cross-version Extension `R5.TestPlan` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "url"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.url"
       },
       {
         "id" : "Extension.extension:url.value[x]",
@@ -251,7 +251,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "version"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.version"
       },
       {
         "id" : "Extension.extension:version.value[x]",
@@ -298,7 +298,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "versionAlgorithm"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.versionAlgorithm"
       },
       {
         "id" : "Extension.extension:versionAlgorithm.value[x]",
@@ -348,7 +348,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "name"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.name"
       },
       {
         "id" : "Extension.extension:name.value[x]",
@@ -395,7 +395,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "title"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.title"
       },
       {
         "id" : "Extension.extension:title.value[x]",
@@ -442,7 +442,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -494,7 +494,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "experimental"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.experimental"
       },
       {
         "id" : "Extension.extension:experimental.value[x]",
@@ -541,7 +541,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "date"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.date"
       },
       {
         "id" : "Extension.extension:date.value[x]",
@@ -588,7 +588,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "publisher"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.publisher"
       },
       {
         "id" : "Extension.extension:publisher.value[x]",
@@ -635,7 +635,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "contact"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.contact"
       },
       {
         "id" : "Extension.extension:contact.value[x]",
@@ -682,7 +682,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.description"
       },
       {
         "id" : "Extension.extension:description.value[x]",
@@ -729,7 +729,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "useContext"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.useContext"
       },
       {
         "id" : "Extension.extension:useContext.value[x]",
@@ -776,7 +776,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "jurisdiction"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.jurisdiction"
       },
       {
         "id" : "Extension.extension:jurisdiction.value[x]",
@@ -828,7 +828,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "purpose"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.purpose"
       },
       {
         "id" : "Extension.extension:purpose.value[x]",
@@ -874,7 +874,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "copyright"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.copyright"
       },
       {
         "id" : "Extension.extension:copyright.value[x]",
@@ -920,7 +920,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "copyrightLabel"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.copyrightLabel"
       },
       {
         "id" : "Extension.extension:copyrightLabel.value[x]",
@@ -966,7 +966,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "category"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.category"
       },
       {
         "id" : "Extension.extension:category.value[x]",
@@ -1011,7 +1011,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "scope"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.scope"
       },
       {
         "id" : "Extension.extension:scope.value[x]",
@@ -1056,7 +1056,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "testTools"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testTools"
       },
       {
         "id" : "Extension.extension:testTools.value[x]",
@@ -1137,7 +1137,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.dependency.description"
       },
       {
         "id" : "Extension.extension:dependency.extension:description.value[x]",
@@ -1182,7 +1182,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "predecessor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.dependency.predecessor"
       },
       {
         "id" : "Extension.extension:dependency.extension:predecessor.value[x]",
@@ -1250,7 +1250,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "exitCriteria"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.exitCriteria"
       },
       {
         "id" : "Extension.extension:exitCriteria.value[x]",
@@ -1331,7 +1331,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sequence"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.sequence"
       },
       {
         "id" : "Extension.extension:testCase.extension:sequence.value[x]",
@@ -1376,7 +1376,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "scope"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.scope"
       },
       {
         "id" : "Extension.extension:testCase.extension:scope.value[x]",
@@ -1457,7 +1457,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.dependency.description"
       },
       {
         "id" : "Extension.extension:testCase.extension:dependency.extension:description.value[x]",
@@ -1502,7 +1502,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "predecessor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.dependency.predecessor"
       },
       {
         "id" : "Extension.extension:testCase.extension:dependency.extension:predecessor.value[x]",
@@ -1606,7 +1606,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "narrative"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.narrative"
       },
       {
         "id" : "Extension.extension:testCase.extension:testRun.extension:narrative.value[x]",
@@ -1687,7 +1687,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "language"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script.language"
       },
       {
         "id" : "Extension.extension:testCase.extension:testRun.extension:script.extension:language.value[x]",
@@ -1732,7 +1732,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "source"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script.source"
       },
       {
         "id" : "Extension.extension:testCase.extension:testRun.extension:script.extension:source.value[x]",
@@ -1862,7 +1862,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData.type"
       },
       {
         "id" : "Extension.extension:testCase.extension:testData.extension:type.value[x]",
@@ -1907,7 +1907,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "content"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData.content"
       },
       {
         "id" : "Extension.extension:testCase.extension:testData.extension:content.value[x]",
@@ -1952,7 +1952,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "source"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData.source"
       },
       {
         "id" : "Extension.extension:testCase.extension:testData.extension:source.value[x]",
@@ -2059,7 +2059,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion.type"
       },
       {
         "id" : "Extension.extension:testCase.extension:assertion.extension:type.value[x]",
@@ -2165,7 +2165,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2210,7 +2210,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2259,7 +2259,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "object"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion.object"
       },
       {
         "id" : "Extension.extension:testCase.extension:assertion.extension:object.value[x]",
@@ -2358,7 +2358,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2403,7 +2403,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2452,7 +2452,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestPlan.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "result"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion.result"
       },
       {
         "id" : "Extension.extension:testCase.extension:assertion.extension:result.value[x]",

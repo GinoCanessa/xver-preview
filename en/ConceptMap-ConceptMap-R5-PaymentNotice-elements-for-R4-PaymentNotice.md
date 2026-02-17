@@ -1,4 +1,4 @@
-# ConceptMapR5PaymentNoticeElementsForR4PaymentNotice - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5PaymentNoticeElementsForR4PaymentNotice - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5PaymentNoticeElementsForR4PaymentNotice 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1154933-06:00",
+  "date" : "2026-02-17T14:42:27.4566381-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `PaymentNotice` is representable via FHIR R4 Resource `PaymentNotice`.\nElement `PaymentNotice` is mapped to FHIR R4 element `PaymentNotice`."
+              "comment" : "FHIR R5 Resource `PaymentNotice` is representable via FHIR R4 Resource `PaymentNotice`.\nElement `PaymentNotice` has is mapped to FHIR R4 element `PaymentNotice`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.meta` is mapped to FHIR R4 element `PaymentNotice.meta`."
+              "comment" : "Element `PaymentNotice.meta` has is mapped to FHIR R4 element `PaymentNotice.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.implicitRules` is mapped to FHIR R4 element `PaymentNotice.implicitRules`."
+              "comment" : "Element `PaymentNotice.implicitRules` has is mapped to FHIR R4 element `PaymentNotice.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.language` is mapped to FHIR R4 element `PaymentNotice.language`."
+              "comment" : "Element `PaymentNotice.language` has is mapped to FHIR R4 element `PaymentNotice.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.text` is mapped to FHIR R4 element `PaymentNotice.text`."
+              "comment" : "Element `PaymentNotice.text` has is mapped to FHIR R4 element `PaymentNotice.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.contained` is mapped to FHIR R4 element `PaymentNotice.contained`."
+              "comment" : "Element `PaymentNotice.contained` has is mapped to FHIR R4 element `PaymentNotice.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.identifier` is mapped to FHIR R4 element `PaymentNotice.identifier`."
+              "comment" : "Element `PaymentNotice.identifier` has is mapped to FHIR R4 element `PaymentNotice.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.status` is mapped to FHIR R4 element `PaymentNotice.status`."
+              "comment" : "Element `PaymentNotice.status` has is mapped to FHIR R4 element `PaymentNotice.status`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.request",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.request` is mapped to FHIR R4 element `PaymentNotice.request`."
+              "comment" : "Element `PaymentNotice.request` has is mapped to FHIR R4 element `PaymentNotice.request`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.response",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.response` is mapped to FHIR R4 element `PaymentNotice.response`."
+              "comment" : "Element `PaymentNotice.response` has is mapped to FHIR R4 element `PaymentNotice.response`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.created",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.created` is mapped to FHIR R4 element `PaymentNotice.created`."
+              "comment" : "Element `PaymentNotice.created` has is mapped to FHIR R4 element `PaymentNotice.created`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.provider",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.reporter` is mapped to FHIR R4 element `PaymentNotice.provider`."
+              "comment" : "Element `PaymentNotice.reporter` has is mapped to FHIR R4 element `PaymentNotice.provider`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.payment",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.payment` is mapped to FHIR R4 element `PaymentNotice.payment`."
+              "comment" : "Element `PaymentNotice.payment` has is mapped to FHIR R4 element `PaymentNotice.payment`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.paymentDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.paymentDate` is mapped to FHIR R4 element `PaymentNotice.paymentDate`."
+              "comment" : "Element `PaymentNotice.paymentDate` has is mapped to FHIR R4 element `PaymentNotice.paymentDate`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.payee",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.payee` is mapped to FHIR R4 element `PaymentNotice.payee`."
+              "comment" : "Element `PaymentNotice.payee` has is mapped to FHIR R4 element `PaymentNotice.payee`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.recipient",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.recipient` is mapped to FHIR R4 element `PaymentNotice.recipient`."
+              "comment" : "Element `PaymentNotice.recipient` has is mapped to FHIR R4 element `PaymentNotice.recipient`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.amount` is mapped to FHIR R4 element `PaymentNotice.amount`."
+              "comment" : "Element `PaymentNotice.amount` has is mapped to FHIR R4 element `PaymentNotice.amount`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentNotice#PaymentNotice.paymentStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentNotice.paymentStatus` is mapped to FHIR R4 element `PaymentNotice.paymentStatus`."
+              "comment" : "Element `PaymentNotice.paymentStatus` has is mapped to FHIR R4 element `PaymentNotice.paymentStatus`, but has no comparisons."
             }
           ]
         }

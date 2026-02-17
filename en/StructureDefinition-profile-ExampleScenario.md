@@ -1,4 +1,4 @@
-# ProfileExampleScenario - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileExampleScenario - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileExampleScenario 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 ExampleScenario content to be represented v
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.ExampleScenario.process` for use in FHIR R4](StructureDefinition-ext-R5-ExampleScenario.process.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ExampleScenario)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ExampleSc
   "title" : "Cross-version Profile for R5.ExampleScenario for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1223616-06:00",
+  "date" : "2026-02-17T14:42:26.808686-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ExampleSc
         "path" : "ExampleScenario.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for ExampleScenario.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.versionAlgorithm[x]` is will have a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.",
+        "comment" : "Element `ExampleScenario.versionAlgorithm[x]` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ExampleSc
         "path" : "ExampleScenario.extension",
         "sliceName" : "title",
         "short" : "Cross-version extension for ExampleScenario.title from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.title` is will have a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.",
+        "comment" : "Element `ExampleScenario.title` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ExampleSc
         "path" : "ExampleScenario.extension",
         "sliceName" : "description",
         "short" : "Cross-version extension for ExampleScenario.description from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.description` is will have a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.",
+        "comment" : "Element `ExampleScenario.description` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ExampleSc
         "path" : "ExampleScenario.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for ExampleScenario.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.copyrightLabel` is will have a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.",
+        "comment" : "Element `ExampleScenario.copyrightLabel` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -253,6 +253,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ExampleSc
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.copyrightLabel|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ExampleScenario.actor.extension",
+        "path" : "ExampleScenario.actor.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ExampleScenario.actor.extension:actor",
+        "path" : "ExampleScenario.actor.extension",
+        "sliceName" : "actor",
+        "short" : "Cross-version extension for ExampleScenario.actor from R5 for use in FHIR R4",
+        "comment" : "Element `ExampleScenario.actor` has is mapped to FHIR R4 element `ExampleScenario.actor`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.actor|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -279,101 +322,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ExampleSc
         }
       },
       {
-        "id" : "ExampleScenario.instance.extension:structureVersion",
+        "id" : "ExampleScenario.instance.extension:instance",
         "path" : "ExampleScenario.instance.extension",
-        "sliceName" : "structureVersion",
-        "short" : "Cross-version extension for ExampleScenario.instance.structureVersion from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.instance.structureVersion` is will have a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.",
+        "sliceName" : "instance",
+        "short" : "Cross-version extension for ExampleScenario.instance from R5 for use in FHIR R4",
+        "comment" : "Element `ExampleScenario.instance` has is mapped to FHIR R4 element `ExampleScenario.instance`, but has no comparisons.",
         "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureVersion|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ExampleScenario.instance.extension:structureProfile",
-        "path" : "ExampleScenario.instance.extension",
-        "sliceName" : "structureProfile",
-        "short" : "Cross-version extension for ExampleScenario.instance.structureProfile[x] from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.instance.structureProfile[x]` is will have a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureProfile|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ExampleScenario.instance.extension:content",
-        "path" : "ExampleScenario.instance.extension",
-        "sliceName" : "content",
-        "short" : "Cross-version extension for ExampleScenario.instance.content from R5 for use in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.instance.content` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExampleScenario.instance.content` is will have a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ExampleScenario.instance.resourceType.extension",
-        "path" : "ExampleScenario.instance.resourceType.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1,
         "max" : "*",
         "base" : {
-          "path" : "ExampleScenario.instance.resourceType",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ExampleScenario.instance.resourceType.extension:structureType",
-        "path" : "ExampleScenario.instance.resourceType.extension",
-        "sliceName" : "structureType",
-        "short" : "Cross-version extension for ExampleScenario.instance.structureType from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.instance.structureType` is mapped to FHIR R4 element `ExampleScenario.instance.resourceType`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
           "max" : "*"
@@ -382,79 +338,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ExampleSc
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureType|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance|0.0.1-snapshot-3"
             ]
           }
         ]
       },
       {
-        "id" : "ExampleScenario.instance.version.extension",
-        "path" : "ExampleScenario.instance.version.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ExampleScenario.instance.version.extension:title",
-        "path" : "ExampleScenario.instance.version.extension",
-        "sliceName" : "title",
-        "short" : "Cross-version extension for ExampleScenario.instance.version.title from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.instance.version.title` is will have a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.version.title|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ExampleScenario.instance.version.extension:content",
-        "path" : "ExampleScenario.instance.version.extension",
-        "sliceName" : "content",
-        "short" : "Cross-version extension for ExampleScenario.instance.version.content from R5 for use in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.instance.version.content` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExampleScenario.instance.version.content` is will have a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ExampleScenario.process.step.extension",
-        "path" : "ExampleScenario.process.step.extension",
+        "id" : "ExampleScenario.process.extension",
+        "path" : "ExampleScenario.process.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -474,80 +365,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ExampleSc
         }
       },
       {
-        "id" : "ExampleScenario.process.step.extension:number",
-        "path" : "ExampleScenario.process.step.extension",
-        "sliceName" : "number",
-        "short" : "Cross-version extension for ExampleScenario.process.step.number from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.process.step.number` is part of an existing definition because parent element `ExampleScenario.process.step` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.step.number` is will have a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.number|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ExampleScenario.process.step.extension:workflow",
-        "path" : "ExampleScenario.process.step.extension",
-        "sliceName" : "workflow",
-        "short" : "Cross-version extension for ExampleScenario.process.step.workflow from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/ExampleScenario in FHIR R4",
-        "comment" : "Element `ExampleScenario.process.step.workflow` is part of an existing definition because parent element `ExampleScenario.process.step` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.process.step.workflow` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ExampleScenario.process.step.workflow` is will have a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-canonical|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ExampleScenario.process.step.operation.type.extension",
-        "path" : "ExampleScenario.process.step.operation.type.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
+        "id" : "ExampleScenario.process.extension:process",
+        "path" : "ExampleScenario.process.extension",
+        "sliceName" : "process",
+        "short" : "Cross-version extension for ExampleScenario.process from R5 for use in FHIR R4",
+        "comment" : "Element `ExampleScenario.process` has is mapped to FHIR R4 element `ExampleScenario.process`, but has no comparisons.\nNote available implied context: `ExampleScenario.process.step.process` because `ExampleScenario.process.step.process` is defined as a content reference to `ExampleScenario.process`.",
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "ExampleScenario.process.step.operation.type",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ExampleScenario.process.step.operation.type.extension:type",
-        "path" : "ExampleScenario.process.step.operation.type.extension",
-        "sliceName" : "type",
-        "short" : "Cross-version extension for ExampleScenario.process.step.operation.type from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.process.step.operation.type` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.type`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
           "max" : "*"
@@ -556,93 +381,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ExampleSc
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.operation.type|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ExampleScenario.process.step.operation.request.extension",
-        "path" : "ExampleScenario.process.step.operation.request.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ExampleScenario.process.step.operation.request.extension:request",
-        "path" : "ExampleScenario.process.step.operation.request.extension",
-        "sliceName" : "request",
-        "short" : "Cross-version extension for ExampleScenario.process.step.operation.request from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.process.step.operation.request` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.request`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.operation.request|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ExampleScenario.process.step.operation.response.extension",
-        "path" : "ExampleScenario.process.step.operation.response.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ExampleScenario.process.step.operation.response.extension:response",
-        "path" : "ExampleScenario.process.step.operation.response.extension",
-        "sliceName" : "response",
-        "short" : "Cross-version extension for ExampleScenario.process.step.operation.response from R5 for use in FHIR R4",
-        "comment" : "Element `ExampleScenario.process.step.operation.response` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.response`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.operation.response|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process|0.0.1-snapshot-3"
             ]
           }
         ]

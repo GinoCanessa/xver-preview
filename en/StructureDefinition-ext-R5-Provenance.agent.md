@@ -1,4 +1,4 @@
-# ExtensionProvenance_Agent - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionProvenance_Agent - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Provenance.agent` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Provenance.agent` f
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Provenance for use in FHIR R4](StructureDefinition-profile-Provenance.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Provenance.agent)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Provenance
   "title" : "Cross-version Extension `R5.Provenance.agent` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Provenance
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Provenance.agent` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Provenance.agent` 1..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Provenance.agent` 1..* `BackboneElement`\n*  R4B: `Provenance.agent` 1..* `BackboneElement`\n*  R4: `Provenance.agent` 1..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Provenance.agent` is mapped to FHIR R4 element `Provenance.agent`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Provenance.agent` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Provenance.agent` 1..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Provenance.agent` 1..* `BackboneElement`\n*  R4B: `Provenance.agent` 1..* `BackboneElement`\n*  R4: `Provenance.agent` 1..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Provenance.agent` has is mapped to FHIR R4 element `Provenance.agent`, but has no comparisons.\nNote available implied context: `Provenance.entity.agent` because `Provenance.entity.agent` is defined as a content reference to `Provenance.agent`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Provenance
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "Provenance.agent"
     }
   ],
   "type" : "Extension",
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Provenance
         "short" : "How the agent participated",
         "definition" : "The Functional Role of the agent with respect to the activity.",
         "comment" : "For example: assembler, author, prescriber, signer, investigator, etc.",
-        "requirements" : "Functional roles reflect functional aspects of relationships between entities. Functional roles are bound to the realization/performance of acts, where actions might be concatenated to an activity or even to a process. This element will hold the functional role that the agent played in the activity that is the focus of this Provenance. Where an agent played multiple functional roles, they will be listed as multiple .agent elements representing each functional participation. See ISO 21298:2018 - Health Informatics - Functional and structural roles, and ISO 22600-2:2014 - Health Informatics - Privilege Management and Access Control - Part 2: formal models. Element `Provenance.agent.type` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.type` is mapped to FHIR R4 element `Provenance.agent.type`.",
+        "requirements" : "Functional roles reflect functional aspects of relationships between entities. Functional roles are bound to the realization/performance of acts, where actions might be concatenated to an activity or even to a process. This element will hold the functional role that the agent played in the activity that is the focus of this Provenance. Where an agent played multiple functional roles, they will be listed as multiple .agent elements representing each functional participation. See ISO 21298:2018 - Health Informatics - Functional and structural roles, and ISO 22600-2:2014 - Health Informatics - Privilege Management and Access Control - Part 2: formal models. Element `Provenance.agent.type` is part of an existing definition because parent element `Provenance.agent` requires a cross-version extension.\nElement `Provenance.agent.type` has is mapped to FHIR R4 element `Provenance.agent.type`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -238,7 +238,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Provenance
         "short" : "What the agents role was",
         "definition" : "The structural roles of the agent indicating the agent's competency. The security role enabling the agent with respect to the activity.",
         "comment" : "For example: Chief-of-Radiology, Nurse, Physician, Medical-Student, etc.",
-        "requirements" : "Structural roles reflect the structural aspects of relationships between entities. Structural roles describe prerequisites, feasibilities, or competences for acts. Functional roles reflect functional aspects of relationships between entities. Functional roles are bound to the realization/performance of acts, where actions might be concatenated to an activity or even to a process. See ISO 21298:2018 - Health Informatics - Functional and structural roles, and ISO 22600-2:2014 - Health Informatics - Privilege Management and Access Control - Part 2: formal models.. Element `Provenance.agent.role` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `Provenance.agent.role` is mapped to FHIR R4 element `Provenance.agent.role`.",
+        "requirements" : "Structural roles reflect the structural aspects of relationships between entities. Structural roles describe prerequisites, feasibilities, or competences for acts. Functional roles reflect functional aspects of relationships between entities. Functional roles are bound to the realization/performance of acts, where actions might be concatenated to an activity or even to a process. See ISO 21298:2018 - Health Informatics - Functional and structural roles, and ISO 22600-2:2014 - Health Informatics - Privilege Management and Access Control - Part 2: formal models.. Element `Provenance.agent.role` is part of an existing definition because parent element `Provenance.agent` requires a cross-version extension.\nElement `Provenance.agent.role` has is mapped to FHIR R4 element `Provenance.agent.role`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -289,7 +289,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Provenance
         "sliceName" : "who",
         "short" : "The agent that participated in the event",
         "definition" : "Indicates who or what performed in the event.",
-        "requirements" : "Element `Provenance.agent.who` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who`.",
+        "requirements" : "Element `Provenance.agent.who` is part of an existing definition because parent element `Provenance.agent` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.agent.who` has is mapped to FHIR R4 element `Provenance.agent.who`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -338,7 +338,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Provenance
         "sliceName" : "onBehalfOf",
         "short" : "The agent that delegated",
         "definition" : "The agent that delegated authority to perform the activity performed by the agent.who element.",
-        "requirements" : "Element `Provenance.agent.onBehalfOf` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf`.",
+        "requirements" : "Element `Provenance.agent.onBehalfOf` is part of an existing definition because parent element `Provenance.agent` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.agent.onBehalfOf` has is mapped to FHIR R4 element `Provenance.agent.onBehalfOf`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {

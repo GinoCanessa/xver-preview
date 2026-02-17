@@ -1,4 +1,4 @@
-# ExtensionAuditEvent_Source - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAuditEvent_Source - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.AuditEvent.source` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
   "title" : "Cross-version Extension `R5.AuditEvent.source` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AuditEvent.source` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AuditEvent.source` 1..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AuditEvent.source` 1..1 `BackboneElement`\n*  R4B: `AuditEvent.source` 1..1 `BackboneElement`\n*  R4: `AuditEvent.source` 1..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AuditEvent.source` is mapped to FHIR R4 element `AuditEvent.source`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AuditEvent.source` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AuditEvent.source` 1..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AuditEvent.source` 1..1 `BackboneElement`\n*  R4B: `AuditEvent.source` 1..1 `BackboneElement`\n*  R4: `AuditEvent.source` 1..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AuditEvent.source` has is mapped to FHIR R4 element `AuditEvent.source`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "sliceName" : "site",
         "short" : "Logical source location within the enterprise",
         "definition" : "Logical source location within the healthcare enterprise network.  For example, a hospital or other provider location within a multi-entity provider group.",
-        "requirements" : "This value differentiates among the sites in a multi-site enterprise health information system. Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.source.site` is mapped to FHIR R4 element `AuditEvent.source.site`.",
+        "requirements" : "This value differentiates among the sites in a multi-site enterprise health information system. Element `AuditEvent.source.site` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.source.site` has is mapped to FHIR R4 element `AuditEvent.source.site`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "site"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source.site"
       },
       {
         "id" : "Extension.extension:site.value[x]",
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "sliceName" : "observer",
         "short" : "The identity of source detecting the event",
         "definition" : "Identifier of the source where the event was detected.",
-        "requirements" : "This field ties the event to a specific source system. It may be used to group events for analysis according to where the event was detected. Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.observer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.source.observer` is mapped to FHIR R4 element `AuditEvent.source.observer`.",
+        "requirements" : "This field ties the event to a specific source system. It may be used to group events for analysis according to where the event was detected. Element `AuditEvent.source.observer` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.observer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.source.observer` has is mapped to FHIR R4 element `AuditEvent.source.observer`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -253,7 +253,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "observer"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source.observer"
       },
       {
         "id" : "Extension.extension:observer.value[x]",
@@ -283,7 +283,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "sliceName" : "type",
         "short" : "The type of source where event originated",
         "definition" : "Code specifying the type of source where event originated.",
-        "requirements" : "This field indicates which type of source is identified by the Audit Source ID. It is an optional value that may be used to group events for analysis according to the type of source where the event occurred. Element `AuditEvent.source.type` is mapped to FHIR R4 element `AuditEvent.source.type`.",
+        "requirements" : "This field indicates which type of source is identified by the Audit Source ID. It is an optional value that may be used to group events for analysis according to the type of source where the event occurred. Element `AuditEvent.source.type` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.\nElement `AuditEvent.source.type` has is mapped to FHIR R4 element `AuditEvent.source.type`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -302,7 +302,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",

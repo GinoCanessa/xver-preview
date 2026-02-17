@@ -1,4 +1,4 @@
-# Lookup for ProfileDetectedIssue - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileDetectedIssue - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileDetectedIssue
 
@@ -19,23 +19,23 @@ A computable version of the following element information is available in: [Conc
 | [`DetectedIssue.text`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.text](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
 | [`DetectedIssue.contained`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.contained](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
 | [`DetectedIssue.identifier`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.identifier](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
-| [`DetectedIssue.status`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.status](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.status](StructureDefinition-ext-R5-DetectedIssue.status.md) |
-| [`DetectedIssue.category`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.category](StructureDefinition-ext-R5-DetectedIssue.category.md) |
+| [`DetectedIssue.status`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.status](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Extension: ExtensionDetectedIssue_Status](StructureDefinition-ext-R5-DetectedIssue.status.md) |
+| [`DetectedIssue.category`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [Extension: ExtensionDetectedIssue_Category](StructureDefinition-ext-R5-DetectedIssue.category.md) |
 | [`DetectedIssue.code`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.code](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
 | [`DetectedIssue.severity`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.severity](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
 | [`DetectedIssue.subject`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.patient](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Basic.subject](https://hl7.org/fhir/R4/Basic.html#resource) |
-| [`DetectedIssue.encounter`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.encounter](StructureDefinition-ext-R5-DetectedIssue.encounter.md) |
+| [`DetectedIssue.encounter`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`DetectedIssue.identified[x]`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.identified[x]](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
 | [`DetectedIssue.author`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.author](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Basic.author](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`DetectedIssue.implicated`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.implicated](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
-| [`DetectedIssue.evidence`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.evidence](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
-| [`DetectedIssue.evidence.code`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.evidence.code](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
-| [`DetectedIssue.evidence.detail`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.evidence.detail](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
+| [`DetectedIssue.evidence`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.evidence](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Extension: ExtensionDetectedIssue_Evidence](StructureDefinition-ext-R5-DetectedIssue.evidence.md) |
+| [`DetectedIssue.evidence.code`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.evidence.code](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Extension: ExtensionDetectedIssue_Evidence Slice:code](StructureDefinition-ext-R5-DetectedIssue.evidence.md) |
+| [`DetectedIssue.evidence.detail`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.evidence.detail](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Extension: ExtensionDetectedIssue_Evidence Slice:detail](StructureDefinition-ext-R5-DetectedIssue.evidence.md) |
 | [`DetectedIssue.detail`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.detail](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
 | [`DetectedIssue.reference`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.reference](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
-| [`DetectedIssue.mitigation`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.mitigation](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
-| [`DetectedIssue.mitigation.action`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.mitigation.action](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
-| [`DetectedIssue.mitigation.date`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.mitigation.date](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
-| [`DetectedIssue.mitigation.author`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.mitigation.author](https://hl7.org/fhir/R4/DetectedIssue.html#resource) |
-| [`DetectedIssue.mitigation.note`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.mitigation](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation.note](StructureDefinition-ext-R5-DetectedIssue.mit.note.md) |
+| [`DetectedIssue.mitigation`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.mitigation](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Extension: ExtensionDetectedIssue_Mitigation](StructureDefinition-ext-R5-DetectedIssue.mitigation.md) |
+| [`DetectedIssue.mitigation.action`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.mitigation.action](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Extension: ExtensionDetectedIssue_Mitigation Slice:action](StructureDefinition-ext-R5-DetectedIssue.mitigation.md) |
+| [`DetectedIssue.mitigation.date`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.mitigation.date](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Extension: ExtensionDetectedIssue_Mitigation Slice:date](StructureDefinition-ext-R5-DetectedIssue.mitigation.md) |
+| [`DetectedIssue.mitigation.author`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.mitigation.author](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Extension: ExtensionDetectedIssue_Mitigation Slice:author](StructureDefinition-ext-R5-DetectedIssue.mitigation.md) |
+| [`DetectedIssue.mitigation.note`](https://hl7.org/fhir/R5/DetectedIssue.html#resource) | [DetectedIssue.mitigation](https://hl7.org/fhir/R4/DetectedIssue.html#resource)[Extension: ExtensionDetectedIssue_Mitigation Slice:note](StructureDefinition-ext-R5-DetectedIssue.mitigation.md) |
 

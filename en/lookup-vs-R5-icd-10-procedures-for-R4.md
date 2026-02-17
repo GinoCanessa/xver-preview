@@ -1,4 +1,4 @@
-# Lookup for ValueSetR5Icd10ProceduresForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ValueSetR5Icd10ProceduresForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ValueSetR5Icd10ProceduresForR4
 

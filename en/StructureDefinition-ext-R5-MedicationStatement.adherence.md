@@ -1,4 +1,4 @@
-# ExtensionMedicationStatement_Adherence - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionMedicationStatement_Adherence - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.MedicationStatement.adherence` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
   "title" : "Cross-version Extension `R5.MedicationStatement.adherence` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicationStatement.adherence` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicationStatement.adherence` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicationStatement.adherence` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicationStatement.adherence` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicationStatement.adherence` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicationStatement.adherence` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicationStatement.adherence` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicationStatement.adherence` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "code",
         "short" : "Type of adherence",
         "definition" : "Type of the adherence for the medication.",
-        "requirements" : "Element `MedicationStatement.adherence.code` is part of an existing definition because parent element `MedicationStatement.adherence` requires a cross-version extension.\nElement `MedicationStatement.adherence.code` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.",
+        "requirements" : "Element `MedicationStatement.adherence.code` is part of an existing definition because parent element `MedicationStatement.adherence` requires a cross-version extension.\nElement `MedicationStatement.adherence.code` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence.code"
       },
       {
         "id" : "Extension.extension:code.value[x]",
@@ -231,7 +231,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "short" : "Details of the reason for the current use of the medication",
         "definition" : "Captures the reason for the current use or adherence of a medication.",
         "comment" : "This is generally only used for \"exception\" statuses such as \"entered-in-error\". The reason for performing the event at all is captured in reasonCode, not here.",
-        "requirements" : "Element `MedicationStatement.adherence.reason` is part of an existing definition because parent element `MedicationStatement.adherence` requires a cross-version extension.\nElement `MedicationStatement.adherence.reason` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.",
+        "requirements" : "Element `MedicationStatement.adherence.reason` is part of an existing definition because parent element `MedicationStatement.adherence` requires a cross-version extension.\nElement `MedicationStatement.adherence.reason` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -250,7 +250,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence.reason"
       },
       {
         "id" : "Extension.extension:reason.value[x]",

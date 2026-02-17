@@ -1,4 +1,4 @@
-# ConceptMapR5IdentifierElementsForR4Identifier - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5IdentifierElementsForR4Identifier - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5IdentifierElementsForR4Identifier 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.9247303-06:00",
+  "date" : "2026-02-17T14:42:27.3015802-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Identifier` is representable via FHIR R4 extensions.\nElement `Identifier` is mapped to FHIR R4 element `Identifier`."
+              "comment" : "FHIR R5 ComplexType `Identifier` is representable via FHIR R4 extensions.\nElement `Identifier` has is mapped to FHIR R4 element `Identifier`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.use` is mapped to FHIR R4 element `Identifier.use`."
+              "comment" : "Element `Identifier.use` has is mapped to FHIR R4 element `Identifier.use`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.type` is mapped to FHIR R4 element `Identifier.type`."
+              "comment" : "Element `Identifier.type` has is mapped to FHIR R4 element `Identifier.type`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.system` is mapped to FHIR R4 element `Identifier.system`."
+              "comment" : "Element `Identifier.system` has is mapped to FHIR R4 element `Identifier.system`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.value` is mapped to FHIR R4 element `Identifier.value`."
+              "comment" : "Element `Identifier.value` has is mapped to FHIR R4 element `Identifier.value`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.period` is mapped to FHIR R4 element `Identifier.period`."
+              "comment" : "Element `Identifier.period` has is mapped to FHIR R4 element `Identifier.period`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Identifier#Identifier.assigner",
               "equivalence" : "relatedto",
-              "comment" : "Element `Identifier.assigner` is mapped to FHIR R4 element `Identifier.assigner`."
+              "comment" : "Element `Identifier.assigner` has is mapped to FHIR R4 element `Identifier.assigner`, but has no comparisons."
             }
           ]
         }

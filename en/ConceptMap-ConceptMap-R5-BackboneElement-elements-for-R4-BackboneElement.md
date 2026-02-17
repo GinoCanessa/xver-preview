@@ -1,4 +1,4 @@
-# ConceptMapR5BackboneElementElementsForR4BackboneElement - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5BackboneElementElementsForR4BackboneElement - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5BackboneElementElementsForR4BackboneElement 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.4879493-06:00",
+  "date" : "2026-02-17T14:42:26.995456-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BackboneElement#BackboneElement",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `BackboneElement` is representable via FHIR R4 extensions.\nElement `BackboneElement` is mapped to FHIR R4 element `BackboneElement`."
+              "comment" : "FHIR R5 ComplexType `BackboneElement` is representable via FHIR R4 extensions.\nElement `BackboneElement` has is mapped to FHIR R4 element `BackboneElement`, but has no comparisons."
             }
           ]
         }

@@ -1,4 +1,4 @@
-# ProfileAppointmentResponse - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileAppointmentResponse - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileAppointmentResponse 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
   "title" : "Cross-version Profile for R5.AppointmentResponse for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:42.984309-06:00",
+  "date" : "2026-02-17T14:42:26.7322465-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -179,7 +179,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         "path" : "AppointmentResponse.extension",
         "sliceName" : "proposedNewTime",
         "short" : "Cross-version extension for AppointmentResponse.proposedNewTime from R5 for use in FHIR R4",
-        "comment" : "Element `AppointmentResponse.proposedNewTime` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
+        "comment" : "Element `AppointmentResponse.proposedNewTime` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -201,7 +201,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         "path" : "AppointmentResponse.extension",
         "sliceName" : "recurring",
         "short" : "Cross-version extension for AppointmentResponse.recurring from R5 for use in FHIR R4",
-        "comment" : "Element `AppointmentResponse.recurring` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
+        "comment" : "Element `AppointmentResponse.recurring` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -223,7 +223,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         "path" : "AppointmentResponse.extension",
         "sliceName" : "occurrenceDate",
         "short" : "Cross-version extension for AppointmentResponse.occurrenceDate from R5 for use in FHIR R4",
-        "comment" : "Element `AppointmentResponse.occurrenceDate` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
+        "comment" : "Element `AppointmentResponse.occurrenceDate` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -245,7 +245,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         "path" : "AppointmentResponse.extension",
         "sliceName" : "recurrenceId",
         "short" : "Cross-version extension for AppointmentResponse.recurrenceId from R5 for use in FHIR R4",
-        "comment" : "Element `AppointmentResponse.recurrenceId` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
+        "comment" : "Element `AppointmentResponse.recurrenceId` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -289,7 +289,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         "sliceName" : "actor",
         "short" : "Cross-version extension for AppointmentResponse.actor from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AppointmentResponse.actor` is mapped to FHIR R4 element `AppointmentResponse.actor`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AppointmentResponse.actor` has is mapped to FHIR R4 element `AppointmentResponse.actor`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -332,7 +332,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Appointme
         "path" : "AppointmentResponse.participantStatus.extension",
         "sliceName" : "participantStatus",
         "short" : "Cross-version extension for AppointmentResponse.participantStatus from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus`.",
+        "comment" : "Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` has is mapped to FHIR R4 element `AppointmentResponse.participantStatus`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {

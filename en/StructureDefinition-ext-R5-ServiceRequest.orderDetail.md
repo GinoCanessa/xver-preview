@@ -1,4 +1,4 @@
-# ExtensionServiceRequest_OrderDetail - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionServiceRequest_OrderDetail - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
   "title" : "Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ServiceRequest.orderDetail` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ServiceRequest.orderDetail` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ServiceRequest.orderDetail` 0..* `BackboneElement`\n*  R4B: `ServiceRequest.orderDetail` 0..* `CodeableConcept`\n*  R4: `ServiceRequest.orderDetail` 0..* `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ServiceRequest.orderDetail` is mapped to FHIR R4 element `ServiceRequest.orderDetail`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ServiceRequest.orderDetail` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ServiceRequest.orderDetail` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ServiceRequest.orderDetail` 0..* `BackboneElement`\n*  R4B: `ServiceRequest.orderDetail` 0..* `CodeableConcept`\n*  R4: `ServiceRequest.orderDetail` 0..* `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ServiceRequest.orderDetail` has is mapped to FHIR R4 element `ServiceRequest.orderDetail`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "parameterFocus",
         "short" : "The context of the order details by reference",
         "definition" : "Indicates the context of the order details by reference.",
-        "requirements" : "Element `ServiceRequest.orderDetail.parameterFocus` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
+        "requirements" : "Element `ServiceRequest.orderDetail.parameterFocus` is part of an existing definition because parent element `ServiceRequest.orderDetail` requires a cross-version extension.\nElement `ServiceRequest.orderDetail.parameterFocus` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -265,7 +265,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -310,7 +310,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -377,7 +377,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "parameterFocus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameterFocus"
       },
       {
         "id" : "Extension.extension:parameterFocus.value[x]",
@@ -396,7 +396,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "parameter",
         "short" : "The parameter details for the service being requested",
         "definition" : "The parameter details for the service being requested.",
-        "requirements" : "Element `ServiceRequest.orderDetail.parameter` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
+        "requirements" : "Element `ServiceRequest.orderDetail.parameter` is part of an existing definition because parent element `ServiceRequest.orderDetail` requires a cross-version extension.\nElement `ServiceRequest.orderDetail.parameter` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -432,7 +432,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "code",
         "short" : "The detail of the order being requested",
         "definition" : "A value representing the additional detail or instructions for the order (e.g., catheter insertion, body elevation, descriptive device configuration and/or setting instructions).",
-        "requirements" : "Element `ServiceRequest.orderDetail.parameter.code` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.\nElement `ServiceRequest.orderDetail.parameter.code` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
+        "requirements" : "Element `ServiceRequest.orderDetail.parameter.code` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.\nElement `ServiceRequest.orderDetail.parameter.code` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -451,7 +451,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameter.code"
       },
       {
         "id" : "Extension.extension:parameter.extension:code.value[x]",
@@ -478,7 +478,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "short" : "The value for the order detail",
         "definition" : "Indicates a value for the order detail.",
         "comment" : "CodeableConcept values are indented to express concepts that would normally be coded - when a code is not available for a concept, CodeableConcept.text can be used. When the data is a text or not a single identifiable concept, string should be used.",
-        "requirements" : "Element `ServiceRequest.orderDetail.parameter.value[x]` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.\nElement `ServiceRequest.orderDetail.parameter.value[x]` is will have a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
+        "requirements" : "Element `ServiceRequest.orderDetail.parameter.value[x]` is part of an existing definition because parent element `ServiceRequest.orderDetail.parameter` requires a cross-version extension.\nElement `ServiceRequest.orderDetail.parameter.value[x]` has a context of ServiceRequest.orderDetail based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -497,7 +497,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameter.value"
       },
       {
         "id" : "Extension.extension:parameter.extension:value.value[x]",
@@ -546,7 +546,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "parameter"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.orderDetail.parameter"
       },
       {
         "id" : "Extension.extension:parameter.value[x]",

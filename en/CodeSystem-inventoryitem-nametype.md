@@ -1,4 +1,4 @@
-# InventoryItemNameType - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# InventoryItemNameType - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## CodeSystem: InventoryItemNameType 
 
@@ -50,7 +50,7 @@ This Code system is referenced in the definition of the following value sets:
   "title" : "InventoryItem Name Type",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:08:15-06:00",
+  "date" : "2026-02-17T15:29:43-06:00",
   "publisher" : "Orders and Observations",
   "contact" : [
     {

@@ -1,4 +1,4 @@
-# ProfileConsent - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileConsent - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileConsent 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
   "title" : "Cross-version Profile for R5.Consent for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.047911-06:00",
+  "date" : "2026-02-17T14:42:26.7726401-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         "path" : "Consent.extension",
         "sliceName" : "period",
         "short" : "Cross-version extension for Consent.period from R5 for use in FHIR R4",
-        "comment" : "Element `Consent.period` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
+        "comment" : "Element `Consent.period` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         "path" : "Consent.extension",
         "sliceName" : "decision",
         "short" : "Cross-version extension for Consent.decision from R5 for use in FHIR R4",
-        "comment" : "Element `Consent.decision` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
+        "comment" : "Element `Consent.decision` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -219,7 +219,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         "sliceName" : "grantor",
         "short" : "Cross-version extension for Consent.grantor from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.grantor` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.grantor` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -242,7 +242,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         "sliceName" : "manager",
         "short" : "Cross-version extension for Consent.manager from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.manager` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.manager` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.manager` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.manager` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -265,7 +265,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         "sliceName" : "controller",
         "short" : "Cross-version extension for Consent.controller from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.controller` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.controller` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.controller` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.controller` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -288,7 +288,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         "sliceName" : "sourceReference",
         "short" : "Cross-version extension for Consent.sourceReference from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4",
-        "comment" : "Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.sourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.sourceReference` is mapped to FHIR R4 element `Consent.source[x]`.\nNote that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.",
+        "comment" : "Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.sourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.sourceReference` has is mapped to FHIR R4 element `Consent.source[x]`, but has no comparisons.\nNote that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -311,7 +311,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         "sliceName" : "policyText",
         "short" : "Cross-version extension for Consent.policyText from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.policyText` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.policyText` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.policyText` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.policyText` has a context of Consent based on following the parent source element upwards and mapping to `Consent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -354,7 +354,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         "path" : "Consent.status.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for Consent.status from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Consent.status` is mapped to FHIR R4 element `Consent.status`.",
+        "comment" : "Note that the target element context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Consent.status` has is mapped to FHIR R4 element `Consent.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -398,7 +398,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         "sliceName" : "grantee",
         "short" : "Cross-version extension for Consent.grantee from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantee` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.grantee` is mapped to FHIR R4 element `Consent.performer`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantee` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.grantee` has is mapped to FHIR R4 element `Consent.performer`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -411,6 +411,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Consent.policy.extension",
+        "path" : "Consent.policy.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Consent.policy.extension:policyBasis",
+        "path" : "Consent.policy.extension",
+        "sliceName" : "policyBasis",
+        "short" : "Cross-version extension for Consent.policyBasis from R5 for use in FHIR R4",
+        "comment" : "Element `Consent.policyBasis` has is mapped to FHIR R4 element `Consent.policy`, but has no comparisons.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.policyBasis|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -437,13 +480,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         }
       },
       {
-        "id" : "Consent.verification.extension:verificationType",
+        "id" : "Consent.verification.extension:verification",
         "path" : "Consent.verification.extension",
-        "sliceName" : "verificationType",
-        "short" : "Cross-version extension for Consent.verification.verificationType from R5 for use in FHIR R4",
-        "comment" : "Element `Consent.verification.verificationType` is will have a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`.",
+        "sliceName" : "verification",
+        "short" : "Cross-version extension for Consent.verification from R5 for use in FHIR R4",
+        "comment" : "Element `Consent.verification` has is mapped to FHIR R4 element `Consent.verification`, but has no comparisons.",
         "min" : 0,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -453,30 +496,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verificationType|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Consent.verification.extension:verifiedBy",
-        "path" : "Consent.verification.extension",
-        "sliceName" : "verifiedBy",
-        "short" : "Cross-version extension for Consent.verification.verifiedBy from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.verification.verifiedBy` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.verification.verifiedBy` is will have a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -503,13 +523,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
         }
       },
       {
-        "id" : "Consent.provision.extension:expression",
+        "id" : "Consent.provision.extension:provision",
         "path" : "Consent.provision.extension",
-        "sliceName" : "expression",
-        "short" : "Cross-version extension for Consent.provision.expression from R5 for use in FHIR R4",
-        "comment" : "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`.",
+        "sliceName" : "provision",
+        "short" : "Cross-version extension for Consent.provision from R5 for use in FHIR R4",
+        "comment" : "Element `Consent.provision` has is mapped to FHIR R4 element `Consent.provision`, but has no comparisons.\nNote available implied context: `Consent.provision.provision` because `Consent.provision.provision` is defined as a content reference to `Consent.provision`.",
         "min" : 0,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -519,7 +539,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Consent.c
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision.expression|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision|0.0.1-snapshot-3"
             ]
           }
         ]

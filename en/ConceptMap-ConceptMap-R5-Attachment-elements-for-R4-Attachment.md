@@ -1,4 +1,4 @@
-# ConceptMapR5AttachmentElementsForR4Attachment - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5AttachmentElementsForR4Attachment - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5AttachmentElementsForR4Attachment 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.4782296-06:00",
+  "date" : "2026-02-17T14:42:26.9884722-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Attachment` is representable via FHIR R4 extensions.\nElement `Attachment` is mapped to FHIR R4 element `Attachment`."
+              "comment" : "FHIR R5 ComplexType `Attachment` is representable via FHIR R4 extensions.\nElement `Attachment` has is mapped to FHIR R4 element `Attachment`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment.contentType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.contentType` is mapped to FHIR R4 element `Attachment.contentType`."
+              "comment" : "Element `Attachment.contentType` has is mapped to FHIR R4 element `Attachment.contentType`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.language` is mapped to FHIR R4 element `Attachment.language`."
+              "comment" : "Element `Attachment.language` has is mapped to FHIR R4 element `Attachment.language`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment.data",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.data` is mapped to FHIR R4 element `Attachment.data`."
+              "comment" : "Element `Attachment.data` has is mapped to FHIR R4 element `Attachment.data`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.url` is mapped to FHIR R4 element `Attachment.url`."
+              "comment" : "Element `Attachment.url` has is mapped to FHIR R4 element `Attachment.url`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment.size",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.size` is mapped to FHIR R4 element `Attachment.size`."
+              "comment" : "Element `Attachment.size` has is mapped to FHIR R4 element `Attachment.size`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment.hash",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.hash` is mapped to FHIR R4 element `Attachment.hash`."
+              "comment" : "Element `Attachment.hash` has is mapped to FHIR R4 element `Attachment.hash`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.title` is mapped to FHIR R4 element `Attachment.title`."
+              "comment" : "Element `Attachment.title` has is mapped to FHIR R4 element `Attachment.title`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment.creation",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.creation` is mapped to FHIR R4 element `Attachment.creation`."
+              "comment" : "Element `Attachment.creation` has is mapped to FHIR R4 element `Attachment.creation`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.height` is will have a context of Attachment based on following the parent source element upwards and mapping to `Attachment`."
+              "comment" : "Element `Attachment.height` has a context of Attachment based on following the parent source element upwards and mapping to `Attachment`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.width` is will have a context of Attachment based on following the parent source element upwards and mapping to `Attachment`."
+              "comment" : "Element `Attachment.width` has a context of Attachment based on following the parent source element upwards and mapping to `Attachment`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.frames` is will have a context of Attachment based on following the parent source element upwards and mapping to `Attachment`."
+              "comment" : "Element `Attachment.frames` has a context of Attachment based on following the parent source element upwards and mapping to `Attachment`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.duration` is will have a context of Attachment based on following the parent source element upwards and mapping to `Attachment`."
+              "comment" : "Element `Attachment.duration` has a context of Attachment based on following the parent source element upwards and mapping to `Attachment`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Attachment#Attachment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Attachment.pages` is will have a context of Attachment based on following the parent source element upwards and mapping to `Attachment`."
+              "comment" : "Element `Attachment.pages` has a context of Attachment based on following the parent source element upwards and mapping to `Attachment`."
             }
           ]
         }

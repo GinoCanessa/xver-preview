@@ -1,4 +1,4 @@
-# ExtensionSubstanceNucleicAcid - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSubstanceNucleicAcid - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SubstanceNucleicAcid` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
   "title" : "Cross-version Extension `R5.SubstanceNucleicAcid` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sequenceType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.sequenceType"
       },
       {
         "id" : "Extension.extension:sequenceType.value[x]",
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "numberOfSubunits"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.numberOfSubunits"
       },
       {
         "id" : "Extension.extension:numberOfSubunits.value[x]",
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "areaOfHybridisation"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.areaOfHybridisation"
       },
       {
         "id" : "Extension.extension:areaOfHybridisation.value[x]",
@@ -338,7 +338,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "oligoNucleotideType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.oligoNucleotideType"
       },
       {
         "id" : "Extension.extension:oligoNucleotideType.value[x]",
@@ -419,7 +419,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "subunit"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.subunit"
       },
       {
         "id" : "Extension.extension:subunit.extension:subunit.value[x]",
@@ -464,7 +464,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sequence"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.sequence"
       },
       {
         "id" : "Extension.extension:subunit.extension:sequence.value[x]",
@@ -509,7 +509,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "length"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.length"
       },
       {
         "id" : "Extension.extension:subunit.extension:length.value[x]",
@@ -554,7 +554,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sequenceAttachment"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.sequenceAttachment"
       },
       {
         "id" : "Extension.extension:subunit.extension:sequenceAttachment.value[x]",
@@ -599,7 +599,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "fivePrime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.fivePrime"
       },
       {
         "id" : "Extension.extension:subunit.extension:fivePrime.value[x]",
@@ -644,7 +644,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "threePrime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.threePrime"
       },
       {
         "id" : "Extension.extension:subunit.extension:threePrime.value[x]",
@@ -725,7 +725,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "connectivity"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.linkage.connectivity"
       },
       {
         "id" : "Extension.extension:subunit.extension:linkage.extension:connectivity.value[x]",
@@ -770,7 +770,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "identifier"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.linkage.identifier"
       },
       {
         "id" : "Extension.extension:subunit.extension:linkage.extension:identifier.value[x]",
@@ -815,7 +815,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "name"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.linkage.name"
       },
       {
         "id" : "Extension.extension:subunit.extension:linkage.extension:name.value[x]",
@@ -860,7 +860,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "residueSite"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.linkage.residueSite"
       },
       {
         "id" : "Extension.extension:subunit.extension:linkage.extension:residueSite.value[x]",
@@ -964,7 +964,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "identifier"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.sugar.identifier"
       },
       {
         "id" : "Extension.extension:subunit.extension:sugar.extension:identifier.value[x]",
@@ -1009,7 +1009,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "name"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.sugar.name"
       },
       {
         "id" : "Extension.extension:subunit.extension:sugar.extension:name.value[x]",
@@ -1054,7 +1054,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceN
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "residueSite"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceNucleicAcid.subunit.sugar.residueSite"
       },
       {
         "id" : "Extension.extension:subunit.extension:sugar.extension:residueSite.value[x]",

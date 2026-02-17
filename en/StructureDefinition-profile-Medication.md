@@ -1,4 +1,4 @@
-# ProfileMedication - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileMedication - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileMedication 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Medication content to be represented via FH
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.Immunization.administeredProduct` for use in FHIR R4](StructureDefinition-ext-R5-Immunization.administeredProduct.md), [Cross-version Extension `R5.InventoryItem` for use in FHIR R4](StructureDefinition-ext-R5-InventoryItem.md), [Cross-version Extension `R5.InventoryReport` for use in FHIR R4](StructureDefinition-ext-R5-InventoryReport.md)... Show 2 more, [Cross-version Extension `R5.ResearchStudy.focus` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.focus.md) and [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
+* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.Immunization.administeredProduct` for use in FHIR R4](StructureDefinition-ext-R5-Immunization.administeredProduct.md), [Cross-version Extension `R5.InventoryItem` for use in FHIR R4](StructureDefinition-ext-R5-InventoryItem.md), [Cross-version Extension `R5.InventoryReport` for use in FHIR R4](StructureDefinition-ext-R5-InventoryReport.md)... Show 3 more, [Cross-version Extension `R5.Medication.ingredient` for use in FHIR R4](StructureDefinition-ext-R5-Medication.ingredient.md), [Cross-version Extension `R5.ResearchStudy.focus` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.focus.md) and [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Medication)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
   "title" : "Cross-version Profile for R5.Medication for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1946049-06:00",
+  "date" : "2026-02-17T14:42:26.8449082-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -175,7 +175,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "sliceName" : "definition",
         "short" : "Cross-version extension for Medication.definition from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/MedicationKnowledge in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Medication.definition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Medication.definition` is will have a context of Medication based on following the parent source element upwards and mapping to `Medication`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Medication.definition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Medication.definition` has a context of Medication based on following the parent source element upwards and mapping to `Medication`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "path" : "Medication.amount.extension",
         "sliceName" : "totalVolume",
         "short" : "Cross-version extension for Medication.totalVolume from R5 for use in FHIR R4",
-        "comment" : "Element `Medication.totalVolume` is mapped to FHIR R4 element `Medication.amount`.",
+        "comment" : "Element `Medication.totalVolume` has is mapped to FHIR R4 element `Medication.amount`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -236,8 +236,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         ]
       },
       {
-        "id" : "Medication.ingredient.strength.extension",
-        "path" : "Medication.ingredient.strength.extension",
+        "id" : "Medication.ingredient.extension",
+        "path" : "Medication.ingredient.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -251,17 +251,60 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "Medication.ingredient.strength",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "Medication.ingredient.strength.extension:strength",
-        "path" : "Medication.ingredient.strength.extension",
-        "sliceName" : "strength",
-        "short" : "Cross-version extension for Medication.ingredient.strength[x] from R5 for use in FHIR R4",
-        "comment" : "Element `Medication.ingredient.strength[x]` is mapped to FHIR R4 element `Medication.ingredient.strength`.",
+        "id" : "Medication.ingredient.extension:ingredient",
+        "path" : "Medication.ingredient.extension",
+        "sliceName" : "ingredient",
+        "short" : "Cross-version extension for Medication.ingredient from R5 for use in FHIR R4",
+        "comment" : "Element `Medication.ingredient` has is mapped to FHIR R4 element `Medication.ingredient`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Medication.batch.extension",
+        "path" : "Medication.batch.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Medication.batch.extension:batch",
+        "path" : "Medication.batch.extension",
+        "sliceName" : "batch",
+        "short" : "Cross-version extension for Medication.batch from R5 for use in FHIR R4",
+        "comment" : "Element `Medication.batch` has is mapped to FHIR R4 element `Medication.batch`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -273,7 +316,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient.strength|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.batch|0.0.1-snapshot-3"
             ]
           }
         ]

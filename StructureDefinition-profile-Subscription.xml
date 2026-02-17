@@ -62,7 +62,7 @@
   <title value="Cross-version Profile for R5.Subscription for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-09T22:05:43.3430726-06:00"/>
+  <date value="2026-02-17T14:42:26.9208067-06:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -385,7 +385,7 @@
       <sliceName value="name"/>
       <short value="Cross-version extension for Subscription.name from R5 for use in FHIR R4"/>
       <definition value="A natural language name identifying the subscription."/>
-      <comment value="Element `Subscription.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.name` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -422,7 +422,7 @@
       <sliceName value="filterBy"/>
       <short value="Cross-version extension for Subscription.filterBy from R5 for use in FHIR R4"/>
       <definition value="The filter properties to be applied to narrow the subscription topic stream.  When multiple filters are applied, evaluates to true if all the conditions applicable to that resource are met; otherwise it returns false (i.e., logical AND)."/>
-      <comment value="Element `Subscription.filterBy` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.filterBy` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -459,7 +459,7 @@
       <sliceName value="parameter"/>
       <short value="Cross-version extension for Subscription.parameter from R5 for use in FHIR R4"/>
       <definition value="Channel-dependent information to send as part of the notification (e.g., HTTP Headers)."/>
-      <comment value="Element `Subscription.parameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.parameter` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -496,7 +496,7 @@
       <sliceName value="heartbeatPeriod"/>
       <short value="Cross-version extension for Subscription.heartbeatPeriod from R5 for use in FHIR R4"/>
       <definition value="If present, a 'heartbeat' notification (keep-alive) is sent via this channel with an interval period equal to this elements integer value in seconds.  If not present, a heartbeat notification is not sent."/>
-      <comment value="Element `Subscription.heartbeatPeriod` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.heartbeatPeriod` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -533,7 +533,7 @@
       <sliceName value="timeout"/>
       <short value="Cross-version extension for Subscription.timeout from R5 for use in FHIR R4"/>
       <definition value="If present, the maximum amount of time a server will allow before failing a notification attempt."/>
-      <comment value="Element `Subscription.timeout` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.timeout` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -570,7 +570,7 @@
       <sliceName value="content"/>
       <short value="Cross-version extension for Subscription.content from R5 for use in FHIR R4"/>
       <definition value="How much of the resource content to deliver in the notification payload. The choices are an empty payload, only the resource id, or the full resource content."/>
-      <comment value="Element `Subscription.content` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.content` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -607,7 +607,7 @@
       <sliceName value="maxCount"/>
       <short value="Cross-version extension for Subscription.maxCount from R5 for use in FHIR R4"/>
       <definition value="If present, the maximum number of events that will be included in a notification bundle. Note that this is not a strict limit on the number of entries in a bundle, as dependent resources can be included."/>
-      <comment value="Element `Subscription.maxCount` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.maxCount` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -644,7 +644,7 @@
       <sliceName value="topic"/>
       <short value="Cross-version extension for Subscription.topic from R5 for use in FHIR R4"/>
       <definition value="This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/SubscriptionTopic in FHIR R4"/>
-      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `Subscription.topic` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `Subscription.topic` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -678,7 +678,7 @@
       <sliceName value="managingEntity"/>
       <short value="Cross-version extension for Subscription.managingEntity from R5 for use in FHIR R4"/>
       <definition value="This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4"/>
-      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Subscription.managingEntity` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Subscription.managingEntity` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -855,7 +855,7 @@
       <sliceName value="status"/>
       <short value="Cross-version extension for Subscription.status from R5 for use in FHIR R4"/>
       <definition value="The status of the subscription, which marks the server state for managing the subscription."/>
-      <comment value="Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Element `Subscription.status` is mapped to FHIR R4 element `Subscription.status`."/>
+      <comment value="Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Element `Subscription.status` has is mapped to FHIR R4 element `Subscription.status`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1287,7 +1287,7 @@
       <sliceName value="channelType"/>
       <short value="Cross-version extension for Subscription.channelType from R5 for use in FHIR R4"/>
       <definition value="The type of channel to send notifications on."/>
-      <comment value="Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type`."/>
+      <comment value="Element `Subscription.channelType` has is mapped to FHIR R4 element `Subscription.channel.type`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1456,7 +1456,7 @@
       <path value="Subscription.extension"/>
       <sliceName value="name"/>
       <short value="Cross-version extension for Subscription.name from R5 for use in FHIR R4"/>
-      <comment value="Element `Subscription.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.name` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1473,7 +1473,7 @@
       <path value="Subscription.extension"/>
       <sliceName value="filterBy"/>
       <short value="Cross-version extension for Subscription.filterBy from R5 for use in FHIR R4"/>
-      <comment value="Element `Subscription.filterBy` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.filterBy` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1490,7 +1490,7 @@
       <path value="Subscription.extension"/>
       <sliceName value="parameter"/>
       <short value="Cross-version extension for Subscription.parameter from R5 for use in FHIR R4"/>
-      <comment value="Element `Subscription.parameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.parameter` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1507,7 +1507,7 @@
       <path value="Subscription.extension"/>
       <sliceName value="heartbeatPeriod"/>
       <short value="Cross-version extension for Subscription.heartbeatPeriod from R5 for use in FHIR R4"/>
-      <comment value="Element `Subscription.heartbeatPeriod` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.heartbeatPeriod` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1524,7 +1524,7 @@
       <path value="Subscription.extension"/>
       <sliceName value="timeout"/>
       <short value="Cross-version extension for Subscription.timeout from R5 for use in FHIR R4"/>
-      <comment value="Element `Subscription.timeout` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.timeout` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1541,7 +1541,7 @@
       <path value="Subscription.extension"/>
       <sliceName value="content"/>
       <short value="Cross-version extension for Subscription.content from R5 for use in FHIR R4"/>
-      <comment value="Element `Subscription.content` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.content` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1558,7 +1558,7 @@
       <path value="Subscription.extension"/>
       <sliceName value="maxCount"/>
       <short value="Cross-version extension for Subscription.maxCount from R5 for use in FHIR R4"/>
-      <comment value="Element `Subscription.maxCount` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Element `Subscription.maxCount` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1576,7 +1576,7 @@
       <sliceName value="topic"/>
       <short value="Cross-version extension for Subscription.topic from R5 for use in FHIR R4"/>
       <definition value="This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/SubscriptionTopic in FHIR R4"/>
-      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `Subscription.topic` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.&#xA;Element `Subscription.topic` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1594,7 +1594,7 @@
       <sliceName value="managingEntity"/>
       <short value="Cross-version extension for Subscription.managingEntity from R5 for use in FHIR R4"/>
       <definition value="This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4"/>
-      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Subscription.managingEntity` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
+      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `Subscription.managingEntity` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1629,7 +1629,7 @@
       <path value="Subscription.status.extension"/>
       <sliceName value="status"/>
       <short value="Cross-version extension for Subscription.status from R5 for use in FHIR R4"/>
-      <comment value="Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Element `Subscription.status` is mapped to FHIR R4 element `Subscription.status`."/>
+      <comment value="Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Element `Subscription.status` has is mapped to FHIR R4 element `Subscription.status`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1664,7 +1664,7 @@
       <path value="Subscription.channel.type.extension"/>
       <sliceName value="channelType"/>
       <short value="Cross-version extension for Subscription.channelType from R5 for use in FHIR R4"/>
-      <comment value="Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type`."/>
+      <comment value="Element `Subscription.channelType` has is mapped to FHIR R4 element `Subscription.channel.type`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>

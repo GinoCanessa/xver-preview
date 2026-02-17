@@ -1,4 +1,4 @@
-# ExtensionValueSet_Scope - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionValueSet_Scope - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ValueSet.scope` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ValueSet.s
   "title" : "Cross-version Extension `R5.ValueSet.scope` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ValueSet.s
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ValueSet.scope` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ValueSet.scope` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ValueSet.scope` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ValueSet.scope` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ValueSet.scope` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ValueSet.scope` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ValueSet.scope` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ValueSet.scope` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ValueSet.s
         "sliceName" : "inclusionCriteria",
         "short" : "Criteria describing which concepts or codes should be included and why",
         "definition" : "Criteria describing which concepts or codes should be included and why.",
-        "requirements" : "Element `ValueSet.scope.inclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.\nElement `ValueSet.scope.inclusionCriteria` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "requirements" : "Element `ValueSet.scope.inclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.\nElement `ValueSet.scope.inclusionCriteria` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ValueSet.s
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "inclusionCriteria"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope.inclusionCriteria"
       },
       {
         "id" : "Extension.extension:inclusionCriteria.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ValueSet.s
         "sliceName" : "exclusionCriteria",
         "short" : "Criteria describing which concepts or codes should be excluded and why",
         "definition" : "Criteria describing which concepts or codes should be excluded and why.",
-        "requirements" : "Element `ValueSet.scope.exclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.\nElement `ValueSet.scope.exclusionCriteria` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "requirements" : "Element `ValueSet.scope.exclusionCriteria` is part of an existing definition because parent element `ValueSet.scope` requires a cross-version extension.\nElement `ValueSet.scope.exclusionCriteria` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ValueSet.s
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "exclusionCriteria"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.scope.exclusionCriteria"
       },
       {
         "id" : "Extension.extension:exclusionCriteria.value[x]",

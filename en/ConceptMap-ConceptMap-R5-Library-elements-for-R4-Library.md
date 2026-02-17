@@ -1,4 +1,4 @@
-# ConceptMapR5LibraryElementsForR4Library - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5LibraryElementsForR4Library - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5LibraryElementsForR4Library 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.9703962-06:00",
+  "date" : "2026-02-17T14:42:27.3398627-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Library` is representable via FHIR R4 Resource `Library`.\nElement `Library` is mapped to FHIR R4 element `Library`."
+              "comment" : "FHIR R5 Resource `Library` is representable via FHIR R4 Resource `Library`.\nElement `Library` has is mapped to FHIR R4 element `Library`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.meta` is mapped to FHIR R4 element `Library.meta`."
+              "comment" : "Element `Library.meta` has is mapped to FHIR R4 element `Library.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.implicitRules` is mapped to FHIR R4 element `Library.implicitRules`."
+              "comment" : "Element `Library.implicitRules` has is mapped to FHIR R4 element `Library.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.language` is mapped to FHIR R4 element `Library.language`."
+              "comment" : "Element `Library.language` has is mapped to FHIR R4 element `Library.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.text` is mapped to FHIR R4 element `Library.text`."
+              "comment" : "Element `Library.text` has is mapped to FHIR R4 element `Library.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.contained` is mapped to FHIR R4 element `Library.contained`."
+              "comment" : "Element `Library.contained` has is mapped to FHIR R4 element `Library.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.url` is mapped to FHIR R4 element `Library.url`."
+              "comment" : "Element `Library.url` has is mapped to FHIR R4 element `Library.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.identifier` is mapped to FHIR R4 element `Library.identifier`."
+              "comment" : "Element `Library.identifier` has is mapped to FHIR R4 element `Library.identifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.version` is mapped to FHIR R4 element `Library.version`."
+              "comment" : "Element `Library.version` has is mapped to FHIR R4 element `Library.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.versionAlgorithm[x]` is will have a context of Library based on following the parent source element upwards and mapping to `Library`."
+              "comment" : "Element `Library.versionAlgorithm[x]` has a context of Library based on following the parent source element upwards and mapping to `Library`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.name` is mapped to FHIR R4 element `Library.name`."
+              "comment" : "Element `Library.name` has is mapped to FHIR R4 element `Library.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.title` is mapped to FHIR R4 element `Library.title`."
+              "comment" : "Element `Library.title` has is mapped to FHIR R4 element `Library.title`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.subtitle",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.subtitle` is mapped to FHIR R4 element `Library.subtitle`."
+              "comment" : "Element `Library.subtitle` has is mapped to FHIR R4 element `Library.subtitle`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.status` is mapped to FHIR R4 element `Library.status`."
+              "comment" : "Element `Library.status` has is mapped to FHIR R4 element `Library.status`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.experimental` is mapped to FHIR R4 element `Library.experimental`."
+              "comment" : "Element `Library.experimental` has is mapped to FHIR R4 element `Library.experimental`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.type` is mapped to FHIR R4 element `Library.type`."
+              "comment" : "Element `Library.type` has is mapped to FHIR R4 element `Library.type`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.subject[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Library.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Library`.\nElement `Library.subject[x]` is mapped to FHIR R4 element `Library.subject[x]`.\nNote that the target element context `Library.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Library`."
+              "comment" : "Note that the target element context `Library.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Library`.\nElement `Library.subject[x]` has is mapped to FHIR R4 element `Library.subject[x]`, but has no comparisons.\nNote that the target element context `Library.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Library`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.date` is mapped to FHIR R4 element `Library.date`."
+              "comment" : "Element `Library.date` has is mapped to FHIR R4 element `Library.date`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.publisher` is mapped to FHIR R4 element `Library.publisher`."
+              "comment" : "Element `Library.publisher` has is mapped to FHIR R4 element `Library.publisher`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.contact` is mapped to FHIR R4 element `Library.contact`."
+              "comment" : "Element `Library.contact` has is mapped to FHIR R4 element `Library.contact`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.description` is mapped to FHIR R4 element `Library.description`."
+              "comment" : "Element `Library.description` has is mapped to FHIR R4 element `Library.description`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.useContext` is mapped to FHIR R4 element `Library.useContext`."
+              "comment" : "Element `Library.useContext` has is mapped to FHIR R4 element `Library.useContext`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.jurisdiction` is mapped to FHIR R4 element `Library.jurisdiction`."
+              "comment" : "Element `Library.jurisdiction` has is mapped to FHIR R4 element `Library.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.purpose` is mapped to FHIR R4 element `Library.purpose`."
+              "comment" : "Element `Library.purpose` has is mapped to FHIR R4 element `Library.purpose`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.usage",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.usage` is mapped to FHIR R4 element `Library.usage`."
+              "comment" : "Element `Library.usage` has is mapped to FHIR R4 element `Library.usage`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.copyright` is mapped to FHIR R4 element `Library.copyright`."
+              "comment" : "Element `Library.copyright` has is mapped to FHIR R4 element `Library.copyright`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.copyrightLabel` is will have a context of Library based on following the parent source element upwards and mapping to `Library`."
+              "comment" : "Element `Library.copyrightLabel` has a context of Library based on following the parent source element upwards and mapping to `Library`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.approvalDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.approvalDate` is mapped to FHIR R4 element `Library.approvalDate`."
+              "comment" : "Element `Library.approvalDate` has is mapped to FHIR R4 element `Library.approvalDate`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.lastReviewDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.lastReviewDate` is mapped to FHIR R4 element `Library.lastReviewDate`."
+              "comment" : "Element `Library.lastReviewDate` has is mapped to FHIR R4 element `Library.lastReviewDate`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.effectivePeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.effectivePeriod` is mapped to FHIR R4 element `Library.effectivePeriod`."
+              "comment" : "Element `Library.effectivePeriod` has is mapped to FHIR R4 element `Library.effectivePeriod`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.topic",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.topic` is mapped to FHIR R4 element `Library.topic`."
+              "comment" : "Element `Library.topic` has is mapped to FHIR R4 element `Library.topic`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.author",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.author` is mapped to FHIR R4 element `Library.author`."
+              "comment" : "Element `Library.author` has is mapped to FHIR R4 element `Library.author`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.editor",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.editor` is mapped to FHIR R4 element `Library.editor`."
+              "comment" : "Element `Library.editor` has is mapped to FHIR R4 element `Library.editor`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.reviewer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.reviewer` is mapped to FHIR R4 element `Library.reviewer`."
+              "comment" : "Element `Library.reviewer` has is mapped to FHIR R4 element `Library.reviewer`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.endorser",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.endorser` is mapped to FHIR R4 element `Library.endorser`."
+              "comment" : "Element `Library.endorser` has is mapped to FHIR R4 element `Library.endorser`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.relatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.relatedArtifact` is mapped to FHIR R4 element `Library.relatedArtifact`."
+              "comment" : "Element `Library.relatedArtifact` has is mapped to FHIR R4 element `Library.relatedArtifact`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.parameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.parameter` is mapped to FHIR R4 element `Library.parameter`."
+              "comment" : "Element `Library.parameter` has is mapped to FHIR R4 element `Library.parameter`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.dataRequirement",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.dataRequirement` is mapped to FHIR R4 element `Library.dataRequirement`."
+              "comment" : "Element `Library.dataRequirement` has is mapped to FHIR R4 element `Library.dataRequirement`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Library#Library.content",
               "equivalence" : "relatedto",
-              "comment" : "Element `Library.content` is mapped to FHIR R4 element `Library.content`."
+              "comment" : "Element `Library.content` has is mapped to FHIR R4 element `Library.content`, but has no comparisons."
             }
           ]
         }

@@ -1,4 +1,4 @@
-# ExtensionRegulatedAuthorization - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionRegulatedAuthorization - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.RegulatedAuthorization` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RegulatedA
   "title" : "Cross-version Extension `R5.RegulatedAuthorization` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -549,7 +549,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RegulatedA
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -594,7 +594,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RegulatedA
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -920,6 +920,258 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RegulatedA
           "path" : "Extension.extension",
           "min" : 0,
           "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:case.extension",
+        "path" : "Extension.extension.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:case.extension:identifier",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "identifier",
+        "short" : "Identifier by which this case can be referenced",
+        "definition" : "Identifier by which this case can be referenced.",
+        "requirements" : "Element `RegulatedAuthorization.case.identifier` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a cross-version extension.\nElement `RegulatedAuthorization.case.identifier` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:case.extension:identifier.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "identifier"
+      },
+      {
+        "id" : "Extension.extension:case.extension:identifier.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "Identifier by which this case can be referenced",
+        "definition" : "Identifier by which this case can be referenced.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "Identifier"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:case.extension:type",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "type",
+        "short" : "The defining type of case",
+        "definition" : "The defining type of case.",
+        "requirements" : "Element `RegulatedAuthorization.case.type` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a cross-version extension.\nElement `RegulatedAuthorization.case.type` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:case.extension:type.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "type"
+      },
+      {
+        "id" : "Extension.extension:case.extension:type.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "The defining type of case",
+        "definition" : "The defining type of case.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          }
+        ],
+        "binding" : {
+          "strength" : "example",
+          "description" : "The type of a case involved in an application.",
+          "valueSet" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-regulated-authorization-case-type-for-R4|0.0.1-snapshot-3"
+        }
+      },
+      {
+        "id" : "Extension.extension:case.extension:status",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "status",
+        "short" : "The status associated with the case",
+        "definition" : "The status associated with the case.",
+        "requirements" : "Element `RegulatedAuthorization.case.status` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a cross-version extension.\nElement `RegulatedAuthorization.case.status` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:case.extension:status.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "status"
+      },
+      {
+        "id" : "Extension.extension:case.extension:status.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "The status associated with the case",
+        "definition" : "The status associated with the case.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          }
+        ],
+        "binding" : {
+          "strength" : "preferred",
+          "description" : "The lifecycle status of an artifact.",
+          "valueSet" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-publication-status-for-R4"
+        }
+      },
+      {
+        "id" : "Extension.extension:case.extension:date",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "date",
+        "short" : "Relevant date for this case",
+        "definition" : "Relevant date for this case.",
+        "requirements" : "Element `RegulatedAuthorization.case.date[x]` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a cross-version extension.\nElement `RegulatedAuthorization.case.date[x]` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:case.extension:date.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "date"
+      },
+      {
+        "id" : "Extension.extension:case.extension:date.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "Relevant date for this case",
+        "definition" : "Relevant date for this case.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "Period"
+          },
+          {
+            "code" : "dateTime"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:case.extension:application",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "application",
+        "short" : "Applications submitted to obtain a regulated authorization. Steps within the longer running case or procedure",
+        "definition" : "A regulatory submission from an organization to a regulator, as part of an assessing case. Multiple applications may occur over time, with more or different information to support or modify the submission or the authorization. The applications can be considered as steps within the longer running case or procedure for this authorization process.",
+        "requirements" : "Element `RegulatedAuthorization.case.application` is part of an existing definition because parent element `RegulatedAuthorization.case` requires a cross-version extension.\nElement `RegulatedAuthorization.case.application` is not mapped to FHIR R4, since FHIR R5 `RegulatedAuthorization` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:case.extension:application.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RegulatedAuthorization.case"
+      },
+      {
+        "id" : "Extension.extension:case.extension:application.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "min" : 0,
+        "max" : "0",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
         }
       },
       {

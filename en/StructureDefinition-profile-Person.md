@@ -1,4 +1,4 @@
-# ProfilePerson - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfilePerson - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfilePerson 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Person content to be represented via FHIR R
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.Person.link` for use in FHIR R4](StructureDefinition-ext-R5-Person.link.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Person)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Person.cs
   "title" : "Cross-version Profile for R5.Person for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2696506-06:00",
+  "date" : "2026-02-17T14:42:26.8775746-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Person.cs
         "path" : "Person.extension",
         "sliceName" : "deceased",
         "short" : "Cross-version extension for Person.deceased[x] from R5 for use in FHIR R4",
-        "comment" : "Element `Person.deceased[x]` is will have a context of Person based on following the parent source element upwards and mapping to `Person`.",
+        "comment" : "Element `Person.deceased[x]` has a context of Person based on following the parent source element upwards and mapping to `Person`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -191,7 +191,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Person.cs
         "path" : "Person.extension",
         "sliceName" : "maritalStatus",
         "short" : "Cross-version extension for Person.maritalStatus from R5 for use in FHIR R4",
-        "comment" : "Element `Person.maritalStatus` is will have a context of Person based on following the parent source element upwards and mapping to `Person`.",
+        "comment" : "Element `Person.maritalStatus` has a context of Person based on following the parent source element upwards and mapping to `Person`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -213,7 +213,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Person.cs
         "path" : "Person.extension",
         "sliceName" : "communication",
         "short" : "Cross-version extension for Person.communication from R5 for use in FHIR R4",
-        "comment" : "Element `Person.communication` is will have a context of Person based on following the parent source element upwards and mapping to `Person`.",
+        "comment" : "Element `Person.communication` has a context of Person based on following the parent source element upwards and mapping to `Person`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -226,6 +226,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Person.cs
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Person.link.extension",
+        "path" : "Person.link.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Person.link.extension:link",
+        "path" : "Person.link.extension",
+        "sliceName" : "link",
+        "short" : "Cross-version extension for Person.link from R5 for use in FHIR R4",
+        "comment" : "Element `Person.link` has is mapped to FHIR R4 element `Person.link`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.link|0.0.1-snapshot-3"
             ]
           }
         ]

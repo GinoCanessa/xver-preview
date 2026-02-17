@@ -1,4 +1,4 @@
-# ExtensionParameters_Parameter - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionParameters_Parameter - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Parameters.parameter` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Parameters.paramete
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Parameters for use in FHIR R4](StructureDefinition-profile-Parameters.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Parameters.parameter)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
   "title" : "Cross-version Extension `R5.Parameters.parameter` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Parameters.parameter` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Parameters.parameter` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Parameters.parameter` 0..* `BackboneElement`\n*  R4B: `Parameters.parameter` 0..* `BackboneElement`\n*  R4: `Parameters.parameter` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Parameters.parameter` is mapped to FHIR R4 element `Parameters.parameter`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Parameters.parameter` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Parameters.parameter` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Parameters.parameter` 0..* `BackboneElement`\n*  R4B: `Parameters.parameter` 0..* `BackboneElement`\n*  R4: `Parameters.parameter` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Parameters.parameter` has is mapped to FHIR R4 element `Parameters.parameter`, but has no comparisons.\nNote available implied context: `Parameters.parameter.part` because `Parameters.parameter.part` is defined as a content reference to `Parameters.parameter`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "Parameters.parameter"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
         "sliceName" : "name",
         "short" : "Name from the definition",
         "definition" : "The name of the parameter (reference to the operation definition).",
-        "requirements" : "Element `Parameters.parameter.name` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `Parameters.parameter.name` is mapped to FHIR R4 element `Parameters.parameter.name`.",
+        "requirements" : "Element `Parameters.parameter.name` is part of an existing definition because parent element `Parameters.parameter` requires a cross-version extension.\nElement `Parameters.parameter.name` has is mapped to FHIR R4 element `Parameters.parameter.name`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
         "sliceName" : "value",
         "short" : "If parameter is a data type",
         "definition" : "Conveys the content if the parameter is a data type.",
-        "requirements" : "Element `Parameters.parameter.value[x]` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.\nElement `Parameters.parameter.value[x]` is mapped to FHIR R4 element `Parameters.parameter.value[x]`.\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.",
+        "requirements" : "Element `Parameters.parameter.value[x]` is part of an existing definition because parent element `Parameters.parameter` requires a cross-version extension.\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.\nElement `Parameters.parameter.value[x]` has is mapped to FHIR R4 element `Parameters.parameter.value[x]`, but has no comparisons.\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -364,7 +364,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "daysOfWeek"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.daysOfWeek"
       },
       {
         "id" : "Extension.extension:value.extension:availableTime.extension:daysOfWeek.value[x]",
@@ -414,7 +414,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "allDay"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.allDay"
       },
       {
         "id" : "Extension.extension:value.extension:availableTime.extension:allDay.value[x]",
@@ -460,7 +460,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "availableStartTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableStartTime"
       },
       {
         "id" : "Extension.extension:value.extension:availableTime.extension:availableStartTime.value[x]",
@@ -507,7 +507,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "availableEndTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableEndTime"
       },
       {
         "id" : "Extension.extension:value.extension:availableTime.extension:availableEndTime.value[x]",
@@ -613,7 +613,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.description"
       },
       {
         "id" : "Extension.extension:value.extension:notAvailableTime.extension:description.value[x]",
@@ -659,7 +659,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "during"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.during"
       },
       {
         "id" : "Extension.extension:value.extension:notAvailableTime.extension:during.value[x]",
@@ -732,7 +732,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
         "short" : "If parameter is a whole resource",
         "definition" : "Conveys the content if the parameter is a whole resource.",
         "comment" : "When resolving references in resources, the operation definition may specify how references may be resolved between parameters. If a reference cannot be resolved between the parameters, the application should fall back to its general resource resolution methods.",
-        "requirements" : "Element `Parameters.parameter.resource` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `Parameters.parameter.resource` is mapped to FHIR R4 element `Parameters.parameter.resource`.",
+        "requirements" : "Element `Parameters.parameter.resource` is part of an existing definition because parent element `Parameters.parameter` requires a cross-version extension.\nElement `Parameters.parameter.resource` has is mapped to FHIR R4 element `Parameters.parameter.resource`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -812,7 +812,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
         "sliceName" : "meta",
         "short" : "Metadata about the resource",
         "definition" : "The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.",
-        "requirements" : "Element `Resource.meta` is mapped to FHIR R4 element `Resource.meta`.",
+        "requirements" : "Element `Resource.meta` has is mapped to FHIR R4 element `Resource.meta`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -858,7 +858,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
         "short" : "A set of rules under which this content was created",
         "definition" : "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.",
         "comment" : "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.",
-        "requirements" : "Element `Resource.implicitRules` is mapped to FHIR R4 element `Resource.implicitRules`.",
+        "requirements" : "Element `Resource.implicitRules` has is mapped to FHIR R4 element `Resource.implicitRules`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -905,7 +905,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
         "short" : "Language of the resource content",
         "definition" : "The base language in which the resource is written.",
         "comment" : "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
-        "requirements" : "Element `Resource.language` is mapped to FHIR R4 element `Resource.language`.",
+        "requirements" : "Element `Resource.language` has is mapped to FHIR R4 element `Resource.language`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -974,7 +974,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Parameters
         "sliceName" : "part",
         "short" : "Named part of a multi-part parameter",
         "definition" : "A named part of a multi-part parameter.",
-        "requirements" : "Element `Parameters.parameter.part` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `Parameters.parameter.part` is mapped to FHIR R4 element `Parameters.parameter.part`.",
+        "requirements" : "Element `Parameters.parameter.part` is part of an existing definition because parent element `Parameters.parameter` requires a cross-version extension.\nElement `Parameters.parameter.part` has is mapped to FHIR R4 element `Parameters.parameter.part`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

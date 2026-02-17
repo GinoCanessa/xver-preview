@@ -63,7 +63,7 @@
   <title value="Cross-version Extension `R5.MedicationKnowledge.cost` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-10T04:05:33.0136333+00:00"/>
+  <date value="2026-02-17T20:42:20.5370068+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -80,7 +80,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `MedicationKnowledge.cost` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`MedicationKnowledge.cost` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `MedicationKnowledge.cost` 0..* `BackboneElement`&#xA;*  R4B: `MedicationKnowledge.cost` 0..* `BackboneElement`&#xA;*  R4: `MedicationKnowledge.cost` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `MedicationKnowledge.cost` is mapped to FHIR R4 element `MedicationKnowledge.cost`."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `MedicationKnowledge.cost` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`MedicationKnowledge.cost` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `MedicationKnowledge.cost` 0..* `BackboneElement`&#xA;*  R4B: `MedicationKnowledge.cost` 0..* `BackboneElement`&#xA;*  R4: `MedicationKnowledge.cost` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `MedicationKnowledge.cost` has is mapped to FHIR R4 element `MedicationKnowledge.cost`, but has no comparisons.&#xA;Note available implied context: `MedicationKnowledge.packaging.cost` because `MedicationKnowledge.packaging.cost` is defined as a content reference to `MedicationKnowledge.cost`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -91,7 +91,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Extension.extension"/>
+    <expression value="MedicationKnowledge.cost"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -202,7 +202,7 @@
       <sliceName value="effectiveDate"/>
       <short value="The date range for which the cost is effective"/>
       <definition value="The date range for which the cost information of the medication is effective."/>
-      <requirements value="Element `MedicationKnowledge.cost.effectiveDate` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `MedicationKnowledge.cost.effectiveDate` is will have a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`."/>
+      <requirements value="Element `MedicationKnowledge.cost.effectiveDate` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.&#xA;Element `MedicationKnowledge.cost.effectiveDate` has a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -366,7 +366,7 @@
       <sliceName value="type"/>
       <short value="The category of the cost information"/>
       <definition value="The category of the cost information.  For example, manufacturers' cost, patient cost, claim reimbursement cost, actual acquisition cost."/>
-      <requirements value="Element `MedicationKnowledge.cost.type` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `MedicationKnowledge.cost.type` is mapped to FHIR R4 element `MedicationKnowledge.cost.type`."/>
+      <requirements value="Element `MedicationKnowledge.cost.type` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.&#xA;Element `MedicationKnowledge.cost.type` has is mapped to FHIR R4 element `MedicationKnowledge.cost.type`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -530,7 +530,7 @@
       <sliceName value="source"/>
       <short value="The source or owner for the price information"/>
       <definition value="The source or owner that assigns the price to the medication."/>
-      <requirements value="Element `MedicationKnowledge.cost.source` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `MedicationKnowledge.cost.source` is mapped to FHIR R4 element `MedicationKnowledge.cost.source`."/>
+      <requirements value="Element `MedicationKnowledge.cost.source` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.&#xA;Element `MedicationKnowledge.cost.source` has is mapped to FHIR R4 element `MedicationKnowledge.cost.source`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -694,7 +694,7 @@
       <sliceName value="cost"/>
       <short value="The price or category of the cost of the medication"/>
       <definition value="The price or representation of the cost (for example, Band A, Band B or $, $$) of the medication."/>
-      <requirements value="Element `MedicationKnowledge.cost.cost[x]` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `MedicationKnowledge.cost.cost[x]` is mapped to FHIR R4 element `MedicationKnowledge.cost.cost`."/>
+      <requirements value="Element `MedicationKnowledge.cost.cost[x]` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.&#xA;Element `MedicationKnowledge.cost.cost[x]` has is mapped to FHIR R4 element `MedicationKnowledge.cost.cost`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1094,7 +1094,7 @@
       <sliceName value="effectiveDate"/>
       <short value="The date range for which the cost is effective"/>
       <definition value="The date range for which the cost information of the medication is effective."/>
-      <requirements value="Element `MedicationKnowledge.cost.effectiveDate` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `MedicationKnowledge.cost.effectiveDate` is will have a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`."/>
+      <requirements value="Element `MedicationKnowledge.cost.effectiveDate` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.&#xA;Element `MedicationKnowledge.cost.effectiveDate` has a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1134,7 +1134,7 @@
       <sliceName value="type"/>
       <short value="The category of the cost information"/>
       <definition value="The category of the cost information.  For example, manufacturers' cost, patient cost, claim reimbursement cost, actual acquisition cost."/>
-      <requirements value="Element `MedicationKnowledge.cost.type` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `MedicationKnowledge.cost.type` is mapped to FHIR R4 element `MedicationKnowledge.cost.type`."/>
+      <requirements value="Element `MedicationKnowledge.cost.type` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.&#xA;Element `MedicationKnowledge.cost.type` has is mapped to FHIR R4 element `MedicationKnowledge.cost.type`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1174,7 +1174,7 @@
       <sliceName value="source"/>
       <short value="The source or owner for the price information"/>
       <definition value="The source or owner that assigns the price to the medication."/>
-      <requirements value="Element `MedicationKnowledge.cost.source` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `MedicationKnowledge.cost.source` is mapped to FHIR R4 element `MedicationKnowledge.cost.source`."/>
+      <requirements value="Element `MedicationKnowledge.cost.source` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.&#xA;Element `MedicationKnowledge.cost.source` has is mapped to FHIR R4 element `MedicationKnowledge.cost.source`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1214,7 +1214,7 @@
       <sliceName value="cost"/>
       <short value="The price or category of the cost of the medication"/>
       <definition value="The price or representation of the cost (for example, Band A, Band B or $, $$) of the medication."/>
-      <requirements value="Element `MedicationKnowledge.cost.cost[x]` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `MedicationKnowledge.cost.cost[x]` is mapped to FHIR R4 element `MedicationKnowledge.cost.cost`."/>
+      <requirements value="Element `MedicationKnowledge.cost.cost[x]` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.&#xA;Element `MedicationKnowledge.cost.cost[x]` has is mapped to FHIR R4 element `MedicationKnowledge.cost.cost`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>

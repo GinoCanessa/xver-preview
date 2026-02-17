@@ -1,4 +1,4 @@
-# ExtensionSubstanceReferenceInformation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSubstanceReferenceInformation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SubstanceReferenceInformation` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
   "title" : "Cross-version Extension `R5.SubstanceReferenceInformation` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "comment"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.comment"
       },
       {
         "id" : "Extension.extension:comment.value[x]",
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "geneSequenceOrigin"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene.geneSequenceOrigin"
       },
       {
         "id" : "Extension.extension:gene.extension:geneSequenceOrigin.value[x]",
@@ -329,7 +329,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "gene"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene.gene"
       },
       {
         "id" : "Extension.extension:gene.extension:gene.value[x]",
@@ -374,7 +374,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "source"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene.source"
       },
       {
         "id" : "Extension.extension:gene.extension:source.value[x]",
@@ -482,7 +482,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement.type"
       },
       {
         "id" : "Extension.extension:geneElement.extension:type.value[x]",
@@ -527,7 +527,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "element"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement.element"
       },
       {
         "id" : "Extension.extension:geneElement.extension:element.value[x]",
@@ -572,7 +572,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "source"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement.source"
       },
       {
         "id" : "Extension.extension:geneElement.extension:source.value[x]",
@@ -680,7 +680,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "target"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.target"
       },
       {
         "id" : "Extension.extension:target.extension:target.value[x]",
@@ -725,7 +725,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.type"
       },
       {
         "id" : "Extension.extension:target.extension:type.value[x]",
@@ -770,7 +770,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "interaction"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.interaction"
       },
       {
         "id" : "Extension.extension:target.extension:interaction.value[x]",
@@ -815,7 +815,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "organism"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.organism"
       },
       {
         "id" : "Extension.extension:target.extension:organism.value[x]",
@@ -860,7 +860,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "organismType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.organismType"
       },
       {
         "id" : "Extension.extension:target.extension:organismType.value[x]",
@@ -905,7 +905,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "amount"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.amount"
       },
       {
         "id" : "Extension.extension:target.extension:amount.value[x]",
@@ -956,7 +956,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "amountType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.amountType"
       },
       {
         "id" : "Extension.extension:target.extension:amountType.value[x]",
@@ -1001,7 +1001,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "source"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.source"
       },
       {
         "id" : "Extension.extension:target.extension:source.value[x]",

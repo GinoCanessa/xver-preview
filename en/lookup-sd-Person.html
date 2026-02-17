@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Lookup for ProfilePerson - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+    <title>Lookup for ProfilePerson - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -67,7 +67,7 @@
 
 
         <div id="ig-status" data-fhir="generated">
-          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
             <br/>
             <span style="display:inline-block;">0.0.1-snapshot-3 - STU
 
@@ -175,7 +175,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Lookup for ProfilePerson</h2>
   
 
@@ -261,7 +261,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.deceased[x]</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person</a><br /><a href="StructureDefinition-ext-R5-Person.deceased.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.deceased</a></td>
+      <td><a href="StructureDefinition-ext-R5-Person.deceased.html">Extension: ExtensionPerson_Deceased</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.address</code></a></td>
@@ -269,7 +269,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.maritalStatus</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person</a><br /><a href="StructureDefinition-ext-R5-Person.maritalStatus.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.maritalStatus</a></td>
+      <td><a href="StructureDefinition-ext-R5-Person.maritalStatus.html">Extension: ExtensionPerson_MaritalStatus</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.photo</code></a></td>
@@ -277,15 +277,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.communication</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person</a><br /><a href="StructureDefinition-ext-R5-Person.communication.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.communication</a></td>
+      <td><a href="StructureDefinition-ext-R5-Person.communication.html">Extension: ExtensionPerson_Communication</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.communication.language</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person</a><br /><a href="StructureDefinition-ext-R5-Person.communication.html">Extension slice: language</a></td>
+      <td><a href="StructureDefinition-ext-R5-Person.communication.html">Extension: ExtensionPerson_Communication Slice:language</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.communication.preferred</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person</a><br /><a href="StructureDefinition-ext-R5-Person.communication.html">Extension slice: preferred</a></td>
+      <td><a href="StructureDefinition-ext-R5-Person.communication.html">Extension: ExtensionPerson_Communication Slice:preferred</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.managingOrganization</code></a></td>
@@ -293,15 +293,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.link</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person.link</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person.link</a><br /><a href="StructureDefinition-ext-R5-Person.link.html">Extension: ExtensionPerson_Link</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.link.target</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person.link.target</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person.link.target</a><br /><a href="StructureDefinition-ext-R5-Person.link.html">Extension: ExtensionPerson_Link Slice:target</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Person.html#resource"><code class="language-plaintext highlighter-rouge">Person.link.assurance</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person.link.assurance</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Person.html#resource">Person.link.assurance</a><br /><a href="StructureDefinition-ext-R5-Person.link.html">Extension: ExtensionPerson_Link Slice:assurance</a></td>
     </tr>
   </tbody>
 </table>
@@ -356,8 +356,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-09 22:08:00 -0600">
-    2026-02-09
+  <span title="2026-02-17 15:29:00 -0600">
+    2026-02-17
   </span>
 
           <br/>

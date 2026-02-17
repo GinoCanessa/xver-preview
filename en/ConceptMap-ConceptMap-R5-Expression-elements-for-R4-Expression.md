@@ -1,4 +1,4 @@
-# ConceptMapR5ExpressionElementsForR4Expression - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ExpressionElementsForR4Expression - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ExpressionElementsForR4Expression 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.8852255-06:00",
+  "date" : "2026-02-17T14:42:27.2694902-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Expression#Expression",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Expression` is representable via FHIR R4 extensions.\nElement `Expression` is mapped to FHIR R4 element `Expression`."
+              "comment" : "FHIR R5 ComplexType `Expression` is representable via FHIR R4 extensions.\nElement `Expression` has is mapped to FHIR R4 element `Expression`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Expression#Expression.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `Expression.description` is mapped to FHIR R4 element `Expression.description`."
+              "comment" : "Element `Expression.description` has is mapped to FHIR R4 element `Expression.description`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Expression#Expression.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Expression.name` is mapped to FHIR R4 element `Expression.name`."
+              "comment" : "Element `Expression.name` has is mapped to FHIR R4 element `Expression.name`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Expression#Expression.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Expression.language` is mapped to FHIR R4 element `Expression.language`."
+              "comment" : "Element `Expression.language` has is mapped to FHIR R4 element `Expression.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Expression#Expression.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `Expression.expression` is mapped to FHIR R4 element `Expression.expression`."
+              "comment" : "Element `Expression.expression` has is mapped to FHIR R4 element `Expression.expression`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Expression#Expression.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Expression.reference` is mapped to FHIR R4 element `Expression.reference`."
+              "comment" : "Element `Expression.reference` has is mapped to FHIR R4 element `Expression.reference`, but has no comparisons."
             }
           ]
         }

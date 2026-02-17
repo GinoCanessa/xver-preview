@@ -1,4 +1,4 @@
-# ProfileClinicalImpression - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileClinicalImpression - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileClinicalImpression 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 ClinicalImpression content to be represente
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.Condition.stage` for use in FHIR R4](StructureDefinition-ext-R5-Condition.stage.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ClinicalImpression)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ClinicalI
   "title" : "Cross-version Profile for R5.ClinicalImpression for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0245656-06:00",
+  "date" : "2026-02-17T14:42:26.7565959-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ClinicalI
         "path" : "ClinicalImpression.extension",
         "sliceName" : "changePattern",
         "short" : "Cross-version extension for ClinicalImpression.changePattern from R5 for use in FHIR R4",
-        "comment" : "Element `ClinicalImpression.changePattern` is will have a context of ClinicalImpression based on following the parent source element upwards and mapping to `ClinicalImpression`.",
+        "comment" : "Element `ClinicalImpression.changePattern` has a context of ClinicalImpression based on following the parent source element upwards and mapping to `ClinicalImpression`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -217,7 +217,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ClinicalI
         "path" : "ClinicalImpression.status.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for ClinicalImpression.status from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `ClinicalImpression.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ClinicalImpression.status` is mapped to FHIR R4 element `ClinicalImpression.status`.",
+        "comment" : "Note that the target element context `ClinicalImpression.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ClinicalImpression.status` has is mapped to FHIR R4 element `ClinicalImpression.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -230,6 +230,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ClinicalI
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.status|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "ClinicalImpression.finding.extension",
+        "path" : "ClinicalImpression.finding.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ClinicalImpression.finding.extension:finding",
+        "path" : "ClinicalImpression.finding.extension",
+        "sliceName" : "finding",
+        "short" : "Cross-version extension for ClinicalImpression.finding from R5 for use in FHIR R4",
+        "comment" : "Element `ClinicalImpression.finding` has is mapped to FHIR R4 element `ClinicalImpression.finding`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.finding|0.0.1-snapshot-3"
             ]
           }
         ]

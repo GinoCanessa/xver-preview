@@ -37,7 +37,7 @@ Some content from IHE&reg; Copyright &copy; 2015           <a href="http://www.i
 
               <li>
                 <a href="http://tx.fhir.org/r4/ValueSet/formatcode">IHE Format Code set for use with Document Sharing</a>
-:                 <a href="StructureDefinition-ext-R5-Endpoint.pay.type.html">ExtensionEndpoint_Payload_Type</a>
+:                 <a href="StructureDefinition-ext-R5-Endpoint.payload.html">ExtensionEndpoint_Payload</a>
  and                 <a href="ValueSet-ValueSet-R5-endpoint-payload-type-for-R4.html">ValueSetR5EndpointPayloadTypeForR4</a>
               </li>
 
@@ -127,7 +127,8 @@ This material derives from the HL7 Terminology (THO). THO is copyright &copy;198
 
               <li>
                 <a href="http://terminology.hl7.org/7.0.1/CodeSystem-attribute-estimate-type.html">StatisticAttribute Estimate Type</a>
-:                 <a href="ValueSet-ValueSet-R5-attribute-estimate-type-for-R4.html">ValueSetR5AttributeEstimateTypeForR4</a>
+:                 <a href="StructureDefinition-ext-R5-Evidence.statistic.html">ExtensionEvidence_Statistic</a>
+ and                 <a href="ValueSet-ValueSet-R5-attribute-estimate-type-for-R4.html">ValueSetR5AttributeEstimateTypeForR4</a>
               </li>
 
               <li>
@@ -175,13 +176,14 @@ This material derives from the HL7 Terminology (THO). THO is copyright &copy;198
 
               <li>
                 <a href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-HL7DocumentFormatCodes.html">HL7 Document Format Codes</a>
-:                 <a href="StructureDefinition-ext-R5-Endpoint.pay.type.html">ExtensionEndpoint_Payload_Type</a>
+:                 <a href="StructureDefinition-ext-R5-Endpoint.payload.html">ExtensionEndpoint_Payload</a>
  and                 <a href="ValueSet-ValueSet-R5-endpoint-payload-type-for-R4.html">ValueSetR5EndpointPayloadTypeForR4</a>
               </li>
 
               <li>
                 <a href="http://terminology.hl7.org/7.0.1/CodeSystem-v3-ObservationInterpretation.html">ObservationInterpretation</a>
-:                 <a href="ValueSet-ValueSet-R5-observation-interpretation-for-R4.html">ValueSetR5ObservationInterpretationForR4</a>
+:                 <a href="StructureDefinition-ext-R5-Observation.component.html">ExtensionObservation_Component</a>
+ and                 <a href="ValueSet-ValueSet-R5-observation-interpretation-for-R4.html">ValueSetR5ObservationInterpretationForR4</a>
               </li>
 
               <li>
@@ -223,7 +225,7 @@ This material derives from the HL7 Terminology (THO). THO is copyright &copy;198
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on FHIR 4.0.1.
           Generated 
   
-    2026-02-09
+    2026-02-17
    
 
           
@@ -1417,7 +1419,7 @@ Discussion: Part is defined in opposition to (a) ingredient (not separable), (b)
 )
       </li>
       <li>
-FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the Directory of published versions (        <a href="toc.html">src</a>
+Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the Directory of published versions (        <a href="toc.html">src</a>
 )
       </li>
       <li>
@@ -1433,7 +1435,7 @@ Some content from IHE&reg; Copyright &copy; 2015 IHE International, Inc
 . Show Usage 
 
 
-* IHE Format Code set for use with Document Sharing: ExtensionEndpoint_Payload_Type and ValueSetR5EndpointPayloadTypeForR4
+* IHE Format Code set for use with Document Sharing: ExtensionEndpoint_Payload and ValueSetR5EndpointPayloadTypeForR4
 
 
 
@@ -1473,7 +1475,7 @@ This material contains content from LOINC. LOINC is copyright &copy; 1995-2020, 
 This material derives from the HL7 Terminology (THO). THO is copyright &copy;1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html Show Usage 
 
 
-* StatisticAttribute Estimate Type: ValueSetR5AttributeEstimateTypeForR4
+* StatisticAttribute Estimate Type: ExtensionEvidence_Statistic and ValueSetR5AttributeEstimateTypeForR4
 
 * CharacteristicMethod: ValueSetR5CharacteristicMethodForR4
 
@@ -1489,9 +1491,9 @@ This material derives from the HL7 Terminology (THO). THO is copyright &copy;198
 
 * EntityNamePartQualifier: ValueSetR5V3EntityNamePartQualifierForR4NamePartQualifier
 
-* HL7 Document Format Codes: ExtensionEndpoint_Payload_Type and ValueSetR5EndpointPayloadTypeForR4
+* HL7 Document Format Codes: ExtensionEndpoint_Payload and ValueSetR5EndpointPayloadTypeForR4
 
-* ObservationInterpretation: ValueSetR5ObservationInterpretationForR4
+* ObservationInterpretation: ExtensionObservation_Component and ValueSetR5ObservationInterpretationForR4
 
 * RoleClass: RoleCode
 
@@ -1918,13 +1920,37 @@ For a description of how 3D coordinates are encoded, see           <a href="http
       </tr>
       <tr>
         <td>
-          <a href="en\StructureDefinition-ext-R5-MolecularSequence.rel.sta.chromosome-definitions.html">web</a>
+          <a href="en\StructureDefinition-ext-R5-ImagingStudy.series-definitions.html">web</a>
+        </td>
+        <td>
+          <a href="http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.12.html#sect_C.12.1">dicom.nema.org</a>
+        </td>
+        <td>
+See            <a href="http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.12.html#sect_C.12.1">DICOM PS3.3 C.12.1</a>
+.
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="en\StructureDefinition-ext-R5-MolecularSequence.relative-definitions.html">web</a>
         </td>
         <td>
           <a href="http://www.sequenceontology.org/browser/current_svn/term/SO:0000340">www.sequenceontology.org</a>
         </td>
         <td>
 Structural unit composed of a nucleic acid molecule which controls its own replication through the interaction of specific proteins at one or more origins of replication (          <a href="http://www.sequenceontology.org/browser/current_svn/term/SO:0000340">SO:0000340</a>
+).
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <a href="en\StructureDefinition-ext-R5-MolecularSequence.relative.html">web</a>
+        </td>
+        <td>
+          <a href="http://www.sequenceontology.org/browser/current_svn/term/SO:0000340">www.sequenceontology.org</a>
+        </td>
+        <td>
+chromosome: CodeableConcept: Structural unit composed of a nucleic acid molecule which controls its own replication through the interaction of specific proteins at one or more origins of replication (          <a href="http://www.sequenceontology.org/browser/current_svn/term/SO:0000340">SO:0000340</a>
 ).
         </td>
       </tr>
@@ -1993,18 +2019,6 @@ Unless not suitable, these codes SHALL be taken from            <a href="http://
  to           <span class="copy-text-inline">
 <code>http://www.rsna.org/RadLex_Playbook.aspx</code><button data-clipboard-text="http://www.rsna.org/RadLex_Playbook.aspx" title="Click to Copy URL" class="btn-copy"></button>          </span>
 )
-        </td>
-      </tr>
-      <tr>
-        <td>
-          <a href="en\StructureDefinition-profile-ImagingStudy-definitions.html">web</a>
-        </td>
-        <td>
-          <a href="http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.12.html#sect_C.12.1">dicom.nema.org</a>
-        </td>
-        <td>
-See            <a href="http://dicom.nema.org/medical/dicom/current/output/chtml/part03/sect_C.12.html#sect_C.12.1">DICOM PS3.3 C.12.1</a>
-.
         </td>
       </tr>
       <tr>
@@ -2462,7 +2476,7 @@ Some content from IHE&reg; Copyright &copy; 2015           <a href="http://www.i
 
               <li>
                 <a href="http://tx.fhir.org/r4/ValueSet/formatcode">IHE Format Code set for use with Document Sharing</a>
-:                 <a href="StructureDefinition-ext-R5-Endpoint.pay.type.html">ExtensionEndpoint_Payload_Type</a>
+:                 <a href="StructureDefinition-ext-R5-Endpoint.payload.html">ExtensionEndpoint_Payload</a>
  and                 <a href="ValueSet-ValueSet-R5-endpoint-payload-type-for-R4.html">ValueSetR5EndpointPayloadTypeForR4</a>
               </li>
 

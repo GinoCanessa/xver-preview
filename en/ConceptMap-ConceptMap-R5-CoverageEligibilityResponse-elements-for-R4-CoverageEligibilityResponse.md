@@ -1,4 +1,4 @@
-# ConceptMapR5CoverageEligibilityResponseElementsForR4CoverageEligibilityResponse - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5CoverageEligibilityResponseElementsForR4CoverageEligibilityResponse - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5CoverageEligibilityResponseElementsForR4CoverageEligibilityResponse 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.7346266-06:00",
+  "date" : "2026-02-17T14:42:27.1516948-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `CoverageEligibilityResponse` is representable via FHIR R4 Resource `CoverageEligibilityResponse`.\nElement `CoverageEligibilityResponse` is mapped to FHIR R4 element `CoverageEligibilityResponse`."
+              "comment" : "FHIR R5 Resource `CoverageEligibilityResponse` is representable via FHIR R4 Resource `CoverageEligibilityResponse`.\nElement `CoverageEligibilityResponse` has is mapped to FHIR R4 element `CoverageEligibilityResponse`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.meta` is mapped to FHIR R4 element `CoverageEligibilityResponse.meta`."
+              "comment" : "Element `CoverageEligibilityResponse.meta` has is mapped to FHIR R4 element `CoverageEligibilityResponse.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.implicitRules` is mapped to FHIR R4 element `CoverageEligibilityResponse.implicitRules`."
+              "comment" : "Element `CoverageEligibilityResponse.implicitRules` has is mapped to FHIR R4 element `CoverageEligibilityResponse.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.language` is mapped to FHIR R4 element `CoverageEligibilityResponse.language`."
+              "comment" : "Element `CoverageEligibilityResponse.language` has is mapped to FHIR R4 element `CoverageEligibilityResponse.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.text` is mapped to FHIR R4 element `CoverageEligibilityResponse.text`."
+              "comment" : "Element `CoverageEligibilityResponse.text` has is mapped to FHIR R4 element `CoverageEligibilityResponse.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.contained` is mapped to FHIR R4 element `CoverageEligibilityResponse.contained`."
+              "comment" : "Element `CoverageEligibilityResponse.contained` has is mapped to FHIR R4 element `CoverageEligibilityResponse.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.identifier` is mapped to FHIR R4 element `CoverageEligibilityResponse.identifier`."
+              "comment" : "Element `CoverageEligibilityResponse.identifier` has is mapped to FHIR R4 element `CoverageEligibilityResponse.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.status` is mapped to FHIR R4 element `CoverageEligibilityResponse.status`."
+              "comment" : "Element `CoverageEligibilityResponse.status` has is mapped to FHIR R4 element `CoverageEligibilityResponse.status`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.purpose` is mapped to FHIR R4 element `CoverageEligibilityResponse.purpose`."
+              "comment" : "Element `CoverageEligibilityResponse.purpose` has is mapped to FHIR R4 element `CoverageEligibilityResponse.purpose`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.patient` is mapped to FHIR R4 element `CoverageEligibilityResponse.patient`."
+              "comment" : "Element `CoverageEligibilityResponse.patient` has is mapped to FHIR R4 element `CoverageEligibilityResponse.patient`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.event` is will have a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`."
+              "comment" : "Element `CoverageEligibilityResponse.event` has a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.event.type` is part of an existing definition because parent element `CoverageEligibilityResponse.event` requires a cross-version extension.\nElement `CoverageEligibilityResponse.event.type` is will have a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`."
+              "comment" : "Element `CoverageEligibilityResponse.event.type` is part of an existing definition because parent element `CoverageEligibilityResponse.event` requires a cross-version extension.\nElement `CoverageEligibilityResponse.event.type` has a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.event.when[x]` is part of an existing definition because parent element `CoverageEligibilityResponse.event` requires a cross-version extension.\nElement `CoverageEligibilityResponse.event.when[x]` is will have a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`."
+              "comment" : "Element `CoverageEligibilityResponse.event.when[x]` is part of an existing definition because parent element `CoverageEligibilityResponse.event` requires a cross-version extension.\nElement `CoverageEligibilityResponse.event.when[x]` has a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.serviced[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `CoverageEligibilityResponse.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse`.\nElement `CoverageEligibilityResponse.serviced[x]` is mapped to FHIR R4 element `CoverageEligibilityResponse.serviced[x]`.\nNote that the target element context `CoverageEligibilityResponse.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse`."
+              "comment" : "Note that the target element context `CoverageEligibilityResponse.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse`.\nElement `CoverageEligibilityResponse.serviced[x]` has is mapped to FHIR R4 element `CoverageEligibilityResponse.serviced[x]`, but has no comparisons.\nNote that the target element context `CoverageEligibilityResponse.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.created",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.created` is mapped to FHIR R4 element `CoverageEligibilityResponse.created`."
+              "comment" : "Element `CoverageEligibilityResponse.created` has is mapped to FHIR R4 element `CoverageEligibilityResponse.created`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.requestor",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.requestor` is mapped to FHIR R4 element `CoverageEligibilityResponse.requestor`."
+              "comment" : "Element `CoverageEligibilityResponse.requestor` has is mapped to FHIR R4 element `CoverageEligibilityResponse.requestor`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.request",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.request` is mapped to FHIR R4 element `CoverageEligibilityResponse.request`."
+              "comment" : "Element `CoverageEligibilityResponse.request` has is mapped to FHIR R4 element `CoverageEligibilityResponse.request`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.outcome",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.outcome` is mapped to FHIR R4 element `CoverageEligibilityResponse.outcome`."
+              "comment" : "Element `CoverageEligibilityResponse.outcome` has is mapped to FHIR R4 element `CoverageEligibilityResponse.outcome`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.disposition",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.disposition` is mapped to FHIR R4 element `CoverageEligibilityResponse.disposition`."
+              "comment" : "Element `CoverageEligibilityResponse.disposition` has is mapped to FHIR R4 element `CoverageEligibilityResponse.disposition`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurer",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurer` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurer`."
+              "comment" : "Element `CoverageEligibilityResponse.insurer` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurer`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.coverage",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.coverage` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.coverage`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.coverage` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.coverage` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.coverage`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.inforce",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.inforce` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.inforce`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.inforce` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.inforce` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.inforce`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.benefitPeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.benefitPeriod` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.benefitPeriod`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.benefitPeriod` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.benefitPeriod` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.benefitPeriod`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.category` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.category`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.category` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.category` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.category`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.productOrService",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.productOrService` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.productOrService`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.productOrService` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.productOrService` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.productOrService`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.modifier` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.modifier`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.modifier` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.modifier` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.modifier`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.provider",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.provider` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.provider`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.provider` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.provider` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.provider`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.excluded",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.excluded` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.excluded`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.excluded` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.excluded` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.excluded`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.name` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.name`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.name` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.name` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.name`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.description` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.description`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.description` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.description` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.description`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.network",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.network` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.network`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.network` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.network` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.network`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.unit` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.unit`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.unit` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.unit` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.unit`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.term",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.term` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.term`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.term` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.term` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.term`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.benefit",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.benefit` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.benefit` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.benefit` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.benefit.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.benefit.type` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.type`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.benefit.type` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item.benefit` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.benefit.type` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.type`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.benefit.allowed[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`.\nElement `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]`.\nNote that the target element context `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item.benefit` requires a cross-version extension.\nNote that the target element context `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`.\nElement `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]`, but has no comparisons.\nNote that the target element context `CoverageEligibilityResponse.insurance.item.benefit.allowed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.benefit.used[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`.\nElement `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.used[x]`.\nNote that the target element context `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item.benefit` requires a cross-version extension.\nNote that the target element context `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`.\nElement `CoverageEligibilityResponse.insurance.item.benefit.used[x]` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.benefit.used[x]`, but has no comparisons.\nNote that the target element context `CoverageEligibilityResponse.insurance.item.benefit.used[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityResponse.insurance.item.benefit`."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.authorizationRequired",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.authorizationRequired` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationRequired`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.authorizationRequired` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.authorizationRequired` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationRequired`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.authorizationSupporting",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.authorizationSupporting` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationSupporting`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.authorizationSupporting` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.authorizationSupporting` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationSupporting`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.insurance.item.authorizationUrl",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.insurance.item.authorizationUrl` is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationUrl`."
+              "comment" : "Element `CoverageEligibilityResponse.insurance.item.authorizationUrl` is part of an existing definition because parent element `CoverageEligibilityResponse.insurance.item` requires a cross-version extension.\nElement `CoverageEligibilityResponse.insurance.item.authorizationUrl` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance.item.authorizationUrl`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.preAuthRef",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.preAuthRef` is mapped to FHIR R4 element `CoverageEligibilityResponse.preAuthRef`."
+              "comment" : "Element `CoverageEligibilityResponse.preAuthRef` has is mapped to FHIR R4 element `CoverageEligibilityResponse.preAuthRef`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.form",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.form` is mapped to FHIR R4 element `CoverageEligibilityResponse.form`."
+              "comment" : "Element `CoverageEligibilityResponse.form` has is mapped to FHIR R4 element `CoverageEligibilityResponse.form`, but has no comparisons."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.error",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.error` is mapped to FHIR R4 element `CoverageEligibilityResponse.error`."
+              "comment" : "Element `CoverageEligibilityResponse.error` has is mapped to FHIR R4 element `CoverageEligibilityResponse.error`, but has no comparisons."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.error.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.error.code` is mapped to FHIR R4 element `CoverageEligibilityResponse.error.code`."
+              "comment" : "Element `CoverageEligibilityResponse.error.code` is part of an existing definition because parent element `CoverageEligibilityResponse.error` requires a cross-version extension.\nElement `CoverageEligibilityResponse.error.code` has is mapped to FHIR R4 element `CoverageEligibilityResponse.error.code`, but has no comparisons."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityResponse#CoverageEligibilityResponse.error",
               "equivalence" : "relatedto",
-              "comment" : "Element `CoverageEligibilityResponse.error.expression` is will have a context of CoverageEligibilityResponse.error based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`."
+              "comment" : "Element `CoverageEligibilityResponse.error.expression` is part of an existing definition because parent element `CoverageEligibilityResponse.error` requires a cross-version extension.\nElement `CoverageEligibilityResponse.error.expression` has a context of CoverageEligibilityResponse.error based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`."
             }
           ]
         }

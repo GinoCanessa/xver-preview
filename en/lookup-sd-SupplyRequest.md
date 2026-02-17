@@ -1,4 +1,4 @@
-# Lookup for ProfileSupplyRequest - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileSupplyRequest - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileSupplyRequest
 
@@ -20,20 +20,20 @@ A computable version of the following element information is available in: [Conc
 | [`SupplyRequest.contained`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.contained](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.identifier`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.identifier](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.status`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.status](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
-| [`SupplyRequest.basedOn`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.basedOn](StructureDefinition-ext-R5-SupplyRequest.basedOn.md) |
+| [`SupplyRequest.basedOn`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`SupplyRequest.category`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.category](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.priority`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.priority](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
-| [`SupplyRequest.deliverFor`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverFor](StructureDefinition-ext-R5-SupplyRequest.deliverFor.md) |
+| [`SupplyRequest.deliverFor`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`SupplyRequest.item`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.item[x]](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.quantity`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.quantity](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
-| [`SupplyRequest.parameter`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.parameter](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
-| [`SupplyRequest.parameter.code`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.parameter.code](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
-| [`SupplyRequest.parameter.value[x]`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.parameter.value[x]](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
+| [`SupplyRequest.parameter`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.parameter](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[Extension: ExtensionSupplyRequest_Parameter](StructureDefinition-ext-R5-SupplyRequest.parameter.md) |
+| [`SupplyRequest.parameter.code`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.parameter.code](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[Extension: ExtensionSupplyRequest_Parameter Slice:code](StructureDefinition-ext-R5-SupplyRequest.parameter.md) |
+| [`SupplyRequest.parameter.value[x]`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.parameter.value[x]](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[Extension: ExtensionSupplyRequest_Parameter Slice:value](StructureDefinition-ext-R5-SupplyRequest.parameter.md) |
 | [`SupplyRequest.occurrence[x]`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.occurrence[x]](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.authoredOn`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.authoredOn](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
-| [`SupplyRequest.requester`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.requester](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.requester](StructureDefinition-ext-R5-SupplyRequest.requester.md) |
+| [`SupplyRequest.requester`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.requester](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`SupplyRequest.supplier`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.supplier](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.reason`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.reasonCode](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[SupplyRequest.reasonReference](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
 | [`SupplyRequest.deliverFrom`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.deliverFrom](https://hl7.org/fhir/R4/SupplyRequest.html#resource) |
-| [`SupplyRequest.deliverTo`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.deliverTo](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.deliverTo](StructureDefinition-ext-R5-SupplyRequest.deliverTo.md) |
+| [`SupplyRequest.deliverTo`](https://hl7.org/fhir/R5/SupplyRequest.html#resource) | [SupplyRequest.deliverTo](https://hl7.org/fhir/R4/SupplyRequest.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 

@@ -1,4 +1,4 @@
-# ProfileCoverageEligibilityRequest - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileCoverageEligibilityRequest - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileCoverageEligibilityRequest 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
   "title" : "Cross-version Profile for R5.CoverageEligibilityRequest for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0572523-06:00",
+  "date" : "2026-02-17T14:42:26.7784609-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
         "path" : "CoverageEligibilityRequest.extension",
         "sliceName" : "event",
         "short" : "Cross-version extension for CoverageEligibilityRequest.event from R5 for use in FHIR R4",
-        "comment" : "Element `CoverageEligibilityRequest.event` is will have a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.",
+        "comment" : "Element `CoverageEligibilityRequest.event` has a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -187,6 +187,135 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.event|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CoverageEligibilityRequest.supportingInfo.extension",
+        "path" : "CoverageEligibilityRequest.supportingInfo.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CoverageEligibilityRequest.supportingInfo.extension:supportingInfo",
+        "path" : "CoverageEligibilityRequest.supportingInfo.extension",
+        "sliceName" : "supportingInfo",
+        "short" : "Cross-version extension for CoverageEligibilityRequest.supportingInfo from R5 for use in FHIR R4",
+        "comment" : "Element `CoverageEligibilityRequest.supportingInfo` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.supportingInfo|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CoverageEligibilityRequest.insurance.extension",
+        "path" : "CoverageEligibilityRequest.insurance.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CoverageEligibilityRequest.insurance.extension:insurance",
+        "path" : "CoverageEligibilityRequest.insurance.extension",
+        "sliceName" : "insurance",
+        "short" : "Cross-version extension for CoverageEligibilityRequest.insurance from R5 for use in FHIR R4",
+        "comment" : "Element `CoverageEligibilityRequest.insurance` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.insurance|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CoverageEligibilityRequest.item.extension",
+        "path" : "CoverageEligibilityRequest.item.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CoverageEligibilityRequest.item.extension:item",
+        "path" : "CoverageEligibilityRequest.item.extension",
+        "sliceName" : "item",
+        "short" : "Cross-version extension for CoverageEligibilityRequest.item from R5 for use in FHIR R4",
+        "comment" : "Element `CoverageEligibilityRequest.item` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item|0.0.1-snapshot-3"
             ]
           }
         ]

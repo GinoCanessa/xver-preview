@@ -1,4 +1,4 @@
-# ConceptMapR5DiagnosticReportElementsForR4DiagnosticReport - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5DiagnosticReportElementsForR4DiagnosticReport - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5DiagnosticReportElementsForR4DiagnosticReport 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.7815112-06:00",
+  "date" : "2026-02-17T14:42:27.1864537-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DiagnosticReport` is representable via FHIR R4 Resource `DiagnosticReport`.\nElement `DiagnosticReport` is mapped to FHIR R4 element `DiagnosticReport`."
+              "comment" : "FHIR R5 Resource `DiagnosticReport` is representable via FHIR R4 Resource `DiagnosticReport`.\nElement `DiagnosticReport` has is mapped to FHIR R4 element `DiagnosticReport`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.meta` is mapped to FHIR R4 element `DiagnosticReport.meta`."
+              "comment" : "Element `DiagnosticReport.meta` has is mapped to FHIR R4 element `DiagnosticReport.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.implicitRules` is mapped to FHIR R4 element `DiagnosticReport.implicitRules`."
+              "comment" : "Element `DiagnosticReport.implicitRules` has is mapped to FHIR R4 element `DiagnosticReport.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.language` is mapped to FHIR R4 element `DiagnosticReport.language`."
+              "comment" : "Element `DiagnosticReport.language` has is mapped to FHIR R4 element `DiagnosticReport.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.text` is mapped to FHIR R4 element `DiagnosticReport.text`."
+              "comment" : "Element `DiagnosticReport.text` has is mapped to FHIR R4 element `DiagnosticReport.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.contained` is mapped to FHIR R4 element `DiagnosticReport.contained`."
+              "comment" : "Element `DiagnosticReport.contained` has is mapped to FHIR R4 element `DiagnosticReport.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.identifier` is mapped to FHIR R4 element `DiagnosticReport.identifier`."
+              "comment" : "Element `DiagnosticReport.identifier` has is mapped to FHIR R4 element `DiagnosticReport.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.basedOn` is mapped to FHIR R4 element `DiagnosticReport.basedOn`."
+              "comment" : "Element `DiagnosticReport.basedOn` has is mapped to FHIR R4 element `DiagnosticReport.basedOn`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.status",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DiagnosticReport.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DiagnosticReport.status` is mapped to FHIR R4 element `DiagnosticReport.status`."
+              "comment" : "Note that the target element context `DiagnosticReport.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DiagnosticReport.status` has is mapped to FHIR R4 element `DiagnosticReport.status`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.category` is mapped to FHIR R4 element `DiagnosticReport.category`."
+              "comment" : "Element `DiagnosticReport.category` has is mapped to FHIR R4 element `DiagnosticReport.category`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.code` is mapped to FHIR R4 element `DiagnosticReport.code`."
+              "comment" : "Element `DiagnosticReport.code` has is mapped to FHIR R4 element `DiagnosticReport.code`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.subject` is mapped to FHIR R4 element `DiagnosticReport.subject`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.subject` has is mapped to FHIR R4 element `DiagnosticReport.subject`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.encounter` is mapped to FHIR R4 element `DiagnosticReport.encounter`."
+              "comment" : "Element `DiagnosticReport.encounter` has is mapped to FHIR R4 element `DiagnosticReport.encounter`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.effective[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DiagnosticReport.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DiagnosticReport`.\nElement `DiagnosticReport.effective[x]` is mapped to FHIR R4 element `DiagnosticReport.effective[x]`.\nNote that the target element context `DiagnosticReport.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DiagnosticReport`."
+              "comment" : "Note that the target element context `DiagnosticReport.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DiagnosticReport`.\nElement `DiagnosticReport.effective[x]` has is mapped to FHIR R4 element `DiagnosticReport.effective[x]`, but has no comparisons.\nNote that the target element context `DiagnosticReport.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DiagnosticReport`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.issued",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.issued` is mapped to FHIR R4 element `DiagnosticReport.issued`."
+              "comment" : "Element `DiagnosticReport.issued` has is mapped to FHIR R4 element `DiagnosticReport.issued`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.performer",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.performer` is mapped to FHIR R4 element `DiagnosticReport.performer`."
+              "comment" : "Element `DiagnosticReport.performer` has is mapped to FHIR R4 element `DiagnosticReport.performer`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.resultsInterpreter",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.resultsInterpreter` is mapped to FHIR R4 element `DiagnosticReport.resultsInterpreter`."
+              "comment" : "Element `DiagnosticReport.resultsInterpreter` has is mapped to FHIR R4 element `DiagnosticReport.resultsInterpreter`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.specimen",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.specimen` is mapped to FHIR R4 element `DiagnosticReport.specimen`."
+              "comment" : "Element `DiagnosticReport.specimen` has is mapped to FHIR R4 element `DiagnosticReport.specimen`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.result",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.result` is mapped to FHIR R4 element `DiagnosticReport.result`."
+              "comment" : "Element `DiagnosticReport.result` has is mapped to FHIR R4 element `DiagnosticReport.result`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.note` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
+              "comment" : "Element `DiagnosticReport.note` has a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.study` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.study` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.study` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.study` has a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.supportingInfo` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
+              "comment" : "Element `DiagnosticReport.supportingInfo` has a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.supportingInfo.type` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.\nElement `DiagnosticReport.supportingInfo.type` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
+              "comment" : "Element `DiagnosticReport.supportingInfo.type` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.\nElement `DiagnosticReport.supportingInfo.type` has a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.supportingInfo.reference` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.supportingInfo.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.supportingInfo.reference` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
+              "comment" : "Element `DiagnosticReport.supportingInfo.reference` is part of an existing definition because parent element `DiagnosticReport.supportingInfo` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.supportingInfo.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.supportingInfo.reference` has a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.media",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.media` is mapped to FHIR R4 element `DiagnosticReport.media`."
+              "comment" : "Element `DiagnosticReport.media` has is mapped to FHIR R4 element `DiagnosticReport.media`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.media.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.media.comment` is mapped to FHIR R4 element `DiagnosticReport.media.comment`."
+              "comment" : "Element `DiagnosticReport.media.comment` is part of an existing definition because parent element `DiagnosticReport.media` requires a cross-version extension.\nElement `DiagnosticReport.media.comment` has is mapped to FHIR R4 element `DiagnosticReport.media.comment`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.media.link",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.media.link` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.media.link` is mapped to FHIR R4 element `DiagnosticReport.media.link`."
+              "comment" : "Element `DiagnosticReport.media.link` is part of an existing definition because parent element `DiagnosticReport.media` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.media.link` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.media.link` has is mapped to FHIR R4 element `DiagnosticReport.media.link`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.composition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.composition` is will have a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DiagnosticReport.composition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DiagnosticReport.composition` has a context of DiagnosticReport based on following the parent source element upwards and mapping to `DiagnosticReport`."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.conclusion",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.conclusion` is mapped to FHIR R4 element `DiagnosticReport.conclusion`."
+              "comment" : "Element `DiagnosticReport.conclusion` has is mapped to FHIR R4 element `DiagnosticReport.conclusion`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.conclusionCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.conclusionCode` is mapped to FHIR R4 element `DiagnosticReport.conclusionCode`."
+              "comment" : "Element `DiagnosticReport.conclusionCode` has is mapped to FHIR R4 element `DiagnosticReport.conclusionCode`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DiagnosticReport#DiagnosticReport.presentedForm",
               "equivalence" : "relatedto",
-              "comment" : "Element `DiagnosticReport.presentedForm` is mapped to FHIR R4 element `DiagnosticReport.presentedForm`."
+              "comment" : "Element `DiagnosticReport.presentedForm` has is mapped to FHIR R4 element `DiagnosticReport.presentedForm`, but has no comparisons."
             }
           ]
         }

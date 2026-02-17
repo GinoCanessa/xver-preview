@@ -1,4 +1,4 @@
-# ExtensionQuestionnaire_CopyrightLabel - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionQuestionnaire_CopyrightLabel - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Questionnaire.copyrightLabel` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Questionna
   "title" : "Cross-version Extension `R5.Questionnaire.copyrightLabel` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Questionna
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Questionnaire.copyrightLabel` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Questionnaire.copyrightLabel` 0..1 `string`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Questionnaire.copyrightLabel` 0..1 `string`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Questionnaire.copyrightLabel` is will have a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Questionnaire.copyrightLabel` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Questionnaire.copyrightLabel` 0..1 `string`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Questionnaire.copyrightLabel` 0..1 `string`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Questionnaire.copyrightLabel` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

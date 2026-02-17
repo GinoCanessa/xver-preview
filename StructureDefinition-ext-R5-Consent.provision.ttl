@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Consent.provision` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-17T20:42:20.5370068+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Consent.provision` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Consent.provision` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Consent.provision` 0..* `BackboneElement`\n*  R4B: `Consent.provision` 0..1 `BackboneElement`\n*  R4: `Consent.provision` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Consent.provision` is mapped to FHIR R4 element `Consent.provision`."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Consent.provision` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Consent.provision` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Consent.provision` 0..* `BackboneElement`\n*  R4B: `Consent.provision` 0..1 `BackboneElement`\n*  R4: `Consent.provision` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Consent.provision` has is mapped to FHIR R4 element `Consent.provision`, but has no comparisons.\nNote available implied context: `Consent.provision.provision` because `Consent.provision.provision` is defined as a content reference to `Consent.provision`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Extension.extension" ]
+     fhir:expression [ fhir:v "Consent.provision" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:short [ fhir:v "Timeframe for this provision" ] ;
        fhir:definition [ fhir:v "Timeframe for this provision." ] ;
        fhir:comment [ fhir:v "This is the bound effective time of the consent and should be in the base provision in the Consent resource." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.period` is mapped to FHIR R4 element `Consent.provision.period`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.period` has is mapped to FHIR R4 element `Consent.provision.period`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -526,7 +526,7 @@
        fhir:sliceName [ fhir:v "actor" ] ;
        fhir:short [ fhir:v "Who|what controlled by this provision (or group, by role)" ] ;
        fhir:definition [ fhir:v "Who or what is controlled by this provision. Use group to identify a set of actors by some property they share (e.g. 'admitting officers')." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is mapped to FHIR R4 element `Consent.provision.actor`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.actor` has is mapped to FHIR R4 element `Consent.provision.actor`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -655,7 +655,7 @@
        fhir:sliceName [ fhir:v "role" ] ;
        fhir:short [ fhir:v "How the actor is involved" ] ;
        fhir:definition [ fhir:v "How the individual is involved in the resources content that is described in the exception." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.actor.role` is mapped to FHIR R4 element `Consent.provision.actor.role`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.actor.role` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.role` has is mapped to FHIR R4 element `Consent.provision.actor.role`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -874,7 +874,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Resource for the actor (or group, by role)" ] ;
        fhir:definition [ fhir:v "The resource that identifies the actor. To identify actors by type, use group to identify a set of actors by some property they share (e.g. 'admitting officers')." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.actor.reference` is mapped to FHIR R4 element `Consent.provision.actor.reference`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.actor.reference` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.reference` has is mapped to FHIR R4 element `Consent.provision.actor.reference`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1457,7 +1457,7 @@
        fhir:short [ fhir:v "Actions controlled by this provision" ] ;
        fhir:definition [ fhir:v "Actions controlled by this provision." ] ;
        fhir:comment [ fhir:v "Note that this is the direct action (not the grounds for the action covered in the purpose element). At present, the only action in the understood and tested scope of this resource is 'read'." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is mapped to FHIR R4 element `Consent.provision.action`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.action` has is mapped to FHIR R4 element `Consent.provision.action`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1678,7 +1678,7 @@
        fhir:short [ fhir:v "Security Labels that define affected resources" ] ;
        fhir:definition [ fhir:v "A security label, comprised of 0..* security label fields (Privacy tags), which define which resources are controlled by this exception." ] ;
        fhir:comment [ fhir:v "If the consent specifies a security label of \"R\" then it applies to all resources that are labeled \"R\" or lower. E.g. for Confidentiality, it's a high water mark. For other kinds of security labels, subsumption logic applies. When the purpose of use tag is on the data, access request purpose of use shall not conflict." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is mapped to FHIR R4 element `Consent.provision.securityLabel`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.securityLabel` has is mapped to FHIR R4 element `Consent.provision.securityLabel`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1891,7 +1891,7 @@
        fhir:short [ fhir:v "Context of activities covered by this provision" ] ;
        fhir:definition [ fhir:v "The context of the activities a user is taking - why the user is accessing the data - that are controlled by this provision." ] ;
        fhir:comment [ fhir:v "When the purpose of use tag is on the data, access request purpose of use shall not conflict." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is mapped to FHIR R4 element `Consent.provision.purpose`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.purpose` has is mapped to FHIR R4 element `Consent.provision.purpose`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2112,7 +2112,7 @@
        fhir:short [ fhir:v "e.g. Resource Type, Profile, CDA, etc" ] ;
        fhir:definition [ fhir:v "The documentType(s) covered by this provision. The type can be a CDA document, or some other type that indicates what sort of information the consent relates to." ] ;
        fhir:comment [ fhir:v "Multiple types are or'ed together. The intention of the documentType element is that the codes refer to document types defined in a standard somewhere." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.documentType` is mapped to FHIR R4 element `Consent.provision.class`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.documentType` has is mapped to FHIR R4 element `Consent.provision.class`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2333,7 +2333,7 @@
        fhir:short [ fhir:v "e.g. Resource Type, Profile, etc" ] ;
        fhir:definition [ fhir:v "The resourceType(s) covered by this provision. The type can be a FHIR resource type or a profile on a type that indicates what information the consent relates to." ] ;
        fhir:comment [ fhir:v "Multiple types are or'ed together. The intention of the resourceType element is that the codes refer to profiles or document types defined in a standard or an implementation guide somewhere." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.resourceType` is mapped to FHIR R4 element `Consent.provision.class`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.resourceType` has is mapped to FHIR R4 element `Consent.provision.class`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2553,7 +2553,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "e.g. LOINC or SNOMED CT code, etc. in the content" ] ;
        fhir:definition [ fhir:v "If this code is found in an instance, then the provision applies." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.code` is mapped to FHIR R4 element `Consent.provision.code`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.code` has is mapped to FHIR R4 element `Consent.provision.code`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2773,7 +2773,7 @@
        fhir:short [ fhir:v "Timeframe for data controlled by this provision" ] ;
        fhir:definition [ fhir:v "Clinical or Operational Relevant period of time that bounds the data controlled by this provision." ] ;
        fhir:comment [ fhir:v "This has a different sense to the Consent.period - that is when the consent agreement holds. This is the time period of the data that is controlled by the agreement." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is mapped to FHIR R4 element `Consent.provision.dataPeriod`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.dataPeriod` has is mapped to FHIR R4 element `Consent.provision.dataPeriod`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2985,7 +2985,7 @@
        fhir:sliceName [ fhir:v "data" ] ;
        fhir:short [ fhir:v "Data controlled by this provision" ] ;
        fhir:definition [ fhir:v "The resources controlled by this provision if specific resources are referenced." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is mapped to FHIR R4 element `Consent.provision.data`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.data` has is mapped to FHIR R4 element `Consent.provision.data`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3114,7 +3114,7 @@
        fhir:sliceName [ fhir:v "meaning" ] ;
        fhir:short [ fhir:v "instance | related | dependents | authoredby" ] ;
        fhir:definition [ fhir:v "How the resource reference is interpreted when testing consent restrictions." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.data.meaning` is mapped to FHIR R4 element `Consent.provision.data.meaning`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.data.meaning` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.meaning` has is mapped to FHIR R4 element `Consent.provision.data.meaning`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3333,7 +3333,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "The actual data reference" ] ;
        fhir:definition [ fhir:v "A reference to a specific resource that defines which resources are covered by this consent." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.data.reference` is mapped to FHIR R4 element `Consent.provision.data.reference`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.data.reference` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.reference` has is mapped to FHIR R4 element `Consent.provision.data.reference`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3874,7 +3874,7 @@
        fhir:short [ fhir:v "A computable expression of the consent" ] ;
        fhir:definition [ fhir:v "A computable (FHIRPath or other) definition of what is controlled by this consent." ] ;
        fhir:comment [ fhir:v "Constraining the expression type for a specific implementation via profile is recommended" ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.expression` has a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4086,7 +4086,7 @@
        fhir:sliceName [ fhir:v "provision" ] ;
        fhir:short [ fhir:v "Nested Exception Provisions" ] ;
        fhir:definition [ fhir:v "Provisions which provide exceptions to the base provision or subprovisions." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.provision` is mapped to FHIR R4 element `Consent.provision.provision`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.provision` has is mapped to FHIR R4 element `Consent.provision.provision`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4899,7 +4899,7 @@
        fhir:short [ fhir:v "Timeframe for this provision" ] ;
        fhir:definition [ fhir:v "Timeframe for this provision." ] ;
        fhir:comment [ fhir:v "This is the bound effective time of the consent and should be in the base provision in the Consent resource." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.period` is mapped to FHIR R4 element `Consent.provision.period`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.period` has is mapped to FHIR R4 element `Consent.provision.period`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -4947,7 +4947,7 @@
        fhir:sliceName [ fhir:v "actor" ] ;
        fhir:short [ fhir:v "Who|what controlled by this provision (or group, by role)" ] ;
        fhir:definition [ fhir:v "Who or what is controlled by this provision. Use group to identify a set of actors by some property they share (e.g. 'admitting officers')." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is mapped to FHIR R4 element `Consent.provision.actor`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.actor` has is mapped to FHIR R4 element `Consent.provision.actor`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -4979,7 +4979,7 @@
        fhir:sliceName [ fhir:v "role" ] ;
        fhir:short [ fhir:v "How the actor is involved" ] ;
        fhir:definition [ fhir:v "How the individual is involved in the resources content that is described in the exception." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.actor.role` is mapped to FHIR R4 element `Consent.provision.actor.role`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.actor.role` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.role` has is mapped to FHIR R4 element `Consent.provision.actor.role`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5034,7 +5034,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "Resource for the actor (or group, by role)" ] ;
        fhir:definition [ fhir:v "The resource that identifies the actor. To identify actors by type, use group to identify a set of actors by some property they share (e.g. 'admitting officers')." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.actor.reference` is mapped to FHIR R4 element `Consent.provision.actor.reference`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.actor.reference` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.reference` has is mapped to FHIR R4 element `Consent.provision.actor.reference`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5156,7 +5156,7 @@
        fhir:short [ fhir:v "Actions controlled by this provision" ] ;
        fhir:definition [ fhir:v "Actions controlled by this provision." ] ;
        fhir:comment [ fhir:v "Note that this is the direct action (not the grounds for the action covered in the purpose element). At present, the only action in the understood and tested scope of this resource is 'read'." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is mapped to FHIR R4 element `Consent.provision.action`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.action` has is mapped to FHIR R4 element `Consent.provision.action`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5213,7 +5213,7 @@
        fhir:short [ fhir:v "Security Labels that define affected resources" ] ;
        fhir:definition [ fhir:v "A security label, comprised of 0..* security label fields (Privacy tags), which define which resources are controlled by this exception." ] ;
        fhir:comment [ fhir:v "If the consent specifies a security label of \"R\" then it applies to all resources that are labeled \"R\" or lower. E.g. for Confidentiality, it's a high water mark. For other kinds of security labels, subsumption logic applies. When the purpose of use tag is on the data, access request purpose of use shall not conflict." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is mapped to FHIR R4 element `Consent.provision.securityLabel`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.securityLabel` has is mapped to FHIR R4 element `Consent.provision.securityLabel`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5262,7 +5262,7 @@
        fhir:short [ fhir:v "Context of activities covered by this provision" ] ;
        fhir:definition [ fhir:v "The context of the activities a user is taking - why the user is accessing the data - that are controlled by this provision." ] ;
        fhir:comment [ fhir:v "When the purpose of use tag is on the data, access request purpose of use shall not conflict." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is mapped to FHIR R4 element `Consent.provision.purpose`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.purpose` has is mapped to FHIR R4 element `Consent.provision.purpose`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5319,7 +5319,7 @@
        fhir:short [ fhir:v "e.g. Resource Type, Profile, CDA, etc" ] ;
        fhir:definition [ fhir:v "The documentType(s) covered by this provision. The type can be a CDA document, or some other type that indicates what sort of information the consent relates to." ] ;
        fhir:comment [ fhir:v "Multiple types are or'ed together. The intention of the documentType element is that the codes refer to document types defined in a standard somewhere." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.documentType` is mapped to FHIR R4 element `Consent.provision.class`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.documentType` has is mapped to FHIR R4 element `Consent.provision.class`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5376,7 +5376,7 @@
        fhir:short [ fhir:v "e.g. Resource Type, Profile, etc" ] ;
        fhir:definition [ fhir:v "The resourceType(s) covered by this provision. The type can be a FHIR resource type or a profile on a type that indicates what information the consent relates to." ] ;
        fhir:comment [ fhir:v "Multiple types are or'ed together. The intention of the resourceType element is that the codes refer to profiles or document types defined in a standard or an implementation guide somewhere." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.resourceType` is mapped to FHIR R4 element `Consent.provision.class`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.resourceType` has is mapped to FHIR R4 element `Consent.provision.class`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5432,7 +5432,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "e.g. LOINC or SNOMED CT code, etc. in the content" ] ;
        fhir:definition [ fhir:v "If this code is found in an instance, then the provision applies." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.code` is mapped to FHIR R4 element `Consent.provision.code`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.code` has is mapped to FHIR R4 element `Consent.provision.code`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5488,7 +5488,7 @@
        fhir:short [ fhir:v "Timeframe for data controlled by this provision" ] ;
        fhir:definition [ fhir:v "Clinical or Operational Relevant period of time that bounds the data controlled by this provision." ] ;
        fhir:comment [ fhir:v "This has a different sense to the Consent.period - that is when the consent agreement holds. This is the time period of the data that is controlled by the agreement." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is mapped to FHIR R4 element `Consent.provision.dataPeriod`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.dataPeriod` has is mapped to FHIR R4 element `Consent.provision.dataPeriod`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5536,7 +5536,7 @@
        fhir:sliceName [ fhir:v "data" ] ;
        fhir:short [ fhir:v "Data controlled by this provision" ] ;
        fhir:definition [ fhir:v "The resources controlled by this provision if specific resources are referenced." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is mapped to FHIR R4 element `Consent.provision.data`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.data` has is mapped to FHIR R4 element `Consent.provision.data`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -5568,7 +5568,7 @@
        fhir:sliceName [ fhir:v "meaning" ] ;
        fhir:short [ fhir:v "instance | related | dependents | authoredby" ] ;
        fhir:definition [ fhir:v "How the resource reference is interpreted when testing consent restrictions." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.data.meaning` is mapped to FHIR R4 element `Consent.provision.data.meaning`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.data.meaning` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.meaning` has is mapped to FHIR R4 element `Consent.provision.data.meaning`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5623,7 +5623,7 @@
        fhir:sliceName [ fhir:v "reference" ] ;
        fhir:short [ fhir:v "The actual data reference" ] ;
        fhir:definition [ fhir:v "A reference to a specific resource that defines which resources are covered by this consent." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.data.reference` is mapped to FHIR R4 element `Consent.provision.data.reference`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.data.reference` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.reference` has is mapped to FHIR R4 element `Consent.provision.data.reference`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5703,7 +5703,7 @@
        fhir:short [ fhir:v "A computable expression of the consent" ] ;
        fhir:definition [ fhir:v "A computable (FHIRPath or other) definition of what is controlled by this consent." ] ;
        fhir:comment [ fhir:v "Constraining the expression type for a specific implementation via profile is recommended" ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.expression` has a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -5751,7 +5751,7 @@
        fhir:sliceName [ fhir:v "provision" ] ;
        fhir:short [ fhir:v "Nested Exception Provisions" ] ;
        fhir:definition [ fhir:v "Provisions which provide exceptions to the base provision or subprovisions." ] ;
-       fhir:requirements [ fhir:v "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.provision` is mapped to FHIR R4 element `Consent.provision.provision`." ] ;
+       fhir:requirements [ fhir:v "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.provision` has is mapped to FHIR R4 element `Consent.provision.provision`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

@@ -1,4 +1,4 @@
-# ConceptMapR5SignatureElementsForR4Signature - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5SignatureElementsForR4Signature - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5SignatureElementsForR4Signature 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2166346-06:00",
+  "date" : "2026-02-17T14:42:27.5404551-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Signature#Signature",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Signature` is representable via FHIR R4 extensions.\nElement `Signature` is mapped to FHIR R4 element `Signature`."
+              "comment" : "FHIR R5 ComplexType `Signature` is representable via FHIR R4 extensions.\nElement `Signature` has is mapped to FHIR R4 element `Signature`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Signature#Signature.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Signature.type` is mapped to FHIR R4 element `Signature.type`."
+              "comment" : "Element `Signature.type` has is mapped to FHIR R4 element `Signature.type`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Signature#Signature.when",
               "equivalence" : "relatedto",
-              "comment" : "Element `Signature.when` is mapped to FHIR R4 element `Signature.when`."
+              "comment" : "Element `Signature.when` has is mapped to FHIR R4 element `Signature.when`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Signature#Signature.who",
               "equivalence" : "relatedto",
-              "comment" : "Element `Signature.who` is mapped to FHIR R4 element `Signature.who`."
+              "comment" : "Element `Signature.who` has is mapped to FHIR R4 element `Signature.who`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Signature#Signature.onBehalfOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `Signature.onBehalfOf` is mapped to FHIR R4 element `Signature.onBehalfOf`."
+              "comment" : "Element `Signature.onBehalfOf` has is mapped to FHIR R4 element `Signature.onBehalfOf`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Signature#Signature.targetFormat",
               "equivalence" : "relatedto",
-              "comment" : "Element `Signature.targetFormat` is mapped to FHIR R4 element `Signature.targetFormat`."
+              "comment" : "Element `Signature.targetFormat` has is mapped to FHIR R4 element `Signature.targetFormat`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Signature#Signature.sigFormat",
               "equivalence" : "relatedto",
-              "comment" : "Element `Signature.sigFormat` is mapped to FHIR R4 element `Signature.sigFormat`."
+              "comment" : "Element `Signature.sigFormat` has is mapped to FHIR R4 element `Signature.sigFormat`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Signature#Signature.data",
               "equivalence" : "relatedto",
-              "comment" : "Element `Signature.data` is mapped to FHIR R4 element `Signature.data`."
+              "comment" : "Element `Signature.data` has is mapped to FHIR R4 element `Signature.data`, but has no comparisons."
             }
           ]
         }

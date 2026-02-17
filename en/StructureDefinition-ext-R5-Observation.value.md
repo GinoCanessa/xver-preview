@@ -1,4 +1,4 @@
-# ExtensionObservation_Value - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionObservation_Value - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Observation.value[x]` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
   "title" : "Cross-version Extension `R5.Observation.value[x]` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Observation.value[x]` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Observation.value[x]` 0..1 `Attachment, boolean, CodeableConcept, dateTime, integer, Period, Quantity, Range, Ratio, Reference(http://hl7.org/fhir/StructureDefinition/MolecularSequence), SampledData, string, time`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Observation.value[x]` 0..1 `Attachment, boolean, CodeableConcept, dateTime, integer, Period, Quantity, Range, Ratio, Reference(http://hl7.org/fhir/StructureDefinition/MolecularSequence), SampledData, string, time`\n*  R4B: `Observation.value[x]` 0..1 `boolean, CodeableConcept, dateTime, integer, Period, Quantity, Range, Ratio, SampledData, string, time`\n*  R4: `Observation.value[x]` 0..1 `boolean, CodeableConcept, dateTime, integer, Period, Quantity, Range, Ratio, SampledData, string, time`\r\n\r\nFollowing are the generation technical comments:\r\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.value[x]` is mapped to FHIR R4 element `Observation.value[x]`.\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Observation.value[x]` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Observation.value[x]` 0..1 `Attachment, boolean, CodeableConcept, dateTime, integer, Period, Quantity, Range, Ratio, Reference(http://hl7.org/fhir/StructureDefinition/MolecularSequence), SampledData, string, time`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Observation.value[x]` 0..1 `Attachment, boolean, CodeableConcept, dateTime, integer, Period, Quantity, Range, Ratio, Reference(http://hl7.org/fhir/StructureDefinition/MolecularSequence), SampledData, string, time`\n*  R4B: `Observation.value[x]` 0..1 `boolean, CodeableConcept, dateTime, integer, Period, Quantity, Range, Ratio, SampledData, string, time`\n*  R4: `Observation.value[x]` 0..1 `boolean, CodeableConcept, dateTime, integer, Period, Quantity, Range, Ratio, SampledData, string, time`\r\n\r\nFollowing are the generation technical comments:\r\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.value[x]` has is mapped to FHIR R4 element `Observation.value[x]`, but has no comparisons.\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

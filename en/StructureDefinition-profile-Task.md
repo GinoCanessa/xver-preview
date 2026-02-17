@@ -1,4 +1,4 @@
-# ProfileTask - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileTask - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileTask 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
   "title" : "Cross-version Profile for R5.Task for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3768798-06:00",
+  "date" : "2026-02-17T14:42:26.9317037-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         "path" : "Task.extension",
         "sliceName" : "doNotPerform",
         "short" : "Cross-version extension for Task.doNotPerform from R5 for use in FHIR R4",
-        "comment" : "Element `Task.doNotPerform` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
+        "comment" : "Element `Task.doNotPerform` has a context of Task based on following the parent source element upwards and mapping to `Task`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         "path" : "Task.extension",
         "sliceName" : "requestedPeriod",
         "short" : "Cross-version extension for Task.requestedPeriod from R5 for use in FHIR R4",
-        "comment" : "Element `Task.requestedPeriod` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
+        "comment" : "Element `Task.requestedPeriod` has a context of Task based on following the parent source element upwards and mapping to `Task`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         "path" : "Task.extension",
         "sliceName" : "requestedPerformer",
         "short" : "Cross-version extension for Task.requestedPerformer from R5 for use in FHIR R4",
-        "comment" : "Element `Task.requestedPerformer` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
+        "comment" : "Element `Task.requestedPerformer` has a context of Task based on following the parent source element upwards and mapping to `Task`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         "path" : "Task.extension",
         "sliceName" : "performer",
         "short" : "Cross-version extension for Task.performer from R5 for use in FHIR R4",
-        "comment" : "Element `Task.performer` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.",
+        "comment" : "Element `Task.performer` has a context of Task based on following the parent source element upwards and mapping to `Task`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -283,7 +283,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         "path" : "Task.statusReason.extension",
         "sliceName" : "statusReason",
         "short" : "Cross-version extension for Task.statusReason from R5 for use in FHIR R4",
-        "comment" : "Element `Task.statusReason` is mapped to FHIR R4 element `Task.statusReason`.",
+        "comment" : "Element `Task.statusReason` has is mapped to FHIR R4 element `Task.statusReason`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -301,6 +301,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         ]
       },
       {
+        "id" : "Task.restriction.extension",
+        "path" : "Task.restriction.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Task.restriction.extension:restriction",
+        "path" : "Task.restriction.extension",
+        "sliceName" : "restriction",
+        "short" : "Cross-version extension for Task.restriction from R5 for use in FHIR R4",
+        "comment" : "Element `Task.restriction` has is mapped to FHIR R4 element `Task.restriction`, but has no comparisons.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Task.input.extension",
         "path" : "Task.input.extension",
         "slicing" : {
@@ -313,7 +356,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -322,13 +365,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         }
       },
       {
-        "id" : "Task.input.extension:value",
+        "id" : "Task.input.extension:input",
         "path" : "Task.input.extension",
-        "sliceName" : "value",
-        "short" : "Cross-version extension for Task.input.value[x] from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.\nElement `Task.input.value[x]` is mapped to FHIR R4 element `Task.input.value[x]`.\nNote that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.",
-        "min" : 1,
-        "max" : "1",
+        "sliceName" : "input",
+        "short" : "Cross-version extension for Task.input from R5 for use in FHIR R4",
+        "comment" : "Element `Task.input` has is mapped to FHIR R4 element `Task.input`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -338,7 +381,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input.value|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -356,7 +399,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -365,13 +408,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
         }
       },
       {
-        "id" : "Task.output.extension:value",
+        "id" : "Task.output.extension:output",
         "path" : "Task.output.extension",
-        "sliceName" : "value",
-        "short" : "Cross-version extension for Task.output.value[x] from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.\nElement `Task.output.value[x]` is mapped to FHIR R4 element `Task.output.value[x]`.\nNote that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.",
-        "min" : 1,
-        "max" : "1",
+        "sliceName" : "output",
+        "short" : "Cross-version extension for Task.output from R5 for use in FHIR R4",
+        "comment" : "Element `Task.output` has is mapped to FHIR R4 element `Task.output`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -381,7 +424,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Task.csv)
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output.value|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output|0.0.1-snapshot-3"
             ]
           }
         ]

@@ -1,4 +1,4 @@
-# ConceptMapR5CareTeamElementsForR4CareTeam - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5CareTeamElementsForR4CareTeam - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5CareTeamElementsForR4CareTeam 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.5241898-06:00",
+  "date" : "2026-02-17T14:42:27.0239847-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `CareTeam` is representable via FHIR R4 Resource `CareTeam`.\nElement `CareTeam` is mapped to FHIR R4 element `CareTeam`."
+              "comment" : "FHIR R5 Resource `CareTeam` is representable via FHIR R4 Resource `CareTeam`.\nElement `CareTeam` has is mapped to FHIR R4 element `CareTeam`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.meta` is mapped to FHIR R4 element `CareTeam.meta`."
+              "comment" : "Element `CareTeam.meta` has is mapped to FHIR R4 element `CareTeam.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.implicitRules` is mapped to FHIR R4 element `CareTeam.implicitRules`."
+              "comment" : "Element `CareTeam.implicitRules` has is mapped to FHIR R4 element `CareTeam.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.language` is mapped to FHIR R4 element `CareTeam.language`."
+              "comment" : "Element `CareTeam.language` has is mapped to FHIR R4 element `CareTeam.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.text` is mapped to FHIR R4 element `CareTeam.text`."
+              "comment" : "Element `CareTeam.text` has is mapped to FHIR R4 element `CareTeam.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.contained` is mapped to FHIR R4 element `CareTeam.contained`."
+              "comment" : "Element `CareTeam.contained` has is mapped to FHIR R4 element `CareTeam.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.identifier` is mapped to FHIR R4 element `CareTeam.identifier`."
+              "comment" : "Element `CareTeam.identifier` has is mapped to FHIR R4 element `CareTeam.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.status` is mapped to FHIR R4 element `CareTeam.status`."
+              "comment" : "Element `CareTeam.status` has is mapped to FHIR R4 element `CareTeam.status`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.category` is mapped to FHIR R4 element `CareTeam.category`."
+              "comment" : "Element `CareTeam.category` has is mapped to FHIR R4 element `CareTeam.category`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.name` is mapped to FHIR R4 element `CareTeam.name`."
+              "comment" : "Element `CareTeam.name` has is mapped to FHIR R4 element `CareTeam.name`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.subject` is mapped to FHIR R4 element `CareTeam.subject`."
+              "comment" : "Element `CareTeam.subject` has is mapped to FHIR R4 element `CareTeam.subject`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.period` is mapped to FHIR R4 element `CareTeam.period`."
+              "comment" : "Element `CareTeam.period` has is mapped to FHIR R4 element `CareTeam.period`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.participant` is mapped to FHIR R4 element `CareTeam.participant`."
+              "comment" : "Element `CareTeam.participant` has is mapped to FHIR R4 element `CareTeam.participant`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.participant.role` is mapped to FHIR R4 element `CareTeam.participant.role`."
+              "comment" : "Element `CareTeam.participant.role` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.role` has is mapped to FHIR R4 element `CareTeam.participant.role`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant.member",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.participant.member` is mapped to FHIR R4 element `CareTeam.participant.member`."
+              "comment" : "Element `CareTeam.participant.member` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.member` has is mapped to FHIR R4 element `CareTeam.participant.member`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant.onBehalfOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.participant.onBehalfOf` is mapped to FHIR R4 element `CareTeam.participant.onBehalfOf`."
+              "comment" : "Element `CareTeam.participant.onBehalfOf` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.onBehalfOf` has is mapped to FHIR R4 element `CareTeam.participant.onBehalfOf`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.participant.coverage[x]` is will have a context of CareTeam.participant based on following the parent source element upwards and mapping to `CareTeam`."
+              "comment" : "Element `CareTeam.participant.coverage[x]` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.coverage[x]` has a context of CareTeam.participant based on following the parent source element upwards and mapping to `CareTeam`."
             }
           ]
         },
@@ -272,12 +272,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.reason` is mapped to FHIR R4 element `CareTeam.reasonCode`.\nElement `CareTeam.reason` is mapped to FHIR R4 element `CareTeam.reasonReference`."
+              "comment" : "Element `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonCode`, but has no comparisons.\nElement `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonReference`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.reason` is mapped to FHIR R4 element `CareTeam.reasonCode`.\nElement `CareTeam.reason` is mapped to FHIR R4 element `CareTeam.reasonReference`."
+              "comment" : "Element `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonCode`, but has no comparisons.\nElement `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonReference`, but has no comparisons."
             }
           ]
         },
@@ -288,7 +288,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.managingOrganization",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.managingOrganization` is mapped to FHIR R4 element `CareTeam.managingOrganization`."
+              "comment" : "Element `CareTeam.managingOrganization` has is mapped to FHIR R4 element `CareTeam.managingOrganization`, but has no comparisons."
             }
           ]
         },
@@ -299,7 +299,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.telecom",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.telecom` is mapped to FHIR R4 element `CareTeam.telecom`."
+              "comment" : "Element `CareTeam.telecom` has is mapped to FHIR R4 element `CareTeam.telecom`, but has no comparisons."
             }
           ]
         },
@@ -310,7 +310,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CareTeam#CareTeam.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `CareTeam.note` is mapped to FHIR R4 element `CareTeam.note`."
+              "comment" : "Element `CareTeam.note` has is mapped to FHIR R4 element `CareTeam.note`, but has no comparisons."
             }
           ]
         }

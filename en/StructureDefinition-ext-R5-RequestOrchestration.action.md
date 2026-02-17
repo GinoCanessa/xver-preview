@@ -1,4 +1,4 @@
-# ExtensionRequestOrchestration_Action - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionRequestOrchestration_Action - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `RequestOrchestratio
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.RequestOrchestration for use in FHIR R4](StructureDefinition-profile-RequestOrchestration-for-RequestGroup.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-RequestOrchestration.action)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
   "title" : "Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `RequestOrchestration.action` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`RequestOrchestration.action` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `RequestOrchestration.action` 0..* `BackboneElement`\n*  R4B: `RequestGroup.action` 0..* `BackboneElement`\n*  R4: `RequestGroup.action` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `RequestOrchestration.action` is mapped to FHIR R4 element `RequestGroup.action`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `RequestOrchestration.action` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`RequestOrchestration.action` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `RequestOrchestration.action` 0..* `BackboneElement`\n*  R4B: `RequestGroup.action` 0..* `BackboneElement`\n*  R4: `RequestGroup.action` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `RequestOrchestration.action` has is mapped to FHIR R4 element `RequestGroup.action`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "RequestGroup.action"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "linkId",
         "short" : "Pointer to specific item from the PlanDefinition",
         "definition" : "The linkId of the action from the PlanDefinition that corresponds to this action in the RequestOrchestration resource.",
-        "requirements" : "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.linkId` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.linkId` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.linkId` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "prefix",
         "short" : "User-visible prefix for the action (e.g. 1. or A.)",
         "definition" : "A user-visible prefix for the action. For example a section or item numbering such as 1. or A.",
-        "requirements" : "Element `RequestOrchestration.action.prefix` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.prefix` is mapped to FHIR R4 element `RequestGroup.action.prefix`.",
+        "requirements" : "Element `RequestOrchestration.action.prefix` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.prefix` has is mapped to FHIR R4 element `RequestGroup.action.prefix`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "The title of the action displayed to a user.",
-        "requirements" : "Element `RequestOrchestration.action.title` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.title` is mapped to FHIR R4 element `RequestGroup.action.title`.",
+        "requirements" : "Element `RequestOrchestration.action.title` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.title` has is mapped to FHIR R4 element `RequestGroup.action.title`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -319,7 +319,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "description",
         "short" : "Short description of the action",
         "definition" : "A short description of the action used to provide a summary to display to the user.",
-        "requirements" : "Element `RequestOrchestration.action.description` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.description` is mapped to FHIR R4 element `RequestGroup.action.description`.",
+        "requirements" : "Element `RequestOrchestration.action.description` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.description` has is mapped to FHIR R4 element `RequestGroup.action.description`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -364,7 +364,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "textEquivalent",
         "short" : "Static text equivalent of the action, used if the dynamic aspects cannot be interpreted by the receiving system",
         "definition" : "A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that might not be capable of interpreting it dynamically.",
-        "requirements" : "Element `RequestOrchestration.action.textEquivalent` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.textEquivalent` is mapped to FHIR R4 element `RequestGroup.action.textEquivalent`.",
+        "requirements" : "Element `RequestOrchestration.action.textEquivalent` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.textEquivalent` has is mapped to FHIR R4 element `RequestGroup.action.textEquivalent`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -409,7 +409,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "priority",
         "short" : "routine | urgent | asap | stat",
         "definition" : "Indicates how quickly the action should be addressed with respect to other actions.",
-        "requirements" : "Element `RequestOrchestration.action.priority` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.priority` is mapped to FHIR R4 element `RequestGroup.action.priority`.",
+        "requirements" : "Element `RequestOrchestration.action.priority` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.priority` has is mapped to FHIR R4 element `RequestGroup.action.priority`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -459,7 +459,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "code",
         "short" : "Code representing the meaning of the action or sub-actions",
         "definition" : "A code that provides meaning for the action or action group. For example, a section may have a LOINC code for a section of a documentation template.",
-        "requirements" : "Element `RequestOrchestration.action.code` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.code` is mapped to FHIR R4 element `RequestGroup.action.code`.",
+        "requirements" : "Element `RequestOrchestration.action.code` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.code` has is mapped to FHIR R4 element `RequestGroup.action.code`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -508,7 +508,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "documentation",
         "short" : "Supporting documentation for the intended performer of the action",
         "definition" : "Didactic or other informational resources associated with the action that can be provided to the CDS recipient. Information resources can include inline text commentary and links to web resources.",
-        "requirements" : "Element `RequestOrchestration.action.documentation` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.documentation` is mapped to FHIR R4 element `RequestGroup.action.documentation`.",
+        "requirements" : "Element `RequestOrchestration.action.documentation` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.documentation` has is mapped to FHIR R4 element `RequestGroup.action.documentation`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -553,7 +553,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "goal",
         "short" : "What goals",
         "definition" : "Goals that are intended to be achieved by following the requests in this action.",
-        "requirements" : "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.goal` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.goal` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.goal` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.goal` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.goal` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -603,7 +603,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "Whether or not the action is applicable",
         "definition" : "An expression that describes applicability criteria, or start/stop conditions for the action.",
         "comment" : "When multiple conditions of the same kind are present, the effects are combined using AND semantics, so the overall condition is true only if all of the conditions are true.",
-        "requirements" : "Element `RequestOrchestration.action.condition` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.condition` is mapped to FHIR R4 element `RequestGroup.action.condition`.",
+        "requirements" : "Element `RequestOrchestration.action.condition` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.condition` has is mapped to FHIR R4 element `RequestGroup.action.condition`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -640,7 +640,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "applicability | start | stop",
         "definition" : "The kind of condition.",
         "comment" : "Applicability criteria are used to determine immediate applicability when a plan definition is applied to a given context. Start and stop criteria are carried through application and used to describe enter/exit criteria for an action.",
-        "requirements" : "Element `RequestOrchestration.action.condition.kind` is mapped to FHIR R4 element `RequestGroup.action.condition.kind`.",
+        "requirements" : "Element `RequestOrchestration.action.condition.kind` is part of an existing definition because parent element `RequestOrchestration.action.condition` requires a cross-version extension.\nElement `RequestOrchestration.action.condition.kind` has is mapped to FHIR R4 element `RequestGroup.action.condition.kind`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -692,7 +692,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "Boolean-valued expression",
         "definition" : "An expression that returns true or false, indicating whether or not the condition is satisfied.",
         "comment" : "The expression may be inlined, or may be a reference to a named expression within a logic library referenced by the library element.",
-        "requirements" : "Element `RequestOrchestration.action.condition.expression` is mapped to FHIR R4 element `RequestGroup.action.condition.expression`.",
+        "requirements" : "Element `RequestOrchestration.action.condition.expression` is part of an existing definition because parent element `RequestOrchestration.action.condition` requires a cross-version extension.\nElement `RequestOrchestration.action.condition.expression` has is mapped to FHIR R4 element `RequestGroup.action.condition.expression`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -761,7 +761,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "input",
         "short" : "Input data requirements",
         "definition" : "Defines input data requirements for the action.",
-        "requirements" : "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.input` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.input` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.input` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -797,7 +797,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-        "requirements" : "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.input.title` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.title` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -816,7 +816,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "title"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input.title"
       },
       {
         "id" : "Extension.extension:input.extension:title.value[x]",
@@ -842,7 +842,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "requirement",
         "short" : "What data is provided",
         "definition" : "Defines the data that is to be provided as input to the action.",
-        "requirements" : "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.input.requirement` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.requirement` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -861,7 +861,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "requirement"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input.requirement"
       },
       {
         "id" : "Extension.extension:input.extension:requirement.value[x]",
@@ -888,7 +888,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "What data is provided",
         "definition" : "Points to an existing input or output element that provides data to this input.",
         "comment" : "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action",
-        "requirements" : "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.input.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.input` requires a cross-version extension.\nElement `RequestOrchestration.action.input.relatedData` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -907,7 +907,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "relatedData"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input.relatedData"
       },
       {
         "id" : "Extension.extension:input.extension:relatedData.value[x]",
@@ -957,7 +957,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "output",
         "short" : "Output data definition",
         "definition" : "Defines the outputs of the action, if any.",
-        "requirements" : "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.output` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.output` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.output` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -993,7 +993,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-        "requirements" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.output.title` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.title` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1012,7 +1012,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "title"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output.title"
       },
       {
         "id" : "Extension.extension:output.extension:title.value[x]",
@@ -1038,7 +1038,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "requirement",
         "short" : "What data is provided",
         "definition" : "Defines the data that results as output from the action.",
-        "requirements" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.output.requirement` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.requirement` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1057,7 +1057,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "requirement"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output.requirement"
       },
       {
         "id" : "Extension.extension:output.extension:requirement.value[x]",
@@ -1084,7 +1084,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "What data is provided",
         "definition" : "Points to an existing input or output element that is results as output from the action.",
         "comment" : "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action",
-        "requirements" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.output.relatedData` is part of an existing definition because parent element `RequestOrchestration.action.output` requires a cross-version extension.\nElement `RequestOrchestration.action.output.relatedData` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1103,7 +1103,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "relatedData"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output.relatedData"
       },
       {
         "id" : "Extension.extension:output.extension:relatedData.value[x]",
@@ -1153,7 +1153,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "relatedAction",
         "short" : "Relationship to another action",
         "definition" : "A relationship to another action such as \"before\" or \"30-60 minutes after start of\".",
-        "requirements" : "Element `RequestOrchestration.action.relatedAction` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.relatedAction` is mapped to FHIR R4 element `RequestGroup.action.relatedAction`.",
+        "requirements" : "Element `RequestOrchestration.action.relatedAction` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.relatedAction` has is mapped to FHIR R4 element `RequestGroup.action.relatedAction`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1189,7 +1189,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "targetId",
         "short" : "What action this is related to",
         "definition" : "The element id of the target related action.",
-        "requirements" : "Element `RequestOrchestration.action.relatedAction.targetId` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.actionId`.",
+        "requirements" : "Element `RequestOrchestration.action.relatedAction.targetId` is part of an existing definition because parent element `RequestOrchestration.action.relatedAction` requires a cross-version extension.\nElement `RequestOrchestration.action.relatedAction.targetId` has is mapped to FHIR R4 element `RequestGroup.action.relatedAction.actionId`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -1234,7 +1234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "relationship",
         "short" : "before | before-start | before-end | concurrent | concurrent-with-start | concurrent-with-end | after | after-start | after-end",
         "definition" : "The relationship of this action to the related action.",
-        "requirements" : "Element `RequestOrchestration.action.relatedAction.relationship` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.relationship`.",
+        "requirements" : "Element `RequestOrchestration.action.relatedAction.relationship` is part of an existing definition because parent element `RequestOrchestration.action.relatedAction` requires a cross-version extension.\nElement `RequestOrchestration.action.relatedAction.relationship` has is mapped to FHIR R4 element `RequestGroup.action.relatedAction.relationship`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -1284,7 +1284,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "endRelationship",
         "short" : "before | before-start | before-end | concurrent | concurrent-with-start | concurrent-with-end | after | after-start | after-end",
         "definition" : "The relationship of the end of this action to the related action.",
-        "requirements" : "Element `RequestOrchestration.action.relatedAction.endRelationship` is will have a context of RequestGroup.action.relatedAction based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.relatedAction.endRelationship` is part of an existing definition because parent element `RequestOrchestration.action.relatedAction` requires a cross-version extension.\nElement `RequestOrchestration.action.relatedAction.endRelationship` has a context of RequestGroup.action.relatedAction based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1334,7 +1334,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "offset",
         "short" : "Time offset for the relationship",
         "definition" : "A duration or range of durations to apply to the relationship. For example, 30-60 minutes before.",
-        "requirements" : "Note that the target element context `RequestGroup.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action.relatedAction`.\nElement `RequestOrchestration.action.relatedAction.offset[x]` is mapped to FHIR R4 element `RequestGroup.action.relatedAction.offset[x]`.\nNote that the target element context `RequestGroup.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action.relatedAction`.",
+        "requirements" : "Element `RequestOrchestration.action.relatedAction.offset[x]` is part of an existing definition because parent element `RequestOrchestration.action.relatedAction` requires a cross-version extension.\nNote that the target element context `RequestGroup.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action.relatedAction`.\nElement `RequestOrchestration.action.relatedAction.offset[x]` has is mapped to FHIR R4 element `RequestGroup.action.relatedAction.offset[x]`, but has no comparisons.\nNote that the target element context `RequestGroup.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action.relatedAction`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1406,7 +1406,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "When the action should take place",
         "definition" : "An optional value describing when the action should be performed.",
         "comment" : "The intent of the timing element is to provide timing for when the action should be performed. The timing may be absolute (specified as a dateTime or Period) or relative (specified as an Age, Duration, or Range), or it may be a more complex, potentially repeating timing specified using Timing.",
-        "requirements" : "Allows prompting for activities and detection of missed planned activities. Element `RequestOrchestration.action.timing[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `RequestGroup.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action`.\nElement `RequestOrchestration.action.timing[x]` is mapped to FHIR R4 element `RequestGroup.action.timing[x]`.\nNote that the target element context `RequestGroup.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action`.",
+        "requirements" : "Allows prompting for activities and detection of missed planned activities. Element `RequestOrchestration.action.timing[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nNote that the target element context `RequestGroup.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action`.\nElement `RequestOrchestration.action.timing[x]` has is mapped to FHIR R4 element `RequestGroup.action.timing[x]`, but has no comparisons.\nNote that the target element context `RequestGroup.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RequestGroup.action`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1468,7 +1468,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "Where it should happen",
         "definition" : "Identifies the facility where the action will occur; e.g. home, hospital, specific clinic, etc.",
         "comment" : "May reference a specific clinical location or may just identify a type of location.",
-        "requirements" : "Helps in planning of activity. Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.location` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Helps in planning of activity. Element `RequestOrchestration.action.location` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.location` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1548,7 +1548,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1593,7 +1593,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1666,7 +1666,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "Who should perform the action",
         "definition" : "The participant that should perform or be responsible for this action.",
         "comment" : "Because request orchestrations represent potential options for performing activities, some specific participants may still be unknown, so this element allows for both definitional participants (in the same way they are specified in ActivityDefinition and PlanDefinition resources) as well as identifying specific participants when they are known.",
-        "requirements" : "Element `RequestOrchestration.action.participant` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.participant` is mapped to FHIR R4 element `RequestGroup.action.participant`.",
+        "requirements" : "Element `RequestOrchestration.action.participant` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.participant` has is mapped to FHIR R4 element `RequestGroup.action.participant`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1702,7 +1702,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "type",
         "short" : "careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson",
         "definition" : "The type of participant in the action.",
-        "requirements" : "Element `RequestOrchestration.action.participant.type` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.participant.type` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nElement `RequestOrchestration.action.participant.type` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1721,7 +1721,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.type"
       },
       {
         "id" : "Extension.extension:participant.extension:type.value[x]",
@@ -1752,7 +1752,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "typeCanonical",
         "short" : "Who or what can participate",
         "definition" : "The type of participant in the action.",
-        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.participant.typeCanonical` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.participant.typeCanonical` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.participant.typeCanonical` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1771,7 +1771,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "typeCanonical"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.typeCanonical"
       },
       {
         "id" : "Extension.extension:participant.extension:typeCanonical.value[x]",
@@ -1802,7 +1802,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "Who or what can participate",
         "definition" : "The type of participant in the action.",
         "comment" : "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location).",
-        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.participant.typeReference` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.participant.typeReference` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RequestOrchestration.action.participant.typeReference` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1821,7 +1821,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "typeReference"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.typeReference"
       },
       {
         "id" : "Extension.extension:participant.extension:typeReference.value[x]",
@@ -1874,7 +1874,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "role",
         "short" : "E.g. Nurse, Surgeon, Parent, etc",
         "definition" : "The role the participant should play in performing the described action.",
-        "requirements" : "Element `RequestOrchestration.action.participant.role` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.participant.role` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nElement `RequestOrchestration.action.participant.role` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1893,7 +1893,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "role"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.role"
       },
       {
         "id" : "Extension.extension:participant.extension:role.value[x]",
@@ -1924,7 +1924,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "function",
         "short" : "E.g. Author, Reviewer, Witness, etc",
         "definition" : "Indicates how the actor will be involved in the action - author, reviewer, witness, etc.",
-        "requirements" : "Element `RequestOrchestration.action.participant.function` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.participant.function` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nElement `RequestOrchestration.action.participant.function` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1943,7 +1943,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "function"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.function"
       },
       {
         "id" : "Extension.extension:participant.extension:function.value[x]",
@@ -1969,7 +1969,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "actor",
         "short" : "Who/what is participating?",
         "definition" : "A reference to the actual participant.",
-        "requirements" : "Element `RequestOrchestration.action.participant.actor[x]` is will have a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.participant.actor[x]` is part of an existing definition because parent element `RequestOrchestration.action.participant` requires a cross-version extension.\nElement `RequestOrchestration.action.participant.actor[x]` has a context of RequestGroup.action.participant based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1988,7 +1988,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant.actor"
       },
       {
         "id" : "Extension.extension:participant.extension:actor.value[x]",
@@ -2070,7 +2070,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "type",
         "short" : "create | update | remove | fire-event",
         "definition" : "The type of action to perform (create, update, remove).",
-        "requirements" : "Element `RequestOrchestration.action.type` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.type` is mapped to FHIR R4 element `RequestGroup.action.type`.",
+        "requirements" : "Element `RequestOrchestration.action.type` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.type` has is mapped to FHIR R4 element `RequestGroup.action.type`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2120,7 +2120,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "groupingBehavior",
         "short" : "visual-group | logical-group | sentence-group",
         "definition" : "Defines the grouping behavior for the action and its children.",
-        "requirements" : "Element `RequestOrchestration.action.groupingBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.groupingBehavior` is mapped to FHIR R4 element `RequestGroup.action.groupingBehavior`.",
+        "requirements" : "Element `RequestOrchestration.action.groupingBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.groupingBehavior` has is mapped to FHIR R4 element `RequestGroup.action.groupingBehavior`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2170,7 +2170,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "selectionBehavior",
         "short" : "any | all | all-or-none | exactly-one | at-most-one | one-or-more",
         "definition" : "Defines the selection behavior for the action and its children.",
-        "requirements" : "Element `RequestOrchestration.action.selectionBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.selectionBehavior` is mapped to FHIR R4 element `RequestGroup.action.selectionBehavior`.",
+        "requirements" : "Element `RequestOrchestration.action.selectionBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.selectionBehavior` has is mapped to FHIR R4 element `RequestGroup.action.selectionBehavior`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2220,7 +2220,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "requiredBehavior",
         "short" : "must | could | must-unless-documented",
         "definition" : "Defines expectations around whether an action is required.",
-        "requirements" : "Element `RequestOrchestration.action.requiredBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.requiredBehavior` is mapped to FHIR R4 element `RequestGroup.action.requiredBehavior`.",
+        "requirements" : "Element `RequestOrchestration.action.requiredBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.requiredBehavior` has is mapped to FHIR R4 element `RequestGroup.action.requiredBehavior`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2270,7 +2270,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "precheckBehavior",
         "short" : "yes | no",
         "definition" : "Defines whether the action should usually be preselected.",
-        "requirements" : "Element `RequestOrchestration.action.precheckBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.precheckBehavior` is mapped to FHIR R4 element `RequestGroup.action.precheckBehavior`.",
+        "requirements" : "Element `RequestOrchestration.action.precheckBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.precheckBehavior` has is mapped to FHIR R4 element `RequestGroup.action.precheckBehavior`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2320,7 +2320,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "cardinalityBehavior",
         "short" : "single | multiple",
         "definition" : "Defines whether the action can be selected multiple times.",
-        "requirements" : "Element `RequestOrchestration.action.cardinalityBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.cardinalityBehavior` is mapped to FHIR R4 element `RequestGroup.action.cardinalityBehavior`.",
+        "requirements" : "Element `RequestOrchestration.action.cardinalityBehavior` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.cardinalityBehavior` has is mapped to FHIR R4 element `RequestGroup.action.cardinalityBehavior`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2371,7 +2371,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "The target of the action",
         "definition" : "The resource that is the target of the action (e.g. CommunicationRequest).",
         "comment" : "The target resource SHALL be a [Request](https://hl7.org/fhir/request.html) resource with a Request.intent set to \"option\".",
-        "requirements" : "Element `RequestOrchestration.action.resource` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.resource` is mapped to FHIR R4 element `RequestGroup.action.resource`.",
+        "requirements" : "Element `RequestOrchestration.action.resource` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.resource` has is mapped to FHIR R4 element `RequestGroup.action.resource`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2422,7 +2422,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "Description of the activity to be performed",
         "definition" : "A reference to an ActivityDefinition that describes the action to be taken in detail, a PlanDefinition that describes a series of actions to be taken, a Questionnaire that should be filled out, a SpecimenDefinition describing a specimen to be collected, or an ObservationDefinition that specifies what observation should be captured.",
         "comment" : "Note that the definition is optional, and if no definition is specified, a dynamicValue with a root ($this) path can be used to define the entire resource dynamically.",
-        "requirements" : "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.definition[x]` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.definition[x]` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.definition[x]` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2484,7 +2484,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "Transform to apply the template",
         "definition" : "A reference to a StructureMap resource that defines a transform that can be executed to produce the intent resource using the ActivityDefinition instance as the input.",
         "comment" : "Note that when a referenced ActivityDefinition also defines a transform, the transform specified here generally takes precedence. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform.",
-        "requirements" : "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.transform` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.transform` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.transform` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RequestOrchestration.action.transform` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `RequestOrchestration.action.transform` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2535,7 +2535,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "Dynamic aspects of the definition",
         "definition" : "Customizations that should be applied to the statically defined resource. For example, if the dosage of a medication must be computed based on the patient's weight, a customization would be used to specify an expression that calculated the weight, and the path on the resource that would contain the result.",
         "comment" : "Dynamic values are applied in the order in which they are defined in the RequestOrchestration resource. Note that when dynamic values are also specified by a referenced ActivityDefinition, the dynamicValues from the ActivityDefinition are applied first, followed by the dynamicValues specified here. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform.",
-        "requirements" : "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.dynamicValue` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.dynamicValue` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2572,7 +2572,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "The path to the element to be set dynamically",
         "definition" : "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolvable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details).",
         "comment" : "To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation.",
-        "requirements" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.dynamicValue.path` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.path` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2591,7 +2591,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "path"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue.path"
       },
       {
         "id" : "Extension.extension:dynamicValue.extension:path.value[x]",
@@ -2619,7 +2619,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "short" : "An expression that provides the dynamic value for the customization",
         "definition" : "An expression specifying the value of the customized element.",
         "comment" : "The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element.",
-        "requirements" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` is will have a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
+        "requirements" : "Element `RequestOrchestration.action.dynamicValue.expression` is part of an existing definition because parent element `RequestOrchestration.action.dynamicValue` requires a cross-version extension.\nElement `RequestOrchestration.action.dynamicValue.expression` has a context of RequestGroup.action based on following the parent source element upwards and mapping to `RequestGroup`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2638,7 +2638,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "expression"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue.expression"
       },
       {
         "id" : "Extension.extension:dynamicValue.extension:expression.value[x]",
@@ -2688,7 +2688,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-RequestOrc
         "sliceName" : "action",
         "short" : "Sub action",
         "definition" : "Sub actions.",
-        "requirements" : "Element `RequestOrchestration.action.action` is part of an existing definition because parent element `RequestOrchestration.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `RequestOrchestration.action.action` is mapped to FHIR R4 element `RequestGroup.action.action`.",
+        "requirements" : "Element `RequestOrchestration.action.action` is part of an existing definition because parent element `RequestOrchestration.action` requires a cross-version extension.\nElement `RequestOrchestration.action.action` has is mapped to FHIR R4 element `RequestGroup.action.action`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

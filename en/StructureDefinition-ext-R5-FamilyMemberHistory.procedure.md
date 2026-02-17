@@ -1,4 +1,4 @@
-# ExtensionFamilyMemberHistory_Procedure - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionFamilyMemberHistory_Procedure - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.FamilyMemberHistory.procedure` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
   "title" : "Cross-version Extension `R5.FamilyMemberHistory.procedure` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `FamilyMemberHistory.procedure` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`FamilyMemberHistory.procedure` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `FamilyMemberHistory.procedure` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `FamilyMemberHistory.procedure` is will have a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `FamilyMemberHistory.procedure` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`FamilyMemberHistory.procedure` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `FamilyMemberHistory.procedure` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `FamilyMemberHistory.procedure` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
         "sliceName" : "code",
         "short" : "Procedures performed on the related person",
         "definition" : "The actual procedure specified. Could be a coded procedure or a less specific string depending on how much is known about the procedure and the capabilities of the creating system.",
-        "requirements" : "Element `FamilyMemberHistory.procedure.code` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.code` is will have a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
+        "requirements" : "Element `FamilyMemberHistory.procedure.code` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.code` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure.code"
       },
       {
         "id" : "Extension.extension:code.value[x]",
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
         "sliceName" : "outcome",
         "short" : "What happened following the procedure",
         "definition" : "Indicates what happened following the procedure. If the procedure resulted in death, deceased date is captured on the relation.",
-        "requirements" : "Element `FamilyMemberHistory.procedure.outcome` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.outcome` is will have a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
+        "requirements" : "Element `FamilyMemberHistory.procedure.outcome` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.outcome` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -253,7 +253,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "outcome"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure.outcome"
       },
       {
         "id" : "Extension.extension:outcome.value[x]",
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
         "sliceName" : "contributedToDeath",
         "short" : "Whether the procedure contributed to the cause of death",
         "definition" : "This procedure contributed to the cause of death of the related person. If contributedToDeath is not populated, then it is unknown.",
-        "requirements" : "Element `FamilyMemberHistory.procedure.contributedToDeath` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.contributedToDeath` is will have a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
+        "requirements" : "Element `FamilyMemberHistory.procedure.contributedToDeath` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.contributedToDeath` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -303,7 +303,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "contributedToDeath"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure.contributedToDeath"
       },
       {
         "id" : "Extension.extension:contributedToDeath.value[x]",
@@ -329,7 +329,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
         "sliceName" : "performed",
         "short" : "When the procedure was performed",
         "definition" : "Estimated or actual date, date-time, period, or age when the procedure was performed. Allows a period to support complex procedures that span more than one date, and also allows for the length of the procedure to be captured.",
-        "requirements" : "Element `FamilyMemberHistory.procedure.performed[x]` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.performed[x]` is will have a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
+        "requirements" : "Element `FamilyMemberHistory.procedure.performed[x]` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.performed[x]` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -348,7 +348,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "performed"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure.performed"
       },
       {
         "id" : "Extension.extension:performed.value[x]",
@@ -386,7 +386,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
         "sliceName" : "note",
         "short" : "Extra information about the procedure",
         "definition" : "An area where general notes can be placed about this specific procedure.",
-        "requirements" : "Element `FamilyMemberHistory.procedure.note` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.note` is will have a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
+        "requirements" : "Element `FamilyMemberHistory.procedure.note` is part of an existing definition because parent element `FamilyMemberHistory.procedure` requires a cross-version extension.\nElement `FamilyMemberHistory.procedure.note` has a context of FamilyMemberHistory based on following the parent source element upwards and mapping to `FamilyMemberHistory`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -405,7 +405,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-FamilyMemb
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.procedure.note"
       },
       {
         "id" : "Extension.extension:note.value[x]",

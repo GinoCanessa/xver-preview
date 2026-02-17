@@ -1,4 +1,4 @@
-# ProfileImmunizationEvaluation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileImmunizationEvaluation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileImmunizationEvaluation 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 ImmunizationEvaluation content to be repres
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.ImmunizationRecommendation.recommendation` for use in FHIR R4](StructureDefinition-ext-R5-ImmunizationRecommendation.recommendation.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ImmunizationEvaluation)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
   "title" : "Cross-version Profile for R5.ImmunizationEvaluation for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1566838-06:00",
+  "date" : "2026-02-17T14:42:26.8272597-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

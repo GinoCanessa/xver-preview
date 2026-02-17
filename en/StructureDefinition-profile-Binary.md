@@ -1,4 +1,4 @@
-# ProfileBinary - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileBinary - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileBinary 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Binary content to be represented via FHIR R
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AdministrableProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-AdministrableProductDefinition.md) and [Cross-version Extension `R5.Appointment.patientInstruction` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.patientInstruction.md)
+* Refer to this Profile: [Cross-version Extension `R5.AdministrableProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-AdministrableProductDefinition.md), [Cross-version Extension `R5.Appointment.patientInstruction` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.patientInstruction.md) and [Cross-version Extension `R5.ManufacturedItemDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ManufacturedItemDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Binary)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Binary.cs
   "title" : "Cross-version Profile for R5.Binary for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:42.9896103-06:00",
+  "date" : "2026-02-17T14:42:26.7373856-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

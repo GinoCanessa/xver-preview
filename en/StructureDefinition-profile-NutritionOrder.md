@@ -1,4 +1,4 @@
-# ProfileNutritionOrder - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileNutritionOrder - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileNutritionOrder 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 NutritionOrder content to be represented vi
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
+* Refer to this Profile: [Cross-version Extension `R5.Claim.item` for use in FHIR R4](StructureDefinition-ext-R5-Claim.item.md), [Cross-version Extension `R5.ClaimResponse.addItem` for use in FHIR R4](StructureDefinition-ext-R5-ClaimResponse.addItem.md), [Cross-version Extension `R5.ExplanationOfBenefit.addItem` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.addItem.md), [Cross-version Extension `R5.ExplanationOfBenefit.item` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.item.md) and [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-NutritionOrder)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
   "title" : "Cross-version Profile for R5.NutritionOrder for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2330139-06:00",
+  "date" : "2026-02-17T14:42:26.8611553-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
         "path" : "NutritionOrder.extension",
         "sliceName" : "groupIdentifier",
         "short" : "Cross-version extension for NutritionOrder.groupIdentifier from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.groupIdentifier` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
+        "comment" : "Element `NutritionOrder.groupIdentifier` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
         "path" : "NutritionOrder.extension",
         "sliceName" : "priority",
         "short" : "Cross-version extension for NutritionOrder.priority from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.priority` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
+        "comment" : "Element `NutritionOrder.priority` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
         "path" : "NutritionOrder.extension",
         "sliceName" : "performer",
         "short" : "Cross-version extension for NutritionOrder.performer from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.performer` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
+        "comment" : "Element `NutritionOrder.performer` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
         "path" : "NutritionOrder.extension",
         "sliceName" : "outsideFoodAllowed",
         "short" : "Cross-version extension for NutritionOrder.outsideFoodAllowed from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.outsideFoodAllowed` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
+        "comment" : "Element `NutritionOrder.outsideFoodAllowed` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -263,7 +263,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
         "sliceName" : "basedOn",
         "short" : "Cross-version extension for NutritionOrder.basedOn from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CarePlan,http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/ServiceRequest in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionOrder.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionOrder.basedOn` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionOrder.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionOrder.basedOn` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -286,7 +286,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
         "sliceName" : "supportingInformation",
         "short" : "Cross-version extension for NutritionOrder.supportingInformation from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Resource in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionOrder.supportingInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionOrder.supportingInformation` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionOrder.supportingInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionOrder.supportingInformation` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -304,8 +304,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
         ]
       },
       {
-        "id" : "NutritionOrder.oralDiet.schedule.extension",
-        "path" : "NutritionOrder.oralDiet.schedule.extension",
+        "id" : "NutritionOrder.oralDiet.extension",
+        "path" : "NutritionOrder.oralDiet.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -319,17 +319,17 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "NutritionOrder.oralDiet.schedule",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "NutritionOrder.oralDiet.schedule.extension:schedule",
-        "path" : "NutritionOrder.oralDiet.schedule.extension",
-        "sliceName" : "schedule",
-        "short" : "Cross-version extension for NutritionOrder.oralDiet.schedule from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.oralDiet.schedule` is mapped to FHIR R4 element `NutritionOrder.oralDiet.schedule`.",
+        "id" : "NutritionOrder.oralDiet.extension:oralDiet",
+        "path" : "NutritionOrder.oralDiet.extension",
+        "sliceName" : "oralDiet",
+        "short" : "Cross-version extension for NutritionOrder.oralDiet from R5 for use in FHIR R4",
+        "comment" : "Element `NutritionOrder.oralDiet` has is mapped to FHIR R4 element `NutritionOrder.oralDiet`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -341,14 +341,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.oralDiet.schedule|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.oralDiet|0.0.1-snapshot-3"
             ]
           }
         ]
       },
       {
-        "id" : "NutritionOrder.supplement.type.extension",
-        "path" : "NutritionOrder.supplement.type.extension",
+        "id" : "NutritionOrder.supplement.extension",
+        "path" : "NutritionOrder.supplement.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -362,63 +362,20 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "NutritionOrder.supplement.type",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "NutritionOrder.supplement.type.extension:type",
-        "path" : "NutritionOrder.supplement.type.extension",
-        "sliceName" : "type",
-        "short" : "Cross-version extension for NutritionOrder.supplement.type from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.supplement.type` is mapped to FHIR R4 element `NutritionOrder.supplement.type`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.supplement.type|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "NutritionOrder.supplement.schedule.extension",
-        "path" : "NutritionOrder.supplement.schedule.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
+        "id" : "NutritionOrder.supplement.extension:supplement",
+        "path" : "NutritionOrder.supplement.extension",
+        "sliceName" : "supplement",
+        "short" : "Cross-version extension for NutritionOrder.supplement from R5 for use in FHIR R4",
+        "comment" : "Element `NutritionOrder.supplement` has is mapped to FHIR R4 element `NutritionOrder.supplement`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "NutritionOrder.supplement.schedule",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "NutritionOrder.supplement.schedule.extension:schedule",
-        "path" : "NutritionOrder.supplement.schedule.extension",
-        "sliceName" : "schedule",
-        "short" : "Cross-version extension for NutritionOrder.supplement.schedule from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.supplement.schedule` is mapped to FHIR R4 element `NutritionOrder.supplement.schedule`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
           "max" : "*"
@@ -427,7 +384,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.supplement.schedule|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.supplement|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -454,33 +411,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
         }
       },
       {
-        "id" : "NutritionOrder.enteralFormula.extension:deliveryDevice",
+        "id" : "NutritionOrder.enteralFormula.extension:enteralFormula",
         "path" : "NutritionOrder.enteralFormula.extension",
-        "sliceName" : "deliveryDevice",
-        "short" : "Cross-version extension for NutritionOrder.enteralFormula.deliveryDevice from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.enteralFormula.deliveryDevice` is will have a context of NutritionOrder.enteralFormula based on following the parent source element upwards and mapping to `NutritionOrder`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.deliveryDevice|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "NutritionOrder.enteralFormula.extension:quantity",
-        "path" : "NutritionOrder.enteralFormula.extension",
-        "sliceName" : "quantity",
-        "short" : "Cross-version extension for NutritionOrder.enteralFormula.additive.quantity from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.enteralFormula.additive.quantity` is will have a context of NutritionOrder.enteralFormula based on following the parent source element upwards and mapping to `NutritionOrder`.",
+        "sliceName" : "enteralFormula",
+        "short" : "Cross-version extension for NutritionOrder.enteralFormula from R5 for use in FHIR R4",
+        "comment" : "Element `NutritionOrder.enteralFormula` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -492,136 +427,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.additive.quantity|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "NutritionOrder.enteralFormula.baseFormulaType.extension",
-        "path" : "NutritionOrder.enteralFormula.baseFormulaType.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "NutritionOrder.enteralFormula.baseFormulaType",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "NutritionOrder.enteralFormula.baseFormulaType.extension:baseFormulaType",
-        "path" : "NutritionOrder.enteralFormula.baseFormulaType.extension",
-        "sliceName" : "baseFormulaType",
-        "short" : "Cross-version extension for NutritionOrder.enteralFormula.baseFormulaType from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.enteralFormula.baseFormulaType` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.baseFormulaType`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.baseFormulaType|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "NutritionOrder.enteralFormula.additiveType.extension",
-        "path" : "NutritionOrder.enteralFormula.additiveType.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "NutritionOrder.enteralFormula.additiveType",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "NutritionOrder.enteralFormula.additiveType.extension:type",
-        "path" : "NutritionOrder.enteralFormula.additiveType.extension",
-        "sliceName" : "type",
-        "short" : "Cross-version extension for NutritionOrder.enteralFormula.additive.type from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.enteralFormula.additive.type` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.additiveType`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.additive.type|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "NutritionOrder.enteralFormula.administration.schedule.extension",
-        "path" : "NutritionOrder.enteralFormula.administration.schedule.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "NutritionOrder.enteralFormula.administration.schedule",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "NutritionOrder.enteralFormula.administration.schedule.extension:schedule",
-        "path" : "NutritionOrder.enteralFormula.administration.schedule.extension",
-        "sliceName" : "schedule",
-        "short" : "Cross-version extension for NutritionOrder.enteralFormula.administration.schedule from R5 for use in FHIR R4",
-        "comment" : "Element `NutritionOrder.enteralFormula.administration.schedule` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administration.schedule`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.administration.schedule|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula|0.0.1-snapshot-3"
             ]
           }
         ]

@@ -1,4 +1,4 @@
-# ExtensionDeviceDispense - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionDeviceDispense - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.DeviceDispense` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
   "title" : "Cross-version Extension `R5.DeviceDispense` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "basedOn"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.basedOn"
       },
       {
         "id" : "Extension.extension:basedOn.value[x]",
@@ -254,7 +254,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "partOf"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.partOf"
       },
       {
         "id" : "Extension.extension:partOf.value[x]",
@@ -304,7 +304,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -411,7 +411,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -456,7 +456,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -509,7 +509,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "statusReason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.statusReason"
       },
       {
         "id" : "Extension.extension:statusReason.value[x]",
@@ -548,7 +548,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "category"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.category"
       },
       {
         "id" : "Extension.extension:category.value[x]",
@@ -655,7 +655,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -700,7 +700,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -755,7 +755,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "device"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.device"
       },
       {
         "id" : "Extension.extension:device.value[x]",
@@ -793,7 +793,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "receiver"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.receiver"
       },
       {
         "id" : "Extension.extension:receiver.value[x]",
@@ -850,7 +850,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "encounter"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.encounter"
       },
       {
         "id" : "Extension.extension:encounter.value[x]",
@@ -899,7 +899,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "supportingInformation"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.supportingInformation"
       },
       {
         "id" : "Extension.extension:supportingInformation.value[x]",
@@ -984,7 +984,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "function"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer.function"
       },
       {
         "id" : "Extension.extension:performer.extension:function.value[x]",
@@ -1029,7 +1029,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.performer.actor"
       },
       {
         "id" : "Extension.extension:performer.extension:actor.value[x]",
@@ -1113,7 +1113,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "location"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.location"
       },
       {
         "id" : "Extension.extension:location.value[x]",
@@ -1162,7 +1162,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -1207,7 +1207,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "quantity"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.quantity"
       },
       {
         "id" : "Extension.extension:quantity.value[x]",
@@ -1255,7 +1255,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "preparedDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.preparedDate"
       },
       {
         "id" : "Extension.extension:preparedDate.value[x]",
@@ -1300,7 +1300,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "whenHandedOver"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.whenHandedOver"
       },
       {
         "id" : "Extension.extension:whenHandedOver.value[x]",
@@ -1345,7 +1345,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "destination"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.destination"
       },
       {
         "id" : "Extension.extension:destination.value[x]",
@@ -1394,7 +1394,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.note"
       },
       {
         "id" : "Extension.extension:note.value[x]",
@@ -1440,7 +1440,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "usageInstruction"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.usageInstruction"
       },
       {
         "id" : "Extension.extension:usageInstruction.value[x]",
@@ -1487,7 +1487,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDisp
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "eventHistory"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense.eventHistory"
       },
       {
         "id" : "Extension.extension:eventHistory.value[x]",

@@ -1,4 +1,4 @@
-# ProfileQuestionnaireResponse - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileQuestionnaireResponse - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileQuestionnaireResponse 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
   "title" : "Cross-version Profile for R5.QuestionnaireResponse for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2916756-06:00",
+  "date" : "2026-02-17T14:42:26.8863499-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -170,7 +170,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
         "sliceName" : "source",
         "short" : "Cross-version extension for QuestionnaireResponse.source from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Device,http://hl7.org/fhir/StructureDefinition/Organization in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `QuestionnaireResponse.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `QuestionnaireResponse.source` is mapped to FHIR R4 element `QuestionnaireResponse.source`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `QuestionnaireResponse.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `QuestionnaireResponse.source` has is mapped to FHIR R4 element `QuestionnaireResponse.source`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -183,6 +183,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Questionn
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "QuestionnaireResponse.item.extension",
+        "path" : "QuestionnaireResponse.item.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "QuestionnaireResponse.item.extension:item",
+        "path" : "QuestionnaireResponse.item.extension",
+        "sliceName" : "item",
+        "short" : "Cross-version extension for QuestionnaireResponse.item from R5 for use in FHIR R4",
+        "comment" : "Element `QuestionnaireResponse.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item`, but has no comparisons.\nNote available implied context: `QuestionnaireResponse.item.answer.item` because `QuestionnaireResponse.item.answer.item` is defined as a content reference to `QuestionnaireResponse.item`.\nNote available implied context: `QuestionnaireResponse.item.item` because `QuestionnaireResponse.item.item` is defined as a content reference to `QuestionnaireResponse.item`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item|0.0.1-snapshot-3"
             ]
           }
         ]

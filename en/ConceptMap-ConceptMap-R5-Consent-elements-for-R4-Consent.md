@@ -1,4 +1,4 @@
-# ConceptMapR5ConsentElementsForR4Consent - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ConsentElementsForR4Consent - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ConsentElementsForR4Consent 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.6882935-06:00",
+  "date" : "2026-02-17T14:42:27.1104185-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Consent` is representable via FHIR R4 Resource `Consent`.\nElement `Consent` is mapped to FHIR R4 element `Consent`."
+              "comment" : "FHIR R5 Resource `Consent` is representable via FHIR R4 Resource `Consent`.\nElement `Consent` has is mapped to FHIR R4 element `Consent`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.meta` is mapped to FHIR R4 element `Consent.meta`."
+              "comment" : "Element `Consent.meta` has is mapped to FHIR R4 element `Consent.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.implicitRules` is mapped to FHIR R4 element `Consent.implicitRules`."
+              "comment" : "Element `Consent.implicitRules` has is mapped to FHIR R4 element `Consent.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.language` is mapped to FHIR R4 element `Consent.language`."
+              "comment" : "Element `Consent.language` has is mapped to FHIR R4 element `Consent.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.text` is mapped to FHIR R4 element `Consent.text`."
+              "comment" : "Element `Consent.text` has is mapped to FHIR R4 element `Consent.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.contained` is mapped to FHIR R4 element `Consent.contained`."
+              "comment" : "Element `Consent.contained` has is mapped to FHIR R4 element `Consent.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.identifier` is mapped to FHIR R4 element `Consent.identifier`."
+              "comment" : "Element `Consent.identifier` has is mapped to FHIR R4 element `Consent.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.status",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Consent.status` is mapped to FHIR R4 element `Consent.status`."
+              "comment" : "Note that the target element context `Consent.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Consent.status` has is mapped to FHIR R4 element `Consent.status`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.category` is mapped to FHIR R4 element `Consent.category`."
+              "comment" : "Element `Consent.category` has is mapped to FHIR R4 element `Consent.category`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.subject` is mapped to FHIR R4 element `Consent.patient`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.subject` has is mapped to FHIR R4 element `Consent.patient`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.dateTime",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.date` is mapped to FHIR R4 element `Consent.dateTime`."
+              "comment" : "Element `Consent.date` has is mapped to FHIR R4 element `Consent.dateTime`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.period` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`."
+              "comment" : "Element `Consent.period` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.grantor` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.grantor` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.performer",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantee` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.grantee` is mapped to FHIR R4 element `Consent.performer`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.grantee` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.grantee` has is mapped to FHIR R4 element `Consent.performer`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.manager` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.manager` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.manager` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.manager` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.controller` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.controller` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.controller` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.controller` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.source[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nElement `Consent.sourceAttachment` is mapped to FHIR R4 element `Consent.source[x]`.\nNote that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`."
+              "comment" : "Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nElement `Consent.sourceAttachment` has is mapped to FHIR R4 element `Consent.source[x]`, but has no comparisons.\nNote that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.source[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.sourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.sourceReference` is mapped to FHIR R4 element `Consent.source[x]`.\nNote that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`."
+              "comment" : "Note that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.sourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.sourceReference` has is mapped to FHIR R4 element `Consent.source[x]`, but has no comparisons.\nNote that the target element context `Consent.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Consent`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.policyRule",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.regulatoryBasis` is mapped to FHIR R4 element `Consent.policyRule`."
+              "comment" : "Element `Consent.regulatoryBasis` has is mapped to FHIR R4 element `Consent.policyRule`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.policy",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.policyBasis` is mapped to FHIR R4 element `Consent.policy`."
+              "comment" : "Element `Consent.policyBasis` has is mapped to FHIR R4 element `Consent.policy`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.policy",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.policyBasis.reference` is mapped to FHIR R4 element `Consent.policy`."
+              "comment" : "Element `Consent.policyBasis.reference` is part of an existing definition because parent element `Consent.policyBasis` requires a cross-version extension.\nElement `Consent.policyBasis.reference` has is mapped to FHIR R4 element `Consent.policy`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.policy",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.policyBasis.url` is mapped to FHIR R4 element `Consent.policy`."
+              "comment" : "Element `Consent.policyBasis.url` is part of an existing definition because parent element `Consent.policyBasis` requires a cross-version extension.\nElement `Consent.policyBasis.url` has is mapped to FHIR R4 element `Consent.policy`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.policyText` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.policyText` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.policyText` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.policyText` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.verification` is mapped to FHIR R4 element `Consent.verification`."
+              "comment" : "Element `Consent.verification` has is mapped to FHIR R4 element `Consent.verification`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification.verified",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.verification.verified` is mapped to FHIR R4 element `Consent.verification.verified`."
+              "comment" : "Element `Consent.verification.verified` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verified` has is mapped to FHIR R4 element `Consent.verification.verified`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.verification.verificationType` is will have a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`."
+              "comment" : "Element `Consent.verification.verificationType` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verificationType` has a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.verification.verifiedBy` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.verification.verifiedBy` is will have a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`."
+              "comment" : "Element `Consent.verification.verifiedBy` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Consent.verification.verifiedBy` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Consent.verification.verifiedBy` has a context of Consent.verification based on following the parent source element upwards and mapping to `Consent`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification.verifiedWith",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.verification.verifiedWith` is mapped to FHIR R4 element `Consent.verification.verifiedWith`."
+              "comment" : "Element `Consent.verification.verifiedWith` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verifiedWith` has is mapped to FHIR R4 element `Consent.verification.verifiedWith`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.verification.verificationDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.verification.verificationDate` is mapped to FHIR R4 element `Consent.verification.verificationDate`."
+              "comment" : "Element `Consent.verification.verificationDate` is part of an existing definition because parent element `Consent.verification` requires a cross-version extension.\nElement `Consent.verification.verificationDate` has is mapped to FHIR R4 element `Consent.verification.verificationDate`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.decision` is will have a context of Consent based on following the parent source element upwards and mapping to `Consent`."
+              "comment" : "Element `Consent.decision` has a context of Consent based on following the parent source element upwards and mapping to `Consent`."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision` is mapped to FHIR R4 element `Consent.provision`."
+              "comment" : "Element `Consent.provision` has is mapped to FHIR R4 element `Consent.provision`, but has no comparisons.\nNote available implied context: `Consent.provision.provision` because `Consent.provision.provision` is defined as a content reference to `Consent.provision`."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.period` is mapped to FHIR R4 element `Consent.provision.period`."
+              "comment" : "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.period` has is mapped to FHIR R4 element `Consent.provision.period`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.actor",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is mapped to FHIR R4 element `Consent.provision.actor`."
+              "comment" : "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.actor` has is mapped to FHIR R4 element `Consent.provision.actor`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.actor.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.actor.role` is mapped to FHIR R4 element `Consent.provision.actor.role`."
+              "comment" : "Element `Consent.provision.actor.role` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.role` has is mapped to FHIR R4 element `Consent.provision.actor.role`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.actor.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.actor.reference` is mapped to FHIR R4 element `Consent.provision.actor.reference`."
+              "comment" : "Element `Consent.provision.actor.reference` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.reference` has is mapped to FHIR R4 element `Consent.provision.actor.reference`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is mapped to FHIR R4 element `Consent.provision.action`."
+              "comment" : "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.action` has is mapped to FHIR R4 element `Consent.provision.action`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.securityLabel",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is mapped to FHIR R4 element `Consent.provision.securityLabel`."
+              "comment" : "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.securityLabel` has is mapped to FHIR R4 element `Consent.provision.securityLabel`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is mapped to FHIR R4 element `Consent.provision.purpose`."
+              "comment" : "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.purpose` has is mapped to FHIR R4 element `Consent.provision.purpose`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.class",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.documentType` is mapped to FHIR R4 element `Consent.provision.class`."
+              "comment" : "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.documentType` has is mapped to FHIR R4 element `Consent.provision.class`, but has no comparisons."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.class",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.resourceType` is mapped to FHIR R4 element `Consent.provision.class`."
+              "comment" : "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.resourceType` has is mapped to FHIR R4 element `Consent.provision.class`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.code` is mapped to FHIR R4 element `Consent.provision.code`."
+              "comment" : "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.code` has is mapped to FHIR R4 element `Consent.provision.code`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.dataPeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is mapped to FHIR R4 element `Consent.provision.dataPeriod`."
+              "comment" : "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.dataPeriod` has is mapped to FHIR R4 element `Consent.provision.dataPeriod`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.data",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is mapped to FHIR R4 element `Consent.provision.data`."
+              "comment" : "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.data` has is mapped to FHIR R4 element `Consent.provision.data`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.data.meaning",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.data.meaning` is mapped to FHIR R4 element `Consent.provision.data.meaning`."
+              "comment" : "Element `Consent.provision.data.meaning` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.meaning` has is mapped to FHIR R4 element `Consent.provision.data.meaning`, but has no comparisons."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.data.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.data.reference` is mapped to FHIR R4 element `Consent.provision.data.reference`."
+              "comment" : "Element `Consent.provision.data.reference` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.reference` has is mapped to FHIR R4 element `Consent.provision.data.reference`, but has no comparisons."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`."
+              "comment" : "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.expression` has a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Consent#Consent.provision.provision",
               "equivalence" : "relatedto",
-              "comment" : "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.provision` is mapped to FHIR R4 element `Consent.provision.provision`."
+              "comment" : "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.provision` has is mapped to FHIR R4 element `Consent.provision.provision`, but has no comparisons."
             }
           ]
         }

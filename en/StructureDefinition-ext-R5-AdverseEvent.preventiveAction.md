@@ -1,4 +1,4 @@
-# ExtensionAdverseEvent_PreventiveAction - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAdverseEvent_PreventiveAction - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.AdverseEvent.preventiveAction` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AdverseEve
   "title" : "Cross-version Extension `R5.AdverseEvent.preventiveAction` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AdverseEve
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AdverseEvent.preventiveAction` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AdverseEvent.preventiveAction` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AdverseEvent.preventiveAction` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AdverseEvent.preventiveAction` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AdverseEvent.preventiveAction` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AdverseEvent.preventiveAction` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AdverseEvent.preventiveAction` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AdverseEvent.preventiveAction` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AdverseEve
         "sliceName" : "item",
         "short" : "Action that contributed to avoiding the adverse event",
         "definition" : "The action that contributed to avoiding the adverse event.",
-        "requirements" : "Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "requirements" : "Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AdverseEve
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "item"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.preventiveAction.item"
       },
       {
         "id" : "Extension.extension:item.value[x]",

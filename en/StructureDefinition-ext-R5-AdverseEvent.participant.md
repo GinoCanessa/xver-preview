@@ -1,4 +1,4 @@
-# ExtensionAdverseEvent_Participant - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAdverseEvent_Participant - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.AdverseEvent.participant` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AdverseEve
   "title" : "Cross-version Extension `R5.AdverseEvent.participant` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AdverseEve
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AdverseEvent.participant` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AdverseEvent.participant` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AdverseEvent.participant` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AdverseEvent.participant` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AdverseEvent.participant` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AdverseEvent.participant` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AdverseEvent.participant` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AdverseEvent.participant` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AdverseEve
         "sliceName" : "function",
         "short" : "Type of involvement",
         "definition" : "Distinguishes the type of involvement of the actor in the adverse event, such as contributor or informant.",
-        "requirements" : "Element `AdverseEvent.participant.function` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.function` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "requirements" : "Element `AdverseEvent.participant.function` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.function` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AdverseEve
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "function"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant.function"
       },
       {
         "id" : "Extension.extension:function.value[x]",
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AdverseEve
         "short" : "Who was involved in the adverse event or the potential adverse event",
         "definition" : "Indicates who or what participated in the event.",
         "comment" : "For example, the physician prescribing a drug, a nurse administering the drug, a device that administered the drug, a witness to the event, or an informant of clinical history.",
-        "requirements" : "Element `AdverseEvent.participant.actor` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.participant.actor` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "requirements" : "Element `AdverseEvent.participant.actor` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.participant.actor` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -249,7 +249,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AdverseEve
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant.actor"
       },
       {
         "id" : "Extension.extension:actor.value[x]",

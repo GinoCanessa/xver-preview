@@ -1,4 +1,4 @@
-# Lookup for ProfilePractitioner - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfilePractitioner - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfilePractitioner
 
@@ -24,15 +24,15 @@ A computable version of the following element information is available in: [Conc
 | [`Practitioner.telecom`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.telecom](https://hl7.org/fhir/R4/Practitioner.html#resource) |
 | [`Practitioner.gender`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.gender](https://hl7.org/fhir/R4/Practitioner.html#resource) |
 | [`Practitioner.birthDate`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.birthDate](https://hl7.org/fhir/R4/Practitioner.html#resource) |
-| [`Practitioner.deceased[x]`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner](https://hl7.org/fhir/R4/Practitioner.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.deceased](StructureDefinition-ext-R5-Practitioner.deceased.md) |
+| [`Practitioner.deceased[x]`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Extension: ExtensionPractitioner_Deceased](StructureDefinition-ext-R5-Practitioner.deceased.md) |
 | [`Practitioner.address`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.address](https://hl7.org/fhir/R4/Practitioner.html#resource) |
 | [`Practitioner.photo`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.photo](https://hl7.org/fhir/R4/Practitioner.html#resource) |
-| [`Practitioner.qualification`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.qualification](https://hl7.org/fhir/R4/Practitioner.html#resource) |
-| [`Practitioner.qualification.identifier`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.qualification.identifier](https://hl7.org/fhir/R4/Practitioner.html#resource) |
-| [`Practitioner.qualification.code`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.qualification.code](https://hl7.org/fhir/R4/Practitioner.html#resource) |
-| [`Practitioner.qualification.period`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.qualification.period](https://hl7.org/fhir/R4/Practitioner.html#resource) |
-| [`Practitioner.qualification.issuer`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.qualification.issuer](https://hl7.org/fhir/R4/Practitioner.html#resource) |
-| [`Practitioner.communication`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.communication](https://hl7.org/fhir/R4/Practitioner.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.communication](StructureDefinition-ext-R5-Practitioner.communication.md) |
-| [`Practitioner.communication.language`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.communication](https://hl7.org/fhir/R4/Practitioner.html#resource)[Extension slice: language](StructureDefinition-ext-R5-Practitioner.communication.md) |
-| [`Practitioner.communication.preferred`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.communication](https://hl7.org/fhir/R4/Practitioner.html#resource)[Extension slice: preferred](StructureDefinition-ext-R5-Practitioner.communication.md) |
+| [`Practitioner.qualification`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.qualification](https://hl7.org/fhir/R4/Practitioner.html#resource)[Extension: ExtensionPractitioner_Qualification](StructureDefinition-ext-R5-Practitioner.qualification.md) |
+| [`Practitioner.qualification.identifier`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.qualification.identifier](https://hl7.org/fhir/R4/Practitioner.html#resource)[Extension: ExtensionPractitioner_Qualification Slice:identifier](StructureDefinition-ext-R5-Practitioner.qualification.md) |
+| [`Practitioner.qualification.code`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.qualification.code](https://hl7.org/fhir/R4/Practitioner.html#resource)[Extension: ExtensionPractitioner_Qualification Slice:code](StructureDefinition-ext-R5-Practitioner.qualification.md) |
+| [`Practitioner.qualification.period`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.qualification.period](https://hl7.org/fhir/R4/Practitioner.html#resource)[Extension: ExtensionPractitioner_Qualification Slice:period](StructureDefinition-ext-R5-Practitioner.qualification.md) |
+| [`Practitioner.qualification.issuer`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.qualification.issuer](https://hl7.org/fhir/R4/Practitioner.html#resource)[Extension: ExtensionPractitioner_Qualification Slice:issuer](StructureDefinition-ext-R5-Practitioner.qualification.md) |
+| [`Practitioner.communication`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.communication](https://hl7.org/fhir/R4/Practitioner.html#resource)[Extension: ExtensionPractitioner_Communication](StructureDefinition-ext-R5-Practitioner.communication.md) |
+| [`Practitioner.communication.language`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.communication](https://hl7.org/fhir/R4/Practitioner.html#resource)[Extension: ExtensionPractitioner_Communication Slice:language](StructureDefinition-ext-R5-Practitioner.communication.md) |
+| [`Practitioner.communication.preferred`](https://hl7.org/fhir/R5/Practitioner.html#resource) | [Practitioner.communication](https://hl7.org/fhir/R4/Practitioner.html#resource)[Extension: ExtensionPractitioner_Communication Slice:preferred](StructureDefinition-ext-R5-Practitioner.communication.md) |
 

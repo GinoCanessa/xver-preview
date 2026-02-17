@@ -1,4 +1,4 @@
-# ExtensionSubstanceDefinition_Characterization - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSubstanceDefinition_Characterization - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SubstanceDefinition.characterization` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
   "title" : "Cross-version Extension `R5.SubstanceDefinition.characterization` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.characterization` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.characterization` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.characterization` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.characterization` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.characterization` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.characterization` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.characterization` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.characterization` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "technique",
         "short" : "The method used to find the characterization e.g. HPLC",
         "definition" : "The method used to elucidate the characterization of the drug substance. Example: HPLC.",
-        "requirements" : "Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.technique` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.technique` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "technique"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization.technique"
       },
       {
         "id" : "Extension.extension:technique.value[x]",
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "form",
         "short" : "Describes the nature of the chemical entity and explains, for instance, whether this is a base or a salt form",
         "definition" : "Describes the nature of the chemical entity and explains, for instance, whether this is a base or a salt form.",
-        "requirements" : "Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.form` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.form` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -253,7 +253,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "form"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization.form"
       },
       {
         "id" : "Extension.extension:form.value[x]",
@@ -279,7 +279,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "description",
         "short" : "The description or justification in support of the interpretation of the data file",
         "definition" : "The description or justification in support of the interpretation of the data file.",
-        "requirements" : "Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.description` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.description` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -298,7 +298,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization.description"
       },
       {
         "id" : "Extension.extension:description.value[x]",
@@ -324,7 +324,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "file",
         "short" : "The data produced by the analytical instrument or a pictorial representation of that data. Examples: a JCAMP, JDX, or ADX file, or a chromatogram or spectrum analysis",
         "definition" : "The data produced by the analytical instrument or a pictorial representation of that data. Examples: a JCAMP, JDX, or ADX file, or a chromatogram or spectrum analysis.",
-        "requirements" : "Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.file` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.file` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -343,7 +343,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "file"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization.file"
       },
       {
         "id" : "Extension.extension:file.value[x]",

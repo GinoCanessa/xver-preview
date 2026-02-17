@@ -1,4 +1,4 @@
-# ConceptMapR5DeviceusageStatusForR4DeviceStatementStatus - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5DeviceusageStatusForR4DeviceStatementStatus - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5DeviceusageStatusForR4DeviceStatementStatus 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of concepts from ValueSet `
   "title" : "Cross-version ConceptMap for ValueSet ValueSet-R5-deviceusage-status-for-R4-device-statement-status from FHIR R5 to FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:37.2606356-06:00",
+  "date" : "2026-02-17T14:42:22.6633381-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",

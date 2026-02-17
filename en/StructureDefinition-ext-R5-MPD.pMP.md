@@ -1,4 +1,4 @@
-# ExtensionMedicinalProductDefinition_PackagedMedicinalProduct - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionMedicinalProductDefinition_PackagedMedicinalProduct - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.MedicinalProductDefinition.packagedMedicinalProduct` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MPD.pMP.cs
   "title" : "Cross-version Extension `R5.MedicinalProductDefinition.packagedMedicinalProduct` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MPD.pMP.cs
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicinalProductDefinition.packagedMedicinalProduct` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicinalProductDefinition.packagedMedicinalProduct` 0..* `CodeableConcept`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicinalProductDefinition.packagedMedicinalProduct` 0..* `CodeableConcept`\n*  R4B: `MedicinalProductDefinition.packagedMedicinalProduct` 0..* `CodeableConcept`\n*  R4: `MedicinalProduct.packagedMedicinalProduct` 0..* `Reference(http://hl7.org/fhir/StructureDefinition/MedicinalProductPackaged)`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicinalProductDefinition.packagedMedicinalProduct` is mapped to FHIR R4 element `MedicinalProduct.packagedMedicinalProduct`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicinalProductDefinition.packagedMedicinalProduct` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicinalProductDefinition.packagedMedicinalProduct` 0..* `CodeableConcept`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicinalProductDefinition.packagedMedicinalProduct` 0..* `CodeableConcept`\n*  R4B: `MedicinalProductDefinition.packagedMedicinalProduct` 0..* `CodeableConcept`\n*  R4: `MedicinalProduct.packagedMedicinalProduct` 0..* `Reference(http://hl7.org/fhir/StructureDefinition/MedicinalProductPackaged)`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicinalProductDefinition.packagedMedicinalProduct` has is mapped to FHIR R4 element `MedicinalProduct.packagedMedicinalProduct`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

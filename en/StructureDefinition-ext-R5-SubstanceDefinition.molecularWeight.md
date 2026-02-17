@@ -1,4 +1,4 @@
-# ExtensionSubstanceDefinition_MolecularWeight - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSubstanceDefinition_MolecularWeight - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SubstanceDefinition.molecularWeight` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
   "title" : "Cross-version Extension `R5.SubstanceDefinition.molecularWeight` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.molecularWeight` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.molecularWeight` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.molecularWeight` 0..* `BackboneElement`\n*  R4B: `SubstanceDefinition.molecularWeight` 0..* `BackboneElement`\n*  R4: `SubstanceSpecification.molecularWeight` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.molecularWeight` is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.molecularWeight` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.molecularWeight` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.molecularWeight` 0..* `BackboneElement`\n*  R4B: `SubstanceDefinition.molecularWeight` 0..* `BackboneElement`\n*  R4: `SubstanceSpecification.molecularWeight` 0..* `SubstanceSpecification.structure.isotope.molecularWeight`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.molecularWeight` has is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "method",
         "short" : "The method by which the weight was determined",
         "definition" : "The method by which the molecular weight was determined.",
-        "requirements" : "Element `SubstanceDefinition.molecularWeight.method` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.molecularWeight.method` is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight.method`.",
+        "requirements" : "Element `SubstanceDefinition.molecularWeight.method` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a cross-version extension.\nElement `SubstanceDefinition.molecularWeight.method` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "method"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.molecularWeight.method"
       },
       {
         "id" : "Extension.extension:method.value[x]",
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "type",
         "short" : "Type of molecular weight e.g. exact, average, weight average",
         "definition" : "Type of molecular weight such as exact, average (also known as. number average), weight average.",
-        "requirements" : "Element `SubstanceDefinition.molecularWeight.type` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.molecularWeight.type` is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight.type`.",
+        "requirements" : "Element `SubstanceDefinition.molecularWeight.type` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a cross-version extension.\nElement `SubstanceDefinition.molecularWeight.type` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -253,7 +253,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.molecularWeight.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "amount",
         "short" : "Used to capture quantitative values for a variety of elements",
         "definition" : "Used to capture quantitative values for a variety of elements. If only limits are given, the arithmetic mean would be the average. If only a single definite value for a given element is given, it would be captured in this field.",
-        "requirements" : "Element `SubstanceDefinition.molecularWeight.amount` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.molecularWeight.amount` is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight.amount`.",
+        "requirements" : "Element `SubstanceDefinition.molecularWeight.amount` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a cross-version extension.\nElement `SubstanceDefinition.molecularWeight.amount` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -303,7 +303,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "amount"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.molecularWeight.amount"
       },
       {
         "id" : "Extension.extension:amount.value[x]",

@@ -1,4 +1,4 @@
-# ExtensionConditionDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionConditionDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ConditionDefinition` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
   "title" : "Cross-version Extension `R5.ConditionDefinition` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "url"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.url"
       },
       {
         "id" : "Extension.extension:url.value[x]",
@@ -251,7 +251,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "version"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.version"
       },
       {
         "id" : "Extension.extension:version.value[x]",
@@ -298,7 +298,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "versionAlgorithm"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.versionAlgorithm"
       },
       {
         "id" : "Extension.extension:versionAlgorithm.value[x]",
@@ -348,7 +348,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "name"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.name"
       },
       {
         "id" : "Extension.extension:name.value[x]",
@@ -395,7 +395,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "title"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.title"
       },
       {
         "id" : "Extension.extension:title.value[x]",
@@ -441,7 +441,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "subtitle"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.subtitle"
       },
       {
         "id" : "Extension.extension:subtitle.value[x]",
@@ -487,7 +487,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -539,7 +539,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "experimental"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.experimental"
       },
       {
         "id" : "Extension.extension:experimental.value[x]",
@@ -586,7 +586,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "date"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.date"
       },
       {
         "id" : "Extension.extension:date.value[x]",
@@ -633,7 +633,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "publisher"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.publisher"
       },
       {
         "id" : "Extension.extension:publisher.value[x]",
@@ -680,7 +680,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "contact"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.contact"
       },
       {
         "id" : "Extension.extension:contact.value[x]",
@@ -727,7 +727,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.description"
       },
       {
         "id" : "Extension.extension:description.value[x]",
@@ -774,7 +774,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "useContext"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.useContext"
       },
       {
         "id" : "Extension.extension:useContext.value[x]",
@@ -821,7 +821,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "jurisdiction"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.jurisdiction"
       },
       {
         "id" : "Extension.extension:jurisdiction.value[x]",
@@ -872,7 +872,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.code"
       },
       {
         "id" : "Extension.extension:code.value[x]",
@@ -923,7 +923,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "severity"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.severity"
       },
       {
         "id" : "Extension.extension:severity.value[x]",
@@ -975,7 +975,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "bodySite"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.bodySite"
       },
       {
         "id" : "Extension.extension:bodySite.value[x]",
@@ -1026,7 +1026,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "stage"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.stage"
       },
       {
         "id" : "Extension.extension:stage.value[x]",
@@ -1076,7 +1076,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "hasSeverity"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.hasSeverity"
       },
       {
         "id" : "Extension.extension:hasSeverity.value[x]",
@@ -1121,7 +1121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "hasBodySite"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.hasBodySite"
       },
       {
         "id" : "Extension.extension:hasBodySite.value[x]",
@@ -1166,7 +1166,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "hasStage"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.hasStage"
       },
       {
         "id" : "Extension.extension:hasStage.value[x]",
@@ -1211,7 +1211,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "definition"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.definition"
       },
       {
         "id" : "Extension.extension:definition.value[x]",
@@ -1292,7 +1292,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "category"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.observation.category"
       },
       {
         "id" : "Extension.extension:observation.extension:category.value[x]",
@@ -1342,7 +1342,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.observation.code"
       },
       {
         "id" : "Extension.extension:observation.extension:code.value[x]",
@@ -1451,7 +1451,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "category"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.medication.category"
       },
       {
         "id" : "Extension.extension:medication.extension:category.value[x]",
@@ -1501,7 +1501,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.medication.code"
       },
       {
         "id" : "Extension.extension:medication.extension:code.value[x]",
@@ -1610,7 +1610,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition.type"
       },
       {
         "id" : "Extension.extension:precondition.extension:type.value[x]",
@@ -1655,7 +1655,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition.code"
       },
       {
         "id" : "Extension.extension:precondition.extension:code.value[x]",
@@ -1705,7 +1705,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.precondition.value"
       },
       {
         "id" : "Extension.extension:precondition.extension:value.value[x]",
@@ -1776,7 +1776,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "team"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.team"
       },
       {
         "id" : "Extension.extension:team.value[x]",
@@ -1861,7 +1861,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "purpose"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.questionnaire.purpose"
       },
       {
         "id" : "Extension.extension:questionnaire.extension:purpose.value[x]",
@@ -1906,7 +1906,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reference"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.questionnaire.reference"
       },
       {
         "id" : "Extension.extension:questionnaire.extension:reference.value[x]",
@@ -2014,7 +2014,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "role"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.plan.role"
       },
       {
         "id" : "Extension.extension:plan.extension:role.value[x]",
@@ -2059,7 +2059,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ConditionD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reference"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition.plan.reference"
       },
       {
         "id" : "Extension.extension:plan.extension:reference.value[x]",

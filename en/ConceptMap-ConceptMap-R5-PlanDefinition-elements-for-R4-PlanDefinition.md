@@ -1,4 +1,4 @@
-# ConceptMapR5PlanDefinitionElementsForR4PlanDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5PlanDefinitionElementsForR4PlanDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5PlanDefinitionElementsForR4PlanDefinition 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1288422-06:00",
+  "date" : "2026-02-17T14:42:27.4713146-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `PlanDefinition` is representable via FHIR R4 Resource `PlanDefinition`.\nElement `PlanDefinition` is mapped to FHIR R4 element `PlanDefinition`."
+              "comment" : "FHIR R5 Resource `PlanDefinition` is representable via FHIR R4 Resource `PlanDefinition`.\nElement `PlanDefinition` has is mapped to FHIR R4 element `PlanDefinition`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.meta` is mapped to FHIR R4 element `PlanDefinition.meta`."
+              "comment" : "Element `PlanDefinition.meta` has is mapped to FHIR R4 element `PlanDefinition.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.implicitRules` is mapped to FHIR R4 element `PlanDefinition.implicitRules`."
+              "comment" : "Element `PlanDefinition.implicitRules` has is mapped to FHIR R4 element `PlanDefinition.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.language` is mapped to FHIR R4 element `PlanDefinition.language`."
+              "comment" : "Element `PlanDefinition.language` has is mapped to FHIR R4 element `PlanDefinition.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.text` is mapped to FHIR R4 element `PlanDefinition.text`."
+              "comment" : "Element `PlanDefinition.text` has is mapped to FHIR R4 element `PlanDefinition.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.contained` is mapped to FHIR R4 element `PlanDefinition.contained`."
+              "comment" : "Element `PlanDefinition.contained` has is mapped to FHIR R4 element `PlanDefinition.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.url` is mapped to FHIR R4 element `PlanDefinition.url`."
+              "comment" : "Element `PlanDefinition.url` has is mapped to FHIR R4 element `PlanDefinition.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.identifier` is mapped to FHIR R4 element `PlanDefinition.identifier`."
+              "comment" : "Element `PlanDefinition.identifier` has is mapped to FHIR R4 element `PlanDefinition.identifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.version` is mapped to FHIR R4 element `PlanDefinition.version`."
+              "comment" : "Element `PlanDefinition.version` has is mapped to FHIR R4 element `PlanDefinition.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.versionAlgorithm[x]` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.versionAlgorithm[x]` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.name` is mapped to FHIR R4 element `PlanDefinition.name`."
+              "comment" : "Element `PlanDefinition.name` has is mapped to FHIR R4 element `PlanDefinition.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.title` is mapped to FHIR R4 element `PlanDefinition.title`."
+              "comment" : "Element `PlanDefinition.title` has is mapped to FHIR R4 element `PlanDefinition.title`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.subtitle",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.subtitle` is mapped to FHIR R4 element `PlanDefinition.subtitle`."
+              "comment" : "Element `PlanDefinition.subtitle` has is mapped to FHIR R4 element `PlanDefinition.subtitle`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.type` is mapped to FHIR R4 element `PlanDefinition.type`."
+              "comment" : "Element `PlanDefinition.type` has is mapped to FHIR R4 element `PlanDefinition.type`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.status` is mapped to FHIR R4 element `PlanDefinition.status`."
+              "comment" : "Element `PlanDefinition.status` has is mapped to FHIR R4 element `PlanDefinition.status`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.experimental` is mapped to FHIR R4 element `PlanDefinition.experimental`."
+              "comment" : "Element `PlanDefinition.experimental` has is mapped to FHIR R4 element `PlanDefinition.experimental`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.subject[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `PlanDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition`.\nElement `PlanDefinition.subject[x]` is mapped to FHIR R4 element `PlanDefinition.subject[x]`.\nNote that the target element context `PlanDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition`."
+              "comment" : "Note that the target element context `PlanDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition`.\nElement `PlanDefinition.subject[x]` has is mapped to FHIR R4 element `PlanDefinition.subject[x]`, but has no comparisons.\nNote that the target element context `PlanDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.date` is mapped to FHIR R4 element `PlanDefinition.date`."
+              "comment" : "Element `PlanDefinition.date` has is mapped to FHIR R4 element `PlanDefinition.date`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.publisher` is mapped to FHIR R4 element `PlanDefinition.publisher`."
+              "comment" : "Element `PlanDefinition.publisher` has is mapped to FHIR R4 element `PlanDefinition.publisher`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.contact` is mapped to FHIR R4 element `PlanDefinition.contact`."
+              "comment" : "Element `PlanDefinition.contact` has is mapped to FHIR R4 element `PlanDefinition.contact`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.description` is mapped to FHIR R4 element `PlanDefinition.description`."
+              "comment" : "Element `PlanDefinition.description` has is mapped to FHIR R4 element `PlanDefinition.description`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.useContext` is mapped to FHIR R4 element `PlanDefinition.useContext`."
+              "comment" : "Element `PlanDefinition.useContext` has is mapped to FHIR R4 element `PlanDefinition.useContext`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.jurisdiction` is mapped to FHIR R4 element `PlanDefinition.jurisdiction`."
+              "comment" : "Element `PlanDefinition.jurisdiction` has is mapped to FHIR R4 element `PlanDefinition.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.purpose` is mapped to FHIR R4 element `PlanDefinition.purpose`."
+              "comment" : "Element `PlanDefinition.purpose` has is mapped to FHIR R4 element `PlanDefinition.purpose`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.usage",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.usage` is mapped to FHIR R4 element `PlanDefinition.usage`."
+              "comment" : "Element `PlanDefinition.usage` has is mapped to FHIR R4 element `PlanDefinition.usage`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.copyright` is mapped to FHIR R4 element `PlanDefinition.copyright`."
+              "comment" : "Element `PlanDefinition.copyright` has is mapped to FHIR R4 element `PlanDefinition.copyright`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.copyrightLabel` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.copyrightLabel` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.approvalDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.approvalDate` is mapped to FHIR R4 element `PlanDefinition.approvalDate`."
+              "comment" : "Element `PlanDefinition.approvalDate` has is mapped to FHIR R4 element `PlanDefinition.approvalDate`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.lastReviewDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.lastReviewDate` is mapped to FHIR R4 element `PlanDefinition.lastReviewDate`."
+              "comment" : "Element `PlanDefinition.lastReviewDate` has is mapped to FHIR R4 element `PlanDefinition.lastReviewDate`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.effectivePeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.effectivePeriod` is mapped to FHIR R4 element `PlanDefinition.effectivePeriod`."
+              "comment" : "Element `PlanDefinition.effectivePeriod` has is mapped to FHIR R4 element `PlanDefinition.effectivePeriod`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.topic",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.topic` is mapped to FHIR R4 element `PlanDefinition.topic`."
+              "comment" : "Element `PlanDefinition.topic` has is mapped to FHIR R4 element `PlanDefinition.topic`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.author",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.author` is mapped to FHIR R4 element `PlanDefinition.author`."
+              "comment" : "Element `PlanDefinition.author` has is mapped to FHIR R4 element `PlanDefinition.author`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.editor",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.editor` is mapped to FHIR R4 element `PlanDefinition.editor`."
+              "comment" : "Element `PlanDefinition.editor` has is mapped to FHIR R4 element `PlanDefinition.editor`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.reviewer",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.reviewer` is mapped to FHIR R4 element `PlanDefinition.reviewer`."
+              "comment" : "Element `PlanDefinition.reviewer` has is mapped to FHIR R4 element `PlanDefinition.reviewer`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.endorser",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.endorser` is mapped to FHIR R4 element `PlanDefinition.endorser`."
+              "comment" : "Element `PlanDefinition.endorser` has is mapped to FHIR R4 element `PlanDefinition.endorser`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.relatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.relatedArtifact` is mapped to FHIR R4 element `PlanDefinition.relatedArtifact`."
+              "comment" : "Element `PlanDefinition.relatedArtifact` has is mapped to FHIR R4 element `PlanDefinition.relatedArtifact`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.library",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.library` is mapped to FHIR R4 element `PlanDefinition.library`."
+              "comment" : "Element `PlanDefinition.library` has is mapped to FHIR R4 element `PlanDefinition.library`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.goal` is mapped to FHIR R4 element `PlanDefinition.goal`."
+              "comment" : "Element `PlanDefinition.goal` has is mapped to FHIR R4 element `PlanDefinition.goal`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.goal.category` is mapped to FHIR R4 element `PlanDefinition.goal.category`."
+              "comment" : "Element `PlanDefinition.goal.category` is part of an existing definition because parent element `PlanDefinition.goal` requires a cross-version extension.\nElement `PlanDefinition.goal.category` has is mapped to FHIR R4 element `PlanDefinition.goal.category`, but has no comparisons."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.goal.description` is mapped to FHIR R4 element `PlanDefinition.goal.description`."
+              "comment" : "Element `PlanDefinition.goal.description` is part of an existing definition because parent element `PlanDefinition.goal` requires a cross-version extension.\nElement `PlanDefinition.goal.description` has is mapped to FHIR R4 element `PlanDefinition.goal.description`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.goal.priority` is mapped to FHIR R4 element `PlanDefinition.goal.priority`."
+              "comment" : "Element `PlanDefinition.goal.priority` is part of an existing definition because parent element `PlanDefinition.goal` requires a cross-version extension.\nElement `PlanDefinition.goal.priority` has is mapped to FHIR R4 element `PlanDefinition.goal.priority`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal.start",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.goal.start` is mapped to FHIR R4 element `PlanDefinition.goal.start`."
+              "comment" : "Element `PlanDefinition.goal.start` is part of an existing definition because parent element `PlanDefinition.goal` requires a cross-version extension.\nElement `PlanDefinition.goal.start` has is mapped to FHIR R4 element `PlanDefinition.goal.start`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal.addresses",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.goal.addresses` is mapped to FHIR R4 element `PlanDefinition.goal.addresses`."
+              "comment" : "Element `PlanDefinition.goal.addresses` is part of an existing definition because parent element `PlanDefinition.goal` requires a cross-version extension.\nElement `PlanDefinition.goal.addresses` has is mapped to FHIR R4 element `PlanDefinition.goal.addresses`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.goal.documentation` is mapped to FHIR R4 element `PlanDefinition.goal.documentation`."
+              "comment" : "Element `PlanDefinition.goal.documentation` is part of an existing definition because parent element `PlanDefinition.goal` requires a cross-version extension.\nElement `PlanDefinition.goal.documentation` has is mapped to FHIR R4 element `PlanDefinition.goal.documentation`, but has no comparisons."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.goal.target` is mapped to FHIR R4 element `PlanDefinition.goal.target`."
+              "comment" : "Element `PlanDefinition.goal.target` is part of an existing definition because parent element `PlanDefinition.goal` requires a cross-version extension.\nElement `PlanDefinition.goal.target` has is mapped to FHIR R4 element `PlanDefinition.goal.target`, but has no comparisons."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal.target.measure",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.goal.target.measure` is mapped to FHIR R4 element `PlanDefinition.goal.target.measure`."
+              "comment" : "Element `PlanDefinition.goal.target.measure` is part of an existing definition because parent element `PlanDefinition.goal.target` requires a cross-version extension.\nElement `PlanDefinition.goal.target.measure` has is mapped to FHIR R4 element `PlanDefinition.goal.target.measure`, but has no comparisons."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal.target.detail[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `PlanDefinition.goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.goal.target`.\nElement `PlanDefinition.goal.target.detail[x]` is mapped to FHIR R4 element `PlanDefinition.goal.target.detail[x]`.\nNote that the target element context `PlanDefinition.goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.goal.target`."
+              "comment" : "Element `PlanDefinition.goal.target.detail[x]` is part of an existing definition because parent element `PlanDefinition.goal.target` requires a cross-version extension.\nNote that the target element context `PlanDefinition.goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.goal.target`.\nElement `PlanDefinition.goal.target.detail[x]` has is mapped to FHIR R4 element `PlanDefinition.goal.target.detail[x]`, but has no comparisons.\nNote that the target element context `PlanDefinition.goal.target.detail[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.goal.target`."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.goal.target.due",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.goal.target.due` is mapped to FHIR R4 element `PlanDefinition.goal.target.due`."
+              "comment" : "Element `PlanDefinition.goal.target.due` is part of an existing definition because parent element `PlanDefinition.goal.target` requires a cross-version extension.\nElement `PlanDefinition.goal.target.due` has is mapped to FHIR R4 element `PlanDefinition.goal.target.due`, but has no comparisons."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.actor` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.actor` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.actor.title` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.title` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.actor.title` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.title` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -635,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.actor.description` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.description` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.actor.description` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.description` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -646,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.actor.option` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.option` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.actor.option` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.option` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -657,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.actor.option.type` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nElement `PlanDefinition.actor.option.type` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.actor.option.type` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nElement `PlanDefinition.actor.option.type` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -668,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.actor.option.typeCanonical` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.actor.option.typeCanonical` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.actor.option.typeCanonical` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.actor.option.typeCanonical` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -679,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.actor.option.typeReference` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.actor.option.typeReference` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.actor.option.typeReference` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.actor.option.typeReference` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -690,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.actor.option.role` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nElement `PlanDefinition.actor.option.role` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.actor.option.role` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nElement `PlanDefinition.actor.option.role` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -701,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action` is mapped to FHIR R4 element `PlanDefinition.action`."
+              "comment" : "Element `PlanDefinition.action` has is mapped to FHIR R4 element `PlanDefinition.action`, but has no comparisons.\nNote available implied context: `PlanDefinition.action.action` because `PlanDefinition.action.action` is defined as a content reference to `PlanDefinition.action`."
             }
           ]
         },
@@ -712,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.linkId` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.linkId` has a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -723,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.prefix",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.prefix` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.prefix` is mapped to FHIR R4 element `PlanDefinition.action.prefix`."
+              "comment" : "Element `PlanDefinition.action.prefix` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.prefix` has is mapped to FHIR R4 element `PlanDefinition.action.prefix`, but has no comparisons."
             }
           ]
         },
@@ -734,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.title` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.title` is mapped to FHIR R4 element `PlanDefinition.action.title`."
+              "comment" : "Element `PlanDefinition.action.title` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.title` has is mapped to FHIR R4 element `PlanDefinition.action.title`, but has no comparisons."
             }
           ]
         },
@@ -745,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.description` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.description` is mapped to FHIR R4 element `PlanDefinition.action.description`."
+              "comment" : "Element `PlanDefinition.action.description` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.description` has is mapped to FHIR R4 element `PlanDefinition.action.description`, but has no comparisons."
             }
           ]
         },
@@ -756,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.textEquivalent",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.textEquivalent` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.textEquivalent` is mapped to FHIR R4 element `PlanDefinition.action.textEquivalent`."
+              "comment" : "Element `PlanDefinition.action.textEquivalent` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.textEquivalent` has is mapped to FHIR R4 element `PlanDefinition.action.textEquivalent`, but has no comparisons."
             }
           ]
         },
@@ -767,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.priority` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.priority` is mapped to FHIR R4 element `PlanDefinition.action.priority`."
+              "comment" : "Element `PlanDefinition.action.priority` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.priority` has is mapped to FHIR R4 element `PlanDefinition.action.priority`, but has no comparisons."
             }
           ]
         },
@@ -778,7 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.code` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.code` is mapped to FHIR R4 element `PlanDefinition.action.code`."
+              "comment" : "Element `PlanDefinition.action.code` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.code` has is mapped to FHIR R4 element `PlanDefinition.action.code`, but has no comparisons."
             }
           ]
         },
@@ -789,7 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.reason` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.reason` is mapped to FHIR R4 element `PlanDefinition.action.reason`."
+              "comment" : "Element `PlanDefinition.action.reason` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.reason` has is mapped to FHIR R4 element `PlanDefinition.action.reason`, but has no comparisons."
             }
           ]
         },
@@ -800,7 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.documentation` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.documentation` is mapped to FHIR R4 element `PlanDefinition.action.documentation`."
+              "comment" : "Element `PlanDefinition.action.documentation` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.documentation` has is mapped to FHIR R4 element `PlanDefinition.action.documentation`, but has no comparisons."
             }
           ]
         },
@@ -811,7 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.goalId",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.goalId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.goalId` is mapped to FHIR R4 element `PlanDefinition.action.goalId`."
+              "comment" : "Element `PlanDefinition.action.goalId` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.goalId` has is mapped to FHIR R4 element `PlanDefinition.action.goalId`, but has no comparisons."
             }
           ]
         },
@@ -822,7 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.subject[x]",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.subject[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `PlanDefinition.action.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.subject[x]` is mapped to FHIR R4 element `PlanDefinition.action.subject[x]`.\nNote that the target element context `PlanDefinition.action.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`."
+              "comment" : "Element `PlanDefinition.action.subject[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nNote that the target element context `PlanDefinition.action.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.subject[x]` has is mapped to FHIR R4 element `PlanDefinition.action.subject[x]`, but has no comparisons.\nNote that the target element context `PlanDefinition.action.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`."
             }
           ]
         },
@@ -833,7 +833,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.trigger",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.trigger` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.trigger` is mapped to FHIR R4 element `PlanDefinition.action.trigger`."
+              "comment" : "Element `PlanDefinition.action.trigger` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.trigger` has is mapped to FHIR R4 element `PlanDefinition.action.trigger`, but has no comparisons."
             }
           ]
         },
@@ -844,7 +844,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.condition` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.condition` is mapped to FHIR R4 element `PlanDefinition.action.condition`."
+              "comment" : "Element `PlanDefinition.action.condition` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.condition` has is mapped to FHIR R4 element `PlanDefinition.action.condition`, but has no comparisons."
             }
           ]
         },
@@ -855,7 +855,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.condition.kind",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.condition.kind` is mapped to FHIR R4 element `PlanDefinition.action.condition.kind`."
+              "comment" : "Element `PlanDefinition.action.condition.kind` is part of an existing definition because parent element `PlanDefinition.action.condition` requires a cross-version extension.\nElement `PlanDefinition.action.condition.kind` has is mapped to FHIR R4 element `PlanDefinition.action.condition.kind`, but has no comparisons."
             }
           ]
         },
@@ -866,7 +866,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.condition.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.condition.expression` is mapped to FHIR R4 element `PlanDefinition.action.condition.expression`."
+              "comment" : "Element `PlanDefinition.action.condition.expression` is part of an existing definition because parent element `PlanDefinition.action.condition` requires a cross-version extension.\nElement `PlanDefinition.action.condition.expression` has is mapped to FHIR R4 element `PlanDefinition.action.condition.expression`, but has no comparisons."
             }
           ]
         },
@@ -877,7 +877,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.input",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.input` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.input` is mapped to FHIR R4 element `PlanDefinition.action.input`."
+              "comment" : "Element `PlanDefinition.action.input` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.input` has is mapped to FHIR R4 element `PlanDefinition.action.input`, but has no comparisons."
             }
           ]
         },
@@ -888,7 +888,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.input",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.input.title` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.input.title` is part of an existing definition because parent element `PlanDefinition.action.input` requires a cross-version extension.\nElement `PlanDefinition.action.input.title` has a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -899,7 +899,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.input",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.input.requirement` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.input.requirement` is part of an existing definition because parent element `PlanDefinition.action.input` requires a cross-version extension.\nElement `PlanDefinition.action.input.requirement` has a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -910,7 +910,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.input",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.input.relatedData` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.input.relatedData` is part of an existing definition because parent element `PlanDefinition.action.input` requires a cross-version extension.\nElement `PlanDefinition.action.input.relatedData` has a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -921,7 +921,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.output",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.output` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.output` is mapped to FHIR R4 element `PlanDefinition.action.output`."
+              "comment" : "Element `PlanDefinition.action.output` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.output` has is mapped to FHIR R4 element `PlanDefinition.action.output`, but has no comparisons."
             }
           ]
         },
@@ -932,7 +932,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.output",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.output.title` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.output.title` is part of an existing definition because parent element `PlanDefinition.action.output` requires a cross-version extension.\nElement `PlanDefinition.action.output.title` has a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -943,7 +943,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.output",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.output.requirement` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.output.requirement` is part of an existing definition because parent element `PlanDefinition.action.output` requires a cross-version extension.\nElement `PlanDefinition.action.output.requirement` has a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -954,7 +954,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.output",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.output.relatedData` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.output.relatedData` is part of an existing definition because parent element `PlanDefinition.action.output` requires a cross-version extension.\nElement `PlanDefinition.action.output.relatedData` has a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -965,7 +965,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.relatedAction",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.relatedAction` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.relatedAction` is mapped to FHIR R4 element `PlanDefinition.action.relatedAction`."
+              "comment" : "Element `PlanDefinition.action.relatedAction` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.relatedAction` has is mapped to FHIR R4 element `PlanDefinition.action.relatedAction`, but has no comparisons."
             }
           ]
         },
@@ -976,7 +976,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.relatedAction.actionId",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.relatedAction.targetId` is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.actionId`."
+              "comment" : "Element `PlanDefinition.action.relatedAction.targetId` is part of an existing definition because parent element `PlanDefinition.action.relatedAction` requires a cross-version extension.\nElement `PlanDefinition.action.relatedAction.targetId` has is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.actionId`, but has no comparisons."
             }
           ]
         },
@@ -987,7 +987,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.relatedAction.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.relatedAction.relationship` is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.relationship`."
+              "comment" : "Element `PlanDefinition.action.relatedAction.relationship` is part of an existing definition because parent element `PlanDefinition.action.relatedAction` requires a cross-version extension.\nElement `PlanDefinition.action.relatedAction.relationship` has is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.relationship`, but has no comparisons."
             }
           ]
         },
@@ -998,7 +998,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.relatedAction.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.relatedAction.endRelationship` is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.relationship`."
+              "comment" : "Element `PlanDefinition.action.relatedAction.endRelationship` is part of an existing definition because parent element `PlanDefinition.action.relatedAction` requires a cross-version extension.\nElement `PlanDefinition.action.relatedAction.endRelationship` has is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.relationship`, but has no comparisons."
             }
           ]
         },
@@ -1009,7 +1009,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.relatedAction.offset[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `PlanDefinition.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action.relatedAction`.\nElement `PlanDefinition.action.relatedAction.offset[x]` is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.offset[x]`.\nNote that the target element context `PlanDefinition.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action.relatedAction`."
+              "comment" : "Element `PlanDefinition.action.relatedAction.offset[x]` is part of an existing definition because parent element `PlanDefinition.action.relatedAction` requires a cross-version extension.\nNote that the target element context `PlanDefinition.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action.relatedAction`.\nElement `PlanDefinition.action.relatedAction.offset[x]` has is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.offset[x]`, but has no comparisons.\nNote that the target element context `PlanDefinition.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action.relatedAction`."
             }
           ]
         },
@@ -1020,7 +1020,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.timing[x]",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.timing[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `PlanDefinition.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.timing[x]` is mapped to FHIR R4 element `PlanDefinition.action.timing[x]`.\nNote that the target element context `PlanDefinition.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`."
+              "comment" : "Element `PlanDefinition.action.timing[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nNote that the target element context `PlanDefinition.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.timing[x]` has is mapped to FHIR R4 element `PlanDefinition.action.timing[x]`, but has no comparisons.\nNote that the target element context `PlanDefinition.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`."
             }
           ]
         },
@@ -1031,7 +1031,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.location` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.location` has a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -1042,7 +1042,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.participant` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.participant` is mapped to FHIR R4 element `PlanDefinition.action.participant`."
+              "comment" : "Element `PlanDefinition.action.participant` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.participant` has is mapped to FHIR R4 element `PlanDefinition.action.participant`, but has no comparisons."
             }
           ]
         },
@@ -1053,7 +1053,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.participant.actorId` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.participant.actorId` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nElement `PlanDefinition.action.participant.actorId` has a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -1064,7 +1064,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.participant.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.participant.type` is mapped to FHIR R4 element `PlanDefinition.action.participant.type`."
+              "comment" : "Element `PlanDefinition.action.participant.type` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nElement `PlanDefinition.action.participant.type` has is mapped to FHIR R4 element `PlanDefinition.action.participant.type`, but has no comparisons."
             }
           ]
         },
@@ -1075,7 +1075,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.action.participant.typeCanonical` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.participant.typeCanonical` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.action.participant.typeCanonical` has a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -1086,7 +1086,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.action.participant.typeReference` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.participant.typeReference` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.action.participant.typeReference` has a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -1097,7 +1097,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.participant.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.participant.role` is mapped to FHIR R4 element `PlanDefinition.action.participant.role`."
+              "comment" : "Element `PlanDefinition.action.participant.role` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nElement `PlanDefinition.action.participant.role` has is mapped to FHIR R4 element `PlanDefinition.action.participant.role`, but has no comparisons."
             }
           ]
         },
@@ -1108,7 +1108,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.participant.function` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.action.participant.function` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nElement `PlanDefinition.action.participant.function` has a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         },
@@ -1119,7 +1119,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.type` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.type` is mapped to FHIR R4 element `PlanDefinition.action.type`."
+              "comment" : "Element `PlanDefinition.action.type` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.type` has is mapped to FHIR R4 element `PlanDefinition.action.type`, but has no comparisons."
             }
           ]
         },
@@ -1130,7 +1130,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.groupingBehavior",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.groupingBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.groupingBehavior` is mapped to FHIR R4 element `PlanDefinition.action.groupingBehavior`."
+              "comment" : "Element `PlanDefinition.action.groupingBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.groupingBehavior` has is mapped to FHIR R4 element `PlanDefinition.action.groupingBehavior`, but has no comparisons."
             }
           ]
         },
@@ -1141,7 +1141,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.selectionBehavior",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.selectionBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.selectionBehavior` is mapped to FHIR R4 element `PlanDefinition.action.selectionBehavior`."
+              "comment" : "Element `PlanDefinition.action.selectionBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.selectionBehavior` has is mapped to FHIR R4 element `PlanDefinition.action.selectionBehavior`, but has no comparisons."
             }
           ]
         },
@@ -1152,7 +1152,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.requiredBehavior",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.requiredBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.requiredBehavior` is mapped to FHIR R4 element `PlanDefinition.action.requiredBehavior`."
+              "comment" : "Element `PlanDefinition.action.requiredBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.requiredBehavior` has is mapped to FHIR R4 element `PlanDefinition.action.requiredBehavior`, but has no comparisons."
             }
           ]
         },
@@ -1163,7 +1163,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.precheckBehavior",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.precheckBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.precheckBehavior` is mapped to FHIR R4 element `PlanDefinition.action.precheckBehavior`."
+              "comment" : "Element `PlanDefinition.action.precheckBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.precheckBehavior` has is mapped to FHIR R4 element `PlanDefinition.action.precheckBehavior`, but has no comparisons."
             }
           ]
         },
@@ -1174,7 +1174,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.cardinalityBehavior",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.cardinalityBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.cardinalityBehavior` is mapped to FHIR R4 element `PlanDefinition.action.cardinalityBehavior`."
+              "comment" : "Element `PlanDefinition.action.cardinalityBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.cardinalityBehavior` has is mapped to FHIR R4 element `PlanDefinition.action.cardinalityBehavior`, but has no comparisons."
             }
           ]
         },
@@ -1185,7 +1185,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.definition[x]",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.definition[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `PlanDefinition.action.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.definition[x]` is mapped to FHIR R4 element `PlanDefinition.action.definition[x]`.\nNote that the target element context `PlanDefinition.action.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`."
+              "comment" : "Element `PlanDefinition.action.definition[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nNote that the target element context `PlanDefinition.action.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.definition[x]` has is mapped to FHIR R4 element `PlanDefinition.action.definition[x]`, but has no comparisons.\nNote that the target element context `PlanDefinition.action.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`."
             }
           ]
         },
@@ -1196,7 +1196,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.transform",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.transform` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.transform` is mapped to FHIR R4 element `PlanDefinition.action.transform`."
+              "comment" : "Element `PlanDefinition.action.transform` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.transform` has is mapped to FHIR R4 element `PlanDefinition.action.transform`, but has no comparisons."
             }
           ]
         },
@@ -1207,7 +1207,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.dynamicValue",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.dynamicValue` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.dynamicValue` is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue`."
+              "comment" : "Element `PlanDefinition.action.dynamicValue` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.dynamicValue` has is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue`, but has no comparisons."
             }
           ]
         },
@@ -1218,7 +1218,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.dynamicValue.path",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.dynamicValue.path` is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue.path`."
+              "comment" : "Element `PlanDefinition.action.dynamicValue.path` is part of an existing definition because parent element `PlanDefinition.action.dynamicValue` requires a cross-version extension.\nElement `PlanDefinition.action.dynamicValue.path` has is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue.path`, but has no comparisons."
             }
           ]
         },
@@ -1229,7 +1229,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.dynamicValue.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.dynamicValue.expression` is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue.expression`."
+              "comment" : "Element `PlanDefinition.action.dynamicValue.expression` is part of an existing definition because parent element `PlanDefinition.action.dynamicValue` requires a cross-version extension.\nElement `PlanDefinition.action.dynamicValue.expression` has is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue.expression`, but has no comparisons."
             }
           ]
         },
@@ -1240,7 +1240,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition.action.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.action.action` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.action` is mapped to FHIR R4 element `PlanDefinition.action.action`."
+              "comment" : "Element `PlanDefinition.action.action` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.action` has is mapped to FHIR R4 element `PlanDefinition.action.action`, but has no comparisons."
             }
           ]
         },
@@ -1251,7 +1251,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PlanDefinition#PlanDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PlanDefinition.asNeeded[x]` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
+              "comment" : "Element `PlanDefinition.asNeeded[x]` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`."
             }
           ]
         }

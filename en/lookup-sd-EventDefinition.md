@@ -1,4 +1,4 @@
-# Lookup for ProfileEventDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileEventDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileEventDefinition
 
@@ -21,7 +21,7 @@ A computable version of the following element information is available in: [Conc
 | [`EventDefinition.url`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.url](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
 | [`EventDefinition.identifier`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.identifier](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
 | [`EventDefinition.version`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.version](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
-| [`EventDefinition.versionAlgorithm[x]`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition](https://hl7.org/fhir/R4/EventDefinition.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition.versionAlgorithm](StructureDefinition-ext-R5-EventDefinition.versionAlgorithm.md) |
+| [`EventDefinition.versionAlgorithm[x]`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [Extension: ExtensionEventDefinition_VersionAlgorithm](StructureDefinition-ext-R5-EventDefinition.versionAlgorithm.md) |
 | [`EventDefinition.name`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.name](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
 | [`EventDefinition.title`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.title](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
 | [`EventDefinition.subtitle`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.subtitle](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
@@ -37,7 +37,7 @@ A computable version of the following element information is available in: [Conc
 | [`EventDefinition.purpose`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.purpose](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
 | [`EventDefinition.usage`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.usage](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
 | [`EventDefinition.copyright`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.copyright](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
-| [`EventDefinition.copyrightLabel`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition](https://hl7.org/fhir/R4/EventDefinition.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-EventDefinition.copyrightLabel](StructureDefinition-ext-R5-EventDefinition.copyrightLabel.md) |
+| [`EventDefinition.copyrightLabel`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [Extension: ExtensionEventDefinition_CopyrightLabel](StructureDefinition-ext-R5-EventDefinition.copyrightLabel.md) |
 | [`EventDefinition.approvalDate`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.approvalDate](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
 | [`EventDefinition.lastReviewDate`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.lastReviewDate](https://hl7.org/fhir/R4/EventDefinition.html#resource) |
 | [`EventDefinition.effectivePeriod`](https://hl7.org/fhir/R5/EventDefinition.html#resource) | [EventDefinition.effectivePeriod](https://hl7.org/fhir/R4/EventDefinition.html#resource) |

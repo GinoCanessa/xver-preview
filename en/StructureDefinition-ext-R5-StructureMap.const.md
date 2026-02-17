@@ -1,4 +1,4 @@
-# ExtensionStructureMap_Const - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionStructureMap_Const - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.StructureMap.const` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-StructureM
   "title" : "Cross-version Extension `R5.StructureMap.const` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-StructureM
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `StructureMap.const` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`StructureMap.const` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `StructureMap.const` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `StructureMap.const` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `StructureMap.const` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`StructureMap.const` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `StructureMap.const` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `StructureMap.const` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-StructureM
         "sliceName" : "name",
         "short" : "Constant name",
         "definition" : "Other maps used by this map (canonical URLs).",
-        "requirements" : "Element `StructureMap.const.name` is part of an existing definition because parent element `StructureMap.const` requires a cross-version extension.\nElement `StructureMap.const.name` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.",
+        "requirements" : "Element `StructureMap.const.name` is part of an existing definition because parent element `StructureMap.const` requires a cross-version extension.\nElement `StructureMap.const.name` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-StructureM
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "name"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const.name"
       },
       {
         "id" : "Extension.extension:name.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-StructureM
         "sliceName" : "value",
         "short" : "FHIRPath exression - value of the constant",
         "definition" : "A FHIRPath expression that is the value of this variable.",
-        "requirements" : "Element `StructureMap.const.value` is part of an existing definition because parent element `StructureMap.const` requires a cross-version extension.\nElement `StructureMap.const.value` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.",
+        "requirements" : "Element `StructureMap.const.value` is part of an existing definition because parent element `StructureMap.const` requires a cross-version extension.\nElement `StructureMap.const.value` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-StructureM
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const.value"
       },
       {
         "id" : "Extension.extension:value.value[x]",

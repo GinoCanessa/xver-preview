@@ -1,4 +1,4 @@
-# ExtensionExtension_Value - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionExtension_Value - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Extension.value[x]` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Extension.
   "title" : "Cross-version Extension `R5.Extension.value[x]` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Extension.
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Extension.value[x]` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Extension.value[x]` 0..1 `Address, Age, Annotation, Attachment, Availability, base64Binary, boolean, canonical, code, CodeableConcept, CodeableReference, Coding, ContactDetail, ContactPoint, Count, DataRequirement, date, dateTime, decimal, Distance, Dosage, Duration, Expression, ExtendedContactDetail, HumanName, id, Identifier, instant, integer, integer64, markdown, Meta, Money, oid, ParameterDefinition, Period, positiveInt, Quantity, Range, Ratio, RatioRange, Reference, RelatedArtifact, SampledData, Signature, string, time, Timing, TriggerDefinition, unsignedInt, uri, url, UsageContext, uuid`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Extension.value[x]` 0..1 `Address, Age, Annotation, Attachment, Availability, base64Binary, boolean, canonical, code, CodeableConcept, CodeableReference, Coding, ContactDetail, ContactPoint, Count, DataRequirement, date, dateTime, decimal, Distance, Dosage, Duration, Expression, ExtendedContactDetail, HumanName, id, Identifier, instant, integer, integer64, markdown, Meta, Money, oid, ParameterDefinition, Period, positiveInt, Quantity, Range, Ratio, RatioRange, Reference, RelatedArtifact, SampledData, Signature, string, time, Timing, TriggerDefinition, unsignedInt, uri, url, UsageContext, uuid`\n*  R4B: `Extension.value[x]` 0..1 `Address, Age, Annotation, Attachment, base64Binary, boolean, canonical, code, CodeableConcept, CodeableReference, Coding, ContactDetail, ContactPoint, Contributor, Count, DataRequirement, date, dateTime, decimal, Distance, Dosage, Duration, Expression, HumanName, id, Identifier, instant, integer, markdown, Money, oid, ParameterDefinition, Period, positiveInt, Quantity, Range, Ratio, RatioRange, Reference, RelatedArtifact, SampledData, Signature, string, time, Timing, TriggerDefinition, unsignedInt, uri, url, UsageContext, uuid`\n*  R4: `Extension.value[x]` 0..1 `Address, Age, Annotation, Attachment, base64Binary, boolean, canonical, code, CodeableConcept, Coding, ContactDetail, ContactPoint, Contributor, Count, DataRequirement, date, dateTime, decimal, Distance, Dosage, Duration, Expression, HumanName, id, Identifier, instant, integer, markdown, Meta, Money, oid, ParameterDefinition, Period, positiveInt, Quantity, Range, Ratio, Reference, RelatedArtifact, SampledData, Signature, string, time, Timing, TriggerDefinition, unsignedInt, uri, url, UsageContext, uuid`\r\n\r\nFollowing are the generation technical comments:\r\nNote that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`.\nElement `Extension.value[x]` is mapped to FHIR R4 element `Extension.value[x]`.\nNote that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Extension.value[x]` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Extension.value[x]` 0..1 `Address, Age, Annotation, Attachment, Availability, base64Binary, boolean, canonical, code, CodeableConcept, CodeableReference, Coding, ContactDetail, ContactPoint, Count, DataRequirement, date, dateTime, decimal, Distance, Dosage, Duration, Expression, ExtendedContactDetail, HumanName, id, Identifier, instant, integer, integer64, markdown, Meta, Money, oid, ParameterDefinition, Period, positiveInt, Quantity, Range, Ratio, RatioRange, Reference, RelatedArtifact, SampledData, Signature, string, time, Timing, TriggerDefinition, unsignedInt, uri, url, UsageContext, uuid`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Extension.value[x]` 0..1 `Address, Age, Annotation, Attachment, Availability, base64Binary, boolean, canonical, code, CodeableConcept, CodeableReference, Coding, ContactDetail, ContactPoint, Count, DataRequirement, date, dateTime, decimal, Distance, Dosage, Duration, Expression, ExtendedContactDetail, HumanName, id, Identifier, instant, integer, integer64, markdown, Meta, Money, oid, ParameterDefinition, Period, positiveInt, Quantity, Range, Ratio, RatioRange, Reference, RelatedArtifact, SampledData, Signature, string, time, Timing, TriggerDefinition, unsignedInt, uri, url, UsageContext, uuid`\n*  R4B: `Extension.value[x]` 0..1 `Address, Age, Annotation, Attachment, base64Binary, boolean, canonical, code, CodeableConcept, CodeableReference, Coding, ContactDetail, ContactPoint, Contributor, Count, DataRequirement, date, dateTime, decimal, Distance, Dosage, Duration, Expression, HumanName, id, Identifier, instant, integer, markdown, Money, oid, ParameterDefinition, Period, positiveInt, Quantity, Range, Ratio, RatioRange, Reference, RelatedArtifact, SampledData, Signature, string, time, Timing, TriggerDefinition, unsignedInt, uri, url, UsageContext, uuid`\n*  R4: `Extension.value[x]` 0..1 `Address, Age, Annotation, Attachment, base64Binary, boolean, canonical, code, CodeableConcept, Coding, ContactDetail, ContactPoint, Contributor, Count, DataRequirement, date, dateTime, decimal, Distance, Dosage, Duration, Expression, HumanName, id, Identifier, instant, integer, markdown, Meta, Money, oid, ParameterDefinition, Period, positiveInt, Quantity, Range, Ratio, Reference, RelatedArtifact, SampledData, Signature, string, time, Timing, TriggerDefinition, unsignedInt, uri, url, UsageContext, uuid`\r\n\r\nFollowing are the generation technical comments:\r\nNote that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`.\nElement `Extension.value[x]` has is mapped to FHIR R4 element `Extension.value[x]`, but has no comparisons.\nNote that the target element context `Extension.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Extension`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -283,7 +283,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Extension.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "daysOfWeek"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.daysOfWeek"
       },
       {
         "id" : "Extension.extension:availableTime.extension:daysOfWeek.value[x]",
@@ -333,7 +333,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Extension.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "allDay"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.allDay"
       },
       {
         "id" : "Extension.extension:availableTime.extension:allDay.value[x]",
@@ -379,7 +379,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Extension.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "availableStartTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableStartTime"
       },
       {
         "id" : "Extension.extension:availableTime.extension:availableStartTime.value[x]",
@@ -426,7 +426,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Extension.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "availableEndTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableEndTime"
       },
       {
         "id" : "Extension.extension:availableTime.extension:availableEndTime.value[x]",
@@ -532,7 +532,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Extension.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.description"
       },
       {
         "id" : "Extension.extension:notAvailableTime.extension:description.value[x]",
@@ -578,7 +578,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Extension.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "during"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.during"
       },
       {
         "id" : "Extension.extension:notAvailableTime.extension:during.value[x]",

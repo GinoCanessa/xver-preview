@@ -1,4 +1,4 @@
-# ExtensionAuditEvent_Outcome - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAuditEvent_Outcome - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.AuditEvent.outcome` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
   "title" : "Cross-version Extension `R5.AuditEvent.outcome` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AuditEvent.outcome` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AuditEvent.outcome` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AuditEvent.outcome` 0..1 `BackboneElement`\n*  R4B: `AuditEvent.outcome` 0..1 `code`\n*  R4: `AuditEvent.outcome` 0..1 `code`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AuditEvent.outcome` is mapped to FHIR R4 element `AuditEvent.outcome`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AuditEvent.outcome` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AuditEvent.outcome` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AuditEvent.outcome` 0..1 `BackboneElement`\n*  R4B: `AuditEvent.outcome` 0..1 `code`\n*  R4: `AuditEvent.outcome` 0..1 `code`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AuditEvent.outcome` has is mapped to FHIR R4 element `AuditEvent.outcome`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "Whether the event succeeded or failed",
         "definition" : "Indicates whether the event succeeded or failed.",
         "comment" : "In some cases a \"success\" may be partial, for example, an incomplete or interrupted transfer of a radiological study. For the purpose of establishing accountability, these distinctions are not relevant.",
-        "requirements" : "when a code is given there must be one code from the given codeSystem. Element `AuditEvent.outcome.code` is will have a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`.",
+        "requirements" : "when a code is given there must be one code from the given codeSystem. Element `AuditEvent.outcome.code` is part of an existing definition because parent element `AuditEvent.outcome` requires a cross-version extension.\nElement `AuditEvent.outcome.code` has a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -205,7 +205,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome.code"
       },
       {
         "id" : "Extension.extension:code.value[x]",
@@ -238,7 +238,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "Additional outcome detail",
         "definition" : "Additional details about the error. This may be a text description of the error or a system code that identifies the error.",
         "comment" : "A human readable description of the error issue SHOULD be placed in details.text.",
-        "requirements" : "Element `AuditEvent.outcome.detail` is will have a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`.",
+        "requirements" : "Element `AuditEvent.outcome.detail` is part of an existing definition because parent element `AuditEvent.outcome` requires a cross-version extension.\nElement `AuditEvent.outcome.detail` has a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -257,7 +257,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "detail"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome.detail"
       },
       {
         "id" : "Extension.extension:detail.value[x]",

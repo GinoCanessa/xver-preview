@@ -1,4 +1,4 @@
-# ValueSetR5ItemTypeForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ValueSetR5ItemTypeForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ValueSet: Cross-version ValueSet R5.QuestionnaireItemType for use in FHIR R4 
 
@@ -13,7 +13,6 @@
  **References** 
 
 * [Cross-version Extension `R5.Questionnaire.item` for use in FHIR R4](StructureDefinition-ext-R5-Questionnaire.item.md)
-* [Cross-version Extension `R5.Questionnaire.item.type` for use in FHIR R4](StructureDefinition-ext-R5-Questionnaire.ite.type.md)
 
 ### Logical Definition (CLD)
 
@@ -78,7 +77,7 @@
   "title" : "Cross-version ValueSet R5.QuestionnaireItemType for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

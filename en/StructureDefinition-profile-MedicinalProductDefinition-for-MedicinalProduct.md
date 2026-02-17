@@ -1,4 +1,4 @@
-# ProfileMedicinalProductDefinitionForMedicinalProduct - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileMedicinalProductDefinitionForMedicinalProduct - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileMedicinalProductDefinitionForMedicinalProduct 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 MedicinalProductDefinition content to be re
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.subject.md), [Cross-version Extension `R5.AdministrableProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-AdministrableProductDefinition.md), [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.Ingredient` for use in FHIR R4](StructureDefinition-ext-R5-Ingredient.md)... Show 4 more, [Cross-version Extension `R5.MedicinalProductDefinition.crossReference` for use in FHIR R4](StructureDefinition-ext-R5-MedicinalProductDefinition.crossReference.md), [Cross-version Extension `R5.PackagedProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-PackagedProductDefinition.md), [Cross-version Extension `R5.PlanDefinition.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.subject.md) and [Cross-version Extension `R5.ResearchStudy.focus` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.focus.md)
+* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.subject.md), [Cross-version Extension `R5.AdministrableProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-AdministrableProductDefinition.md), [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.Ingredient` for use in FHIR R4](StructureDefinition-ext-R5-Ingredient.md)... Show 5 more, [Cross-version Extension `R5.MedicationKnowledge.definitional` for use in FHIR R4](StructureDefinition-ext-R5-MedicationKnowledge.definitional.md), [Cross-version Extension `R5.MedicinalProductDefinition.crossReference` for use in FHIR R4](StructureDefinition-ext-R5-MedicinalProductDefinition.crossReference.md), [Cross-version Extension `R5.PackagedProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-PackagedProductDefinition.md), [Cross-version Extension `R5.PlanDefinition.subject[x]` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.subject.md) and [Cross-version Extension `R5.ResearchStudy.focus` for use in FHIR R4](StructureDefinition-ext-R5-ResearchStudy.focus.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-MedicinalProductDefinition-for-MedicinalProduct)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
   "title" : "Cross-version Profile for R5.MedicinalProductDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.212442-06:00",
+  "date" : "2026-02-17T14:42:26.8534429-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -159,7 +159,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "version",
         "short" : "Cross-version extension for MedicinalProductDefinition.version from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.version` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.version` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -181,7 +181,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for MedicinalProductDefinition.status from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.status` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.status` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "statusDate",
         "short" : "Cross-version extension for MedicinalProductDefinition.statusDate from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.statusDate` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.statusDate` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -225,7 +225,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "description",
         "short" : "Cross-version extension for MedicinalProductDefinition.description from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.description` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.description` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -247,7 +247,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "route",
         "short" : "Cross-version extension for MedicinalProductDefinition.route from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.route` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.route` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -269,7 +269,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "indication",
         "short" : "Cross-version extension for MedicinalProductDefinition.indication from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.indication` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.indication` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -291,7 +291,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "pediatricUseIndicator",
         "short" : "Cross-version extension for MedicinalProductDefinition.pediatricUseIndicator from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.pediatricUseIndicator` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.pediatricUseIndicator` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -313,7 +313,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "classification",
         "short" : "Cross-version extension for MedicinalProductDefinition.classification from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.classification` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.classification` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -335,7 +335,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "ingredient",
         "short" : "Cross-version extension for MedicinalProductDefinition.ingredient from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.ingredient` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.ingredient` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -357,7 +357,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "impurity",
         "short" : "Cross-version extension for MedicinalProductDefinition.impurity from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.impurity` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.impurity` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -379,7 +379,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "code",
         "short" : "Cross-version extension for MedicinalProductDefinition.code from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.code` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.code` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -401,7 +401,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "operation",
         "short" : "Cross-version extension for MedicinalProductDefinition.operation from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.operation` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.operation` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -423,7 +423,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.extension",
         "sliceName" : "characteristic",
         "short" : "Cross-version extension for MedicinalProductDefinition.characteristic from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.characteristic` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.characteristic` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -446,7 +446,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "sliceName" : "comprisedOf",
         "short" : "Cross-version extension for MedicinalProductDefinition.comprisedOf from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DeviceDefinition,http://hl7.org/fhir/StructureDefinition/ManufacturedItemDefinition in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.comprisedOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.comprisedOf` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.comprisedOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.comprisedOf` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -489,7 +489,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.domain.extension",
         "sliceName" : "domain",
         "short" : "Cross-version extension for MedicinalProductDefinition.domain from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.domain` is mapped to FHIR R4 element `MedicinalProduct.domain`.",
+        "comment" : "Element `MedicinalProductDefinition.domain` has is mapped to FHIR R4 element `MedicinalProduct.domain`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -532,7 +532,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.specialMeasures.extension",
         "sliceName" : "specialMeasures",
         "short" : "Cross-version extension for MedicinalProductDefinition.specialMeasures from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.specialMeasures` is mapped to FHIR R4 element `MedicinalProduct.specialMeasures`.",
+        "comment" : "Element `MedicinalProductDefinition.specialMeasures` has is mapped to FHIR R4 element `MedicinalProduct.specialMeasures`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -575,7 +575,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.packagedMedicinalProduct.extension",
         "sliceName" : "packagedMedicinalProduct",
         "short" : "Cross-version extension for MedicinalProductDefinition.packagedMedicinalProduct from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.packagedMedicinalProduct` is mapped to FHIR R4 element `MedicinalProduct.packagedMedicinalProduct`.",
+        "comment" : "Element `MedicinalProductDefinition.packagedMedicinalProduct` has is mapped to FHIR R4 element `MedicinalProduct.packagedMedicinalProduct`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -619,7 +619,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "sliceName" : "attachedDocument",
         "short" : "Cross-version extension for MedicinalProductDefinition.attachedDocument from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.attachedDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.attachedDocument` is mapped to FHIR R4 element `MedicinalProduct.attachedDocument`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.attachedDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.attachedDocument` has is mapped to FHIR R4 element `MedicinalProduct.attachedDocument`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -663,7 +663,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "sliceName" : "masterFile",
         "short" : "Cross-version extension for MedicinalProductDefinition.masterFile from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.masterFile` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.masterFile` is mapped to FHIR R4 element `MedicinalProduct.masterFile`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.masterFile` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.masterFile` has is mapped to FHIR R4 element `MedicinalProduct.masterFile`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -706,7 +706,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.contact.extension",
         "sliceName" : "contact",
         "short" : "Cross-version extension for MedicinalProductDefinition.contact from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.contact` is mapped to FHIR R4 element `MedicinalProduct.contact`.",
+        "comment" : "Element `MedicinalProductDefinition.contact` has is mapped to FHIR R4 element `MedicinalProduct.contact`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -736,7 +736,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 0,
+        "min" : 1,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -745,57 +745,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         }
       },
       {
-        "id" : "MedicinalProduct.name.extension:type",
+        "id" : "MedicinalProduct.name.extension:name",
         "path" : "MedicinalProduct.name.extension",
-        "sliceName" : "type",
-        "short" : "Cross-version extension for MedicinalProductDefinition.name.type from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.name.type` is will have a context of MedicinalProduct.name based on following the parent source element upwards and mapping to `MedicinalProduct`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.type|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "MedicinalProduct.name.namePart.type.extension",
-        "path" : "MedicinalProduct.name.namePart.type.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
+        "sliceName" : "name",
+        "short" : "Cross-version extension for MedicinalProductDefinition.name from R5 for use in FHIR R4",
+        "comment" : "Element `MedicinalProductDefinition.name` has is mapped to FHIR R4 element `MedicinalProduct.name`, but has no comparisons.",
         "min" : 1,
         "max" : "*",
         "base" : {
-          "path" : "MedicinalProduct.name.namePart.type",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "MedicinalProduct.name.namePart.type.extension:type",
-        "path" : "MedicinalProduct.name.namePart.type.extension",
-        "sliceName" : "type",
-        "short" : "Cross-version extension for MedicinalProductDefinition.name.part.type from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.name.part.type` is mapped to FHIR R4 element `MedicinalProduct.name.namePart.type`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
           "max" : "*"
@@ -804,50 +761,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.part.type|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "MedicinalProduct.name.countryLanguage.language.extension",
-        "path" : "MedicinalProduct.name.countryLanguage.language.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1,
-        "max" : "*",
-        "base" : {
-          "path" : "MedicinalProduct.name.countryLanguage.language",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "MedicinalProduct.name.countryLanguage.language.extension:language",
-        "path" : "MedicinalProduct.name.countryLanguage.language.extension",
-        "sliceName" : "language",
-        "short" : "Cross-version extension for MedicinalProductDefinition.name.usage.language from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.name.usage.language` is mapped to FHIR R4 element `MedicinalProduct.name.countryLanguage.language`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.usage.language|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -878,7 +792,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicinal
         "path" : "MedicinalProduct.crossReference.extension",
         "sliceName" : "crossReference",
         "short" : "Cross-version extension for MedicinalProductDefinition.crossReference from R5 for use in FHIR R4",
-        "comment" : "Element `MedicinalProductDefinition.crossReference` is mapped to FHIR R4 element `MedicinalProduct.crossReference`.",
+        "comment" : "Element `MedicinalProductDefinition.crossReference` has is mapped to FHIR R4 element `MedicinalProduct.crossReference`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

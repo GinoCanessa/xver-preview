@@ -1,4 +1,4 @@
-# W3cProvenanceActivityType - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# W3cProvenanceActivityType - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## CodeSystem: W3cProvenanceActivityType (Experimental) 
 

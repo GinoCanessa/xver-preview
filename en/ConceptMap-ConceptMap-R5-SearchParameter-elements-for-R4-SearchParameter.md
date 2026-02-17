@@ -1,4 +1,4 @@
-# ConceptMapR5SearchParameterElementsForR4SearchParameter - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5SearchParameterElementsForR4SearchParameter - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5SearchParameterElementsForR4SearchParameter 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2091031-06:00",
+  "date" : "2026-02-17T14:42:27.5334979-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `SearchParameter` is representable via FHIR R4 Resource `SearchParameter`.\nElement `SearchParameter` is mapped to FHIR R4 element `SearchParameter`."
+              "comment" : "FHIR R5 Resource `SearchParameter` is representable via FHIR R4 Resource `SearchParameter`.\nElement `SearchParameter` has is mapped to FHIR R4 element `SearchParameter`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.meta` is mapped to FHIR R4 element `SearchParameter.meta`."
+              "comment" : "Element `SearchParameter.meta` has is mapped to FHIR R4 element `SearchParameter.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.implicitRules` is mapped to FHIR R4 element `SearchParameter.implicitRules`."
+              "comment" : "Element `SearchParameter.implicitRules` has is mapped to FHIR R4 element `SearchParameter.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.language` is mapped to FHIR R4 element `SearchParameter.language`."
+              "comment" : "Element `SearchParameter.language` has is mapped to FHIR R4 element `SearchParameter.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.text` is mapped to FHIR R4 element `SearchParameter.text`."
+              "comment" : "Element `SearchParameter.text` has is mapped to FHIR R4 element `SearchParameter.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.contained` is mapped to FHIR R4 element `SearchParameter.contained`."
+              "comment" : "Element `SearchParameter.contained` has is mapped to FHIR R4 element `SearchParameter.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.url` is mapped to FHIR R4 element `SearchParameter.url`."
+              "comment" : "Element `SearchParameter.url` has is mapped to FHIR R4 element `SearchParameter.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `SearchParameter.identifier` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
+              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `SearchParameter.identifier` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.version` is mapped to FHIR R4 element `SearchParameter.version`."
+              "comment" : "Element `SearchParameter.version` has is mapped to FHIR R4 element `SearchParameter.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.versionAlgorithm[x]` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
+              "comment" : "Element `SearchParameter.versionAlgorithm[x]` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.name` is mapped to FHIR R4 element `SearchParameter.name`."
+              "comment" : "Element `SearchParameter.name` has is mapped to FHIR R4 element `SearchParameter.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.title` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
+              "comment" : "Element `SearchParameter.title` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.derivedFrom",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.derivedFrom` is mapped to FHIR R4 element `SearchParameter.derivedFrom`."
+              "comment" : "Element `SearchParameter.derivedFrom` has is mapped to FHIR R4 element `SearchParameter.derivedFrom`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.status` is mapped to FHIR R4 element `SearchParameter.status`."
+              "comment" : "Element `SearchParameter.status` has is mapped to FHIR R4 element `SearchParameter.status`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.experimental` is mapped to FHIR R4 element `SearchParameter.experimental`."
+              "comment" : "Element `SearchParameter.experimental` has is mapped to FHIR R4 element `SearchParameter.experimental`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.date` is mapped to FHIR R4 element `SearchParameter.date`."
+              "comment" : "Element `SearchParameter.date` has is mapped to FHIR R4 element `SearchParameter.date`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.publisher` is mapped to FHIR R4 element `SearchParameter.publisher`."
+              "comment" : "Element `SearchParameter.publisher` has is mapped to FHIR R4 element `SearchParameter.publisher`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.contact` is mapped to FHIR R4 element `SearchParameter.contact`."
+              "comment" : "Element `SearchParameter.contact` has is mapped to FHIR R4 element `SearchParameter.contact`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.description` is mapped to FHIR R4 element `SearchParameter.description`."
+              "comment" : "Element `SearchParameter.description` has is mapped to FHIR R4 element `SearchParameter.description`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.useContext` is mapped to FHIR R4 element `SearchParameter.useContext`."
+              "comment" : "Element `SearchParameter.useContext` has is mapped to FHIR R4 element `SearchParameter.useContext`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.jurisdiction` is mapped to FHIR R4 element `SearchParameter.jurisdiction`."
+              "comment" : "Element `SearchParameter.jurisdiction` has is mapped to FHIR R4 element `SearchParameter.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.purpose` is mapped to FHIR R4 element `SearchParameter.purpose`."
+              "comment" : "Element `SearchParameter.purpose` has is mapped to FHIR R4 element `SearchParameter.purpose`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.copyright` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
+              "comment" : "Element `SearchParameter.copyright` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.copyrightLabel` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
+              "comment" : "Element `SearchParameter.copyrightLabel` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.code` is mapped to FHIR R4 element `SearchParameter.code`."
+              "comment" : "Element `SearchParameter.code` has is mapped to FHIR R4 element `SearchParameter.code`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.base",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.base` is mapped to FHIR R4 element `SearchParameter.base`."
+              "comment" : "Element `SearchParameter.base` has is mapped to FHIR R4 element `SearchParameter.base`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.type` is mapped to FHIR R4 element `SearchParameter.type`."
+              "comment" : "Element `SearchParameter.type` has is mapped to FHIR R4 element `SearchParameter.type`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.expression` is mapped to FHIR R4 element `SearchParameter.expression`."
+              "comment" : "Element `SearchParameter.expression` has is mapped to FHIR R4 element `SearchParameter.expression`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.xpathUsage",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.processingMode` is mapped to FHIR R4 element `SearchParameter.xpathUsage`."
+              "comment" : "Element `SearchParameter.processingMode` has is mapped to FHIR R4 element `SearchParameter.xpathUsage`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.constraint` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
+              "comment" : "Element `SearchParameter.constraint` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.target` is mapped to FHIR R4 element `SearchParameter.target`."
+              "comment" : "Element `SearchParameter.target` has is mapped to FHIR R4 element `SearchParameter.target`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.multipleOr",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.multipleOr` is mapped to FHIR R4 element `SearchParameter.multipleOr`."
+              "comment" : "Element `SearchParameter.multipleOr` has is mapped to FHIR R4 element `SearchParameter.multipleOr`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.multipleAnd",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.multipleAnd` is mapped to FHIR R4 element `SearchParameter.multipleAnd`."
+              "comment" : "Element `SearchParameter.multipleAnd` has is mapped to FHIR R4 element `SearchParameter.multipleAnd`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.comparator",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.comparator` is mapped to FHIR R4 element `SearchParameter.comparator`."
+              "comment" : "Element `SearchParameter.comparator` has is mapped to FHIR R4 element `SearchParameter.comparator`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.modifier` is mapped to FHIR R4 element `SearchParameter.modifier`."
+              "comment" : "Element `SearchParameter.modifier` has is mapped to FHIR R4 element `SearchParameter.modifier`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.chain",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.chain` is mapped to FHIR R4 element `SearchParameter.chain`."
+              "comment" : "Element `SearchParameter.chain` has is mapped to FHIR R4 element `SearchParameter.chain`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.component",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.component` is mapped to FHIR R4 element `SearchParameter.component`."
+              "comment" : "Element `SearchParameter.component` has is mapped to FHIR R4 element `SearchParameter.component`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.component.definition",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.component.definition` is mapped to FHIR R4 element `SearchParameter.component.definition`."
+              "comment" : "Element `SearchParameter.component.definition` is part of an existing definition because parent element `SearchParameter.component` requires a cross-version extension.\nElement `SearchParameter.component.definition` has is mapped to FHIR R4 element `SearchParameter.component.definition`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SearchParameter#SearchParameter.component.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `SearchParameter.component.expression` is mapped to FHIR R4 element `SearchParameter.component.expression`."
+              "comment" : "Element `SearchParameter.component.expression` is part of an existing definition because parent element `SearchParameter.component` requires a cross-version extension.\nElement `SearchParameter.component.expression` has is mapped to FHIR R4 element `SearchParameter.component.expression`, but has no comparisons."
             }
           ]
         }

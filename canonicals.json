@@ -1799,6 +1799,13 @@
     "name" : "ExtensionAccount_CalculatedAt"
   },
   {
+    "id" : "ext-R5-Account.coverage",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.coverage",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionAccount_Coverage"
+  },
+  {
     "id" : "ext-R5-Account.currency",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.currency",
@@ -1813,6 +1820,13 @@
     "name" : "ExtensionAccount_Diagnosis"
   },
   {
+    "id" : "ext-R5-Account.guarantor",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.guarantor",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionAccount_Guarantor"
+  },
+  {
     "id" : "ext-R5-Account.procedure",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure",
@@ -1820,11 +1834,11 @@
     "name" : "ExtensionAccount_Procedure"
   },
   {
-    "id" : "ext-R5-Account.rel.relationship",
+    "id" : "ext-R5-Account.relatedAccount",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.relatedAccount.relationship",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.relatedAccount",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionAccount_RelatedAccount_Relationship"
+    "name" : "ExtensionAccount_RelatedAccount"
   },
   {
     "id" : "ext-R5-ActivityDefinition.asNeeded",
@@ -1841,6 +1855,13 @@
     "name" : "ExtensionActivityDefinition_CopyrightLabel"
   },
   {
+    "id" : "ext-R5-ActivityDefinition.dynamicValue",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.dynamicValue",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionActivityDefinition_DynamicValue"
+  },
+  {
     "id" : "ext-R5-ActivityDefinition.kind",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.kind",
@@ -1855,18 +1876,11 @@
     "name" : "ExtensionActivityDefinition_Location"
   },
   {
-    "id" : "ext-R5-ActivityDefinition.par.function",
+    "id" : "ext-R5-ActivityDefinition.participant",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.participant.function",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.participant",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionActivityDefinition_Participant_Function"
-  },
-  {
-    "id" : "ext-R5-ActivityDefinition.par.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActivityDefinition.participant.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionActivityDefinition_Participant_Type"
+    "name" : "ExtensionActivityDefinition_Participant"
   },
   {
     "id" : "ext-R5-ActivityDefinition.product",
@@ -1967,18 +1981,11 @@
     "name" : "ExtensionAdverseEvent_SupportingInfo"
   },
   {
-    "id" : "ext-R5-AdverseEvent.sus.cau.entityRelatedness",
+    "id" : "ext-R5-AdverseEvent.suspectEntity",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.causality.entityRelatedness",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionAdverseEvent_SuspectEntity_Causality_EntityRelatedness"
-  },
-  {
-    "id" : "ext-R5-AdverseEvent.sus.instance",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.instance",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionAdverseEvent_SuspectEntity_Instance"
+    "name" : "ExtensionAdverseEvent_SuspectEntity"
   },
   {
     "id" : "ext-R5-Age.comparator",
@@ -1995,11 +2002,11 @@
     "name" : "ExtensionAllergyIntolerance_Participant"
   },
   {
-    "id" : "ext-R5-AllergyIntolerance.rea.manifestation",
+    "id" : "ext-R5-AllergyIntolerance.reaction",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.reaction.manifestation",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.reaction",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionAllergyIntolerance_Reaction_Manifestation"
+    "name" : "ExtensionAllergyIntolerance_Reaction"
   },
   {
     "id" : "ext-R5-AllergyIntolerance.type",
@@ -2051,11 +2058,11 @@
     "name" : "ExtensionAppointment_OccurrenceChanged"
   },
   {
-    "id" : "ext-R5-Appointment.par.required",
+    "id" : "ext-R5-Appointment.participant",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.required",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionAppointment_Participant_Required"
+    "name" : "ExtensionAppointment_Participant"
   },
   {
     "id" : "ext-R5-Appointment.patientInstruction",
@@ -2205,32 +2212,11 @@
     "name" : "ExtensionAuditEvent_Code"
   },
   {
-    "id" : "ext-R5-AuditEvent.ent.agent",
+    "id" : "ext-R5-AuditEvent.entity",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionAuditEvent_Entity_Agent"
-  },
-  {
-    "id" : "ext-R5-AuditEvent.ent.detail",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.detail",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionAuditEvent_Entity_Detail"
-  },
-  {
-    "id" : "ext-R5-AuditEvent.ent.role",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.role",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionAuditEvent_Entity_Role"
-  },
-  {
-    "id" : "ext-R5-AuditEvent.ent.securityLabel",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.securityLabel",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionAuditEvent_Entity_SecurityLabel"
+    "name" : "ExtensionAuditEvent_Entity"
   },
   {
     "id" : "ext-R5-AuditEvent.occurred",
@@ -2282,6 +2268,13 @@
     "name" : "ExtensionBiologicallyDerivedProduct_BiologicalSourceEvent"
   },
   {
+    "id" : "ext-R5-BiologicallyDerivedProduct.collection",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.collection",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionBiologicallyDerivedProduct_Collection"
+  },
+  {
     "id" : "ext-R5-BiologicallyDerivedProduct.division",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BiologicallyDerivedProduct.division",
@@ -2331,13 +2324,6 @@
     "name" : "ExtensionBiologicallyDerivedProductDispense"
   },
   {
-    "id" : "ext-R5-BodyStructure.excludedStructure",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.excludedStructure",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionBodyStructure_ExcludedStructure"
-  },
-  {
     "id" : "ext-R5-BodyStructure.includedStructure",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure",
@@ -2345,32 +2331,11 @@
     "name" : "ExtensionBodyStructure_IncludedStructure"
   },
   {
-    "id" : "ext-R5-BodyStructure.inc.bLO",
+    "id" : "ext-R5-Bundle.entry",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.bodyLandmarkOrientation",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionBodyStructure_IncludedStructure_BodyLandmarkOrientation"
-  },
-  {
-    "id" : "ext-R5-BodyStructure.inc.laterality",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.laterality",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionBodyStructure_IncludedStructure_Laterality"
-  },
-  {
-    "id" : "ext-R5-BodyStructure.inc.structure",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure.structure",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionBodyStructure_IncludedStructure_Structure"
-  },
-  {
-    "id" : "ext-R5-Bundle.ent.link",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.link",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionBundle_Entry_Link"
+    "name" : "ExtensionBundle_Entry"
   },
   {
     "id" : "ext-R5-Bundle.issues",
@@ -2385,13 +2350,6 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionBundle_Link"
-  },
-  {
-    "id" : "ext-R5-Bundle.lin.relation",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link.relation",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionBundle_Link_Relation"
   },
   {
     "id" : "ext-R5-Bundle.type",
@@ -2415,6 +2373,13 @@
     "name" : "ExtensionCapabilityStatement_CopyrightLabel"
   },
   {
+    "id" : "ext-R5-CapabilityStatement.document",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.document",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionCapabilityStatement_Document"
+  },
+  {
     "id" : "ext-R5-CapabilityStatement.fhirVersion",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.fhirVersion",
@@ -2422,46 +2387,32 @@
     "name" : "ExtensionCapabilityStatement_FhirVersion"
   },
   {
-    "id" : "ext-R5-CapabilityStatement.res.operation",
+    "id" : "ext-R5-CapabilityStatement.implementation",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.operation",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.implementation",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCapabilityStatement_Rest_Operation"
+    "name" : "ExtensionCapabilityStatement_Implementation"
   },
   {
-    "id" : "ext-R5-CapabilityStatement.res.res.conditionalPatch",
+    "id" : "ext-R5-CapabilityStatement.messaging",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.conditionalPatch",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCapabilityStatement_Rest_Resource_ConditionalPatch"
+    "name" : "ExtensionCapabilityStatement_Messaging"
   },
   {
-    "id" : "ext-R5-CapabilityStatement.res.res.operation",
+    "id" : "ext-R5-CapabilityStatement.rest",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.operation",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCapabilityStatement_Rest_Resource_Operation"
+    "name" : "ExtensionCapabilityStatement_Rest"
   },
   {
-    "id" : "ext-R5-CapabilityStatement.res.res.searchParam",
+    "id" : "ext-R5-CapabilityStatement.software",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.searchParam",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.software",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCapabilityStatement_Rest_Resource_SearchParam"
-  },
-  {
-    "id" : "ext-R5-CapabilityStatement.res.res.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCapabilityStatement_Rest_Resource_Type"
-  },
-  {
-    "id" : "ext-R5-CapabilityStatement.res.searchParam",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.searchParam",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCapabilityStatement_Rest_SearchParam"
+    "name" : "ExtensionCapabilityStatement_Software"
   },
   {
     "id" : "ext-R5-CapabilityStatement.versionAlgorithm",
@@ -2469,6 +2420,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.versionAlgorithm",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionCapabilityStatement_VersionAlgorithm"
+  },
+  {
+    "id" : "ext-R5-CarePlan.activity",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.activity",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionCarePlan_Activity"
   },
   {
     "id" : "ext-R5-CarePlan.addresses",
@@ -2485,11 +2443,11 @@
     "name" : "ExtensionCarePlan_Intent"
   },
   {
-    "id" : "ext-R5-CareTeam.par.coverage",
+    "id" : "ext-R5-CareTeam.participant",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.coverage",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCareTeam_Participant_Coverage"
+    "name" : "ExtensionCareTeam_Participant"
   },
   {
     "id" : "ext-R5-ChargeItem.overrideReason",
@@ -2497,6 +2455,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.overrideReason",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionChargeItem_OverrideReason"
+  },
+  {
+    "id" : "ext-R5-ChargeItem.performer",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.performer",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionChargeItem_Performer"
   },
   {
     "id" : "ext-R5-ChargeItem.service",
@@ -2541,11 +2506,11 @@
     "name" : "ExtensionChargeItemDefinition_Name"
   },
   {
-    "id" : "ext-R5-ChargeItemDefinition.pro.applicability",
+    "id" : "ext-R5-ChargeItemDefinition.propertyGroup",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.propertyGroup.applicability",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.propertyGroup",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionChargeItemDefinition_PropertyGroup_Applicability"
+    "name" : "ExtensionChargeItemDefinition_PropertyGroup"
   },
   {
     "id" : "ext-R5-ChargeItemDefinition.purpose",
@@ -2569,6 +2534,27 @@
     "name" : "ExtensionCitation"
   },
   {
+    "id" : "ext-R5-Claim.accident",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.accident",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionClaim_Accident"
+  },
+  {
+    "id" : "ext-R5-Claim.careTeam",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionClaim_CareTeam"
+  },
+  {
+    "id" : "ext-R5-Claim.diagnosis",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosis",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionClaim_Diagnosis"
+  },
+  {
     "id" : "ext-R5-Claim.diagnosisRelatedGroup",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosisRelatedGroup",
@@ -2583,88 +2569,18 @@
     "name" : "ExtensionClaim_Event"
   },
   {
-    "id" : "ext-R5-Claim.ite.det.patientPaid",
+    "id" : "ext-R5-Claim.insurance",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.patientPaid",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.insurance",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_Detail_PatientPaid"
+    "name" : "ExtensionClaim_Insurance"
   },
   {
-    "id" : "ext-R5-Claim.ite.det.productOrServiceEnd",
+    "id" : "ext-R5-Claim.item",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.productOrServiceEnd",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_Detail_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-Claim.ite.det.sub.patientPaid",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.patientPaid",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_Detail_SubDetail_PatientPaid"
-  },
-  {
-    "id" : "ext-R5-Claim.ite.det.sub.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_Detail_SubDetail_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-Claim.ite.det.sub.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_Detail_SubDetail_Tax"
-  },
-  {
-    "id" : "ext-R5-Claim.ite.det.sub.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_Detail_SubDetail_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-Claim.ite.det.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_Detail_Tax"
-  },
-  {
-    "id" : "ext-R5-Claim.ite.det.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_Detail_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-Claim.ite.patientPaid",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.patientPaid",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_PatientPaid"
-  },
-  {
-    "id" : "ext-R5-Claim.ite.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-Claim.ite.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_Tax"
-  },
-  {
-    "id" : "ext-R5-Claim.ite.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_Item_TraceNumber"
+    "name" : "ExtensionClaim_Item"
   },
   {
     "id" : "ext-R5-Claim.patientPaid",
@@ -2674,11 +2590,32 @@
     "name" : "ExtensionClaim_PatientPaid"
   },
   {
-    "id" : "ext-R5-Claim.sup.value",
+    "id" : "ext-R5-Claim.payee",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo.value",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.payee",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaim_SupportingInfo_Value"
+    "name" : "ExtensionClaim_Payee"
+  },
+  {
+    "id" : "ext-R5-Claim.procedure",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionClaim_Procedure"
+  },
+  {
+    "id" : "ext-R5-Claim.related",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionClaim_Related"
+  },
+  {
+    "id" : "ext-R5-Claim.supportingInfo",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionClaim_SupportingInfo"
   },
   {
     "id" : "ext-R5-Claim.traceNumber",
@@ -2688,144 +2625,11 @@
     "name" : "ExtensionClaim_TraceNumber"
   },
   {
-    "id" : "ext-R5-ClaimResponse.add.adjudication",
+    "id" : "ext-R5-ClaimResponse.addItem",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.adjudication",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Adjudication"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.bodySite",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.bodySite",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_BodySite"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.adjudication",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.adjudication",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_Adjudication"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.revenue",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.revenue",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_Revenue"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.sub.adjudication",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.adjudication",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_Adjudication"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.sub.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.sub.revenue",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.revenue",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_Revenue"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.sub.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.sub.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_Tax"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.sub.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.subDetail.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_SubDetail_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_Tax"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.det.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.detail.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Detail_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.revenue",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.revenue",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Revenue"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_Tax"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.add.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.addItem.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_AddItem_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.adjudication",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.adjudication",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Adjudication"
+    "name" : "ExtensionClaimResponse_AddItem"
   },
   {
     "id" : "ext-R5-ClaimResponse.decision",
@@ -2842,11 +2646,11 @@
     "name" : "ExtensionClaimResponse_DiagnosisRelatedGroup"
   },
   {
-    "id" : "ext-R5-ClaimResponse.err.expression",
+    "id" : "ext-R5-ClaimResponse.error",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.error.expression",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.error",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Error_Expression"
+    "name" : "ExtensionClaimResponse_Error"
   },
   {
     "id" : "ext-R5-ClaimResponse.event",
@@ -2856,81 +2660,39 @@
     "name" : "ExtensionClaimResponse_Event"
   },
   {
-    "id" : "ext-R5-ClaimResponse.ite.adjudication",
+    "id" : "ext-R5-ClaimResponse.insurance",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.adjudication",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.insurance",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Item_Adjudication"
+    "name" : "ExtensionClaimResponse_Insurance"
   },
   {
-    "id" : "ext-R5-ClaimResponse.ite.adj.quantity",
+    "id" : "ext-R5-ClaimResponse.item",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.adjudication.quantity",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Item_Adjudication_Quantity"
+    "name" : "ExtensionClaimResponse_Item"
   },
   {
-    "id" : "ext-R5-ClaimResponse.ite.det.adjudication",
+    "id" : "ext-R5-ClaimResponse.payment",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.adjudication",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.payment",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Item_Detail_Adjudication"
+    "name" : "ExtensionClaimResponse_Payment"
   },
   {
-    "id" : "ext-R5-ClaimResponse.ite.det.reviewOutcome",
+    "id" : "ext-R5-ClaimResponse.processNote",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.reviewOutcome",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.processNote",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Item_Detail_ReviewOutcome"
+    "name" : "ExtensionClaimResponse_ProcessNote"
   },
   {
-    "id" : "ext-R5-ClaimResponse.ite.det.sub.adjudication",
+    "id" : "ext-R5-ClaimResponse.total",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.adjudication",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.total",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Item_Detail_SubDetail_Adjudication"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.ite.det.sub.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Item_Detail_SubDetail_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.ite.det.sub.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.subDetail.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Item_Detail_SubDetail_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.ite.det.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.detail.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Item_Detail_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.ite.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Item_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.ite.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.item.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_Item_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ClaimResponse.pro.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClaimResponse.processNote.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionClaimResponse_ProcessNote_Type"
+    "name" : "ExtensionClaimResponse_Total"
   },
   {
     "id" : "ext-R5-ClaimResponse.traceNumber",
@@ -2945,6 +2707,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.changePattern",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionClinicalImpression_ChangePattern"
+  },
+  {
+    "id" : "ext-R5-ClinicalImpression.finding",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ClinicalImpression.finding",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionClinicalImpression_Finding"
   },
   {
     "id" : "ext-R5-ClinicalImpression.status",
@@ -2982,13 +2751,6 @@
     "name" : "ExtensionCodeSystem_Concept"
   },
   {
-    "id" : "ext-R5-CodeSystem.con.des.additionalUse",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.concept.designation.additionalUse",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCodeSystem_Concept_Designation_AdditionalUse"
-  },
-  {
     "id" : "ext-R5-CodeSystem.copyrightLabel",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.copyrightLabel",
@@ -3017,11 +2779,11 @@
     "name" : "ExtensionCodeSystem_Endorser"
   },
   {
-    "id" : "ext-R5-CodeSystem.fil.operator",
+    "id" : "ext-R5-CodeSystem.filter",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter.operator",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.filter",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCodeSystem_Filter_Operator"
+    "name" : "ExtensionCodeSystem_Filter"
   },
   {
     "id" : "ext-R5-CodeSystem.lastReviewDate",
@@ -3029,6 +2791,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.lastReviewDate",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionCodeSystem_LastReviewDate"
+  },
+  {
+    "id" : "ext-R5-CodeSystem.property",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CodeSystem.property",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionCodeSystem_Property"
   },
   {
     "id" : "ext-R5-CodeSystem.relatedArtifact",
@@ -3087,25 +2856,11 @@
     "name" : "ExtensionCompartmentDefinition_Code"
   },
   {
-    "id" : "ext-R5-CD.res.code",
+    "id" : "ext-R5-CompartmentDefinition.resource",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.code",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCompartmentDefinition_Resource_Code"
-  },
-  {
-    "id" : "ext-R5-CD.res.endParam",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.endParam",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCompartmentDefinition_Resource_EndParam"
-  },
-  {
-    "id" : "ext-R5-CD.res.startParam",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource.startParam",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCompartmentDefinition_Resource_StartParam"
+    "name" : "ExtensionCompartmentDefinition_Resource"
   },
   {
     "id" : "ext-R5-CompartmentDefinition.title",
@@ -3122,11 +2877,18 @@
     "name" : "ExtensionCompartmentDefinition_VersionAlgorithm"
   },
   {
-    "id" : "ext-R5-Composition.att.mode",
+    "id" : "ext-R5-Composition.attester",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.attester.mode",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.attester",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionComposition_Attester_Mode"
+    "name" : "ExtensionComposition_Attester"
+  },
+  {
+    "id" : "ext-R5-Composition.event",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.event",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionComposition_Event"
   },
   {
     "id" : "ext-R5-Composition.name",
@@ -3227,39 +2989,11 @@
     "name" : "ExtensionConceptMap_Endorser"
   },
   {
-    "id" : "ext-R5-ConceptMap.gro.ele.noMap",
+    "id" : "ext-R5-ConceptMap.group",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.noMap",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionConceptMap_Group_Element_NoMap"
-  },
-  {
-    "id" : "ext-R5-ConceptMap.gro.ele.tar.dependsOn",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.target.dependsOn",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionConceptMap_Group_Element_Target_DependsOn"
-  },
-  {
-    "id" : "ext-R5-ConceptMap.gro.ele.tar.product",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.target.product",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionConceptMap_Group_Element_Target_Product"
-  },
-  {
-    "id" : "ext-R5-ConceptMap.gro.ele.tar.property",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.element.target.property",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionConceptMap_Group_Element_Target_Property"
-  },
-  {
-    "id" : "ext-R5-ConceptMap.gro.unm.relationship",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConceptMap.group.unmapped.relationship",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionConceptMap_Group_Unmapped_Relationship"
+    "name" : "ExtensionConceptMap_Group"
   },
   {
     "id" : "ext-R5-ConceptMap.lastReviewDate",
@@ -3318,6 +3052,13 @@
     "name" : "ExtensionCondition_Participant"
   },
   {
+    "id" : "ext-R5-Condition.stage",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.stage",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionCondition_Stage"
+  },
+  {
     "id" : "ext-R5-ConditionDefinition",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ConditionDefinition",
@@ -3339,18 +3080,18 @@
     "name" : "ExtensionConsent_Period"
   },
   {
+    "id" : "ext-R5-Consent.policyBasis",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.policyBasis",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionConsent_PolicyBasis"
+  },
+  {
     "id" : "ext-R5-Consent.provision",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionConsent_Provision"
-  },
-  {
-    "id" : "ext-R5-Consent.pro.expression",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.provision.expression",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionConsent_Provision_Expression"
   },
   {
     "id" : "ext-R5-Consent.status",
@@ -3360,11 +3101,18 @@
     "name" : "ExtensionConsent_Status"
   },
   {
-    "id" : "ext-R5-Consent.ver.verificationType",
+    "id" : "ext-R5-Consent.verification",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification.verificationType",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Consent.verification",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionConsent_Verification_VerificationType"
+    "name" : "ExtensionConsent_Verification"
+  },
+  {
+    "id" : "ext-R5-Contract.contentDefinition",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.contentDefinition",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionContract_ContentDefinition"
   },
   {
     "id" : "ext-R5-Contract.friendly",
@@ -3395,25 +3143,18 @@
     "name" : "ExtensionContract_Rule"
   },
   {
+    "id" : "ext-R5-Contract.signer",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.signer",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionContract_Signer"
+  },
+  {
     "id" : "ext-R5-Contract.term",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionContract_Term"
-  },
-  {
-    "id" : "ext-R5-Contract.ter.ass.answer",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term.asset.answer",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionContract_Term_Asset_Answer"
-  },
-  {
-    "id" : "ext-R5-Contract.ter.off.answer",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term.offer.answer",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionContract_Term_Offer_Answer"
   },
   {
     "id" : "ext-R5-Count.comparator",
@@ -3423,39 +3164,18 @@
     "name" : "ExtensionCount_Comparator"
   },
   {
-    "id" : "ext-R5-Coverage.cla.value",
+    "id" : "ext-R5-Coverage.class",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class.value",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.class",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCoverage_Class_Value"
+    "name" : "ExtensionCoverage_Class"
   },
   {
-    "id" : "ext-R5-Coverage.cos.category",
+    "id" : "ext-R5-Coverage.costToBeneficiary",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.category",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCoverage_CostToBeneficiary_Category"
-  },
-  {
-    "id" : "ext-R5-Coverage.cos.network",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.network",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCoverage_CostToBeneficiary_Network"
-  },
-  {
-    "id" : "ext-R5-Coverage.cos.term",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.term",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCoverage_CostToBeneficiary_Term"
-  },
-  {
-    "id" : "ext-R5-Coverage.cos.unit",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.costToBeneficiary.unit",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCoverage_CostToBeneficiary_Unit"
+    "name" : "ExtensionCoverage_CostToBeneficiary"
   },
   {
     "id" : "ext-R5-Coverage.kind",
@@ -3486,11 +3206,32 @@
     "name" : "ExtensionCoverageEligibilityRequest_Event"
   },
   {
-    "id" : "ext-R5-CER.err.expression",
+    "id" : "ext-R5-CoverageEligibilityRequest.insurance",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.error.expression",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.insurance",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionCoverageEligibilityResponse_Error_Expression"
+    "name" : "ExtensionCoverageEligibilityRequest_Insurance"
+  },
+  {
+    "id" : "ext-R5-CoverageEligibilityRequest.item",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionCoverageEligibilityRequest_Item"
+  },
+  {
+    "id" : "ext-R5-CoverageEligibilityRequest.supportingInfo",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.supportingInfo",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionCoverageEligibilityRequest_SupportingInfo"
+  },
+  {
+    "id" : "ext-R5-CoverageEligibilityResponse.error",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.error",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionCoverageEligibilityResponse_Error"
   },
   {
     "id" : "ext-R5-CoverageEligibilityResponse.event",
@@ -3498,6 +3239,34 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.event",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionCoverageEligibilityResponse_Event"
+  },
+  {
+    "id" : "ext-R5-CoverageEligibilityResponse.insurance",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.insurance",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionCoverageEligibilityResponse_Insurance"
+  },
+  {
+    "id" : "ext-R5-DataRequirement.codeFilter",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.codeFilter",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDataRequirement_CodeFilter"
+  },
+  {
+    "id" : "ext-R5-DataRequirement.dateFilter",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.dateFilter",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDataRequirement_DateFilter"
+  },
+  {
+    "id" : "ext-R5-DataRequirement.sort",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.sort",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDataRequirement_Sort"
   },
   {
     "id" : "ext-R5-DataRequirement.valueFilter",
@@ -3514,11 +3283,18 @@
     "name" : "ExtensionDetectedIssue_Category"
   },
   {
-    "id" : "ext-R5-DetectedIssue.mit.note",
+    "id" : "ext-R5-DetectedIssue.evidence",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation.note",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionDetectedIssue_Mitigation_Note"
+    "name" : "ExtensionDetectedIssue_Evidence"
+  },
+  {
+    "id" : "ext-R5-DetectedIssue.mitigation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDetectedIssue_Mitigation"
   },
   {
     "id" : "ext-R5-DetectedIssue.status",
@@ -3549,11 +3325,11 @@
     "name" : "ExtensionDevice_Category"
   },
   {
-    "id" : "ext-R5-Device.con.version",
+    "id" : "ext-R5-Device.conformsTo",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo.version",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.conformsTo",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionDevice_ConformsTo_Version"
+    "name" : "ExtensionDevice_ConformsTo"
   },
   {
     "id" : "ext-R5-Device.cycle",
@@ -3598,25 +3374,32 @@
     "name" : "ExtensionDevice_Mode"
   },
   {
-    "id" : "ext-R5-Device.pro.value",
+    "id" : "ext-R5-Device.name",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property.value",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.name",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionDevice_Property_Value"
+    "name" : "ExtensionDevice_Name"
   },
   {
-    "id" : "ext-R5-Device.udi.entryType",
+    "id" : "ext-R5-Device.property",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.udiCarrier.entryType",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.property",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionDevice_UdiCarrier_EntryType"
+    "name" : "ExtensionDevice_Property"
   },
   {
-    "id" : "ext-R5-Device.ver.installDate",
+    "id" : "ext-R5-Device.udiCarrier",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.version.installDate",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.udiCarrier",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionDevice_Version_InstallDate"
+    "name" : "ExtensionDevice_UdiCarrier"
+  },
+  {
+    "id" : "ext-R5-Device.version",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Device.version",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDevice_Version"
   },
   {
     "id" : "ext-R5-DeviceAssociation.category",
@@ -3668,6 +3451,13 @@
     "name" : "ExtensionDeviceDefinition_Classification"
   },
   {
+    "id" : "ext-R5-DeviceDefinition.conformsTo",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.conformsTo",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDeviceDefinition_ConformsTo"
+  },
+  {
     "id" : "ext-R5-DeviceDefinition.correctiveAction",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.correctiveAction",
@@ -3680,6 +3470,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.description",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionDeviceDefinition_Description"
+  },
+  {
+    "id" : "ext-R5-DeviceDefinition.deviceName",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.deviceName",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDeviceDefinition_DeviceName"
   },
   {
     "id" : "ext-R5-DeviceDefinition.guideline",
@@ -3703,6 +3500,13 @@
     "name" : "ExtensionDeviceDefinition_Link"
   },
   {
+    "id" : "ext-R5-DeviceDefinition.material",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.material",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDeviceDefinition_Material"
+  },
+  {
     "id" : "ext-R5-DeviceDefinition.packaging",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.packaging",
@@ -3724,11 +3528,11 @@
     "name" : "ExtensionDeviceDefinition_ProductionIdentifierInUDI"
   },
   {
-    "id" : "ext-R5-DeviceDefinition.pro.value",
+    "id" : "ext-R5-DeviceDefinition.property",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.property.value",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.property",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionDeviceDefinition_Property_Value"
+    "name" : "ExtensionDeviceDefinition_Property"
   },
   {
     "id" : "ext-R5-DeviceDefinition.regulatoryIdentifier",
@@ -3745,13 +3549,6 @@
     "name" : "ExtensionDeviceDefinition_UdiDeviceIdentifier"
   },
   {
-    "id" : "ext-R5-DeviceDefinition.udi.marketDistribution",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier.marketDistribution",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionDeviceDefinition_UdiDeviceIdentifier_MarketDistribution"
-  },
-  {
     "id" : "ext-R5-DeviceDefinition.version",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version",
@@ -3764,6 +3561,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDispense",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionDeviceDispense"
+  },
+  {
+    "id" : "ext-R5-DeviceMetric.calibration",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceMetric.calibration",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDeviceMetric_Calibration"
   },
   {
     "id" : "ext-R5-DeviceMetric.measurementFrequency",
@@ -3792,6 +3596,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.doNotPerform",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionDeviceRequest_DoNotPerform"
+  },
+  {
+    "id" : "ext-R5-DeviceRequest.parameter",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.parameter",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDeviceRequest_Parameter"
   },
   {
     "id" : "ext-R5-DeviceRequest.quantity",
@@ -3850,6 +3661,13 @@
     "name" : "ExtensionDeviceUsage_UsageStatus"
   },
   {
+    "id" : "ext-R5-DiagnosticReport.media",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.media",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDiagnosticReport_Media"
+  },
+  {
     "id" : "ext-R5-DiagnosticReport.note",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.note",
@@ -3892,11 +3710,11 @@
     "name" : "ExtensionDocumentReference_BodySite"
   },
   {
-    "id" : "ext-R5-DocumentReference.con.profile",
+    "id" : "ext-R5-DocumentReference.content",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content.profile",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionDocumentReference_Content_Profile"
+    "name" : "ExtensionDocumentReference_Content"
   },
   {
     "id" : "ext-R5-DocumentReference.docStatus",
@@ -3927,6 +3745,13 @@
     "name" : "ExtensionDocumentReference_Version"
   },
   {
+    "id" : "ext-R5-Dosage.doseAndRate",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Dosage.doseAndRate",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionDosage_DoseAndRate"
+  },
+  {
     "id" : "ext-R5-Duration.comparator",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Duration.comparator",
@@ -3934,11 +3759,25 @@
     "name" : "ExtensionDuration_Comparator"
   },
   {
-    "id" : "ext-R5-ElementDefinition.con.suppress",
+    "id" : "ext-R5-ElementDefinition.base",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.constraint.suppress",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.base",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionElementDefinition_Constraint_Suppress"
+    "name" : "ExtensionElementDefinition_Base"
+  },
+  {
+    "id" : "ext-R5-ElementDefinition.binding",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.binding",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionElementDefinition_Binding"
+  },
+  {
+    "id" : "ext-R5-ElementDefinition.constraint",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.constraint",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionElementDefinition_Constraint"
   },
   {
     "id" : "ext-R5-ElementDefinition.defaultValue",
@@ -3948,11 +3787,11 @@
     "name" : "ExtensionElementDefinition_DefaultValue"
   },
   {
-    "id" : "ext-R5-ElementDefinition.exa.value",
+    "id" : "ext-R5-ElementDefinition.example",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.example.value",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.example",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionElementDefinition_Example_Value"
+    "name" : "ExtensionElementDefinition_Example"
   },
   {
     "id" : "ext-R5-ElementDefinition.fixed",
@@ -3960,6 +3799,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.fixed",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionElementDefinition_Fixed"
+  },
+  {
+    "id" : "ext-R5-ElementDefinition.mapping",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.mapping",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionElementDefinition_Mapping"
   },
   {
     "id" : "ext-R5-ElementDefinition.maxValue",
@@ -3990,11 +3836,25 @@
     "name" : "ExtensionElementDefinition_Pattern"
   },
   {
-    "id" : "ext-R5-ElementDefinition.sli.dis.type",
+    "id" : "ext-R5-ElementDefinition.slicing",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.slicing.discriminator.type",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.slicing",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionElementDefinition_Slicing_Discriminator_Type"
+    "name" : "ExtensionElementDefinition_Slicing"
+  },
+  {
+    "id" : "ext-R5-ElementDefinition.type",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ElementDefinition.type",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionElementDefinition_Type"
+  },
+  {
+    "id" : "ext-R5-Encounter.admission",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionEncounter_Admission"
   },
   {
     "id" : "ext-R5-Encounter.class",
@@ -4004,11 +3864,25 @@
     "name" : "ExtensionEncounter_Class"
   },
   {
-    "id" : "ext-R5-Encounter.dia.condition",
+    "id" : "ext-R5-Encounter.diagnosis",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis.condition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEncounter_Diagnosis_Condition"
+    "name" : "ExtensionEncounter_Diagnosis"
+  },
+  {
+    "id" : "ext-R5-Encounter.location",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionEncounter_Location"
+  },
+  {
+    "id" : "ext-R5-Encounter.participant",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.participant",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionEncounter_Participant"
   },
   {
     "id" : "ext-R5-Encounter.plannedEndDate",
@@ -4023,6 +3897,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionEncounter_PlannedStartDate"
+  },
+  {
+    "id" : "ext-R5-Encounter.reason",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.reason",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionEncounter_Reason"
   },
   {
     "id" : "ext-R5-Encounter.serviceType",
@@ -4067,11 +3948,11 @@
     "name" : "ExtensionEncounterHistory_Class"
   },
   {
-    "id" : "ext-R5-EncounterHistory.loc.form",
+    "id" : "ext-R5-EncounterHistory.location",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.location.form",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EncounterHistory.location",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEncounterHistory_Location_Form"
+    "name" : "ExtensionEncounterHistory_Location"
   },
   {
     "id" : "ext-R5-EncounterHistory.plannedEndDate",
@@ -4130,18 +4011,18 @@
     "name" : "ExtensionEndpoint_EnvironmentType"
   },
   {
-    "id" : "ext-R5-Endpoint.pay.type",
+    "id" : "ext-R5-Endpoint.payload",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.payload.type",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.payload",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEndpoint_Payload_Type"
+    "name" : "ExtensionEndpoint_Payload"
   },
   {
-    "id" : "ext-R5-EpisodeOfCare.dia.condition",
+    "id" : "ext-R5-EpisodeOfCare.diagnosis",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis.condition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEpisodeOfCare_Diagnosis_Condition"
+    "name" : "ExtensionEpisodeOfCare_Diagnosis"
   },
   {
     "id" : "ext-R5-EpisodeOfCare.reason",
@@ -4149,6 +4030,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionEpisodeOfCare_Reason"
+  },
+  {
+    "id" : "ext-R5-EpisodeOfCare.statusHistory",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.statusHistory",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionEpisodeOfCare_StatusHistory"
   },
   {
     "id" : "ext-R5-EventDefinition.copyrightLabel",
@@ -4291,76 +4179,6 @@
     "name" : "ExtensionEvidenceVariable_Characteristic"
   },
   {
-    "id" : "ext-R5-EvidenceVariable.cha.dBC",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEvidenceVariable_Characteristic_DefinitionByCombination"
-  },
-  {
-    "id" : "ext-R5-EvidenceVariable.cha.dBTAV",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEvidenceVariable_Characteristic_DefinitionByTypeAndValue"
-  },
-  {
-    "id" : "ext-R5-EvidenceVariable.cha.dCC",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionCodeableConcept",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEvidenceVariable_Characteristic_DefinitionCodeableConcept"
-  },
-  {
-    "id" : "ext-R5-EvidenceVariable.cha.definitionExpression",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionExpression",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEvidenceVariable_Characteristic_DefinitionExpression"
-  },
-  {
-    "id" : "ext-R5-EvidenceVariable.cha.definitionId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEvidenceVariable_Characteristic_DefinitionId"
-  },
-  {
-    "id" : "ext-R5-EvidenceVariable.cha.duration",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.duration",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEvidenceVariable_Characteristic_Duration"
-  },
-  {
-    "id" : "ext-R5-EvidenceVariable.cha.instances",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.instances",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEvidenceVariable_Characteristic_Instances"
-  },
-  {
-    "id" : "ext-R5-EvidenceVariable.cha.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEvidenceVariable_Characteristic_LinkId"
-  },
-  {
-    "id" : "ext-R5-EvidenceVariable.cha.note",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.note",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEvidenceVariable_Characteristic_Note"
-  },
-  {
-    "id" : "ext-R5-EvidenceVariable.cha.timeFromEvent",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionEvidenceVariable_Characteristic_TimeFromEvent"
-  },
-  {
     "id" : "ext-R5-EvidenceVariable.copyright",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.copyright",
@@ -4417,6 +4235,13 @@
     "name" : "ExtensionEvidenceVariable_VersionAlgorithm"
   },
   {
+    "id" : "ext-R5-ExampleScenario.actor",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.actor",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionExampleScenario_Actor"
+  },
+  {
     "id" : "ext-R5-ExampleScenario.copyrightLabel",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.copyrightLabel",
@@ -4431,39 +4256,11 @@
     "name" : "ExtensionExampleScenario_Description"
   },
   {
-    "id" : "ext-R5-ExampleScenario.ins.containedInstance",
+    "id" : "ext-R5-ExampleScenario.instance",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.containedInstance",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExampleScenario_Instance_ContainedInstance"
-  },
-  {
-    "id" : "ext-R5-ExampleScenario.ins.structureProfile",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureProfile",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExampleScenario_Instance_StructureProfile"
-  },
-  {
-    "id" : "ext-R5-ExampleScenario.ins.structureType",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureType",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExampleScenario_Instance_StructureType"
-  },
-  {
-    "id" : "ext-R5-ExampleScenario.ins.structureVersion",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.structureVersion",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExampleScenario_Instance_StructureVersion"
-  },
-  {
-    "id" : "ext-R5-ExampleScenario.ins.ver.title",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.instance.version.title",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExampleScenario_Instance_Version_Title"
+    "name" : "ExtensionExampleScenario_Instance"
   },
   {
     "id" : "ext-R5-ExampleScenario.process",
@@ -4471,34 +4268,6 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionExampleScenario_Process"
-  },
-  {
-    "id" : "ext-R5-ExampleScenario.pro.ste.number",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.number",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExampleScenario_Process_Step_Number"
-  },
-  {
-    "id" : "ext-R5-ExampleScenario.pro.ste.ope.request",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.operation.request",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExampleScenario_Process_Step_Operation_Request"
-  },
-  {
-    "id" : "ext-R5-ExampleScenario.pro.ste.ope.response",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.operation.response",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExampleScenario_Process_Step_Operation_Response"
-  },
-  {
-    "id" : "ext-R5-ExampleScenario.pro.ste.ope.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExampleScenario.process.step.operation.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExampleScenario_Process_Step_Operation_Type"
   },
   {
     "id" : "ext-R5-ExampleScenario.title",
@@ -4515,165 +4284,32 @@
     "name" : "ExtensionExampleScenario_VersionAlgorithm"
   },
   {
-    "id" : "ext-R5-ExplanationOfBenefit.add.adjudication",
+    "id" : "ext-R5-ExplanationOfBenefit.accident",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.adjudication",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.accident",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Adjudication"
+    "name" : "ExtensionExplanationOfBenefit_Accident"
   },
   {
-    "id" : "ext-R5-ExplanationOfBenefit.add.bodySite",
+    "id" : "ext-R5-ExplanationOfBenefit.addItem",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.bodySite",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_BodySite"
+    "name" : "ExtensionExplanationOfBenefit_AddItem"
   },
   {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.adjudication",
+    "id" : "ext-R5-ExplanationOfBenefit.benefitBalance",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.adjudication",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.benefitBalance",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_Adjudication"
+    "name" : "ExtensionExplanationOfBenefit_BenefitBalance"
   },
   {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.patientPaid",
+    "id" : "ext-R5-ExplanationOfBenefit.careTeam",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.patientPaid",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.careTeam",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_PatientPaid"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.revenue",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.revenue",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_Revenue"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.sub.adjudication",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.adjudication",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_Adjudication"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.sub.patientPaid",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.patientPaid",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_PatientPaid"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.sub.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.sub.revenue",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.revenue",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_Revenue"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.sub.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.sub.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_Tax"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.sub.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.subDetail.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_SubDetail_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_Tax"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.det.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.detail.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Detail_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.patientPaid",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.patientPaid",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_PatientPaid"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.revenue",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.revenue",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Revenue"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_Tax"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.add.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.addItem.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_AddItem_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.adjudication",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.adjudication",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Adjudication"
+    "name" : "ExtensionExplanationOfBenefit_CareTeam"
   },
   {
     "id" : "ext-R5-ExplanationOfBenefit.decision",
@@ -4681,6 +4317,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.decision",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionExplanationOfBenefit_Decision"
+  },
+  {
+    "id" : "ext-R5-ExplanationOfBenefit.diagnosis",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.diagnosis",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionExplanationOfBenefit_Diagnosis"
   },
   {
     "id" : "ext-R5-ExplanationOfBenefit.diagnosisRelatedGroup",
@@ -4697,137 +4340,18 @@
     "name" : "ExtensionExplanationOfBenefit_Event"
   },
   {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.adjudication",
+    "id" : "ext-R5-ExplanationOfBenefit.insurance",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.adjudication",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.insurance",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Adjudication"
+    "name" : "ExtensionExplanationOfBenefit_Insurance"
   },
   {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.adj.quantity",
+    "id" : "ext-R5-ExplanationOfBenefit.item",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.adjudication.quantity",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Adjudication_Quantity"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.adjudication",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.adjudication",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_Adjudication"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.patientPaid",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.patientPaid",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_PatientPaid"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.sub.adjudication",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.adjudication",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_Adjudication"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.sub.patientPaid",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.patientPaid",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_PatientPaid"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.sub.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.sub.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.sub.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_Tax"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.sub.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.subDetail.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_SubDetail_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_Tax"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.det.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.detail.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Detail_TraceNumber"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.patientPaid",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.patientPaid",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_PatientPaid"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.productOrServiceEnd",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.productOrServiceEnd",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_ProductOrServiceEnd"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.reviewOutcome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.reviewOutcome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_ReviewOutcome"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.tax",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.tax",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_Tax"
-  },
-  {
-    "id" : "ext-R5-ExplanationOfBenefit.ite.traceNumber",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.item.traceNumber",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_Item_TraceNumber"
+    "name" : "ExtensionExplanationOfBenefit_Item"
   },
   {
     "id" : "ext-R5-ExplanationOfBenefit.patientPaid",
@@ -4837,18 +4361,53 @@
     "name" : "ExtensionExplanationOfBenefit_PatientPaid"
   },
   {
-    "id" : "ext-R5-ExplanationOfBenefit.pro.type",
+    "id" : "ext-R5-ExplanationOfBenefit.payee",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.processNote.type",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payee",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_ProcessNote_Type"
+    "name" : "ExtensionExplanationOfBenefit_Payee"
   },
   {
-    "id" : "ext-R5-ExplanationOfBenefit.sup.value",
+    "id" : "ext-R5-ExplanationOfBenefit.payment",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.supportingInfo.value",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.payment",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionExplanationOfBenefit_SupportingInfo_Value"
+    "name" : "ExtensionExplanationOfBenefit_Payment"
+  },
+  {
+    "id" : "ext-R5-ExplanationOfBenefit.procedure",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.procedure",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionExplanationOfBenefit_Procedure"
+  },
+  {
+    "id" : "ext-R5-ExplanationOfBenefit.processNote",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.processNote",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionExplanationOfBenefit_ProcessNote"
+  },
+  {
+    "id" : "ext-R5-ExplanationOfBenefit.related",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.related",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionExplanationOfBenefit_Related"
+  },
+  {
+    "id" : "ext-R5-ExplanationOfBenefit.supportingInfo",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.supportingInfo",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionExplanationOfBenefit_SupportingInfo"
+  },
+  {
+    "id" : "ext-R5-ExplanationOfBenefit.total",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExplanationOfBenefit.total",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionExplanationOfBenefit_Total"
   },
   {
     "id" : "ext-R5-ExplanationOfBenefit.traceNumber",
@@ -4877,6 +4436,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Extension.value",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionExtension_Value"
+  },
+  {
+    "id" : "ext-R5-FamilyMemberHistory.condition",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-FamilyMemberHistory.condition",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionFamilyMemberHistory_Condition"
   },
   {
     "id" : "ext-R5-FamilyMemberHistory.participant",
@@ -4914,6 +4480,13 @@
     "name" : "ExtensionGoal_Continuous"
   },
   {
+    "id" : "ext-R5-Goal.target",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.target",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionGoal_Target"
+  },
+  {
     "id" : "ext-R5-GraphDefinition.copyright",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.copyright",
@@ -4928,32 +4501,11 @@
     "name" : "ExtensionGraphDefinition_CopyrightLabel"
   },
   {
-    "id" : "ext-R5-GraphDefinition.lin.compartment",
+    "id" : "ext-R5-GraphDefinition.link",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionGraphDefinition_Link_Compartment"
-  },
-  {
-    "id" : "ext-R5-GraphDefinition.lin.params",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.params",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionGraphDefinition_Link_Params"
-  },
-  {
-    "id" : "ext-R5-GraphDefinition.lin.sourceId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.sourceId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionGraphDefinition_Link_SourceId"
-  },
-  {
-    "id" : "ext-R5-GraphDefinition.lin.targetId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.targetId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionGraphDefinition_Link_TargetId"
+    "name" : "ExtensionGraphDefinition_Link"
   },
   {
     "id" : "ext-R5-GraphDefinition.node",
@@ -4977,11 +4529,25 @@
     "name" : "ExtensionGraphDefinition_VersionAlgorithm"
   },
   {
+    "id" : "ext-R5-Group.characteristic",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionGroup_Characteristic"
+  },
+  {
     "id" : "ext-R5-Group.description",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionGroup_Description"
+  },
+  {
+    "id" : "ext-R5-Group.member",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionGroup_Member"
   },
   {
     "id" : "ext-R5-Group.membership",
@@ -5005,6 +4571,13 @@
     "name" : "ExtensionHealthcareService_Contact"
   },
   {
+    "id" : "ext-R5-HealthcareService.eligibility",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-HealthcareService.eligibility",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionHealthcareService_Eligibility"
+  },
+  {
     "id" : "ext-R5-ImagingSelection",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection",
@@ -5019,25 +4592,11 @@
     "name" : "ExtensionImagingStudy_Modality"
   },
   {
-    "id" : "ext-R5-ImagingStudy.ser.bodySite",
+    "id" : "ext-R5-ImagingStudy.series",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.bodySite",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionImagingStudy_Series_BodySite"
-  },
-  {
-    "id" : "ext-R5-ImagingStudy.ser.laterality",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.laterality",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionImagingStudy_Series_Laterality"
-  },
-  {
-    "id" : "ext-R5-ImagingStudy.ser.modality",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series.modality",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionImagingStudy_Series_Modality"
+    "name" : "ExtensionImagingStudy_Series"
   },
   {
     "id" : "ext-R5-Immunization.administeredProduct",
@@ -5061,11 +4620,39 @@
     "name" : "ExtensionImmunization_Manufacturer"
   },
   {
+    "id" : "ext-R5-Immunization.performer",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.performer",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionImmunization_Performer"
+  },
+  {
     "id" : "ext-R5-Immunization.programEligibility",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionImmunization_ProgramEligibility"
+  },
+  {
+    "id" : "ext-R5-Immunization.protocolApplied",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionImmunization_ProtocolApplied"
+  },
+  {
+    "id" : "ext-R5-Immunization.reaction",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reaction",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionImmunization_Reaction"
+  },
+  {
+    "id" : "ext-R5-ImmunizationRecommendation.recommendation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionImmunizationRecommendation_Recommendation"
   },
   {
     "id" : "ext-R5-ImplementationGuide.copyrightLabel",
@@ -5075,39 +4662,18 @@
     "name" : "ExtensionImplementationGuide_CopyrightLabel"
   },
   {
-    "id" : "ext-R5-ImplementationGuide.def.page",
+    "id" : "ext-R5-ImplementationGuide.definition",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.page",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionImplementationGuide_Definition_Page"
+    "name" : "ExtensionImplementationGuide_Definition"
   },
   {
-    "id" : "ext-R5-ImplementationGuide.def.pag.source",
+    "id" : "ext-R5-ImplementationGuide.dependsOn",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.page.source",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.dependsOn",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionImplementationGuide_Definition_Page_Source"
-  },
-  {
-    "id" : "ext-R5-ImplementationGuide.def.par.code",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.parameter.code",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionImplementationGuide_Definition_Parameter_Code"
-  },
-  {
-    "id" : "ext-R5-ImplementationGuide.def.res.fhirVersion",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.definition.resource.fhirVersion",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionImplementationGuide_Definition_Resource_FhirVersion"
-  },
-  {
-    "id" : "ext-R5-ImplementationGuide.dep.reason",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.dependsOn.reason",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionImplementationGuide_DependsOn_Reason"
+    "name" : "ExtensionImplementationGuide_DependsOn"
   },
   {
     "id" : "ext-R5-ImplementationGuide.fhirVersion",
@@ -5117,11 +4683,18 @@
     "name" : "ExtensionImplementationGuide_FhirVersion"
   },
   {
-    "id" : "ext-R5-ImplementationGuide.glo.type",
+    "id" : "ext-R5-ImplementationGuide.global",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.global.type",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.global",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionImplementationGuide_Global_Type"
+    "name" : "ExtensionImplementationGuide_Global"
+  },
+  {
+    "id" : "ext-R5-ImplementationGuide.manifest",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImplementationGuide.manifest",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionImplementationGuide_Manifest"
   },
   {
     "id" : "ext-R5-ImplementationGuide.purpose",
@@ -5145,6 +4718,20 @@
     "name" : "ExtensionIngredient"
   },
   {
+    "id" : "ext-R5-InsurancePlan.coverage",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionInsurancePlan_Coverage"
+  },
+  {
+    "id" : "ext-R5-InsurancePlan.plan",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionInsurancePlan_Plan"
+  },
+  {
     "id" : "ext-R5-InventoryItem",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem",
@@ -5166,11 +4753,18 @@
     "name" : "ExtensionInvoice_Creation"
   },
   {
-    "id" : "ext-R5-Invoice.lin.serviced",
+    "id" : "ext-R5-Invoice.lineItem",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem.serviced",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionInvoice_LineItem_Serviced"
+    "name" : "ExtensionInvoice_LineItem"
+  },
+  {
+    "id" : "ext-R5-Invoice.participant",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.participant",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionInvoice_Participant"
   },
   {
     "id" : "ext-R5-Invoice.period",
@@ -5194,6 +4788,20 @@
     "name" : "ExtensionLibrary_VersionAlgorithm"
   },
   {
+    "id" : "ext-R5-Linkage.item",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Linkage.item",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionLinkage_Item"
+  },
+  {
+    "id" : "ext-R5-List.entry",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-List.entry",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionList_Entry"
+  },
+  {
     "id" : "ext-R5-Location.characteristic",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.characteristic",
@@ -5206,6 +4814,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.contact",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionLocation_Contact"
+  },
+  {
+    "id" : "ext-R5-Location.position",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Location.position",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionLocation_Position"
   },
   {
     "id" : "ext-R5-Location.virtualService",
@@ -5236,95 +4851,11 @@
     "name" : "ExtensionMeasure_CopyrightLabel"
   },
   {
-    "id" : "ext-R5-Measure.gro.basis",
+    "id" : "ext-R5-Measure.group",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.basis",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_Basis"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.improvementNotation",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.improvementNotation",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_ImprovementNotation"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_LinkId"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.pop.aggregateMethod",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.aggregateMethod",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_Population_AggregateMethod"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.pop.inputPopulationId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.inputPopulationId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_Population_InputPopulationId"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.pop.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.population.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_Population_LinkId"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.rateAggregation",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.rateAggregation",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_RateAggregation"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.scoring",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoring",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_Scoring"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.scoringUnit",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.scoringUnit",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_ScoringUnit"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.str.com.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.component.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_Stratifier_Component_LinkId"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.str.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.stratifier.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_Stratifier_LinkId"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.subject",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.subject",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_Subject"
-  },
-  {
-    "id" : "ext-R5-Measure.gro.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.group.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_Group_Type"
+    "name" : "ExtensionMeasure_Group"
   },
   {
     "id" : "ext-R5-Measure.scoringUnit",
@@ -5334,11 +4865,11 @@
     "name" : "ExtensionMeasure_ScoringUnit"
   },
   {
-    "id" : "ext-R5-Measure.sup.linkId",
+    "id" : "ext-R5-Measure.supplementalData",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.supplementalData.linkId",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Measure.supplementalData",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasure_SupplementalData_LinkId"
+    "name" : "ExtensionMeasure_SupplementalData"
   },
   {
     "id" : "ext-R5-Measure.term",
@@ -5362,67 +4893,11 @@
     "name" : "ExtensionMeasureReport_DataUpdateType"
   },
   {
-    "id" : "ext-R5-MeasureReport.gro.linkId",
+    "id" : "ext-R5-MeasureReport.group",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.linkId",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasureReport_Group_LinkId"
-  },
-  {
-    "id" : "ext-R5-MeasureReport.gro.measureScore",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.measureScore",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasureReport_Group_MeasureScore"
-  },
-  {
-    "id" : "ext-R5-MeasureReport.gro.pop.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.population.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasureReport_Group_Population_LinkId"
-  },
-  {
-    "id" : "ext-R5-MeasureReport.gro.str.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasureReport_Group_Stratifier_LinkId"
-  },
-  {
-    "id" : "ext-R5-MeasureReport.gro.str.str.com.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasureReport_Group_Stratifier_Stratum_Component_LinkId"
-  },
-  {
-    "id" : "ext-R5-MeasureReport.gro.str.str.com.value",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.component.value",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasureReport_Group_Stratifier_Stratum_Component_Value"
-  },
-  {
-    "id" : "ext-R5-MeasureReport.gro.str.str.measureScore",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.measureScore",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasureReport_Group_Stratifier_Stratum_MeasureScore"
-  },
-  {
-    "id" : "ext-R5-MeasureReport.gro.str.str.pop.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.population.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasureReport_Group_Stratifier_Stratum_Population_LinkId"
-  },
-  {
-    "id" : "ext-R5-MeasureReport.gro.str.str.value",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MeasureReport.group.stratifier.stratum.value",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMeasureReport_Group_Stratifier_Stratum_Value"
+    "name" : "ExtensionMeasureReport_Group"
   },
   {
     "id" : "ext-R5-MeasureReport.scoring",
@@ -5432,11 +4907,18 @@
     "name" : "ExtensionMeasureReport_Scoring"
   },
   {
-    "id" : "ext-R5-Medication.ing.strength",
+    "id" : "ext-R5-Medication.batch",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient.strength",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.batch",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedication_Ingredient_Strength"
+    "name" : "ExtensionMedication_Batch"
+  },
+  {
+    "id" : "ext-R5-Medication.ingredient",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionMedication_Ingredient"
   },
   {
     "id" : "ext-R5-Medication.totalVolume",
@@ -5453,6 +4935,13 @@
     "name" : "ExtensionMedicationAdministration_Device"
   },
   {
+    "id" : "ext-R5-MedicationAdministration.dosage",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.dosage",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionMedicationAdministration_Dosage"
+  },
+  {
     "id" : "ext-R5-MedicationAdministration.isSubPotent",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.isSubPotent",
@@ -5467,11 +4956,11 @@
     "name" : "ExtensionMedicationAdministration_Occurence"
   },
   {
-    "id" : "ext-R5-MA.per.actor",
+    "id" : "ext-R5-MedicationAdministration.performer",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.performer.actor",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.performer",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicationAdministration_Performer_Actor"
+    "name" : "ExtensionMedicationAdministration_Performer"
   },
   {
     "id" : "ext-R5-MedicationAdministration.recorded",
@@ -5486,6 +4975,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationAdministration.subPotentReason",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionMedicationAdministration_SubPotentReason"
+  },
+  {
+    "id" : "ext-R5-MedicationDispense.performer",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.performer",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionMedicationDispense_Performer"
   },
   {
     "id" : "ext-R5-MedicationDispense.recorded",
@@ -5509,6 +5005,13 @@
     "name" : "ExtensionMedicationDispense_StatusChanged"
   },
   {
+    "id" : "ext-R5-MedicationDispense.substitution",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.substitution",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionMedicationDispense_Substitution"
+  },
+  {
     "id" : "ext-R5-MedicationKnowledge.cost",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost",
@@ -5516,46 +5019,18 @@
     "name" : "ExtensionMedicationKnowledge_Cost"
   },
   {
-    "id" : "ext-R5-MedicationKnowledge.cos.cost",
+    "id" : "ext-R5-MedicationKnowledge.definitional",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost.cost",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicationKnowledge_Cost_Cost"
+    "name" : "ExtensionMedicationKnowledge_Definitional"
   },
   {
-    "id" : "ext-R5-MedicationKnowledge.cos.effectiveDate",
+    "id" : "ext-R5-MedicationKnowledge.indicationGuideline",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost.effectiveDate",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicationKnowledge_Cost_EffectiveDate"
-  },
-  {
-    "id" : "ext-R5-MedicationKnowledge.def.dru.value",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.drugCharacteristic.value",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicationKnowledge_Definitional_DrugCharacteristic_Value"
-  },
-  {
-    "id" : "ext-R5-MedicationKnowledge.def.ing.strength",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.ingredient.strength",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicationKnowledge_Definitional_Ingredient_Strength"
-  },
-  {
-    "id" : "ext-R5-MedicationKnowledge.def.ing.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional.ingredient.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicationKnowledge_Definitional_Ingredient_Type"
-  },
-  {
-    "id" : "ext-R5-MedicationKnowledge.ind.dosingGuideline",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline.dosingGuideline",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicationKnowledge_IndicationGuideline_DosingGuideline"
+    "name" : "ExtensionMedicationKnowledge_IndicationGuideline"
   },
   {
     "id" : "ext-R5-MedicationKnowledge.intendedJurisdiction",
@@ -5565,11 +5040,25 @@
     "name" : "ExtensionMedicationKnowledge_IntendedJurisdiction"
   },
   {
-    "id" : "ext-R5-MedicationKnowledge.med.source",
+    "id" : "ext-R5-MedicationKnowledge.medicineClassification",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.medicineClassification.source",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.medicineClassification",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicationKnowledge_MedicineClassification_Source"
+    "name" : "ExtensionMedicationKnowledge_MedicineClassification"
+  },
+  {
+    "id" : "ext-R5-MedicationKnowledge.monitoringProgram",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.monitoringProgram",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionMedicationKnowledge_MonitoringProgram"
+  },
+  {
+    "id" : "ext-R5-MedicationKnowledge.monograph",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.monograph",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionMedicationKnowledge_Monograph"
   },
   {
     "id" : "ext-R5-MedicationKnowledge.packaging",
@@ -5577,6 +5066,20 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.packaging",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionMedicationKnowledge_Packaging"
+  },
+  {
+    "id" : "ext-R5-MedicationKnowledge.regulatory",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.regulatory",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionMedicationKnowledge_Regulatory"
+  },
+  {
+    "id" : "ext-R5-MedicationKnowledge.rMK",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.relatedMedicationKnowledge",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionMedicationKnowledge_RelatedMedicationKnowledge"
   },
   {
     "id" : "ext-R5-MedicationKnowledge.storageGuideline",
@@ -5593,18 +5096,11 @@
     "name" : "ExtensionMedicationRequest_Device"
   },
   {
-    "id" : "ext-R5-MedicationRequest.dis.dispenserInstruction",
+    "id" : "ext-R5-MedicationRequest.dispenseRequest",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.dispenserInstruction",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicationRequest_DispenseRequest_DispenserInstruction"
-  },
-  {
-    "id" : "ext-R5-MedicationRequest.dis.dAA",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.doseAdministrationAid",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicationRequest_DispenseRequest_DoseAdministrationAid"
+    "name" : "ExtensionMedicationRequest_DispenseRequest"
   },
   {
     "id" : "ext-R5-MedicationRequest.effectiveDosePeriod",
@@ -5633,6 +5129,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.statusChanged",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionMedicationRequest_StatusChanged"
+  },
+  {
+    "id" : "ext-R5-MedicationRequest.substitution",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.substitution",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionMedicationRequest_Substitution"
   },
   {
     "id" : "ext-R5-MedicationStatement.adherence",
@@ -5726,25 +5229,11 @@
     "name" : "ExtensionMedicinalProductDefinition_Ingredient"
   },
   {
-    "id" : "ext-R5-MPD.nam.par.type",
+    "id" : "ext-R5-MedicinalProductDefinition.name",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.part.type",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicinalProductDefinition_Name_Part_Type"
-  },
-  {
-    "id" : "ext-R5-MPD.nam.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicinalProductDefinition_Name_Type"
-  },
-  {
-    "id" : "ext-R5-MPD.nam.usa.language",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.name.usage.language",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMedicinalProductDefinition_Name_Usage_Language"
+    "name" : "ExtensionMedicinalProductDefinition_Name"
   },
   {
     "id" : "ext-R5-MedicinalProductDefinition.operation",
@@ -5803,6 +5292,13 @@
     "name" : "ExtensionMedicinalProductDefinition_Version"
   },
   {
+    "id" : "ext-R5-MessageDefinition.allowedResponse",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.allowedResponse",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionMessageDefinition_AllowedResponse"
+  },
+  {
     "id" : "ext-R5-MessageDefinition.copyrightLabel",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.copyrightLabel",
@@ -5810,11 +5306,11 @@
     "name" : "ExtensionMessageDefinition_CopyrightLabel"
   },
   {
-    "id" : "ext-R5-MessageDefinition.foc.code",
+    "id" : "ext-R5-MessageDefinition.focus",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.focus.code",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.focus",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMessageDefinition_Focus_Code"
+    "name" : "ExtensionMessageDefinition_Focus"
   },
   {
     "id" : "ext-R5-MessageDefinition.versionAlgorithm",
@@ -5824,25 +5320,25 @@
     "name" : "ExtensionMessageDefinition_VersionAlgorithm"
   },
   {
-    "id" : "ext-R5-MessageHeader.des.endpoint",
+    "id" : "ext-R5-MessageHeader.destination",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.endpoint",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMessageHeader_Destination_Endpoint"
+    "name" : "ExtensionMessageHeader_Destination"
   },
   {
-    "id" : "ext-R5-MessageHeader.res.identifier",
+    "id" : "ext-R5-MessageHeader.response",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response.identifier",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMessageHeader_Response_Identifier"
+    "name" : "ExtensionMessageHeader_Response"
   },
   {
-    "id" : "ext-R5-MessageHeader.sou.endpoint",
+    "id" : "ext-R5-MessageHeader.source",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.endpoint",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMessageHeader_Source_Endpoint"
+    "name" : "ExtensionMessageHeader_Source"
   },
   {
     "id" : "ext-R5-MolecularSequence.formatted",
@@ -5852,53 +5348,11 @@
     "name" : "ExtensionMolecularSequence_Formatted"
   },
   {
-    "id" : "ext-R5-MolecularSequence.rel.coordinateSystem",
+    "id" : "ext-R5-MolecularSequence.relative",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.coordinateSystem",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMolecularSequence_Relative_CoordinateSystem"
-  },
-  {
-    "id" : "ext-R5-MolecularSequence.rel.edi.start",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.edit.start",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMolecularSequence_Relative_Edit_Start"
-  },
-  {
-    "id" : "ext-R5-MolecularSequence.rel.ordinalPosition",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.ordinalPosition",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMolecularSequence_Relative_OrdinalPosition"
-  },
-  {
-    "id" : "ext-R5-MolecularSequence.rel.sequenceRange",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.sequenceRange",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMolecularSequence_Relative_SequenceRange"
-  },
-  {
-    "id" : "ext-R5-MolecularSequence.rel.sta.chromosome",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.startingSequence.chromosome",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMolecularSequence_Relative_StartingSequence_Chromosome"
-  },
-  {
-    "id" : "ext-R5-MolecularSequence.rel.sta.genomeAssembly",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.startingSequence.genomeAssembly",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMolecularSequence_Relative_StartingSequence_GenomeAssembly"
-  },
-  {
-    "id" : "ext-R5-MolecularSequence.rel.sta.sequence",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.startingSequence.sequence",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionMolecularSequence_Relative_StartingSequence_Sequence"
+    "name" : "ExtensionMolecularSequence_Relative"
   },
   {
     "id" : "ext-R5-MonetaryComponent",
@@ -6006,18 +5460,11 @@
     "name" : "ExtensionNamingSystem_Topic"
   },
   {
-    "id" : "ext-R5-NamingSystem.uni.authoritative",
+    "id" : "ext-R5-NamingSystem.uniqueId",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId.authoritative",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionNamingSystem_UniqueId_Authoritative"
-  },
-  {
-    "id" : "ext-R5-NamingSystem.uni.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionNamingSystem_UniqueId_Type"
+    "name" : "ExtensionNamingSystem_UniqueId"
   },
   {
     "id" : "ext-R5-NamingSystem.url",
@@ -6048,39 +5495,11 @@
     "name" : "ExtensionNutritionIntake"
   },
   {
-    "id" : "ext-R5-NutritionOrder.ent.add.quantity",
+    "id" : "ext-R5-NutritionOrder.enteralFormula",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.additive.quantity",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionNutritionOrder_EnteralFormula_Additive_Quantity"
-  },
-  {
-    "id" : "ext-R5-NutritionOrder.ent.add.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.additive.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionNutritionOrder_EnteralFormula_Additive_Type"
-  },
-  {
-    "id" : "ext-R5-NutritionOrder.ent.adm.schedule",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.administration.schedule",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionNutritionOrder_EnteralFormula_Administration_Schedule"
-  },
-  {
-    "id" : "ext-R5-NutritionOrder.ent.baseFormulaType",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.baseFormulaType",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionNutritionOrder_EnteralFormula_BaseFormulaType"
-  },
-  {
-    "id" : "ext-R5-NutritionOrder.ent.deliveryDevice",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.enteralFormula.deliveryDevice",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionNutritionOrder_EnteralFormula_DeliveryDevice"
+    "name" : "ExtensionNutritionOrder_EnteralFormula"
   },
   {
     "id" : "ext-R5-NutritionOrder.groupIdentifier",
@@ -6090,11 +5509,11 @@
     "name" : "ExtensionNutritionOrder_GroupIdentifier"
   },
   {
-    "id" : "ext-R5-NutritionOrder.ora.schedule",
+    "id" : "ext-R5-NutritionOrder.oralDiet",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.oralDiet.schedule",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.oralDiet",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionNutritionOrder_OralDiet_Schedule"
+    "name" : "ExtensionNutritionOrder_OralDiet"
   },
   {
     "id" : "ext-R5-NutritionOrder.outsideFoodAllowed",
@@ -6118,18 +5537,11 @@
     "name" : "ExtensionNutritionOrder_Priority"
   },
   {
-    "id" : "ext-R5-NutritionOrder.sup.schedule",
+    "id" : "ext-R5-NutritionOrder.supplement",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.supplement.schedule",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.supplement",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionNutritionOrder_Supplement_Schedule"
-  },
-  {
-    "id" : "ext-R5-NutritionOrder.sup.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionOrder.supplement.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionNutritionOrder_Supplement_Type"
+    "name" : "ExtensionNutritionOrder_Supplement"
   },
   {
     "id" : "ext-R5-NutritionProduct",
@@ -6139,18 +5551,11 @@
     "name" : "ExtensionNutritionProduct"
   },
   {
-    "id" : "ext-R5-Observation.com.referenceRange",
+    "id" : "ext-R5-Observation.component",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.referenceRange",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionObservation_Component_ReferenceRange"
-  },
-  {
-    "id" : "ext-R5-Observation.com.value",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.value",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionObservation_Component_Value"
+    "name" : "ExtensionObservation_Component"
   },
   {
     "id" : "ext-R5-Observation.instantiates",
@@ -6165,13 +5570,6 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionObservation_ReferenceRange"
-  },
-  {
-    "id" : "ext-R5-Observation.ref.normalValue",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange.normalValue",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionObservation_ReferenceRange_NormalValue"
   },
   {
     "id" : "ext-R5-Observation.triggeredBy",
@@ -6377,25 +5775,18 @@
     "name" : "ExtensionOperationDefinition_CopyrightLabel"
   },
   {
+    "id" : "ext-R5-OperationDefinition.overload",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.overload",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionOperationDefinition_Overload"
+  },
+  {
     "id" : "ext-R5-OperationDefinition.parameter",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionOperationDefinition_Parameter"
-  },
-  {
-    "id" : "ext-R5-OperationDefinition.par.allowedType",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.allowedType",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionOperationDefinition_Parameter_AllowedType"
-  },
-  {
-    "id" : "ext-R5-OperationDefinition.par.scope",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.scope",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionOperationDefinition_Parameter_Scope"
   },
   {
     "id" : "ext-R5-OperationDefinition.versionAlgorithm",
@@ -6405,18 +5796,11 @@
     "name" : "ExtensionOperationDefinition_VersionAlgorithm"
   },
   {
-    "id" : "ext-R5-OperationOutcome.iss.code",
+    "id" : "ext-R5-OperationOutcome.issue",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationOutcome.issue.code",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationOutcome.issue",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionOperationOutcome_Issue_Code"
-  },
-  {
-    "id" : "ext-R5-OperationOutcome.iss.severity",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationOutcome.issue.severity",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionOperationOutcome_Issue_Severity"
+    "name" : "ExtensionOperationOutcome_Issue"
   },
   {
     "id" : "ext-R5-Organization.description",
@@ -6454,11 +5838,25 @@
     "name" : "ExtensionParameters_Parameter"
   },
   {
-    "id" : "ext-R5-Parameters.par.value",
+    "id" : "ext-R5-Patient.communication",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Parameters.parameter.value",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Patient.communication",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionParameters_Parameter_Value"
+    "name" : "ExtensionPatient_Communication"
+  },
+  {
+    "id" : "ext-R5-Patient.contact",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Patient.contact",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionPatient_Contact"
+  },
+  {
+    "id" : "ext-R5-Patient.link",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Patient.link",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionPatient_Link"
   },
   {
     "id" : "ext-R5-PaymentReconciliation.accountNumber",
@@ -6468,11 +5866,11 @@
     "name" : "ExtensionPaymentReconciliation_AccountNumber"
   },
   {
-    "id" : "ext-R5-PR.all.targetItem",
+    "id" : "ext-R5-PaymentReconciliation.allocation",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation.targetItem",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.allocation",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionPaymentReconciliation_Allocation_TargetItem"
+    "name" : "ExtensionPaymentReconciliation_Allocation"
   },
   {
     "id" : "ext-R5-PaymentReconciliation.authorization",
@@ -6515,6 +5913,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.method",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionPaymentReconciliation_Method"
+  },
+  {
+    "id" : "ext-R5-PaymentReconciliation.processNote",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PaymentReconciliation.processNote",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionPaymentReconciliation_ProcessNote"
   },
   {
     "id" : "ext-R5-PaymentReconciliation.processor",
@@ -6573,6 +5978,13 @@
     "name" : "ExtensionPerson_Deceased"
   },
   {
+    "id" : "ext-R5-Person.link",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.link",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionPerson_Link"
+  },
+  {
     "id" : "ext-R5-Person.maritalStatus",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Person.maritalStatus",
@@ -6585,62 +5997,6 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionPlanDefinition_Action"
-  },
-  {
-    "id" : "ext-R5-PlanDefinition.act.input",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.input",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionPlanDefinition_Action_Input"
-  },
-  {
-    "id" : "ext-R5-PlanDefinition.act.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionPlanDefinition_Action_LinkId"
-  },
-  {
-    "id" : "ext-R5-PlanDefinition.act.location",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.location",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionPlanDefinition_Action_Location"
-  },
-  {
-    "id" : "ext-R5-PlanDefinition.act.output",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.output",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionPlanDefinition_Action_Output"
-  },
-  {
-    "id" : "ext-R5-PlanDefinition.act.par.actorId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.participant.actorId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionPlanDefinition_Action_Participant_ActorId"
-  },
-  {
-    "id" : "ext-R5-PlanDefinition.act.par.function",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.participant.function",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionPlanDefinition_Action_Participant_Function"
-  },
-  {
-    "id" : "ext-R5-PlanDefinition.act.par.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.participant.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionPlanDefinition_Action_Participant_Type"
-  },
-  {
-    "id" : "ext-R5-PlanDefinition.act.subject",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.subject",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionPlanDefinition_Action_Subject"
   },
   {
     "id" : "ext-R5-PlanDefinition.actor",
@@ -6664,11 +6020,11 @@
     "name" : "ExtensionPlanDefinition_CopyrightLabel"
   },
   {
-    "id" : "ext-R5-PlanDefinition.goa.tar.detail",
+    "id" : "ext-R5-PlanDefinition.goal",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.goal.target.detail",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.goal",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionPlanDefinition_Goal_Target_Detail"
+    "name" : "ExtensionPlanDefinition_Goal"
   },
   {
     "id" : "ext-R5-PlanDefinition.subject",
@@ -6697,6 +6053,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.deceased",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionPractitioner_Deceased"
+  },
+  {
+    "id" : "ext-R5-Practitioner.qualification",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.qualification",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionPractitioner_Qualification"
   },
   {
     "id" : "ext-R5-PractitionerRole.availability",
@@ -6734,6 +6097,13 @@
     "name" : "ExtensionPrimitiveType"
   },
   {
+    "id" : "ext-R5-Procedure.focalDevice",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.focalDevice",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionProcedure_FocalDevice"
+  },
+  {
     "id" : "ext-R5-Procedure.occurrence",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.occurrence",
@@ -6741,11 +6111,11 @@
     "name" : "ExtensionProcedure_Occurrence"
   },
   {
-    "id" : "ext-R5-Procedure.per.period",
+    "id" : "ext-R5-Procedure.performer",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.performer.period",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.performer",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionProcedure_Performer_Period"
+    "name" : "ExtensionProcedure_Performer"
   },
   {
     "id" : "ext-R5-Procedure.recorded",
@@ -6783,18 +6153,11 @@
     "name" : "ExtensionProvenance_Authorization"
   },
   {
-    "id" : "ext-R5-Provenance.ent.agent",
+    "id" : "ext-R5-Provenance.entity",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.agent",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionProvenance_Entity_Agent"
-  },
-  {
-    "id" : "ext-R5-Provenance.ent.role",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionProvenance_Entity_Role"
+    "name" : "ExtensionProvenance_Entity"
   },
   {
     "id" : "ext-R5-Quantity.comparator",
@@ -6816,20 +6179,6 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionQuestionnaire_Item"
-  },
-  {
-    "id" : "ext-R5-Questionnaire.ite.disabledDisplay",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.disabledDisplay",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionQuestionnaire_Item_DisabledDisplay"
-  },
-  {
-    "id" : "ext-R5-Questionnaire.ite.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionQuestionnaire_Item_Type"
   },
   {
     "id" : "ext-R5-Questionnaire.subjectType",
@@ -6895,67 +6244,18 @@
     "name" : "ExtensionRelatedArtifact_Type"
   },
   {
+    "id" : "ext-R5-RelatedPerson.communication",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RelatedPerson.communication",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionRelatedPerson_Communication"
+  },
+  {
     "id" : "ext-R5-RequestOrchestration.action",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionRequestOrchestration_Action"
-  },
-  {
-    "id" : "ext-R5-RequestOrchestration.act.definition",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.definition",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionRequestOrchestration_Action_Definition"
-  },
-  {
-    "id" : "ext-R5-RequestOrchestration.act.dynamicValue",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.dynamicValue",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionRequestOrchestration_Action_DynamicValue"
-  },
-  {
-    "id" : "ext-R5-RequestOrchestration.act.input",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.input",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionRequestOrchestration_Action_Input"
-  },
-  {
-    "id" : "ext-R5-RequestOrchestration.act.linkId",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.linkId",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionRequestOrchestration_Action_LinkId"
-  },
-  {
-    "id" : "ext-R5-RequestOrchestration.act.location",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.location",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionRequestOrchestration_Action_Location"
-  },
-  {
-    "id" : "ext-R5-RequestOrchestration.act.output",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.output",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionRequestOrchestration_Action_Output"
-  },
-  {
-    "id" : "ext-R5-RequestOrchestration.act.participant",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.participant",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionRequestOrchestration_Action_Participant"
-  },
-  {
-    "id" : "ext-R5-RequestOrchestration.act.rel.endRelationship",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RequestOrchestration.action.relatedAction.endRelationship",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionRequestOrchestration_Action_RelatedAction_EndRelationship"
   },
   {
     "id" : "ext-R5-Requirements",
@@ -6979,11 +6279,11 @@
     "name" : "ExtensionResearchStudy_Classifier"
   },
   {
-    "id" : "ext-R5-ResearchStudy.com.linkId",
+    "id" : "ext-R5-ResearchStudy.comparisonGroup",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.comparisonGroup.linkId",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.comparisonGroup",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionResearchStudy_ComparisonGroup_LinkId"
+    "name" : "ExtensionResearchStudy_ComparisonGroup"
   },
   {
     "id" : "ext-R5-ResearchStudy.date",
@@ -7021,11 +6321,11 @@
     "name" : "ExtensionResearchStudy_Name"
   },
   {
-    "id" : "ext-R5-ResearchStudy.obj.description",
+    "id" : "ext-R5-ResearchStudy.objective",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.objective.description",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.objective",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionResearchStudy_Objective_Description"
+    "name" : "ExtensionResearchStudy_Objective"
   },
   {
     "id" : "ext-R5-ResearchStudy.outcomeMeasure",
@@ -7091,6 +6391,13 @@
     "name" : "ExtensionResearchSubject_Status"
   },
   {
+    "id" : "ext-R5-RiskAssessment.prediction",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-RiskAssessment.prediction",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionRiskAssessment_Prediction"
+  },
+  {
     "id" : "ext-R5-SampledData.intervalUnit",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SampledData.intervalUnit",
@@ -7117,6 +6424,13 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Schedule.serviceType",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionSchedule_ServiceType"
+  },
+  {
+    "id" : "ext-R5-SearchParameter.component",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.component",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionSearchParameter_Component"
   },
   {
     "id" : "ext-R5-SearchParameter.constraint",
@@ -7203,18 +6517,11 @@
     "name" : "ExtensionSlot_ServiceType"
   },
   {
-    "id" : "ext-R5-Specimen.col.bodySite",
+    "id" : "ext-R5-Specimen.collection",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.bodySite",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSpecimen_Collection_BodySite"
-  },
-  {
-    "id" : "ext-R5-Specimen.col.device",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.collection.device",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSpecimen_Collection_Device"
+    "name" : "ExtensionSpecimen_Collection"
   },
   {
     "id" : "ext-R5-Specimen.combined",
@@ -7224,11 +6531,25 @@
     "name" : "ExtensionSpecimen_Combined"
   },
   {
+    "id" : "ext-R5-Specimen.container",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionSpecimen_Container"
+  },
+  {
     "id" : "ext-R5-Specimen.feature",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionSpecimen_Feature"
+  },
+  {
+    "id" : "ext-R5-Specimen.processing",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.processing",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionSpecimen_Processing"
   },
   {
     "id" : "ext-R5-Specimen.role",
@@ -7357,25 +6678,11 @@
     "name" : "ExtensionSpecimenDefinition_Title"
   },
   {
-    "id" : "ext-R5-SpecimenDefinition.typ.con.additive",
+    "id" : "ext-R5-SpecimenDefinition.typeTested",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.typeTested.container.additive",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.typeTested",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSpecimenDefinition_TypeTested_Container_Additive"
-  },
-  {
-    "id" : "ext-R5-SpecimenDefinition.typ.singleUse",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.typeTested.singleUse",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSpecimenDefinition_TypeTested_SingleUse"
-  },
-  {
-    "id" : "ext-R5-SpecimenDefinition.typ.testingDestination",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.typeTested.testingDestination",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSpecimenDefinition_TypeTested_TestingDestination"
+    "name" : "ExtensionSpecimenDefinition_TypeTested"
   },
   {
     "id" : "ext-R5-SpecimenDefinition.url",
@@ -7406,6 +6713,13 @@
     "name" : "ExtensionSpecimenDefinition_VersionAlgorithm"
   },
   {
+    "id" : "ext-R5-StructureDefinition.context",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.context",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionStructureDefinition_Context"
+  },
+  {
     "id" : "ext-R5-StructureDefinition.copyrightLabel",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.copyrightLabel",
@@ -7413,11 +6727,32 @@
     "name" : "ExtensionStructureDefinition_CopyrightLabel"
   },
   {
+    "id" : "ext-R5-StructureDefinition.differential",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.differential",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionStructureDefinition_Differential"
+  },
+  {
     "id" : "ext-R5-StructureDefinition.fhirVersion",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.fhirVersion",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionStructureDefinition_FhirVersion"
+  },
+  {
+    "id" : "ext-R5-StructureDefinition.mapping",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.mapping",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionStructureDefinition_Mapping"
+  },
+  {
+    "id" : "ext-R5-StructureDefinition.snapshot",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.snapshot",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionStructureDefinition_Snapshot"
   },
   {
     "id" : "ext-R5-StructureDefinition.versionAlgorithm",
@@ -7441,25 +6776,18 @@
     "name" : "ExtensionStructureMap_CopyrightLabel"
   },
   {
-    "id" : "ext-R5-StructureMap.gro.rule",
+    "id" : "ext-R5-StructureMap.group",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group.rule",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionStructureMap_Group_Rule"
+    "name" : "ExtensionStructureMap_Group"
   },
   {
-    "id" : "ext-R5-StructureMap.gro.rul.dep.parameter",
+    "id" : "ext-R5-StructureMap.structure",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group.rule.dependent.parameter",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.structure",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionStructureMap_Group_Rule_Dependent_Parameter"
-  },
-  {
-    "id" : "ext-R5-StructureMap.gro.rul.tar.parameter",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group.rule.target.parameter",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionStructureMap_Group_Rule_Target_Parameter"
+    "name" : "ExtensionStructureMap_Structure"
   },
   {
     "id" : "ext-R5-StructureMap.versionAlgorithm",
@@ -7553,6 +6881,13 @@
     "name" : "ExtensionSubstance_Code"
   },
   {
+    "id" : "ext-R5-Substance.ingredient",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Substance.ingredient",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionSubstance_Ingredient"
+  },
+  {
     "id" : "ext-R5-SubstanceDefinition.characterization",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.characterization",
@@ -7567,11 +6902,11 @@
     "name" : "ExtensionSubstanceDefinition_Classification"
   },
   {
-    "id" : "ext-R5-SubstanceDefinition.cod.note",
+    "id" : "ext-R5-SubstanceDefinition.code",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.code.note",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.code",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSubstanceDefinition_Code_Note"
+    "name" : "ExtensionSubstanceDefinition_Code"
   },
   {
     "id" : "ext-R5-SubstanceDefinition.grade",
@@ -7581,11 +6916,11 @@
     "name" : "ExtensionSubstanceDefinition_Grade"
   },
   {
-    "id" : "ext-R5-SubstanceDefinition.moi.measurementType",
+    "id" : "ext-R5-SubstanceDefinition.moiety",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.moiety.measurementType",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.moiety",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSubstanceDefinition_Moiety_MeasurementType"
+    "name" : "ExtensionSubstanceDefinition_Moiety"
   },
   {
     "id" : "ext-R5-SubstanceDefinition.molecularWeight",
@@ -7602,13 +6937,6 @@
     "name" : "ExtensionSubstanceDefinition_Name"
   },
   {
-    "id" : "ext-R5-SubstanceDefinition.nam.language",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.name.language",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSubstanceDefinition_Name_Language"
-  },
-  {
     "id" : "ext-R5-SubstanceDefinition.note",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.note",
@@ -7623,32 +6951,11 @@
     "name" : "ExtensionSubstanceDefinition_Property"
   },
   {
-    "id" : "ext-R5-SubstanceDefinition.rel.comparator",
+    "id" : "ext-R5-SubstanceDefinition.relationship",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.comparator",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSubstanceDefinition_Relationship_Comparator"
-  },
-  {
-    "id" : "ext-R5-SubstanceDefinition.rel.ratioHighLimitAmount",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.ratioHighLimitAmount",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSubstanceDefinition_Relationship_RatioHighLimitAmount"
-  },
-  {
-    "id" : "ext-R5-SubstanceDefinition.rel.substanceDefinition",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.substanceDefinition",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSubstanceDefinition_Relationship_SubstanceDefinition"
-  },
-  {
-    "id" : "ext-R5-SubstanceDefinition.rel.type",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.relationship.type",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSubstanceDefinition_Relationship_Type"
+    "name" : "ExtensionSubstanceDefinition_Relationship"
   },
   {
     "id" : "ext-R5-SubstanceDefinition.sourceMaterial",
@@ -7658,25 +6965,11 @@
     "name" : "ExtensionSubstanceDefinition_SourceMaterial"
   },
   {
-    "id" : "ext-R5-SubstanceDefinition.str.molecularWeight",
+    "id" : "ext-R5-SubstanceDefinition.structure",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.molecularWeight",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSubstanceDefinition_Structure_MolecularWeight"
-  },
-  {
-    "id" : "ext-R5-SubstanceDefinition.str.rep.format",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.representation.format",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSubstanceDefinition_Structure_Representation_Format"
-  },
-  {
-    "id" : "ext-R5-SubstanceDefinition.str.technique",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.structure.technique",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSubstanceDefinition_Structure_Technique"
+    "name" : "ExtensionSubstanceDefinition_Structure"
   },
   {
     "id" : "ext-R5-SubstanceDefinition.version",
@@ -7721,11 +7014,11 @@
     "name" : "ExtensionSubstanceSourceMaterial"
   },
   {
-    "id" : "ext-R5-SupplyDelivery.sup.item",
+    "id" : "ext-R5-SupplyDelivery.suppliedItem",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyDelivery.suppliedItem.item",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyDelivery.suppliedItem",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionSupplyDelivery_SuppliedItem_Item"
+    "name" : "ExtensionSupplyDelivery_SuppliedItem"
   },
   {
     "id" : "ext-R5-SupplyDelivery.type",
@@ -7735,6 +7028,13 @@
     "name" : "ExtensionSupplyDelivery_Type"
   },
   {
+    "id" : "ext-R5-SupplyRequest.parameter",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyRequest.parameter",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionSupplyRequest_Parameter"
+  },
+  {
     "id" : "ext-R5-Task.doNotPerform",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.doNotPerform",
@@ -7742,18 +7042,18 @@
     "name" : "ExtensionTask_DoNotPerform"
   },
   {
-    "id" : "ext-R5-Task.inp.value",
+    "id" : "ext-R5-Task.input",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input.value",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTask_Input_Value"
+    "name" : "ExtensionTask_Input"
   },
   {
-    "id" : "ext-R5-Task.out.value",
+    "id" : "ext-R5-Task.output",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output.value",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTask_Output_Value"
+    "name" : "ExtensionTask_Output"
   },
   {
     "id" : "ext-R5-Task.performer",
@@ -7777,11 +7077,25 @@
     "name" : "ExtensionTask_RequestedPeriod"
   },
   {
+    "id" : "ext-R5-Task.restriction",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionTask_Restriction"
+  },
+  {
     "id" : "ext-R5-Task.statusReason",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.statusReason",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionTask_StatusReason"
+  },
+  {
+    "id" : "ext-R5-TerminologyCapabilities.closure",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.closure",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionTerminologyCapabilities_Closure"
   },
   {
     "id" : "ext-R5-TerminologyCapabilities.codeSearch",
@@ -7791,18 +7105,11 @@
     "name" : "ExtensionTerminologyCapabilities_CodeSearch"
   },
   {
-    "id" : "ext-R5-TC.cod.content",
+    "id" : "ext-R5-TerminologyCapabilities.codeSystem",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSystem.content",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSystem",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTerminologyCapabilities_CodeSystem_Content"
-  },
-  {
-    "id" : "ext-R5-TC.cod.ver.language",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSystem.version.language",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTerminologyCapabilities_CodeSystem_Version_Language"
+    "name" : "ExtensionTerminologyCapabilities_CodeSystem"
   },
   {
     "id" : "ext-R5-TerminologyCapabilities.copyrightLabel",
@@ -7810,6 +7117,41 @@
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.copyrightLabel",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionTerminologyCapabilities_CopyrightLabel"
+  },
+  {
+    "id" : "ext-R5-TerminologyCapabilities.expansion",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.expansion",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionTerminologyCapabilities_Expansion"
+  },
+  {
+    "id" : "ext-R5-TerminologyCapabilities.implementation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.implementation",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionTerminologyCapabilities_Implementation"
+  },
+  {
+    "id" : "ext-R5-TerminologyCapabilities.software",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.software",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionTerminologyCapabilities_Software"
+  },
+  {
+    "id" : "ext-R5-TerminologyCapabilities.translation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.translation",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionTerminologyCapabilities_Translation"
+  },
+  {
+    "id" : "ext-R5-TerminologyCapabilities.validateCode",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.validateCode",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionTerminologyCapabilities_ValidateCode"
   },
   {
     "id" : "ext-R5-TerminologyCapabilities.versionAlgorithm",
@@ -7826,25 +7168,18 @@
     "name" : "ExtensionTestPlan"
   },
   {
-    "id" : "ext-R5-TestReport.set.act.assert",
+    "id" : "ext-R5-TestReport.participant",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.participant",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestReport_Setup_Action_Assert"
+    "name" : "ExtensionTestReport_Participant"
   },
   {
-    "id" : "ext-R5-TestReport.set.act.ass.requirement",
+    "id" : "ext-R5-TestReport.setup",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.assert.requirement",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestReport_Setup_Action_Assert_Requirement"
-  },
-  {
-    "id" : "ext-R5-TestReport.set.act.operation",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.setup.action.operation",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestReport_Setup_Action_Operation"
+    "name" : "ExtensionTestReport_Setup"
   },
   {
     "id" : "ext-R5-TestReport.teardown",
@@ -7854,11 +7189,11 @@
     "name" : "ExtensionTestReport_Teardown"
   },
   {
-    "id" : "ext-R5-TestReport.tes.action",
+    "id" : "ext-R5-TestReport.test",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.test.action",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.test",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestReport_Test_Action"
+    "name" : "ExtensionTestReport_Test"
   },
   {
     "id" : "ext-R5-TestScript.copyrightLabel",
@@ -7868,18 +7203,32 @@
     "name" : "ExtensionTestScript_CopyrightLabel"
   },
   {
-    "id" : "ext-R5-TestScript.des.url",
+    "id" : "ext-R5-TestScript.destination",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination.url",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.destination",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestScript_Destination_Url"
+    "name" : "ExtensionTestScript_Destination"
   },
   {
-    "id" : "ext-R5-TestScript.ori.url",
+    "id" : "ext-R5-TestScript.fixture",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin.url",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.fixture",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestScript_Origin_Url"
+    "name" : "ExtensionTestScript_Fixture"
+  },
+  {
+    "id" : "ext-R5-TestScript.metadata",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.metadata",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionTestScript_Metadata"
+  },
+  {
+    "id" : "ext-R5-TestScript.origin",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.origin",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionTestScript_Origin"
   },
   {
     "id" : "ext-R5-TestScript.scope",
@@ -7889,53 +7238,11 @@
     "name" : "ExtensionTestScript_Scope"
   },
   {
-    "id" : "ext-R5-TestScript.set.act.assert",
+    "id" : "ext-R5-TestScript.setup",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestScript_Setup_Action_Assert"
-  },
-  {
-    "id" : "ext-R5-TestScript.set.act.ass.dMC",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.defaultManualCompletion",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestScript_Setup_Action_Assert_DefaultManualCompletion"
-  },
-  {
-    "id" : "ext-R5-TestScript.set.act.ass.operator",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.operator",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestScript_Setup_Action_Assert_Operator"
-  },
-  {
-    "id" : "ext-R5-TestScript.set.act.ass.requirement",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.requirement",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestScript_Setup_Action_Assert_Requirement"
-  },
-  {
-    "id" : "ext-R5-TestScript.set.act.ass.response",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.response",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestScript_Setup_Action_Assert_Response"
-  },
-  {
-    "id" : "ext-R5-TestScript.set.act.ass.stopTestOnFail",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.assert.stopTestOnFail",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestScript_Setup_Action_Assert_StopTestOnFail"
-  },
-  {
-    "id" : "ext-R5-TestScript.set.act.operation",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.setup.action.operation",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestScript_Setup_Action_Operation"
+    "name" : "ExtensionTestScript_Setup"
   },
   {
     "id" : "ext-R5-TestScript.teardown",
@@ -7945,11 +7252,18 @@
     "name" : "ExtensionTestScript_Teardown"
   },
   {
-    "id" : "ext-R5-TestScript.tes.action",
+    "id" : "ext-R5-TestScript.test",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.test.action",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.test",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTestScript_Test_Action"
+    "name" : "ExtensionTestScript_Test"
+  },
+  {
+    "id" : "ext-R5-TestScript.variable",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestScript.variable",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionTestScript_Variable"
   },
   {
     "id" : "ext-R5-TestScript.versionAlgorithm",
@@ -7959,11 +7273,11 @@
     "name" : "ExtensionTestScript_VersionAlgorithm"
   },
   {
-    "id" : "ext-R5-Timing.rep.when",
+    "id" : "ext-R5-Timing.repeat",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Timing.repeat.when",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Timing.repeat",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionTiming_Repeat_When"
+    "name" : "ExtensionTiming_Repeat"
   },
   {
     "id" : "ext-R5-Transport",
@@ -7994,53 +7308,11 @@
     "name" : "ExtensionValueSet_Author"
   },
   {
-    "id" : "ext-R5-ValueSet.com.exclude",
+    "id" : "ext-R5-ValueSet.compose",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.exclude",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Compose_Exclude"
-  },
-  {
-    "id" : "ext-R5-ValueSet.com.include",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Compose_Include"
-  },
-  {
-    "id" : "ext-R5-ValueSet.com.inc.con.designation",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.concept.designation",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Compose_Include_Concept_Designation"
-  },
-  {
-    "id" : "ext-R5-ValueSet.com.inc.con.des.additionalUse",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.concept.designation.additionalUse",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Compose_Include_Concept_Designation_AdditionalUse"
-  },
-  {
-    "id" : "ext-R5-ValueSet.com.inc.copyright",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.copyright",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Compose_Include_Copyright"
-  },
-  {
-    "id" : "ext-R5-ValueSet.com.inc.fil.op",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.filter.op",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Compose_Include_Filter_Op"
-  },
-  {
-    "id" : "ext-R5-ValueSet.com.property",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.property",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Compose_Property"
+    "name" : "ExtensionValueSet_Compose"
   },
   {
     "id" : "ext-R5-ValueSet.copyrightLabel",
@@ -8071,60 +7343,11 @@
     "name" : "ExtensionValueSet_Endorser"
   },
   {
-    "id" : "ext-R5-ValueSet.exp.contains",
+    "id" : "ext-R5-ValueSet.expansion",
     "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion",
     "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Expansion_Contains"
-  },
-  {
-    "id" : "ext-R5-ValueSet.exp.con.des.additionalUse",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation.additionalUse",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Expansion_Contains_Designation_AdditionalUse"
-  },
-  {
-    "id" : "ext-R5-ValueSet.exp.con.des.language",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation.language",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Expansion_Contains_Designation_Language"
-  },
-  {
-    "id" : "ext-R5-ValueSet.exp.con.des.use",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation.use",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Expansion_Contains_Designation_Use"
-  },
-  {
-    "id" : "ext-R5-ValueSet.exp.con.des.value",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation.value",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Expansion_Contains_Designation_Value"
-  },
-  {
-    "id" : "ext-R5-ValueSet.exp.con.property",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Expansion_Contains_Property"
-  },
-  {
-    "id" : "ext-R5-ValueSet.exp.next",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.next",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Expansion_Next"
-  },
-  {
-    "id" : "ext-R5-ValueSet.exp.property",
-    "type" : "StructureDefinition",
-    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property",
-    "version" : "0.0.1-snapshot-3",
-    "name" : "ExtensionValueSet_Expansion_Property"
+    "name" : "ExtensionValueSet_Expansion"
   },
   {
     "id" : "ext-R5-ValueSet.lastReviewDate",
@@ -8169,6 +7392,20 @@
     "name" : "ExtensionValueSet_VersionAlgorithm"
   },
   {
+    "id" : "ext-R5-VerificationResult.attestation",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.attestation",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionVerificationResult_Attestation"
+  },
+  {
+    "id" : "ext-R5-VerificationResult.primarySource",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.primarySource",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionVerificationResult_PrimarySource"
+  },
+  {
     "id" : "ext-R5-VerificationResult.status",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status",
@@ -8176,11 +7413,25 @@
     "name" : "ExtensionVerificationResult_Status"
   },
   {
+    "id" : "ext-R5-VerificationResult.validator",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.validator",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionVerificationResult_Validator"
+  },
+  {
     "id" : "ext-R5-VirtualServiceDetail",
     "type" : "StructureDefinition",
     "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VirtualServiceDetail",
     "version" : "0.0.1-snapshot-3",
     "name" : "ExtensionVirtualServiceDetail"
+  },
+  {
+    "id" : "ext-R5-VisionPrescription.lensSpecification",
+    "type" : "StructureDefinition",
+    "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.lensSpecification",
+    "version" : "0.0.1-snapshot-3",
+    "name" : "ExtensionVisionPrescription_LensSpecification"
   },
   {
     "id" : "profile-Account",

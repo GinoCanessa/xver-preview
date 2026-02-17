@@ -1,4 +1,4 @@
-# ExtensionImagingSelection - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionImagingSelection - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ImagingSelection` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
   "title" : "Cross-version Extension `R5.ImagingSelection` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -250,7 +250,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "issued"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.issued"
       },
       {
         "id" : "Extension.extension:issued.value[x]",
@@ -331,7 +331,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "function"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer.function"
       },
       {
         "id" : "Extension.extension:performer.extension:function.value[x]",
@@ -381,7 +381,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer.actor"
       },
       {
         "id" : "Extension.extension:performer.extension:actor.value[x]",
@@ -467,7 +467,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "basedOn"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.basedOn"
       },
       {
         "id" : "Extension.extension:basedOn.value[x]",
@@ -524,7 +524,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "category"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.category"
       },
       {
         "id" : "Extension.extension:category.value[x]",
@@ -570,7 +570,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.code"
       },
       {
         "id" : "Extension.extension:code.value[x]",
@@ -617,7 +617,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "studyUid"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.studyUid"
       },
       {
         "id" : "Extension.extension:studyUid.value[x]",
@@ -663,7 +663,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "derivedFrom"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.derivedFrom"
       },
       {
         "id" : "Extension.extension:derivedFrom.value[x]",
@@ -715,7 +715,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "endpoint"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.endpoint"
       },
       {
         "id" : "Extension.extension:endpoint.value[x]",
@@ -766,7 +766,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "seriesUid"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.seriesUid"
       },
       {
         "id" : "Extension.extension:seriesUid.value[x]",
@@ -813,7 +813,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "seriesNumber"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.seriesNumber"
       },
       {
         "id" : "Extension.extension:seriesNumber.value[x]",
@@ -860,7 +860,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "frameOfReferenceUid"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.frameOfReferenceUid"
       },
       {
         "id" : "Extension.extension:frameOfReferenceUid.value[x]",
@@ -967,7 +967,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1016,7 +1016,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1069,7 +1069,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "bodySite"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.bodySite"
       },
       {
         "id" : "Extension.extension:bodySite.value[x]",
@@ -1108,7 +1108,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "focus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.focus"
       },
       {
         "id" : "Extension.extension:focus.value[x]",
@@ -1195,7 +1195,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "uid"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.uid"
       },
       {
         "id" : "Extension.extension:instance.extension:uid.value[x]",
@@ -1242,7 +1242,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "number"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.number"
       },
       {
         "id" : "Extension.extension:instance.extension:number.value[x]",
@@ -1289,7 +1289,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sopClass"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.sopClass"
       },
       {
         "id" : "Extension.extension:instance.extension:sopClass.value[x]",
@@ -1335,7 +1335,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "subset"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.subset"
       },
       {
         "id" : "Extension.extension:instance.extension:subset.value[x]",
@@ -1417,7 +1417,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "regionType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D.regionType"
       },
       {
         "id" : "Extension.extension:instance.extension:imageRegion2D.extension:regionType.value[x]",
@@ -1464,7 +1464,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "coordinate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D.coordinate"
       },
       {
         "id" : "Extension.extension:instance.extension:imageRegion2D.extension:coordinate.value[x]",
@@ -1570,7 +1570,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "regionType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D.regionType"
       },
       {
         "id" : "Extension.extension:instance.extension:imageRegion3D.extension:regionType.value[x]",
@@ -1617,7 +1617,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ImagingSel
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "coordinate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D.coordinate"
       },
       {
         "id" : "Extension.extension:instance.extension:imageRegion3D.extension:coordinate.value[x]",

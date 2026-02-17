@@ -1,4 +1,4 @@
-# ConceptMapR5OperationOutcomeElementsForR4OperationOutcome - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5OperationOutcomeElementsForR4OperationOutcome - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5OperationOutcomeElementsForR4OperationOutcome 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.0988683-06:00",
+  "date" : "2026-02-17T14:42:27.4421854-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `OperationOutcome` is representable via FHIR R4 Resource `OperationOutcome`.\nElement `OperationOutcome` is mapped to FHIR R4 element `OperationOutcome`."
+              "comment" : "FHIR R5 Resource `OperationOutcome` is representable via FHIR R4 Resource `OperationOutcome`.\nElement `OperationOutcome` has is mapped to FHIR R4 element `OperationOutcome`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.meta` is mapped to FHIR R4 element `OperationOutcome.meta`."
+              "comment" : "Element `OperationOutcome.meta` has is mapped to FHIR R4 element `OperationOutcome.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.implicitRules` is mapped to FHIR R4 element `OperationOutcome.implicitRules`."
+              "comment" : "Element `OperationOutcome.implicitRules` has is mapped to FHIR R4 element `OperationOutcome.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.language` is mapped to FHIR R4 element `OperationOutcome.language`."
+              "comment" : "Element `OperationOutcome.language` has is mapped to FHIR R4 element `OperationOutcome.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.text` is mapped to FHIR R4 element `OperationOutcome.text`."
+              "comment" : "Element `OperationOutcome.text` has is mapped to FHIR R4 element `OperationOutcome.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.contained` is mapped to FHIR R4 element `OperationOutcome.contained`."
+              "comment" : "Element `OperationOutcome.contained` has is mapped to FHIR R4 element `OperationOutcome.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue` is mapped to FHIR R4 element `OperationOutcome.issue`."
+              "comment" : "Element `OperationOutcome.issue` has is mapped to FHIR R4 element `OperationOutcome.issue`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.severity",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.severity` is mapped to FHIR R4 element `OperationOutcome.issue.severity`."
+              "comment" : "Element `OperationOutcome.issue.severity` is part of an existing definition because parent element `OperationOutcome.issue` requires a cross-version extension.\nElement `OperationOutcome.issue.severity` has is mapped to FHIR R4 element `OperationOutcome.issue.severity`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.code` is mapped to FHIR R4 element `OperationOutcome.issue.code`."
+              "comment" : "Element `OperationOutcome.issue.code` is part of an existing definition because parent element `OperationOutcome.issue` requires a cross-version extension.\nElement `OperationOutcome.issue.code` has is mapped to FHIR R4 element `OperationOutcome.issue.code`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.details",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.details` is mapped to FHIR R4 element `OperationOutcome.issue.details`."
+              "comment" : "Element `OperationOutcome.issue.details` is part of an existing definition because parent element `OperationOutcome.issue` requires a cross-version extension.\nElement `OperationOutcome.issue.details` has is mapped to FHIR R4 element `OperationOutcome.issue.details`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.diagnostics",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.diagnostics` is mapped to FHIR R4 element `OperationOutcome.issue.diagnostics`."
+              "comment" : "Element `OperationOutcome.issue.diagnostics` is part of an existing definition because parent element `OperationOutcome.issue` requires a cross-version extension.\nElement `OperationOutcome.issue.diagnostics` has is mapped to FHIR R4 element `OperationOutcome.issue.diagnostics`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.location` is mapped to FHIR R4 element `OperationOutcome.issue.location`."
+              "comment" : "Element `OperationOutcome.issue.location` is part of an existing definition because parent element `OperationOutcome.issue` requires a cross-version extension.\nElement `OperationOutcome.issue.location` has is mapped to FHIR R4 element `OperationOutcome.issue.location`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OperationOutcome#OperationOutcome.issue.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `OperationOutcome.issue.expression` is mapped to FHIR R4 element `OperationOutcome.issue.expression`."
+              "comment" : "Element `OperationOutcome.issue.expression` is part of an existing definition because parent element `OperationOutcome.issue` requires a cross-version extension.\nElement `OperationOutcome.issue.expression` has is mapped to FHIR R4 element `OperationOutcome.issue.expression`, but has no comparisons."
             }
           ]
         }

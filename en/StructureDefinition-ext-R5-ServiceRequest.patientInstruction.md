@@ -1,4 +1,4 @@
-# ExtensionServiceRequest_PatientInstruction - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionServiceRequest_PatientInstruction - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ServiceRequest.patientInstruction` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
   "title" : "Cross-version Extension `R5.ServiceRequest.patientInstruction` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ServiceRequest.patientInstruction` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ServiceRequest.patientInstruction` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ServiceRequest.patientInstruction` 0..* `BackboneElement`\n*  R4B: `ServiceRequest.patientInstruction` 0..1 `string`\n*  R4: `ServiceRequest.patientInstruction` 0..1 `string`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ServiceRequest.patientInstruction` is mapped to FHIR R4 element `ServiceRequest.patientInstruction`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ServiceRequest.patientInstruction` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ServiceRequest.patientInstruction` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ServiceRequest.patientInstruction` 0..* `BackboneElement`\n*  R4B: `ServiceRequest.patientInstruction` 0..1 `string`\n*  R4: `ServiceRequest.patientInstruction` 0..1 `string`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ServiceRequest.patientInstruction` has is mapped to FHIR R4 element `ServiceRequest.patientInstruction`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
         "sliceName" : "instruction",
         "short" : "Patient or consumer-oriented instructions",
         "definition" : "Instructions in terms that are understood by the patient or consumer.",
-        "requirements" : "Element `ServiceRequest.patientInstruction.instruction[x]` is will have a context of ServiceRequest.patientInstruction based on following the parent source element upwards and mapping to `ServiceRequest`.",
+        "requirements" : "Element `ServiceRequest.patientInstruction.instruction[x]` is part of an existing definition because parent element `ServiceRequest.patientInstruction` requires a cross-version extension.\nElement `ServiceRequest.patientInstruction.instruction[x]` has a context of ServiceRequest.patientInstruction based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ServiceReq
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "instruction"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ServiceRequest.patientInstruction.instruction"
       },
       {
         "id" : "Extension.extension:instruction.value[x]",

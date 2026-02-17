@@ -1,4 +1,4 @@
-# Lookup for ProfileOrganizationAffiliation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileOrganizationAffiliation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileOrganizationAffiliation
 
@@ -28,6 +28,6 @@ A computable version of the following element information is available in: [Conc
 | [`OrganizationAffiliation.specialty`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.specialty](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) |
 | [`OrganizationAffiliation.location`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.location](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) |
 | [`OrganizationAffiliation.healthcareService`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.healthcareService](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) |
-| [`OrganizationAffiliation.contact`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-OrganizationAffiliation.contact](StructureDefinition-ext-R5-OrganizationAffiliation.contact.md) |
+| [`OrganizationAffiliation.contact`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [Extension: ExtensionOrganizationAffiliation_Contact](StructureDefinition-ext-R5-OrganizationAffiliation.contact.md) |
 | [`OrganizationAffiliation.endpoint`](https://hl7.org/fhir/R5/OrganizationAffiliation.html#resource) | [OrganizationAffiliation.endpoint](https://hl7.org/fhir/R4/OrganizationAffiliation.html#resource) |
 

@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.Observation.referenceRange` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-17T20:42:20.5370068+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Observation.referenceRange` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Observation.referenceRange` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Observation.referenceRange` 0..* `BackboneElement`\n*  R4B: `Observation.referenceRange` 0..* `BackboneElement`\n*  R4: `Observation.referenceRange` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Observation.referenceRange` is mapped to FHIR R4 element `Observation.referenceRange`."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Observation.referenceRange` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Observation.referenceRange` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Observation.referenceRange` 0..* `BackboneElement`\n*  R4B: `Observation.referenceRange` 0..* `BackboneElement`\n*  R4: `Observation.referenceRange` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Observation.referenceRange` has is mapped to FHIR R4 element `Observation.referenceRange`, but has no comparisons.\nNote available implied context: `Observation.component.referenceRange` because `Observation.component.referenceRange` is defined as a content reference to `Observation.referenceRange`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Extension.extension" ]
+     fhir:expression [ fhir:v "Observation.referenceRange" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "low" ] ;
        fhir:short [ fhir:v "Low Range, if relevant" ] ;
        fhir:definition [ fhir:v "The value of the low bound of the reference range.  The low bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the low bound is omitted,  it is assumed to be meaningless (e.g. reference range is <=2.3)." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.referenceRange.low` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.low` is mapped to FHIR R4 element `Observation.referenceRange.low`." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.referenceRange.low` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.low` has is mapped to FHIR R4 element `Observation.referenceRange.low`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -529,7 +529,7 @@
        fhir:sliceName [ fhir:v "high" ] ;
        fhir:short [ fhir:v "High Range, if relevant" ] ;
        fhir:definition [ fhir:v "The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3)." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.referenceRange.high` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.high` is mapped to FHIR R4 element `Observation.referenceRange.high`." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.referenceRange.high` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.high` has is mapped to FHIR R4 element `Observation.referenceRange.high`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -744,7 +744,7 @@
        fhir:sliceName [ fhir:v "normalValue" ] ;
        fhir:short [ fhir:v "Normal value, if relevant" ] ;
        fhir:definition [ fhir:v "The value of the normal value of the reference range." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is will have a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.normalValue` has a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -956,7 +956,7 @@
        fhir:short [ fhir:v "Reference range qualifier" ] ;
        fhir:definition [ fhir:v "Codes to indicate the what part of the targeted reference population it applies to. For example, the normal or therapeutic range." ] ;
        fhir:comment [ fhir:v "This SHOULD be populated if there is more than one range.  If this element is not present then the normal range is assumed." ] ;
-       fhir:requirements [ fhir:v "Need to be able to say what kind of reference range this is - normal, recommended, therapeutic, etc.,  - for proper interpretation. Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.type` is mapped to FHIR R4 element `Observation.referenceRange.type`." ] ;
+       fhir:requirements [ fhir:v "Need to be able to say what kind of reference range this is - normal, recommended, therapeutic, etc.,  - for proper interpretation. Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.type` has is mapped to FHIR R4 element `Observation.referenceRange.type`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1177,7 +1177,7 @@
        fhir:short [ fhir:v "Reference range population" ] ;
        fhir:definition [ fhir:v "Codes to indicate the target population this reference range applies to.  For example, a reference range may be based on the normal population or a particular sex or race.  Multiple `appliesTo`  are interpreted as an \"AND\" of the target populations.  For example, to represent a target population of African American females, both a code of female and a code for African American would be used." ] ;
        fhir:comment [ fhir:v "This SHOULD be populated if there is more than one range.  If this element is not present then the normal population is assumed." ] ;
-       fhir:requirements [ fhir:v "Need to be able to identify the target population for proper interpretation. Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.appliesTo` is mapped to FHIR R4 element `Observation.referenceRange.appliesTo`." ] ;
+       fhir:requirements [ fhir:v "Need to be able to identify the target population for proper interpretation. Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.appliesTo` has is mapped to FHIR R4 element `Observation.referenceRange.appliesTo`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1397,7 +1397,7 @@
        fhir:sliceName [ fhir:v "age" ] ;
        fhir:short [ fhir:v "Applicable age range, if relevant" ] ;
        fhir:definition [ fhir:v "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so." ] ;
-       fhir:requirements [ fhir:v "Some analytes vary greatly over age. Element `Observation.referenceRange.age` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.age` is mapped to FHIR R4 element `Observation.referenceRange.age`." ] ;
+       fhir:requirements [ fhir:v "Some analytes vary greatly over age. Element `Observation.referenceRange.age` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.age` has is mapped to FHIR R4 element `Observation.referenceRange.age`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1608,7 +1608,7 @@
        fhir:sliceName [ fhir:v "text" ] ;
        fhir:short [ fhir:v "Text based reference range in an observation" ] ;
        fhir:definition [ fhir:v "Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation.  An example would be a reference value of \"Negative\" or a list or table of \"normals\"." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.referenceRange.text` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.text` is mapped to FHIR R4 element `Observation.referenceRange.text`." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.referenceRange.text` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.text` has is mapped to FHIR R4 element `Observation.referenceRange.text`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2176,7 +2176,7 @@
        fhir:sliceName [ fhir:v "low" ] ;
        fhir:short [ fhir:v "Low Range, if relevant" ] ;
        fhir:definition [ fhir:v "The value of the low bound of the reference range.  The low bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the low bound is omitted,  it is assumed to be meaningless (e.g. reference range is <=2.3)." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.referenceRange.low` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.low` is mapped to FHIR R4 element `Observation.referenceRange.low`." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.referenceRange.low` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.low` has is mapped to FHIR R4 element `Observation.referenceRange.low`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2227,7 +2227,7 @@
        fhir:sliceName [ fhir:v "high" ] ;
        fhir:short [ fhir:v "High Range, if relevant" ] ;
        fhir:definition [ fhir:v "The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3)." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.referenceRange.high` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.high` is mapped to FHIR R4 element `Observation.referenceRange.high`." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.referenceRange.high` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.high` has is mapped to FHIR R4 element `Observation.referenceRange.high`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2278,7 +2278,7 @@
        fhir:sliceName [ fhir:v "normalValue" ] ;
        fhir:short [ fhir:v "Normal value, if relevant" ] ;
        fhir:definition [ fhir:v "The value of the normal value of the reference range." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is will have a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.normalValue` has a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2326,7 +2326,7 @@
        fhir:short [ fhir:v "Reference range qualifier" ] ;
        fhir:definition [ fhir:v "Codes to indicate the what part of the targeted reference population it applies to. For example, the normal or therapeutic range." ] ;
        fhir:comment [ fhir:v "This SHOULD be populated if there is more than one range.  If this element is not present then the normal range is assumed." ] ;
-       fhir:requirements [ fhir:v "Need to be able to say what kind of reference range this is - normal, recommended, therapeutic, etc.,  - for proper interpretation. Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.type` is mapped to FHIR R4 element `Observation.referenceRange.type`." ] ;
+       fhir:requirements [ fhir:v "Need to be able to say what kind of reference range this is - normal, recommended, therapeutic, etc.,  - for proper interpretation. Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.type` has is mapped to FHIR R4 element `Observation.referenceRange.type`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2383,7 +2383,7 @@
        fhir:short [ fhir:v "Reference range population" ] ;
        fhir:definition [ fhir:v "Codes to indicate the target population this reference range applies to.  For example, a reference range may be based on the normal population or a particular sex or race.  Multiple `appliesTo`  are interpreted as an \"AND\" of the target populations.  For example, to represent a target population of African American females, both a code of female and a code for African American would be used." ] ;
        fhir:comment [ fhir:v "This SHOULD be populated if there is more than one range.  If this element is not present then the normal population is assumed." ] ;
-       fhir:requirements [ fhir:v "Need to be able to identify the target population for proper interpretation. Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.appliesTo` is mapped to FHIR R4 element `Observation.referenceRange.appliesTo`." ] ;
+       fhir:requirements [ fhir:v "Need to be able to identify the target population for proper interpretation. Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.appliesTo` has is mapped to FHIR R4 element `Observation.referenceRange.appliesTo`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2439,7 +2439,7 @@
        fhir:sliceName [ fhir:v "age" ] ;
        fhir:short [ fhir:v "Applicable age range, if relevant" ] ;
        fhir:definition [ fhir:v "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so." ] ;
-       fhir:requirements [ fhir:v "Some analytes vary greatly over age. Element `Observation.referenceRange.age` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.age` is mapped to FHIR R4 element `Observation.referenceRange.age`." ] ;
+       fhir:requirements [ fhir:v "Some analytes vary greatly over age. Element `Observation.referenceRange.age` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.age` has is mapped to FHIR R4 element `Observation.referenceRange.age`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2486,7 +2486,7 @@
        fhir:sliceName [ fhir:v "text" ] ;
        fhir:short [ fhir:v "Text based reference range in an observation" ] ;
        fhir:definition [ fhir:v "Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation.  An example would be a reference value of \"Negative\" or a list or table of \"normals\"." ] ;
-       fhir:requirements [ fhir:v "Element `Observation.referenceRange.text` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.text` is mapped to FHIR R4 element `Observation.referenceRange.text`." ] ;
+       fhir:requirements [ fhir:v "Element `Observation.referenceRange.text` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.text` has is mapped to FHIR R4 element `Observation.referenceRange.text`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

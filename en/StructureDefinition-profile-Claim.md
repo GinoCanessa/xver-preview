@@ -1,4 +1,4 @@
-# ProfileClaim - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileClaim - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileClaim 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Claim content to be represented via FHIR R4
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.Claim.related` for use in FHIR R4](StructureDefinition-ext-R5-Claim.related.md), [Cross-version Extension `R5.ExplanationOfBenefit.related` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.related.md) and [Cross-version Extension `R5.PaymentReconciliation.allocation` for use in FHIR R4](StructureDefinition-ext-R5-PaymentReconciliation.allocation.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Claim)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
   "title" : "Cross-version Profile for R5.Claim for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0143822-06:00",
+  "date" : "2026-02-17T14:42:26.7514155-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
         "path" : "Claim.extension",
         "sliceName" : "traceNumber",
         "short" : "Cross-version extension for Claim.traceNumber from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.traceNumber` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
+        "comment" : "Element `Claim.traceNumber` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -191,7 +191,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
         "path" : "Claim.extension",
         "sliceName" : "diagnosisRelatedGroup",
         "short" : "Cross-version extension for Claim.diagnosisRelatedGroup from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.diagnosisRelatedGroup` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
+        "comment" : "Element `Claim.diagnosisRelatedGroup` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -213,7 +213,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
         "path" : "Claim.extension",
         "sliceName" : "event",
         "short" : "Cross-version extension for Claim.event from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.event` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
+        "comment" : "Element `Claim.event` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -235,7 +235,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
         "path" : "Claim.extension",
         "sliceName" : "patientPaid",
         "short" : "Cross-version extension for Claim.patientPaid from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.patientPaid` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
+        "comment" : "Element `Claim.patientPaid` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -258,7 +258,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
         "sliceName" : "encounter",
         "short" : "Cross-version extension for Claim.encounter from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Claim.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Claim.encounter` is will have a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Claim.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Claim.encounter` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -302,7 +302,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
         "sliceName" : "enterer",
         "short" : "Cross-version extension for Claim.enterer from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Claim.enterer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Claim.enterer` is mapped to FHIR R4 element `Claim.enterer`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Claim.enterer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Claim.enterer` has is mapped to FHIR R4 element `Claim.enterer`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -315,6 +315,92 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Claim.related.extension",
+        "path" : "Claim.related.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Claim.related.extension:related",
+        "path" : "Claim.related.extension",
+        "sliceName" : "related",
+        "short" : "Cross-version extension for Claim.related from R5 for use in FHIR R4",
+        "comment" : "Element `Claim.related` has is mapped to FHIR R4 element `Claim.related`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Claim.payee.extension",
+        "path" : "Claim.payee.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Claim.payee.extension:payee",
+        "path" : "Claim.payee.extension",
+        "sliceName" : "payee",
+        "short" : "Cross-version extension for Claim.payee from R5 for use in FHIR R4",
+        "comment" : "Element `Claim.payee` has is mapped to FHIR R4 element `Claim.payee`, but has no comparisons.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.payee|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -346,7 +432,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
         "sliceName" : "facility",
         "short" : "Cross-version extension for Claim.facility from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Claim.facility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Claim.facility` is mapped to FHIR R4 element `Claim.facility`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Claim.facility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Claim.facility` has is mapped to FHIR R4 element `Claim.facility`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -359,6 +445,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Claim.careTeam.extension",
+        "path" : "Claim.careTeam.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Claim.careTeam.extension:careTeam",
+        "path" : "Claim.careTeam.extension",
+        "sliceName" : "careTeam",
+        "short" : "Cross-version extension for Claim.careTeam from R5 for use in FHIR R4",
+        "comment" : "Element `Claim.careTeam` has is mapped to FHIR R4 element `Claim.careTeam`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -385,11 +514,183 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
         }
       },
       {
-        "id" : "Claim.supportingInfo.extension:value",
+        "id" : "Claim.supportingInfo.extension:supportingInfo",
         "path" : "Claim.supportingInfo.extension",
-        "sliceName" : "value",
-        "short" : "Cross-version extension for Claim.supportingInfo.value[x] from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `Claim.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.\nElement `Claim.supportingInfo.value[x]` is mapped to FHIR R4 element `Claim.supportingInfo.value[x]`.\nNote that the target element context `Claim.supportingInfo.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Claim.supportingInfo`.",
+        "sliceName" : "supportingInfo",
+        "short" : "Cross-version extension for Claim.supportingInfo from R5 for use in FHIR R4",
+        "comment" : "Element `Claim.supportingInfo` has is mapped to FHIR R4 element `Claim.supportingInfo`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Claim.diagnosis.extension",
+        "path" : "Claim.diagnosis.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Claim.diagnosis.extension:diagnosis",
+        "path" : "Claim.diagnosis.extension",
+        "sliceName" : "diagnosis",
+        "short" : "Cross-version extension for Claim.diagnosis from R5 for use in FHIR R4",
+        "comment" : "Element `Claim.diagnosis` has is mapped to FHIR R4 element `Claim.diagnosis`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosis|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Claim.procedure.extension",
+        "path" : "Claim.procedure.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Claim.procedure.extension:procedure",
+        "path" : "Claim.procedure.extension",
+        "sliceName" : "procedure",
+        "short" : "Cross-version extension for Claim.procedure from R5 for use in FHIR R4",
+        "comment" : "Element `Claim.procedure` has is mapped to FHIR R4 element `Claim.procedure`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Claim.insurance.extension",
+        "path" : "Claim.insurance.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Claim.insurance.extension:insurance",
+        "path" : "Claim.insurance.extension",
+        "sliceName" : "insurance",
+        "short" : "Cross-version extension for Claim.insurance from R5 for use in FHIR R4",
+        "comment" : "Element `Claim.insurance` has is mapped to FHIR R4 element `Claim.insurance`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.insurance|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Claim.accident.extension",
+        "path" : "Claim.accident.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Claim.accident.extension:accident",
+        "path" : "Claim.accident.extension",
+        "sliceName" : "accident",
+        "short" : "Cross-version extension for Claim.accident from R5 for use in FHIR R4",
+        "comment" : "Element `Claim.accident` has is mapped to FHIR R4 element `Claim.accident`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -401,7 +702,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo.value|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.accident|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -428,11 +729,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
         }
       },
       {
-        "id" : "Claim.item.extension:traceNumber",
+        "id" : "Claim.item.extension:item",
         "path" : "Claim.item.extension",
-        "sliceName" : "traceNumber",
-        "short" : "Cross-version extension for Claim.item.traceNumber from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.traceNumber` is will have a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.",
+        "sliceName" : "item",
+        "short" : "Cross-version extension for Claim.item from R5 for use in FHIR R4",
+        "comment" : "Element `Claim.item` has is mapped to FHIR R4 element `Claim.item`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -444,314 +745,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Claim.csv
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.traceNumber|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.extension:productOrServiceEnd",
-        "path" : "Claim.item.extension",
-        "sliceName" : "productOrServiceEnd",
-        "short" : "Cross-version extension for Claim.item.productOrServiceEnd from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.productOrServiceEnd` is will have a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.productOrServiceEnd|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.extension:patientPaid",
-        "path" : "Claim.item.extension",
-        "sliceName" : "patientPaid",
-        "short" : "Cross-version extension for Claim.item.patientPaid from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.patientPaid` is will have a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.patientPaid|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.extension:tax",
-        "path" : "Claim.item.extension",
-        "sliceName" : "tax",
-        "short" : "Cross-version extension for Claim.item.tax from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.tax` is will have a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.tax|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.extension:request",
-        "path" : "Claim.item.extension",
-        "sliceName" : "request",
-        "short" : "Cross-version extension for Claim.item.request from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/ServiceRequest,http://hl7.org/fhir/StructureDefinition/SupplyRequest,http://hl7.org/fhir/StructureDefinition/VisionPrescription in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Claim.item.request` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Claim.item.request` is will have a context of Claim.item based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.detail.extension",
-        "path" : "Claim.item.detail.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "Claim.item.detail.extension:traceNumber",
-        "path" : "Claim.item.detail.extension",
-        "sliceName" : "traceNumber",
-        "short" : "Cross-version extension for Claim.item.detail.traceNumber from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.detail.traceNumber` is will have a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.traceNumber|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.detail.extension:productOrServiceEnd",
-        "path" : "Claim.item.detail.extension",
-        "sliceName" : "productOrServiceEnd",
-        "short" : "Cross-version extension for Claim.item.detail.productOrServiceEnd from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.detail.productOrServiceEnd` is will have a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.productOrServiceEnd|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.detail.extension:patientPaid",
-        "path" : "Claim.item.detail.extension",
-        "sliceName" : "patientPaid",
-        "short" : "Cross-version extension for Claim.item.detail.patientPaid from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.detail.patientPaid` is will have a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.patientPaid|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.detail.extension:tax",
-        "path" : "Claim.item.detail.extension",
-        "sliceName" : "tax",
-        "short" : "Cross-version extension for Claim.item.detail.tax from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.detail.tax` is will have a context of Claim.item.detail based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.tax|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.detail.subDetail.extension",
-        "path" : "Claim.item.detail.subDetail.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "Claim.item.detail.subDetail.extension:traceNumber",
-        "path" : "Claim.item.detail.subDetail.extension",
-        "sliceName" : "traceNumber",
-        "short" : "Cross-version extension for Claim.item.detail.subDetail.traceNumber from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.detail.subDetail.traceNumber` is will have a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.traceNumber|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.detail.subDetail.extension:productOrServiceEnd",
-        "path" : "Claim.item.detail.subDetail.extension",
-        "sliceName" : "productOrServiceEnd",
-        "short" : "Cross-version extension for Claim.item.detail.subDetail.productOrServiceEnd from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.detail.subDetail.productOrServiceEnd` is will have a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.productOrServiceEnd|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.detail.subDetail.extension:patientPaid",
-        "path" : "Claim.item.detail.subDetail.extension",
-        "sliceName" : "patientPaid",
-        "short" : "Cross-version extension for Claim.item.detail.subDetail.patientPaid from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.detail.subDetail.patientPaid` is will have a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.patientPaid|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Claim.item.detail.subDetail.extension:tax",
-        "path" : "Claim.item.detail.subDetail.extension",
-        "sliceName" : "tax",
-        "short" : "Cross-version extension for Claim.item.detail.subDetail.tax from R5 for use in FHIR R4",
-        "comment" : "Element `Claim.item.detail.subDetail.tax` is will have a context of Claim.item.detail.subDetail based on following the parent source element upwards and mapping to `Claim`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item.detail.subDetail.tax|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item|0.0.1-snapshot-3"
             ]
           }
         ]

@@ -1,4 +1,4 @@
-# ExtensionAuditEvent_Agent - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAuditEvent_Agent - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.AuditEvent.agent` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `AuditEvent.agent` f
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.AuditEvent for use in FHIR R4](StructureDefinition-profile-AuditEvent.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-AuditEvent.agent)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
   "title" : "Cross-version Extension `R5.AuditEvent.agent` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AuditEvent.agent` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AuditEvent.agent` 1..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AuditEvent.agent` 1..* `BackboneElement`\n*  R4B: `AuditEvent.agent` 1..* `BackboneElement`\n*  R4: `AuditEvent.agent` 1..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AuditEvent.agent` is mapped to FHIR R4 element `AuditEvent.agent`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AuditEvent.agent` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AuditEvent.agent` 1..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AuditEvent.agent` 1..* `BackboneElement`\n*  R4B: `AuditEvent.agent` 1..* `BackboneElement`\n*  R4: `AuditEvent.agent` 1..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AuditEvent.agent` has is mapped to FHIR R4 element `AuditEvent.agent`, but has no comparisons.\nNote available implied context: `AuditEvent.entity.agent` because `AuditEvent.entity.agent` is defined as a content reference to `AuditEvent.agent`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "AuditEvent.agent"
     }
   ],
   "type" : "Extension",
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "How agent participated",
         "definition" : "The Functional Role of the user when performing the event.",
         "comment" : "For example: assembler, author, prescriber, signer, investigator, etc.",
-        "requirements" : "Functional roles reflect functional aspects of relationships between entities. Functional roles are bound to the realization/performance of acts, where actions might be concatenated to an activity or even to a process. This element will hold the functional role that the agent played in the activity that is the focus of this Provenance. Where an agent played multiple functional roles, they will be listed as multiple .agent elements representing each functional participation. See ISO 21298:2018 - Health Informatics - Functional and structural roles, and ISO 22600-2:2014 - Health Informatics - Privilege Management and Access Control - Part 2: formal models. Element `AuditEvent.agent.type` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.type` is mapped to FHIR R4 element `AuditEvent.agent.type`.",
+        "requirements" : "Functional roles reflect functional aspects of relationships between entities. Functional roles are bound to the realization/performance of acts, where actions might be concatenated to an activity or even to a process. This element will hold the functional role that the agent played in the activity that is the focus of this Provenance. Where an agent played multiple functional roles, they will be listed as multiple .agent elements representing each functional participation. See ISO 21298:2018 - Health Informatics - Functional and structural roles, and ISO 22600-2:2014 - Health Informatics - Privilege Management and Access Control - Part 2: formal models. Element `AuditEvent.agent.type` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.\nElement `AuditEvent.agent.type` has is mapped to FHIR R4 element `AuditEvent.agent.type`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -238,7 +238,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "Agent role in the event",
         "definition" : "The structural roles of the agent indicating the agent's competency. The security role enabling the agent with respect to the activity.",
         "comment" : "For example: Chief-of-Radiology, Nurse, Physician, Medical-Student, etc.",
-        "requirements" : "Structural roles reflect the structural aspects of relationships between entities. Structural roles describe prerequisites, feasibilities, or competences for acts. Functional roles reflect functional aspects of relationships between entities. Functional roles are bound to the realization/performance of acts, where actions might be concatenated to an activity or even to a process. See ISO 21298:2018 - Health Informatics - Functional and structural roles, and ISO 22600-2:2014 - Health Informatics - Privilege Management and Access Control - Part 2: formal models.. Element `AuditEvent.agent.role` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.role` is mapped to FHIR R4 element `AuditEvent.agent.role`.",
+        "requirements" : "Structural roles reflect the structural aspects of relationships between entities. Structural roles describe prerequisites, feasibilities, or competences for acts. Functional roles reflect functional aspects of relationships between entities. Functional roles are bound to the realization/performance of acts, where actions might be concatenated to an activity or even to a process. See ISO 21298:2018 - Health Informatics - Functional and structural roles, and ISO 22600-2:2014 - Health Informatics - Privilege Management and Access Control - Part 2: formal models.. Element `AuditEvent.agent.role` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.\nElement `AuditEvent.agent.role` has is mapped to FHIR R4 element `AuditEvent.agent.role`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -290,7 +290,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "Identifier of who",
         "definition" : "Reference to who this agent is that was involved in the event.",
         "comment" : "Where a User ID is available it will go into who.identifier. Where a name of the user (human readable) it will go into who.display.",
-        "requirements" : "This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`.",
+        "requirements" : "This field ties an audit event to a specific resource or identifier. Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.agent.who` has is mapped to FHIR R4 element `AuditEvent.agent.who`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -341,7 +341,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "Whether user is initiator",
         "definition" : "Indicator that the user is or is not the requestor, or initiator, for the event being audited.",
         "comment" : "There can only be one initiator. If the initiator is not clear, then do not choose any one agent as the initiator.",
-        "requirements" : "This value is used to distinguish between requestor-users and recipient-users. For example, one person may initiate a report-output to be sent to another user. Element `AuditEvent.agent.requestor` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.requestor` is mapped to FHIR R4 element `AuditEvent.agent.requestor`.",
+        "requirements" : "This value is used to distinguish between requestor-users and recipient-users. For example, one person may initiate a report-output to be sent to another user. Element `AuditEvent.agent.requestor` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.\nElement `AuditEvent.agent.requestor` has is mapped to FHIR R4 element `AuditEvent.agent.requestor`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -387,7 +387,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "sliceName" : "location",
         "short" : "The agent location when the event occurred",
         "definition" : "Where the agent location is known, the agent location when the event occurred.",
-        "requirements" : "Element `AuditEvent.agent.location` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.location` is mapped to FHIR R4 element `AuditEvent.agent.location`.",
+        "requirements" : "Element `AuditEvent.agent.location` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.\nElement `AuditEvent.agent.location` has is mapped to FHIR R4 element `AuditEvent.agent.location`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -437,7 +437,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "Policy that authorized the agent participation in the event",
         "definition" : "Where the policy(ies) are known that authorized the agent participation in the event. Typically, a single activity may have multiple applicable policies, such as patient consent, guarantor funding, etc. The policy would also indicate the security token used.",
         "comment" : "For example: Where an OAuth token authorizes, the unique identifier from the OAuth token is placed into the policy element Where a policy engine (e.g. XACML) holds policy logic, the unique policy identifier is placed into the policy element.",
-        "requirements" : "This value is used retrospectively to determine the authorization policies. Element `AuditEvent.agent.policy` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.policy` is mapped to FHIR R4 element `AuditEvent.agent.policy`.",
+        "requirements" : "This value is used retrospectively to determine the authorization policies. Element `AuditEvent.agent.policy` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.\nElement `AuditEvent.agent.policy` has is mapped to FHIR R4 element `AuditEvent.agent.policy`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -484,7 +484,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "This agent network location for the activity",
         "definition" : "When the event utilizes a network there should be an agent describing the local system, and an agent describing remote system, with the network interface details.",
         "comment" : "When remote network endpoint is known, another agent representing the remote agent would indicate the remote network endpoint used. Convention is to indicate data flowing from Source to Destination. The convention for Search, given data flows both ways (query parameters vs results), is to have the Source as the initiator of the Search Transaction, and the Destination the responder to the Search transaction.",
-        "requirements" : "When a network protocol is used the endpoint is associated with the agent most directly using the endpoint. This is usually the software agent that has implemented the application level protocol.  Preference is to define network in terms of a Reference(Endpoint), or URI; use string only when address or hostname is all that is known. When encoding using string it is best to encode using the formal canonical host name, but if you can't, then you can encode numeric in Literal address form using square brackets '[]' as a v4 string (in dotted notation), or v6 string (in colon notation). Element `AuditEvent.agent.network[x]` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.network[x]` is mapped to FHIR R4 element `AuditEvent.agent.network`.",
+        "requirements" : "When a network protocol is used the endpoint is associated with the agent most directly using the endpoint. This is usually the software agent that has implemented the application level protocol.  Preference is to define network in terms of a Reference(Endpoint), or URI; use string only when address or hostname is all that is known. When encoding using string it is best to encode using the formal canonical host name, but if you can't, then you can encode numeric in Literal address form using square brackets '[]' as a v4 string (in dotted notation), or v6 string (in colon notation). Element `AuditEvent.agent.network[x]` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.\nElement `AuditEvent.agent.network[x]` has is mapped to FHIR R4 element `AuditEvent.agent.network`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -541,7 +541,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AuditEvent
         "short" : "Allowable authorization for this agent",
         "definition" : "The authorization (e.g., PurposeOfUse) that was used during the event being recorded.",
         "comment" : "Use AuditEvent.agent.authorization when you know that is specific to the agent, otherwise use AuditEvent.authorization. For example, during a machine-to-machine transfer it might not be obvious to the audit system who caused the event, but it does know why.",
-        "requirements" : "Record of any relevant security context, not restricted to purposeOfUse valueSet. May include security compartments, refrain, obligation, or other security tags. Element `AuditEvent.agent.authorization` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nElement `AuditEvent.agent.authorization` is mapped to FHIR R4 element `AuditEvent.agent.purposeOfUse`.",
+        "requirements" : "Record of any relevant security context, not restricted to purposeOfUse valueSet. May include security compartments, refrain, obligation, or other security tags. Element `AuditEvent.agent.authorization` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.\nElement `AuditEvent.agent.authorization` has is mapped to FHIR R4 element `AuditEvent.agent.purposeOfUse`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

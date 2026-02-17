@@ -1,4 +1,4 @@
-# Lookup for ProfileGuidanceResponse - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileGuidanceResponse - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileGuidanceResponse
 
@@ -30,6 +30,6 @@ A computable version of the following element information is available in: [Conc
 | [`GuidanceResponse.note`](https://hl7.org/fhir/R5/GuidanceResponse.html#resource) | [GuidanceResponse.note](https://hl7.org/fhir/R4/GuidanceResponse.html#resource) |
 | [`GuidanceResponse.evaluationMessage`](https://hl7.org/fhir/R5/GuidanceResponse.html#resource) | [GuidanceResponse.evaluationMessage](https://hl7.org/fhir/R4/GuidanceResponse.html#resource) |
 | [`GuidanceResponse.outputParameters`](https://hl7.org/fhir/R5/GuidanceResponse.html#resource) | [GuidanceResponse.outputParameters](https://hl7.org/fhir/R4/GuidanceResponse.html#resource) |
-| [`GuidanceResponse.result`](https://hl7.org/fhir/R5/GuidanceResponse.html#resource) | [GuidanceResponse.result](https://hl7.org/fhir/R4/GuidanceResponse.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-GuidanceResponse.result](StructureDefinition-ext-R5-GuidanceResponse.result.md) |
+| [`GuidanceResponse.result`](https://hl7.org/fhir/R5/GuidanceResponse.html#resource) | [GuidanceResponse.result](https://hl7.org/fhir/R4/GuidanceResponse.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`GuidanceResponse.dataRequirement`](https://hl7.org/fhir/R5/GuidanceResponse.html#resource) | [GuidanceResponse.dataRequirement](https://hl7.org/fhir/R4/GuidanceResponse.html#resource) |
 

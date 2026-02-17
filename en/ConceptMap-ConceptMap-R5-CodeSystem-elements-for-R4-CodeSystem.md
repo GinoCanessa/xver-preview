@@ -1,4 +1,4 @@
-# ConceptMapR5CodeSystemElementsForR4CodeSystem - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5CodeSystemElementsForR4CodeSystem - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5CodeSystemElementsForR4CodeSystem 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.6508558-06:00",
+  "date" : "2026-02-17T14:42:27.0748952-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `CodeSystem` is representable via FHIR R4 Resource `CodeSystem`.\nElement `CodeSystem` is mapped to FHIR R4 element `CodeSystem`."
+              "comment" : "FHIR R5 Resource `CodeSystem` is representable via FHIR R4 Resource `CodeSystem`.\nElement `CodeSystem` has is mapped to FHIR R4 element `CodeSystem`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.meta` is mapped to FHIR R4 element `CodeSystem.meta`."
+              "comment" : "Element `CodeSystem.meta` has is mapped to FHIR R4 element `CodeSystem.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.implicitRules` is mapped to FHIR R4 element `CodeSystem.implicitRules`."
+              "comment" : "Element `CodeSystem.implicitRules` has is mapped to FHIR R4 element `CodeSystem.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.language` is mapped to FHIR R4 element `CodeSystem.language`."
+              "comment" : "Element `CodeSystem.language` has is mapped to FHIR R4 element `CodeSystem.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.text` is mapped to FHIR R4 element `CodeSystem.text`."
+              "comment" : "Element `CodeSystem.text` has is mapped to FHIR R4 element `CodeSystem.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.contained` is mapped to FHIR R4 element `CodeSystem.contained`."
+              "comment" : "Element `CodeSystem.contained` has is mapped to FHIR R4 element `CodeSystem.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.url` is mapped to FHIR R4 element `CodeSystem.url`."
+              "comment" : "Element `CodeSystem.url` has is mapped to FHIR R4 element `CodeSystem.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.identifier` is mapped to FHIR R4 element `CodeSystem.identifier`."
+              "comment" : "Element `CodeSystem.identifier` has is mapped to FHIR R4 element `CodeSystem.identifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.version` is mapped to FHIR R4 element `CodeSystem.version`."
+              "comment" : "Element `CodeSystem.version` has is mapped to FHIR R4 element `CodeSystem.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.versionAlgorithm[x]` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.versionAlgorithm[x]` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.name` is mapped to FHIR R4 element `CodeSystem.name`."
+              "comment" : "Element `CodeSystem.name` has is mapped to FHIR R4 element `CodeSystem.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.title` is mapped to FHIR R4 element `CodeSystem.title`."
+              "comment" : "Element `CodeSystem.title` has is mapped to FHIR R4 element `CodeSystem.title`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.status` is mapped to FHIR R4 element `CodeSystem.status`."
+              "comment" : "Element `CodeSystem.status` has is mapped to FHIR R4 element `CodeSystem.status`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.experimental` is mapped to FHIR R4 element `CodeSystem.experimental`."
+              "comment" : "Element `CodeSystem.experimental` has is mapped to FHIR R4 element `CodeSystem.experimental`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.date` is mapped to FHIR R4 element `CodeSystem.date`."
+              "comment" : "Element `CodeSystem.date` has is mapped to FHIR R4 element `CodeSystem.date`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.publisher` is mapped to FHIR R4 element `CodeSystem.publisher`."
+              "comment" : "Element `CodeSystem.publisher` has is mapped to FHIR R4 element `CodeSystem.publisher`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.contact` is mapped to FHIR R4 element `CodeSystem.contact`."
+              "comment" : "Element `CodeSystem.contact` has is mapped to FHIR R4 element `CodeSystem.contact`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.description` is mapped to FHIR R4 element `CodeSystem.description`."
+              "comment" : "Element `CodeSystem.description` has is mapped to FHIR R4 element `CodeSystem.description`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.useContext` is mapped to FHIR R4 element `CodeSystem.useContext`."
+              "comment" : "Element `CodeSystem.useContext` has is mapped to FHIR R4 element `CodeSystem.useContext`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.jurisdiction` is mapped to FHIR R4 element `CodeSystem.jurisdiction`."
+              "comment" : "Element `CodeSystem.jurisdiction` has is mapped to FHIR R4 element `CodeSystem.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.purpose` is mapped to FHIR R4 element `CodeSystem.purpose`."
+              "comment" : "Element `CodeSystem.purpose` has is mapped to FHIR R4 element `CodeSystem.purpose`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.copyright` is mapped to FHIR R4 element `CodeSystem.copyright`."
+              "comment" : "Element `CodeSystem.copyright` has is mapped to FHIR R4 element `CodeSystem.copyright`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.copyrightLabel` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.copyrightLabel` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.approvalDate` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.approvalDate` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.lastReviewDate` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.lastReviewDate` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.effectivePeriod` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.effectivePeriod` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.topic` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.topic` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `CodeSystem.author` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `CodeSystem.author` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.editor` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.editor` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.reviewer` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.reviewer` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.endorser` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.endorser` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.relatedArtifact` is will have a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.relatedArtifact` has a context of CodeSystem based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.caseSensitive",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.caseSensitive` is mapped to FHIR R4 element `CodeSystem.caseSensitive`."
+              "comment" : "Element `CodeSystem.caseSensitive` has is mapped to FHIR R4 element `CodeSystem.caseSensitive`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.valueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.valueSet` is mapped to FHIR R4 element `CodeSystem.valueSet`."
+              "comment" : "Element `CodeSystem.valueSet` has is mapped to FHIR R4 element `CodeSystem.valueSet`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.hierarchyMeaning",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.hierarchyMeaning` is mapped to FHIR R4 element `CodeSystem.hierarchyMeaning`."
+              "comment" : "Element `CodeSystem.hierarchyMeaning` has is mapped to FHIR R4 element `CodeSystem.hierarchyMeaning`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.compositional",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.compositional` is mapped to FHIR R4 element `CodeSystem.compositional`."
+              "comment" : "Element `CodeSystem.compositional` has is mapped to FHIR R4 element `CodeSystem.compositional`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.versionNeeded",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.versionNeeded` is mapped to FHIR R4 element `CodeSystem.versionNeeded`."
+              "comment" : "Element `CodeSystem.versionNeeded` has is mapped to FHIR R4 element `CodeSystem.versionNeeded`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.content",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.content` is mapped to FHIR R4 element `CodeSystem.content`."
+              "comment" : "Element `CodeSystem.content` has is mapped to FHIR R4 element `CodeSystem.content`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.supplements",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.supplements` is mapped to FHIR R4 element `CodeSystem.supplements`."
+              "comment" : "Element `CodeSystem.supplements` has is mapped to FHIR R4 element `CodeSystem.supplements`, but has no comparisons."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.count",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.count` is mapped to FHIR R4 element `CodeSystem.count`."
+              "comment" : "Element `CodeSystem.count` has is mapped to FHIR R4 element `CodeSystem.count`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.filter` is mapped to FHIR R4 element `CodeSystem.filter`."
+              "comment" : "Element `CodeSystem.filter` has is mapped to FHIR R4 element `CodeSystem.filter`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.filter.code` is mapped to FHIR R4 element `CodeSystem.filter.code`."
+              "comment" : "Element `CodeSystem.filter.code` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.code` has is mapped to FHIR R4 element `CodeSystem.filter.code`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.filter.description` is mapped to FHIR R4 element `CodeSystem.filter.description`."
+              "comment" : "Element `CodeSystem.filter.description` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.description` has is mapped to FHIR R4 element `CodeSystem.filter.description`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.operator",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.filter.operator` is mapped to FHIR R4 element `CodeSystem.filter.operator`."
+              "comment" : "Element `CodeSystem.filter.operator` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.operator` has is mapped to FHIR R4 element `CodeSystem.filter.operator`, but has no comparisons."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.filter.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.filter.value` is mapped to FHIR R4 element `CodeSystem.filter.value`."
+              "comment" : "Element `CodeSystem.filter.value` is part of an existing definition because parent element `CodeSystem.filter` requires a cross-version extension.\nElement `CodeSystem.filter.value` has is mapped to FHIR R4 element `CodeSystem.filter.value`, but has no comparisons."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.property` is mapped to FHIR R4 element `CodeSystem.property`."
+              "comment" : "Element `CodeSystem.property` has is mapped to FHIR R4 element `CodeSystem.property`, but has no comparisons."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.property.code` is mapped to FHIR R4 element `CodeSystem.property.code`."
+              "comment" : "Element `CodeSystem.property.code` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.code` has is mapped to FHIR R4 element `CodeSystem.property.code`, but has no comparisons."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.uri",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.property.uri` is mapped to FHIR R4 element `CodeSystem.property.uri`."
+              "comment" : "Element `CodeSystem.property.uri` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.uri` has is mapped to FHIR R4 element `CodeSystem.property.uri`, but has no comparisons."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.property.description` is mapped to FHIR R4 element `CodeSystem.property.description`."
+              "comment" : "Element `CodeSystem.property.description` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.description` has is mapped to FHIR R4 element `CodeSystem.property.description`, but has no comparisons."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.property.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.property.type` is mapped to FHIR R4 element `CodeSystem.property.type`."
+              "comment" : "Element `CodeSystem.property.type` is part of an existing definition because parent element `CodeSystem.property` requires a cross-version extension.\nElement `CodeSystem.property.type` has is mapped to FHIR R4 element `CodeSystem.property.type`, but has no comparisons."
             }
           ]
         },
@@ -635,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept` is mapped to FHIR R4 element `CodeSystem.concept`."
+              "comment" : "Element `CodeSystem.concept` has is mapped to FHIR R4 element `CodeSystem.concept`, but has no comparisons.\nNote available implied context: `CodeSystem.concept.concept` because `CodeSystem.concept.concept` is defined as a content reference to `CodeSystem.concept`."
             }
           ]
         },
@@ -646,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.code` is mapped to FHIR R4 element `CodeSystem.concept.code`."
+              "comment" : "Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.code` has is mapped to FHIR R4 element `CodeSystem.concept.code`, but has no comparisons."
             }
           ]
         },
@@ -657,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.display` is mapped to FHIR R4 element `CodeSystem.concept.display`."
+              "comment" : "Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.display` has is mapped to FHIR R4 element `CodeSystem.concept.display`, but has no comparisons."
             }
           ]
         },
@@ -668,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.definition",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.definition` is mapped to FHIR R4 element `CodeSystem.concept.definition`."
+              "comment" : "Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.definition` has is mapped to FHIR R4 element `CodeSystem.concept.definition`, but has no comparisons."
             }
           ]
         },
@@ -679,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.designation` is mapped to FHIR R4 element `CodeSystem.concept.designation`."
+              "comment" : "Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.designation` has is mapped to FHIR R4 element `CodeSystem.concept.designation`, but has no comparisons."
             }
           ]
         },
@@ -690,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.designation.language` is mapped to FHIR R4 element `CodeSystem.concept.designation.language`."
+              "comment" : "Element `CodeSystem.concept.designation.language` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.language` has is mapped to FHIR R4 element `CodeSystem.concept.designation.language`, but has no comparisons."
             }
           ]
         },
@@ -701,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.designation.use` is mapped to FHIR R4 element `CodeSystem.concept.designation.use`."
+              "comment" : "Element `CodeSystem.concept.designation.use` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.use` has is mapped to FHIR R4 element `CodeSystem.concept.designation.use`, but has no comparisons."
             }
           ]
         },
@@ -712,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.designation.additionalUse` is will have a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`."
+              "comment" : "Element `CodeSystem.concept.designation.additionalUse` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.additionalUse` has a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`."
             }
           ]
         },
@@ -723,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.designation.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.designation.value` is mapped to FHIR R4 element `CodeSystem.concept.designation.value`."
+              "comment" : "Element `CodeSystem.concept.designation.value` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.\nElement `CodeSystem.concept.designation.value` has is mapped to FHIR R4 element `CodeSystem.concept.designation.value`, but has no comparisons."
             }
           ]
         },
@@ -734,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.property",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.property` is mapped to FHIR R4 element `CodeSystem.concept.property`."
+              "comment" : "Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.property` has is mapped to FHIR R4 element `CodeSystem.concept.property`, but has no comparisons."
             }
           ]
         },
@@ -745,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.property.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.property.code` is mapped to FHIR R4 element `CodeSystem.concept.property.code`."
+              "comment" : "Element `CodeSystem.concept.property.code` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.\nElement `CodeSystem.concept.property.code` has is mapped to FHIR R4 element `CodeSystem.concept.property.code`, but has no comparisons."
             }
           ]
         },
@@ -756,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.property.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.\nElement `CodeSystem.concept.property.value[x]` is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]`.\nNote that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`."
+              "comment" : "Element `CodeSystem.concept.property.value[x]` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.\nNote that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.\nElement `CodeSystem.concept.property.value[x]` has is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]`, but has no comparisons.\nNote that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`."
             }
           ]
         },
@@ -767,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeSystem#CodeSystem.concept.concept",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).\nElement `CodeSystem.concept.concept` is mapped to FHIR R4 element `CodeSystem.concept.concept`."
+              "comment" : "Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.\nElement `CodeSystem.concept.concept` has is mapped to FHIR R4 element `CodeSystem.concept.concept`, but has no comparisons."
             }
           ]
         }

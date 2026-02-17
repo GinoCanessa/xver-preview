@@ -1,4 +1,4 @@
-# ConceptMapR5ImagingSelectionElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ImagingSelectionElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ImagingSelectionElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.927233-06:00",
+  "date" : "2026-02-17T14:42:27.3024826-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -160,7 +160,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:status",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.status",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.status` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "issued",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:issued",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.issued",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.issued` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "function",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer:function",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer.function",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.performer.function` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "actor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer:actor",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.performer.actor",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.performer.actor` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "basedOn",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:basedOn",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.basedOn",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.basedOn` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -237,7 +237,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "category",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:category",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.category",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.category` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:code",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.code",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.code` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "studyUid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:studyUid",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.studyUid",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.studyUid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "derivedFrom",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:derivedFrom",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.derivedFrom",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "endpoint",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:endpoint",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.endpoint",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.endpoint` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -292,7 +292,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "seriesUid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:seriesUid",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.seriesUid",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.seriesUid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "seriesNumber",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:seriesNumber",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.seriesNumber",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.seriesNumber` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "frameOfReferenceUid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:frameOfReferenceUid",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.frameOfReferenceUid",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.frameOfReferenceUid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "bodySite",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:bodySite",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.bodySite",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.bodySite` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "focus",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:focus",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.focus",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.focus` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -358,7 +358,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "uid",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:uid",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.uid",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.instance.uid` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -369,7 +369,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "number",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:number",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.number",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.instance.number` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -380,7 +380,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sopClass",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:sopClass",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.sopClass",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.instance.sopClass` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -391,7 +391,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subset",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:subset",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.subset",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.instance.subset` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -413,7 +413,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "regionType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D:regionType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D.regionType",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.instance.imageRegion2D.regionType` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -424,7 +424,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "coordinate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D:coordinate",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion2D.coordinate",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.instance.imageRegion2D.coordinate` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -446,7 +446,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "regionType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D:regionType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D.regionType",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.instance.imageRegion3D.regionType` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }
@@ -457,7 +457,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "coordinate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D:coordinate",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D:http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingSelection.instance.imageRegion3D.coordinate",
               "equivalence" : "relatedto",
               "comment" : "Element `ImagingSelection.instance.imageRegion3D.coordinate` is not mapped to FHIR R4, since FHIR R5 `ImagingSelection` is not mapped."
             }

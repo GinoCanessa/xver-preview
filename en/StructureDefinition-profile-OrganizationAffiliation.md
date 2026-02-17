@@ -1,4 +1,4 @@
-# ProfileOrganizationAffiliation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileOrganizationAffiliation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileOrganizationAffiliation 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Organizat
   "title" : "Cross-version Profile for R5.OrganizationAffiliation for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2537661-06:00",
+  "date" : "2026-02-17T14:42:26.8710127-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -164,7 +164,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Organizat
         "path" : "OrganizationAffiliation.extension",
         "sliceName" : "contact",
         "short" : "Cross-version extension for OrganizationAffiliation.contact from R5 for use in FHIR R4",
-        "comment" : "Element `OrganizationAffiliation.contact` is will have a context of OrganizationAffiliation based on following the parent source element upwards and mapping to `OrganizationAffiliation`.",
+        "comment" : "Element `OrganizationAffiliation.contact` has a context of OrganizationAffiliation based on following the parent source element upwards and mapping to `OrganizationAffiliation`.",
         "min" : 0,
         "max" : "*",
         "base" : {

@@ -1,4 +1,4 @@
-# ConceptMapR5TransportElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5TransportElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5TransportElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.3378116-06:00",
+  "date" : "2026-02-17T14:42:27.6452045-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -160,7 +160,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "instantiatesCanonical",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:instantiatesCanonical",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.instantiatesCanonical",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.instantiatesCanonical` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "instantiatesUri",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:instantiatesUri",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.instantiatesUri",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.instantiatesUri` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "basedOn",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:basedOn",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.basedOn",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.basedOn` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "groupIdentifier",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:groupIdentifier",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.groupIdentifier",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.groupIdentifier` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "partOf",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:partOf",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.partOf",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.partOf` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:status",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.status",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.status` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "statusReason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:statusReason",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.statusReason",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.statusReason` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -237,7 +237,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "intent",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:intent",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.intent",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.intent` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "priority",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:priority",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.priority",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.priority` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:code",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.code",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.code` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:description",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.description",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.description` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "focus",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:focus",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.focus",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.focus` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -292,7 +292,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "for",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:for",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.for",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.for` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "encounter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:encounter",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.encounter",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.encounter` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "completionTime",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:completionTime",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.completionTime",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.completionTime` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "authoredOn",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:authoredOn",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.authoredOn",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.authoredOn` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "lastModified",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:lastModified",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.lastModified",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.lastModified` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -347,7 +347,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "requester",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:requester",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.requester",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.requester` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -358,7 +358,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "performerType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:performerType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.performerType",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.performerType` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -369,7 +369,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "owner",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:owner",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.owner",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.owner` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -380,7 +380,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "location",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:location",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.location",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.location` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -391,7 +391,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "insurance",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:insurance",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.insurance",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.insurance` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -402,7 +402,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "note",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:note",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.note",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.note` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -413,7 +413,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "relevantHistory",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:relevantHistory",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.relevantHistory",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.relevantHistory` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -435,7 +435,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "repetitions",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:repetitions",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction.repetitions",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.restriction.repetitions` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -446,7 +446,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "period",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:period",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction.period",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.restriction.period` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -457,7 +457,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "recipient",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:recipient",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction.recipient",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.restriction.recipient` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -479,7 +479,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input.type",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.input.type` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -490,7 +490,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input:value",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input.value",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.input.value[x]` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -512,7 +512,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output.type",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.output.type` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -523,7 +523,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "value[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output:value",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output.value",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.output.value[x]` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -534,7 +534,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "requestedLocation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:requestedLocation",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.requestedLocation",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.requestedLocation` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -545,7 +545,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "currentLocation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:currentLocation",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.currentLocation",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.currentLocation` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -556,7 +556,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:reason",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.reason",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.reason` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }
@@ -567,7 +567,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "history",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:history",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport:http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.history",
               "equivalence" : "relatedto",
               "comment" : "Element `Transport.history` is not mapped to FHIR R4, since FHIR R5 `Transport` is not mapped."
             }

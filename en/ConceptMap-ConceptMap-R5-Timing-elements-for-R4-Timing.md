@@ -1,4 +1,4 @@
-# ConceptMapR5TimingElementsForR4Timing - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5TimingElementsForR4Timing - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5TimingElementsForR4Timing 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.3357489-06:00",
+  "date" : "2026-02-17T14:42:27.643243-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Timing` is representable via FHIR R4 extensions.\nElement `Timing` is mapped to FHIR R4 element `Timing`."
+              "comment" : "FHIR R5 ComplexType `Timing` is representable via FHIR R4 extensions.\nElement `Timing` has is mapped to FHIR R4 element `Timing`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.event",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.event` is mapped to FHIR R4 element `Timing.event`."
+              "comment" : "Element `Timing.event` has is mapped to FHIR R4 element `Timing.event`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat` is mapped to FHIR R4 element `Timing.repeat`."
+              "comment" : "Element `Timing.repeat` has is mapped to FHIR R4 element `Timing.repeat`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.bounds[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Timing.repeat.bounds[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Timing.repeat`.\nElement `Timing.repeat.bounds[x]` is mapped to FHIR R4 element `Timing.repeat.bounds[x]`.\nNote that the target element context `Timing.repeat.bounds[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Timing.repeat`."
+              "comment" : "Element `Timing.repeat.bounds[x]` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nNote that the target element context `Timing.repeat.bounds[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Timing.repeat`.\nElement `Timing.repeat.bounds[x]` has is mapped to FHIR R4 element `Timing.repeat.bounds[x]`, but has no comparisons.\nNote that the target element context `Timing.repeat.bounds[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Timing.repeat`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.count",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.count` is mapped to FHIR R4 element `Timing.repeat.count`."
+              "comment" : "Element `Timing.repeat.count` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.count` has is mapped to FHIR R4 element `Timing.repeat.count`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.countMax",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.countMax` is mapped to FHIR R4 element `Timing.repeat.countMax`."
+              "comment" : "Element `Timing.repeat.countMax` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.countMax` has is mapped to FHIR R4 element `Timing.repeat.countMax`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.duration",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.duration` is mapped to FHIR R4 element `Timing.repeat.duration`."
+              "comment" : "Element `Timing.repeat.duration` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.duration` has is mapped to FHIR R4 element `Timing.repeat.duration`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.durationMax",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.durationMax` is mapped to FHIR R4 element `Timing.repeat.durationMax`."
+              "comment" : "Element `Timing.repeat.durationMax` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.durationMax` has is mapped to FHIR R4 element `Timing.repeat.durationMax`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.durationUnit",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.durationUnit` is mapped to FHIR R4 element `Timing.repeat.durationUnit`."
+              "comment" : "Element `Timing.repeat.durationUnit` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.durationUnit` has is mapped to FHIR R4 element `Timing.repeat.durationUnit`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.frequency",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.frequency` is mapped to FHIR R4 element `Timing.repeat.frequency`."
+              "comment" : "Element `Timing.repeat.frequency` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.frequency` has is mapped to FHIR R4 element `Timing.repeat.frequency`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.frequencyMax",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.frequencyMax` is mapped to FHIR R4 element `Timing.repeat.frequencyMax`."
+              "comment" : "Element `Timing.repeat.frequencyMax` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.frequencyMax` has is mapped to FHIR R4 element `Timing.repeat.frequencyMax`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.period` is mapped to FHIR R4 element `Timing.repeat.period`."
+              "comment" : "Element `Timing.repeat.period` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.period` has is mapped to FHIR R4 element `Timing.repeat.period`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.periodMax",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.periodMax` is mapped to FHIR R4 element `Timing.repeat.periodMax`."
+              "comment" : "Element `Timing.repeat.periodMax` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.periodMax` has is mapped to FHIR R4 element `Timing.repeat.periodMax`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.periodUnit",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.periodUnit` is mapped to FHIR R4 element `Timing.repeat.periodUnit`."
+              "comment" : "Element `Timing.repeat.periodUnit` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.periodUnit` has is mapped to FHIR R4 element `Timing.repeat.periodUnit`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.dayOfWeek",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.dayOfWeek` is mapped to FHIR R4 element `Timing.repeat.dayOfWeek`."
+              "comment" : "Element `Timing.repeat.dayOfWeek` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.dayOfWeek` has is mapped to FHIR R4 element `Timing.repeat.dayOfWeek`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.timeOfDay",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.timeOfDay` is mapped to FHIR R4 element `Timing.repeat.timeOfDay`."
+              "comment" : "Element `Timing.repeat.timeOfDay` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.timeOfDay` has is mapped to FHIR R4 element `Timing.repeat.timeOfDay`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.when",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.when` is mapped to FHIR R4 element `Timing.repeat.when`."
+              "comment" : "Element `Timing.repeat.when` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.when` has is mapped to FHIR R4 element `Timing.repeat.when`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.repeat.offset",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.repeat.offset` is mapped to FHIR R4 element `Timing.repeat.offset`."
+              "comment" : "Element `Timing.repeat.offset` is part of an existing definition because parent element `Timing.repeat` requires a cross-version extension.\nElement `Timing.repeat.offset` has is mapped to FHIR R4 element `Timing.repeat.offset`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Timing#Timing.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Timing.code` is mapped to FHIR R4 element `Timing.code`."
+              "comment" : "Element `Timing.code` has is mapped to FHIR R4 element `Timing.code`, but has no comparisons."
             }
           ]
         }

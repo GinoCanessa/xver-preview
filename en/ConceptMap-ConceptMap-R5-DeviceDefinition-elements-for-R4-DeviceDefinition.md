@@ -1,4 +1,4 @@
-# ConceptMapR5DeviceDefinitionElementsForR4DeviceDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5DeviceDefinitionElementsForR4DeviceDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5DeviceDefinitionElementsForR4DeviceDefinition 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.7510469-06:00",
+  "date" : "2026-02-17T14:42:27.1694656-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DeviceDefinition` is representable via FHIR R4 Resource `DeviceDefinition`.\nElement `DeviceDefinition` is mapped to FHIR R4 element `DeviceDefinition`."
+              "comment" : "FHIR R5 Resource `DeviceDefinition` is representable via FHIR R4 Resource `DeviceDefinition`.\nElement `DeviceDefinition` has is mapped to FHIR R4 element `DeviceDefinition`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.meta` is mapped to FHIR R4 element `DeviceDefinition.meta`."
+              "comment" : "Element `DeviceDefinition.meta` has is mapped to FHIR R4 element `DeviceDefinition.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.implicitRules` is mapped to FHIR R4 element `DeviceDefinition.implicitRules`."
+              "comment" : "Element `DeviceDefinition.implicitRules` has is mapped to FHIR R4 element `DeviceDefinition.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.language` is mapped to FHIR R4 element `DeviceDefinition.language`."
+              "comment" : "Element `DeviceDefinition.language` has is mapped to FHIR R4 element `DeviceDefinition.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.text` is mapped to FHIR R4 element `DeviceDefinition.text`."
+              "comment" : "Element `DeviceDefinition.text` has is mapped to FHIR R4 element `DeviceDefinition.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.contained` is mapped to FHIR R4 element `DeviceDefinition.contained`."
+              "comment" : "Element `DeviceDefinition.contained` has is mapped to FHIR R4 element `DeviceDefinition.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.description` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.description` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.identifier` is mapped to FHIR R4 element `DeviceDefinition.identifier`."
+              "comment" : "Element `DeviceDefinition.identifier` has is mapped to FHIR R4 element `DeviceDefinition.identifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.udiDeviceIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier`."
+              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier` has is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier`, but has no comparisons.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined as a content reference to `DeviceDefinition.udiDeviceIdentifier`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.udiDeviceIdentifier.deviceIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier`."
+              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier` has is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.deviceIdentifier`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.udiDeviceIdentifier.issuer",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.issuer` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.udiDeviceIdentifier.issuer` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.issuer`."
+              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.issuer` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.issuer` has is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.issuer`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.udiDeviceIdentifier.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.jurisdiction` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.udiDeviceIdentifier.jurisdiction` is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.jurisdiction`."
+              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.jurisdiction` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.jurisdiction` has is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.udiDeviceIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution` is will have a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.udiDeviceIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` is will have a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.marketPeriod` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.udiDeviceIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` is will have a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` requires a cross-version extension.\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution.subJurisdiction` has a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.regulatoryIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.regulatoryIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.regulatoryIdentifier.type` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.type` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.regulatoryIdentifier.type` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.deviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.regulatoryIdentifier.issuer` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.issuer` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.regulatoryIdentifier.issuer` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.issuer` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.regulatoryIdentifier.jurisdiction` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.jurisdiction` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.regulatoryIdentifier.jurisdiction` is part of an existing definition because parent element `DeviceDefinition.regulatoryIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.regulatoryIdentifier.jurisdiction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.partNumber` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.partNumber` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.manufacturer[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DeviceDefinition.manufacturer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceDefinition`.\nElement `DeviceDefinition.manufacturer` is mapped to FHIR R4 element `DeviceDefinition.manufacturer[x]`.\nNote that the target element context `DeviceDefinition.manufacturer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceDefinition`."
+              "comment" : "Note that the target element context `DeviceDefinition.manufacturer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceDefinition`.\nElement `DeviceDefinition.manufacturer` has is mapped to FHIR R4 element `DeviceDefinition.manufacturer[x]`, but has no comparisons.\nNote that the target element context `DeviceDefinition.manufacturer[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceDefinition`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.deviceName",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.deviceName` is mapped to FHIR R4 element `DeviceDefinition.deviceName`."
+              "comment" : "Element `DeviceDefinition.deviceName` has is mapped to FHIR R4 element `DeviceDefinition.deviceName`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.deviceName.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.deviceName.name` is mapped to FHIR R4 element `DeviceDefinition.deviceName.name`."
+              "comment" : "Element `DeviceDefinition.deviceName.name` is part of an existing definition because parent element `DeviceDefinition.deviceName` requires a cross-version extension.\nElement `DeviceDefinition.deviceName.name` has is mapped to FHIR R4 element `DeviceDefinition.deviceName.name`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.deviceName.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.deviceName.type` is mapped to FHIR R4 element `DeviceDefinition.deviceName.type`."
+              "comment" : "Element `DeviceDefinition.deviceName.type` is part of an existing definition because parent element `DeviceDefinition.deviceName` requires a cross-version extension.\nElement `DeviceDefinition.deviceName.type` has is mapped to FHIR R4 element `DeviceDefinition.deviceName.type`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.modelNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.modelNumber` is mapped to FHIR R4 element `DeviceDefinition.modelNumber`."
+              "comment" : "Element `DeviceDefinition.modelNumber` has is mapped to FHIR R4 element `DeviceDefinition.modelNumber`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.classification` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.classification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.classification.type` is part of an existing definition because parent element `DeviceDefinition.classification` requires a cross-version extension.\nElement `DeviceDefinition.classification.type` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.classification.type` is part of an existing definition because parent element `DeviceDefinition.classification` requires a cross-version extension.\nElement `DeviceDefinition.classification.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.classification.justification` is part of an existing definition because parent element `DeviceDefinition.classification` requires a cross-version extension.\nElement `DeviceDefinition.classification.justification` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.classification.justification` is part of an existing definition because parent element `DeviceDefinition.classification` requires a cross-version extension.\nElement `DeviceDefinition.classification.justification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.specialization",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.conformsTo` is mapped to FHIR R4 element `DeviceDefinition.specialization`."
+              "comment" : "Element `DeviceDefinition.conformsTo` has is mapped to FHIR R4 element `DeviceDefinition.specialization`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.specialization",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.conformsTo.category` is mapped to FHIR R4 element `DeviceDefinition.specialization`."
+              "comment" : "Element `DeviceDefinition.conformsTo.category` is part of an existing definition because parent element `DeviceDefinition.conformsTo` requires a cross-version extension.\nElement `DeviceDefinition.conformsTo.category` has is mapped to FHIR R4 element `DeviceDefinition.specialization`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.specialization",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.conformsTo.specification` is mapped to FHIR R4 element `DeviceDefinition.specialization`."
+              "comment" : "Element `DeviceDefinition.conformsTo.specification` is part of an existing definition because parent element `DeviceDefinition.conformsTo` requires a cross-version extension.\nElement `DeviceDefinition.conformsTo.specification` has is mapped to FHIR R4 element `DeviceDefinition.specialization`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.specialization.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.conformsTo.version` is mapped to FHIR R4 element `DeviceDefinition.specialization.version`."
+              "comment" : "Element `DeviceDefinition.conformsTo.version` is part of an existing definition because parent element `DeviceDefinition.conformsTo` requires a cross-version extension.\nElement `DeviceDefinition.conformsTo.version` has is mapped to FHIR R4 element `DeviceDefinition.specialization.version`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.specialization",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.conformsTo.source` is mapped to FHIR R4 element `DeviceDefinition.specialization`."
+              "comment" : "Element `DeviceDefinition.conformsTo.source` is part of an existing definition because parent element `DeviceDefinition.conformsTo` requires a cross-version extension.\nElement `DeviceDefinition.conformsTo.source` has is mapped to FHIR R4 element `DeviceDefinition.specialization`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.hasPart` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.hasPart` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.hasPart.reference` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.hasPart.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.hasPart.reference` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.hasPart.reference` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.hasPart.reference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.hasPart.reference` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.hasPart.count` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.\nElement `DeviceDefinition.hasPart.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.hasPart.count` is part of an existing definition because parent element `DeviceDefinition.hasPart` requires a cross-version extension.\nElement `DeviceDefinition.hasPart.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.identifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.packaging.identifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.identifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.type` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.packaging.type` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.type` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.packaging.count` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.distributor` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.packaging.distributor` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.name` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.packaging.distributor.name` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nElement `DeviceDefinition.packaging.distributor.name` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.packaging.distributor.organizationReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.packaging.distributor.organizationReference` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.packaging.distributor.organizationReference` is part of an existing definition because parent element `DeviceDefinition.packaging.distributor` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceDefinition.packaging.distributor.organizationReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceDefinition.packaging.distributor.organizationReference` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -569,73 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
-            }
-          ]
-        },
-        {
-          "code" : "DeviceDefinition.packaging.udiDeviceIdentifier.deviceIdentifier",
-          "display" : "deviceIdentifier",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.udiDeviceIdentifier.deviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging.udiDeviceIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier.deviceIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
-            }
-          ]
-        },
-        {
-          "code" : "DeviceDefinition.packaging.udiDeviceIdentifier.issuer",
-          "display" : "issuer",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.udiDeviceIdentifier.issuer` is part of an existing definition because parent element `DeviceDefinition.packaging.udiDeviceIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier.issuer` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
-            }
-          ]
-        },
-        {
-          "code" : "DeviceDefinition.packaging.udiDeviceIdentifier.jurisdiction",
-          "display" : "jurisdiction",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.udiDeviceIdentifier.jurisdiction` is part of an existing definition because parent element `DeviceDefinition.packaging.udiDeviceIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier.jurisdiction` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
-            }
-          ]
-        },
-        {
-          "code" : "DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution",
-          "display" : "marketDistribution",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution` is part of an existing definition because parent element `DeviceDefinition.packaging.udiDeviceIdentifier` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
-            }
-          ]
-        },
-        {
-          "code" : "DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution.marketPeriod",
-          "display" : "marketPeriod",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution.marketPeriod` is part of an existing definition because parent element `DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution.marketPeriod` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
-            }
-          ]
-        },
-        {
-          "code" : "DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution.subJurisdiction",
-          "display" : "subJurisdiction",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
-              "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution.subJurisdiction` is part of an existing definition because parent element `DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier.marketDistribution.subJurisdiction` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.packaging.udiDeviceIdentifier` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.udiDeviceIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -646,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.packaging.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.packaging.packaging` is part of an existing definition because parent element `DeviceDefinition.packaging` requires a cross-version extension.\nElement `DeviceDefinition.packaging.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -657,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.version` is mapped to FHIR R4 element `DeviceDefinition.version`."
+              "comment" : "Element `DeviceDefinition.version` has is mapped to FHIR R4 element `DeviceDefinition.version`, but has no comparisons."
             }
           ]
         },
@@ -668,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.version.type` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.version.type` is part of an existing definition because parent element `DeviceDefinition.version` requires a cross-version extension.\nElement `DeviceDefinition.version.type` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -679,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.version.component` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.version.component` is part of an existing definition because parent element `DeviceDefinition.version` requires a cross-version extension.\nElement `DeviceDefinition.version.component` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -690,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.version.value` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.version.value` is part of an existing definition because parent element `DeviceDefinition.version` requires a cross-version extension.\nElement `DeviceDefinition.version.value` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -701,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.safety",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.safety` is mapped to FHIR R4 element `DeviceDefinition.safety`."
+              "comment" : "Element `DeviceDefinition.safety` has is mapped to FHIR R4 element `DeviceDefinition.safety`, but has no comparisons."
             }
           ]
         },
@@ -712,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.shelfLifeStorage",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.shelfLifeStorage` is mapped to FHIR R4 element `DeviceDefinition.shelfLifeStorage`."
+              "comment" : "Element `DeviceDefinition.shelfLifeStorage` has is mapped to FHIR R4 element `DeviceDefinition.shelfLifeStorage`, but has no comparisons."
             }
           ]
         },
@@ -723,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.languageCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.languageCode` is mapped to FHIR R4 element `DeviceDefinition.languageCode`."
+              "comment" : "Element `DeviceDefinition.languageCode` has is mapped to FHIR R4 element `DeviceDefinition.languageCode`, but has no comparisons."
             }
           ]
         },
@@ -734,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.property",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.property` is mapped to FHIR R4 element `DeviceDefinition.property`."
+              "comment" : "Element `DeviceDefinition.property` has is mapped to FHIR R4 element `DeviceDefinition.property`, but has no comparisons."
             }
           ]
         },
@@ -745,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.property.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.property.type` is mapped to FHIR R4 element `DeviceDefinition.property.type`."
+              "comment" : "Element `DeviceDefinition.property.type` is part of an existing definition because parent element `DeviceDefinition.property` requires a cross-version extension.\nElement `DeviceDefinition.property.type` has is mapped to FHIR R4 element `DeviceDefinition.property.type`, but has no comparisons."
             }
           ]
         },
@@ -756,12 +690,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.property.valueCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode`."
+              "comment" : "Element `DeviceDefinition.property.value[x]` is part of an existing definition because parent element `DeviceDefinition.property` requires a cross-version extension.\nElement `DeviceDefinition.property.value[x]` has is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity`, but has no comparisons.\nElement `DeviceDefinition.property.value[x]` has is mapped to FHIR R4 element `DeviceDefinition.property.valueCode`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.property.valueQuantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode`."
+              "comment" : "Element `DeviceDefinition.property.value[x]` is part of an existing definition because parent element `DeviceDefinition.property` requires a cross-version extension.\nElement `DeviceDefinition.property.value[x]` has is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity`, but has no comparisons.\nElement `DeviceDefinition.property.value[x]` has is mapped to FHIR R4 element `DeviceDefinition.property.valueCode`, but has no comparisons."
             }
           ]
         },
@@ -772,7 +706,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.owner",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.owner` is mapped to FHIR R4 element `DeviceDefinition.owner`."
+              "comment" : "Element `DeviceDefinition.owner` has is mapped to FHIR R4 element `DeviceDefinition.owner`, but has no comparisons."
             }
           ]
         },
@@ -783,7 +717,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.contact` is mapped to FHIR R4 element `DeviceDefinition.contact`."
+              "comment" : "Element `DeviceDefinition.contact` has is mapped to FHIR R4 element `DeviceDefinition.contact`, but has no comparisons."
             }
           ]
         },
@@ -794,7 +728,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.link` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.link` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -805,7 +739,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.link.relation` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relation` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.link.relation` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relation` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -816,7 +750,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.link.relatedDevice` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relatedDevice` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.link.relatedDevice` is part of an existing definition because parent element `DeviceDefinition.link` requires a cross-version extension.\nElement `DeviceDefinition.link.relatedDevice` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -827,7 +761,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.note` is mapped to FHIR R4 element `DeviceDefinition.note`."
+              "comment" : "Element `DeviceDefinition.note` has is mapped to FHIR R4 element `DeviceDefinition.note`, but has no comparisons."
             }
           ]
         },
@@ -838,7 +772,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.material",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.material` is mapped to FHIR R4 element `DeviceDefinition.material`."
+              "comment" : "Element `DeviceDefinition.material` has is mapped to FHIR R4 element `DeviceDefinition.material`, but has no comparisons."
             }
           ]
         },
@@ -849,7 +783,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.material.substance",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.material.substance` is mapped to FHIR R4 element `DeviceDefinition.material.substance`."
+              "comment" : "Element `DeviceDefinition.material.substance` is part of an existing definition because parent element `DeviceDefinition.material` requires a cross-version extension.\nElement `DeviceDefinition.material.substance` has is mapped to FHIR R4 element `DeviceDefinition.material.substance`, but has no comparisons."
             }
           ]
         },
@@ -860,7 +794,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.material.alternate",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.material.alternate` is mapped to FHIR R4 element `DeviceDefinition.material.alternate`."
+              "comment" : "Element `DeviceDefinition.material.alternate` is part of an existing definition because parent element `DeviceDefinition.material` requires a cross-version extension.\nElement `DeviceDefinition.material.alternate` has is mapped to FHIR R4 element `DeviceDefinition.material.alternate`, but has no comparisons."
             }
           ]
         },
@@ -871,7 +805,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition.material.allergenicIndicator",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.material.allergenicIndicator` is mapped to FHIR R4 element `DeviceDefinition.material.allergenicIndicator`."
+              "comment" : "Element `DeviceDefinition.material.allergenicIndicator` is part of an existing definition because parent element `DeviceDefinition.material` requires a cross-version extension.\nElement `DeviceDefinition.material.allergenicIndicator` has is mapped to FHIR R4 element `DeviceDefinition.material.allergenicIndicator`, but has no comparisons."
             }
           ]
         },
@@ -882,7 +816,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.productionIdentifierInUDI` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.productionIdentifierInUDI` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -893,7 +827,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.guideline` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.guideline` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -904,7 +838,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.guideline.useContext` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.useContext` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.guideline.useContext` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.useContext` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -915,7 +849,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.guideline.usageInstruction` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.usageInstruction` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.guideline.usageInstruction` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.usageInstruction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -926,7 +860,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.guideline.relatedArtifact` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.relatedArtifact` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.guideline.relatedArtifact` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.relatedArtifact` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -937,7 +871,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.guideline.indication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.indication` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.guideline.indication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.indication` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -948,7 +882,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.guideline.contraindication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.contraindication` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.guideline.contraindication` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.contraindication` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -959,7 +893,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.guideline.warning` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.warning` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.guideline.warning` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.warning` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -970,7 +904,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.guideline.intendedUse` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.intendedUse` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.guideline.intendedUse` is part of an existing definition because parent element `DeviceDefinition.guideline` requires a cross-version extension.\nElement `DeviceDefinition.guideline.intendedUse` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -981,7 +915,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.correctiveAction` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.correctiveAction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -992,7 +926,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.correctiveAction.recall` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.recall` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.correctiveAction.recall` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.recall` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -1003,7 +937,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.correctiveAction.scope` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.scope` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.correctiveAction.scope` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.scope` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -1014,7 +948,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.correctiveAction.period` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.period` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.correctiveAction.period` is part of an existing definition because parent element `DeviceDefinition.correctiveAction` requires a cross-version extension.\nElement `DeviceDefinition.correctiveAction.period` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -1025,7 +959,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.chargeItem` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.chargeItem` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -1036,7 +970,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.chargeItem.chargeItemCode` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.chargeItemCode` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.chargeItem.chargeItemCode` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.chargeItemCode` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -1047,7 +981,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.chargeItem.count` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.count` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.chargeItem.count` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.count` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -1058,7 +992,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.chargeItem.effectivePeriod` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.effectivePeriod` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.chargeItem.effectivePeriod` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.effectivePeriod` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         },
@@ -1069,7 +1003,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceDefinition#DeviceDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceDefinition.chargeItem.useContext` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.useContext` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
+              "comment" : "Element `DeviceDefinition.chargeItem.useContext` is part of an existing definition because parent element `DeviceDefinition.chargeItem` requires a cross-version extension.\nElement `DeviceDefinition.chargeItem.useContext` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`."
             }
           ]
         }

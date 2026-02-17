@@ -1,4 +1,4 @@
-# ExtensionEpisodeOfCare_Reason - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionEpisodeOfCare_Reason - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EpisodeOfC
   "title" : "Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EpisodeOfC
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `EpisodeOfCare.reason` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`EpisodeOfCare.reason` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `EpisodeOfCare.reason` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `EpisodeOfCare.reason` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `EpisodeOfCare.reason` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`EpisodeOfCare.reason` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `EpisodeOfCare.reason` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `EpisodeOfCare.reason` has a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EpisodeOfC
         "sliceName" : "use",
         "short" : "What the reason value should be used for/as",
         "definition" : "What the reason value should be used as e.g. Chief Complaint, Health Concern, Health Maintenance (including screening).",
-        "requirements" : "Element `EpisodeOfCare.reason.use` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.use` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`.",
+        "requirements" : "Element `EpisodeOfCare.reason.use` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.use` has a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EpisodeOfC
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "use"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason.use"
       },
       {
         "id" : "Extension.extension:use.value[x]",
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EpisodeOfC
         "sliceName" : "value",
         "short" : "Medical reason to be addressed",
         "definition" : "The medical reason that is expected to be addressed during the episode of care, expressed as a text, code or a reference to another resource.",
-        "requirements" : "Element `EpisodeOfCare.reason.value` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.value` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`.",
+        "requirements" : "Element `EpisodeOfCare.reason.value` is part of an existing definition because parent element `EpisodeOfCare.reason` requires a cross-version extension.\nElement `EpisodeOfCare.reason.value` has a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -310,7 +310,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EpisodeOfC
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -359,7 +359,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EpisodeOfC
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -418,7 +418,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EpisodeOfC
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason.value"
       },
       {
         "id" : "Extension.extension:value.value[x]",

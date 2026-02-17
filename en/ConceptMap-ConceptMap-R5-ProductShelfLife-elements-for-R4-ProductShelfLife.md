@@ -1,4 +1,4 @@
-# ConceptMapR5ProductShelfLifeElementsForR4ProductShelfLife - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ProductShelfLifeElementsForR4ProductShelfLife - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ProductShelfLifeElementsForR4ProductShelfLife 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1532249-06:00",
+  "date" : "2026-02-17T14:42:27.4885184-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ProductShelfLife#ProductShelfLife",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `ProductShelfLife` is representable via FHIR R4 extensions.\nElement `ProductShelfLife` is mapped to FHIR R4 element `ProductShelfLife`."
+              "comment" : "FHIR R5 ComplexType `ProductShelfLife` is representable via FHIR R4 extensions.\nElement `ProductShelfLife` has is mapped to FHIR R4 element `ProductShelfLife`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ProductShelfLife#ProductShelfLife.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ProductShelfLife.type` is mapped to FHIR R4 element `ProductShelfLife.type`."
+              "comment" : "Element `ProductShelfLife.type` has is mapped to FHIR R4 element `ProductShelfLife.type`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ProductShelfLife#ProductShelfLife.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `ProductShelfLife.period[x]` is mapped to FHIR R4 element `ProductShelfLife.period`."
+              "comment" : "Element `ProductShelfLife.period[x]` has is mapped to FHIR R4 element `ProductShelfLife.period`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ProductShelfLife#ProductShelfLife.specialPrecautionsForStorage",
               "equivalence" : "relatedto",
-              "comment" : "Element `ProductShelfLife.specialPrecautionsForStorage` is mapped to FHIR R4 element `ProductShelfLife.specialPrecautionsForStorage`."
+              "comment" : "Element `ProductShelfLife.specialPrecautionsForStorage` has is mapped to FHIR R4 element `ProductShelfLife.specialPrecautionsForStorage`, but has no comparisons."
             }
           ]
         }

@@ -1,4 +1,4 @@
-# ExtensionPlanDefinition_Actor - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionPlanDefinition_Actor - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
   "title" : "Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `PlanDefinition.actor` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`PlanDefinition.actor` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `PlanDefinition.actor` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `PlanDefinition.actor` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `PlanDefinition.actor` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`PlanDefinition.actor` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `PlanDefinition.actor` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `PlanDefinition.actor` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "A descriptive label for the actor.",
-        "requirements" : "Element `PlanDefinition.actor.title` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.title` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.actor.title` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.title` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "title"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.actor.title"
       },
       {
         "id" : "Extension.extension:title.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "description",
         "short" : "Describes the actor",
         "definition" : "A description of how the actor fits into the overall actions of the plan definition.",
-        "requirements" : "Element `PlanDefinition.actor.description` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.description` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.actor.description` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.description` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.actor.description"
       },
       {
         "id" : "Extension.extension:description.value[x]",
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "option",
         "short" : "Who or what can be this actor",
         "definition" : "The characteristics of the candidates that could serve as the actor.",
-        "requirements" : "Element `PlanDefinition.actor.option` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.option` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.actor.option` is part of an existing definition because parent element `PlanDefinition.actor` requires a cross-version extension.\nElement `PlanDefinition.actor.option` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -310,7 +310,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "type",
         "short" : "careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson",
         "definition" : "The type of participant in the action.",
-        "requirements" : "Element `PlanDefinition.actor.option.type` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nElement `PlanDefinition.actor.option.type` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.actor.option.type` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nElement `PlanDefinition.actor.option.type` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -329,7 +329,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.actor.option.type"
       },
       {
         "id" : "Extension.extension:option.extension:type.value[x]",
@@ -360,7 +360,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "typeCanonical",
         "short" : "Who or what can participate",
         "definition" : "The type of participant in the action.",
-        "requirements" : "Element `PlanDefinition.actor.option.typeCanonical` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.actor.option.typeCanonical` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.actor.option.typeCanonical` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.actor.option.typeCanonical` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -379,7 +379,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "typeCanonical"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.actor.option.typeCanonical"
       },
       {
         "id" : "Extension.extension:option.extension:typeCanonical.value[x]",
@@ -410,7 +410,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Who or what can participate",
         "definition" : "The type of participant in the action.",
         "comment" : "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location).",
-        "requirements" : "Element `PlanDefinition.actor.option.typeReference` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.actor.option.typeReference` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.actor.option.typeReference` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.actor.option.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.actor.option.typeReference` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -429,7 +429,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "typeReference"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.actor.option.typeReference"
       },
       {
         "id" : "Extension.extension:option.extension:typeReference.value[x]",
@@ -482,7 +482,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "role",
         "short" : "E.g. Nurse, Surgeon, Parent",
         "definition" : "The role the participant should play in performing the described action.",
-        "requirements" : "Element `PlanDefinition.actor.option.role` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nElement `PlanDefinition.actor.option.role` is will have a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.actor.option.role` is part of an existing definition because parent element `PlanDefinition.actor.option` requires a cross-version extension.\nElement `PlanDefinition.actor.option.role` has a context of PlanDefinition based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -501,7 +501,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "role"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.actor.option.role"
       },
       {
         "id" : "Extension.extension:option.extension:role.value[x]",

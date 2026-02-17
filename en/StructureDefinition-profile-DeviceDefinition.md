@@ -1,4 +1,4 @@
-# ProfileDeviceDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileDeviceDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileDeviceDefinition 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 DeviceDefinition content to be represented 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AdministrableProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-AdministrableProductDefinition.md), [Cross-version Extension `R5.Device.definition` for use in FHIR R4](StructureDefinition-ext-R5-Device.definition.md), [Cross-version Extension `R5.DeviceDefinition.hasPart` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDefinition.hasPart.md), [Cross-version Extension `R5.DeviceDefinition.link` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDefinition.link.md)... Show 10 more, [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.DeviceUsage.device` for use in FHIR R4](StructureDefinition-ext-R5-DeviceUsage.device.md), [Cross-version Extension `R5.InventoryItem` for use in FHIR R4](StructureDefinition-ext-R5-InventoryItem.md), [Cross-version Extension `R5.MedicationRequest.device` for use in FHIR R4](StructureDefinition-ext-R5-MedicationRequest.device.md), [Cross-version Extension `R5.NutritionOrder.enteralFormula.deliveryDevice` for use in FHIR R4](StructureDefinition-ext-R5-NutritionOrder.ent.deliveryDevice.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md) and [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
+* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.participant` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.participant.md), [Cross-version Extension `R5.AdministrableProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-AdministrableProductDefinition.md), [Cross-version Extension `R5.Device.definition` for use in FHIR R4](StructureDefinition-ext-R5-Device.definition.md), [Cross-version Extension `R5.DeviceDefinition.hasPart` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDefinition.hasPart.md)... Show 11 more, [Cross-version Extension `R5.DeviceDefinition.link` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDefinition.link.md), [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.DeviceUsage.device` for use in FHIR R4](StructureDefinition-ext-R5-DeviceUsage.device.md), [Cross-version Extension `R5.InventoryItem` for use in FHIR R4](StructureDefinition-ext-R5-InventoryItem.md), [Cross-version Extension `R5.MedicationRequest.device` for use in FHIR R4](StructureDefinition-ext-R5-MedicationRequest.device.md), [Cross-version Extension `R5.NutritionOrder.enteralFormula` for use in FHIR R4](StructureDefinition-ext-R5-NutritionOrder.enteralFormula.md), [Cross-version Extension `R5.PackagedProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-PackagedProductDefinition.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md) and [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-DeviceDefinition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
   "title" : "Cross-version Profile for R5.DeviceDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0665094-06:00",
+  "date" : "2026-02-17T14:42:26.7851274-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -164,7 +164,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "description",
         "short" : "Cross-version extension for DeviceDefinition.description from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.description` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.description` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "regulatoryIdentifier",
         "short" : "Cross-version extension for DeviceDefinition.regulatoryIdentifier from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.regulatoryIdentifier` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.regulatoryIdentifier` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -208,7 +208,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "partNumber",
         "short" : "Cross-version extension for DeviceDefinition.partNumber from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.partNumber` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.partNumber` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "classification",
         "short" : "Cross-version extension for DeviceDefinition.classification from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.classification` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.classification` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "hasPart",
         "short" : "Cross-version extension for DeviceDefinition.hasPart from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.hasPart` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.hasPart` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "packaging",
         "short" : "Cross-version extension for DeviceDefinition.packaging from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.packaging` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.packaging` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -296,7 +296,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "link",
         "short" : "Cross-version extension for DeviceDefinition.link from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.link` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.link` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -318,7 +318,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "productionIdentifierInUDI",
         "short" : "Cross-version extension for DeviceDefinition.productionIdentifierInUDI from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.productionIdentifierInUDI` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.productionIdentifierInUDI` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -340,7 +340,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "guideline",
         "short" : "Cross-version extension for DeviceDefinition.guideline from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.guideline` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.guideline` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -362,7 +362,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "correctiveAction",
         "short" : "Cross-version extension for DeviceDefinition.correctiveAction from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.correctiveAction` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.correctiveAction` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -384,7 +384,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.extension",
         "sliceName" : "chargeItem",
         "short" : "Cross-version extension for DeviceDefinition.chargeItem from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.chargeItem` is will have a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "comment" : "Element `DeviceDefinition.chargeItem` has a context of DeviceDefinition based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -423,11 +423,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         }
       },
       {
-        "id" : "DeviceDefinition.udiDeviceIdentifier.extension:marketDistribution",
+        "id" : "DeviceDefinition.udiDeviceIdentifier.extension:udiDeviceIdentifier",
         "path" : "DeviceDefinition.udiDeviceIdentifier.extension",
-        "sliceName" : "marketDistribution",
-        "short" : "Cross-version extension for DeviceDefinition.udiDeviceIdentifier.marketDistribution from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.udiDeviceIdentifier.marketDistribution` is part of an existing definition because parent element `DeviceDefinition.udiDeviceIdentifier` requires a component extension (e.g., if this element is used as a content reference).\nElement `DeviceDefinition.udiDeviceIdentifier.marketDistribution` is will have a context of DeviceDefinition.udiDeviceIdentifier based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "sliceName" : "udiDeviceIdentifier",
+        "short" : "Cross-version extension for DeviceDefinition.udiDeviceIdentifier from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceDefinition.udiDeviceIdentifier` has is mapped to FHIR R4 element `DeviceDefinition.udiDeviceIdentifier`, but has no comparisons.\nNote available implied context: `DeviceDefinition.packaging.udiDeviceIdentifier` because `DeviceDefinition.packaging.udiDeviceIdentifier` is defined as a content reference to `DeviceDefinition.udiDeviceIdentifier`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -439,7 +439,93 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier.marketDistribution|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.udiDeviceIdentifier|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DeviceDefinition.deviceName.extension",
+        "path" : "DeviceDefinition.deviceName.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "DeviceDefinition.deviceName.extension:deviceName",
+        "path" : "DeviceDefinition.deviceName.extension",
+        "sliceName" : "deviceName",
+        "short" : "Cross-version extension for DeviceDefinition.deviceName from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceDefinition.deviceName` has is mapped to FHIR R4 element `DeviceDefinition.deviceName`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.deviceName|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DeviceDefinition.specialization.extension",
+        "path" : "DeviceDefinition.specialization.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "DeviceDefinition.specialization.extension:conformsTo",
+        "path" : "DeviceDefinition.specialization.extension",
+        "sliceName" : "conformsTo",
+        "short" : "Cross-version extension for DeviceDefinition.conformsTo from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceDefinition.conformsTo` has is mapped to FHIR R4 element `DeviceDefinition.specialization`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.conformsTo|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -470,7 +556,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         "path" : "DeviceDefinition.version.extension",
         "sliceName" : "version",
         "short" : "Cross-version extension for DeviceDefinition.version from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.version` is mapped to FHIR R4 element `DeviceDefinition.version`.",
+        "comment" : "Element `DeviceDefinition.version` has is mapped to FHIR R4 element `DeviceDefinition.version`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -500,7 +586,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -509,13 +595,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
         }
       },
       {
-        "id" : "DeviceDefinition.property.extension:value",
+        "id" : "DeviceDefinition.property.extension:property",
         "path" : "DeviceDefinition.property.extension",
-        "sliceName" : "value",
-        "short" : "Cross-version extension for DeviceDefinition.property.value[x] from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueQuantity`.\nElement `DeviceDefinition.property.value[x]` is mapped to FHIR R4 element `DeviceDefinition.property.valueCode`.",
-        "min" : 1,
-        "max" : "1",
+        "sliceName" : "property",
+        "short" : "Cross-version extension for DeviceDefinition.property from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceDefinition.property` has is mapped to FHIR R4 element `DeviceDefinition.property`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -525,7 +611,50 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceDef
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.property.value|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.property|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DeviceDefinition.material.extension",
+        "path" : "DeviceDefinition.material.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "DeviceDefinition.material.extension:material",
+        "path" : "DeviceDefinition.material.extension",
+        "sliceName" : "material",
+        "short" : "Cross-version extension for DeviceDefinition.material from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceDefinition.material` has is mapped to FHIR R4 element `DeviceDefinition.material`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.material|0.0.1-snapshot-3"
             ]
           }
         ]

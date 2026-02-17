@@ -1,4 +1,4 @@
-# ProfileConditionDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileConditionDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileConditionDefinition 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Condition
   "title" : "Cross-version Profile for R5.ConditionDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0466474-06:00",
+  "date" : "2026-02-17T14:42:26.7718643-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

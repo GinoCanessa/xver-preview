@@ -1,4 +1,4 @@
-# ExtensionChargeItemDefinition_Applicability - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionChargeItemDefinition_Applicability - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ChargeItemDefinition.applicability` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
   "title" : "Cross-version Extension `R5.ChargeItemDefinition.applicability` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ChargeItemDefinition.applicability` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ChargeItemDefinition.applicability` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ChargeItemDefinition.applicability` 0..* `BackboneElement`\n*  R4B: `ChargeItemDefinition.applicability` 0..* `BackboneElement`\n*  R4: `ChargeItemDefinition.applicability` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ChargeItemDefinition.applicability` is mapped to FHIR R4 element `ChargeItemDefinition.applicability`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ChargeItemDefinition.applicability` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ChargeItemDefinition.applicability` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ChargeItemDefinition.applicability` 0..* `BackboneElement`\n*  R4B: `ChargeItemDefinition.applicability` 0..* `BackboneElement`\n*  R4: `ChargeItemDefinition.applicability` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ChargeItemDefinition.applicability` has is mapped to FHIR R4 element `ChargeItemDefinition.applicability`, but has no comparisons.\nNote available implied context: `ChargeItemDefinition.propertyGroup.applicability` because `ChargeItemDefinition.propertyGroup.applicability` is defined as a content reference to `ChargeItemDefinition.applicability`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
         "short" : "Boolean-valued expression",
         "definition" : "An expression that returns true or false, indicating whether the condition is satisfied. When using FHIRPath expressions, the %context environment variable must be replaced at runtime with the ChargeItem resource to which this definition is applied.",
         "comment" : "Please note that FHIRPath Expressions can only be evaluated in the scope of the current ChargeItem resource to which this definition is being applied.\nFHIRPath expressions can traverse into other resources linked from the ChargeItem resource, however, testing rules such as that a billing code may be billed only once per encounter need a wider scope. In such scenarios, CQL may be the appropriate choice.",
-        "requirements" : "Element `ChargeItemDefinition.applicability.condition` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).\nElement `ChargeItemDefinition.applicability.condition` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
+        "requirements" : "Element `ChargeItemDefinition.applicability.condition` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a cross-version extension.\nElement `ChargeItemDefinition.applicability.condition` has a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -205,7 +205,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "condition"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.applicability.condition"
       },
       {
         "id" : "Extension.extension:condition.value[x]",
@@ -233,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
         "short" : "When the charge item definition is expected to be used",
         "definition" : "The period during which the charge item definition content was or is planned to be in active use.",
         "comment" : "The effective period for a charge item definition  determines when the content is applicable for usage and is independent of publication and review dates. For example, a measure intended to be used for the year 2016 might be published in 2015.",
-        "requirements" : "Allows establishing a transition before a resource comes into effect and also allows for a sunsetting  process when new versions of the charge item definition are or are expected to be used instead. Element `ChargeItemDefinition.applicability.effectivePeriod` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).\nElement `ChargeItemDefinition.applicability.effectivePeriod` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
+        "requirements" : "Allows establishing a transition before a resource comes into effect and also allows for a sunsetting  process when new versions of the charge item definition are or are expected to be used instead. Element `ChargeItemDefinition.applicability.effectivePeriod` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a cross-version extension.\nElement `ChargeItemDefinition.applicability.effectivePeriod` has a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "effectivePeriod"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.applicability.effectivePeriod"
       },
       {
         "id" : "Extension.extension:effectivePeriod.value[x]",
@@ -279,7 +279,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
         "sliceName" : "relatedArtifact",
         "short" : "Reference to / quotation of the external source of the group of properties",
         "definition" : "Reference to / quotation of the external source of the group of properties.",
-        "requirements" : "Element `ChargeItemDefinition.applicability.relatedArtifact` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a component extension (e.g., if this element is used as a content reference).\nElement `ChargeItemDefinition.applicability.relatedArtifact` is will have a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
+        "requirements" : "Element `ChargeItemDefinition.applicability.relatedArtifact` is part of an existing definition because parent element `ChargeItemDefinition.applicability` requires a cross-version extension.\nElement `ChargeItemDefinition.applicability.relatedArtifact` has a context of ChargeItemDefinition.applicability based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -298,7 +298,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ChargeItem
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "relatedArtifact"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.applicability.relatedArtifact"
       },
       {
         "id" : "Extension.extension:relatedArtifact.value[x]",

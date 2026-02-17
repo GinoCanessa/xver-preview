@@ -1,4 +1,4 @@
-# Lookup for ProfileProvenance - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileProvenance - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileProvenance
 
@@ -23,23 +23,19 @@ A computable version of the following element information is available in: [Conc
 | [`Provenance.recorded`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.recorded](https://hl7.org/fhir/R4/Provenance.html#resource) |
 | [`Provenance.policy`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.policy](https://hl7.org/fhir/R4/Provenance.html#resource) |
 | [`Provenance.location`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.location](https://hl7.org/fhir/R4/Provenance.html#resource) |
-| [`Provenance.authorization`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.reason](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.authorization](StructureDefinition-ext-R5-Provenance.authorization.md) |
+| [`Provenance.authorization`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.reason](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension: ExtensionProvenance_Authorization](StructureDefinition-ext-R5-Provenance.authorization.md) |
 | [`Provenance.activity`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.activity](https://hl7.org/fhir/R4/Provenance.html#resource) |
-| [`Provenance.basedOn`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.basedOn](StructureDefinition-ext-R5-Provenance.basedOn.md) |
-| [`Provenance.patient`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.patient](StructureDefinition-ext-R5-Provenance.patient.md) |
-| [`Provenance.encounter`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.encounter](StructureDefinition-ext-R5-Provenance.encounter.md) |
-| [`Provenance.agent`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.agent](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.agent](StructureDefinition-ext-R5-Provenance.agent.md) |
-| [`Provenance.agent.type`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.agent.type](https://hl7.org/fhir/R4/Provenance.html#resource) |
-| [`Provenance.agent.role`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.agent.role](https://hl7.org/fhir/R4/Provenance.html#resource) |
-| [`Provenance.agent.who`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.agent.who](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.agent.who](StructureDefinition-ext-R5-Provenance.age.who.md) |
-| [`Provenance.agent.onBehalfOf`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.agent.onBehalfOf](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.agent.onBehalfOf](StructureDefinition-ext-R5-Provenance.age.onBehalfOf.md) |
-| [`Provenance.entity`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity](https://hl7.org/fhir/R4/Provenance.html#resource) |
-| [`Provenance.entity.role`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity.role](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role](StructureDefinition-ext-R5-Provenance.ent.role.md) |
-| [`Provenance.entity.what`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity.what](https://hl7.org/fhir/R4/Provenance.html#resource) |
-| [`Provenance.entity.agent`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity.agent](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.agent](StructureDefinition-ext-R5-Provenance.ent.agent.md) |
-| [`Provenance.entity.agent.type`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity.agent.type](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension slice: type](StructureDefinition-ext-R5-Provenance.ent.agent.md) |
-| [`Provenance.entity.agent.role`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity.agent.role](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension slice: role](StructureDefinition-ext-R5-Provenance.ent.agent.md) |
-| [`Provenance.entity.agent.who`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity.agent.who](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension slice: who](StructureDefinition-ext-R5-Provenance.ent.agent.md) |
-| [`Provenance.entity.agent.onBehalfOf`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity.agent.onBehalfOf](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension slice: onBehalfOf](StructureDefinition-ext-R5-Provenance.ent.agent.md) |
+| [`Provenance.basedOn`](https://hl7.org/fhir/R5/Provenance.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`Provenance.patient`](https://hl7.org/fhir/R5/Provenance.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`Provenance.encounter`](https://hl7.org/fhir/R5/Provenance.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`Provenance.agent`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.agent](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension: ExtensionProvenance_Agent](StructureDefinition-ext-R5-Provenance.agent.md) |
+| [`Provenance.agent.type`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.agent.type](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension: ExtensionProvenance_Agent Slice:type](StructureDefinition-ext-R5-Provenance.agent.md) |
+| [`Provenance.agent.role`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.agent.role](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension: ExtensionProvenance_Agent Slice:role](StructureDefinition-ext-R5-Provenance.agent.md) |
+| [`Provenance.agent.who`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.agent.who](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`Provenance.agent.onBehalfOf`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.agent.onBehalfOf](https://hl7.org/fhir/R4/Provenance.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`Provenance.entity`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension: ExtensionProvenance_Entity](StructureDefinition-ext-R5-Provenance.entity.md) |
+| [`Provenance.entity.role`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity.role](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension: ExtensionProvenance_Entity Slice:role](StructureDefinition-ext-R5-Provenance.entity.md) |
+| [`Provenance.entity.what`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity.what](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension: ExtensionProvenance_Entity Slice:what](StructureDefinition-ext-R5-Provenance.entity.md) |
+| [`Provenance.entity.agent`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.entity.agent](https://hl7.org/fhir/R4/Provenance.html#resource)[Extension: ExtensionProvenance_Entity Slice:agent](StructureDefinition-ext-R5-Provenance.entity.md) |
 | [`Provenance.signature`](https://hl7.org/fhir/R5/Provenance.html#resource) | [Provenance.signature](https://hl7.org/fhir/R4/Provenance.html#resource) |
 

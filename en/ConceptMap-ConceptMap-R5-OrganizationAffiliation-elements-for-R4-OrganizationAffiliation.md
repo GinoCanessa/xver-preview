@@ -1,4 +1,4 @@
-# ConceptMapR5OrganizationAffiliationElementsForR4OrganizationAffiliation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5OrganizationAffiliationElementsForR4OrganizationAffiliation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5OrganizationAffiliationElementsForR4OrganizationAffiliation 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1029758-06:00",
+  "date" : "2026-02-17T14:42:27.4454119-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `OrganizationAffiliation` is representable via FHIR R4 Resource `OrganizationAffiliation`.\nElement `OrganizationAffiliation` is mapped to FHIR R4 element `OrganizationAffiliation`."
+              "comment" : "FHIR R5 Resource `OrganizationAffiliation` is representable via FHIR R4 Resource `OrganizationAffiliation`.\nElement `OrganizationAffiliation` has is mapped to FHIR R4 element `OrganizationAffiliation`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.meta` is mapped to FHIR R4 element `OrganizationAffiliation.meta`."
+              "comment" : "Element `OrganizationAffiliation.meta` has is mapped to FHIR R4 element `OrganizationAffiliation.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.implicitRules` is mapped to FHIR R4 element `OrganizationAffiliation.implicitRules`."
+              "comment" : "Element `OrganizationAffiliation.implicitRules` has is mapped to FHIR R4 element `OrganizationAffiliation.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.language` is mapped to FHIR R4 element `OrganizationAffiliation.language`."
+              "comment" : "Element `OrganizationAffiliation.language` has is mapped to FHIR R4 element `OrganizationAffiliation.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.text` is mapped to FHIR R4 element `OrganizationAffiliation.text`."
+              "comment" : "Element `OrganizationAffiliation.text` has is mapped to FHIR R4 element `OrganizationAffiliation.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.contained` is mapped to FHIR R4 element `OrganizationAffiliation.contained`."
+              "comment" : "Element `OrganizationAffiliation.contained` has is mapped to FHIR R4 element `OrganizationAffiliation.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.identifier` is mapped to FHIR R4 element `OrganizationAffiliation.identifier`."
+              "comment" : "Element `OrganizationAffiliation.identifier` has is mapped to FHIR R4 element `OrganizationAffiliation.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.active",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.active` is mapped to FHIR R4 element `OrganizationAffiliation.active`."
+              "comment" : "Element `OrganizationAffiliation.active` has is mapped to FHIR R4 element `OrganizationAffiliation.active`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.period` is mapped to FHIR R4 element `OrganizationAffiliation.period`."
+              "comment" : "Element `OrganizationAffiliation.period` has is mapped to FHIR R4 element `OrganizationAffiliation.period`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.organization",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.organization` is mapped to FHIR R4 element `OrganizationAffiliation.organization`."
+              "comment" : "Element `OrganizationAffiliation.organization` has is mapped to FHIR R4 element `OrganizationAffiliation.organization`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.participatingOrganization",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.participatingOrganization` is mapped to FHIR R4 element `OrganizationAffiliation.participatingOrganization`."
+              "comment" : "Element `OrganizationAffiliation.participatingOrganization` has is mapped to FHIR R4 element `OrganizationAffiliation.participatingOrganization`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.network",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.network` is mapped to FHIR R4 element `OrganizationAffiliation.network`."
+              "comment" : "Element `OrganizationAffiliation.network` has is mapped to FHIR R4 element `OrganizationAffiliation.network`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.code` is mapped to FHIR R4 element `OrganizationAffiliation.code`."
+              "comment" : "Element `OrganizationAffiliation.code` has is mapped to FHIR R4 element `OrganizationAffiliation.code`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.specialty",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.specialty` is mapped to FHIR R4 element `OrganizationAffiliation.specialty`."
+              "comment" : "Element `OrganizationAffiliation.specialty` has is mapped to FHIR R4 element `OrganizationAffiliation.specialty`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.location` is mapped to FHIR R4 element `OrganizationAffiliation.location`."
+              "comment" : "Element `OrganizationAffiliation.location` has is mapped to FHIR R4 element `OrganizationAffiliation.location`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.healthcareService",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.healthcareService` is mapped to FHIR R4 element `OrganizationAffiliation.healthcareService`."
+              "comment" : "Element `OrganizationAffiliation.healthcareService` has is mapped to FHIR R4 element `OrganizationAffiliation.healthcareService`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.contact` is will have a context of OrganizationAffiliation based on following the parent source element upwards and mapping to `OrganizationAffiliation`."
+              "comment" : "Element `OrganizationAffiliation.contact` has a context of OrganizationAffiliation based on following the parent source element upwards and mapping to `OrganizationAffiliation`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/OrganizationAffiliation#OrganizationAffiliation.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `OrganizationAffiliation.endpoint` is mapped to FHIR R4 element `OrganizationAffiliation.endpoint`."
+              "comment" : "Element `OrganizationAffiliation.endpoint` has is mapped to FHIR R4 element `OrganizationAffiliation.endpoint`, but has no comparisons."
             }
           ]
         }

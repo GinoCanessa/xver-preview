@@ -1,4 +1,4 @@
-# ProfileDeviceUsageForDeviceUseStatement - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileDeviceUsageForDeviceUseStatement - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileDeviceUsageForDeviceUseStatement 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
   "title" : "Cross-version Profile for R5.DeviceUsage for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0751913-06:00",
+  "date" : "2026-02-17T14:42:26.7905141-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -179,7 +179,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
         "path" : "DeviceUseStatement.extension",
         "sliceName" : "category",
         "short" : "Cross-version extension for DeviceUsage.category from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceUsage.category` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.",
+        "comment" : "Element `DeviceUsage.category` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -201,7 +201,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
         "path" : "DeviceUseStatement.extension",
         "sliceName" : "usageStatus",
         "short" : "Cross-version extension for DeviceUsage.usageStatus from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceUsage.usageStatus` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.",
+        "comment" : "Element `DeviceUsage.usageStatus` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -223,7 +223,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
         "path" : "DeviceUseStatement.extension",
         "sliceName" : "usageReason",
         "short" : "Cross-version extension for DeviceUsage.usageReason from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceUsage.usageReason` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.",
+        "comment" : "Element `DeviceUsage.usageReason` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -245,7 +245,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
         "path" : "DeviceUseStatement.extension",
         "sliceName" : "adherence",
         "short" : "Cross-version extension for DeviceUsage.adherence from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceUsage.adherence` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.",
+        "comment" : "Element `DeviceUsage.adherence` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -268,7 +268,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
         "sliceName" : "context",
         "short" : "Cross-version extension for DeviceUsage.context from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter,http://hl7.org/fhir/StructureDefinition/EpisodeOfCare in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.context` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.context` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.context` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.context` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -311,7 +311,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
         "path" : "DeviceUseStatement.status.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for DeviceUsage.status from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `DeviceUseStatement.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DeviceUsage.status` is mapped to FHIR R4 element `DeviceUseStatement.status`.",
+        "comment" : "Note that the target element context `DeviceUseStatement.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DeviceUsage.status` has is mapped to FHIR R4 element `DeviceUseStatement.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -355,7 +355,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
         "sliceName" : "derivedFrom",
         "short" : "Cross-version extension for DeviceUsage.derivedFrom from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.derivedFrom` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.derivedFrom` is mapped to FHIR R4 element `DeviceUseStatement.derivedFrom`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.derivedFrom` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.derivedFrom` has is mapped to FHIR R4 element `DeviceUseStatement.derivedFrom`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -399,7 +399,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
         "sliceName" : "informationSource",
         "short" : "Cross-version extension for DeviceUsage.informationSource from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.informationSource` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.informationSource` is mapped to FHIR R4 element `DeviceUseStatement.source`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.informationSource` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.informationSource` has is mapped to FHIR R4 element `DeviceUseStatement.source`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -442,7 +442,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
         "path" : "DeviceUseStatement.device.extension",
         "sliceName" : "device",
         "short" : "Cross-version extension for DeviceUsage.device from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceUsage.device` is mapped to FHIR R4 element `DeviceUseStatement.device`.",
+        "comment" : "Element `DeviceUsage.device` has is mapped to FHIR R4 element `DeviceUseStatement.device`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -485,7 +485,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceUsa
         "path" : "DeviceUseStatement.bodySite.extension",
         "sliceName" : "bodySite",
         "short" : "Cross-version extension for DeviceUsage.bodySite from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceUsage.bodySite` is mapped to FHIR R4 element `DeviceUseStatement.bodySite`.",
+        "comment" : "Element `DeviceUsage.bodySite` has is mapped to FHIR R4 element `DeviceUseStatement.bodySite`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {

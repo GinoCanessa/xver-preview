@@ -1,4 +1,4 @@
-# ConceptMapR5PeriodElementsForR4Period - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5PeriodElementsForR4Period - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5PeriodElementsForR4Period 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1225599-06:00",
+  "date" : "2026-02-17T14:42:27.4658478-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Period#Period",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Period` is representable via FHIR R4 extensions.\nElement `Period` is mapped to FHIR R4 element `Period`."
+              "comment" : "FHIR R5 ComplexType `Period` is representable via FHIR R4 extensions.\nElement `Period` has is mapped to FHIR R4 element `Period`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Period#Period.start",
               "equivalence" : "relatedto",
-              "comment" : "Element `Period.start` is mapped to FHIR R4 element `Period.start`."
+              "comment" : "Element `Period.start` has is mapped to FHIR R4 element `Period.start`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Period#Period.end",
               "equivalence" : "relatedto",
-              "comment" : "Element `Period.end` is mapped to FHIR R4 element `Period.end`."
+              "comment" : "Element `Period.end` has is mapped to FHIR R4 element `Period.end`, but has no comparisons."
             }
           ]
         }

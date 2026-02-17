@@ -1,4 +1,4 @@
-# ConceptMapR5ExampleScenarioElementsForR4ExampleScenario - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ExampleScenarioElementsForR4ExampleScenario - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ExampleScenarioElementsForR4ExampleScenario 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.8489365-06:00",
+  "date" : "2026-02-17T14:42:27.2460136-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ExampleScenario` is representable via FHIR R4 Resource `ExampleScenario`.\nElement `ExampleScenario` is mapped to FHIR R4 element `ExampleScenario`."
+              "comment" : "FHIR R5 Resource `ExampleScenario` is representable via FHIR R4 Resource `ExampleScenario`.\nElement `ExampleScenario` has is mapped to FHIR R4 element `ExampleScenario`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.meta` is mapped to FHIR R4 element `ExampleScenario.meta`."
+              "comment" : "Element `ExampleScenario.meta` has is mapped to FHIR R4 element `ExampleScenario.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.implicitRules` is mapped to FHIR R4 element `ExampleScenario.implicitRules`."
+              "comment" : "Element `ExampleScenario.implicitRules` has is mapped to FHIR R4 element `ExampleScenario.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.language` is mapped to FHIR R4 element `ExampleScenario.language`."
+              "comment" : "Element `ExampleScenario.language` has is mapped to FHIR R4 element `ExampleScenario.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.text` is mapped to FHIR R4 element `ExampleScenario.text`."
+              "comment" : "Element `ExampleScenario.text` has is mapped to FHIR R4 element `ExampleScenario.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.contained` is mapped to FHIR R4 element `ExampleScenario.contained`."
+              "comment" : "Element `ExampleScenario.contained` has is mapped to FHIR R4 element `ExampleScenario.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.url` is mapped to FHIR R4 element `ExampleScenario.url`."
+              "comment" : "Element `ExampleScenario.url` has is mapped to FHIR R4 element `ExampleScenario.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.identifier` is mapped to FHIR R4 element `ExampleScenario.identifier`."
+              "comment" : "Element `ExampleScenario.identifier` has is mapped to FHIR R4 element `ExampleScenario.identifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.version` is mapped to FHIR R4 element `ExampleScenario.version`."
+              "comment" : "Element `ExampleScenario.version` has is mapped to FHIR R4 element `ExampleScenario.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.versionAlgorithm[x]` is will have a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.versionAlgorithm[x]` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.name` is mapped to FHIR R4 element `ExampleScenario.name`."
+              "comment" : "Element `ExampleScenario.name` has is mapped to FHIR R4 element `ExampleScenario.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.title` is will have a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.title` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.status` is mapped to FHIR R4 element `ExampleScenario.status`."
+              "comment" : "Element `ExampleScenario.status` has is mapped to FHIR R4 element `ExampleScenario.status`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.experimental` is mapped to FHIR R4 element `ExampleScenario.experimental`."
+              "comment" : "Element `ExampleScenario.experimental` has is mapped to FHIR R4 element `ExampleScenario.experimental`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.date` is mapped to FHIR R4 element `ExampleScenario.date`."
+              "comment" : "Element `ExampleScenario.date` has is mapped to FHIR R4 element `ExampleScenario.date`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.publisher` is mapped to FHIR R4 element `ExampleScenario.publisher`."
+              "comment" : "Element `ExampleScenario.publisher` has is mapped to FHIR R4 element `ExampleScenario.publisher`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.contact` is mapped to FHIR R4 element `ExampleScenario.contact`."
+              "comment" : "Element `ExampleScenario.contact` has is mapped to FHIR R4 element `ExampleScenario.contact`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.description` is will have a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.description` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.useContext` is mapped to FHIR R4 element `ExampleScenario.useContext`."
+              "comment" : "Element `ExampleScenario.useContext` has is mapped to FHIR R4 element `ExampleScenario.useContext`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.jurisdiction` is mapped to FHIR R4 element `ExampleScenario.jurisdiction`."
+              "comment" : "Element `ExampleScenario.jurisdiction` has is mapped to FHIR R4 element `ExampleScenario.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.purpose` is mapped to FHIR R4 element `ExampleScenario.purpose`."
+              "comment" : "Element `ExampleScenario.purpose` has is mapped to FHIR R4 element `ExampleScenario.purpose`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.copyright` is mapped to FHIR R4 element `ExampleScenario.copyright`."
+              "comment" : "Element `ExampleScenario.copyright` has is mapped to FHIR R4 element `ExampleScenario.copyright`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.copyrightLabel` is will have a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.copyrightLabel` has a context of ExampleScenario based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.actor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.actor` is mapped to FHIR R4 element `ExampleScenario.actor`."
+              "comment" : "Element `ExampleScenario.actor` has is mapped to FHIR R4 element `ExampleScenario.actor`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.actor.actorId",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.actor.key` is mapped to FHIR R4 element `ExampleScenario.actor.actorId`."
+              "comment" : "Element `ExampleScenario.actor.key` is part of an existing definition because parent element `ExampleScenario.actor` requires a cross-version extension.\nElement `ExampleScenario.actor.key` has is mapped to FHIR R4 element `ExampleScenario.actor.actorId`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.actor.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.actor.type` is mapped to FHIR R4 element `ExampleScenario.actor.type`."
+              "comment" : "Element `ExampleScenario.actor.type` is part of an existing definition because parent element `ExampleScenario.actor` requires a cross-version extension.\nElement `ExampleScenario.actor.type` has is mapped to FHIR R4 element `ExampleScenario.actor.type`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.actor.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.actor.title` is mapped to FHIR R4 element `ExampleScenario.actor.name`."
+              "comment" : "Element `ExampleScenario.actor.title` is part of an existing definition because parent element `ExampleScenario.actor` requires a cross-version extension.\nElement `ExampleScenario.actor.title` has is mapped to FHIR R4 element `ExampleScenario.actor.name`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.actor.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.actor.description` is mapped to FHIR R4 element `ExampleScenario.actor.description`."
+              "comment" : "Element `ExampleScenario.actor.description` is part of an existing definition because parent element `ExampleScenario.actor` requires a cross-version extension.\nElement `ExampleScenario.actor.description` has is mapped to FHIR R4 element `ExampleScenario.actor.description`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance` is mapped to FHIR R4 element `ExampleScenario.instance`."
+              "comment" : "Element `ExampleScenario.instance` has is mapped to FHIR R4 element `ExampleScenario.instance`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.resourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.key` is mapped to FHIR R4 element `ExampleScenario.instance.resourceId`."
+              "comment" : "Element `ExampleScenario.instance.key` is part of an existing definition because parent element `ExampleScenario.instance` requires a cross-version extension.\nElement `ExampleScenario.instance.key` has is mapped to FHIR R4 element `ExampleScenario.instance.resourceId`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.resourceType",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.structureType` is mapped to FHIR R4 element `ExampleScenario.instance.resourceType`."
+              "comment" : "Element `ExampleScenario.instance.structureType` is part of an existing definition because parent element `ExampleScenario.instance` requires a cross-version extension.\nElement `ExampleScenario.instance.structureType` has is mapped to FHIR R4 element `ExampleScenario.instance.resourceType`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.structureVersion` is will have a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.instance.structureVersion` is part of an existing definition because parent element `ExampleScenario.instance` requires a cross-version extension.\nElement `ExampleScenario.instance.structureVersion` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.structureProfile[x]` is will have a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.instance.structureProfile[x]` is part of an existing definition because parent element `ExampleScenario.instance` requires a cross-version extension.\nElement `ExampleScenario.instance.structureProfile[x]` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.title` is mapped to FHIR R4 element `ExampleScenario.instance.name`."
+              "comment" : "Element `ExampleScenario.instance.title` is part of an existing definition because parent element `ExampleScenario.instance` requires a cross-version extension.\nElement `ExampleScenario.instance.title` has is mapped to FHIR R4 element `ExampleScenario.instance.name`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.description` is mapped to FHIR R4 element `ExampleScenario.instance.description`."
+              "comment" : "Element `ExampleScenario.instance.description` is part of an existing definition because parent element `ExampleScenario.instance` requires a cross-version extension.\nElement `ExampleScenario.instance.description` has is mapped to FHIR R4 element `ExampleScenario.instance.description`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.instance.content` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExampleScenario.instance.content` is will have a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.instance.content` is part of an existing definition because parent element `ExampleScenario.instance` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.instance.content` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExampleScenario.instance.content` has a context of ExampleScenario.instance based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.version` is mapped to FHIR R4 element `ExampleScenario.instance.version`."
+              "comment" : "Element `ExampleScenario.instance.version` is part of an existing definition because parent element `ExampleScenario.instance` requires a cross-version extension.\nElement `ExampleScenario.instance.version` has is mapped to FHIR R4 element `ExampleScenario.instance.version`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.version.versionId",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.version.key` is mapped to FHIR R4 element `ExampleScenario.instance.version.versionId`."
+              "comment" : "Element `ExampleScenario.instance.version.key` is part of an existing definition because parent element `ExampleScenario.instance.version` requires a cross-version extension.\nElement `ExampleScenario.instance.version.key` has is mapped to FHIR R4 element `ExampleScenario.instance.version.versionId`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.version.title` is will have a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.instance.version.title` is part of an existing definition because parent element `ExampleScenario.instance.version` requires a cross-version extension.\nElement `ExampleScenario.instance.version.title` has a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.version.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.version.description` is mapped to FHIR R4 element `ExampleScenario.instance.version.description`."
+              "comment" : "Element `ExampleScenario.instance.version.description` is part of an existing definition because parent element `ExampleScenario.instance.version` requires a cross-version extension.\nElement `ExampleScenario.instance.version.description` has is mapped to FHIR R4 element `ExampleScenario.instance.version.description`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.version",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.instance.version.content` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExampleScenario.instance.version.content` is will have a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.instance.version.content` is part of an existing definition because parent element `ExampleScenario.instance.version` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.instance.version.content` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ExampleScenario.instance.version.content` has a context of ExampleScenario.instance.version based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.containedInstance",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.containedInstance` is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance`."
+              "comment" : "Element `ExampleScenario.instance.containedInstance` is part of an existing definition because parent element `ExampleScenario.instance` requires a cross-version extension.\nElement `ExampleScenario.instance.containedInstance` has is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.containedInstance.resourceId",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.containedInstance.instanceReference` is part of an existing definition because parent element `ExampleScenario.instance.containedInstance` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.instance.containedInstance.instanceReference` is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance.resourceId`."
+              "comment" : "Element `ExampleScenario.instance.containedInstance.instanceReference` is part of an existing definition because parent element `ExampleScenario.instance.containedInstance` requires a cross-version extension.\nElement `ExampleScenario.instance.containedInstance.instanceReference` has is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance.resourceId`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.instance.containedInstance.versionId",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.instance.containedInstance.versionReference` is part of an existing definition because parent element `ExampleScenario.instance.containedInstance` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.instance.containedInstance.versionReference` is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance.versionId`."
+              "comment" : "Element `ExampleScenario.instance.containedInstance.versionReference` is part of an existing definition because parent element `ExampleScenario.instance.containedInstance` requires a cross-version extension.\nElement `ExampleScenario.instance.containedInstance.versionReference` has is mapped to FHIR R4 element `ExampleScenario.instance.containedInstance.versionId`, but has no comparisons."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process` is mapped to FHIR R4 element `ExampleScenario.process`."
+              "comment" : "Element `ExampleScenario.process` has is mapped to FHIR R4 element `ExampleScenario.process`, but has no comparisons.\nNote available implied context: `ExampleScenario.process.step.process` because `ExampleScenario.process.step.process` is defined as a content reference to `ExampleScenario.process`."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.title` is part of an existing definition because parent element `ExampleScenario.process` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.title` is mapped to FHIR R4 element `ExampleScenario.process.title`."
+              "comment" : "Element `ExampleScenario.process.title` is part of an existing definition because parent element `ExampleScenario.process` requires a cross-version extension.\nElement `ExampleScenario.process.title` has is mapped to FHIR R4 element `ExampleScenario.process.title`, but has no comparisons."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.description` is part of an existing definition because parent element `ExampleScenario.process` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.description` is mapped to FHIR R4 element `ExampleScenario.process.description`."
+              "comment" : "Element `ExampleScenario.process.description` is part of an existing definition because parent element `ExampleScenario.process` requires a cross-version extension.\nElement `ExampleScenario.process.description` has is mapped to FHIR R4 element `ExampleScenario.process.description`, but has no comparisons."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.preConditions",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.preConditions` is part of an existing definition because parent element `ExampleScenario.process` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.preConditions` is mapped to FHIR R4 element `ExampleScenario.process.preConditions`."
+              "comment" : "Element `ExampleScenario.process.preConditions` is part of an existing definition because parent element `ExampleScenario.process` requires a cross-version extension.\nElement `ExampleScenario.process.preConditions` has is mapped to FHIR R4 element `ExampleScenario.process.preConditions`, but has no comparisons."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.postConditions",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.postConditions` is part of an existing definition because parent element `ExampleScenario.process` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.postConditions` is mapped to FHIR R4 element `ExampleScenario.process.postConditions`."
+              "comment" : "Element `ExampleScenario.process.postConditions` is part of an existing definition because parent element `ExampleScenario.process` requires a cross-version extension.\nElement `ExampleScenario.process.postConditions` has is mapped to FHIR R4 element `ExampleScenario.process.postConditions`, but has no comparisons."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step` is part of an existing definition because parent element `ExampleScenario.process` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.step` is mapped to FHIR R4 element `ExampleScenario.process.step`."
+              "comment" : "Element `ExampleScenario.process.step` is part of an existing definition because parent element `ExampleScenario.process` requires a cross-version extension.\nElement `ExampleScenario.process.step` has is mapped to FHIR R4 element `ExampleScenario.process.step`, but has no comparisons."
             }
           ]
         },
@@ -635,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.number` is part of an existing definition because parent element `ExampleScenario.process.step` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.step.number` is will have a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.process.step.number` is part of an existing definition because parent element `ExampleScenario.process.step` requires a cross-version extension.\nElement `ExampleScenario.process.step.number` has a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -646,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.process",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.process` is part of an existing definition because parent element `ExampleScenario.process.step` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.step.process` is mapped to FHIR R4 element `ExampleScenario.process.step.process`."
+              "comment" : "Element `ExampleScenario.process.step.process` is part of an existing definition because parent element `ExampleScenario.process.step` requires a cross-version extension.\nElement `ExampleScenario.process.step.process` has is mapped to FHIR R4 element `ExampleScenario.process.step.process`, but has no comparisons."
             }
           ]
         },
@@ -657,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.workflow` is part of an existing definition because parent element `ExampleScenario.process.step` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.process.step.workflow` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ExampleScenario.process.step.workflow` is will have a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`."
+              "comment" : "Element `ExampleScenario.process.step.workflow` is part of an existing definition because parent element `ExampleScenario.process.step` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ExampleScenario.process.step.workflow` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ExampleScenario.process.step.workflow` has a context of ExampleScenario.process.step based on following the parent source element upwards and mapping to `ExampleScenario`."
             }
           ]
         },
@@ -668,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation` is part of an existing definition because parent element `ExampleScenario.process.step` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.step.operation` is mapped to FHIR R4 element `ExampleScenario.process.step.operation`."
+              "comment" : "Element `ExampleScenario.process.step.operation` is part of an existing definition because parent element `ExampleScenario.process.step` requires a cross-version extension.\nElement `ExampleScenario.process.step.operation` has is mapped to FHIR R4 element `ExampleScenario.process.step.operation`, but has no comparisons."
             }
           ]
         },
@@ -679,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.type` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.type`."
+              "comment" : "Element `ExampleScenario.process.step.operation.type` is part of an existing definition because parent element `ExampleScenario.process.step.operation` requires a cross-version extension.\nElement `ExampleScenario.process.step.operation.type` has is mapped to FHIR R4 element `ExampleScenario.process.step.operation.type`, but has no comparisons."
             }
           ]
         },
@@ -690,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.title` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.name`."
+              "comment" : "Element `ExampleScenario.process.step.operation.title` is part of an existing definition because parent element `ExampleScenario.process.step.operation` requires a cross-version extension.\nElement `ExampleScenario.process.step.operation.title` has is mapped to FHIR R4 element `ExampleScenario.process.step.operation.name`, but has no comparisons."
             }
           ]
         },
@@ -701,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.initiator",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.initiator` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.initiator`."
+              "comment" : "Element `ExampleScenario.process.step.operation.initiator` is part of an existing definition because parent element `ExampleScenario.process.step.operation` requires a cross-version extension.\nElement `ExampleScenario.process.step.operation.initiator` has is mapped to FHIR R4 element `ExampleScenario.process.step.operation.initiator`, but has no comparisons."
             }
           ]
         },
@@ -712,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.receiver",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.receiver` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.receiver`."
+              "comment" : "Element `ExampleScenario.process.step.operation.receiver` is part of an existing definition because parent element `ExampleScenario.process.step.operation` requires a cross-version extension.\nElement `ExampleScenario.process.step.operation.receiver` has is mapped to FHIR R4 element `ExampleScenario.process.step.operation.receiver`, but has no comparisons."
             }
           ]
         },
@@ -723,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.description` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.description`."
+              "comment" : "Element `ExampleScenario.process.step.operation.description` is part of an existing definition because parent element `ExampleScenario.process.step.operation` requires a cross-version extension.\nElement `ExampleScenario.process.step.operation.description` has is mapped to FHIR R4 element `ExampleScenario.process.step.operation.description`, but has no comparisons."
             }
           ]
         },
@@ -734,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.initiatorActive",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.initiatorActive` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.initiatorActive`."
+              "comment" : "Element `ExampleScenario.process.step.operation.initiatorActive` is part of an existing definition because parent element `ExampleScenario.process.step.operation` requires a cross-version extension.\nElement `ExampleScenario.process.step.operation.initiatorActive` has is mapped to FHIR R4 element `ExampleScenario.process.step.operation.initiatorActive`, but has no comparisons."
             }
           ]
         },
@@ -745,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.receiverActive",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.receiverActive` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.receiverActive`."
+              "comment" : "Element `ExampleScenario.process.step.operation.receiverActive` is part of an existing definition because parent element `ExampleScenario.process.step.operation` requires a cross-version extension.\nElement `ExampleScenario.process.step.operation.receiverActive` has is mapped to FHIR R4 element `ExampleScenario.process.step.operation.receiverActive`, but has no comparisons."
             }
           ]
         },
@@ -756,29 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.request",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.request` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.request`."
-            }
-          ]
-        },
-        {
-          "code" : "ExampleScenario.process.step.operation.request.instanceReference",
-          "display" : "instanceReference",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.request.resourceId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.request.instanceReference` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.request.resourceId`."
-            }
-          ]
-        },
-        {
-          "code" : "ExampleScenario.process.step.operation.request.versionReference",
-          "display" : "versionReference",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.request.versionId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.request.versionReference` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.request.versionId`."
+              "comment" : "Element `ExampleScenario.process.step.operation.request` is part of an existing definition because parent element `ExampleScenario.process.step.operation` requires a cross-version extension.\nElement `ExampleScenario.process.step.operation.request` has is mapped to FHIR R4 element `ExampleScenario.process.step.operation.request`, but has no comparisons."
             }
           ]
         },
@@ -789,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.response",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.response` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.response`."
+              "comment" : "Element `ExampleScenario.process.step.operation.response` is part of an existing definition because parent element `ExampleScenario.process.step.operation` requires a cross-version extension.\nElement `ExampleScenario.process.step.operation.response` has is mapped to FHIR R4 element `ExampleScenario.process.step.operation.response`, but has no comparisons."
             }
           ]
         },
@@ -800,18 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.alternative",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.alternative` is part of an existing definition because parent element `ExampleScenario.process.step` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.step.alternative` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative`."
-            }
-          ]
-        },
-        {
-          "code" : "ExampleScenario.process.step.operation.response.instanceReference",
-          "display" : "instanceReference",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.response.resourceId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.response.instanceReference` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.response.resourceId`."
+              "comment" : "Element `ExampleScenario.process.step.alternative` is part of an existing definition because parent element `ExampleScenario.process.step` requires a cross-version extension.\nElement `ExampleScenario.process.step.alternative` has is mapped to FHIR R4 element `ExampleScenario.process.step.alternative`, but has no comparisons."
             }
           ]
         },
@@ -822,18 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.alternative.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.alternative.title` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.title`."
-            }
-          ]
-        },
-        {
-          "code" : "ExampleScenario.process.step.operation.response.versionReference",
-          "display" : "versionReference",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.operation.response.versionId",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.operation.response.versionReference` is mapped to FHIR R4 element `ExampleScenario.process.step.operation.response.versionId`."
+              "comment" : "Element `ExampleScenario.process.step.alternative.title` is part of an existing definition because parent element `ExampleScenario.process.step.alternative` requires a cross-version extension.\nElement `ExampleScenario.process.step.alternative.title` has is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.title`, but has no comparisons."
             }
           ]
         },
@@ -844,7 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.alternative.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.alternative.description` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.description`."
+              "comment" : "Element `ExampleScenario.process.step.alternative.description` is part of an existing definition because parent element `ExampleScenario.process.step.alternative` requires a cross-version extension.\nElement `ExampleScenario.process.step.alternative.description` has is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.description`, but has no comparisons."
             }
           ]
         },
@@ -855,7 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.alternative.step",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.alternative.step` is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.step`."
+              "comment" : "Element `ExampleScenario.process.step.alternative.step` is part of an existing definition because parent element `ExampleScenario.process.step.alternative` requires a cross-version extension.\nElement `ExampleScenario.process.step.alternative.step` has is mapped to FHIR R4 element `ExampleScenario.process.step.alternative.step`, but has no comparisons."
             }
           ]
         },
@@ -866,7 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ExampleScenario#ExampleScenario.process.step.pause",
               "equivalence" : "relatedto",
-              "comment" : "Element `ExampleScenario.process.step.pause` is part of an existing definition because parent element `ExampleScenario.process.step` requires a component extension (e.g., if this element is used as a content reference).\nElement `ExampleScenario.process.step.pause` is mapped to FHIR R4 element `ExampleScenario.process.step.pause`."
+              "comment" : "Element `ExampleScenario.process.step.pause` is part of an existing definition because parent element `ExampleScenario.process.step` requires a cross-version extension.\nElement `ExampleScenario.process.step.pause` has is mapped to FHIR R4 element `ExampleScenario.process.step.pause`, but has no comparisons."
             }
           ]
         }

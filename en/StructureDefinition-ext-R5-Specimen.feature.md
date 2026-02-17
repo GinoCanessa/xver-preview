@@ -1,4 +1,4 @@
-# ExtensionSpecimen_Feature - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSpecimen_Feature - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Specimen.feature` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Specimen.f
   "title" : "Cross-version Extension `R5.Specimen.feature` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Specimen.f
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Specimen.feature` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Specimen.feature` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Specimen.feature` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Specimen.feature` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Specimen.feature` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Specimen.feature` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Specimen.feature` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Specimen.feature` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Specimen.f
         "sliceName" : "type",
         "short" : "Highlighted feature",
         "definition" : "The landmark or feature being highlighted.",
-        "requirements" : "Element `Specimen.feature.type` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.type` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.",
+        "requirements" : "Element `Specimen.feature.type` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.type` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Specimen.f
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Specimen.f
         "sliceName" : "description",
         "short" : "Information about the feature",
         "definition" : "Description of the feature of the specimen.",
-        "requirements" : "Element `Specimen.feature.description` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.description` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.",
+        "requirements" : "Element `Specimen.feature.description` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.description` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -253,7 +253,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Specimen.f
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature.description"
       },
       {
         "id" : "Extension.extension:description.value[x]",

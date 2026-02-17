@@ -1,4 +1,4 @@
-# ExtensionAccount_Diagnosis - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAccount_Diagnosis - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Account.diagnosis` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
   "title" : "Cross-version Extension `R5.Account.diagnosis` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Account.diagnosis` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Account.diagnosis` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Account.diagnosis` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Account.diagnosis` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Account.diagnosis` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Account.diagnosis` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Account.diagnosis` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Account.diagnosis` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "sequence",
         "short" : "Ranking of the diagnosis (for each type)",
         "definition" : "Ranking of the diagnosis (for each type).",
-        "requirements" : "Element `Account.diagnosis.sequence` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.sequence` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "requirements" : "Element `Account.diagnosis.sequence` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.sequence` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sequence"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis.sequence"
       },
       {
         "id" : "Extension.extension:sequence.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "condition",
         "short" : "The diagnosis relevant to the account",
         "definition" : "The diagnosis relevant to the account.",
-        "requirements" : "Element `Account.diagnosis.condition` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.condition` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "requirements" : "Element `Account.diagnosis.condition` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.condition` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -309,7 +309,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -358,7 +358,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -411,7 +411,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "condition"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis.condition"
       },
       {
         "id" : "Extension.extension:condition.value[x]",
@@ -430,7 +430,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "dateOfDiagnosis",
         "short" : "Date of the diagnosis (when coded diagnosis)",
         "definition" : "Ranking of the diagnosis (for each type).",
-        "requirements" : "Element `Account.diagnosis.dateOfDiagnosis` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.dateOfDiagnosis` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "requirements" : "Element `Account.diagnosis.dateOfDiagnosis` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.dateOfDiagnosis` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -449,7 +449,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "dateOfDiagnosis"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis.dateOfDiagnosis"
       },
       {
         "id" : "Extension.extension:dateOfDiagnosis.value[x]",
@@ -475,7 +475,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "type",
         "short" : "Type that this diagnosis has relevant to the account (e.g. admission, billing, discharge …)",
         "definition" : "Type that this diagnosis has relevant to the account (e.g. admission, billing, discharge …).",
-        "requirements" : "Element `Account.diagnosis.type` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.type` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "requirements" : "Element `Account.diagnosis.type` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.type` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -494,7 +494,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -520,7 +520,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "onAdmission",
         "short" : "Diagnosis present on Admission",
         "definition" : "Was the Diagnosis present on Admission in the related Encounter.",
-        "requirements" : "Element `Account.diagnosis.onAdmission` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.onAdmission` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "requirements" : "Element `Account.diagnosis.onAdmission` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.onAdmission` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -539,7 +539,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "onAdmission"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis.onAdmission"
       },
       {
         "id" : "Extension.extension:onAdmission.value[x]",
@@ -565,7 +565,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
         "sliceName" : "packageCode",
         "short" : "Package Code specific for billing",
         "definition" : "The package code can be used to group diagnoses that may be priced or delivered as a single product. Such as DRGs.",
-        "requirements" : "Element `Account.diagnosis.packageCode` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.packageCode` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "requirements" : "Element `Account.diagnosis.packageCode` is part of an existing definition because parent element `Account.diagnosis` requires a cross-version extension.\nElement `Account.diagnosis.packageCode` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -584,7 +584,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.di
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "packageCode"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis.packageCode"
       },
       {
         "id" : "Extension.extension:packageCode.value[x]",

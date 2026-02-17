@@ -1,4 +1,4 @@
-# ConceptMapR5SubstanceProteinElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5SubstanceProteinElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5SubstanceProteinElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2687374-06:00",
+  "date" : "2026-02-17T14:42:27.5870921-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -149,7 +149,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sequenceType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:sequenceType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.sequenceType",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.sequenceType` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }
@@ -160,7 +160,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "numberOfSubunits",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:numberOfSubunits",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.numberOfSubunits",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.numberOfSubunits` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "disulfideLinkage",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:disulfideLinkage",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.disulfideLinkage",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.disulfideLinkage` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "subunit",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:subunit",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.subunit",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.subunit.subunit` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sequence",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:sequence",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.sequence",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.subunit.sequence` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "length",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:length",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.length",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.subunit.length` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sequenceAttachment",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:sequenceAttachment",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.sequenceAttachment",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.subunit.sequenceAttachment` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }
@@ -237,7 +237,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "nTerminalModificationId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:nTerminalModificationId",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.nTerminalModificationId",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.subunit.nTerminalModificationId` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "nTerminalModification",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:nTerminalModification",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.nTerminalModification",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.subunit.nTerminalModification` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "cTerminalModificationId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:cTerminalModificationId",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.cTerminalModificationId",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.subunit.cTerminalModificationId` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "cTerminalModification",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:cTerminalModification",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.cTerminalModification",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceProtein.subunit.cTerminalModification` is not mapped to FHIR R4, since FHIR R5 `SubstanceProtein` is not mapped."
             }

@@ -1,4 +1,4 @@
-# ExtensionDeviceDefinition_Version - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionDeviceDefinition_Version - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.DeviceDefinition.version` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
   "title" : "Cross-version Extension `R5.DeviceDefinition.version` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.version` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.version` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.version` 0..* `BackboneElement`\n*  R4B: `DeviceDefinition.version` 0..* `string`\n*  R4: `DeviceDefinition.version` 0..* `string`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.version` is mapped to FHIR R4 element `DeviceDefinition.version`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DeviceDefinition.version` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DeviceDefinition.version` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DeviceDefinition.version` 0..* `BackboneElement`\n*  R4B: `DeviceDefinition.version` 0..* `string`\n*  R4: `DeviceDefinition.version` 0..* `string`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DeviceDefinition.version` has is mapped to FHIR R4 element `DeviceDefinition.version`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "type",
         "short" : "The type of the device version, e.g. manufacturer, approved, internal",
         "definition" : "The type of the device version, e.g. manufacturer, approved, internal.",
-        "requirements" : "Element `DeviceDefinition.version.type` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "requirements" : "Element `DeviceDefinition.version.type` is part of an existing definition because parent element `DeviceDefinition.version` requires a cross-version extension.\nElement `DeviceDefinition.version.type` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "short" : "The hardware or software module of the device to which the version applies",
         "definition" : "The hardware or software module of the device to which the version applies.",
         "comment" : "Note that the module of the device would not need to be tracked as a separate device, e.g., using different UDI, thus would typically involve one or more software modules. For example, a device may involve two software modules each on a different version.",
-        "requirements" : "Element `DeviceDefinition.version.component` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "requirements" : "Element `DeviceDefinition.version.component` is part of an existing definition because parent element `DeviceDefinition.version` requires a cross-version extension.\nElement `DeviceDefinition.version.component` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -249,7 +249,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "component"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version.component"
       },
       {
         "id" : "Extension.extension:component.value[x]",
@@ -276,7 +276,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
         "sliceName" : "value",
         "short" : "The version text",
         "definition" : "The version text.",
-        "requirements" : "Element `DeviceDefinition.version.value` is will have a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.",
+        "requirements" : "Element `DeviceDefinition.version.value` is part of an existing definition because parent element `DeviceDefinition.version` requires a cross-version extension.\nElement `DeviceDefinition.version.value` has a context of DeviceDefinition.version based on following the parent source element upwards and mapping to `DeviceDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -295,7 +295,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DeviceDefi
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceDefinition.version.value"
       },
       {
         "id" : "Extension.extension:value.value[x]",

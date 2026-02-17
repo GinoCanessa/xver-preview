@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Lookup for ProfileQuestionnaire - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+    <title>Lookup for ProfileQuestionnaire - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -67,7 +67,7 @@
 
 
         <div id="ig-status" data-fhir="generated">
-          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
             <br/>
             <span style="display:inline-block;">0.0.1-snapshot-3 - STU
 
@@ -175,7 +175,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Lookup for ProfileQuestionnaire</h2>
   
 
@@ -249,7 +249,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.versionAlgorithm[x]</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.versionAlgorithm.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.versionAlgorithm</a></td>
+      <td><a href="StructureDefinition-ext-R5-Questionnaire.versionAlgorithm.html">Extension: ExtensionQuestionnaire_VersionAlgorithm</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.name</code></a></td>
@@ -273,7 +273,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.subjectType</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.subjectType</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.subjectType.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.subjectType</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.subjectType</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.subjectType.html">Extension: ExtensionQuestionnaire_SubjectType</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.date</code></a></td>
@@ -309,7 +309,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.copyrightLabel</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.copyrightLabel.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.copyrightLabel</a></td>
+      <td><a href="StructureDefinition-ext-R5-Questionnaire.copyrightLabel.html">Extension: ExtensionQuestionnaire_CopyrightLabel</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.approvalDate</code></a></td>
@@ -329,103 +329,103 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.linkId</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.linkId</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.linkId</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:linkId</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.definition</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.definition</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.definition</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:definition</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.code</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.code</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.code</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:code</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.prefix</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.prefix</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.prefix</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:prefix</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.text</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.text</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.text</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:text</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.type</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.type</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.ite.type.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.type</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.type</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:type</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.enableWhen</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.enableWhen</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.enableWhen</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:enableWhen</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.enableWhen.question</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.enableWhen.question</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.enableWhen.question</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item_EnableWhen Slice:question</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.enableWhen.operator</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.enableWhen.operator</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.enableWhen.operator</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item_EnableWhen Slice:operator</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.enableWhen.answer[x]</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.enableWhen.answer[x]</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.enableWhen.answer[x]</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item_EnableWhen Slice:answer</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.enableBehavior</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.enableBehavior</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.enableBehavior</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:enableBehavior</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.disabledDisplay</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.ite.disabledDisplay.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item.disabledDisplay</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:disabledDisplay</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.required</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.required</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.required</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:required</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.repeats</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.repeats</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.repeats</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:repeats</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.readOnly</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.readOnly</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.readOnly</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:readOnly</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.maxLength</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.maxLength</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.maxLength</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:maxLength</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.answerConstraint</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.type</a><br /><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.type</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.type</a><br /><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.type</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:answerConstraint</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.answerValueSet</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.answerValueSet</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.answerValueSet</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:answerValueSet</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.answerOption</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.answerOption</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.answerOption</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:answerOption</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.answerOption.value[x]</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.answerOption.value[x]</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.answerOption.value[x]</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item_AnswerOption Slice:value</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.answerOption.initialSelected</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.answerOption.initialSelected</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.answerOption.initialSelected</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item_AnswerOption Slice:initialSelected</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.initial</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.initial</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.initial</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:initial</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.initial.value[x]</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.initial.value[x]</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.initial.value[x]</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item_Initial Slice:value</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Questionnaire.html#resource"><code class="language-plaintext highlighter-rouge">Questionnaire.item.item</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.item</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Questionnaire.html#resource">Questionnaire.item.item</a><br /><a href="StructureDefinition-ext-R5-Questionnaire.item.html">Extension: ExtensionQuestionnaire_Item Slice:item</a></td>
     </tr>
   </tbody>
 </table>
@@ -480,8 +480,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-09 22:08:00 -0600">
-    2026-02-09
+  <span title="2026-02-17 15:29:00 -0600">
+    2026-02-17
   </span>
 
           <br/>

@@ -1,4 +1,4 @@
-# ExtensionMedication_TotalVolume - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionMedication_TotalVolume - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Medication.totalVolume` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
   "title" : "Cross-version Extension `R5.Medication.totalVolume` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Medication.totalVolume` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Medication.totalVolume` 0..1 `Quantity`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Medication.totalVolume` 0..1 `Quantity`\n*  R4B: `Medication.amount` 0..1 `Ratio`\n*  R4: `Medication.amount` 0..1 `Ratio`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Medication.totalVolume` is mapped to FHIR R4 element `Medication.amount`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Medication.totalVolume` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Medication.totalVolume` 0..1 `Quantity`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Medication.totalVolume` 0..1 `Quantity`\n*  R4B: `Medication.amount` 0..1 `Ratio`\n*  R4: `Medication.amount` 0..1 `Ratio`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Medication.totalVolume` has is mapped to FHIR R4 element `Medication.amount`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

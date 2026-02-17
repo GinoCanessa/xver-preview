@@ -1,4 +1,4 @@
-# ConceptMapR5ParameterDefinitionElementsForR4ParameterDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ParameterDefinitionElementsForR4ParameterDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ParameterDefinitionElementsForR4ParameterDefinition 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1094754-06:00",
+  "date" : "2026-02-17T14:42:27.450443-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ParameterDefinition#ParameterDefinition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `ParameterDefinition` is representable via FHIR R4 extensions.\nElement `ParameterDefinition` is mapped to FHIR R4 element `ParameterDefinition`."
+              "comment" : "FHIR R5 ComplexType `ParameterDefinition` is representable via FHIR R4 extensions.\nElement `ParameterDefinition` has is mapped to FHIR R4 element `ParameterDefinition`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ParameterDefinition#ParameterDefinition.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ParameterDefinition.name` is mapped to FHIR R4 element `ParameterDefinition.name`."
+              "comment" : "Element `ParameterDefinition.name` has is mapped to FHIR R4 element `ParameterDefinition.name`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ParameterDefinition#ParameterDefinition.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `ParameterDefinition.use` is mapped to FHIR R4 element `ParameterDefinition.use`."
+              "comment" : "Element `ParameterDefinition.use` has is mapped to FHIR R4 element `ParameterDefinition.use`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ParameterDefinition#ParameterDefinition.min",
               "equivalence" : "relatedto",
-              "comment" : "Element `ParameterDefinition.min` is mapped to FHIR R4 element `ParameterDefinition.min`."
+              "comment" : "Element `ParameterDefinition.min` has is mapped to FHIR R4 element `ParameterDefinition.min`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ParameterDefinition#ParameterDefinition.max",
               "equivalence" : "relatedto",
-              "comment" : "Element `ParameterDefinition.max` is mapped to FHIR R4 element `ParameterDefinition.max`."
+              "comment" : "Element `ParameterDefinition.max` has is mapped to FHIR R4 element `ParameterDefinition.max`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ParameterDefinition#ParameterDefinition.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ParameterDefinition.documentation` is mapped to FHIR R4 element `ParameterDefinition.documentation`."
+              "comment" : "Element `ParameterDefinition.documentation` has is mapped to FHIR R4 element `ParameterDefinition.documentation`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ParameterDefinition#ParameterDefinition.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ParameterDefinition.type` is mapped to FHIR R4 element `ParameterDefinition.type`."
+              "comment" : "Element `ParameterDefinition.type` has is mapped to FHIR R4 element `ParameterDefinition.type`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ParameterDefinition#ParameterDefinition.profile",
               "equivalence" : "relatedto",
-              "comment" : "Element `ParameterDefinition.profile` is mapped to FHIR R4 element `ParameterDefinition.profile`."
+              "comment" : "Element `ParameterDefinition.profile` has is mapped to FHIR R4 element `ParameterDefinition.profile`, but has no comparisons."
             }
           ]
         }

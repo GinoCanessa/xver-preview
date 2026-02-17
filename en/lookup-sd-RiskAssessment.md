@@ -1,4 +1,4 @@
-# Lookup for ProfileRiskAssessment - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileRiskAssessment - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileRiskAssessment
 
@@ -28,16 +28,16 @@ A computable version of the following element information is available in: [Conc
 | [`RiskAssessment.encounter`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.encounter](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
 | [`RiskAssessment.occurrence[x]`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.occurrence[x]](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
 | [`RiskAssessment.condition`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.condition](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
-| [`RiskAssessment.performer`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.performer](https://hl7.org/fhir/R4/RiskAssessment.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-RiskAssessment.performer](StructureDefinition-ext-R5-RiskAssessment.performer.md) |
+| [`RiskAssessment.performer`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.performer](https://hl7.org/fhir/R4/RiskAssessment.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`RiskAssessment.reason`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.reasonCode](https://hl7.org/fhir/R4/RiskAssessment.html#resource)[RiskAssessment.reasonReference](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
 | [`RiskAssessment.basis`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.basis](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
-| [`RiskAssessment.prediction`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
-| [`RiskAssessment.prediction.outcome`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.outcome](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
-| [`RiskAssessment.prediction.probability[x]`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.probability[x]](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
-| [`RiskAssessment.prediction.qualitativeRisk`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.qualitativeRisk](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
-| [`RiskAssessment.prediction.relativeRisk`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.relativeRisk](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
-| [`RiskAssessment.prediction.when[x]`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.when[x]](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
-| [`RiskAssessment.prediction.rationale`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.rationale](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
+| [`RiskAssessment.prediction`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction](https://hl7.org/fhir/R4/RiskAssessment.html#resource)[Extension: ExtensionRiskAssessment_Prediction](StructureDefinition-ext-R5-RiskAssessment.prediction.md) |
+| [`RiskAssessment.prediction.outcome`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.outcome](https://hl7.org/fhir/R4/RiskAssessment.html#resource)[Extension: ExtensionRiskAssessment_Prediction Slice:outcome](StructureDefinition-ext-R5-RiskAssessment.prediction.md) |
+| [`RiskAssessment.prediction.probability[x]`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.probability[x]](https://hl7.org/fhir/R4/RiskAssessment.html#resource)[Extension: ExtensionRiskAssessment_Prediction Slice:probability](StructureDefinition-ext-R5-RiskAssessment.prediction.md) |
+| [`RiskAssessment.prediction.qualitativeRisk`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.qualitativeRisk](https://hl7.org/fhir/R4/RiskAssessment.html#resource)[Extension: ExtensionRiskAssessment_Prediction Slice:qualitativeRisk](StructureDefinition-ext-R5-RiskAssessment.prediction.md) |
+| [`RiskAssessment.prediction.relativeRisk`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.relativeRisk](https://hl7.org/fhir/R4/RiskAssessment.html#resource)[Extension: ExtensionRiskAssessment_Prediction Slice:relativeRisk](StructureDefinition-ext-R5-RiskAssessment.prediction.md) |
+| [`RiskAssessment.prediction.when[x]`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.when[x]](https://hl7.org/fhir/R4/RiskAssessment.html#resource)[Extension: ExtensionRiskAssessment_Prediction Slice:when](StructureDefinition-ext-R5-RiskAssessment.prediction.md) |
+| [`RiskAssessment.prediction.rationale`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.prediction.rationale](https://hl7.org/fhir/R4/RiskAssessment.html#resource)[Extension: ExtensionRiskAssessment_Prediction Slice:rationale](StructureDefinition-ext-R5-RiskAssessment.prediction.md) |
 | [`RiskAssessment.mitigation`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.mitigation](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
 | [`RiskAssessment.note`](https://hl7.org/fhir/R5/RiskAssessment.html#resource) | [RiskAssessment.note](https://hl7.org/fhir/R4/RiskAssessment.html#resource) |
 

@@ -1,4 +1,4 @@
-# ProfileCarePlan - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileCarePlan - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileCarePlan 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CarePlan.
   "title" : "Cross-version Profile for R5.CarePlan for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0058028-06:00",
+  "date" : "2026-02-17T14:42:26.7447672-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -175,7 +175,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CarePlan.
         "sliceName" : "basedOn",
         "short" : "Cross-version extension for CarePlan.basedOn from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/RequestOrchestration,http://hl7.org/fhir/StructureDefinition/ServiceRequest in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CarePlan.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CarePlan.basedOn` is mapped to FHIR R4 element `CarePlan.basedOn`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CarePlan.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CarePlan.basedOn` has is mapped to FHIR R4 element `CarePlan.basedOn`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CarePlan.
         "path" : "CarePlan.intent.extension",
         "sliceName" : "intent",
         "short" : "Cross-version extension for CarePlan.intent from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `CarePlan.intent` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `CarePlan.intent` is mapped to FHIR R4 element `CarePlan.intent`.",
+        "comment" : "Note that the target element context `CarePlan.intent` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `CarePlan.intent` has is mapped to FHIR R4 element `CarePlan.intent`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -261,7 +261,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CarePlan.
         "path" : "CarePlan.addresses.extension",
         "sliceName" : "addresses",
         "short" : "Cross-version extension for CarePlan.addresses from R5 for use in FHIR R4",
-        "comment" : "Element `CarePlan.addresses` is mapped to FHIR R4 element `CarePlan.addresses`.",
+        "comment" : "Element `CarePlan.addresses` has is mapped to FHIR R4 element `CarePlan.addresses`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -279,8 +279,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CarePlan.
         ]
       },
       {
-        "id" : "CarePlan.activity.reference.extension",
-        "path" : "CarePlan.activity.reference.extension",
+        "id" : "CarePlan.activity.extension",
+        "path" : "CarePlan.activity.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -294,20 +294,19 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CarePlan.
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "CarePlan.activity.reference",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "CarePlan.activity.reference.extension:plannedActivityReference",
-        "path" : "CarePlan.activity.reference.extension",
-        "sliceName" : "plannedActivityReference",
-        "short" : "Cross-version extension for CarePlan.activity.plannedActivityReference from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation,http://hl7.org/fhir/StructureDefinition/SupplyRequest in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CarePlan.activity.plannedActivityReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CarePlan.activity.plannedActivityReference` is mapped to FHIR R4 element `CarePlan.activity.reference`.",
+        "id" : "CarePlan.activity.extension:activity",
+        "path" : "CarePlan.activity.extension",
+        "sliceName" : "activity",
+        "short" : "Cross-version extension for CarePlan.activity from R5 for use in FHIR R4",
+        "comment" : "Element `CarePlan.activity` has is mapped to FHIR R4 element `CarePlan.activity`, but has no comparisons.",
         "min" : 0,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -317,7 +316,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CarePlan.
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.activity|0.0.1-snapshot-3"
             ]
           }
         ]

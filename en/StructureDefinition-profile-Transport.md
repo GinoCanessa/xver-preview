@@ -1,4 +1,4 @@
-# ProfileTransport - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileTransport - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileTransport 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Transport
   "title" : "Cross-version Profile for R5.Transport for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3950922-06:00",
+  "date" : "2026-02-17T14:42:26.9404297-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

@@ -1,4 +1,4 @@
-# Lookup for ProfileGoal - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileGoal - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileGoal
 
@@ -22,19 +22,19 @@ A computable version of the following element information is available in: [Conc
 | [`Goal.lifecycleStatus`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.lifecycleStatus](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.achievementStatus`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.achievementStatus](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.category`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.category](https://hl7.org/fhir/R4/Goal.html#resource) |
-| [`Goal.continuous`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal](https://hl7.org/fhir/R4/Goal.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.continuous](StructureDefinition-ext-R5-Goal.continuous.md) |
+| [`Goal.continuous`](https://hl7.org/fhir/R5/Goal.html#resource) | [Extension: ExtensionGoal_Continuous](StructureDefinition-ext-R5-Goal.continuous.md) |
 | [`Goal.priority`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.priority](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.description`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.description](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.subject`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.subject](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.start[x]`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.start[x]](https://hl7.org/fhir/R4/Goal.html#resource) |
-| [`Goal.target`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.target](https://hl7.org/fhir/R4/Goal.html#resource) |
-| [`Goal.target.measure`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.target.measure](https://hl7.org/fhir/R4/Goal.html#resource) |
-| [`Goal.target.detail[x]`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.target.detail[x]](https://hl7.org/fhir/R4/Goal.html#resource) |
-| [`Goal.target.due[x]`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.target.due[x]](https://hl7.org/fhir/R4/Goal.html#resource) |
+| [`Goal.target`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.target](https://hl7.org/fhir/R4/Goal.html#resource)[Extension: ExtensionGoal_Target](StructureDefinition-ext-R5-Goal.target.md) |
+| [`Goal.target.measure`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.target.measure](https://hl7.org/fhir/R4/Goal.html#resource)[Extension: ExtensionGoal_Target Slice:measure](StructureDefinition-ext-R5-Goal.target.md) |
+| [`Goal.target.detail[x]`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.target.detail[x]](https://hl7.org/fhir/R4/Goal.html#resource)[Extension: ExtensionGoal_Target Slice:detail](StructureDefinition-ext-R5-Goal.target.md) |
+| [`Goal.target.due[x]`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.target.due[x]](https://hl7.org/fhir/R4/Goal.html#resource)[Extension: ExtensionGoal_Target Slice:due](StructureDefinition-ext-R5-Goal.target.md) |
 | [`Goal.statusDate`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.statusDate](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.statusReason`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.statusReason](https://hl7.org/fhir/R4/Goal.html#resource) |
-| [`Goal.source`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.expressedBy](https://hl7.org/fhir/R4/Goal.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.source](StructureDefinition-ext-R5-Goal.source.md) |
-| [`Goal.addresses`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.addresses](https://hl7.org/fhir/R4/Goal.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.addresses](StructureDefinition-ext-R5-Goal.addresses.md) |
+| [`Goal.source`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.expressedBy](https://hl7.org/fhir/R4/Goal.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`Goal.addresses`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.addresses](https://hl7.org/fhir/R4/Goal.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`Goal.note`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.note](https://hl7.org/fhir/R4/Goal.html#resource) |
 | [`Goal.outcome`](https://hl7.org/fhir/R5/Goal.html#resource) | [Goal.outcomeCode](https://hl7.org/fhir/R4/Goal.html#resource)[Goal.outcomeReference](https://hl7.org/fhir/R4/Goal.html#resource) |
 

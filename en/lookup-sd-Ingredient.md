@@ -1,4 +1,4 @@
-# Lookup for ProfileIngredient - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileIngredient - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileIngredient
 
@@ -12,36 +12,36 @@ A computable version of the following element information is available in: [Conc
 
 | | |
 | :--- | :--- |
-| [`Ingredient`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Ingredient](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient](StructureDefinition-ext-R5-Ingredient.md) |
 | [`Ingredient.meta`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Basic.meta](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Ingredient.implicitRules`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Basic.implicitRules](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Ingredient.language`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Basic.language](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Ingredient.text`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Basic.text](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Ingredient.contained`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Basic.contained](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Ingredient.identifier`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Basic.identifier](https://hl7.org/fhir/R4/Basic.html#resource) |
-| [`Ingredient.status`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: status](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.for`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: for](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.role`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: role](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.function`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: function](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.group`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: group](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.allergenicIndicator`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: allergenicIndicator](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.comment`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: comment](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.manufacturer`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: manufacturer](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.manufacturer.role`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: role](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.manufacturer.manufacturer`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: manufacturer](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: substance](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.code`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: code](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: strength](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.presentation[x]`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: presentation](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.textPresentation`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: textPresentation](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.concentration[x]`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: concentration](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.textConcentration`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: textConcentration](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.basis`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: basis](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.measurementPoint`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: measurementPoint](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.country`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: country](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.referenceStrength`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: referenceStrength](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.referenceStrength.substance`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: substance](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.referenceStrength.strength[x]`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: strength](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.referenceStrength.measurementPoint`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: measurementPoint](StructureDefinition-ext-R5-Ingredient.md) |
-| [`Ingredient.substance.strength.referenceStrength.country`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension slice: country](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.status`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient Slice:status](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.for`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`Ingredient.role`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient Slice:role](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.function`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient Slice:function](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.group`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient Slice:group](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.allergenicIndicator`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient Slice:allergenicIndicator](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.comment`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient Slice:comment](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.manufacturer`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient Slice:manufacturer](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.manufacturer.role`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Manufacturer Slice:role](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.manufacturer.manufacturer`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`Ingredient.substance`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient Slice:substance](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.code`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance Slice:code](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance Slice:strength](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.presentation[x]`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength Slice:presentation](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.textPresentation`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength Slice:textPresentation](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.concentration[x]`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength Slice:concentration](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.textConcentration`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength Slice:textConcentration](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.basis`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength Slice:basis](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.measurementPoint`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength Slice:measurementPoint](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.country`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength Slice:country](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.referenceStrength`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength Slice:referenceStrength](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.referenceStrength.substance`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength_ReferenceStrength Slice:substance](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.referenceStrength.strength[x]`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength_ReferenceStrength Slice:strength](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.referenceStrength.measurementPoint`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength_ReferenceStrength Slice:measurementPoint](StructureDefinition-ext-R5-Ingredient.md) |
+| [`Ingredient.substance.strength.referenceStrength.country`](https://hl7.org/fhir/R5/Ingredient.html#resource) | [Extension: ExtensionIngredient_Substance_Strength_ReferenceStrength Slice:country](StructureDefinition-ext-R5-Ingredient.md) |
 

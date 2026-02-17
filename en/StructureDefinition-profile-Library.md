@@ -1,4 +1,4 @@
-# ProfileLibrary - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileLibrary - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileLibrary 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Library content to be represented via FHIR 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md)
+* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md) and [Cross-version Extension `R5.Measure.group` for use in FHIR R4](StructureDefinition-ext-R5-Measure.group.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Library)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Library.c
   "title" : "Cross-version Profile for R5.Library for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1798201-06:00",
+  "date" : "2026-02-17T14:42:26.8351533-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Library.c
         "path" : "Library.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for Library.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `Library.versionAlgorithm[x]` is will have a context of Library based on following the parent source element upwards and mapping to `Library`.",
+        "comment" : "Element `Library.versionAlgorithm[x]` has a context of Library based on following the parent source element upwards and mapping to `Library`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Library.c
         "path" : "Library.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for Library.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `Library.copyrightLabel` is will have a context of Library based on following the parent source element upwards and mapping to `Library`.",
+        "comment" : "Element `Library.copyrightLabel` has a context of Library based on following the parent source element upwards and mapping to `Library`.",
         "min" : 0,
         "max" : "1",
         "base" : {

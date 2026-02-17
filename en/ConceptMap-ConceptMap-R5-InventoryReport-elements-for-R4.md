@@ -1,4 +1,4 @@
-# ConceptMapR5InventoryReportElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5InventoryReportElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5InventoryReportElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.9648711-06:00",
+  "date" : "2026-02-17T14:42:27.3351699-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -160,7 +160,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:status",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.status",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.status` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "countType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:countType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.countType",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.countType` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "operationType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:operationType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.operationType",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.operationType` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "operationTypeReason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:operationTypeReason",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.operationTypeReason",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.operationTypeReason` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reportedDateTime",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:reportedDateTime",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reportedDateTime",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.reportedDateTime` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reporter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:reporter",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reporter",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.reporter` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reportingPeriod",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:reportingPeriod",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reportingPeriod",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.reportingPeriod` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "location",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:location",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.location",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.inventoryListing.location` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "itemStatus",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:itemStatus",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.itemStatus",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.inventoryListing.itemStatus` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "countingDateTime",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:countingDateTime",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.countingDateTime",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.inventoryListing.countingDateTime` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -292,7 +292,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "category",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item:category",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.category",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.inventoryListing.item.category` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item:quantity",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.quantity",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.inventoryListing.item.quantity` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "item",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item:item",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.item",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.inventoryListing.item.item` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "note",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:note",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport:http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.note",
               "equivalence" : "relatedto",
               "comment" : "Element `InventoryReport.note` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped."
             }

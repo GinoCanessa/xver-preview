@@ -121,7 +121,7 @@
   fhir:title [ fhir:v "Cross-version Profile for R5.MedicationStatement for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-09T22:05:43.2101026-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-17T14:42:26.8523514-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -562,7 +562,7 @@
        fhir:sliceName [ fhir:v "effective" ] ;
        fhir:short [ fhir:v "Cross-version extension for MedicationStatement.effective[x] from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "The interval of time during which it is being asserted that the patient is/was/will be taking the medication (or was not taking, when the MedicationStatement.adherence element is Not Taking)." ] ;
-       fhir:comment [ fhir:v "Note that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.effective[x]` is mapped to FHIR R4 element `MedicationStatement.effective[x]`.\nNote that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`." ] ;
+       fhir:comment [ fhir:v "Note that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.effective[x]` has is mapped to FHIR R4 element `MedicationStatement.effective[x]`, but has no comparisons.\nNote that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -610,7 +610,7 @@
        fhir:sliceName [ fhir:v "renderedDosageInstruction" ] ;
        fhir:short [ fhir:v "Cross-version extension for MedicationStatement.renderedDosageInstruction from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "The full representation of the dose of the medication included in all dosage instructions.  To be used when multiple dosage instructions are included to represent complex dosing such as increasing or tapering doses." ] ;
-       fhir:comment [ fhir:v "Element `MedicationStatement.renderedDosageInstruction` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
+       fhir:comment [ fhir:v "Element `MedicationStatement.renderedDosageInstruction` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -658,7 +658,7 @@
        fhir:sliceName [ fhir:v "adherence" ] ;
        fhir:short [ fhir:v "Cross-version extension for MedicationStatement.adherence from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "Indicates whether the medication is or is not being consumed or administered." ] ;
-       fhir:comment [ fhir:v "Element `MedicationStatement.adherence` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
+       fhir:comment [ fhir:v "Element `MedicationStatement.adherence` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -706,7 +706,7 @@
        fhir:sliceName [ fhir:v "relatedClinicalInformation" ] ;
        fhir:short [ fhir:v "Cross-version extension for MedicationStatement.relatedClinicalInformation from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Condition,http://hl7.org/fhir/StructureDefinition/Observation in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationStatement.relatedClinicalInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationStatement.relatedClinicalInformation` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationStatement.relatedClinicalInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationStatement.relatedClinicalInformation` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1676,7 +1676,7 @@
        fhir:path [ fhir:v "MedicationStatement.extension" ] ;
        fhir:sliceName [ fhir:v "effective" ] ;
        fhir:short [ fhir:v "Cross-version extension for MedicationStatement.effective[x] from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.effective[x]` is mapped to FHIR R4 element `MedicationStatement.effective[x]`.\nNote that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`." ] ;
+       fhir:comment [ fhir:v "Note that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.effective[x]` has is mapped to FHIR R4 element `MedicationStatement.effective[x]`, but has no comparisons.\nNote that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1699,7 +1699,7 @@
        fhir:path [ fhir:v "MedicationStatement.extension" ] ;
        fhir:sliceName [ fhir:v "renderedDosageInstruction" ] ;
        fhir:short [ fhir:v "Cross-version extension for MedicationStatement.renderedDosageInstruction from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `MedicationStatement.renderedDosageInstruction` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
+       fhir:comment [ fhir:v "Element `MedicationStatement.renderedDosageInstruction` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1722,7 +1722,7 @@
        fhir:path [ fhir:v "MedicationStatement.extension" ] ;
        fhir:sliceName [ fhir:v "adherence" ] ;
        fhir:short [ fhir:v "Cross-version extension for MedicationStatement.adherence from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `MedicationStatement.adherence` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
+       fhir:comment [ fhir:v "Element `MedicationStatement.adherence` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1746,7 +1746,7 @@
        fhir:sliceName [ fhir:v "relatedClinicalInformation" ] ;
        fhir:short [ fhir:v "Cross-version extension for MedicationStatement.relatedClinicalInformation from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Condition,http://hl7.org/fhir/StructureDefinition/Observation in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationStatement.relatedClinicalInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationStatement.relatedClinicalInformation` is will have a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationStatement.relatedClinicalInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationStatement.relatedClinicalInformation` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

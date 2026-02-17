@@ -1,4 +1,4 @@
-# ExtensionProcedure_Occurrence - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionProcedure_Occurrence - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Procedure.occurrence[x]` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Procedure.
   "title" : "Cross-version Extension `R5.Procedure.occurrence[x]` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Procedure.
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Procedure.occurrence[x]` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Procedure.occurrence[x]` 0..1 `Age, dateTime, Period, Range, string, Timing`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Procedure.occurrence[x]` 0..1 `Age, dateTime, Period, Range, string, Timing`\n*  R4B: `Procedure.performed[x]` 0..1 `Age, dateTime, Period, Range, string`\n*  R4: `Procedure.performed[x]` 0..1 `Age, dateTime, Period, Range, string`\r\n\r\nFollowing are the generation technical comments:\r\nNote that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`.\nElement `Procedure.occurrence[x]` is mapped to FHIR R4 element `Procedure.performed[x]`.\nNote that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Procedure.occurrence[x]` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Procedure.occurrence[x]` 0..1 `Age, dateTime, Period, Range, string, Timing`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Procedure.occurrence[x]` 0..1 `Age, dateTime, Period, Range, string, Timing`\n*  R4B: `Procedure.performed[x]` 0..1 `Age, dateTime, Period, Range, string`\n*  R4: `Procedure.performed[x]` 0..1 `Age, dateTime, Period, Range, string`\r\n\r\nFollowing are the generation technical comments:\r\nNote that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`.\nElement `Procedure.occurrence[x]` has is mapped to FHIR R4 element `Procedure.performed[x]`, but has no comparisons.\nNote that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

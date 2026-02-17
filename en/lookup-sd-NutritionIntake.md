@@ -1,4 +1,4 @@
-# Lookup for ProfileNutritionIntake - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileNutritionIntake - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileNutritionIntake
 
@@ -12,41 +12,41 @@ A computable version of the following element information is available in: [Conc
 
 | | |
 | :--- | :--- |
-| [`NutritionIntake`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake](StructureDefinition-ext-R5-NutritionIntake.md) |
 | [`NutritionIntake.meta`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Basic.meta](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`NutritionIntake.implicitRules`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Basic.implicitRules](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`NutritionIntake.language`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Basic.language](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`NutritionIntake.text`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Basic.text](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`NutritionIntake.contained`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Basic.contained](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`NutritionIntake.identifier`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Basic.identifier](https://hl7.org/fhir/R4/Basic.html#resource) |
-| [`NutritionIntake.instantiatesCanonical`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: instantiatesCanonical](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.instantiatesUri`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: instantiatesUri](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.basedOn`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: basedOn](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.partOf`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: partOf](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.status`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: status](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.statusReason`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: statusReason](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.code`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: code](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.instantiatesCanonical`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:instantiatesCanonical](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.instantiatesUri`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:instantiatesUri](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.basedOn`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:basedOn](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.partOf`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:partOf](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.status`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:status](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.statusReason`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:statusReason](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.code`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:code](StructureDefinition-ext-R5-NutritionIntake.md) |
 | [`NutritionIntake.subject`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Basic.subject](https://hl7.org/fhir/R4/Basic.html#resource) |
-| [`NutritionIntake.encounter`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: encounter](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.occurrence[x]`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: occurrence](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.recorded`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: recorded](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.reported[x]`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: reported](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.consumedItem`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.consumedItem.type`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: type](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.consumedItem.nutritionProduct`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: nutritionProduct](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.consumedItem.schedule`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: schedule](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.consumedItem.amount`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: amount](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.consumedItem.rate`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: rate](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.consumedItem.notConsumed`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: notConsumed](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.consumedItem.notConsumedReason`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: notConsumedReason](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.ingredientLabel`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.ingredientLabel](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.ingredientLabel.nutrient`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: nutrient](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.ingredientLabel.amount`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: amount](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.performer`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.performer](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.performer.function`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: function](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.performer.actor`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: actor](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.location`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: location](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.derivedFrom`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: derivedFrom](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.reason`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: reason](StructureDefinition-ext-R5-NutritionIntake.md) |
-| [`NutritionIntake.note`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension slice: note](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.encounter`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:encounter](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.occurrence[x]`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:occurrence](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.recorded`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:recorded](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.reported[x]`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:reported](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.consumedItem`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:consumedItem](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.consumedItem.type`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_ConsumedItem Slice:type](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.consumedItem.nutritionProduct`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_ConsumedItem Slice:nutritionProduct](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.consumedItem.schedule`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_ConsumedItem Slice:schedule](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.consumedItem.amount`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_ConsumedItem Slice:amount](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.consumedItem.rate`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_ConsumedItem Slice:rate](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.consumedItem.notConsumed`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_ConsumedItem Slice:notConsumed](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.consumedItem.notConsumedReason`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_ConsumedItem Slice:notConsumedReason](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.ingredientLabel`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:ingredientLabel](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.ingredientLabel.nutrient`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_IngredientLabel Slice:nutrient](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.ingredientLabel.amount`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_IngredientLabel Slice:amount](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.performer`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:performer](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.performer.function`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_Performer Slice:function](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.performer.actor`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake_Performer Slice:actor](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.location`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:location](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.derivedFrom`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:derivedFrom](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.reason`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:reason](StructureDefinition-ext-R5-NutritionIntake.md) |
+| [`NutritionIntake.note`](https://hl7.org/fhir/R5/NutritionIntake.html#resource) | [Extension: ExtensionNutritionIntake Slice:note](StructureDefinition-ext-R5-NutritionIntake.md) |
 

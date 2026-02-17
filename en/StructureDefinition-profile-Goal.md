@@ -1,4 +1,4 @@
-# ProfileGoal - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileGoal - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileGoal 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
   "title" : "Cross-version Profile for R5.Goal for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.140614-06:00",
+  "date" : "2026-02-17T14:42:26.8179202-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
         "path" : "Goal.extension",
         "sliceName" : "continuous",
         "short" : "Cross-version extension for Goal.continuous from R5 for use in FHIR R4",
-        "comment" : "Element `Goal.continuous` is will have a context of Goal based on following the parent source element upwards and mapping to `Goal`.",
+        "comment" : "Element `Goal.continuous` has a context of Goal based on following the parent source element upwards and mapping to `Goal`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -182,6 +182,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.continuous|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Goal.target.extension",
+        "path" : "Goal.target.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Goal.target.extension:target",
+        "path" : "Goal.target.extension",
+        "sliceName" : "target",
+        "short" : "Cross-version extension for Goal.target from R5 for use in FHIR R4",
+        "comment" : "Element `Goal.target` has is mapped to FHIR R4 element `Goal.target`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Goal.target|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -213,7 +256,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
         "sliceName" : "source",
         "short" : "Cross-version extension for Goal.source from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Goal.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Goal.source` is mapped to FHIR R4 element `Goal.expressedBy`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Goal.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Goal.source` has is mapped to FHIR R4 element `Goal.expressedBy`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -257,7 +300,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Goal.csv)
         "sliceName" : "addresses",
         "short" : "Cross-version extension for Goal.addresses from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/Procedure in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Goal.addresses` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Goal.addresses` is mapped to FHIR R4 element `Goal.addresses`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Goal.addresses` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Goal.addresses` has is mapped to FHIR R4 element `Goal.addresses`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

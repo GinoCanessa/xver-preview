@@ -1,4 +1,4 @@
-# Lookup for ProfileBasic - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileBasic - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileBasic
 
@@ -21,6 +21,6 @@ A computable version of the following element information is available in: [Conc
 | [`Basic.identifier`](https://hl7.org/fhir/R5/Basic.html#resource) | [Basic.identifier](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Basic.code`](https://hl7.org/fhir/R5/Basic.html#resource) | [Basic.code](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Basic.subject`](https://hl7.org/fhir/R5/Basic.html#resource) | [Basic.subject](https://hl7.org/fhir/R4/Basic.html#resource) |
-| [`Basic.created`](https://hl7.org/fhir/R5/Basic.html#resource) | [Basic.created](https://hl7.org/fhir/R4/Basic.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Basic.created](StructureDefinition-ext-R5-Basic.created.md) |
+| [`Basic.created`](https://hl7.org/fhir/R5/Basic.html#resource) | [Basic.created](https://hl7.org/fhir/R4/Basic.html#resource)[Extension: ExtensionBasic_Created](StructureDefinition-ext-R5-Basic.created.md) |
 | [`Basic.author`](https://hl7.org/fhir/R5/Basic.html#resource) | [Basic.author](https://hl7.org/fhir/R4/Basic.html#resource)[Basic.author](https://hl7.org/fhir/R4/Basic.html#resource) |
 

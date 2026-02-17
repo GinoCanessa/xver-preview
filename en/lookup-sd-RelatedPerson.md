@@ -1,4 +1,4 @@
-# Lookup for ProfileRelatedPerson - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileRelatedPerson - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileRelatedPerson
 
@@ -29,7 +29,7 @@ A computable version of the following element information is available in: [Conc
 | [`RelatedPerson.address`](https://hl7.org/fhir/R5/RelatedPerson.html#resource) | [RelatedPerson.address](https://hl7.org/fhir/R4/RelatedPerson.html#resource) |
 | [`RelatedPerson.photo`](https://hl7.org/fhir/R5/RelatedPerson.html#resource) | [RelatedPerson.photo](https://hl7.org/fhir/R4/RelatedPerson.html#resource) |
 | [`RelatedPerson.period`](https://hl7.org/fhir/R5/RelatedPerson.html#resource) | [RelatedPerson.period](https://hl7.org/fhir/R4/RelatedPerson.html#resource) |
-| [`RelatedPerson.communication`](https://hl7.org/fhir/R5/RelatedPerson.html#resource) | [RelatedPerson.communication](https://hl7.org/fhir/R4/RelatedPerson.html#resource) |
-| [`RelatedPerson.communication.language`](https://hl7.org/fhir/R5/RelatedPerson.html#resource) | [RelatedPerson.communication.language](https://hl7.org/fhir/R4/RelatedPerson.html#resource) |
-| [`RelatedPerson.communication.preferred`](https://hl7.org/fhir/R5/RelatedPerson.html#resource) | [RelatedPerson.communication.preferred](https://hl7.org/fhir/R4/RelatedPerson.html#resource) |
+| [`RelatedPerson.communication`](https://hl7.org/fhir/R5/RelatedPerson.html#resource) | [RelatedPerson.communication](https://hl7.org/fhir/R4/RelatedPerson.html#resource)[Extension: ExtensionRelatedPerson_Communication](StructureDefinition-ext-R5-RelatedPerson.communication.md) |
+| [`RelatedPerson.communication.language`](https://hl7.org/fhir/R5/RelatedPerson.html#resource) | [RelatedPerson.communication.language](https://hl7.org/fhir/R4/RelatedPerson.html#resource)[Extension: ExtensionRelatedPerson_Communication Slice:language](StructureDefinition-ext-R5-RelatedPerson.communication.md) |
+| [`RelatedPerson.communication.preferred`](https://hl7.org/fhir/R5/RelatedPerson.html#resource) | [RelatedPerson.communication.preferred](https://hl7.org/fhir/R4/RelatedPerson.html#resource)[Extension: ExtensionRelatedPerson_Communication Slice:preferred](StructureDefinition-ext-R5-RelatedPerson.communication.md) |
 

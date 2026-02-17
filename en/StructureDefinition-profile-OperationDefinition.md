@@ -1,4 +1,4 @@
-# ProfileOperationDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileOperationDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileOperationDefinition 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 OperationDefinition content to be represent
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.CapabilityStatement.rest.resource.operation` for use in FHIR R4](StructureDefinition-ext-R5-CapabilityStatement.res.res.operation.md) and [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
+* Refer to this Profile: [Cross-version Extension `R5.CapabilityStatement.rest` for use in FHIR R4](StructureDefinition-ext-R5-CapabilityStatement.rest.md) and [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-OperationDefinition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
   "title" : "Cross-version Profile for R5.OperationDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.24593-06:00",
+  "date" : "2026-02-17T14:42:26.8677482-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
         "path" : "OperationDefinition.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for OperationDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `OperationDefinition.versionAlgorithm[x]` is will have a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "comment" : "Element `OperationDefinition.versionAlgorithm[x]` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
         "path" : "OperationDefinition.extension",
         "sliceName" : "copyright",
         "short" : "Cross-version extension for OperationDefinition.copyright from R5 for use in FHIR R4",
-        "comment" : "Element `OperationDefinition.copyright` is will have a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "comment" : "Element `OperationDefinition.copyright` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
         "path" : "OperationDefinition.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for OperationDefinition.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `OperationDefinition.copyrightLabel` is will have a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "comment" : "Element `OperationDefinition.copyrightLabel` has a context of OperationDefinition based on following the parent source element upwards and mapping to `OperationDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -257,11 +257,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
         }
       },
       {
-        "id" : "OperationDefinition.parameter.extension:scope",
+        "id" : "OperationDefinition.parameter.extension:parameter",
         "path" : "OperationDefinition.parameter.extension",
-        "sliceName" : "scope",
-        "short" : "Cross-version extension for OperationDefinition.parameter.scope from R5 for use in FHIR R4",
-        "comment" : "Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.scope` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "sliceName" : "parameter",
+        "short" : "Cross-version extension for OperationDefinition.parameter from R5 for use in FHIR R4",
+        "comment" : "Element `OperationDefinition.parameter` has is mapped to FHIR R4 element `OperationDefinition.parameter`, but has no comparisons.\nNote available implied context: `OperationDefinition.parameter.part` because `OperationDefinition.parameter.part` is defined as a content reference to `OperationDefinition.parameter`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -273,17 +273,38 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.scope|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter|0.0.1-snapshot-3"
             ]
           }
         ]
       },
       {
-        "id" : "OperationDefinition.parameter.extension:allowedType",
-        "path" : "OperationDefinition.parameter.extension",
-        "sliceName" : "allowedType",
-        "short" : "Cross-version extension for OperationDefinition.parameter.allowedType from R5 for use in FHIR R4",
-        "comment" : "Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.allowedType` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "id" : "OperationDefinition.overload.extension",
+        "path" : "OperationDefinition.overload.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "OperationDefinition.overload.extension:overload",
+        "path" : "OperationDefinition.overload.extension",
+        "sliceName" : "overload",
+        "short" : "Cross-version extension for OperationDefinition.overload from R5 for use in FHIR R4",
+        "comment" : "Element `OperationDefinition.overload` has is mapped to FHIR R4 element `OperationDefinition.overload`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -295,7 +316,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Operation
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.parameter.allowedType|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-OperationDefinition.overload|0.0.1-snapshot-3"
             ]
           }
         ]

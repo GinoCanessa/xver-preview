@@ -1,4 +1,4 @@
-# ConceptMapR5QuestionnaireResponseElementsForR4QuestionnaireResponse - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5QuestionnaireResponseElementsForR4QuestionnaireResponse - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5QuestionnaireResponseElementsForR4QuestionnaireResponse 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1647953-06:00",
+  "date" : "2026-02-17T14:42:27.4968104-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `QuestionnaireResponse` is representable via FHIR R4 Resource `QuestionnaireResponse`.\nElement `QuestionnaireResponse` is mapped to FHIR R4 element `QuestionnaireResponse`."
+              "comment" : "FHIR R5 Resource `QuestionnaireResponse` is representable via FHIR R4 Resource `QuestionnaireResponse`.\nElement `QuestionnaireResponse` has is mapped to FHIR R4 element `QuestionnaireResponse`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.meta` is mapped to FHIR R4 element `QuestionnaireResponse.meta`."
+              "comment" : "Element `QuestionnaireResponse.meta` has is mapped to FHIR R4 element `QuestionnaireResponse.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.implicitRules` is mapped to FHIR R4 element `QuestionnaireResponse.implicitRules`."
+              "comment" : "Element `QuestionnaireResponse.implicitRules` has is mapped to FHIR R4 element `QuestionnaireResponse.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.language` is mapped to FHIR R4 element `QuestionnaireResponse.language`."
+              "comment" : "Element `QuestionnaireResponse.language` has is mapped to FHIR R4 element `QuestionnaireResponse.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.text` is mapped to FHIR R4 element `QuestionnaireResponse.text`."
+              "comment" : "Element `QuestionnaireResponse.text` has is mapped to FHIR R4 element `QuestionnaireResponse.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.contained` is mapped to FHIR R4 element `QuestionnaireResponse.contained`."
+              "comment" : "Element `QuestionnaireResponse.contained` has is mapped to FHIR R4 element `QuestionnaireResponse.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.identifier` is mapped to FHIR R4 element `QuestionnaireResponse.identifier`."
+              "comment" : "Element `QuestionnaireResponse.identifier` has is mapped to FHIR R4 element `QuestionnaireResponse.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.basedOn` is mapped to FHIR R4 element `QuestionnaireResponse.basedOn`."
+              "comment" : "Element `QuestionnaireResponse.basedOn` has is mapped to FHIR R4 element `QuestionnaireResponse.basedOn`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.partOf` is mapped to FHIR R4 element `QuestionnaireResponse.partOf`."
+              "comment" : "Element `QuestionnaireResponse.partOf` has is mapped to FHIR R4 element `QuestionnaireResponse.partOf`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.questionnaire",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.questionnaire` is mapped to FHIR R4 element `QuestionnaireResponse.questionnaire`."
+              "comment" : "Element `QuestionnaireResponse.questionnaire` has is mapped to FHIR R4 element `QuestionnaireResponse.questionnaire`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.status` is mapped to FHIR R4 element `QuestionnaireResponse.status`."
+              "comment" : "Element `QuestionnaireResponse.status` has is mapped to FHIR R4 element `QuestionnaireResponse.status`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.subject` is mapped to FHIR R4 element `QuestionnaireResponse.subject`."
+              "comment" : "Element `QuestionnaireResponse.subject` has is mapped to FHIR R4 element `QuestionnaireResponse.subject`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.encounter` is mapped to FHIR R4 element `QuestionnaireResponse.encounter`."
+              "comment" : "Element `QuestionnaireResponse.encounter` has is mapped to FHIR R4 element `QuestionnaireResponse.encounter`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.authored",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.authored` is mapped to FHIR R4 element `QuestionnaireResponse.authored`."
+              "comment" : "Element `QuestionnaireResponse.authored` has is mapped to FHIR R4 element `QuestionnaireResponse.authored`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.author",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.author` is mapped to FHIR R4 element `QuestionnaireResponse.author`."
+              "comment" : "Element `QuestionnaireResponse.author` has is mapped to FHIR R4 element `QuestionnaireResponse.author`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.source",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `QuestionnaireResponse.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `QuestionnaireResponse.source` is mapped to FHIR R4 element `QuestionnaireResponse.source`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `QuestionnaireResponse.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `QuestionnaireResponse.source` has is mapped to FHIR R4 element `QuestionnaireResponse.source`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.item` is mapped to FHIR R4 element `QuestionnaireResponse.item`."
+              "comment" : "Element `QuestionnaireResponse.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item`, but has no comparisons.\nNote available implied context: `QuestionnaireResponse.item.answer.item` because `QuestionnaireResponse.item.answer.item` is defined as a content reference to `QuestionnaireResponse.item`.\nNote available implied context: `QuestionnaireResponse.item.item` because `QuestionnaireResponse.item.item` is defined as a content reference to `QuestionnaireResponse.item`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item.linkId",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.item.linkId` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.linkId` is mapped to FHIR R4 element `QuestionnaireResponse.item.linkId`."
+              "comment" : "Element `QuestionnaireResponse.item.linkId` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.linkId` has is mapped to FHIR R4 element `QuestionnaireResponse.item.linkId`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item.definition",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.item.definition` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.definition` is mapped to FHIR R4 element `QuestionnaireResponse.item.definition`."
+              "comment" : "Element `QuestionnaireResponse.item.definition` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.definition` has is mapped to FHIR R4 element `QuestionnaireResponse.item.definition`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.item.text` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.text` is mapped to FHIR R4 element `QuestionnaireResponse.item.text`."
+              "comment" : "Element `QuestionnaireResponse.item.text` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.text` has is mapped to FHIR R4 element `QuestionnaireResponse.item.text`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item.answer",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.item.answer` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.answer` is mapped to FHIR R4 element `QuestionnaireResponse.item.answer`."
+              "comment" : "Element `QuestionnaireResponse.item.answer` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item.answer.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.\nElement `QuestionnaireResponse.item.answer.value[x]` is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.value[x]`.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`."
+              "comment" : "Element `QuestionnaireResponse.item.answer.value[x]` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.\nElement `QuestionnaireResponse.item.answer.value[x]` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.value[x]`, but has no comparisons.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item.answer.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.item.answer.item` is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.item`."
+              "comment" : "Element `QuestionnaireResponse.item.answer.item` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.item`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse#QuestionnaireResponse.item.item",
               "equivalence" : "relatedto",
-              "comment" : "Element `QuestionnaireResponse.item.item` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.item` is mapped to FHIR R4 element `QuestionnaireResponse.item.item`."
+              "comment" : "Element `QuestionnaireResponse.item.item` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.item`, but has no comparisons."
             }
           ]
         }

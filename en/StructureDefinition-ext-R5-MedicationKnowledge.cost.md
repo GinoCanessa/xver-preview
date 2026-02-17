@@ -1,4 +1,4 @@
-# ExtensionMedicationKnowledge_Cost - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionMedicationKnowledge_Cost - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.MedicationKnowledge.cost` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `MedicationKnowledge
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.MedicationKnowledge for use in FHIR R4](StructureDefinition-profile-MedicationKnowledge.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-MedicationKnowledge.cost)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
   "title" : "Cross-version Extension `R5.MedicationKnowledge.cost` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicationKnowledge.cost` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicationKnowledge.cost` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicationKnowledge.cost` 0..* `BackboneElement`\n*  R4B: `MedicationKnowledge.cost` 0..* `BackboneElement`\n*  R4: `MedicationKnowledge.cost` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicationKnowledge.cost` is mapped to FHIR R4 element `MedicationKnowledge.cost`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicationKnowledge.cost` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicationKnowledge.cost` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicationKnowledge.cost` 0..* `BackboneElement`\n*  R4B: `MedicationKnowledge.cost` 0..* `BackboneElement`\n*  R4: `MedicationKnowledge.cost` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicationKnowledge.cost` has is mapped to FHIR R4 element `MedicationKnowledge.cost`, but has no comparisons.\nNote available implied context: `MedicationKnowledge.packaging.cost` because `MedicationKnowledge.packaging.cost` is defined as a content reference to `MedicationKnowledge.cost`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "MedicationKnowledge.cost"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "effectiveDate",
         "short" : "The date range for which the cost is effective",
         "definition" : "The date range for which the cost information of the medication is effective.",
-        "requirements" : "Element `MedicationKnowledge.cost.effectiveDate` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).\nElement `MedicationKnowledge.cost.effectiveDate` is will have a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
+        "requirements" : "Element `MedicationKnowledge.cost.effectiveDate` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.\nElement `MedicationKnowledge.cost.effectiveDate` has a context of MedicationKnowledge.cost based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "type",
         "short" : "The category of the cost information",
         "definition" : "The category of the cost information.  For example, manufacturers' cost, patient cost, claim reimbursement cost, actual acquisition cost.",
-        "requirements" : "Element `MedicationKnowledge.cost.type` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).\nElement `MedicationKnowledge.cost.type` is mapped to FHIR R4 element `MedicationKnowledge.cost.type`.",
+        "requirements" : "Element `MedicationKnowledge.cost.type` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.\nElement `MedicationKnowledge.cost.type` has is mapped to FHIR R4 element `MedicationKnowledge.cost.type`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "source",
         "short" : "The source or owner for the price information",
         "definition" : "The source or owner that assigns the price to the medication.",
-        "requirements" : "Element `MedicationKnowledge.cost.source` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).\nElement `MedicationKnowledge.cost.source` is mapped to FHIR R4 element `MedicationKnowledge.cost.source`.",
+        "requirements" : "Element `MedicationKnowledge.cost.source` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.\nElement `MedicationKnowledge.cost.source` has is mapped to FHIR R4 element `MedicationKnowledge.cost.source`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -319,7 +319,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "cost",
         "short" : "The price or category of the cost of the medication",
         "definition" : "The price or representation of the cost (for example, Band A, Band B or $, $$) of the medication.",
-        "requirements" : "Element `MedicationKnowledge.cost.cost[x]` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a component extension (e.g., if this element is used as a content reference).\nElement `MedicationKnowledge.cost.cost[x]` is mapped to FHIR R4 element `MedicationKnowledge.cost.cost`.",
+        "requirements" : "Element `MedicationKnowledge.cost.cost[x]` is part of an existing definition because parent element `MedicationKnowledge.cost` requires a cross-version extension.\nElement `MedicationKnowledge.cost.cost[x]` has is mapped to FHIR R4 element `MedicationKnowledge.cost.cost`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {

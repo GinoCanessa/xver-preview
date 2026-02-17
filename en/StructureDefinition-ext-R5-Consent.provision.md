@@ -1,4 +1,4 @@
-# ExtensionConsent_Provision - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionConsent_Provision - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Consent.provision` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Consent.provision` 
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Consent for use in FHIR R4](StructureDefinition-profile-Consent.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Consent.provision)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
   "title" : "Cross-version Extension `R5.Consent.provision` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Consent.provision` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Consent.provision` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Consent.provision` 0..* `BackboneElement`\n*  R4B: `Consent.provision` 0..1 `BackboneElement`\n*  R4: `Consent.provision` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Consent.provision` is mapped to FHIR R4 element `Consent.provision`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Consent.provision` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Consent.provision` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Consent.provision` 0..* `BackboneElement`\n*  R4B: `Consent.provision` 0..1 `BackboneElement`\n*  R4: `Consent.provision` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Consent.provision` has is mapped to FHIR R4 element `Consent.provision`, but has no comparisons.\nNote available implied context: `Consent.provision.provision` because `Consent.provision.provision` is defined as a content reference to `Consent.provision`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "Consent.provision"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "short" : "Timeframe for this provision",
         "definition" : "Timeframe for this provision.",
         "comment" : "This is the bound effective time of the consent and should be in the base provision in the Consent resource.",
-        "requirements" : "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.period` is mapped to FHIR R4 element `Consent.provision.period`.",
+        "requirements" : "Element `Consent.provision.period` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.period` has is mapped to FHIR R4 element `Consent.provision.period`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -231,7 +231,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "sliceName" : "actor",
         "short" : "Who|what controlled by this provision (or group, by role)",
         "definition" : "Who or what is controlled by this provision. Use group to identify a set of actors by some property they share (e.g. 'admitting officers').",
-        "requirements" : "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.actor` is mapped to FHIR R4 element `Consent.provision.actor`.",
+        "requirements" : "Element `Consent.provision.actor` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.actor` has is mapped to FHIR R4 element `Consent.provision.actor`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -267,7 +267,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "sliceName" : "role",
         "short" : "How the actor is involved",
         "definition" : "How the individual is involved in the resources content that is described in the exception.",
-        "requirements" : "Element `Consent.provision.actor.role` is mapped to FHIR R4 element `Consent.provision.actor.role`.",
+        "requirements" : "Element `Consent.provision.actor.role` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.role` has is mapped to FHIR R4 element `Consent.provision.actor.role`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -317,7 +317,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "sliceName" : "reference",
         "short" : "Resource for the actor (or group, by role)",
         "definition" : "The resource that identifies the actor. To identify actors by type, use group to identify a set of actors by some property they share (e.g. 'admitting officers').",
-        "requirements" : "Element `Consent.provision.actor.reference` is mapped to FHIR R4 element `Consent.provision.actor.reference`.",
+        "requirements" : "Element `Consent.provision.actor.reference` is part of an existing definition because parent element `Consent.provision.actor` requires a cross-version extension.\nElement `Consent.provision.actor.reference` has is mapped to FHIR R4 element `Consent.provision.actor.reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -404,7 +404,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "short" : "Actions controlled by this provision",
         "definition" : "Actions controlled by this provision.",
         "comment" : "Note that this is the direct action (not the grounds for the action covered in the purpose element). At present, the only action in the understood and tested scope of this resource is 'read'.",
-        "requirements" : "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.action` is mapped to FHIR R4 element `Consent.provision.action`.",
+        "requirements" : "Element `Consent.provision.action` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.action` has is mapped to FHIR R4 element `Consent.provision.action`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -456,7 +456,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "short" : "Security Labels that define affected resources",
         "definition" : "A security label, comprised of 0..* security label fields (Privacy tags), which define which resources are controlled by this exception.",
         "comment" : "If the consent specifies a security label of \"R\" then it applies to all resources that are labeled \"R\" or lower. E.g. for Confidentiality, it's a high water mark. For other kinds of security labels, subsumption logic applies. When the purpose of use tag is on the data, access request purpose of use shall not conflict.",
-        "requirements" : "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.securityLabel` is mapped to FHIR R4 element `Consent.provision.securityLabel`.",
+        "requirements" : "Element `Consent.provision.securityLabel` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.securityLabel` has is mapped to FHIR R4 element `Consent.provision.securityLabel`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -503,7 +503,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "short" : "Context of activities covered by this provision",
         "definition" : "The context of the activities a user is taking - why the user is accessing the data - that are controlled by this provision.",
         "comment" : "When the purpose of use tag is on the data, access request purpose of use shall not conflict.",
-        "requirements" : "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.purpose` is mapped to FHIR R4 element `Consent.provision.purpose`.",
+        "requirements" : "Element `Consent.provision.purpose` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.purpose` has is mapped to FHIR R4 element `Consent.provision.purpose`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -555,7 +555,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "short" : "e.g. Resource Type, Profile, CDA, etc",
         "definition" : "The documentType(s) covered by this provision. The type can be a CDA document, or some other type that indicates what sort of information the consent relates to.",
         "comment" : "Multiple types are or'ed together. The intention of the documentType element is that the codes refer to document types defined in a standard somewhere.",
-        "requirements" : "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.documentType` is mapped to FHIR R4 element `Consent.provision.class`.",
+        "requirements" : "Element `Consent.provision.documentType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.documentType` has is mapped to FHIR R4 element `Consent.provision.class`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -607,7 +607,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "short" : "e.g. Resource Type, Profile, etc",
         "definition" : "The resourceType(s) covered by this provision. The type can be a FHIR resource type or a profile on a type that indicates what information the consent relates to.",
         "comment" : "Multiple types are or'ed together. The intention of the resourceType element is that the codes refer to profiles or document types defined in a standard or an implementation guide somewhere.",
-        "requirements" : "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.resourceType` is mapped to FHIR R4 element `Consent.provision.class`.",
+        "requirements" : "Element `Consent.provision.resourceType` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.resourceType` has is mapped to FHIR R4 element `Consent.provision.class`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -658,7 +658,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "sliceName" : "code",
         "short" : "e.g. LOINC or SNOMED CT code, etc. in the content",
         "definition" : "If this code is found in an instance, then the provision applies.",
-        "requirements" : "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.code` is mapped to FHIR R4 element `Consent.provision.code`.",
+        "requirements" : "Element `Consent.provision.code` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.code` has is mapped to FHIR R4 element `Consent.provision.code`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -709,7 +709,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "short" : "Timeframe for data controlled by this provision",
         "definition" : "Clinical or Operational Relevant period of time that bounds the data controlled by this provision.",
         "comment" : "This has a different sense to the Consent.period - that is when the consent agreement holds. This is the time period of the data that is controlled by the agreement.",
-        "requirements" : "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.dataPeriod` is mapped to FHIR R4 element `Consent.provision.dataPeriod`.",
+        "requirements" : "Element `Consent.provision.dataPeriod` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.dataPeriod` has is mapped to FHIR R4 element `Consent.provision.dataPeriod`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -755,7 +755,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "sliceName" : "data",
         "short" : "Data controlled by this provision",
         "definition" : "The resources controlled by this provision if specific resources are referenced.",
-        "requirements" : "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.data` is mapped to FHIR R4 element `Consent.provision.data`.",
+        "requirements" : "Element `Consent.provision.data` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.data` has is mapped to FHIR R4 element `Consent.provision.data`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -791,7 +791,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "sliceName" : "meaning",
         "short" : "instance | related | dependents | authoredby",
         "definition" : "How the resource reference is interpreted when testing consent restrictions.",
-        "requirements" : "Element `Consent.provision.data.meaning` is mapped to FHIR R4 element `Consent.provision.data.meaning`.",
+        "requirements" : "Element `Consent.provision.data.meaning` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.meaning` has is mapped to FHIR R4 element `Consent.provision.data.meaning`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -841,7 +841,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "sliceName" : "reference",
         "short" : "The actual data reference",
         "definition" : "A reference to a specific resource that defines which resources are covered by this consent.",
-        "requirements" : "Element `Consent.provision.data.reference` is mapped to FHIR R4 element `Consent.provision.data.reference`.",
+        "requirements" : "Element `Consent.provision.data.reference` is part of an existing definition because parent element `Consent.provision.data` requires a cross-version extension.\nElement `Consent.provision.data.reference` has is mapped to FHIR R4 element `Consent.provision.data.reference`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -914,7 +914,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "short" : "A computable expression of the consent",
         "definition" : "A computable (FHIRPath or other) definition of what is controlled by this consent.",
         "comment" : "Constraining the expression type for a specific implementation via profile is recommended",
-        "requirements" : "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.expression` is will have a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`.",
+        "requirements" : "Element `Consent.provision.expression` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.expression` has a context of Consent.provision based on following the parent source element upwards and mapping to `Consent`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -960,7 +960,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Consent.pr
         "sliceName" : "provision",
         "short" : "Nested Exception Provisions",
         "definition" : "Provisions which provide exceptions to the base provision or subprovisions.",
-        "requirements" : "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a component extension (e.g., if this element is used as a content reference).\nElement `Consent.provision.provision` is mapped to FHIR R4 element `Consent.provision.provision`.",
+        "requirements" : "Element `Consent.provision.provision` is part of an existing definition because parent element `Consent.provision` requires a cross-version extension.\nElement `Consent.provision.provision` has is mapped to FHIR R4 element `Consent.provision.provision`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

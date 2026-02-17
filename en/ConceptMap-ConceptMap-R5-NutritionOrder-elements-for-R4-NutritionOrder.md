@@ -1,4 +1,4 @@
-# ConceptMapR5NutritionOrderElementsForR4NutritionOrder - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5NutritionOrderElementsForR4NutritionOrder - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5NutritionOrderElementsForR4NutritionOrder 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.06965-06:00",
+  "date" : "2026-02-17T14:42:27.4137327-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `NutritionOrder` is representable via FHIR R4 Resource `NutritionOrder`.\nElement `NutritionOrder` is mapped to FHIR R4 element `NutritionOrder`."
+              "comment" : "FHIR R5 Resource `NutritionOrder` is representable via FHIR R4 Resource `NutritionOrder`.\nElement `NutritionOrder` has is mapped to FHIR R4 element `NutritionOrder`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.meta` is mapped to FHIR R4 element `NutritionOrder.meta`."
+              "comment" : "Element `NutritionOrder.meta` has is mapped to FHIR R4 element `NutritionOrder.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.implicitRules` is mapped to FHIR R4 element `NutritionOrder.implicitRules`."
+              "comment" : "Element `NutritionOrder.implicitRules` has is mapped to FHIR R4 element `NutritionOrder.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.language` is mapped to FHIR R4 element `NutritionOrder.language`."
+              "comment" : "Element `NutritionOrder.language` has is mapped to FHIR R4 element `NutritionOrder.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.text` is mapped to FHIR R4 element `NutritionOrder.text`."
+              "comment" : "Element `NutritionOrder.text` has is mapped to FHIR R4 element `NutritionOrder.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.contained` is mapped to FHIR R4 element `NutritionOrder.contained`."
+              "comment" : "Element `NutritionOrder.contained` has is mapped to FHIR R4 element `NutritionOrder.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.identifier` is mapped to FHIR R4 element `NutritionOrder.identifier`."
+              "comment" : "Element `NutritionOrder.identifier` has is mapped to FHIR R4 element `NutritionOrder.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.instantiatesCanonical",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.instantiatesCanonical` is mapped to FHIR R4 element `NutritionOrder.instantiatesCanonical`."
+              "comment" : "Element `NutritionOrder.instantiatesCanonical` has is mapped to FHIR R4 element `NutritionOrder.instantiatesCanonical`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.instantiatesUri",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.instantiatesUri` is mapped to FHIR R4 element `NutritionOrder.instantiatesUri`."
+              "comment" : "Element `NutritionOrder.instantiatesUri` has is mapped to FHIR R4 element `NutritionOrder.instantiatesUri`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.instantiates",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.instantiates` is mapped to FHIR R4 element `NutritionOrder.instantiates`."
+              "comment" : "Element `NutritionOrder.instantiates` has is mapped to FHIR R4 element `NutritionOrder.instantiates`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionOrder.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionOrder.basedOn` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionOrder.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionOrder.basedOn` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.groupIdentifier` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.groupIdentifier` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.status` is mapped to FHIR R4 element `NutritionOrder.status`."
+              "comment" : "Element `NutritionOrder.status` has is mapped to FHIR R4 element `NutritionOrder.status`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.intent",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.intent` is mapped to FHIR R4 element `NutritionOrder.intent`."
+              "comment" : "Element `NutritionOrder.intent` has is mapped to FHIR R4 element `NutritionOrder.intent`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.priority` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.priority` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionOrder.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionOrder.subject` is mapped to FHIR R4 element `NutritionOrder.patient`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionOrder.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionOrder.subject` has is mapped to FHIR R4 element `NutritionOrder.patient`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.encounter` is mapped to FHIR R4 element `NutritionOrder.encounter`."
+              "comment" : "Element `NutritionOrder.encounter` has is mapped to FHIR R4 element `NutritionOrder.encounter`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionOrder.supportingInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionOrder.supportingInformation` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `NutritionOrder.supportingInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `NutritionOrder.supportingInformation` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.dateTime",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.dateTime` is mapped to FHIR R4 element `NutritionOrder.dateTime`."
+              "comment" : "Element `NutritionOrder.dateTime` has is mapped to FHIR R4 element `NutritionOrder.dateTime`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.orderer",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.orderer` is mapped to FHIR R4 element `NutritionOrder.orderer`."
+              "comment" : "Element `NutritionOrder.orderer` has is mapped to FHIR R4 element `NutritionOrder.orderer`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.performer` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.performer` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.allergyIntolerance",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.allergyIntolerance` is mapped to FHIR R4 element `NutritionOrder.allergyIntolerance`."
+              "comment" : "Element `NutritionOrder.allergyIntolerance` has is mapped to FHIR R4 element `NutritionOrder.allergyIntolerance`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.foodPreferenceModifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.foodPreferenceModifier` is mapped to FHIR R4 element `NutritionOrder.foodPreferenceModifier`."
+              "comment" : "Element `NutritionOrder.foodPreferenceModifier` has is mapped to FHIR R4 element `NutritionOrder.foodPreferenceModifier`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.excludeFoodModifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.excludeFoodModifier` is mapped to FHIR R4 element `NutritionOrder.excludeFoodModifier`."
+              "comment" : "Element `NutritionOrder.excludeFoodModifier` has is mapped to FHIR R4 element `NutritionOrder.excludeFoodModifier`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.outsideFoodAllowed` is will have a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.outsideFoodAllowed` has a context of NutritionOrder based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet` is mapped to FHIR R4 element `NutritionOrder.oralDiet`."
+              "comment" : "Element `NutritionOrder.oralDiet` has is mapped to FHIR R4 element `NutritionOrder.oralDiet`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.type` is mapped to FHIR R4 element `NutritionOrder.oralDiet.type`."
+              "comment" : "Element `NutritionOrder.oralDiet.type` is part of an existing definition because parent element `NutritionOrder.oralDiet` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.type` has is mapped to FHIR R4 element `NutritionOrder.oralDiet.type`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.schedule` is mapped to FHIR R4 element `NutritionOrder.oralDiet.schedule`."
+              "comment" : "Element `NutritionOrder.oralDiet.schedule` is part of an existing definition because parent element `NutritionOrder.oralDiet` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.schedule` has is mapped to FHIR R4 element `NutritionOrder.oralDiet.schedule`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.schedule.timing` is will have a context of NutritionOrder.oralDiet.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.oralDiet.schedule.timing` is part of an existing definition because parent element `NutritionOrder.oralDiet.schedule` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.schedule.timing` has a context of NutritionOrder.oralDiet.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.schedule.asNeeded` is will have a context of NutritionOrder.oralDiet.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.oralDiet.schedule.asNeeded` is part of an existing definition because parent element `NutritionOrder.oralDiet.schedule` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.schedule.asNeeded` has a context of NutritionOrder.oralDiet.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.schedule.asNeededFor` is will have a context of NutritionOrder.oralDiet.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.oralDiet.schedule.asNeededFor` is part of an existing definition because parent element `NutritionOrder.oralDiet.schedule` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.schedule.asNeededFor` has a context of NutritionOrder.oralDiet.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.nutrient",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.nutrient` is mapped to FHIR R4 element `NutritionOrder.oralDiet.nutrient`."
+              "comment" : "Element `NutritionOrder.oralDiet.nutrient` is part of an existing definition because parent element `NutritionOrder.oralDiet` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.nutrient` has is mapped to FHIR R4 element `NutritionOrder.oralDiet.nutrient`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.nutrient.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.nutrient.modifier` is mapped to FHIR R4 element `NutritionOrder.oralDiet.nutrient.modifier`."
+              "comment" : "Element `NutritionOrder.oralDiet.nutrient.modifier` is part of an existing definition because parent element `NutritionOrder.oralDiet.nutrient` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.nutrient.modifier` has is mapped to FHIR R4 element `NutritionOrder.oralDiet.nutrient.modifier`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.nutrient.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.nutrient.amount` is mapped to FHIR R4 element `NutritionOrder.oralDiet.nutrient.amount`."
+              "comment" : "Element `NutritionOrder.oralDiet.nutrient.amount` is part of an existing definition because parent element `NutritionOrder.oralDiet.nutrient` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.nutrient.amount` has is mapped to FHIR R4 element `NutritionOrder.oralDiet.nutrient.amount`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.texture",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.texture` is mapped to FHIR R4 element `NutritionOrder.oralDiet.texture`."
+              "comment" : "Element `NutritionOrder.oralDiet.texture` is part of an existing definition because parent element `NutritionOrder.oralDiet` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.texture` has is mapped to FHIR R4 element `NutritionOrder.oralDiet.texture`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.texture.modifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.texture.modifier` is mapped to FHIR R4 element `NutritionOrder.oralDiet.texture.modifier`."
+              "comment" : "Element `NutritionOrder.oralDiet.texture.modifier` is part of an existing definition because parent element `NutritionOrder.oralDiet.texture` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.texture.modifier` has is mapped to FHIR R4 element `NutritionOrder.oralDiet.texture.modifier`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.texture.foodType",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.texture.foodType` is mapped to FHIR R4 element `NutritionOrder.oralDiet.texture.foodType`."
+              "comment" : "Element `NutritionOrder.oralDiet.texture.foodType` is part of an existing definition because parent element `NutritionOrder.oralDiet.texture` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.texture.foodType` has is mapped to FHIR R4 element `NutritionOrder.oralDiet.texture.foodType`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.fluidConsistencyType",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.fluidConsistencyType` is mapped to FHIR R4 element `NutritionOrder.oralDiet.fluidConsistencyType`."
+              "comment" : "Element `NutritionOrder.oralDiet.fluidConsistencyType` is part of an existing definition because parent element `NutritionOrder.oralDiet` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.fluidConsistencyType` has is mapped to FHIR R4 element `NutritionOrder.oralDiet.fluidConsistencyType`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.oralDiet.instruction",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.oralDiet.instruction` is mapped to FHIR R4 element `NutritionOrder.oralDiet.instruction`."
+              "comment" : "Element `NutritionOrder.oralDiet.instruction` is part of an existing definition because parent element `NutritionOrder.oralDiet` requires a cross-version extension.\nElement `NutritionOrder.oralDiet.instruction` has is mapped to FHIR R4 element `NutritionOrder.oralDiet.instruction`, but has no comparisons."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.supplement` is mapped to FHIR R4 element `NutritionOrder.supplement`."
+              "comment" : "Element `NutritionOrder.supplement` has is mapped to FHIR R4 element `NutritionOrder.supplement`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.supplement.type` is mapped to FHIR R4 element `NutritionOrder.supplement.type`."
+              "comment" : "Element `NutritionOrder.supplement.type` is part of an existing definition because parent element `NutritionOrder.supplement` requires a cross-version extension.\nElement `NutritionOrder.supplement.type` has is mapped to FHIR R4 element `NutritionOrder.supplement.type`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.productName",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.supplement.productName` is mapped to FHIR R4 element `NutritionOrder.supplement.productName`."
+              "comment" : "Element `NutritionOrder.supplement.productName` is part of an existing definition because parent element `NutritionOrder.supplement` requires a cross-version extension.\nElement `NutritionOrder.supplement.productName` has is mapped to FHIR R4 element `NutritionOrder.supplement.productName`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.supplement.schedule` is mapped to FHIR R4 element `NutritionOrder.supplement.schedule`."
+              "comment" : "Element `NutritionOrder.supplement.schedule` is part of an existing definition because parent element `NutritionOrder.supplement` requires a cross-version extension.\nElement `NutritionOrder.supplement.schedule` has is mapped to FHIR R4 element `NutritionOrder.supplement.schedule`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.supplement.schedule.timing` is will have a context of NutritionOrder.supplement.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.supplement.schedule.timing` is part of an existing definition because parent element `NutritionOrder.supplement.schedule` requires a cross-version extension.\nElement `NutritionOrder.supplement.schedule.timing` has a context of NutritionOrder.supplement.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.supplement.schedule.asNeeded` is will have a context of NutritionOrder.supplement.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.supplement.schedule.asNeeded` is part of an existing definition because parent element `NutritionOrder.supplement.schedule` requires a cross-version extension.\nElement `NutritionOrder.supplement.schedule.asNeeded` has a context of NutritionOrder.supplement.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.supplement.schedule.asNeededFor` is will have a context of NutritionOrder.supplement.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.supplement.schedule.asNeededFor` is part of an existing definition because parent element `NutritionOrder.supplement.schedule` requires a cross-version extension.\nElement `NutritionOrder.supplement.schedule.asNeededFor` has a context of NutritionOrder.supplement.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.supplement.quantity` is mapped to FHIR R4 element `NutritionOrder.supplement.quantity`."
+              "comment" : "Element `NutritionOrder.supplement.quantity` is part of an existing definition because parent element `NutritionOrder.supplement` requires a cross-version extension.\nElement `NutritionOrder.supplement.quantity` has is mapped to FHIR R4 element `NutritionOrder.supplement.quantity`, but has no comparisons."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.supplement.instruction",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.supplement.instruction` is mapped to FHIR R4 element `NutritionOrder.supplement.instruction`."
+              "comment" : "Element `NutritionOrder.supplement.instruction` is part of an existing definition because parent element `NutritionOrder.supplement` requires a cross-version extension.\nElement `NutritionOrder.supplement.instruction` has is mapped to FHIR R4 element `NutritionOrder.supplement.instruction`, but has no comparisons."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula` is mapped to FHIR R4 element `NutritionOrder.enteralFormula`."
+              "comment" : "Element `NutritionOrder.enteralFormula` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula`, but has no comparisons."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.baseFormulaType",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.baseFormulaType` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.baseFormulaType`."
+              "comment" : "Element `NutritionOrder.enteralFormula.baseFormulaType` is part of an existing definition because parent element `NutritionOrder.enteralFormula` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.baseFormulaType` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.baseFormulaType`, but has no comparisons."
             }
           ]
         },
@@ -635,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.baseFormulaProductName",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.baseFormulaProductName` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.baseFormulaProductName`."
+              "comment" : "Element `NutritionOrder.enteralFormula.baseFormulaProductName` is part of an existing definition because parent element `NutritionOrder.enteralFormula` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.baseFormulaProductName` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.baseFormulaProductName`, but has no comparisons."
             }
           ]
         },
@@ -646,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.deliveryDevice` is will have a context of NutritionOrder.enteralFormula based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.enteralFormula.deliveryDevice` is part of an existing definition because parent element `NutritionOrder.enteralFormula` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.deliveryDevice` has a context of NutritionOrder.enteralFormula based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -657,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.additive` is mapped to FHIR R4 element `NutritionOrder.enteralFormula`."
+              "comment" : "Element `NutritionOrder.enteralFormula.additive` is part of an existing definition because parent element `NutritionOrder.enteralFormula` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.additive` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula`, but has no comparisons."
             }
           ]
         },
@@ -668,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.additiveType",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.additive.type` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.additiveType`."
+              "comment" : "Element `NutritionOrder.enteralFormula.additive.type` is part of an existing definition because parent element `NutritionOrder.enteralFormula.additive` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.additive.type` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.additiveType`, but has no comparisons."
             }
           ]
         },
@@ -679,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.additiveProductName",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.additive.productName` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.additiveProductName`."
+              "comment" : "Element `NutritionOrder.enteralFormula.additive.productName` is part of an existing definition because parent element `NutritionOrder.enteralFormula.additive` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.additive.productName` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.additiveProductName`, but has no comparisons."
             }
           ]
         },
@@ -690,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.additive.quantity` is will have a context of NutritionOrder.enteralFormula based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.enteralFormula.additive.quantity` is part of an existing definition because parent element `NutritionOrder.enteralFormula.additive` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.additive.quantity` has a context of NutritionOrder.enteralFormula based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -701,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.caloricDensity",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.caloricDensity` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.caloricDensity`."
+              "comment" : "Element `NutritionOrder.enteralFormula.caloricDensity` is part of an existing definition because parent element `NutritionOrder.enteralFormula` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.caloricDensity` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.caloricDensity`, but has no comparisons."
             }
           ]
         },
@@ -712,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.routeofAdministration",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.routeOfAdministration` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.routeofAdministration`."
+              "comment" : "Element `NutritionOrder.enteralFormula.routeOfAdministration` is part of an existing definition because parent element `NutritionOrder.enteralFormula` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.routeOfAdministration` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.routeofAdministration`, but has no comparisons."
             }
           ]
         },
@@ -723,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.administration` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administration`."
+              "comment" : "Element `NutritionOrder.enteralFormula.administration` is part of an existing definition because parent element `NutritionOrder.enteralFormula` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.administration` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administration`, but has no comparisons."
             }
           ]
         },
@@ -734,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.administration.schedule` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administration.schedule`."
+              "comment" : "Element `NutritionOrder.enteralFormula.administration.schedule` is part of an existing definition because parent element `NutritionOrder.enteralFormula.administration` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.administration.schedule` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administration.schedule`, but has no comparisons."
             }
           ]
         },
@@ -745,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.administration.schedule.timing` is will have a context of NutritionOrder.enteralFormula.administration.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.enteralFormula.administration.schedule.timing` is part of an existing definition because parent element `NutritionOrder.enteralFormula.administration.schedule` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.administration.schedule.timing` has a context of NutritionOrder.enteralFormula.administration.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -756,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.administration.schedule.asNeeded` is will have a context of NutritionOrder.enteralFormula.administration.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.enteralFormula.administration.schedule.asNeeded` is part of an existing definition because parent element `NutritionOrder.enteralFormula.administration.schedule` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.administration.schedule.asNeeded` has a context of NutritionOrder.enteralFormula.administration.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -767,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.administration.schedule.asNeededFor` is will have a context of NutritionOrder.enteralFormula.administration.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
+              "comment" : "Element `NutritionOrder.enteralFormula.administration.schedule.asNeededFor` is part of an existing definition because parent element `NutritionOrder.enteralFormula.administration.schedule` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.administration.schedule.asNeededFor` has a context of NutritionOrder.enteralFormula.administration.schedule based on following the parent source element upwards and mapping to `NutritionOrder`."
             }
           ]
         },
@@ -778,7 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.administration.quantity` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administration.quantity`."
+              "comment" : "Element `NutritionOrder.enteralFormula.administration.quantity` is part of an existing definition because parent element `NutritionOrder.enteralFormula.administration` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.administration.quantity` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administration.quantity`, but has no comparisons."
             }
           ]
         },
@@ -789,7 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administration.rate[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `NutritionOrder.enteralFormula.administration.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `NutritionOrder.enteralFormula.administration`.\nElement `NutritionOrder.enteralFormula.administration.rate[x]` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administration.rate[x]`.\nNote that the target element context `NutritionOrder.enteralFormula.administration.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `NutritionOrder.enteralFormula.administration`."
+              "comment" : "Element `NutritionOrder.enteralFormula.administration.rate[x]` is part of an existing definition because parent element `NutritionOrder.enteralFormula.administration` requires a cross-version extension.\nNote that the target element context `NutritionOrder.enteralFormula.administration.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `NutritionOrder.enteralFormula.administration`.\nElement `NutritionOrder.enteralFormula.administration.rate[x]` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administration.rate[x]`, but has no comparisons.\nNote that the target element context `NutritionOrder.enteralFormula.administration.rate[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `NutritionOrder.enteralFormula.administration`."
             }
           ]
         },
@@ -800,7 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.maxVolumeToDeliver",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.maxVolumeToDeliver` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.maxVolumeToDeliver`."
+              "comment" : "Element `NutritionOrder.enteralFormula.maxVolumeToDeliver` is part of an existing definition because parent element `NutritionOrder.enteralFormula` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.maxVolumeToDeliver` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.maxVolumeToDeliver`, but has no comparisons."
             }
           ]
         },
@@ -811,7 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.enteralFormula.administrationInstruction",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.enteralFormula.administrationInstruction` is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administrationInstruction`."
+              "comment" : "Element `NutritionOrder.enteralFormula.administrationInstruction` is part of an existing definition because parent element `NutritionOrder.enteralFormula` requires a cross-version extension.\nElement `NutritionOrder.enteralFormula.administrationInstruction` has is mapped to FHIR R4 element `NutritionOrder.enteralFormula.administrationInstruction`, but has no comparisons."
             }
           ]
         },
@@ -822,7 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/NutritionOrder#NutritionOrder.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `NutritionOrder.note` is mapped to FHIR R4 element `NutritionOrder.note`."
+              "comment" : "Element `NutritionOrder.note` has is mapped to FHIR R4 element `NutritionOrder.note`, but has no comparisons."
             }
           ]
         }

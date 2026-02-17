@@ -1,4 +1,4 @@
-# ConceptMapR5DeviceUsageElementsForR4DeviceUseStatement - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5DeviceUsageElementsForR4DeviceUseStatement - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5DeviceUsageElementsForR4DeviceUseStatement 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.7790944-06:00",
+  "date" : "2026-02-17T14:42:27.1841953-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DeviceUsage` is representable via FHIR R4 Resource `DeviceUseStatement`.\nElement `DeviceUsage` is mapped to FHIR R4 element `DeviceUseStatement`."
+              "comment" : "FHIR R5 Resource `DeviceUsage` is representable via FHIR R4 Resource `DeviceUseStatement`.\nElement `DeviceUsage` has is mapped to FHIR R4 element `DeviceUseStatement`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.meta` is mapped to FHIR R4 element `DeviceUseStatement.meta`."
+              "comment" : "Element `DeviceUsage.meta` has is mapped to FHIR R4 element `DeviceUseStatement.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.implicitRules` is mapped to FHIR R4 element `DeviceUseStatement.implicitRules`."
+              "comment" : "Element `DeviceUsage.implicitRules` has is mapped to FHIR R4 element `DeviceUseStatement.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.language` is mapped to FHIR R4 element `DeviceUseStatement.language`."
+              "comment" : "Element `DeviceUsage.language` has is mapped to FHIR R4 element `DeviceUseStatement.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.text` is mapped to FHIR R4 element `DeviceUseStatement.text`."
+              "comment" : "Element `DeviceUsage.text` has is mapped to FHIR R4 element `DeviceUseStatement.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.contained` is mapped to FHIR R4 element `DeviceUseStatement.contained`."
+              "comment" : "Element `DeviceUsage.contained` has is mapped to FHIR R4 element `DeviceUseStatement.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.identifier` is mapped to FHIR R4 element `DeviceUseStatement.identifier`."
+              "comment" : "Element `DeviceUsage.identifier` has is mapped to FHIR R4 element `DeviceUseStatement.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.basedOn` is mapped to FHIR R4 element `DeviceUseStatement.basedOn`."
+              "comment" : "Element `DeviceUsage.basedOn` has is mapped to FHIR R4 element `DeviceUseStatement.basedOn`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.status",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DeviceUseStatement.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DeviceUsage.status` is mapped to FHIR R4 element `DeviceUseStatement.status`."
+              "comment" : "Note that the target element context `DeviceUseStatement.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DeviceUsage.status` has is mapped to FHIR R4 element `DeviceUseStatement.status`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.category` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
+              "comment" : "Element `DeviceUsage.category` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.patient` is mapped to FHIR R4 element `DeviceUseStatement.subject`."
+              "comment" : "Element `DeviceUsage.patient` has is mapped to FHIR R4 element `DeviceUseStatement.subject`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.derivedFrom",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.derivedFrom` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.derivedFrom` is mapped to FHIR R4 element `DeviceUseStatement.derivedFrom`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.derivedFrom` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.derivedFrom` has is mapped to FHIR R4 element `DeviceUseStatement.derivedFrom`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.context` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.context` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.context` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.context` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.timing[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DeviceUseStatement.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceUseStatement`.\nElement `DeviceUsage.timing[x]` is mapped to FHIR R4 element `DeviceUseStatement.timing[x]`.\nNote that the target element context `DeviceUseStatement.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceUseStatement`."
+              "comment" : "Note that the target element context `DeviceUseStatement.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceUseStatement`.\nElement `DeviceUsage.timing[x]` has is mapped to FHIR R4 element `DeviceUseStatement.timing[x]`, but has no comparisons.\nNote that the target element context `DeviceUseStatement.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DeviceUseStatement`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.recordedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.dateAsserted` is mapped to FHIR R4 element `DeviceUseStatement.recordedOn`."
+              "comment" : "Element `DeviceUsage.dateAsserted` has is mapped to FHIR R4 element `DeviceUseStatement.recordedOn`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.usageStatus` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
+              "comment" : "Element `DeviceUsage.usageStatus` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.usageReason` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
+              "comment" : "Element `DeviceUsage.usageReason` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.adherence` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
+              "comment" : "Element `DeviceUsage.adherence` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.adherence.code` is part of an existing definition because parent element `DeviceUsage.adherence` requires a cross-version extension.\nElement `DeviceUsage.adherence.code` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
+              "comment" : "Element `DeviceUsage.adherence.code` is part of an existing definition because parent element `DeviceUsage.adherence` requires a cross-version extension.\nElement `DeviceUsage.adherence.code` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.adherence.reason` is part of an existing definition because parent element `DeviceUsage.adherence` requires a cross-version extension.\nElement `DeviceUsage.adherence.reason` is will have a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
+              "comment" : "Element `DeviceUsage.adherence.reason` is part of an existing definition because parent element `DeviceUsage.adherence` requires a cross-version extension.\nElement `DeviceUsage.adherence.reason` has a context of DeviceUseStatement based on following the parent source element upwards and mapping to `DeviceUseStatement`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.source",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.informationSource` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.informationSource` is mapped to FHIR R4 element `DeviceUseStatement.source`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceUsage.informationSource` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DeviceUsage.informationSource` has is mapped to FHIR R4 element `DeviceUseStatement.source`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.device",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.device` is mapped to FHIR R4 element `DeviceUseStatement.device`."
+              "comment" : "Element `DeviceUsage.device` has is mapped to FHIR R4 element `DeviceUseStatement.device`, but has no comparisons."
             }
           ]
         },
@@ -327,12 +327,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonCode`.\nElement `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonReference`."
+              "comment" : "Element `DeviceUsage.reason` has is mapped to FHIR R4 element `DeviceUseStatement.reasonCode`, but has no comparisons.\nElement `DeviceUsage.reason` has is mapped to FHIR R4 element `DeviceUseStatement.reasonReference`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonCode`.\nElement `DeviceUsage.reason` is mapped to FHIR R4 element `DeviceUseStatement.reasonReference`."
+              "comment" : "Element `DeviceUsage.reason` has is mapped to FHIR R4 element `DeviceUseStatement.reasonCode`, but has no comparisons.\nElement `DeviceUsage.reason` has is mapped to FHIR R4 element `DeviceUseStatement.reasonReference`, but has no comparisons."
             }
           ]
         },
@@ -343,7 +343,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.bodySite` is mapped to FHIR R4 element `DeviceUseStatement.bodySite`."
+              "comment" : "Element `DeviceUsage.bodySite` has is mapped to FHIR R4 element `DeviceUseStatement.bodySite`, but has no comparisons."
             }
           ]
         },
@@ -354,7 +354,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceUseStatement#DeviceUseStatement.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceUsage.note` is mapped to FHIR R4 element `DeviceUseStatement.note`."
+              "comment" : "Element `DeviceUsage.note` has is mapped to FHIR R4 element `DeviceUseStatement.note`, but has no comparisons."
             }
           ]
         }

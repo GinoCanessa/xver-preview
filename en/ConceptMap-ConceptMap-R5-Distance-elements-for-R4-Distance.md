@@ -1,4 +1,4 @@
-# ConceptMapR5DistanceElementsForR4Distance - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5DistanceElementsForR4Distance - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5DistanceElementsForR4Distance 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.784672-06:00",
+  "date" : "2026-02-17T14:42:27.1891439-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Distance#Distance",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Distance` is representable via FHIR R4 extensions.\nElement `Distance` is mapped to FHIR R4 element `Distance`."
+              "comment" : "FHIR R5 ComplexType `Distance` is representable via FHIR R4 extensions.\nElement `Distance` has is mapped to FHIR R4 element `Distance`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Distance#Distance.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Distance.value` is mapped to FHIR R4 element `Distance.value`."
+              "comment" : "Element `Distance.value` has is mapped to FHIR R4 element `Distance.value`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Distance#Distance.comparator",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Distance.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Distance.comparator` is mapped to FHIR R4 element `Distance.comparator`."
+              "comment" : "Note that the target element context `Distance.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Distance.comparator` has is mapped to FHIR R4 element `Distance.comparator`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Distance#Distance.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `Distance.unit` is mapped to FHIR R4 element `Distance.unit`."
+              "comment" : "Element `Distance.unit` has is mapped to FHIR R4 element `Distance.unit`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Distance#Distance.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Distance.system` is mapped to FHIR R4 element `Distance.system`."
+              "comment" : "Element `Distance.system` has is mapped to FHIR R4 element `Distance.system`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Distance#Distance.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Distance.code` is mapped to FHIR R4 element `Distance.code`."
+              "comment" : "Element `Distance.code` has is mapped to FHIR R4 element `Distance.code`, but has no comparisons."
             }
           ]
         }

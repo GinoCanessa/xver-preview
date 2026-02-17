@@ -1,4 +1,4 @@
-# ProfileSchedule - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileSchedule - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileSchedule 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Schedule.
   "title" : "Cross-version Profile for R5.Schedule for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3167308-06:00",
+  "date" : "2026-02-17T14:42:26.8959287-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Schedule.
         "path" : "Schedule.extension",
         "sliceName" : "name",
         "short" : "Cross-version extension for Schedule.name from R5 for use in FHIR R4",
-        "comment" : "Element `Schedule.name` is will have a context of Schedule based on following the parent source element upwards and mapping to `Schedule`.",
+        "comment" : "Element `Schedule.name` has a context of Schedule based on following the parent source element upwards and mapping to `Schedule`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -212,7 +212,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Schedule.
         "path" : "Schedule.serviceType.extension",
         "sliceName" : "serviceType",
         "short" : "Cross-version extension for Schedule.serviceType from R5 for use in FHIR R4",
-        "comment" : "Element `Schedule.serviceType` is mapped to FHIR R4 element `Schedule.serviceType`.",
+        "comment" : "Element `Schedule.serviceType` has is mapped to FHIR R4 element `Schedule.serviceType`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -256,7 +256,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Schedule.
         "sliceName" : "actor",
         "short" : "Cross-version extension for Schedule.actor from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Schedule.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Schedule.actor` is mapped to FHIR R4 element `Schedule.actor`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Schedule.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Schedule.actor` has is mapped to FHIR R4 element `Schedule.actor`, but has no comparisons.",
         "min" : 1,
         "max" : "*",
         "base" : {

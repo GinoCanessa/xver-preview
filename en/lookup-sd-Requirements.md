@@ -1,4 +1,4 @@
-# Lookup for ProfileRequirements - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileRequirements - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileRequirements
 
@@ -12,41 +12,41 @@ A computable version of the following element information is available in: [Conc
 
 | | |
 | :--- | :--- |
-| [`Requirements`](https://hl7.org/fhir/R5/Requirements.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements](StructureDefinition-ext-R5-Requirements.md) |
 | [`Requirements.meta`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Basic.meta](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Requirements.implicitRules`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Basic.implicitRules](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Requirements.language`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Basic.language](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Requirements.text`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Basic.text](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`Requirements.contained`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Basic.contained](https://hl7.org/fhir/R4/Basic.html#resource) |
-| [`Requirements.url`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: url](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.url`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:url](StructureDefinition-ext-R5-Requirements.md) |
 | [`Requirements.identifier`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Basic.identifier](https://hl7.org/fhir/R4/Basic.html#resource) |
-| [`Requirements.version`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: version](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.versionAlgorithm[x]`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: versionAlgorithm](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.name`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: name](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.title`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: title](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.status`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: status](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.experimental`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: experimental](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.date`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: date](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.publisher`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: publisher](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.contact`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: contact](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.description`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: description](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.useContext`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: useContext](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.jurisdiction`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: jurisdiction](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.purpose`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: purpose](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.copyright`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: copyright](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.copyrightLabel`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: copyrightLabel](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.derivedFrom`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: derivedFrom](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.reference`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: reference](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.actor`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: actor](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement.key`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: key](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement.label`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: label](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement.conformance`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: conformance](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement.conditionality`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: conditionality](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement.requirement`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: requirement](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement.derivedFrom`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: derivedFrom](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement.parent`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: parent](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement.satisfiedBy`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: satisfiedBy](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement.reference`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: reference](StructureDefinition-ext-R5-Requirements.md) |
-| [`Requirements.statement.source`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension slice: source](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.version`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:version](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.versionAlgorithm[x]`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:versionAlgorithm](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.name`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:name](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.title`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:title](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.status`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:status](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.experimental`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:experimental](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.date`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:date](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.publisher`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:publisher](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.contact`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:contact](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.description`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:description](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.useContext`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:useContext](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.jurisdiction`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:jurisdiction](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.purpose`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:purpose](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.copyright`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:copyright](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.copyrightLabel`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:copyrightLabel](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.derivedFrom`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:derivedFrom](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.reference`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:reference](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.actor`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:actor](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements Slice:statement](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement.key`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements_Statement Slice:key](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement.label`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements_Statement Slice:label](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement.conformance`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements_Statement Slice:conformance](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement.conditionality`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements_Statement Slice:conditionality](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement.requirement`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements_Statement Slice:requirement](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement.derivedFrom`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements_Statement Slice:derivedFrom](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement.parent`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements_Statement Slice:parent](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement.satisfiedBy`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements_Statement Slice:satisfiedBy](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement.reference`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements_Statement Slice:reference](StructureDefinition-ext-R5-Requirements.md) |
+| [`Requirements.statement.source`](https://hl7.org/fhir/R5/Requirements.html#resource) | [Extension: ExtensionRequirements_Statement Slice:source](StructureDefinition-ext-R5-Requirements.md) |
 

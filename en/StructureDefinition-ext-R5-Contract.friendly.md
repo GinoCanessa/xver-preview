@@ -1,4 +1,4 @@
-# ExtensionContract_Friendly - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionContract_Friendly - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Contract.friendly` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.f
   "title" : "Cross-version Extension `R5.Contract.friendly` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.f
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Contract.friendly` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Contract.friendly` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Contract.friendly` 0..* `BackboneElement`\n*  R4B: `Contract.friendly` 0..* `BackboneElement`\n*  R4: `Contract.friendly` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Contract.friendly` is mapped to FHIR R4 element `Contract.friendly`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Contract.friendly` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Contract.friendly` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Contract.friendly` 0..* `BackboneElement`\n*  R4B: `Contract.friendly` 0..* `BackboneElement`\n*  R4: `Contract.friendly` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Contract.friendly` has is mapped to FHIR R4 element `Contract.friendly`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.f
         "sliceName" : "content",
         "short" : "Easily comprehended representation of this Contract",
         "definition" : "Human readable rendering of this Contract in a format and representation intended to enhance comprehension and ensure understandability.",
-        "requirements" : "Note that the target element context `Contract.friendly.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.friendly`.\nElement `Contract.friendly.content[x]` is mapped to FHIR R4 element `Contract.friendly.content[x]`.\nNote that the target element context `Contract.friendly.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.friendly`.",
+        "requirements" : "Element `Contract.friendly.content[x]` is part of an existing definition because parent element `Contract.friendly` requires a cross-version extension.\nNote that the target element context `Contract.friendly.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.friendly`.\nElement `Contract.friendly.content[x]` has is mapped to FHIR R4 element `Contract.friendly.content[x]`, but has no comparisons.\nNote that the target element context `Contract.friendly.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.friendly`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.f
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "content"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.friendly.content"
       },
       {
         "id" : "Extension.extension:content.value[x]",

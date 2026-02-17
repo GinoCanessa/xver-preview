@@ -1,4 +1,4 @@
-# ConceptMapR5CommunicationRequestElementsForR4CommunicationRequest - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5CommunicationRequestElementsForR4CommunicationRequest - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5CommunicationRequestElementsForR4CommunicationRequest 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.6658337-06:00",
+  "date" : "2026-02-17T14:42:27.0856081-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `CommunicationRequest` is representable via FHIR R4 Resource `CommunicationRequest`.\nElement `CommunicationRequest` is mapped to FHIR R4 element `CommunicationRequest`."
+              "comment" : "FHIR R5 Resource `CommunicationRequest` is representable via FHIR R4 Resource `CommunicationRequest`.\nElement `CommunicationRequest` has is mapped to FHIR R4 element `CommunicationRequest`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.meta` is mapped to FHIR R4 element `CommunicationRequest.meta`."
+              "comment" : "Element `CommunicationRequest.meta` has is mapped to FHIR R4 element `CommunicationRequest.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.implicitRules` is mapped to FHIR R4 element `CommunicationRequest.implicitRules`."
+              "comment" : "Element `CommunicationRequest.implicitRules` has is mapped to FHIR R4 element `CommunicationRequest.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.language` is mapped to FHIR R4 element `CommunicationRequest.language`."
+              "comment" : "Element `CommunicationRequest.language` has is mapped to FHIR R4 element `CommunicationRequest.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.text` is mapped to FHIR R4 element `CommunicationRequest.text`."
+              "comment" : "Element `CommunicationRequest.text` has is mapped to FHIR R4 element `CommunicationRequest.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.contained` is mapped to FHIR R4 element `CommunicationRequest.contained`."
+              "comment" : "Element `CommunicationRequest.contained` has is mapped to FHIR R4 element `CommunicationRequest.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.identifier` is mapped to FHIR R4 element `CommunicationRequest.identifier`."
+              "comment" : "Element `CommunicationRequest.identifier` has is mapped to FHIR R4 element `CommunicationRequest.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.basedOn` is mapped to FHIR R4 element `CommunicationRequest.basedOn`."
+              "comment" : "Element `CommunicationRequest.basedOn` has is mapped to FHIR R4 element `CommunicationRequest.basedOn`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.replaces",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.replaces` is mapped to FHIR R4 element `CommunicationRequest.replaces`."
+              "comment" : "Element `CommunicationRequest.replaces` has is mapped to FHIR R4 element `CommunicationRequest.replaces`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.groupIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.groupIdentifier` is mapped to FHIR R4 element `CommunicationRequest.groupIdentifier`."
+              "comment" : "Element `CommunicationRequest.groupIdentifier` has is mapped to FHIR R4 element `CommunicationRequest.groupIdentifier`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.status` is mapped to FHIR R4 element `CommunicationRequest.status`."
+              "comment" : "Element `CommunicationRequest.status` has is mapped to FHIR R4 element `CommunicationRequest.status`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.statusReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.statusReason` is mapped to FHIR R4 element `CommunicationRequest.statusReason`."
+              "comment" : "Element `CommunicationRequest.statusReason` has is mapped to FHIR R4 element `CommunicationRequest.statusReason`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.intent` is will have a context of CommunicationRequest based on following the parent source element upwards and mapping to `CommunicationRequest`."
+              "comment" : "Element `CommunicationRequest.intent` has a context of CommunicationRequest based on following the parent source element upwards and mapping to `CommunicationRequest`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.category` is mapped to FHIR R4 element `CommunicationRequest.category`."
+              "comment" : "Element `CommunicationRequest.category` has is mapped to FHIR R4 element `CommunicationRequest.category`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.priority` is mapped to FHIR R4 element `CommunicationRequest.priority`."
+              "comment" : "Element `CommunicationRequest.priority` has is mapped to FHIR R4 element `CommunicationRequest.priority`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.doNotPerform",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.doNotPerform` is mapped to FHIR R4 element `CommunicationRequest.doNotPerform`."
+              "comment" : "Element `CommunicationRequest.doNotPerform` has is mapped to FHIR R4 element `CommunicationRequest.doNotPerform`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.medium",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.medium` is mapped to FHIR R4 element `CommunicationRequest.medium`."
+              "comment" : "Element `CommunicationRequest.medium` has is mapped to FHIR R4 element `CommunicationRequest.medium`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.subject` is mapped to FHIR R4 element `CommunicationRequest.subject`."
+              "comment" : "Element `CommunicationRequest.subject` has is mapped to FHIR R4 element `CommunicationRequest.subject`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.about",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.about` is mapped to FHIR R4 element `CommunicationRequest.about`."
+              "comment" : "Element `CommunicationRequest.about` has is mapped to FHIR R4 element `CommunicationRequest.about`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.encounter` is mapped to FHIR R4 element `CommunicationRequest.encounter`."
+              "comment" : "Element `CommunicationRequest.encounter` has is mapped to FHIR R4 element `CommunicationRequest.encounter`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.payload",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.payload` is mapped to FHIR R4 element `CommunicationRequest.payload`."
+              "comment" : "Element `CommunicationRequest.payload` has is mapped to FHIR R4 element `CommunicationRequest.payload`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.payload.content[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`.\nElement `CommunicationRequest.payload.content[x]` is mapped to FHIR R4 element `CommunicationRequest.payload.content[x]`.\nNote that the target element context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`."
+              "comment" : "Element `CommunicationRequest.payload.content[x]` is part of an existing definition because parent element `CommunicationRequest.payload` requires a cross-version extension.\nNote that the target element context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`.\nElement `CommunicationRequest.payload.content[x]` has is mapped to FHIR R4 element `CommunicationRequest.payload.content[x]`, but has no comparisons.\nNote that the target element context `CommunicationRequest.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest.payload`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.occurrence[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `CommunicationRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`.\nElement `CommunicationRequest.occurrence[x]` is mapped to FHIR R4 element `CommunicationRequest.occurrence[x]`.\nNote that the target element context `CommunicationRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`."
+              "comment" : "Note that the target element context `CommunicationRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`.\nElement `CommunicationRequest.occurrence[x]` has is mapped to FHIR R4 element `CommunicationRequest.occurrence[x]`, but has no comparisons.\nNote that the target element context `CommunicationRequest.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CommunicationRequest`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.authoredOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.authoredOn` is mapped to FHIR R4 element `CommunicationRequest.authoredOn`."
+              "comment" : "Element `CommunicationRequest.authoredOn` has is mapped to FHIR R4 element `CommunicationRequest.authoredOn`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.requester",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.requester` is mapped to FHIR R4 element `CommunicationRequest.requester`."
+              "comment" : "Element `CommunicationRequest.requester` has is mapped to FHIR R4 element `CommunicationRequest.requester`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.recipient",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.recipient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.recipient` is mapped to FHIR R4 element `CommunicationRequest.recipient`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.recipient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.recipient` has is mapped to FHIR R4 element `CommunicationRequest.recipient`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.sender",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.informationProvider` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.informationProvider` is mapped to FHIR R4 element `CommunicationRequest.sender`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.informationProvider` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.informationProvider` has is mapped to FHIR R4 element `CommunicationRequest.sender`, but has no comparisons."
             }
           ]
         },
@@ -382,12 +382,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonCode`.\nElement `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonReference`."
+              "comment" : "Element `CommunicationRequest.reason` has is mapped to FHIR R4 element `CommunicationRequest.reasonCode`, but has no comparisons.\nElement `CommunicationRequest.reason` has is mapped to FHIR R4 element `CommunicationRequest.reasonReference`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonCode`.\nElement `CommunicationRequest.reason` is mapped to FHIR R4 element `CommunicationRequest.reasonReference`."
+              "comment" : "Element `CommunicationRequest.reason` has is mapped to FHIR R4 element `CommunicationRequest.reasonCode`, but has no comparisons.\nElement `CommunicationRequest.reason` has is mapped to FHIR R4 element `CommunicationRequest.reasonReference`, but has no comparisons."
             }
           ]
         },
@@ -398,7 +398,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CommunicationRequest#CommunicationRequest.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `CommunicationRequest.note` is mapped to FHIR R4 element `CommunicationRequest.note`."
+              "comment" : "Element `CommunicationRequest.note` has is mapped to FHIR R4 element `CommunicationRequest.note`, but has no comparisons."
             }
           ]
         }

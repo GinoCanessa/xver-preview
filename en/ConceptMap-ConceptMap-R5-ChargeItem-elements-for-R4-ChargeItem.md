@@ -1,4 +1,4 @@
-# ConceptMapR5ChargeItemElementsForR4ChargeItem - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ChargeItemElementsForR4ChargeItem - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ChargeItemElementsForR4ChargeItem 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.5268276-06:00",
+  "date" : "2026-02-17T14:42:27.0260357-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ChargeItem` is representable via FHIR R4 Resource `ChargeItem`.\nElement `ChargeItem` is mapped to FHIR R4 element `ChargeItem`."
+              "comment" : "FHIR R5 Resource `ChargeItem` is representable via FHIR R4 Resource `ChargeItem`.\nElement `ChargeItem` has is mapped to FHIR R4 element `ChargeItem`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.meta` is mapped to FHIR R4 element `ChargeItem.meta`."
+              "comment" : "Element `ChargeItem.meta` has is mapped to FHIR R4 element `ChargeItem.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.implicitRules` is mapped to FHIR R4 element `ChargeItem.implicitRules`."
+              "comment" : "Element `ChargeItem.implicitRules` has is mapped to FHIR R4 element `ChargeItem.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.language` is mapped to FHIR R4 element `ChargeItem.language`."
+              "comment" : "Element `ChargeItem.language` has is mapped to FHIR R4 element `ChargeItem.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.text` is mapped to FHIR R4 element `ChargeItem.text`."
+              "comment" : "Element `ChargeItem.text` has is mapped to FHIR R4 element `ChargeItem.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.contained` is mapped to FHIR R4 element `ChargeItem.contained`."
+              "comment" : "Element `ChargeItem.contained` has is mapped to FHIR R4 element `ChargeItem.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.identifier` is mapped to FHIR R4 element `ChargeItem.identifier`."
+              "comment" : "Element `ChargeItem.identifier` has is mapped to FHIR R4 element `ChargeItem.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.definitionUri",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.definitionUri` is mapped to FHIR R4 element `ChargeItem.definitionUri`."
+              "comment" : "Element `ChargeItem.definitionUri` has is mapped to FHIR R4 element `ChargeItem.definitionUri`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.definitionCanonical",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.definitionCanonical` is mapped to FHIR R4 element `ChargeItem.definitionCanonical`."
+              "comment" : "Element `ChargeItem.definitionCanonical` has is mapped to FHIR R4 element `ChargeItem.definitionCanonical`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.status` is mapped to FHIR R4 element `ChargeItem.status`."
+              "comment" : "Element `ChargeItem.status` has is mapped to FHIR R4 element `ChargeItem.status`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.partOf` is mapped to FHIR R4 element `ChargeItem.partOf`."
+              "comment" : "Element `ChargeItem.partOf` has is mapped to FHIR R4 element `ChargeItem.partOf`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.code` is mapped to FHIR R4 element `ChargeItem.code`."
+              "comment" : "Element `ChargeItem.code` has is mapped to FHIR R4 element `ChargeItem.code`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.subject` is mapped to FHIR R4 element `ChargeItem.subject`."
+              "comment" : "Element `ChargeItem.subject` has is mapped to FHIR R4 element `ChargeItem.subject`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.context",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.encounter` is mapped to FHIR R4 element `ChargeItem.context`."
+              "comment" : "Element `ChargeItem.encounter` has is mapped to FHIR R4 element `ChargeItem.context`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.occurrence[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ChargeItem.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.\nElement `ChargeItem.occurrence[x]` is mapped to FHIR R4 element `ChargeItem.occurrence[x]`.\nNote that the target element context `ChargeItem.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`."
+              "comment" : "Note that the target element context `ChargeItem.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.\nElement `ChargeItem.occurrence[x]` has is mapped to FHIR R4 element `ChargeItem.occurrence[x]`, but has no comparisons.\nNote that the target element context `ChargeItem.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performer",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.performer` is mapped to FHIR R4 element `ChargeItem.performer`."
+              "comment" : "Element `ChargeItem.performer` has is mapped to FHIR R4 element `ChargeItem.performer`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performer.function",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.performer.function` is mapped to FHIR R4 element `ChargeItem.performer.function`."
+              "comment" : "Element `ChargeItem.performer.function` is part of an existing definition because parent element `ChargeItem.performer` requires a cross-version extension.\nElement `ChargeItem.performer.function` has is mapped to FHIR R4 element `ChargeItem.performer.function`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performer.actor",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ChargeItem.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ChargeItem.performer.actor` is mapped to FHIR R4 element `ChargeItem.performer.actor`."
+              "comment" : "Element `ChargeItem.performer.actor` is part of an existing definition because parent element `ChargeItem.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ChargeItem.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ChargeItem.performer.actor` has is mapped to FHIR R4 element `ChargeItem.performer.actor`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.performingOrganization",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.performingOrganization` is mapped to FHIR R4 element `ChargeItem.performingOrganization`."
+              "comment" : "Element `ChargeItem.performingOrganization` has is mapped to FHIR R4 element `ChargeItem.performingOrganization`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.requestingOrganization",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.requestingOrganization` is mapped to FHIR R4 element `ChargeItem.requestingOrganization`."
+              "comment" : "Element `ChargeItem.requestingOrganization` has is mapped to FHIR R4 element `ChargeItem.requestingOrganization`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.costCenter",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.costCenter` is mapped to FHIR R4 element `ChargeItem.costCenter`."
+              "comment" : "Element `ChargeItem.costCenter` has is mapped to FHIR R4 element `ChargeItem.costCenter`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.quantity` is mapped to FHIR R4 element `ChargeItem.quantity`."
+              "comment" : "Element `ChargeItem.quantity` has is mapped to FHIR R4 element `ChargeItem.quantity`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.bodysite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.bodysite` is mapped to FHIR R4 element `ChargeItem.bodysite`."
+              "comment" : "Element `ChargeItem.bodysite` has is mapped to FHIR R4 element `ChargeItem.bodysite`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.unitPriceComponent` is will have a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`."
+              "comment" : "Element `ChargeItem.unitPriceComponent` has a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.totalPriceComponent` is will have a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`."
+              "comment" : "Element `ChargeItem.totalPriceComponent` has a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.overrideReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.overrideReason` is mapped to FHIR R4 element `ChargeItem.overrideReason`."
+              "comment" : "Element `ChargeItem.overrideReason` has is mapped to FHIR R4 element `ChargeItem.overrideReason`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.enterer",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.enterer` is mapped to FHIR R4 element `ChargeItem.enterer`."
+              "comment" : "Element `ChargeItem.enterer` has is mapped to FHIR R4 element `ChargeItem.enterer`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.enteredDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.enteredDate` is mapped to FHIR R4 element `ChargeItem.enteredDate`."
+              "comment" : "Element `ChargeItem.enteredDate` has is mapped to FHIR R4 element `ChargeItem.enteredDate`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.reason` is mapped to FHIR R4 element `ChargeItem.reason`."
+              "comment" : "Element `ChargeItem.reason` has is mapped to FHIR R4 element `ChargeItem.reason`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.service",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.service` is mapped to FHIR R4 element `ChargeItem.service`."
+              "comment" : "Element `ChargeItem.service` has is mapped to FHIR R4 element `ChargeItem.service`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.product[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.\nElement `ChargeItem.product` is mapped to FHIR R4 element `ChargeItem.product[x]`.\nNote that the target element context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`."
+              "comment" : "Note that the target element context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`.\nElement `ChargeItem.product` has is mapped to FHIR R4 element `ChargeItem.product[x]`, but has no comparisons.\nNote that the target element context `ChargeItem.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ChargeItem`."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.account",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.account` is mapped to FHIR R4 element `ChargeItem.account`."
+              "comment" : "Element `ChargeItem.account` has is mapped to FHIR R4 element `ChargeItem.account`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.note` is mapped to FHIR R4 element `ChargeItem.note`."
+              "comment" : "Element `ChargeItem.note` has is mapped to FHIR R4 element `ChargeItem.note`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ChargeItem#ChargeItem.supportingInformation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ChargeItem.supportingInformation` is mapped to FHIR R4 element `ChargeItem.supportingInformation`."
+              "comment" : "Element `ChargeItem.supportingInformation` has is mapped to FHIR R4 element `ChargeItem.supportingInformation`, but has no comparisons."
             }
           ]
         }

@@ -1,4 +1,4 @@
-# ProfileSearchParameter - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileSearchParameter - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileSearchParameter 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 SearchParameter content to be represented v
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.CapabilityStatement.rest.resource.searchParam` for use in FHIR R4](StructureDefinition-ext-R5-CapabilityStatement.res.res.searchParam.md)
+* Refer to this Profile: [Cross-version Extension `R5.CapabilityStatement.rest` for use in FHIR R4](StructureDefinition-ext-R5-CapabilityStatement.rest.md) and [Cross-version Extension `R5.SearchParameter.component` for use in FHIR R4](StructureDefinition-ext-R5-SearchParameter.component.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-SearchParameter)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SearchPar
   "title" : "Cross-version Profile for R5.SearchParameter for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3185683-06:00",
+  "date" : "2026-02-17T14:42:26.8969658-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -179,7 +179,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SearchPar
         "path" : "SearchParameter.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for SearchParameter.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `SearchParameter.versionAlgorithm[x]` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.",
+        "comment" : "Element `SearchParameter.versionAlgorithm[x]` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -201,7 +201,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SearchPar
         "path" : "SearchParameter.extension",
         "sliceName" : "title",
         "short" : "Cross-version extension for SearchParameter.title from R5 for use in FHIR R4",
-        "comment" : "Element `SearchParameter.title` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.",
+        "comment" : "Element `SearchParameter.title` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -223,7 +223,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SearchPar
         "path" : "SearchParameter.extension",
         "sliceName" : "copyright",
         "short" : "Cross-version extension for SearchParameter.copyright from R5 for use in FHIR R4",
-        "comment" : "Element `SearchParameter.copyright` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.",
+        "comment" : "Element `SearchParameter.copyright` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -245,7 +245,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SearchPar
         "path" : "SearchParameter.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for SearchParameter.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `SearchParameter.copyrightLabel` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.",
+        "comment" : "Element `SearchParameter.copyrightLabel` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -267,7 +267,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SearchPar
         "path" : "SearchParameter.extension",
         "sliceName" : "constraint",
         "short" : "Cross-version extension for SearchParameter.constraint from R5 for use in FHIR R4",
-        "comment" : "Element `SearchParameter.constraint` is will have a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.",
+        "comment" : "Element `SearchParameter.constraint` has a context of SearchParameter based on following the parent source element upwards and mapping to `SearchParameter`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -310,7 +310,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SearchPar
         "path" : "SearchParameter.xpathUsage.extension",
         "sliceName" : "processingMode",
         "short" : "Cross-version extension for SearchParameter.processingMode from R5 for use in FHIR R4",
-        "comment" : "Element `SearchParameter.processingMode` is mapped to FHIR R4 element `SearchParameter.xpathUsage`.",
+        "comment" : "Element `SearchParameter.processingMode` has is mapped to FHIR R4 element `SearchParameter.xpathUsage`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -353,7 +353,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SearchPar
         "path" : "SearchParameter.modifier.extension",
         "sliceName" : "modifier",
         "short" : "Cross-version extension for SearchParameter.modifier from R5 for use in FHIR R4",
-        "comment" : "Element `SearchParameter.modifier` is mapped to FHIR R4 element `SearchParameter.modifier`.",
+        "comment" : "Element `SearchParameter.modifier` has is mapped to FHIR R4 element `SearchParameter.modifier`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -366,6 +366,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SearchPar
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.modifier|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "SearchParameter.component.extension",
+        "path" : "SearchParameter.component.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "SearchParameter.component.extension:component",
+        "path" : "SearchParameter.component.extension",
+        "sliceName" : "component",
+        "short" : "Cross-version extension for SearchParameter.component from R5 for use in FHIR R4",
+        "comment" : "Element `SearchParameter.component` has is mapped to FHIR R4 element `SearchParameter.component`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SearchParameter.component|0.0.1-snapshot-3"
             ]
           }
         ]

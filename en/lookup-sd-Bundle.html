@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Lookup for ProfileBundle - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+    <title>Lookup for ProfileBundle - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -67,7 +67,7 @@
 
 
         <div id="ig-status" data-fhir="generated">
-          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
             <br/>
             <span style="display:inline-block;">0.0.1-snapshot-3 - STU
 
@@ -175,7 +175,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Lookup for ProfileBundle</h2>
   
 
@@ -233,7 +233,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.type</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.type</a><br /><a href="StructureDefinition-ext-R5-Bundle.type.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.type</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.type</a><br /><a href="StructureDefinition-ext-R5-Bundle.type.html">Extension: ExtensionBundle_Type</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.timestamp</code></a></td>
@@ -245,103 +245,95 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.link</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.link</a><br /><a href="StructureDefinition-ext-R5-Bundle.link.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.link</a><br /><a href="StructureDefinition-ext-R5-Bundle.link.html">Extension: ExtensionBundle_Link</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.link.relation</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.link.relation</a><br /><a href="StructureDefinition-ext-R5-Bundle.lin.relation.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link.relation</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.link.relation</a><br /><a href="StructureDefinition-ext-R5-Bundle.link.html">Extension: ExtensionBundle_Link Slice:relation</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.link.url</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.link.url</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.link.url</a><br /><a href="StructureDefinition-ext-R5-Bundle.link.html">Extension: ExtensionBundle_Link Slice:url</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.link</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.link</a><br /><a href="StructureDefinition-ext-R5-Bundle.ent.link.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.link</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.link.relation</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.link.relation</a><br /><a href="StructureDefinition-ext-R5-Bundle.ent.link.html">Extension slice: relation</a></td>
-    </tr>
-    <tr>
-      <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.link.url</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.link.url</a><br /><a href="StructureDefinition-ext-R5-Bundle.ent.link.html">Extension slice: url</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.link</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry Slice:link</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.fullUrl</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.fullUrl</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.fullUrl</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry Slice:fullUrl</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.resource</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.resource</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.resource</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry Slice:resource</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.search</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.search</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.search</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry Slice:search</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.search.mode</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.search.mode</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.search.mode</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Search Slice:mode</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.search.score</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.search.score</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.search.score</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Search Slice:score</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.request</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry Slice:request</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.request.method</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.method</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.method</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Request Slice:method</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.request.url</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.url</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.url</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Request Slice:url</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.request.ifNoneMatch</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.ifNoneMatch</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.ifNoneMatch</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Request Slice:ifNoneMatch</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.request.ifModifiedSince</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.ifModifiedSince</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.ifModifiedSince</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Request Slice:ifModifiedSince</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.request.ifMatch</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.ifMatch</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.ifMatch</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Request Slice:ifMatch</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.request.ifNoneExist</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.ifNoneExist</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.request.ifNoneExist</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Request Slice:ifNoneExist</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.response</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry Slice:response</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.response.status</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response.status</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response.status</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Response Slice:status</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.response.location</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response.location</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response.location</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Response Slice:location</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.response.etag</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response.etag</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response.etag</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Response Slice:etag</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.response.lastModified</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response.lastModified</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response.lastModified</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Response Slice:lastModified</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.entry.response.outcome</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response.outcome</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle.entry.response.outcome</a><br /><a href="StructureDefinition-ext-R5-Bundle.entry.html">Extension: ExtensionBundle_Entry_Response Slice:outcome</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.signature</code></a></td>
@@ -349,7 +341,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Bundle.html#resource"><code class="language-plaintext highlighter-rouge">Bundle.issues</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Bundle.html#resource">Bundle</a><br /><a href="StructureDefinition-ext-R5-Bundle.issues.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.issues</a></td>
+      <td><a href="StructureDefinition-ext-R5-Bundle.issues.html">Extension: ExtensionBundle_Issues</a></td>
     </tr>
   </tbody>
 </table>
@@ -404,8 +396,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-09 22:08:00 -0600">
-    2026-02-09
+  <span title="2026-02-17 15:29:00 -0600">
+    2026-02-17
   </span>
 
           <br/>

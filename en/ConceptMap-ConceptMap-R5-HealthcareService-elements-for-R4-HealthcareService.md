@@ -1,4 +1,4 @@
-# ConceptMapR5HealthcareServiceElementsForR4HealthcareService - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5HealthcareServiceElementsForR4HealthcareService - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5HealthcareServiceElementsForR4HealthcareService 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.9160966-06:00",
+  "date" : "2026-02-17T14:42:27.297933-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `HealthcareService` is representable via FHIR R4 Resource `HealthcareService`.\nElement `HealthcareService` is mapped to FHIR R4 element `HealthcareService`."
+              "comment" : "FHIR R5 Resource `HealthcareService` is representable via FHIR R4 Resource `HealthcareService`.\nElement `HealthcareService` has is mapped to FHIR R4 element `HealthcareService`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.meta` is mapped to FHIR R4 element `HealthcareService.meta`."
+              "comment" : "Element `HealthcareService.meta` has is mapped to FHIR R4 element `HealthcareService.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.implicitRules` is mapped to FHIR R4 element `HealthcareService.implicitRules`."
+              "comment" : "Element `HealthcareService.implicitRules` has is mapped to FHIR R4 element `HealthcareService.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.language` is mapped to FHIR R4 element `HealthcareService.language`."
+              "comment" : "Element `HealthcareService.language` has is mapped to FHIR R4 element `HealthcareService.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.text` is mapped to FHIR R4 element `HealthcareService.text`."
+              "comment" : "Element `HealthcareService.text` has is mapped to FHIR R4 element `HealthcareService.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.contained` is mapped to FHIR R4 element `HealthcareService.contained`."
+              "comment" : "Element `HealthcareService.contained` has is mapped to FHIR R4 element `HealthcareService.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.identifier` is mapped to FHIR R4 element `HealthcareService.identifier`."
+              "comment" : "Element `HealthcareService.identifier` has is mapped to FHIR R4 element `HealthcareService.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.active",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.active` is mapped to FHIR R4 element `HealthcareService.active`."
+              "comment" : "Element `HealthcareService.active` has is mapped to FHIR R4 element `HealthcareService.active`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.providedBy",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.providedBy` is mapped to FHIR R4 element `HealthcareService.providedBy`."
+              "comment" : "Element `HealthcareService.providedBy` has is mapped to FHIR R4 element `HealthcareService.providedBy`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `HealthcareService.offeredIn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `HealthcareService.offeredIn` is will have a context of HealthcareService based on following the parent source element upwards and mapping to `HealthcareService`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `HealthcareService.offeredIn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `HealthcareService.offeredIn` has a context of HealthcareService based on following the parent source element upwards and mapping to `HealthcareService`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.category` is mapped to FHIR R4 element `HealthcareService.category`."
+              "comment" : "Element `HealthcareService.category` has is mapped to FHIR R4 element `HealthcareService.category`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.type` is mapped to FHIR R4 element `HealthcareService.type`."
+              "comment" : "Element `HealthcareService.type` has is mapped to FHIR R4 element `HealthcareService.type`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.specialty",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.specialty` is mapped to FHIR R4 element `HealthcareService.specialty`."
+              "comment" : "Element `HealthcareService.specialty` has is mapped to FHIR R4 element `HealthcareService.specialty`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.location` is mapped to FHIR R4 element `HealthcareService.location`."
+              "comment" : "Element `HealthcareService.location` has is mapped to FHIR R4 element `HealthcareService.location`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.name` is mapped to FHIR R4 element `HealthcareService.name`."
+              "comment" : "Element `HealthcareService.name` has is mapped to FHIR R4 element `HealthcareService.name`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.comment` is mapped to FHIR R4 element `HealthcareService.comment`."
+              "comment" : "Element `HealthcareService.comment` has is mapped to FHIR R4 element `HealthcareService.comment`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.extraDetails",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.extraDetails` is mapped to FHIR R4 element `HealthcareService.extraDetails`."
+              "comment" : "Element `HealthcareService.extraDetails` has is mapped to FHIR R4 element `HealthcareService.extraDetails`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.photo",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.photo` is mapped to FHIR R4 element `HealthcareService.photo`."
+              "comment" : "Element `HealthcareService.photo` has is mapped to FHIR R4 element `HealthcareService.photo`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.contact` is will have a context of HealthcareService based on following the parent source element upwards and mapping to `HealthcareService`."
+              "comment" : "Element `HealthcareService.contact` has a context of HealthcareService based on following the parent source element upwards and mapping to `HealthcareService`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.coverageArea",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.coverageArea` is mapped to FHIR R4 element `HealthcareService.coverageArea`."
+              "comment" : "Element `HealthcareService.coverageArea` has is mapped to FHIR R4 element `HealthcareService.coverageArea`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.serviceProvisionCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.serviceProvisionCode` is mapped to FHIR R4 element `HealthcareService.serviceProvisionCode`."
+              "comment" : "Element `HealthcareService.serviceProvisionCode` has is mapped to FHIR R4 element `HealthcareService.serviceProvisionCode`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.eligibility` is mapped to FHIR R4 element `HealthcareService.eligibility`."
+              "comment" : "Element `HealthcareService.eligibility` has is mapped to FHIR R4 element `HealthcareService.eligibility`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.eligibility.code` is mapped to FHIR R4 element `HealthcareService.eligibility.code`."
+              "comment" : "Element `HealthcareService.eligibility.code` is part of an existing definition because parent element `HealthcareService.eligibility` requires a cross-version extension.\nElement `HealthcareService.eligibility.code` has is mapped to FHIR R4 element `HealthcareService.eligibility.code`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.eligibility.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.eligibility.comment` is mapped to FHIR R4 element `HealthcareService.eligibility.comment`."
+              "comment" : "Element `HealthcareService.eligibility.comment` is part of an existing definition because parent element `HealthcareService.eligibility` requires a cross-version extension.\nElement `HealthcareService.eligibility.comment` has is mapped to FHIR R4 element `HealthcareService.eligibility.comment`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.program",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.program` is mapped to FHIR R4 element `HealthcareService.program`."
+              "comment" : "Element `HealthcareService.program` has is mapped to FHIR R4 element `HealthcareService.program`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.characteristic",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.characteristic` is mapped to FHIR R4 element `HealthcareService.characteristic`."
+              "comment" : "Element `HealthcareService.characteristic` has is mapped to FHIR R4 element `HealthcareService.characteristic`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.communication",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.communication` is mapped to FHIR R4 element `HealthcareService.communication`."
+              "comment" : "Element `HealthcareService.communication` has is mapped to FHIR R4 element `HealthcareService.communication`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.referralMethod",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.referralMethod` is mapped to FHIR R4 element `HealthcareService.referralMethod`."
+              "comment" : "Element `HealthcareService.referralMethod` has is mapped to FHIR R4 element `HealthcareService.referralMethod`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.appointmentRequired",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.appointmentRequired` is mapped to FHIR R4 element `HealthcareService.appointmentRequired`."
+              "comment" : "Element `HealthcareService.appointmentRequired` has is mapped to FHIR R4 element `HealthcareService.appointmentRequired`, but has no comparisons."
             }
           ]
         },
@@ -404,12 +404,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.availableTime",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.availableTime`.\nElement `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.notAvailable`."
+              "comment" : "Element `HealthcareService.availability` has is mapped to FHIR R4 element `HealthcareService.availableTime`, but has no comparisons.\nElement `HealthcareService.availability` has is mapped to FHIR R4 element `HealthcareService.notAvailable`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.notAvailable",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.availableTime`.\nElement `HealthcareService.availability` is mapped to FHIR R4 element `HealthcareService.notAvailable`."
+              "comment" : "Element `HealthcareService.availability` has is mapped to FHIR R4 element `HealthcareService.availableTime`, but has no comparisons.\nElement `HealthcareService.availability` has is mapped to FHIR R4 element `HealthcareService.notAvailable`, but has no comparisons."
             }
           ]
         },
@@ -420,7 +420,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/HealthcareService#HealthcareService.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `HealthcareService.endpoint` is mapped to FHIR R4 element `HealthcareService.endpoint`."
+              "comment" : "Element `HealthcareService.endpoint` has is mapped to FHIR R4 element `HealthcareService.endpoint`, but has no comparisons."
             }
           ]
         }

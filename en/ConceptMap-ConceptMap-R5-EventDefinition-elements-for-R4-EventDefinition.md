@@ -1,4 +1,4 @@
-# ConceptMapR5EventDefinitionElementsForR4EventDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5EventDefinitionElementsForR4EventDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5EventDefinitionElementsForR4EventDefinition 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.8226733-06:00",
+  "date" : "2026-02-17T14:42:27.2233264-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `EventDefinition` is representable via FHIR R4 Resource `EventDefinition`.\nElement `EventDefinition` is mapped to FHIR R4 element `EventDefinition`."
+              "comment" : "FHIR R5 Resource `EventDefinition` is representable via FHIR R4 Resource `EventDefinition`.\nElement `EventDefinition` has is mapped to FHIR R4 element `EventDefinition`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.meta` is mapped to FHIR R4 element `EventDefinition.meta`."
+              "comment" : "Element `EventDefinition.meta` has is mapped to FHIR R4 element `EventDefinition.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.implicitRules` is mapped to FHIR R4 element `EventDefinition.implicitRules`."
+              "comment" : "Element `EventDefinition.implicitRules` has is mapped to FHIR R4 element `EventDefinition.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.language` is mapped to FHIR R4 element `EventDefinition.language`."
+              "comment" : "Element `EventDefinition.language` has is mapped to FHIR R4 element `EventDefinition.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.text` is mapped to FHIR R4 element `EventDefinition.text`."
+              "comment" : "Element `EventDefinition.text` has is mapped to FHIR R4 element `EventDefinition.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.contained` is mapped to FHIR R4 element `EventDefinition.contained`."
+              "comment" : "Element `EventDefinition.contained` has is mapped to FHIR R4 element `EventDefinition.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.url` is mapped to FHIR R4 element `EventDefinition.url`."
+              "comment" : "Element `EventDefinition.url` has is mapped to FHIR R4 element `EventDefinition.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.identifier` is mapped to FHIR R4 element `EventDefinition.identifier`."
+              "comment" : "Element `EventDefinition.identifier` has is mapped to FHIR R4 element `EventDefinition.identifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.version` is mapped to FHIR R4 element `EventDefinition.version`."
+              "comment" : "Element `EventDefinition.version` has is mapped to FHIR R4 element `EventDefinition.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.versionAlgorithm[x]` is will have a context of EventDefinition based on following the parent source element upwards and mapping to `EventDefinition`."
+              "comment" : "Element `EventDefinition.versionAlgorithm[x]` has a context of EventDefinition based on following the parent source element upwards and mapping to `EventDefinition`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.name` is mapped to FHIR R4 element `EventDefinition.name`."
+              "comment" : "Element `EventDefinition.name` has is mapped to FHIR R4 element `EventDefinition.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.title` is mapped to FHIR R4 element `EventDefinition.title`."
+              "comment" : "Element `EventDefinition.title` has is mapped to FHIR R4 element `EventDefinition.title`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.subtitle",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.subtitle` is mapped to FHIR R4 element `EventDefinition.subtitle`."
+              "comment" : "Element `EventDefinition.subtitle` has is mapped to FHIR R4 element `EventDefinition.subtitle`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.status` is mapped to FHIR R4 element `EventDefinition.status`."
+              "comment" : "Element `EventDefinition.status` has is mapped to FHIR R4 element `EventDefinition.status`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.experimental` is mapped to FHIR R4 element `EventDefinition.experimental`."
+              "comment" : "Element `EventDefinition.experimental` has is mapped to FHIR R4 element `EventDefinition.experimental`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.subject[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `EventDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EventDefinition`.\nElement `EventDefinition.subject[x]` is mapped to FHIR R4 element `EventDefinition.subject[x]`.\nNote that the target element context `EventDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EventDefinition`."
+              "comment" : "Note that the target element context `EventDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EventDefinition`.\nElement `EventDefinition.subject[x]` has is mapped to FHIR R4 element `EventDefinition.subject[x]`, but has no comparisons.\nNote that the target element context `EventDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `EventDefinition`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.date` is mapped to FHIR R4 element `EventDefinition.date`."
+              "comment" : "Element `EventDefinition.date` has is mapped to FHIR R4 element `EventDefinition.date`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.publisher` is mapped to FHIR R4 element `EventDefinition.publisher`."
+              "comment" : "Element `EventDefinition.publisher` has is mapped to FHIR R4 element `EventDefinition.publisher`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.contact` is mapped to FHIR R4 element `EventDefinition.contact`."
+              "comment" : "Element `EventDefinition.contact` has is mapped to FHIR R4 element `EventDefinition.contact`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.description` is mapped to FHIR R4 element `EventDefinition.description`."
+              "comment" : "Element `EventDefinition.description` has is mapped to FHIR R4 element `EventDefinition.description`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.useContext` is mapped to FHIR R4 element `EventDefinition.useContext`."
+              "comment" : "Element `EventDefinition.useContext` has is mapped to FHIR R4 element `EventDefinition.useContext`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.jurisdiction` is mapped to FHIR R4 element `EventDefinition.jurisdiction`."
+              "comment" : "Element `EventDefinition.jurisdiction` has is mapped to FHIR R4 element `EventDefinition.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.purpose` is mapped to FHIR R4 element `EventDefinition.purpose`."
+              "comment" : "Element `EventDefinition.purpose` has is mapped to FHIR R4 element `EventDefinition.purpose`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.usage",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.usage` is mapped to FHIR R4 element `EventDefinition.usage`."
+              "comment" : "Element `EventDefinition.usage` has is mapped to FHIR R4 element `EventDefinition.usage`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.copyright` is mapped to FHIR R4 element `EventDefinition.copyright`."
+              "comment" : "Element `EventDefinition.copyright` has is mapped to FHIR R4 element `EventDefinition.copyright`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.copyrightLabel` is will have a context of EventDefinition based on following the parent source element upwards and mapping to `EventDefinition`."
+              "comment" : "Element `EventDefinition.copyrightLabel` has a context of EventDefinition based on following the parent source element upwards and mapping to `EventDefinition`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.approvalDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.approvalDate` is mapped to FHIR R4 element `EventDefinition.approvalDate`."
+              "comment" : "Element `EventDefinition.approvalDate` has is mapped to FHIR R4 element `EventDefinition.approvalDate`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.lastReviewDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.lastReviewDate` is mapped to FHIR R4 element `EventDefinition.lastReviewDate`."
+              "comment" : "Element `EventDefinition.lastReviewDate` has is mapped to FHIR R4 element `EventDefinition.lastReviewDate`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.effectivePeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.effectivePeriod` is mapped to FHIR R4 element `EventDefinition.effectivePeriod`."
+              "comment" : "Element `EventDefinition.effectivePeriod` has is mapped to FHIR R4 element `EventDefinition.effectivePeriod`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.topic",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.topic` is mapped to FHIR R4 element `EventDefinition.topic`."
+              "comment" : "Element `EventDefinition.topic` has is mapped to FHIR R4 element `EventDefinition.topic`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.author",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.author` is mapped to FHIR R4 element `EventDefinition.author`."
+              "comment" : "Element `EventDefinition.author` has is mapped to FHIR R4 element `EventDefinition.author`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.editor",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.editor` is mapped to FHIR R4 element `EventDefinition.editor`."
+              "comment" : "Element `EventDefinition.editor` has is mapped to FHIR R4 element `EventDefinition.editor`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.reviewer",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.reviewer` is mapped to FHIR R4 element `EventDefinition.reviewer`."
+              "comment" : "Element `EventDefinition.reviewer` has is mapped to FHIR R4 element `EventDefinition.reviewer`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.endorser",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.endorser` is mapped to FHIR R4 element `EventDefinition.endorser`."
+              "comment" : "Element `EventDefinition.endorser` has is mapped to FHIR R4 element `EventDefinition.endorser`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.relatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.relatedArtifact` is mapped to FHIR R4 element `EventDefinition.relatedArtifact`."
+              "comment" : "Element `EventDefinition.relatedArtifact` has is mapped to FHIR R4 element `EventDefinition.relatedArtifact`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/EventDefinition#EventDefinition.trigger",
               "equivalence" : "relatedto",
-              "comment" : "Element `EventDefinition.trigger` is mapped to FHIR R4 element `EventDefinition.trigger`."
+              "comment" : "Element `EventDefinition.trigger` has is mapped to FHIR R4 element `EventDefinition.trigger`, but has no comparisons."
             }
           ]
         }

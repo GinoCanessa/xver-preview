@@ -1,4 +1,4 @@
-# ConceptMapR5ImplementationGuideElementsForR4ImplementationGuide - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ImplementationGuideElementsForR4ImplementationGuide - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ImplementationGuideElementsForR4ImplementationGuide 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.9466754-06:00",
+  "date" : "2026-02-17T14:42:27.316889-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ImplementationGuide` is representable via FHIR R4 Resource `ImplementationGuide`.\nElement `ImplementationGuide` is mapped to FHIR R4 element `ImplementationGuide`."
+              "comment" : "FHIR R5 Resource `ImplementationGuide` is representable via FHIR R4 Resource `ImplementationGuide`.\nElement `ImplementationGuide` has is mapped to FHIR R4 element `ImplementationGuide`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.meta` is mapped to FHIR R4 element `ImplementationGuide.meta`."
+              "comment" : "Element `ImplementationGuide.meta` has is mapped to FHIR R4 element `ImplementationGuide.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.implicitRules` is mapped to FHIR R4 element `ImplementationGuide.implicitRules`."
+              "comment" : "Element `ImplementationGuide.implicitRules` has is mapped to FHIR R4 element `ImplementationGuide.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.language` is mapped to FHIR R4 element `ImplementationGuide.language`."
+              "comment" : "Element `ImplementationGuide.language` has is mapped to FHIR R4 element `ImplementationGuide.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.text` is mapped to FHIR R4 element `ImplementationGuide.text`."
+              "comment" : "Element `ImplementationGuide.text` has is mapped to FHIR R4 element `ImplementationGuide.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.contained` is mapped to FHIR R4 element `ImplementationGuide.contained`."
+              "comment" : "Element `ImplementationGuide.contained` has is mapped to FHIR R4 element `ImplementationGuide.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.url` is mapped to FHIR R4 element `ImplementationGuide.url`."
+              "comment" : "Element `ImplementationGuide.url` has is mapped to FHIR R4 element `ImplementationGuide.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ImplementationGuide.identifier` is will have a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`."
+              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `ImplementationGuide.identifier` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.version` is mapped to FHIR R4 element `ImplementationGuide.version`."
+              "comment" : "Element `ImplementationGuide.version` has is mapped to FHIR R4 element `ImplementationGuide.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.versionAlgorithm[x]` is will have a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`."
+              "comment" : "Element `ImplementationGuide.versionAlgorithm[x]` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.name` is mapped to FHIR R4 element `ImplementationGuide.name`."
+              "comment" : "Element `ImplementationGuide.name` has is mapped to FHIR R4 element `ImplementationGuide.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.title` is mapped to FHIR R4 element `ImplementationGuide.title`."
+              "comment" : "Element `ImplementationGuide.title` has is mapped to FHIR R4 element `ImplementationGuide.title`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.status` is mapped to FHIR R4 element `ImplementationGuide.status`."
+              "comment" : "Element `ImplementationGuide.status` has is mapped to FHIR R4 element `ImplementationGuide.status`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.experimental` is mapped to FHIR R4 element `ImplementationGuide.experimental`."
+              "comment" : "Element `ImplementationGuide.experimental` has is mapped to FHIR R4 element `ImplementationGuide.experimental`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.date` is mapped to FHIR R4 element `ImplementationGuide.date`."
+              "comment" : "Element `ImplementationGuide.date` has is mapped to FHIR R4 element `ImplementationGuide.date`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.publisher` is mapped to FHIR R4 element `ImplementationGuide.publisher`."
+              "comment" : "Element `ImplementationGuide.publisher` has is mapped to FHIR R4 element `ImplementationGuide.publisher`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.contact` is mapped to FHIR R4 element `ImplementationGuide.contact`."
+              "comment" : "Element `ImplementationGuide.contact` has is mapped to FHIR R4 element `ImplementationGuide.contact`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.description` is mapped to FHIR R4 element `ImplementationGuide.description`."
+              "comment" : "Element `ImplementationGuide.description` has is mapped to FHIR R4 element `ImplementationGuide.description`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.useContext` is mapped to FHIR R4 element `ImplementationGuide.useContext`."
+              "comment" : "Element `ImplementationGuide.useContext` has is mapped to FHIR R4 element `ImplementationGuide.useContext`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.jurisdiction` is mapped to FHIR R4 element `ImplementationGuide.jurisdiction`."
+              "comment" : "Element `ImplementationGuide.jurisdiction` has is mapped to FHIR R4 element `ImplementationGuide.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.purpose` is will have a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`."
+              "comment" : "Element `ImplementationGuide.purpose` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.copyright` is mapped to FHIR R4 element `ImplementationGuide.copyright`."
+              "comment" : "Element `ImplementationGuide.copyright` has is mapped to FHIR R4 element `ImplementationGuide.copyright`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.copyrightLabel` is will have a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`."
+              "comment" : "Element `ImplementationGuide.copyrightLabel` has a context of ImplementationGuide based on following the parent source element upwards and mapping to `ImplementationGuide`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.packageId",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.packageId` is mapped to FHIR R4 element `ImplementationGuide.packageId`."
+              "comment" : "Element `ImplementationGuide.packageId` has is mapped to FHIR R4 element `ImplementationGuide.packageId`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.license",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.license` is mapped to FHIR R4 element `ImplementationGuide.license`."
+              "comment" : "Element `ImplementationGuide.license` has is mapped to FHIR R4 element `ImplementationGuide.license`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.fhirVersion",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.fhirVersion`."
+              "comment" : "Element `ImplementationGuide.fhirVersion` has is mapped to FHIR R4 element `ImplementationGuide.fhirVersion`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.dependsOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.dependsOn` is mapped to FHIR R4 element `ImplementationGuide.dependsOn`."
+              "comment" : "Element `ImplementationGuide.dependsOn` has is mapped to FHIR R4 element `ImplementationGuide.dependsOn`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.dependsOn.uri",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.dependsOn.uri` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.uri`."
+              "comment" : "Element `ImplementationGuide.dependsOn.uri` is part of an existing definition because parent element `ImplementationGuide.dependsOn` requires a cross-version extension.\nElement `ImplementationGuide.dependsOn.uri` has is mapped to FHIR R4 element `ImplementationGuide.dependsOn.uri`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.dependsOn.packageId",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.dependsOn.packageId` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.packageId`."
+              "comment" : "Element `ImplementationGuide.dependsOn.packageId` is part of an existing definition because parent element `ImplementationGuide.dependsOn` requires a cross-version extension.\nElement `ImplementationGuide.dependsOn.packageId` has is mapped to FHIR R4 element `ImplementationGuide.dependsOn.packageId`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.dependsOn.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.dependsOn.version` is mapped to FHIR R4 element `ImplementationGuide.dependsOn.version`."
+              "comment" : "Element `ImplementationGuide.dependsOn.version` is part of an existing definition because parent element `ImplementationGuide.dependsOn` requires a cross-version extension.\nElement `ImplementationGuide.dependsOn.version` has is mapped to FHIR R4 element `ImplementationGuide.dependsOn.version`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.dependsOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.dependsOn.reason` is will have a context of ImplementationGuide.dependsOn based on following the parent source element upwards and mapping to `ImplementationGuide`."
+              "comment" : "Element `ImplementationGuide.dependsOn.reason` is part of an existing definition because parent element `ImplementationGuide.dependsOn` requires a cross-version extension.\nElement `ImplementationGuide.dependsOn.reason` has a context of ImplementationGuide.dependsOn based on following the parent source element upwards and mapping to `ImplementationGuide`."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.global",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.global` is mapped to FHIR R4 element `ImplementationGuide.global`."
+              "comment" : "Element `ImplementationGuide.global` has is mapped to FHIR R4 element `ImplementationGuide.global`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.global.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.global.type` is mapped to FHIR R4 element `ImplementationGuide.global.type`."
+              "comment" : "Element `ImplementationGuide.global.type` is part of an existing definition because parent element `ImplementationGuide.global` requires a cross-version extension.\nElement `ImplementationGuide.global.type` has is mapped to FHIR R4 element `ImplementationGuide.global.type`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.global.profile",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.global.profile` is mapped to FHIR R4 element `ImplementationGuide.global.profile`."
+              "comment" : "Element `ImplementationGuide.global.profile` is part of an existing definition because parent element `ImplementationGuide.global` requires a cross-version extension.\nElement `ImplementationGuide.global.profile` has is mapped to FHIR R4 element `ImplementationGuide.global.profile`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition` is mapped to FHIR R4 element `ImplementationGuide.definition`."
+              "comment" : "Element `ImplementationGuide.definition` has is mapped to FHIR R4 element `ImplementationGuide.definition`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.grouping",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.grouping` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping`."
+              "comment" : "Element `ImplementationGuide.definition.grouping` is part of an existing definition because parent element `ImplementationGuide.definition` requires a cross-version extension.\nElement `ImplementationGuide.definition.grouping` has is mapped to FHIR R4 element `ImplementationGuide.definition.grouping`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.grouping.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.grouping.name` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.name`."
+              "comment" : "Element `ImplementationGuide.definition.grouping.name` is part of an existing definition because parent element `ImplementationGuide.definition.grouping` requires a cross-version extension.\nElement `ImplementationGuide.definition.grouping.name` has is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.name`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.grouping.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.grouping.description` is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.description`."
+              "comment" : "Element `ImplementationGuide.definition.grouping.description` is part of an existing definition because parent element `ImplementationGuide.definition.grouping` requires a cross-version extension.\nElement `ImplementationGuide.definition.grouping.description` has is mapped to FHIR R4 element `ImplementationGuide.definition.grouping.description`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.resource` is mapped to FHIR R4 element `ImplementationGuide.definition.resource`."
+              "comment" : "Element `ImplementationGuide.definition.resource` is part of an existing definition because parent element `ImplementationGuide.definition` requires a cross-version extension.\nElement `ImplementationGuide.definition.resource` has is mapped to FHIR R4 element `ImplementationGuide.definition.resource`, but has no comparisons."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.resource.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.resource.reference` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.reference`."
+              "comment" : "Element `ImplementationGuide.definition.resource.reference` is part of an existing definition because parent element `ImplementationGuide.definition.resource` requires a cross-version extension.\nElement `ImplementationGuide.definition.resource.reference` has is mapped to FHIR R4 element `ImplementationGuide.definition.resource.reference`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.resource.fhirVersion",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.resource.fhirVersion` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion`."
+              "comment" : "Element `ImplementationGuide.definition.resource.fhirVersion` is part of an existing definition because parent element `ImplementationGuide.definition.resource` requires a cross-version extension.\nElement `ImplementationGuide.definition.resource.fhirVersion` has is mapped to FHIR R4 element `ImplementationGuide.definition.resource.fhirVersion`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.resource.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.resource.name` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.name`."
+              "comment" : "Element `ImplementationGuide.definition.resource.name` is part of an existing definition because parent element `ImplementationGuide.definition.resource` requires a cross-version extension.\nElement `ImplementationGuide.definition.resource.name` has is mapped to FHIR R4 element `ImplementationGuide.definition.resource.name`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.resource.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.resource.description` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.description`."
+              "comment" : "Element `ImplementationGuide.definition.resource.description` is part of an existing definition because parent element `ImplementationGuide.definition.resource` requires a cross-version extension.\nElement `ImplementationGuide.definition.resource.description` has is mapped to FHIR R4 element `ImplementationGuide.definition.resource.description`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.resource.example[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.\nElement `ImplementationGuide.definition.resource.isExample` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]`.\nNote that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`."
+              "comment" : "Element `ImplementationGuide.definition.resource.isExample` is part of an existing definition because parent element `ImplementationGuide.definition.resource` requires a cross-version extension.\nNote that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.\nElement `ImplementationGuide.definition.resource.isExample` has is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]`, but has no comparisons.\nNote that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.resource.example[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.\nElement `ImplementationGuide.definition.resource.profile` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]`.\nNote that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`."
+              "comment" : "Element `ImplementationGuide.definition.resource.profile` is part of an existing definition because parent element `ImplementationGuide.definition.resource` requires a cross-version extension.\nNote that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`.\nElement `ImplementationGuide.definition.resource.profile` has is mapped to FHIR R4 element `ImplementationGuide.definition.resource.example[x]`, but has no comparisons.\nNote that the target element context `ImplementationGuide.definition.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.resource`."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.resource.groupingId",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.resource.groupingId` is mapped to FHIR R4 element `ImplementationGuide.definition.resource.groupingId`."
+              "comment" : "Element `ImplementationGuide.definition.resource.groupingId` is part of an existing definition because parent element `ImplementationGuide.definition.resource` requires a cross-version extension.\nElement `ImplementationGuide.definition.resource.groupingId` has is mapped to FHIR R4 element `ImplementationGuide.definition.resource.groupingId`, but has no comparisons."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.page",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.page` is mapped to FHIR R4 element `ImplementationGuide.definition.page`."
+              "comment" : "Element `ImplementationGuide.definition.page` is part of an existing definition because parent element `ImplementationGuide.definition` requires a cross-version extension.\nElement `ImplementationGuide.definition.page` has is mapped to FHIR R4 element `ImplementationGuide.definition.page`, but has no comparisons."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.page",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.page.source[x]` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a component extension (e.g., if this element is used as a content reference).\nElement `ImplementationGuide.definition.page.source[x]` is will have a context of ImplementationGuide.definition.page based on following the parent source element upwards and mapping to `ImplementationGuide`."
+              "comment" : "Element `ImplementationGuide.definition.page.source[x]` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a cross-version extension.\nElement `ImplementationGuide.definition.page.source[x]` has a context of ImplementationGuide.definition.page based on following the parent source element upwards and mapping to `ImplementationGuide`."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.page.name[x]",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.page.name` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `ImplementationGuide.definition.page.name[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.page`.\nElement `ImplementationGuide.definition.page.name` is mapped to FHIR R4 element `ImplementationGuide.definition.page.name[x]`.\nNote that the target element context `ImplementationGuide.definition.page.name[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.page`."
+              "comment" : "Element `ImplementationGuide.definition.page.name` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a cross-version extension.\nNote that the target element context `ImplementationGuide.definition.page.name[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.page`.\nElement `ImplementationGuide.definition.page.name` has is mapped to FHIR R4 element `ImplementationGuide.definition.page.name[x]`, but has no comparisons.\nNote that the target element context `ImplementationGuide.definition.page.name[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.definition.page`."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.page.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.page.title` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a component extension (e.g., if this element is used as a content reference).\nElement `ImplementationGuide.definition.page.title` is mapped to FHIR R4 element `ImplementationGuide.definition.page.title`."
+              "comment" : "Element `ImplementationGuide.definition.page.title` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a cross-version extension.\nElement `ImplementationGuide.definition.page.title` has is mapped to FHIR R4 element `ImplementationGuide.definition.page.title`, but has no comparisons."
             }
           ]
         },
@@ -635,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.page.generation",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.page.generation` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a component extension (e.g., if this element is used as a content reference).\nElement `ImplementationGuide.definition.page.generation` is mapped to FHIR R4 element `ImplementationGuide.definition.page.generation`."
+              "comment" : "Element `ImplementationGuide.definition.page.generation` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a cross-version extension.\nElement `ImplementationGuide.definition.page.generation` has is mapped to FHIR R4 element `ImplementationGuide.definition.page.generation`, but has no comparisons."
             }
           ]
         },
@@ -646,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.page.page",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.page.page` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a component extension (e.g., if this element is used as a content reference).\nElement `ImplementationGuide.definition.page.page` is mapped to FHIR R4 element `ImplementationGuide.definition.page.page`."
+              "comment" : "Element `ImplementationGuide.definition.page.page` is part of an existing definition because parent element `ImplementationGuide.definition.page` requires a cross-version extension.\nElement `ImplementationGuide.definition.page.page` has is mapped to FHIR R4 element `ImplementationGuide.definition.page.page`, but has no comparisons."
             }
           ]
         },
@@ -657,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.parameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.parameter` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter`."
+              "comment" : "Element `ImplementationGuide.definition.parameter` is part of an existing definition because parent element `ImplementationGuide.definition` requires a cross-version extension.\nElement `ImplementationGuide.definition.parameter` has is mapped to FHIR R4 element `ImplementationGuide.definition.parameter`, but has no comparisons."
             }
           ]
         },
@@ -668,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.parameter.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.parameter.code` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code`."
+              "comment" : "Element `ImplementationGuide.definition.parameter.code` is part of an existing definition because parent element `ImplementationGuide.definition.parameter` requires a cross-version extension.\nElement `ImplementationGuide.definition.parameter.code` has is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.code`, but has no comparisons."
             }
           ]
         },
@@ -679,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.parameter.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.parameter.value` is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.value`."
+              "comment" : "Element `ImplementationGuide.definition.parameter.value` is part of an existing definition because parent element `ImplementationGuide.definition.parameter` requires a cross-version extension.\nElement `ImplementationGuide.definition.parameter.value` has is mapped to FHIR R4 element `ImplementationGuide.definition.parameter.value`, but has no comparisons."
             }
           ]
         },
@@ -690,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.template",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.template` is mapped to FHIR R4 element `ImplementationGuide.definition.template`."
+              "comment" : "Element `ImplementationGuide.definition.template` is part of an existing definition because parent element `ImplementationGuide.definition` requires a cross-version extension.\nElement `ImplementationGuide.definition.template` has is mapped to FHIR R4 element `ImplementationGuide.definition.template`, but has no comparisons."
             }
           ]
         },
@@ -701,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.template.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.template.code` is mapped to FHIR R4 element `ImplementationGuide.definition.template.code`."
+              "comment" : "Element `ImplementationGuide.definition.template.code` is part of an existing definition because parent element `ImplementationGuide.definition.template` requires a cross-version extension.\nElement `ImplementationGuide.definition.template.code` has is mapped to FHIR R4 element `ImplementationGuide.definition.template.code`, but has no comparisons."
             }
           ]
         },
@@ -712,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.template.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.template.source` is mapped to FHIR R4 element `ImplementationGuide.definition.template.source`."
+              "comment" : "Element `ImplementationGuide.definition.template.source` is part of an existing definition because parent element `ImplementationGuide.definition.template` requires a cross-version extension.\nElement `ImplementationGuide.definition.template.source` has is mapped to FHIR R4 element `ImplementationGuide.definition.template.source`, but has no comparisons."
             }
           ]
         },
@@ -723,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.definition.template.scope",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.definition.template.scope` is mapped to FHIR R4 element `ImplementationGuide.definition.template.scope`."
+              "comment" : "Element `ImplementationGuide.definition.template.scope` is part of an existing definition because parent element `ImplementationGuide.definition.template` requires a cross-version extension.\nElement `ImplementationGuide.definition.template.scope` has is mapped to FHIR R4 element `ImplementationGuide.definition.template.scope`, but has no comparisons."
             }
           ]
         },
@@ -734,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest` is mapped to FHIR R4 element `ImplementationGuide.manifest`."
+              "comment" : "Element `ImplementationGuide.manifest` has is mapped to FHIR R4 element `ImplementationGuide.manifest`, but has no comparisons."
             }
           ]
         },
@@ -745,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.rendering",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest.rendering` is mapped to FHIR R4 element `ImplementationGuide.manifest.rendering`."
+              "comment" : "Element `ImplementationGuide.manifest.rendering` is part of an existing definition because parent element `ImplementationGuide.manifest` requires a cross-version extension.\nElement `ImplementationGuide.manifest.rendering` has is mapped to FHIR R4 element `ImplementationGuide.manifest.rendering`, but has no comparisons."
             }
           ]
         },
@@ -756,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest.resource` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource`."
+              "comment" : "Element `ImplementationGuide.manifest.resource` is part of an existing definition because parent element `ImplementationGuide.manifest` requires a cross-version extension.\nElement `ImplementationGuide.manifest.resource` has is mapped to FHIR R4 element `ImplementationGuide.manifest.resource`, but has no comparisons."
             }
           ]
         },
@@ -767,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.resource.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest.resource.reference` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.reference`."
+              "comment" : "Element `ImplementationGuide.manifest.resource.reference` is part of an existing definition because parent element `ImplementationGuide.manifest.resource` requires a cross-version extension.\nElement `ImplementationGuide.manifest.resource.reference` has is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.reference`, but has no comparisons."
             }
           ]
         },
@@ -778,7 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.resource.example[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.\nElement `ImplementationGuide.manifest.resource.isExample` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]`.\nNote that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`."
+              "comment" : "Element `ImplementationGuide.manifest.resource.isExample` is part of an existing definition because parent element `ImplementationGuide.manifest.resource` requires a cross-version extension.\nNote that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.\nElement `ImplementationGuide.manifest.resource.isExample` has is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]`, but has no comparisons.\nNote that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`."
             }
           ]
         },
@@ -789,7 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.resource.example[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.\nElement `ImplementationGuide.manifest.resource.profile` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]`.\nNote that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`."
+              "comment" : "Element `ImplementationGuide.manifest.resource.profile` is part of an existing definition because parent element `ImplementationGuide.manifest.resource` requires a cross-version extension.\nNote that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`.\nElement `ImplementationGuide.manifest.resource.profile` has is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.example[x]`, but has no comparisons.\nNote that the target element context `ImplementationGuide.manifest.resource.example[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ImplementationGuide.manifest.resource`."
             }
           ]
         },
@@ -800,7 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.resource.relativePath",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest.resource.relativePath` is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.relativePath`."
+              "comment" : "Element `ImplementationGuide.manifest.resource.relativePath` is part of an existing definition because parent element `ImplementationGuide.manifest.resource` requires a cross-version extension.\nElement `ImplementationGuide.manifest.resource.relativePath` has is mapped to FHIR R4 element `ImplementationGuide.manifest.resource.relativePath`, but has no comparisons."
             }
           ]
         },
@@ -811,7 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.page",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest.page` is mapped to FHIR R4 element `ImplementationGuide.manifest.page`."
+              "comment" : "Element `ImplementationGuide.manifest.page` is part of an existing definition because parent element `ImplementationGuide.manifest` requires a cross-version extension.\nElement `ImplementationGuide.manifest.page` has is mapped to FHIR R4 element `ImplementationGuide.manifest.page`, but has no comparisons."
             }
           ]
         },
@@ -822,7 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.page.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest.page.name` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.name`."
+              "comment" : "Element `ImplementationGuide.manifest.page.name` is part of an existing definition because parent element `ImplementationGuide.manifest.page` requires a cross-version extension.\nElement `ImplementationGuide.manifest.page.name` has is mapped to FHIR R4 element `ImplementationGuide.manifest.page.name`, but has no comparisons."
             }
           ]
         },
@@ -833,7 +833,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.page.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest.page.title` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.title`."
+              "comment" : "Element `ImplementationGuide.manifest.page.title` is part of an existing definition because parent element `ImplementationGuide.manifest.page` requires a cross-version extension.\nElement `ImplementationGuide.manifest.page.title` has is mapped to FHIR R4 element `ImplementationGuide.manifest.page.title`, but has no comparisons."
             }
           ]
         },
@@ -844,7 +844,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.page.anchor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest.page.anchor` is mapped to FHIR R4 element `ImplementationGuide.manifest.page.anchor`."
+              "comment" : "Element `ImplementationGuide.manifest.page.anchor` is part of an existing definition because parent element `ImplementationGuide.manifest.page` requires a cross-version extension.\nElement `ImplementationGuide.manifest.page.anchor` has is mapped to FHIR R4 element `ImplementationGuide.manifest.page.anchor`, but has no comparisons."
             }
           ]
         },
@@ -855,7 +855,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.image",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest.image` is mapped to FHIR R4 element `ImplementationGuide.manifest.image`."
+              "comment" : "Element `ImplementationGuide.manifest.image` is part of an existing definition because parent element `ImplementationGuide.manifest` requires a cross-version extension.\nElement `ImplementationGuide.manifest.image` has is mapped to FHIR R4 element `ImplementationGuide.manifest.image`, but has no comparisons."
             }
           ]
         },
@@ -866,7 +866,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ImplementationGuide#ImplementationGuide.manifest.other",
               "equivalence" : "relatedto",
-              "comment" : "Element `ImplementationGuide.manifest.other` is mapped to FHIR R4 element `ImplementationGuide.manifest.other`."
+              "comment" : "Element `ImplementationGuide.manifest.other` is part of an existing definition because parent element `ImplementationGuide.manifest` requires a cross-version extension.\nElement `ImplementationGuide.manifest.other` has is mapped to FHIR R4 element `ImplementationGuide.manifest.other`, but has no comparisons."
             }
           ]
         }

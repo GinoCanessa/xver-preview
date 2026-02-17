@@ -120,7 +120,7 @@
   fhir:title [ fhir:v "Cross-version Profile for R5.Subscription for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-09T22:05:43.3430726-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-17T14:42:26.9208067-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -544,7 +544,7 @@
        fhir:sliceName [ fhir:v "name" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.name from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "A natural language name identifying the subscription." ] ;
-       fhir:comment [ fhir:v "Element `Subscription.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.name` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -592,7 +592,7 @@
        fhir:sliceName [ fhir:v "filterBy" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.filterBy from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "The filter properties to be applied to narrow the subscription topic stream.  When multiple filters are applied, evaluates to true if all the conditions applicable to that resource are met; otherwise it returns false (i.e., logical AND)." ] ;
-       fhir:comment [ fhir:v "Element `Subscription.filterBy` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.filterBy` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -640,7 +640,7 @@
        fhir:sliceName [ fhir:v "parameter" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.parameter from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "Channel-dependent information to send as part of the notification (e.g., HTTP Headers)." ] ;
-       fhir:comment [ fhir:v "Element `Subscription.parameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.parameter` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -688,7 +688,7 @@
        fhir:sliceName [ fhir:v "heartbeatPeriod" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.heartbeatPeriod from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "If present, a 'heartbeat' notification (keep-alive) is sent via this channel with an interval period equal to this elements integer value in seconds.  If not present, a heartbeat notification is not sent." ] ;
-       fhir:comment [ fhir:v "Element `Subscription.heartbeatPeriod` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.heartbeatPeriod` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -736,7 +736,7 @@
        fhir:sliceName [ fhir:v "timeout" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.timeout from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "If present, the maximum amount of time a server will allow before failing a notification attempt." ] ;
-       fhir:comment [ fhir:v "Element `Subscription.timeout` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.timeout` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -784,7 +784,7 @@
        fhir:sliceName [ fhir:v "content" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.content from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "How much of the resource content to deliver in the notification payload. The choices are an empty payload, only the resource id, or the full resource content." ] ;
-       fhir:comment [ fhir:v "Element `Subscription.content` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.content` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -832,7 +832,7 @@
        fhir:sliceName [ fhir:v "maxCount" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.maxCount from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "If present, the maximum number of events that will be included in a notification bundle. Note that this is not a strict limit on the number of entries in a bundle, as dependent resources can be included." ] ;
-       fhir:comment [ fhir:v "Element `Subscription.maxCount` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.maxCount` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -880,7 +880,7 @@
        fhir:sliceName [ fhir:v "topic" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.topic from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/SubscriptionTopic in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Subscription.topic` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Subscription.topic` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -925,7 +925,7 @@
        fhir:sliceName [ fhir:v "managingEntity" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.managingEntity from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Subscription.managingEntity` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Subscription.managingEntity` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1155,7 +1155,7 @@
        fhir:sliceName [ fhir:v "status" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.status from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "The status of the subscription, which marks the server state for managing the subscription." ] ;
-       fhir:comment [ fhir:v "Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Subscription.status` is mapped to FHIR R4 element `Subscription.status`." ] ;
+       fhir:comment [ fhir:v "Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Subscription.status` has is mapped to FHIR R4 element `Subscription.status`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1709,7 +1709,7 @@
        fhir:sliceName [ fhir:v "channelType" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.channelType from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "The type of channel to send notifications on." ] ;
-       fhir:comment [ fhir:v "Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.channelType` has is mapped to FHIR R4 element `Subscription.channel.type`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1935,7 +1935,7 @@
        fhir:path [ fhir:v "Subscription.extension" ] ;
        fhir:sliceName [ fhir:v "name" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.name from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `Subscription.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.name` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1958,7 +1958,7 @@
        fhir:path [ fhir:v "Subscription.extension" ] ;
        fhir:sliceName [ fhir:v "filterBy" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.filterBy from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `Subscription.filterBy` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.filterBy` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1981,7 +1981,7 @@
        fhir:path [ fhir:v "Subscription.extension" ] ;
        fhir:sliceName [ fhir:v "parameter" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.parameter from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `Subscription.parameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.parameter` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2004,7 +2004,7 @@
        fhir:path [ fhir:v "Subscription.extension" ] ;
        fhir:sliceName [ fhir:v "heartbeatPeriod" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.heartbeatPeriod from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `Subscription.heartbeatPeriod` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.heartbeatPeriod` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2027,7 +2027,7 @@
        fhir:path [ fhir:v "Subscription.extension" ] ;
        fhir:sliceName [ fhir:v "timeout" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.timeout from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `Subscription.timeout` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.timeout` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2050,7 +2050,7 @@
        fhir:path [ fhir:v "Subscription.extension" ] ;
        fhir:sliceName [ fhir:v "content" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.content from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `Subscription.content` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.content` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2073,7 +2073,7 @@
        fhir:path [ fhir:v "Subscription.extension" ] ;
        fhir:sliceName [ fhir:v "maxCount" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.maxCount from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `Subscription.maxCount` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.maxCount` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2097,7 +2097,7 @@
        fhir:sliceName [ fhir:v "topic" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.topic from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/SubscriptionTopic in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Subscription.topic` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Subscription.topic` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2121,7 +2121,7 @@
        fhir:sliceName [ fhir:v "managingEntity" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.managingEntity from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Subscription.managingEntity` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Subscription.managingEntity` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2162,7 +2162,7 @@
        fhir:path [ fhir:v "Subscription.status.extension" ] ;
        fhir:sliceName [ fhir:v "status" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.status from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Subscription.status` is mapped to FHIR R4 element `Subscription.status`." ] ;
+       fhir:comment [ fhir:v "Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Subscription.status` has is mapped to FHIR R4 element `Subscription.status`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2203,7 +2203,7 @@
        fhir:path [ fhir:v "Subscription.channel.type.extension" ] ;
        fhir:sliceName [ fhir:v "channelType" ] ;
        fhir:short [ fhir:v "Cross-version extension for Subscription.channelType from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type`." ] ;
+       fhir:comment [ fhir:v "Element `Subscription.channelType` has is mapped to FHIR R4 element `Subscription.channel.type`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

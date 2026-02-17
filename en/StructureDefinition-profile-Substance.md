@@ -1,4 +1,4 @@
-# ProfileSubstance - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileSubstance - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileSubstance 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Substance content to be represented via FHI
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.NutritionProduct` for use in FHIR R4](StructureDefinition-ext-R5-NutritionProduct.md) and [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md)
+* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.Medication.ingredient` for use in FHIR R4](StructureDefinition-ext-R5-Medication.ingredient.md), [Cross-version Extension `R5.MedicationKnowledge.definitional` for use in FHIR R4](StructureDefinition-ext-R5-MedicationKnowledge.definitional.md)... Show 5 more, [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.NutritionProduct` for use in FHIR R4](StructureDefinition-ext-R5-NutritionProduct.md), [Cross-version Extension `R5.ServiceRequest.orderDetail` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.orderDetail.md), [Cross-version Extension `R5.Specimen.processing` for use in FHIR R4](StructureDefinition-ext-R5-Specimen.processing.md) and [Cross-version Extension `R5.Substance.ingredient` for use in FHIR R4](StructureDefinition-ext-R5-Substance.ingredient.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Substance)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Substance
   "title" : "Cross-version Profile for R5.Substance for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3476087-06:00",
+  "date" : "2026-02-17T14:42:26.9233903-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Substance
         "path" : "Substance.code.extension",
         "sliceName" : "code",
         "short" : "Cross-version extension for Substance.code from R5 for use in FHIR R4",
-        "comment" : "Element `Substance.code` is mapped to FHIR R4 element `Substance.code`.",
+        "comment" : "Element `Substance.code` has is mapped to FHIR R4 element `Substance.code`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -182,6 +182,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Substance
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-Substance.code|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Substance.ingredient.extension",
+        "path" : "Substance.ingredient.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Substance.ingredient.extension:ingredient",
+        "path" : "Substance.ingredient.extension",
+        "sliceName" : "ingredient",
+        "short" : "Cross-version extension for Substance.ingredient from R5 for use in FHIR R4",
+        "comment" : "Element `Substance.ingredient` has is mapped to FHIR R4 element `Substance.ingredient`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Substance.ingredient|0.0.1-snapshot-3"
             ]
           }
         ]

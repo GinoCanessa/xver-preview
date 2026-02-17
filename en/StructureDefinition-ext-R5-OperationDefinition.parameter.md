@@ -1,4 +1,4 @@
-# ExtensionOperationDefinition_Parameter - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionOperationDefinition_Parameter - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.OperationDefinition.parameter` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `OperationDefinition
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.OperationDefinition for use in FHIR R4](StructureDefinition-profile-OperationDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-OperationDefinition.parameter)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
   "title" : "Cross-version Extension `R5.OperationDefinition.parameter` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `OperationDefinition.parameter` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`OperationDefinition.parameter` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `OperationDefinition.parameter` 0..* `BackboneElement`\n*  R4B: `OperationDefinition.parameter` 0..* `BackboneElement`\n*  R4: `OperationDefinition.parameter` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `OperationDefinition.parameter` is mapped to FHIR R4 element `OperationDefinition.parameter`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `OperationDefinition.parameter` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`OperationDefinition.parameter` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `OperationDefinition.parameter` 0..* `BackboneElement`\n*  R4B: `OperationDefinition.parameter` 0..* `BackboneElement`\n*  R4: `OperationDefinition.parameter` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `OperationDefinition.parameter` has is mapped to FHIR R4 element `OperationDefinition.parameter`, but has no comparisons.\nNote available implied context: `OperationDefinition.parameter.part` because `OperationDefinition.parameter.part` is defined as a content reference to `OperationDefinition.parameter`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "OperationDefinition.parameter"
     }
   ],
   "type" : "Extension",
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "short" : "Name in Parameters.parameter.name or in URL",
         "definition" : "The name of used to identify the parameter.",
         "comment" : "This name must be a token (start with a letter in a..z, and only contain letters, numerals, and underscore. Note that for search parameters (type = string, with a search type), the name may be altered by the search modifiers.",
-        "requirements" : "Element `OperationDefinition.parameter.name` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.name` is mapped to FHIR R4 element `OperationDefinition.parameter.name`.",
+        "requirements" : "Element `OperationDefinition.parameter.name` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.name` has is mapped to FHIR R4 element `OperationDefinition.parameter.name`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -233,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "short" : "in | out",
         "definition" : "Whether this is an input or an output parameter.",
         "comment" : "If a parameter name is used for both an input and an output parameter, the parameter should be defined twice.",
-        "requirements" : "Element `OperationDefinition.parameter.use` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.use` is mapped to FHIR R4 element `OperationDefinition.parameter.use`.",
+        "requirements" : "Element `OperationDefinition.parameter.use` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.use` has is mapped to FHIR R4 element `OperationDefinition.parameter.use`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "sliceName" : "scope",
         "short" : "instance | type | system",
         "definition" : "If present, indicates that the parameter applies when the operation is being invoked at the specified level.",
-        "requirements" : "Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.scope` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "requirements" : "Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.scope` has a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -329,7 +329,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "sliceName" : "min",
         "short" : "Minimum Cardinality",
         "definition" : "The minimum number of times this parameter SHALL appear in the request or response.",
-        "requirements" : "Element `OperationDefinition.parameter.min` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.min` is mapped to FHIR R4 element `OperationDefinition.parameter.min`.",
+        "requirements" : "Element `OperationDefinition.parameter.min` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.min` has is mapped to FHIR R4 element `OperationDefinition.parameter.min`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -374,7 +374,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "sliceName" : "max",
         "short" : "Maximum Cardinality (a number or *)",
         "definition" : "The maximum number of times this element is permitted to appear in the request or response.",
-        "requirements" : "Element `OperationDefinition.parameter.max` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.max` is mapped to FHIR R4 element `OperationDefinition.parameter.max`.",
+        "requirements" : "Element `OperationDefinition.parameter.max` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.max` has is mapped to FHIR R4 element `OperationDefinition.parameter.max`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -419,7 +419,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "sliceName" : "documentation",
         "short" : "Description of meaning/use",
         "definition" : "Describes the meaning or use of this parameter.",
-        "requirements" : "Element `OperationDefinition.parameter.documentation` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.documentation` is mapped to FHIR R4 element `OperationDefinition.parameter.documentation`.",
+        "requirements" : "Element `OperationDefinition.parameter.documentation` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.documentation` has is mapped to FHIR R4 element `OperationDefinition.parameter.documentation`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -465,7 +465,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "short" : "What type this parameter has",
         "definition" : "The type for this parameter.",
         "comment" : "if there is no stated parameter, then the parameter is a multi-part parameter type and must have at least one part defined.",
-        "requirements" : "Element `OperationDefinition.parameter.type` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.type` is mapped to FHIR R4 element `OperationDefinition.parameter.type`.",
+        "requirements" : "Element `OperationDefinition.parameter.type` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.type` has is mapped to FHIR R4 element `OperationDefinition.parameter.type`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -512,7 +512,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "short" : "Allowed sub-type this parameter can have (if type is abstract)",
         "definition" : "Support for polymorphic types. If the parameter type is abstract, this element lists allowed sub-types for the parameter.",
         "comment" : "In previous versions of FHIR, there was an extension for this: http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type",
-        "requirements" : "Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.allowedType` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.",
+        "requirements" : "Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.allowedType` has a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -559,7 +559,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "short" : "If type is Reference | canonical, allowed targets. If type is 'Resource', then this constrains the allowed resource types",
         "definition" : "Used when the type is \"Reference\" or \"canonical\", and identifies a profile structure or implementation Guide that applies to the target of the reference this parameter refers to. If any profiles are specified, then the content must conform to at least one of them. The URL can be a local reference - to a contained StructureDefinition, or a reference to another StructureDefinition or Implementation Guide by a canonical URL. When an implementation guide is specified, the target resource SHALL conform to at least one profile defined in the implementation guide.",
         "comment" : "Often, these profiles are the base definitions from the spec (e.g. http://hl7.org/fhir/StructureDefinition/Patient).",
-        "requirements" : "Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.targetProfile` is mapped to FHIR R4 element `OperationDefinition.parameter.targetProfile`.",
+        "requirements" : "Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.targetProfile` has is mapped to FHIR R4 element `OperationDefinition.parameter.targetProfile`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -610,7 +610,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "short" : "number | date | string | token | reference | composite | quantity | uri | special",
         "definition" : "How the parameter is understood if/when it used as search parameter. This is only used if the parameter is a string.",
         "comment" : "Parameters that are search parameter usually - but not always - are also defined for use with general searches, and function in the operation to filter the set of resources in scope for the operation just like the do when searching. The searchType describes how the server processes the value. For an example, see the [Evaluate Measure Operation](https://hl7.org/fhir/measure-operation-evaluate-measure.html)",
-        "requirements" : "Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.searchType` is mapped to FHIR R4 element `OperationDefinition.parameter.searchType`.",
+        "requirements" : "Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.searchType` has is mapped to FHIR R4 element `OperationDefinition.parameter.searchType`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -661,7 +661,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "sliceName" : "binding",
         "short" : "ValueSet details if this is coded",
         "definition" : "Binds to a value set if this parameter is coded (code, Coding, CodeableConcept).",
-        "requirements" : "Element `OperationDefinition.parameter.binding` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.binding` is mapped to FHIR R4 element `OperationDefinition.parameter.binding`.",
+        "requirements" : "Element `OperationDefinition.parameter.binding` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.binding` has is mapped to FHIR R4 element `OperationDefinition.parameter.binding`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -698,7 +698,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "short" : "required | extensible | preferred | example",
         "definition" : "Indicates the degree of conformance expectations associated with this binding - that is, the degree to which the provided value set must be adhered to in the instances.",
         "comment" : "For further discussion, see [Using Terminologies](https://hl7.org/fhir/terminologies.html).",
-        "requirements" : "Element `OperationDefinition.parameter.binding.strength` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.strength`.",
+        "requirements" : "Element `OperationDefinition.parameter.binding.strength` is part of an existing definition because parent element `OperationDefinition.parameter.binding` requires a cross-version extension.\nElement `OperationDefinition.parameter.binding.strength` has is mapped to FHIR R4 element `OperationDefinition.parameter.binding.strength`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -750,7 +750,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "short" : "Source of value set",
         "definition" : "Points to the value set or external definition (e.g. implicit value set) that identifies the set of codes to be used.",
         "comment" : "For value sets with a referenceResource, the display can contain the value set description.  The reference may be version-specific or not.",
-        "requirements" : "Element `OperationDefinition.parameter.binding.valueSet` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.valueSet`.",
+        "requirements" : "Element `OperationDefinition.parameter.binding.valueSet` is part of an existing definition because parent element `OperationDefinition.parameter.binding` requires a cross-version extension.\nElement `OperationDefinition.parameter.binding.valueSet` has is mapped to FHIR R4 element `OperationDefinition.parameter.binding.valueSet`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -824,7 +824,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "short" : "References to this parameter",
         "definition" : "Identifies other resource parameters within the operation invocation that are expected to resolve to this resource.",
         "comment" : "Resolution applies if the referenced parameter exists.",
-        "requirements" : "Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.referencedFrom` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom`.",
+        "requirements" : "Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.referencedFrom` has is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -860,7 +860,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "sliceName" : "source",
         "short" : "Referencing parameter",
         "definition" : "The name of the parameter or dot-separated path of parameter names pointing to the resource parameter that is expected to contain a reference to this resource.",
-        "requirements" : "Element `OperationDefinition.parameter.referencedFrom.source` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.source`.",
+        "requirements" : "Element `OperationDefinition.parameter.referencedFrom.source` is part of an existing definition because parent element `OperationDefinition.parameter.referencedFrom` requires a cross-version extension.\nElement `OperationDefinition.parameter.referencedFrom.source` has is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.source`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -905,7 +905,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "sliceName" : "sourceId",
         "short" : "Element id of reference",
         "definition" : "The id of the element in the referencing resource that is expected to resolve to this resource.",
-        "requirements" : "Element `OperationDefinition.parameter.referencedFrom.sourceId` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.sourceId`.",
+        "requirements" : "Element `OperationDefinition.parameter.referencedFrom.sourceId` is part of an existing definition because parent element `OperationDefinition.parameter.referencedFrom` requires a cross-version extension.\nElement `OperationDefinition.parameter.referencedFrom.sourceId` has is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.sourceId`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -974,7 +974,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-OperationD
         "short" : "Parts of a nested Parameter",
         "definition" : "The parts of a nested Parameter.",
         "comment" : "Query Definitions only have one output parameter, named \"result\". This might not be described, but can be to allow a profile to be defined.",
-        "requirements" : "Element `OperationDefinition.parameter.part` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `OperationDefinition.parameter.part` is mapped to FHIR R4 element `OperationDefinition.parameter.part`.",
+        "requirements" : "Element `OperationDefinition.parameter.part` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.\nElement `OperationDefinition.parameter.part` has is mapped to FHIR R4 element `OperationDefinition.parameter.part`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

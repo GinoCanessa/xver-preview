@@ -1,4 +1,4 @@
-# ProfileValueSet - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileValueSet - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileValueSet 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 ValueSet content to be represented via FHIR
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ConceptMap.group.element.target.dependsOn` for use in FHIR R4](StructureDefinition-ext-R5-ConceptMap.gro.ele.tar.dependsOn.md), [Cross-version Extension `R5.ObservationDefinition.qualifiedValue` for use in FHIR R4](StructureDefinition-ext-R5-ObservationDefinition.qualifiedValue.md), [Cross-version Extension `R5.OperationDefinition.parameter` for use in FHIR R4](StructureDefinition-ext-R5-OperationDefinition.parameter.md), [Cross-version Extension `R5.Questionnaire.item` for use in FHIR R4](StructureDefinition-ext-R5-Questionnaire.item.md) and [Cross-version Extension `R5.ValueSet.compose.include` for use in FHIR R4](StructureDefinition-ext-R5-ValueSet.com.include.md)
+* Refer to this Profile: [Cross-version Extension `R5.ConceptMap.group` for use in FHIR R4](StructureDefinition-ext-R5-ConceptMap.group.md), [Cross-version Extension `R5.DataRequirement.codeFilter` for use in FHIR R4](StructureDefinition-ext-R5-DataRequirement.codeFilter.md), [Cross-version Extension `R5.ElementDefinition.binding` for use in FHIR R4](StructureDefinition-ext-R5-ElementDefinition.binding.md), [Cross-version Extension `R5.ObservationDefinition.qualifiedValue` for use in FHIR R4](StructureDefinition-ext-R5-ObservationDefinition.qualifiedValue.md)... Show 5 more, [Cross-version Extension `R5.OperationDefinition.parameter` for use in FHIR R4](StructureDefinition-ext-R5-OperationDefinition.parameter.md), [Cross-version Extension `R5.Questionnaire.item` for use in FHIR R4](StructureDefinition-ext-R5-Questionnaire.item.md), [Cross-version Extension `R5.StructureDefinition.differential` for use in FHIR R4](StructureDefinition-ext-R5-StructureDefinition.differential.md), [Cross-version Extension `R5.StructureDefinition.snapshot` for use in FHIR R4](StructureDefinition-ext-R5-StructureDefinition.snapshot.md) and [Cross-version Extension `R5.ValueSet.compose` for use in FHIR R4](StructureDefinition-ext-R5-ValueSet.compose.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ValueSet)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
   "title" : "Cross-version Profile for R5.ValueSet for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3975833-06:00",
+  "date" : "2026-02-17T14:42:26.9411804-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for ValueSet.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.versionAlgorithm[x]` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.versionAlgorithm[x]` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for ValueSet.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.copyrightLabel` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.copyrightLabel` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "approvalDate",
         "short" : "Cross-version extension for ValueSet.approvalDate from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.approvalDate` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.approvalDate` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "lastReviewDate",
         "short" : "Cross-version extension for ValueSet.lastReviewDate from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.lastReviewDate` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.lastReviewDate` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -262,7 +262,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "effectivePeriod",
         "short" : "Cross-version extension for ValueSet.effectivePeriod from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.effectivePeriod` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.effectivePeriod` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "topic",
         "short" : "Cross-version extension for ValueSet.topic from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.topic` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.topic` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -306,7 +306,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "author",
         "short" : "Cross-version extension for ValueSet.author from R5 for use in FHIR R4",
-        "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `ValueSet.author` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `ValueSet.author` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -328,7 +328,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "editor",
         "short" : "Cross-version extension for ValueSet.editor from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.editor` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.editor` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -350,7 +350,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "reviewer",
         "short" : "Cross-version extension for ValueSet.reviewer from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.reviewer` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.reviewer` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -372,7 +372,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "endorser",
         "short" : "Cross-version extension for ValueSet.endorser from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.endorser` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.endorser` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -394,7 +394,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "relatedArtifact",
         "short" : "Cross-version extension for ValueSet.relatedArtifact from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.relatedArtifact` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.relatedArtifact` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -416,7 +416,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         "path" : "ValueSet.extension",
         "sliceName" : "scope",
         "short" : "Cross-version extension for ValueSet.scope from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.scope` is will have a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
+        "comment" : "Element `ValueSet.scope` has a context of ValueSet based on following the parent source element upwards and mapping to `ValueSet`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -455,54 +455,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         }
       },
       {
-        "id" : "ValueSet.compose.extension:property",
+        "id" : "ValueSet.compose.extension:compose",
         "path" : "ValueSet.compose.extension",
-        "sliceName" : "property",
-        "short" : "Cross-version extension for ValueSet.compose.property from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.compose.property` is will have a context of ValueSet.compose based on following the parent source element upwards and mapping to `ValueSet`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.property|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ValueSet.compose.include.extension",
-        "path" : "ValueSet.compose.include.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ValueSet.compose.include.extension:copyright",
-        "path" : "ValueSet.compose.include.extension",
-        "sliceName" : "copyright",
-        "short" : "Cross-version extension for ValueSet.compose.include.copyright from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.compose.include.copyright` is part of an existing definition because parent element `ValueSet.compose.include` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.copyright` is will have a context of ValueSet.compose.include based on following the parent source element upwards and mapping to `ValueSet`.",
+        "sliceName" : "compose",
+        "short" : "Cross-version extension for ValueSet.compose from R5 for use in FHIR R4",
+        "comment" : "Element `ValueSet.compose` has is mapped to FHIR R4 element `ValueSet.compose`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -514,136 +471,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.copyright|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ValueSet.compose.include.concept.designation.extension",
-        "path" : "ValueSet.compose.include.concept.designation.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ValueSet.compose.include.concept.designation.extension:additionalUse",
-        "path" : "ValueSet.compose.include.concept.designation.extension",
-        "sliceName" : "additionalUse",
-        "short" : "Cross-version extension for ValueSet.compose.include.concept.designation.additionalUse from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.compose.include.concept.designation.additionalUse` is part of an existing definition because parent element `ValueSet.compose.include.concept.designation` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.compose.include.concept.designation.additionalUse` is will have a context of ValueSet.compose.include.concept.designation based on following the parent source element upwards and mapping to `ValueSet`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.concept.designation.additionalUse|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ValueSet.compose.include.filter.op.extension",
-        "path" : "ValueSet.compose.include.filter.op.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1,
-        "max" : "*",
-        "base" : {
-          "path" : "ValueSet.compose.include.filter.op",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ValueSet.compose.include.filter.op.extension:op",
-        "path" : "ValueSet.compose.include.filter.op.extension",
-        "sliceName" : "op",
-        "short" : "Cross-version extension for ValueSet.compose.include.filter.op from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.compose.include.filter.op` is mapped to FHIR R4 element `ValueSet.compose.include.filter.op`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.include.filter.op|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ValueSet.compose.exclude.extension",
-        "path" : "ValueSet.compose.exclude.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ValueSet.compose.exclude.extension:exclude",
-        "path" : "ValueSet.compose.exclude.extension",
-        "sliceName" : "exclude",
-        "short" : "Cross-version extension for ValueSet.compose.exclude from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.compose.exclude` is mapped to FHIR R4 element `ValueSet.compose.exclude`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose.exclude|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.compose|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -670,11 +498,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
         }
       },
       {
-        "id" : "ValueSet.expansion.extension:next",
+        "id" : "ValueSet.expansion.extension:expansion",
         "path" : "ValueSet.expansion.extension",
-        "sliceName" : "next",
-        "short" : "Cross-version extension for ValueSet.expansion.next from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.expansion.next` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`.",
+        "sliceName" : "expansion",
+        "short" : "Cross-version extension for ValueSet.expansion from R5 for use in FHIR R4",
+        "comment" : "Element `ValueSet.expansion` has is mapped to FHIR R4 element `ValueSet.expansion`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -686,244 +514,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ValueSet.
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.next|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ValueSet.expansion.extension:property",
-        "path" : "ValueSet.expansion.extension",
-        "sliceName" : "property",
-        "short" : "Cross-version extension for ValueSet.expansion.property from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.expansion.property` is will have a context of ValueSet.expansion based on following the parent source element upwards and mapping to `ValueSet`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.property|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ValueSet.expansion.contains.extension",
-        "path" : "ValueSet.expansion.contains.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ValueSet.expansion.contains.extension:property",
-        "path" : "ValueSet.expansion.contains.extension",
-        "sliceName" : "property",
-        "short" : "Cross-version extension for ValueSet.expansion.contains.property from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.expansion.contains.property` is part of an existing definition because parent element `ValueSet.expansion.contains` requires a component extension (e.g., if this element is used as a content reference).\nElement `ValueSet.expansion.contains.property` is will have a context of ValueSet.expansion.contains based on following the parent source element upwards and mapping to `ValueSet`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.property|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ValueSet.expansion.contains.designation.extension",
-        "path" : "ValueSet.expansion.contains.designation.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ValueSet.expansion.contains.designation.extension:additionalUse",
-        "path" : "ValueSet.expansion.contains.designation.extension",
-        "sliceName" : "additionalUse",
-        "short" : "Cross-version extension for ValueSet.expansion.contains.designation.additionalUse from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.expansion.contains.designation.additionalUse` is will have a context of ValueSet.expansion.contains.designation based on following the parent source element upwards and mapping to `ValueSet`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation.additionalUse|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ValueSet.expansion.contains.designation.language.extension",
-        "path" : "ValueSet.expansion.contains.designation.language.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "ValueSet.compose.include.concept.designation.language",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ValueSet.expansion.contains.designation.language.extension:language",
-        "path" : "ValueSet.expansion.contains.designation.language.extension",
-        "sliceName" : "language",
-        "short" : "Cross-version extension for ValueSet.expansion.contains.designation.language from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.expansion.contains.designation.language` is mapped to FHIR R4 element `ValueSet.expansion.contains.designation.language`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation.language|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ValueSet.expansion.contains.designation.use.extension",
-        "path" : "ValueSet.expansion.contains.designation.use.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "ValueSet.compose.include.concept.designation.use",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ValueSet.expansion.contains.designation.use.extension:use",
-        "path" : "ValueSet.expansion.contains.designation.use.extension",
-        "sliceName" : "use",
-        "short" : "Cross-version extension for ValueSet.expansion.contains.designation.use from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.expansion.contains.designation.use` is mapped to FHIR R4 element `ValueSet.expansion.contains.designation.use`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation.use|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ValueSet.expansion.contains.designation.value.extension",
-        "path" : "ValueSet.expansion.contains.designation.value.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1,
-        "max" : "*",
-        "base" : {
-          "path" : "ValueSet.compose.include.concept.designation.value",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "ValueSet.expansion.contains.designation.value.extension:value",
-        "path" : "ValueSet.expansion.contains.designation.value.extension",
-        "sliceName" : "value",
-        "short" : "Cross-version extension for ValueSet.expansion.contains.designation.value from R5 for use in FHIR R4",
-        "comment" : "Element `ValueSet.expansion.contains.designation.value` is mapped to FHIR R4 element `ValueSet.expansion.contains.designation.value`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion.contains.designation.value|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ValueSet.expansion|0.0.1-snapshot-3"
             ]
           }
         ]

@@ -1,4 +1,4 @@
-# ProfileImagingSelection - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileImagingSelection - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileImagingSelection 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ImagingSe
   "title" : "Cross-version Profile for R5.ImagingSelection for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1518866-06:00",
+  "date" : "2026-02-17T14:42:26.8237722-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

@@ -1,4 +1,4 @@
-# ConceptMapR5ArtifactAssessmentElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ArtifactAssessmentElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ArtifactAssessmentElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.4706124-06:00",
+  "date" : "2026-02-17T14:42:26.9859779-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -160,7 +160,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:title",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.title",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.title` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "citeAs[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:citeAs",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.citeAs",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.citeAs[x]` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "date",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:date",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.date",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.date` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyright",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:copyright",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.copyright",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.copyright` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "approvalDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:approvalDate",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.approvalDate",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.approvalDate` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "lastReviewDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:lastReviewDate",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.lastReviewDate",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.lastReviewDate` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "artifact[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:artifact",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.artifact",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.artifact[x]` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "informationType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:informationType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.informationType",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.informationType` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "summary",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:summary",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.summary",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.summary` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.type",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.type` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "classifier",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:classifier",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.classifier",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.classifier` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -292,7 +292,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "quantity",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:quantity",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.quantity",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.quantity` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "author",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:author",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.author",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.author` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "path",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:path",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.path",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.path` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "relatedArtifact",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:relatedArtifact",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.relatedArtifact",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.relatedArtifact` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "freeToShare",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:freeToShare",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.freeToShare",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.freeToShare` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -347,7 +347,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "component",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content:component",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.content.component` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -358,7 +358,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "workflowStatus",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:workflowStatus",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.workflowStatus",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.workflowStatus` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }
@@ -369,7 +369,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "disposition",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:disposition",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment:http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.disposition",
               "equivalence" : "relatedto",
               "comment" : "Element `ArtifactAssessment.disposition` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped."
             }

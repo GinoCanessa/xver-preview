@@ -1,4 +1,4 @@
-# ExtensionSubstanceDefinition_Name - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSubstanceDefinition_Name - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SubstanceDefinition.name` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `SubstanceDefinition
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.SubstanceDefinition for use in FHIR R4](StructureDefinition-profile-SubstanceDefinition-for-SubstanceSpecification.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-SubstanceDefinition.name)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
   "title" : "Cross-version Extension `R5.SubstanceDefinition.name` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.name` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.name` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.name` 0..* `BackboneElement`\n*  R4B: `SubstanceDefinition.name` 0..* `BackboneElement`\n*  R4: `SubstanceSpecification.name` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.name` is mapped to FHIR R4 element `SubstanceSpecification.name`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.name` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.name` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.name` 0..* `BackboneElement`\n*  R4B: `SubstanceDefinition.name` 0..* `BackboneElement`\n*  R4: `SubstanceSpecification.name` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.name` has is mapped to FHIR R4 element `SubstanceSpecification.name`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "SubstanceSpecification.name"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "name",
         "short" : "The actual name",
         "definition" : "The actual name.",
-        "requirements" : "Element `SubstanceDefinition.name.name` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.name` is mapped to FHIR R4 element `SubstanceSpecification.name.name`.",
+        "requirements" : "Element `SubstanceDefinition.name.name` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.name` has is mapped to FHIR R4 element `SubstanceSpecification.name.name`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "type",
         "short" : "Name type e.g. 'systematic',  'scientific, 'brand'",
         "definition" : "Name type, for example 'systematic',  'scientific, 'brand'.",
-        "requirements" : "Element `SubstanceDefinition.name.type` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.type` is mapped to FHIR R4 element `SubstanceSpecification.name.type`.",
+        "requirements" : "Element `SubstanceDefinition.name.type` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.type` has is mapped to FHIR R4 element `SubstanceSpecification.name.type`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -279,7 +279,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "status",
         "short" : "The status of the name e.g. 'current', 'proposed'",
         "definition" : "The status of the name, for example 'current', 'proposed'.",
-        "requirements" : "Element `SubstanceDefinition.name.status` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.status` is mapped to FHIR R4 element `SubstanceSpecification.name.status`.",
+        "requirements" : "Element `SubstanceDefinition.name.status` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.status` has is mapped to FHIR R4 element `SubstanceSpecification.name.status`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -329,7 +329,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "preferred",
         "short" : "If this is the preferred name for this substance",
         "definition" : "If this is the preferred name for this substance.",
-        "requirements" : "Element `SubstanceDefinition.name.preferred` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.preferred` is mapped to FHIR R4 element `SubstanceSpecification.name.preferred`.",
+        "requirements" : "Element `SubstanceDefinition.name.preferred` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.preferred` has is mapped to FHIR R4 element `SubstanceSpecification.name.preferred`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -374,7 +374,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "language",
         "short" : "Human language that the name is written in",
         "definition" : "Human language that the name is written in.",
-        "requirements" : "Element `SubstanceDefinition.name.language` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.language` is mapped to FHIR R4 element `SubstanceSpecification.name.language`.",
+        "requirements" : "Element `SubstanceDefinition.name.language` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.language` has is mapped to FHIR R4 element `SubstanceSpecification.name.language`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -419,7 +419,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "domain",
         "short" : "The use context of this name e.g. as an active ingredient or as a food colour additive",
         "definition" : "The use context of this name for example if there is a different name a drug active ingredient as opposed to a food colour additive.",
-        "requirements" : "Element `SubstanceDefinition.name.domain` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.domain` is mapped to FHIR R4 element `SubstanceSpecification.name.domain`.",
+        "requirements" : "Element `SubstanceDefinition.name.domain` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.domain` has is mapped to FHIR R4 element `SubstanceSpecification.name.domain`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -469,7 +469,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "jurisdiction",
         "short" : "The jurisdiction where this name applies",
         "definition" : "The jurisdiction where this name applies.",
-        "requirements" : "Element `SubstanceDefinition.name.jurisdiction` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.jurisdiction` is mapped to FHIR R4 element `SubstanceSpecification.name.jurisdiction`.",
+        "requirements" : "Element `SubstanceDefinition.name.jurisdiction` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.jurisdiction` has is mapped to FHIR R4 element `SubstanceSpecification.name.jurisdiction`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -519,7 +519,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "synonym",
         "short" : "A synonym of this particular name, by which the substance is also known",
         "definition" : "A synonym of this particular name, by which the substance is also known.",
-        "requirements" : "Element `SubstanceDefinition.name.synonym` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.synonym` is mapped to FHIR R4 element `SubstanceSpecification.name.synonym`.",
+        "requirements" : "Element `SubstanceDefinition.name.synonym` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.synonym` has is mapped to FHIR R4 element `SubstanceSpecification.name.synonym`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -557,7 +557,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "translation",
         "short" : "A translation for this name into another human language",
         "definition" : "A translation for this name into another human language.",
-        "requirements" : "Element `SubstanceDefinition.name.translation` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.translation` is mapped to FHIR R4 element `SubstanceSpecification.name.translation`.",
+        "requirements" : "Element `SubstanceDefinition.name.translation` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.translation` has is mapped to FHIR R4 element `SubstanceSpecification.name.translation`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -595,7 +595,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "official",
         "short" : "Details of the official nature of this name",
         "definition" : "Details of the official nature of this name.",
-        "requirements" : "Element `SubstanceDefinition.name.official` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.official` is mapped to FHIR R4 element `SubstanceSpecification.name.official`.",
+        "requirements" : "Element `SubstanceDefinition.name.official` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.official` has is mapped to FHIR R4 element `SubstanceSpecification.name.official`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -631,7 +631,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "authority",
         "short" : "Which authority uses this official name",
         "definition" : "Which authority uses this official name.",
-        "requirements" : "Element `SubstanceDefinition.name.official.authority` is mapped to FHIR R4 element `SubstanceSpecification.name.official.authority`.",
+        "requirements" : "Element `SubstanceDefinition.name.official.authority` is part of an existing definition because parent element `SubstanceDefinition.name.official` requires a cross-version extension.\nElement `SubstanceDefinition.name.official.authority` has is mapped to FHIR R4 element `SubstanceSpecification.name.official.authority`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -681,7 +681,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "status",
         "short" : "The status of the official name, for example 'draft', 'active'",
         "definition" : "The status of the official name, for example 'draft', 'active', 'retired'.",
-        "requirements" : "Element `SubstanceDefinition.name.official.status` is mapped to FHIR R4 element `SubstanceSpecification.name.official.status`.",
+        "requirements" : "Element `SubstanceDefinition.name.official.status` is part of an existing definition because parent element `SubstanceDefinition.name.official` requires a cross-version extension.\nElement `SubstanceDefinition.name.official.status` has is mapped to FHIR R4 element `SubstanceSpecification.name.official.status`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -731,7 +731,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "date",
         "short" : "Date of official name change",
         "definition" : "Date of the official name change.",
-        "requirements" : "Element `SubstanceDefinition.name.official.date` is mapped to FHIR R4 element `SubstanceSpecification.name.official.date`.",
+        "requirements" : "Element `SubstanceDefinition.name.official.date` is part of an existing definition because parent element `SubstanceDefinition.name.official` requires a cross-version extension.\nElement `SubstanceDefinition.name.official.date` has is mapped to FHIR R4 element `SubstanceSpecification.name.official.date`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -799,7 +799,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "source",
         "short" : "Supporting literature",
         "definition" : "Supporting literature.",
-        "requirements" : "Element `SubstanceDefinition.name.source` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.name.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.name.source` is mapped to FHIR R4 element `SubstanceSpecification.name.source`.",
+        "requirements" : "Element `SubstanceDefinition.name.source` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.name.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.name.source` has is mapped to FHIR R4 element `SubstanceSpecification.name.source`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

@@ -1,4 +1,4 @@
-# ProfileParameters - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileParameters - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileParameters 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Parameter
   "title" : "Cross-version Profile for R5.Parameters for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.257953-06:00",
+  "date" : "2026-02-17T14:42:26.8725237-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -160,13 +160,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Parameter
         }
       },
       {
-        "id" : "Parameters.parameter.extension:value",
+        "id" : "Parameters.parameter.extension:parameter",
         "path" : "Parameters.parameter.extension",
-        "sliceName" : "value",
-        "short" : "Cross-version extension for Parameters.parameter.value[x] from R5 for use in FHIR R4",
-        "comment" : "Element `Parameters.parameter.value[x]` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.\nElement `Parameters.parameter.value[x]` is mapped to FHIR R4 element `Parameters.parameter.value[x]`.\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.",
+        "sliceName" : "parameter",
+        "short" : "Cross-version extension for Parameters.parameter from R5 for use in FHIR R4",
+        "comment" : "Element `Parameters.parameter` has is mapped to FHIR R4 element `Parameters.parameter`, but has no comparisons.\nNote available implied context: `Parameters.parameter.part` because `Parameters.parameter.part` is defined as a content reference to `Parameters.parameter`.",
         "min" : 0,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -176,7 +176,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Parameter
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Parameters.parameter.value|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Parameters.parameter|0.0.1-snapshot-3"
             ]
           }
         ]

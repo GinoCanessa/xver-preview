@@ -1,4 +1,4 @@
-# ConceptMapR5AvailabilityElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5AvailabilityElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5AvailabilityElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.486352-06:00",
+  "date" : "2026-02-17T14:42:26.993753-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -105,7 +105,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "daysOfWeek",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:daysOfWeek",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.daysOfWeek",
               "equivalence" : "relatedto",
               "comment" : "Element `Availability.availableTime.daysOfWeek` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
             }
@@ -116,7 +116,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "allDay",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:allDay",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.allDay",
               "equivalence" : "relatedto",
               "comment" : "Element `Availability.availableTime.allDay` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
             }
@@ -127,7 +127,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "availableStartTime",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:availableStartTime",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableStartTime",
               "equivalence" : "relatedto",
               "comment" : "Element `Availability.availableTime.availableStartTime` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
             }
@@ -138,7 +138,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "availableEndTime",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:availableEndTime",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableEndTime",
               "equivalence" : "relatedto",
               "comment" : "Element `Availability.availableTime.availableEndTime` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
             }
@@ -160,7 +160,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime:description",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.description",
               "equivalence" : "relatedto",
               "comment" : "Element `Availability.notAvailableTime.description` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "during",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime:during",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime:http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.during",
               "equivalence" : "relatedto",
               "comment" : "Element `Availability.notAvailableTime.during` is not mapped to FHIR R4, since FHIR R5 `Availability` is not mapped."
             }

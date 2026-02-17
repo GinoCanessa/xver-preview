@@ -1,4 +1,4 @@
-# ExtensionCommunication_Payload - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionCommunication_Payload - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Communication.payload` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Communicat
   "title" : "Cross-version Extension `R5.Communication.payload` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Communicat
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Communication.payload` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Communication.payload` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Communication.payload` 0..* `BackboneElement`\n*  R4B: `Communication.payload` 0..* `BackboneElement`\n*  R4: `Communication.payload` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Communication.payload` is mapped to FHIR R4 element `Communication.payload`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Communication.payload` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Communication.payload` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Communication.payload` 0..* `BackboneElement`\n*  R4B: `Communication.payload` 0..* `BackboneElement`\n*  R4: `Communication.payload` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Communication.payload` has is mapped to FHIR R4 element `Communication.payload`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Communicat
         "short" : "Message part content",
         "definition" : "A communicated content (or for multi-part communications, one portion of the communication).",
         "comment" : "The content can be codified or textual.  As an example of codified content, when working with machine generated communications, the payload may be drawn from a finite, terminology defined set of communications, especially for short, status update kinds of communications where more of a natural language approach isn't appropriate.\n\nIf the content isn't codified, contentCodeableConcept.text can be used.  \n\nWhen using contentCodeableConcept, the CodeableConcept is what is being communicated and is not a categorization of the content.",
-        "requirements" : "Note that the target element context `Communication.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Communication.payload`.\nElement `Communication.payload.content[x]` is mapped to FHIR R4 element `Communication.payload.content[x]`.\nNote that the target element context `Communication.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Communication.payload`.",
+        "requirements" : "Element `Communication.payload.content[x]` is part of an existing definition because parent element `Communication.payload` requires a cross-version extension.\nNote that the target element context `Communication.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Communication.payload`.\nElement `Communication.payload.content[x]` has is mapped to FHIR R4 element `Communication.payload.content[x]`, but has no comparisons.\nNote that the target element context `Communication.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Communication.payload`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Communicat
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "content"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Communication.payload.content"
       },
       {
         "id" : "Extension.extension:content.value[x]",

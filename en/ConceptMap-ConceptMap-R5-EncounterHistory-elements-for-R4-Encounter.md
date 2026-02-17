@@ -1,4 +1,4 @@
-# ConceptMapR5EncounterHistoryElementsForR4Encounter - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5EncounterHistoryElementsForR4Encounter - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5EncounterHistoryElementsForR4Encounter 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.8084967-06:00",
+  "date" : "2026-02-17T14:42:27.2137667-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `EncounterHistory` is representable via FHIR R4 Resource `Encounter`.\nElement `EncounterHistory` is mapped to FHIR R4 element `Encounter`."
+              "comment" : "FHIR R5 Resource `EncounterHistory` is representable via FHIR R4 Resource `Encounter`.\nElement `EncounterHistory` has is mapped to FHIR R4 element `Encounter`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.meta` is mapped to FHIR R4 element `Encounter.meta`."
+              "comment" : "Element `EncounterHistory.meta` has is mapped to FHIR R4 element `Encounter.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.implicitRules` is mapped to FHIR R4 element `Encounter.implicitRules`."
+              "comment" : "Element `EncounterHistory.implicitRules` has is mapped to FHIR R4 element `Encounter.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.language` is mapped to FHIR R4 element `Encounter.language`."
+              "comment" : "Element `EncounterHistory.language` has is mapped to FHIR R4 element `Encounter.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.text` is mapped to FHIR R4 element `Encounter.text`."
+              "comment" : "Element `EncounterHistory.text` has is mapped to FHIR R4 element `Encounter.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.contained` is mapped to FHIR R4 element `Encounter.contained`."
+              "comment" : "Element `EncounterHistory.contained` has is mapped to FHIR R4 element `Encounter.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EncounterHistory.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EncounterHistory.encounter` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EncounterHistory.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EncounterHistory.encounter` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.identifier` is mapped to FHIR R4 element `Encounter.identifier`."
+              "comment" : "Element `EncounterHistory.identifier` has is mapped to FHIR R4 element `Encounter.identifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.status",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `EncounterHistory.status` is mapped to FHIR R4 element `Encounter.status`."
+              "comment" : "Note that the target element context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `EncounterHistory.status` has is mapped to FHIR R4 element `Encounter.status`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.class",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.class` is mapped to FHIR R4 element `Encounter.class`."
+              "comment" : "Element `EncounterHistory.class` has is mapped to FHIR R4 element `Encounter.class`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.type` is mapped to FHIR R4 element `Encounter.type`."
+              "comment" : "Element `EncounterHistory.type` has is mapped to FHIR R4 element `Encounter.type`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.serviceType",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.serviceType` is mapped to FHIR R4 element `Encounter.serviceType`."
+              "comment" : "Element `EncounterHistory.serviceType` has is mapped to FHIR R4 element `Encounter.serviceType`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.subject` is mapped to FHIR R4 element `Encounter.subject`."
+              "comment" : "Element `EncounterHistory.subject` has is mapped to FHIR R4 element `Encounter.subject`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.subjectStatus` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`."
+              "comment" : "Element `EncounterHistory.subjectStatus` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.actualPeriod` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`."
+              "comment" : "Element `EncounterHistory.actualPeriod` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.plannedStartDate` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`."
+              "comment" : "Element `EncounterHistory.plannedStartDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.plannedEndDate` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`."
+              "comment" : "Element `EncounterHistory.plannedEndDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.length",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.length` is mapped to FHIR R4 element `Encounter.length`."
+              "comment" : "Element `EncounterHistory.length` has is mapped to FHIR R4 element `Encounter.length`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.location` is mapped to FHIR R4 element `Encounter.location`."
+              "comment" : "Element `EncounterHistory.location` has is mapped to FHIR R4 element `Encounter.location`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.location.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.location.location` is mapped to FHIR R4 element `Encounter.location.location`."
+              "comment" : "Element `EncounterHistory.location.location` is part of an existing definition because parent element `EncounterHistory.location` requires a cross-version extension.\nElement `EncounterHistory.location.location` has is mapped to FHIR R4 element `Encounter.location.location`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `EncounterHistory.location.form` is will have a context of Encounter.location based on following the parent source element upwards and mapping to `Encounter`."
+              "comment" : "Element `EncounterHistory.location.form` is part of an existing definition because parent element `EncounterHistory.location` requires a cross-version extension.\nElement `EncounterHistory.location.form` has a context of Encounter.location based on following the parent source element upwards and mapping to `Encounter`."
             }
           ]
         }

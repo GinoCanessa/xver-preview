@@ -1,4 +1,4 @@
-# ConceptMapR5ActorDefinitionElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ActorDefinitionElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ActorDefinitionElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.4378394-06:00",
+  "date" : "2026-02-17T14:42:26.963057-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -149,7 +149,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "url",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:url",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.url` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "version",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:version",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.version` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:versionAlgorithm",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.versionAlgorithm",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.versionAlgorithm[x]` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "name",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:name",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.name` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:title",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.title` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:status",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.status` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "experimental",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:experimental",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.experimental",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.experimental` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -237,7 +237,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "date",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:date",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.date` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "publisher",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:publisher",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.publisher` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "contact",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:contact",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.contact` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:description",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.description` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "useContext",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:useContext",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.useContext",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.useContext` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -292,7 +292,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "jurisdiction",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:jurisdiction",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "purpose",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:purpose",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.purpose",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.purpose` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyright",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:copyright",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.copyright",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.copyright` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyrightLabel",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:copyrightLabel",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.copyrightLabel",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.copyrightLabel` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.type` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -347,7 +347,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "documentation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:documentation",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.documentation",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.documentation` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -358,7 +358,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:reference",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.reference",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.reference` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -369,7 +369,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "capabilities",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:capabilities",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.capabilities",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.capabilities` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }
@@ -380,7 +380,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "derivedFrom",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:derivedFrom",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition:http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.derivedFrom",
               "equivalence" : "relatedto",
               "comment" : "Element `ActorDefinition.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `ActorDefinition` is not mapped."
             }

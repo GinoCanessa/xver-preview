@@ -1,4 +1,4 @@
-# ExtensionTransport - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionTransport - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Transport` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
   "title" : "Cross-version Extension `R5.Transport` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "instantiatesCanonical"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.instantiatesCanonical"
       },
       {
         "id" : "Extension.extension:instantiatesCanonical.value[x]",
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "instantiatesUri"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.instantiatesUri"
       },
       {
         "id" : "Extension.extension:instantiatesUri.value[x]",
@@ -297,7 +297,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "basedOn"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.basedOn"
       },
       {
         "id" : "Extension.extension:basedOn.value[x]",
@@ -346,7 +346,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "groupIdentifier"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.groupIdentifier"
       },
       {
         "id" : "Extension.extension:groupIdentifier.value[x]",
@@ -392,7 +392,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "partOf"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.partOf"
       },
       {
         "id" : "Extension.extension:partOf.value[x]",
@@ -442,7 +442,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -488,7 +488,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "statusReason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.statusReason"
       },
       {
         "id" : "Extension.extension:statusReason.value[x]",
@@ -535,7 +535,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "intent"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.intent"
       },
       {
         "id" : "Extension.extension:intent.value[x]",
@@ -581,7 +581,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "priority"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.priority"
       },
       {
         "id" : "Extension.extension:priority.value[x]",
@@ -632,7 +632,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.code"
       },
       {
         "id" : "Extension.extension:code.value[x]",
@@ -678,7 +678,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.description"
       },
       {
         "id" : "Extension.extension:description.value[x]",
@@ -724,7 +724,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "focus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.focus"
       },
       {
         "id" : "Extension.extension:focus.value[x]",
@@ -774,7 +774,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "for"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.for"
       },
       {
         "id" : "Extension.extension:for.value[x]",
@@ -823,7 +823,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "encounter"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.encounter"
       },
       {
         "id" : "Extension.extension:encounter.value[x]",
@@ -872,7 +872,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "completionTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.completionTime"
       },
       {
         "id" : "Extension.extension:completionTime.value[x]",
@@ -917,7 +917,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "authoredOn"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.authoredOn"
       },
       {
         "id" : "Extension.extension:authoredOn.value[x]",
@@ -962,7 +962,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "lastModified"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.lastModified"
       },
       {
         "id" : "Extension.extension:lastModified.value[x]",
@@ -1007,7 +1007,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "requester"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.requester"
       },
       {
         "id" : "Extension.extension:requester.value[x]",
@@ -1066,7 +1066,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "performerType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.performerType"
       },
       {
         "id" : "Extension.extension:performerType.value[x]",
@@ -1117,7 +1117,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "owner"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.owner"
       },
       {
         "id" : "Extension.extension:owner.value[x]",
@@ -1181,7 +1181,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "location"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.location"
       },
       {
         "id" : "Extension.extension:location.value[x]",
@@ -1230,7 +1230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "insurance"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.insurance"
       },
       {
         "id" : "Extension.extension:insurance.value[x]",
@@ -1281,7 +1281,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.note"
       },
       {
         "id" : "Extension.extension:note.value[x]",
@@ -1327,7 +1327,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "relevantHistory"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.relevantHistory"
       },
       {
         "id" : "Extension.extension:relevantHistory.value[x]",
@@ -1413,7 +1413,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "repetitions"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction.repetitions"
       },
       {
         "id" : "Extension.extension:restriction.extension:repetitions.value[x]",
@@ -1459,7 +1459,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "period"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction.period"
       },
       {
         "id" : "Extension.extension:restriction.extension:period.value[x]",
@@ -1505,7 +1505,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "recipient"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.restriction.recipient"
       },
       {
         "id" : "Extension.extension:restriction.extension:recipient.value[x]",
@@ -1624,7 +1624,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input.type"
       },
       {
         "id" : "Extension.extension:input.extension:type.value[x]",
@@ -1687,7 +1687,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
         "sliceName" : "valueCodeableReference",
         "short" : "Reference to a resource or a concept",
         "definition" : "A reference to a resource (by instance), or instead, a reference to a concept defined in a terminology or ontology (by class).",
-        "requirements" : "FHIR R5 ComplexType `CodeableReference` is representable via FHIR R4 extensions.\nFHIR R5 ComplexType `CodeableReference` is representable via FHIR R4 extensions.\nElement `CodeableReference` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "FHIR R5 ComplexType `CodeableReference` is representable via FHIR R4 extensions.\nFHIR R5 ComplexType `CodeableReference` is representable via FHIR R4 extensions.\nElement `CodeableReference` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1767,7 +1767,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1812,7 +1812,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2267,7 +2267,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "daysOfWeek"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.daysOfWeek"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueAvailability.extension:availableTime.extension:daysOfWeek.value[x]",
@@ -2317,7 +2317,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "allDay"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.allDay"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueAvailability.extension:availableTime.extension:allDay.value[x]",
@@ -2363,7 +2363,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "availableStartTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableStartTime"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueAvailability.extension:availableTime.extension:availableStartTime.value[x]",
@@ -2410,7 +2410,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "availableEndTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableEndTime"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueAvailability.extension:availableTime.extension:availableEndTime.value[x]",
@@ -2516,7 +2516,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.description"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueAvailability.extension:notAvailableTime.extension:description.value[x]",
@@ -2562,7 +2562,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "during"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.during"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueAvailability.extension:notAvailableTime.extension:during.value[x]",
@@ -2735,7 +2735,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "purpose"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.purpose"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueExtendedContactDetail.extension:purpose.value[x]",
@@ -2787,7 +2787,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "name"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.name"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueExtendedContactDetail.extension:name.value[x]",
@@ -2833,7 +2833,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "telecom"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.telecom"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueExtendedContactDetail.extension:telecom.value[x]",
@@ -2879,7 +2879,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "address"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.address"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueExtendedContactDetail.extension:address.value[x]",
@@ -2925,7 +2925,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "organization"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.organization"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueExtendedContactDetail.extension:organization.value[x]",
@@ -2975,7 +2975,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "period"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.period"
       },
       {
         "id" : "Extension.extension:input.extension:value.extension:valueExtendedContactDetail.extension:period.value[x]",
@@ -3029,7 +3029,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.input.value"
       },
       {
         "id" : "Extension.extension:input.extension:value.value[x]",
@@ -3277,7 +3277,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output.type"
       },
       {
         "id" : "Extension.extension:output.extension:type.value[x]",
@@ -3339,7 +3339,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
         "sliceName" : "valueCodeableReference",
         "short" : "Reference to a resource or a concept",
         "definition" : "A reference to a resource (by instance), or instead, a reference to a concept defined in a terminology or ontology (by class).",
-        "requirements" : "FHIR R5 ComplexType `CodeableReference` is representable via FHIR R4 extensions.\nFHIR R5 ComplexType `CodeableReference` is representable via FHIR R4 extensions.\nElement `CodeableReference` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "FHIR R5 ComplexType `CodeableReference` is representable via FHIR R4 extensions.\nFHIR R5 ComplexType `CodeableReference` is representable via FHIR R4 extensions.\nElement `CodeableReference` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -3419,7 +3419,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3464,7 +3464,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3919,7 +3919,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "daysOfWeek"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.daysOfWeek"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueAvailability.extension:availableTime.extension:daysOfWeek.value[x]",
@@ -3969,7 +3969,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "allDay"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.allDay"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueAvailability.extension:availableTime.extension:allDay.value[x]",
@@ -4015,7 +4015,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "availableStartTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableStartTime"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueAvailability.extension:availableTime.extension:availableStartTime.value[x]",
@@ -4062,7 +4062,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "availableEndTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableEndTime"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueAvailability.extension:availableTime.extension:availableEndTime.value[x]",
@@ -4168,7 +4168,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.description"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueAvailability.extension:notAvailableTime.extension:description.value[x]",
@@ -4214,7 +4214,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "during"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.during"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueAvailability.extension:notAvailableTime.extension:during.value[x]",
@@ -4387,7 +4387,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "purpose"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.purpose"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueExtendedContactDetail.extension:purpose.value[x]",
@@ -4439,7 +4439,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "name"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.name"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueExtendedContactDetail.extension:name.value[x]",
@@ -4485,7 +4485,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "telecom"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.telecom"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueExtendedContactDetail.extension:telecom.value[x]",
@@ -4531,7 +4531,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "address"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.address"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueExtendedContactDetail.extension:address.value[x]",
@@ -4577,7 +4577,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "organization"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.organization"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueExtendedContactDetail.extension:organization.value[x]",
@@ -4627,7 +4627,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "period"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.period"
       },
       {
         "id" : "Extension.extension:output.extension:value.extension:valueExtendedContactDetail.extension:period.value[x]",
@@ -4681,7 +4681,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.output.value"
       },
       {
         "id" : "Extension.extension:output.extension:value.value[x]",
@@ -4893,7 +4893,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "requestedLocation"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.requestedLocation"
       },
       {
         "id" : "Extension.extension:requestedLocation.value[x]",
@@ -4942,7 +4942,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "currentLocation"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.currentLocation"
       },
       {
         "id" : "Extension.extension:currentLocation.value[x]",
@@ -5053,7 +5053,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -5098,7 +5098,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -5151,7 +5151,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.reason"
       },
       {
         "id" : "Extension.extension:reason.value[x]",
@@ -5189,7 +5189,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Transport.
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "history"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Transport.history"
       },
       {
         "id" : "Extension.extension:history.value[x]",

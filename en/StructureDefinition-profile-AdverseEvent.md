@@ -1,4 +1,4 @@
-# ProfileAdverseEvent - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileAdverseEvent - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileAdverseEvent 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
   "title" : "Cross-version Profile for R5.AdverseEvent for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:42.9753401-06:00",
+  "date" : "2026-02-17T14:42:26.7240824-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -164,7 +164,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "path" : "AdverseEvent.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for AdverseEvent.status from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.status` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "comment" : "Element `AdverseEvent.status` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "path" : "AdverseEvent.extension",
         "sliceName" : "participant",
         "short" : "Cross-version extension for AdverseEvent.participant from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.participant` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "comment" : "Element `AdverseEvent.participant` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -208,7 +208,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "path" : "AdverseEvent.extension",
         "sliceName" : "expectedInResearchStudy",
         "short" : "Cross-version extension for AdverseEvent.expectedInResearchStudy from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.expectedInResearchStudy` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "comment" : "Element `AdverseEvent.expectedInResearchStudy` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "path" : "AdverseEvent.extension",
         "sliceName" : "contributingFactor",
         "short" : "Cross-version extension for AdverseEvent.contributingFactor from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.contributingFactor` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "comment" : "Element `AdverseEvent.contributingFactor` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "path" : "AdverseEvent.extension",
         "sliceName" : "preventiveAction",
         "short" : "Cross-version extension for AdverseEvent.preventiveAction from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.preventiveAction` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "comment" : "Element `AdverseEvent.preventiveAction` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "path" : "AdverseEvent.extension",
         "sliceName" : "mitigatingAction",
         "short" : "Cross-version extension for AdverseEvent.mitigatingAction from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.mitigatingAction` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "comment" : "Element `AdverseEvent.mitigatingAction` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -296,7 +296,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "path" : "AdverseEvent.extension",
         "sliceName" : "supportingInfo",
         "short" : "Cross-version extension for AdverseEvent.supportingInfo from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.supportingInfo` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "comment" : "Element `AdverseEvent.supportingInfo` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -318,7 +318,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "path" : "AdverseEvent.extension",
         "sliceName" : "note",
         "short" : "Cross-version extension for AdverseEvent.note from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.note` is will have a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
+        "comment" : "Element `AdverseEvent.note` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -361,7 +361,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "path" : "AdverseEvent.date.extension",
         "sliceName" : "occurrence",
         "short" : "Cross-version extension for AdverseEvent.occurrence[x] from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.occurrence[x]` is mapped to FHIR R4 element `AdverseEvent.date`.",
+        "comment" : "Element `AdverseEvent.occurrence[x]` has is mapped to FHIR R4 element `AdverseEvent.date`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -405,7 +405,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "sliceName" : "resultingEffect",
         "short" : "Cross-version extension for AdverseEvent.resultingEffect from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Observation in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.resultingEffect` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.resultingEffect` is mapped to FHIR R4 element `AdverseEvent.resultingCondition`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.resultingEffect` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.resultingEffect` has is mapped to FHIR R4 element `AdverseEvent.resultingCondition`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -449,7 +449,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "sliceName" : "recorder",
         "short" : "Cross-version extension for AdverseEvent.recorder from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/ResearchSubject in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.recorder` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.recorder` is mapped to FHIR R4 element `AdverseEvent.recorder`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.recorder` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.recorder` has is mapped to FHIR R4 element `AdverseEvent.recorder`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -467,8 +467,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         ]
       },
       {
-        "id" : "AdverseEvent.suspectEntity.instance.extension",
-        "path" : "AdverseEvent.suspectEntity.instance.extension",
+        "id" : "AdverseEvent.suspectEntity.extension",
+        "path" : "AdverseEvent.suspectEntity.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -482,109 +482,20 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "AdverseEvent.suspectEntity.instance",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "AdverseEvent.suspectEntity.instance.extension:instance",
-        "path" : "AdverseEvent.suspectEntity.instance.extension",
-        "sliceName" : "instance",
-        "short" : "Cross-version extension for AdverseEvent.suspectEntity.instance[x] from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.suspectEntity.instance[x]` is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.instance|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "AdverseEvent.suspectEntity.instance.extension:instanceCanonical",
-        "path" : "AdverseEvent.suspectEntity.instance.extension",
-        "sliceName" : "instanceCanonical",
-        "short" : "Cross-version extension for AdverseEvent.suspectEntity.instance[x] from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct,http://hl7.org/fhir/StructureDefinition/ResearchStudy in FHIR R4",
-        "comment" : "Element `AdverseEvent.suspectEntity.instance[x]` is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.instance|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "AdverseEvent.suspectEntity.instance.extension:instanceReference",
-        "path" : "AdverseEvent.suspectEntity.instance.extension",
-        "sliceName" : "instanceReference",
-        "short" : "Cross-version extension for AdverseEvent.suspectEntity.instance[x] from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct,http://hl7.org/fhir/StructureDefinition/ResearchStudy in FHIR R4",
-        "comment" : "Element `AdverseEvent.suspectEntity.instance[x]` is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.instance|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "AdverseEvent.suspectEntity.causality.productRelatedness.extension",
-        "path" : "AdverseEvent.suspectEntity.causality.productRelatedness.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
+        "id" : "AdverseEvent.suspectEntity.extension:suspectEntity",
+        "path" : "AdverseEvent.suspectEntity.extension",
+        "sliceName" : "suspectEntity",
+        "short" : "Cross-version extension for AdverseEvent.suspectEntity from R5 for use in FHIR R4",
+        "comment" : "Element `AdverseEvent.suspectEntity` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "AdverseEvent.suspectEntity.causality.productRelatedness",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "AdverseEvent.suspectEntity.causality.productRelatedness.extension:entityRelatedness",
-        "path" : "AdverseEvent.suspectEntity.causality.productRelatedness.extension",
-        "sliceName" : "entityRelatedness",
-        "short" : "Cross-version extension for AdverseEvent.suspectEntity.causality.entityRelatedness from R5 for use in FHIR R4",
-        "comment" : "Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.productRelatedness`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
           "max" : "*"
@@ -593,51 +504,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AdverseEv
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.causality.entityRelatedness|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "AdverseEvent.suspectEntity.causality.author.extension",
-        "path" : "AdverseEvent.suspectEntity.causality.author.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "AdverseEvent.suspectEntity.causality.author",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "AdverseEvent.suspectEntity.causality.author.extension:author",
-        "path" : "AdverseEvent.suspectEntity.causality.author.extension",
-        "sliceName" : "author",
-        "short" : "Cross-version extension for AdverseEvent.suspectEntity.causality.author from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/ResearchSubject in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.suspectEntity.causality.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.suspectEntity.causality.author` is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.author`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity|0.0.1-snapshot-3"
             ]
           }
         ]

@@ -1,4 +1,4 @@
-# ProfileArtifactAssessment - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileArtifactAssessment - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileArtifactAssessment 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ArtifactA
   "title" : "Cross-version Profile for R5.ArtifactAssessment for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:42.9854062-06:00",
+  "date" : "2026-02-17T14:42:26.7339545-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

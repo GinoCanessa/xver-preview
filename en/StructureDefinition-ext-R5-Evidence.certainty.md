@@ -1,4 +1,4 @@
-# ExtensionEvidence_Certainty - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionEvidence_Certainty - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Evidence.certainty` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
   "title" : "Cross-version Extension `R5.Evidence.certainty` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.certainty` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.certainty` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.certainty` 0..* `BackboneElement`\n*  R4B: `Evidence.certainty` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.certainty` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.certainty` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.certainty` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.certainty` 0..* `BackboneElement`\n*  R4B: `Evidence.certainty` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.certainty` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
         "sliceName" : "description",
         "short" : "Textual description of certainty",
         "definition" : "Textual description of certainty.",
-        "requirements" : "Element `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.description"
       },
       {
         "id" : "Extension.extension:description.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
         "sliceName" : "note",
         "short" : "Footnotes and/or explanatory notes",
         "definition" : "Footnotes and/or explanatory notes.",
-        "requirements" : "Element `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.note"
       },
       {
         "id" : "Extension.extension:note.value[x]",
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
         "sliceName" : "type",
         "short" : "Aspect of certainty being rated",
         "definition" : "Aspect of certainty being rated.",
-        "requirements" : "Element `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.type` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.type` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -324,7 +324,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
         "sliceName" : "rating",
         "short" : "Assessment or judgement of the aspect",
         "definition" : "Assessment or judgement of the aspect.",
-        "requirements" : "Element `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.rating` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rating` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -343,7 +343,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "rating"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.rating"
       },
       {
         "id" : "Extension.extension:rating.value[x]",
@@ -374,7 +374,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
         "sliceName" : "rater",
         "short" : "Individual or group who did the rating",
         "definition" : "Individual or group who did the rating.",
-        "requirements" : "Element `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.rater` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rater` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -393,7 +393,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "rater"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.rater"
       },
       {
         "id" : "Extension.extension:rater.value[x]",
@@ -419,7 +419,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.c
         "sliceName" : "subcomponent",
         "short" : "A domain or subdomain of certainty",
         "definition" : "A domain or subdomain of certainty.",
-        "requirements" : "Element `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a component extension (e.g., if this element is used as a content reference).\nElement `Evidence.certainty.subcomponent` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.subcomponent` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {

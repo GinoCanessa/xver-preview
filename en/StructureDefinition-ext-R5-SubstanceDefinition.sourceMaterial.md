@@ -1,4 +1,4 @@
-# ExtensionSubstanceDefinition_SourceMaterial - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSubstanceDefinition_SourceMaterial - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SubstanceDefinition.sourceMaterial` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
   "title" : "Cross-version Extension `R5.SubstanceDefinition.sourceMaterial` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.sourceMaterial` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.sourceMaterial` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.sourceMaterial` 0..1 `BackboneElement`\n*  R4B: `SubstanceDefinition.sourceMaterial` 0..1 `BackboneElement`\n*  R4: `SubstanceSpecification.sourceMaterial` 0..1 `Reference(http://hl7.org/fhir/StructureDefinition/SubstanceSourceMaterial)`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.sourceMaterial` is mapped to FHIR R4 element `SubstanceSpecification.sourceMaterial`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.sourceMaterial` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.sourceMaterial` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.sourceMaterial` 0..1 `BackboneElement`\n*  R4B: `SubstanceDefinition.sourceMaterial` 0..1 `BackboneElement`\n*  R4: `SubstanceSpecification.sourceMaterial` 0..1 `Reference(http://hl7.org/fhir/StructureDefinition/SubstanceSourceMaterial)`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.sourceMaterial` has is mapped to FHIR R4 element `SubstanceSpecification.sourceMaterial`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "type",
         "short" : "Classification of the origin of the raw material. e.g. cat hair is an Animal source type",
         "definition" : "A classification that provides the origin of the raw material. Example: cat hair would be an Animal source type.",
-        "requirements" : "Element `SubstanceDefinition.sourceMaterial.type` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.sourceMaterial.type` is part of an existing definition because parent element `SubstanceDefinition.sourceMaterial` requires a cross-version extension.\nElement `SubstanceDefinition.sourceMaterial.type` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "genus",
         "short" : "The genus of an organism e.g. the Latin epithet of the plant/animal scientific name",
         "definition" : "The genus of an organism, typically referring to the Latin epithet of the genus element of the plant/animal scientific name.",
-        "requirements" : "Element `SubstanceDefinition.sourceMaterial.genus` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.sourceMaterial.genus` is part of an existing definition because parent element `SubstanceDefinition.sourceMaterial` requires a cross-version extension.\nElement `SubstanceDefinition.sourceMaterial.genus` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -253,7 +253,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "genus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.genus"
       },
       {
         "id" : "Extension.extension:genus.value[x]",
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "species",
         "short" : "The species of an organism e.g. the Latin epithet of the species of the plant/animal",
         "definition" : "The species of an organism, typically referring to the Latin epithet of the species of the plant/animal.",
-        "requirements" : "Element `SubstanceDefinition.sourceMaterial.species` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.sourceMaterial.species` is part of an existing definition because parent element `SubstanceDefinition.sourceMaterial` requires a cross-version extension.\nElement `SubstanceDefinition.sourceMaterial.species` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -303,7 +303,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "species"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.species"
       },
       {
         "id" : "Extension.extension:species.value[x]",
@@ -334,7 +334,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "part",
         "short" : "An anatomical origin of the source material within an organism",
         "definition" : "An anatomical origin of the source material within an organism.",
-        "requirements" : "Element `SubstanceDefinition.sourceMaterial.part` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.sourceMaterial.part` is part of an existing definition because parent element `SubstanceDefinition.sourceMaterial` requires a cross-version extension.\nElement `SubstanceDefinition.sourceMaterial.part` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -353,7 +353,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "part"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.part"
       },
       {
         "id" : "Extension.extension:part.value[x]",
@@ -384,7 +384,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "countryOfOrigin",
         "short" : "The country or countries where the material is harvested",
         "definition" : "The country or countries where the material is harvested.",
-        "requirements" : "Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` is part of an existing definition because parent element `SubstanceDefinition.sourceMaterial` requires a cross-version extension.\nElement `SubstanceDefinition.sourceMaterial.countryOfOrigin` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -403,7 +403,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "countryOfOrigin"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.sourceMaterial.countryOfOrigin"
       },
       {
         "id" : "Extension.extension:countryOfOrigin.value[x]",

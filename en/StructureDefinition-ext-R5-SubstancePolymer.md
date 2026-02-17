@@ -1,4 +1,4 @@
-# ExtensionSubstancePolymer - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSubstancePolymer - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SubstancePolymer` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
   "title" : "Cross-version Extension `R5.SubstancePolymer` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "class"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.class"
       },
       {
         "id" : "Extension.extension:class.value[x]",
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "geometry"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.geometry"
       },
       {
         "id" : "Extension.extension:geometry.value[x]",
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "copolymerConnectivity"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.copolymerConnectivity"
       },
       {
         "id" : "Extension.extension:copolymerConnectivity.value[x]",
@@ -338,7 +338,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "modification"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.modification"
       },
       {
         "id" : "Extension.extension:modification.value[x]",
@@ -419,7 +419,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "ratioType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet.ratioType"
       },
       {
         "id" : "Extension.extension:monomerSet.extension:ratioType.value[x]",
@@ -500,7 +500,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet.startingMaterial.code"
       },
       {
         "id" : "Extension.extension:monomerSet.extension:startingMaterial.extension:code.value[x]",
@@ -545,7 +545,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "category"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet.startingMaterial.category"
       },
       {
         "id" : "Extension.extension:monomerSet.extension:startingMaterial.extension:category.value[x]",
@@ -590,7 +590,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "isDefining"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet.startingMaterial.isDefining"
       },
       {
         "id" : "Extension.extension:monomerSet.extension:startingMaterial.extension:isDefining.value[x]",
@@ -635,7 +635,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "amount"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.monomerSet.startingMaterial.amount"
       },
       {
         "id" : "Extension.extension:monomerSet.extension:startingMaterial.extension:amount.value[x]",
@@ -762,7 +762,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "averageMolecularFormula"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.averageMolecularFormula"
       },
       {
         "id" : "Extension.extension:repeat.extension:averageMolecularFormula.value[x]",
@@ -807,7 +807,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "repeatUnitAmountType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnitAmountType"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnitAmountType.value[x]",
@@ -888,7 +888,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "unit"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.unit"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:unit.value[x]",
@@ -933,7 +933,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "orientation"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.orientation"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:orientation.value[x]",
@@ -978,7 +978,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "amount"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.amount"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:amount.value[x]",
@@ -1059,7 +1059,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.type"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:degreeOfPolymerisation.extension:type.value[x]",
@@ -1104,7 +1104,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "average"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.average"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:degreeOfPolymerisation.extension:average.value[x]",
@@ -1149,7 +1149,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "low"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.low"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:degreeOfPolymerisation.extension:low.value[x]",
@@ -1194,7 +1194,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "high"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.degreeOfPolymerisation.high"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:degreeOfPolymerisation.extension:high.value[x]",
@@ -1298,7 +1298,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.structuralRepresentation.type"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:structuralRepresentation.extension:type.value[x]",
@@ -1343,7 +1343,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "representation"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.structuralRepresentation.representation"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:structuralRepresentation.extension:representation.value[x]",
@@ -1388,7 +1388,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "format"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.structuralRepresentation.format"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:structuralRepresentation.extension:format.value[x]",
@@ -1433,7 +1433,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "attachment"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstancePolymer.repeat.repeatUnit.structuralRepresentation.attachment"
       },
       {
         "id" : "Extension.extension:repeat.extension:repeatUnit.extension:structuralRepresentation.extension:attachment.value[x]",

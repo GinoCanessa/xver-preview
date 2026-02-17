@@ -1,4 +1,4 @@
-# ExtensionAppointment_RecurrenceTemplate - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAppointment_RecurrenceTemplate - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Appointment.recurrenceTemplate` for use in FHIR R4 
 
@@ -92,7 +92,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
   "title" : "Cross-version Extension `R5.Appointment.recurrenceTemplate` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -117,7 +117,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Appointment.recurrenceTemplate` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Appointment.recurrenceTemplate` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Appointment.recurrenceTemplate` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Appointment.recurrenceTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Appointment.recurrenceTemplate` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Appointment.recurrenceTemplate` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Appointment.recurrenceTemplate` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Appointment.recurrenceTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -180,7 +180,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "timezone",
         "short" : "The timezone of the occurrences",
         "definition" : "The timezone of the recurring appointment occurrences.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.timezone` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.timezone` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -199,7 +199,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "timezone"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.timezone"
       },
       {
         "id" : "Extension.extension:timezone.value[x]",
@@ -225,7 +225,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "recurrenceType",
         "short" : "The frequency of the recurrence",
         "definition" : "How often the appointment series should recur.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.recurrenceType` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.recurrenceType` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -244,7 +244,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "recurrenceType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.recurrenceType"
       },
       {
         "id" : "Extension.extension:recurrenceType.value[x]",
@@ -270,7 +270,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "lastOccurrenceDate",
         "short" : "The date when the recurrence should end",
         "definition" : "Recurring appointments will not occur after this date.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.lastOccurrenceDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.lastOccurrenceDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -289,7 +289,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "lastOccurrenceDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.lastOccurrenceDate"
       },
       {
         "id" : "Extension.extension:lastOccurrenceDate.value[x]",
@@ -315,7 +315,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "occurrenceCount",
         "short" : "The number of planned occurrences",
         "definition" : "How many appointments are planned in the recurrence.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceCount` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceCount` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -334,7 +334,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "occurrenceCount"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.occurrenceCount"
       },
       {
         "id" : "Extension.extension:occurrenceCount.value[x]",
@@ -360,7 +360,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "occurrenceDate",
         "short" : "Specific dates for a recurring set of appointments (no template)",
         "definition" : "The list of specific dates that will have appointments generated.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -379,7 +379,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "occurrenceDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.occurrenceDate"
       },
       {
         "id" : "Extension.extension:occurrenceDate.value[x]",
@@ -405,7 +405,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "weeklyTemplate",
         "short" : "Information about weekly recurring appointments",
         "definition" : "Information about weekly recurring appointments.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -441,7 +441,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "monday",
         "short" : "Recurs on Mondays",
         "definition" : "Indicates that recurring appointments should occur on Mondays.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.monday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.monday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -460,7 +460,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "monday"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.monday"
       },
       {
         "id" : "Extension.extension:weeklyTemplate.extension:monday.value[x]",
@@ -486,7 +486,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "tuesday",
         "short" : "Recurs on Tuesday",
         "definition" : "Indicates that recurring appointments should occur on Tuesdays.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -505,7 +505,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "tuesday"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.tuesday"
       },
       {
         "id" : "Extension.extension:weeklyTemplate.extension:tuesday.value[x]",
@@ -531,7 +531,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "wednesday",
         "short" : "Recurs on Wednesday",
         "definition" : "Indicates that recurring appointments should occur on Wednesdays.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -550,7 +550,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "wednesday"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.wednesday"
       },
       {
         "id" : "Extension.extension:weeklyTemplate.extension:wednesday.value[x]",
@@ -576,7 +576,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "thursday",
         "short" : "Recurs on Thursday",
         "definition" : "Indicates that recurring appointments should occur on Thursdays.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.thursday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -595,7 +595,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "thursday"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.thursday"
       },
       {
         "id" : "Extension.extension:weeklyTemplate.extension:thursday.value[x]",
@@ -621,7 +621,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "friday",
         "short" : "Recurs on Friday",
         "definition" : "Indicates that recurring appointments should occur on Fridays.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.friday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.friday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -640,7 +640,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "friday"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.friday"
       },
       {
         "id" : "Extension.extension:weeklyTemplate.extension:friday.value[x]",
@@ -666,7 +666,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "saturday",
         "short" : "Recurs on Saturday",
         "definition" : "Indicates that recurring appointments should occur on Saturdays.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.saturday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -685,7 +685,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "saturday"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.saturday"
       },
       {
         "id" : "Extension.extension:weeklyTemplate.extension:saturday.value[x]",
@@ -711,7 +711,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "sunday",
         "short" : "Recurs on Sunday",
         "definition" : "Indicates that recurring appointments should occur on Sundays.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.sunday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -730,7 +730,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sunday"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.sunday"
       },
       {
         "id" : "Extension.extension:weeklyTemplate.extension:sunday.value[x]",
@@ -756,7 +756,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "weekInterval",
         "short" : "Recurs every nth week",
         "definition" : "The interval defines if the recurrence is every nth week. The default is every week, so it is expected that this value will be 2 or more.\r\re.g. For recurring every second week this interval would be 2, or every third week the interval would be 3.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -775,7 +775,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "weekInterval"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.weekInterval"
       },
       {
         "id" : "Extension.extension:weeklyTemplate.extension:weekInterval.value[x]",
@@ -824,7 +824,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "monthlyTemplate",
         "short" : "Information about monthly recurring appointments",
         "definition" : "Information about monthly recurring appointments.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -860,7 +860,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "dayOfMonth",
         "short" : "Recurs on a specific day of the month",
         "definition" : "Indicates that appointments in the series of recurring appointments should occur on a specific day of the month.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -879,7 +879,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "dayOfMonth"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth"
       },
       {
         "id" : "Extension.extension:monthlyTemplate.extension:dayOfMonth.value[x]",
@@ -905,7 +905,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "nthWeekOfMonth",
         "short" : "Indicates which week of the month the appointment should occur",
         "definition" : "Indicates which week within a month the appointments in the series of recurring appointments should occur on.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -924,7 +924,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "nthWeekOfMonth"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth"
       },
       {
         "id" : "Extension.extension:monthlyTemplate.extension:nthWeekOfMonth.value[x]",
@@ -951,7 +951,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "short" : "Indicates which day of the week the appointment should occur",
         "definition" : "Indicates which day of the week the recurring appointments should occur each nth week.",
         "comment" : "This property is intended to be used with Appointment.recurrenceTemplate.monthly.nthWeek.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -970,7 +970,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "dayOfWeek"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek"
       },
       {
         "id" : "Extension.extension:monthlyTemplate.extension:dayOfWeek.value[x]",
@@ -1002,7 +1002,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "monthInterval",
         "short" : "Recurs every nth month",
         "definition" : "Indicates that recurring appointments should occur every nth month.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -1021,7 +1021,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "monthInterval"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.monthInterval"
       },
       {
         "id" : "Extension.extension:monthlyTemplate.extension:monthInterval.value[x]",
@@ -1070,7 +1070,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "yearlyTemplate",
         "short" : "Information about yearly recurring appointments",
         "definition" : "Information about yearly recurring appointments.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1106,7 +1106,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "sliceName" : "yearInterval",
         "short" : "Recurs every nth year",
         "definition" : "Appointment recurs every nth year.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -1125,7 +1125,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "yearInterval"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.yearlyTemplate.yearInterval"
       },
       {
         "id" : "Extension.extension:yearlyTemplate.extension:yearInterval.value[x]",
@@ -1175,7 +1175,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "short" : "Any dates that should be excluded from the series",
         "definition" : "Any dates, such as holidays, that should be excluded from the recurrence.",
         "comment" : "excludingDate is an alternative to excludingRecurrenceId.  You may say either that 12/25/XXXX should be excluded using excludingDate, or you may indicate the recurrenceId of the appointment that would fall on the excluded date in the excludingRecurrenceId property.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingDate` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1194,7 +1194,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "excludingDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.excludingDate"
       },
       {
         "id" : "Extension.extension:excludingDate.value[x]",
@@ -1222,7 +1222,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
         "short" : "Any recurrence IDs that should be excluded from the recurrence",
         "definition" : "Any dates, such as holidays, that should be excluded from the recurrence.",
         "comment" : "excludingRecurrenceId is an alternative to excludingDate.  You may say either that 12/25/XXXX should be excluded using excludingDate, or you may indicate the recurrenceId of the appointment that would fall on the excluded date in the excludingRecurrenceId property.",
-        "requirements" : "Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingRecurrenceId` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+        "requirements" : "Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingRecurrenceId` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1241,7 +1241,7 @@ You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "excludingRecurrenceId"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.excludingRecurrenceId"
       },
       {
         "id" : "Extension.extension:excludingRecurrenceId.value[x]",

@@ -1,4 +1,4 @@
-# ConceptMapR5AllergyIntoleranceElementsForR4AllergyIntolerance - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5AllergyIntoleranceElementsForR4AllergyIntolerance - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5AllergyIntoleranceElementsForR4AllergyIntolerance 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.4551393-06:00",
+  "date" : "2026-02-17T14:42:26.9746578-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `AllergyIntolerance` is representable via FHIR R4 Resource `AllergyIntolerance`.\nElement `AllergyIntolerance` is mapped to FHIR R4 element `AllergyIntolerance`."
+              "comment" : "FHIR R5 Resource `AllergyIntolerance` is representable via FHIR R4 Resource `AllergyIntolerance`.\nElement `AllergyIntolerance` has is mapped to FHIR R4 element `AllergyIntolerance`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.meta` is mapped to FHIR R4 element `AllergyIntolerance.meta`."
+              "comment" : "Element `AllergyIntolerance.meta` has is mapped to FHIR R4 element `AllergyIntolerance.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.implicitRules` is mapped to FHIR R4 element `AllergyIntolerance.implicitRules`."
+              "comment" : "Element `AllergyIntolerance.implicitRules` has is mapped to FHIR R4 element `AllergyIntolerance.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.language` is mapped to FHIR R4 element `AllergyIntolerance.language`."
+              "comment" : "Element `AllergyIntolerance.language` has is mapped to FHIR R4 element `AllergyIntolerance.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.text` is mapped to FHIR R4 element `AllergyIntolerance.text`."
+              "comment" : "Element `AllergyIntolerance.text` has is mapped to FHIR R4 element `AllergyIntolerance.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.contained` is mapped to FHIR R4 element `AllergyIntolerance.contained`."
+              "comment" : "Element `AllergyIntolerance.contained` has is mapped to FHIR R4 element `AllergyIntolerance.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.identifier` is mapped to FHIR R4 element `AllergyIntolerance.identifier`."
+              "comment" : "Element `AllergyIntolerance.identifier` has is mapped to FHIR R4 element `AllergyIntolerance.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.clinicalStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.clinicalStatus` is mapped to FHIR R4 element `AllergyIntolerance.clinicalStatus`."
+              "comment" : "Element `AllergyIntolerance.clinicalStatus` has is mapped to FHIR R4 element `AllergyIntolerance.clinicalStatus`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.verificationStatus",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `AllergyIntolerance.verificationStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AllergyIntolerance.verificationStatus` is mapped to FHIR R4 element `AllergyIntolerance.verificationStatus`."
+              "comment" : "Note that the target element context `AllergyIntolerance.verificationStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AllergyIntolerance.verificationStatus` has is mapped to FHIR R4 element `AllergyIntolerance.verificationStatus`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.type` is mapped to FHIR R4 element `AllergyIntolerance.type`."
+              "comment" : "Element `AllergyIntolerance.type` has is mapped to FHIR R4 element `AllergyIntolerance.type`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.category` is mapped to FHIR R4 element `AllergyIntolerance.category`."
+              "comment" : "Element `AllergyIntolerance.category` has is mapped to FHIR R4 element `AllergyIntolerance.category`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.criticality",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.criticality` is mapped to FHIR R4 element `AllergyIntolerance.criticality`."
+              "comment" : "Element `AllergyIntolerance.criticality` has is mapped to FHIR R4 element `AllergyIntolerance.criticality`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.code` is mapped to FHIR R4 element `AllergyIntolerance.code`."
+              "comment" : "Element `AllergyIntolerance.code` has is mapped to FHIR R4 element `AllergyIntolerance.code`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.patient` is mapped to FHIR R4 element `AllergyIntolerance.patient`."
+              "comment" : "Element `AllergyIntolerance.patient` has is mapped to FHIR R4 element `AllergyIntolerance.patient`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.encounter` is mapped to FHIR R4 element `AllergyIntolerance.encounter`."
+              "comment" : "Element `AllergyIntolerance.encounter` has is mapped to FHIR R4 element `AllergyIntolerance.encounter`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.onset[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `AllergyIntolerance.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AllergyIntolerance`.\nElement `AllergyIntolerance.onset[x]` is mapped to FHIR R4 element `AllergyIntolerance.onset[x]`.\nNote that the target element context `AllergyIntolerance.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AllergyIntolerance`."
+              "comment" : "Note that the target element context `AllergyIntolerance.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AllergyIntolerance`.\nElement `AllergyIntolerance.onset[x]` has is mapped to FHIR R4 element `AllergyIntolerance.onset[x]`, but has no comparisons.\nNote that the target element context `AllergyIntolerance.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AllergyIntolerance`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.recordedDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.recordedDate` is mapped to FHIR R4 element `AllergyIntolerance.recordedDate`."
+              "comment" : "Element `AllergyIntolerance.recordedDate` has is mapped to FHIR R4 element `AllergyIntolerance.recordedDate`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.participant` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`."
+              "comment" : "Element `AllergyIntolerance.participant` has a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.participant.function` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nElement `AllergyIntolerance.participant.function` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`."
+              "comment" : "Element `AllergyIntolerance.participant.function` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nElement `AllergyIntolerance.participant.function` has a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.participant.actor` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AllergyIntolerance.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AllergyIntolerance.participant.actor` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`."
+              "comment" : "Element `AllergyIntolerance.participant.actor` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AllergyIntolerance.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AllergyIntolerance.participant.actor` has a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.lastOccurrence",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.lastOccurrence` is mapped to FHIR R4 element `AllergyIntolerance.lastOccurrence`."
+              "comment" : "Element `AllergyIntolerance.lastOccurrence` has is mapped to FHIR R4 element `AllergyIntolerance.lastOccurrence`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.note` is mapped to FHIR R4 element `AllergyIntolerance.note`."
+              "comment" : "Element `AllergyIntolerance.note` has is mapped to FHIR R4 element `AllergyIntolerance.note`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.reaction` is mapped to FHIR R4 element `AllergyIntolerance.reaction`."
+              "comment" : "Element `AllergyIntolerance.reaction` has is mapped to FHIR R4 element `AllergyIntolerance.reaction`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.substance",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.reaction.substance` is mapped to FHIR R4 element `AllergyIntolerance.reaction.substance`."
+              "comment" : "Element `AllergyIntolerance.reaction.substance` is part of an existing definition because parent element `AllergyIntolerance.reaction` requires a cross-version extension.\nElement `AllergyIntolerance.reaction.substance` has is mapped to FHIR R4 element `AllergyIntolerance.reaction.substance`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.manifestation",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.reaction.manifestation` is mapped to FHIR R4 element `AllergyIntolerance.reaction.manifestation`."
+              "comment" : "Element `AllergyIntolerance.reaction.manifestation` is part of an existing definition because parent element `AllergyIntolerance.reaction` requires a cross-version extension.\nElement `AllergyIntolerance.reaction.manifestation` has is mapped to FHIR R4 element `AllergyIntolerance.reaction.manifestation`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.reaction.description` is mapped to FHIR R4 element `AllergyIntolerance.reaction.description`."
+              "comment" : "Element `AllergyIntolerance.reaction.description` is part of an existing definition because parent element `AllergyIntolerance.reaction` requires a cross-version extension.\nElement `AllergyIntolerance.reaction.description` has is mapped to FHIR R4 element `AllergyIntolerance.reaction.description`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.onset",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.reaction.onset` is mapped to FHIR R4 element `AllergyIntolerance.reaction.onset`."
+              "comment" : "Element `AllergyIntolerance.reaction.onset` is part of an existing definition because parent element `AllergyIntolerance.reaction` requires a cross-version extension.\nElement `AllergyIntolerance.reaction.onset` has is mapped to FHIR R4 element `AllergyIntolerance.reaction.onset`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.severity",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.reaction.severity` is mapped to FHIR R4 element `AllergyIntolerance.reaction.severity`."
+              "comment" : "Element `AllergyIntolerance.reaction.severity` is part of an existing definition because parent element `AllergyIntolerance.reaction` requires a cross-version extension.\nElement `AllergyIntolerance.reaction.severity` has is mapped to FHIR R4 element `AllergyIntolerance.reaction.severity`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.exposureRoute",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.reaction.exposureRoute` is mapped to FHIR R4 element `AllergyIntolerance.reaction.exposureRoute`."
+              "comment" : "Element `AllergyIntolerance.reaction.exposureRoute` is part of an existing definition because parent element `AllergyIntolerance.reaction` requires a cross-version extension.\nElement `AllergyIntolerance.reaction.exposureRoute` has is mapped to FHIR R4 element `AllergyIntolerance.reaction.exposureRoute`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/AllergyIntolerance#AllergyIntolerance.reaction.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `AllergyIntolerance.reaction.note` is mapped to FHIR R4 element `AllergyIntolerance.reaction.note`."
+              "comment" : "Element `AllergyIntolerance.reaction.note` is part of an existing definition because parent element `AllergyIntolerance.reaction` requires a cross-version extension.\nElement `AllergyIntolerance.reaction.note` has is mapped to FHIR R4 element `AllergyIntolerance.reaction.note`, but has no comparisons."
             }
           ]
         }

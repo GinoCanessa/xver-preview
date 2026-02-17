@@ -1,4 +1,4 @@
-# Lookup for ProfileEndpoint - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileEndpoint - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileEndpoint
 
@@ -20,16 +20,16 @@ A computable version of the following element information is available in: [Conc
 | [`Endpoint.contained`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.contained](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.identifier`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.identifier](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.status`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.status](https://hl7.org/fhir/R4/Endpoint.html#resource) |
-| [`Endpoint.connectionType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.connectionType](https://hl7.org/fhir/R4/Endpoint.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.connectionType](StructureDefinition-ext-R5-Endpoint.connectionType.md) |
+| [`Endpoint.connectionType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.connectionType](https://hl7.org/fhir/R4/Endpoint.html#resource)[Extension: ExtensionEndpoint_ConnectionType](StructureDefinition-ext-R5-Endpoint.connectionType.md) |
 | [`Endpoint.name`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.name](https://hl7.org/fhir/R4/Endpoint.html#resource) |
-| [`Endpoint.description`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint](https://hl7.org/fhir/R4/Endpoint.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.description](StructureDefinition-ext-R5-Endpoint.description.md) |
-| [`Endpoint.environmentType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint](https://hl7.org/fhir/R4/Endpoint.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.environmentType](StructureDefinition-ext-R5-Endpoint.environmentType.md) |
+| [`Endpoint.description`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Extension: ExtensionEndpoint_Description](StructureDefinition-ext-R5-Endpoint.description.md) |
+| [`Endpoint.environmentType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Extension: ExtensionEndpoint_EnvironmentType](StructureDefinition-ext-R5-Endpoint.environmentType.md) |
 | [`Endpoint.managingOrganization`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.managingOrganization](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.contact`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.contact](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.period`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.period](https://hl7.org/fhir/R4/Endpoint.html#resource) |
-| [`Endpoint.payload`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint](https://hl7.org/fhir/R4/Endpoint.html#resource) |
-| [`Endpoint.payload.type`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint](https://hl7.org/fhir/R4/Endpoint.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Endpoint.payload.type](StructureDefinition-ext-R5-Endpoint.pay.type.md) |
-| [`Endpoint.payload.mimeType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint](https://hl7.org/fhir/R4/Endpoint.html#resource)[Endpoint.payloadMimeType](https://hl7.org/fhir/R4/Endpoint.html#resource) |
+| [`Endpoint.payload`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Extension: ExtensionEndpoint_Payload](StructureDefinition-ext-R5-Endpoint.payload.md) |
+| [`Endpoint.payload.type`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Extension: ExtensionEndpoint_Payload Slice:type](StructureDefinition-ext-R5-Endpoint.payload.md) |
+| [`Endpoint.payload.mimeType`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.payloadMimeType](https://hl7.org/fhir/R4/Endpoint.html#resource)[Extension: ExtensionEndpoint_Payload Slice:mimeType](StructureDefinition-ext-R5-Endpoint.payload.md) |
 | [`Endpoint.address`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.address](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 | [`Endpoint.header`](https://hl7.org/fhir/R5/Endpoint.html#resource) | [Endpoint.header](https://hl7.org/fhir/R4/Endpoint.html#resource) |
 

@@ -1,4 +1,4 @@
-# ExtensionObservationDefinition_QualifiedValue - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionObservationDefinition_QualifiedValue - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ObservationDefinition.qualifiedValue` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `ObservationDefiniti
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.ObservationDefinition for use in FHIR R4](StructureDefinition-profile-ObservationDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-ObservationDefinition.qualifiedValue)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
   "title" : "Cross-version Extension `R5.ObservationDefinition.qualifiedValue` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ObservationDefinition.qualifiedValue` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ObservationDefinition.qualifiedValue` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ObservationDefinition.qualifiedValue` 0..* `BackboneElement`\n*  R4B: `ObservationDefinition.qualifiedInterval` 0..* `BackboneElement`\n*  R4: `ObservationDefinition.qualifiedInterval` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ObservationDefinition.qualifiedValue` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ObservationDefinition.qualifiedValue` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ObservationDefinition.qualifiedValue` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ObservationDefinition.qualifiedValue` 0..* `BackboneElement`\n*  R4B: `ObservationDefinition.qualifiedInterval` 0..* `BackboneElement`\n*  R4: `ObservationDefinition.qualifiedInterval` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ObservationDefinition.qualifiedValue` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "ObservationDefinition.qualifiedInterval"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "context",
         "short" : "Context qualifier for the set of qualified values",
         "definition" : "A concept defining the context for this set of qualified values.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.context` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.context`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.context` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.context`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "short" : "Targetted population for the set of qualified values",
         "definition" : "The target population this  set of qualified values applies to.",
         "comment" : "If this element is not present then the global population is assumed.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.appliesTo` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.appliesTo`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.appliesTo` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.appliesTo`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "gender",
         "short" : "male | female | other | unknown",
         "definition" : "The gender this  set of qualified values applies to.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gender` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gender`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.gender` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gender`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -334,7 +334,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "short" : "Applicable age range for the set of qualified values",
         "definition" : "The age range this  set of qualified values applies to.",
         "comment" : "Some analytes vary greatly over age.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.age` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.age`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.age` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.age`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -380,7 +380,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "gestationalAge",
         "short" : "Applicable gestational age range for the set of qualified values",
         "definition" : "The gestational age this  set of qualified values applies to.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gestationalAge` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gestationalAge`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.gestationalAge` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gestationalAge`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -425,7 +425,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "condition",
         "short" : "Condition associated with the set of qualified values",
         "definition" : "Text based condition for which the the set of qualified values is valid.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.condition` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.condition`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.condition` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.condition`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -470,7 +470,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "rangeCategory",
         "short" : "reference | critical | absolute",
         "definition" : "The category of range of values for continuous or ordinal observations that match the criteria of this set of qualified values.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.rangeCategory` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.category`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.rangeCategory` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.category`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -519,7 +519,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "range",
         "short" : "The range for continuous or ordinal observations",
         "definition" : "The range of values defined for continuous or ordinal observations that match the criteria of this set of qualified values.",
-        "requirements" : "The unit may be not relevant for ordinal values. In case it is there, it is the same as ObservationDefinition.unit. Element `ObservationDefinition.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.range` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.range`.",
+        "requirements" : "The unit may be not relevant for ordinal values. In case it is there, it is the same as ObservationDefinition.unit. Element `ObservationDefinition.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.range` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.range`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -564,7 +564,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "validCodedValueSet",
         "short" : "Value set of valid coded values as part of this set of qualified values",
         "definition" : "The set of valid coded results for qualitative observations  that match the criteria of this set of qualified values.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.validCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.validCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -613,7 +613,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "normalCodedValueSet",
         "short" : "Value set of normal coded values as part of this set of qualified values",
         "definition" : "The set of normal coded results for qualitative observations  that match the criteria of this set of qualified values.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.normalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.normalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -662,7 +662,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "abnormalCodedValueSet",
         "short" : "Value set of abnormal coded values as part of this set of qualified values",
         "definition" : "The set of abnormal coded results for qualitative observations  that match the criteria of this set of qualified values.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -711,7 +711,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "criticalCodedValueSet",
         "short" : "Value set of critical coded values as part of this set of qualified values",
         "definition" : "The set of critical coded results for qualitative observations  that match the criteria of this set of qualified values.",
-        "requirements" : "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet`.",
+        "requirements" : "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {

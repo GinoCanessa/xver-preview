@@ -1,4 +1,4 @@
-# ProfileNamingSystem - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileNamingSystem - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileNamingSystem 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
   "title" : "Cross-version Profile for R5.NamingSystem for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2292347-06:00",
+  "date" : "2026-02-17T14:42:26.8590558-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "url",
         "short" : "Cross-version extension for NamingSystem.url from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.url` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.url` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "version",
         "short" : "Cross-version extension for NamingSystem.version from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.version` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.version` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for NamingSystem.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.versionAlgorithm[x]` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.versionAlgorithm[x]` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "title",
         "short" : "Cross-version extension for NamingSystem.title from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.title` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.title` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -262,7 +262,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "experimental",
         "short" : "Cross-version extension for NamingSystem.experimental from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.experimental` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.experimental` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "purpose",
         "short" : "Cross-version extension for NamingSystem.purpose from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.purpose` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.purpose` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -306,7 +306,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "copyright",
         "short" : "Cross-version extension for NamingSystem.copyright from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.copyright` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.copyright` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -328,7 +328,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for NamingSystem.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.copyrightLabel` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.copyrightLabel` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -350,7 +350,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "approvalDate",
         "short" : "Cross-version extension for NamingSystem.approvalDate from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.approvalDate` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.approvalDate` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -372,7 +372,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "lastReviewDate",
         "short" : "Cross-version extension for NamingSystem.lastReviewDate from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.lastReviewDate` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.lastReviewDate` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -394,7 +394,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "effectivePeriod",
         "short" : "Cross-version extension for NamingSystem.effectivePeriod from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.effectivePeriod` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.effectivePeriod` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -416,7 +416,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "topic",
         "short" : "Cross-version extension for NamingSystem.topic from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.topic` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.topic` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -438,7 +438,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "author",
         "short" : "Cross-version extension for NamingSystem.author from R5 for use in FHIR R4",
-        "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `NamingSystem.author` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `NamingSystem.author` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -460,7 +460,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "editor",
         "short" : "Cross-version extension for NamingSystem.editor from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.editor` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.editor` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -482,7 +482,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "reviewer",
         "short" : "Cross-version extension for NamingSystem.reviewer from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.reviewer` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.reviewer` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -504,7 +504,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "endorser",
         "short" : "Cross-version extension for NamingSystem.endorser from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.endorser` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.endorser` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -526,7 +526,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         "path" : "NamingSystem.extension",
         "sliceName" : "relatedArtifact",
         "short" : "Cross-version extension for NamingSystem.relatedArtifact from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.relatedArtifact` is will have a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
+        "comment" : "Element `NamingSystem.relatedArtifact` has a context of NamingSystem based on following the parent source element upwards and mapping to `NamingSystem`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -556,7 +556,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 0,
+        "min" : 1,
         "max" : "*",
         "base" : {
           "path" : "Element.extension",
@@ -565,57 +565,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
         }
       },
       {
-        "id" : "NamingSystem.uniqueId.extension:authoritative",
+        "id" : "NamingSystem.uniqueId.extension:uniqueId",
         "path" : "NamingSystem.uniqueId.extension",
-        "sliceName" : "authoritative",
-        "short" : "Cross-version extension for NamingSystem.uniqueId.authoritative from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.uniqueId.authoritative` is will have a context of NamingSystem.uniqueId based on following the parent source element upwards and mapping to `NamingSystem`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId.authoritative|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "NamingSystem.uniqueId.type.extension",
-        "path" : "NamingSystem.uniqueId.type.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
+        "sliceName" : "uniqueId",
+        "short" : "Cross-version extension for NamingSystem.uniqueId from R5 for use in FHIR R4",
+        "comment" : "Element `NamingSystem.uniqueId` has is mapped to FHIR R4 element `NamingSystem.uniqueId`, but has no comparisons.",
         "min" : 1,
         "max" : "*",
         "base" : {
-          "path" : "NamingSystem.uniqueId.type",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "NamingSystem.uniqueId.type.extension:type",
-        "path" : "NamingSystem.uniqueId.type.extension",
-        "sliceName" : "type",
-        "short" : "Cross-version extension for NamingSystem.uniqueId.type from R5 for use in FHIR R4",
-        "comment" : "Element `NamingSystem.uniqueId.type` is mapped to FHIR R4 element `NamingSystem.uniqueId.type`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
           "max" : "*"
@@ -624,7 +581,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-NamingSys
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId.type|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-NamingSystem.uniqueId|0.0.1-snapshot-3"
             ]
           }
         ]

@@ -1,4 +1,4 @@
-# ExtensionMedicinalProductDefinition_Contact - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionMedicinalProductDefinition_Contact - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.MedicinalProductDefinition.contact` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
   "title" : "Cross-version Extension `R5.MedicinalProductDefinition.contact` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicinalProductDefinition.contact` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicinalProductDefinition.contact` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicinalProductDefinition.contact` 0..* `BackboneElement`\n*  R4B: `MedicinalProductDefinition.contact` 0..* `BackboneElement`\n*  R4: `MedicinalProduct.contact` 0..* `Reference(http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/PractitionerRole)`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicinalProductDefinition.contact` is mapped to FHIR R4 element `MedicinalProduct.contact`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicinalProductDefinition.contact` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicinalProductDefinition.contact` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicinalProductDefinition.contact` 0..* `BackboneElement`\n*  R4B: `MedicinalProductDefinition.contact` 0..* `BackboneElement`\n*  R4: `MedicinalProduct.contact` 0..* `Reference(http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/PractitionerRole)`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicinalProductDefinition.contact` has is mapped to FHIR R4 element `MedicinalProduct.contact`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "type",
         "short" : "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information",
         "definition" : "Allows the contact to be classified, for example QPPV, Pharmacovigilance Enquiry Information.",
-        "requirements" : "Element `MedicinalProductDefinition.contact.type` is will have a context of MedicinalProduct.contact based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "requirements" : "Element `MedicinalProductDefinition.contact.type` is part of an existing definition because parent element `MedicinalProductDefinition.contact` requires a cross-version extension.\nElement `MedicinalProductDefinition.contact.type` has a context of MedicinalProduct.contact based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.contact.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -234,7 +234,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "contact",
         "short" : "A product specific contact, person (in a role), or an organization",
         "definition" : "A product specific contact, person (in a role), or an organization.",
-        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.contact.contact` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.contact.contact` is will have a context of MedicinalProduct.contact based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "requirements" : "Element `MedicinalProductDefinition.contact.contact` is part of an existing definition because parent element `MedicinalProductDefinition.contact` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.contact.contact` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.contact.contact` has a context of MedicinalProduct.contact based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -253,7 +253,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "contact"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.contact.contact"
       },
       {
         "id" : "Extension.extension:contact.value[x]",

@@ -1,4 +1,4 @@
-# ProfileServiceRequest - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileServiceRequest - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileServiceRequest 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 ServiceRequest content to be represented vi
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.BiologicallyDerivedProductDispense` for use in FHIR R4](StructureDefinition-ext-R5-BiologicallyDerivedProductDispense.md), [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md) and [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
+* Refer to this Profile: [Cross-version Extension `R5.BiologicallyDerivedProductDispense` for use in FHIR R4](StructureDefinition-ext-R5-BiologicallyDerivedProductDispense.md), [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md), [Cross-version Extension `R5.Claim.item` for use in FHIR R4](StructureDefinition-ext-R5-Claim.item.md), [Cross-version Extension `R5.ClaimResponse.addItem` for use in FHIR R4](StructureDefinition-ext-R5-ClaimResponse.addItem.md)... Show 5 more, [Cross-version Extension `R5.ExplanationOfBenefit.addItem` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.addItem.md), [Cross-version Extension `R5.ExplanationOfBenefit.item` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.item.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md) and [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ServiceRequest)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
   "title" : "Cross-version Profile for R5.ServiceRequest for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3223014-06:00",
+  "date" : "2026-02-17T14:42:26.8982766-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -180,7 +180,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         "sliceName" : "focus",
         "short" : "Cross-version extension for ServiceRequest.focus from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Resource in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.focus` is will have a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.focus` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         "sliceName" : "bodyStructure",
         "short" : "Cross-version extension for ServiceRequest.bodyStructure from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/BodyStructure in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.bodyStructure` is will have a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.bodyStructure` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -246,7 +246,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         "path" : "ServiceRequest.code.extension",
         "sliceName" : "code",
         "short" : "Cross-version extension for ServiceRequest.code from R5 for use in FHIR R4",
-        "comment" : "Element `ServiceRequest.code` is mapped to FHIR R4 element `ServiceRequest.code`.",
+        "comment" : "Element `ServiceRequest.code` has is mapped to FHIR R4 element `ServiceRequest.code`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -289,7 +289,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         "path" : "ServiceRequest.orderDetail.extension",
         "sliceName" : "orderDetail",
         "short" : "Cross-version extension for ServiceRequest.orderDetail from R5 for use in FHIR R4",
-        "comment" : "Element `ServiceRequest.orderDetail` is mapped to FHIR R4 element `ServiceRequest.orderDetail`.",
+        "comment" : "Element `ServiceRequest.orderDetail` has is mapped to FHIR R4 element `ServiceRequest.orderDetail`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -332,7 +332,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         "path" : "ServiceRequest.supportingInfo.extension",
         "sliceName" : "supportingInfo",
         "short" : "Cross-version extension for ServiceRequest.supportingInfo from R5 for use in FHIR R4",
-        "comment" : "Element `ServiceRequest.supportingInfo` is mapped to FHIR R4 element `ServiceRequest.supportingInfo`.",
+        "comment" : "Element `ServiceRequest.supportingInfo` has is mapped to FHIR R4 element `ServiceRequest.supportingInfo`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -375,7 +375,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ServiceRe
         "path" : "ServiceRequest.patientInstruction.extension",
         "sliceName" : "patientInstruction",
         "short" : "Cross-version extension for ServiceRequest.patientInstruction from R5 for use in FHIR R4",
-        "comment" : "Element `ServiceRequest.patientInstruction` is mapped to FHIR R4 element `ServiceRequest.patientInstruction`.",
+        "comment" : "Element `ServiceRequest.patientInstruction` has is mapped to FHIR R4 element `ServiceRequest.patientInstruction`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

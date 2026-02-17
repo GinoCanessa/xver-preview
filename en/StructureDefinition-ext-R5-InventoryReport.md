@@ -1,4 +1,4 @@
-# ExtensionInventoryReport - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionInventoryReport - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.InventoryReport` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
   "title" : "Cross-version Extension `R5.InventoryReport` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "countType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.countType"
       },
       {
         "id" : "Extension.extension:countType.value[x]",
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "operationType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.operationType"
       },
       {
         "id" : "Extension.extension:operationType.value[x]",
@@ -338,7 +338,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "operationTypeReason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.operationTypeReason"
       },
       {
         "id" : "Extension.extension:operationTypeReason.value[x]",
@@ -383,7 +383,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reportedDateTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reportedDateTime"
       },
       {
         "id" : "Extension.extension:reportedDateTime.value[x]",
@@ -428,7 +428,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reporter"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reporter"
       },
       {
         "id" : "Extension.extension:reporter.value[x]",
@@ -483,7 +483,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reportingPeriod"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reportingPeriod"
       },
       {
         "id" : "Extension.extension:reportingPeriod.value[x]",
@@ -564,7 +564,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "location"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.location"
       },
       {
         "id" : "Extension.extension:inventoryListing.extension:location.value[x]",
@@ -613,7 +613,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "itemStatus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.itemStatus"
       },
       {
         "id" : "Extension.extension:inventoryListing.extension:itemStatus.value[x]",
@@ -658,7 +658,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "countingDateTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.countingDateTime"
       },
       {
         "id" : "Extension.extension:inventoryListing.extension:countingDateTime.value[x]",
@@ -739,7 +739,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "category"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.category"
       },
       {
         "id" : "Extension.extension:inventoryListing.extension:item.extension:category.value[x]",
@@ -784,7 +784,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "quantity"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.quantity"
       },
       {
         "id" : "Extension.extension:inventoryListing.extension:item.extension:quantity.value[x]",
@@ -890,7 +890,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -935,7 +935,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -995,7 +995,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "item"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.item"
       },
       {
         "id" : "Extension.extension:inventoryListing.extension:item.extension:item.value[x]",
@@ -1079,7 +1079,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryR
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.note"
       },
       {
         "id" : "Extension.extension:note.value[x]",

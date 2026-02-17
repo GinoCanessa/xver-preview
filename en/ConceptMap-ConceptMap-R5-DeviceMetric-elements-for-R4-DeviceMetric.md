@@ -1,4 +1,4 @@
-# ConceptMapR5DeviceMetricElementsForR4DeviceMetric - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5DeviceMetricElementsForR4DeviceMetric - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5DeviceMetricElementsForR4DeviceMetric 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.7689347-06:00",
+  "date" : "2026-02-17T14:42:27.17853-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `DeviceMetric` is representable via FHIR R4 Resource `DeviceMetric`.\nElement `DeviceMetric` is mapped to FHIR R4 element `DeviceMetric`."
+              "comment" : "FHIR R5 Resource `DeviceMetric` is representable via FHIR R4 Resource `DeviceMetric`.\nElement `DeviceMetric` has is mapped to FHIR R4 element `DeviceMetric`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.meta` is mapped to FHIR R4 element `DeviceMetric.meta`."
+              "comment" : "Element `DeviceMetric.meta` has is mapped to FHIR R4 element `DeviceMetric.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.implicitRules` is mapped to FHIR R4 element `DeviceMetric.implicitRules`."
+              "comment" : "Element `DeviceMetric.implicitRules` has is mapped to FHIR R4 element `DeviceMetric.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.language` is mapped to FHIR R4 element `DeviceMetric.language`."
+              "comment" : "Element `DeviceMetric.language` has is mapped to FHIR R4 element `DeviceMetric.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.text` is mapped to FHIR R4 element `DeviceMetric.text`."
+              "comment" : "Element `DeviceMetric.text` has is mapped to FHIR R4 element `DeviceMetric.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.contained` is mapped to FHIR R4 element `DeviceMetric.contained`."
+              "comment" : "Element `DeviceMetric.contained` has is mapped to FHIR R4 element `DeviceMetric.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.identifier` is mapped to FHIR R4 element `DeviceMetric.identifier`."
+              "comment" : "Element `DeviceMetric.identifier` has is mapped to FHIR R4 element `DeviceMetric.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.type` is mapped to FHIR R4 element `DeviceMetric.type`."
+              "comment" : "Element `DeviceMetric.type` has is mapped to FHIR R4 element `DeviceMetric.type`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.unit` is mapped to FHIR R4 element `DeviceMetric.unit`."
+              "comment" : "Element `DeviceMetric.unit` has is mapped to FHIR R4 element `DeviceMetric.unit`, but has no comparisons."
             }
           ]
         },
@@ -184,12 +184,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.parent",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.device` is mapped to FHIR R4 element `DeviceMetric.source`.\nElement `DeviceMetric.device` is mapped to FHIR R4 element `DeviceMetric.parent`."
+              "comment" : "Element `DeviceMetric.device` has is mapped to FHIR R4 element `DeviceMetric.source`, but has no comparisons.\nElement `DeviceMetric.device` has is mapped to FHIR R4 element `DeviceMetric.parent`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.device` is mapped to FHIR R4 element `DeviceMetric.source`.\nElement `DeviceMetric.device` is mapped to FHIR R4 element `DeviceMetric.parent`."
+              "comment" : "Element `DeviceMetric.device` has is mapped to FHIR R4 element `DeviceMetric.source`, but has no comparisons.\nElement `DeviceMetric.device` has is mapped to FHIR R4 element `DeviceMetric.parent`, but has no comparisons."
             }
           ]
         },
@@ -200,7 +200,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.operationalStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.operationalStatus` is mapped to FHIR R4 element `DeviceMetric.operationalStatus`."
+              "comment" : "Element `DeviceMetric.operationalStatus` has is mapped to FHIR R4 element `DeviceMetric.operationalStatus`, but has no comparisons."
             }
           ]
         },
@@ -211,7 +211,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.color",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.color` is mapped to FHIR R4 element `DeviceMetric.color`."
+              "comment" : "Element `DeviceMetric.color` has is mapped to FHIR R4 element `DeviceMetric.color`, but has no comparisons."
             }
           ]
         },
@@ -222,7 +222,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.category` is mapped to FHIR R4 element `DeviceMetric.category`."
+              "comment" : "Element `DeviceMetric.category` has is mapped to FHIR R4 element `DeviceMetric.category`, but has no comparisons."
             }
           ]
         },
@@ -233,7 +233,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.measurementFrequency` is will have a context of DeviceMetric based on following the parent source element upwards and mapping to `DeviceMetric`."
+              "comment" : "Element `DeviceMetric.measurementFrequency` has a context of DeviceMetric based on following the parent source element upwards and mapping to `DeviceMetric`."
             }
           ]
         },
@@ -244,7 +244,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.calibration",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.calibration` is mapped to FHIR R4 element `DeviceMetric.calibration`."
+              "comment" : "Element `DeviceMetric.calibration` has is mapped to FHIR R4 element `DeviceMetric.calibration`, but has no comparisons."
             }
           ]
         },
@@ -255,7 +255,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.calibration.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.calibration.type` is mapped to FHIR R4 element `DeviceMetric.calibration.type`."
+              "comment" : "Element `DeviceMetric.calibration.type` is part of an existing definition because parent element `DeviceMetric.calibration` requires a cross-version extension.\nElement `DeviceMetric.calibration.type` has is mapped to FHIR R4 element `DeviceMetric.calibration.type`, but has no comparisons."
             }
           ]
         },
@@ -266,7 +266,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.calibration.state",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.calibration.state` is mapped to FHIR R4 element `DeviceMetric.calibration.state`."
+              "comment" : "Element `DeviceMetric.calibration.state` is part of an existing definition because parent element `DeviceMetric.calibration` requires a cross-version extension.\nElement `DeviceMetric.calibration.state` has is mapped to FHIR R4 element `DeviceMetric.calibration.state`, but has no comparisons."
             }
           ]
         },
@@ -277,7 +277,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DeviceMetric#DeviceMetric.calibration.time",
               "equivalence" : "relatedto",
-              "comment" : "Element `DeviceMetric.calibration.time` is mapped to FHIR R4 element `DeviceMetric.calibration.time`."
+              "comment" : "Element `DeviceMetric.calibration.time` is part of an existing definition because parent element `DeviceMetric.calibration` requires a cross-version extension.\nElement `DeviceMetric.calibration.time` has is mapped to FHIR R4 element `DeviceMetric.calibration.time`, but has no comparisons."
             }
           ]
         }

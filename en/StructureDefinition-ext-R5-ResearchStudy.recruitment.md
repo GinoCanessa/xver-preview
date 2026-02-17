@@ -1,4 +1,4 @@
-# ExtensionResearchStudy_Recruitment - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionResearchStudy_Recruitment - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ResearchStudy.recruitment` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
   "title" : "Cross-version Extension `R5.ResearchStudy.recruitment` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ResearchStudy.recruitment` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ResearchStudy.recruitment` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ResearchStudy.recruitment` 0..1 `BackboneElement`\n*  R4B: `ResearchStudy` 0..* `ResearchStudy`\n*  R4: `ResearchStudy` 0..* `ResearchStudy`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ResearchStudy.recruitment` is mapped to FHIR R4 element `ResearchStudy`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ResearchStudy.recruitment` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ResearchStudy.recruitment` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ResearchStudy.recruitment` 0..1 `BackboneElement`\n*  R4B: `ResearchStudy` 0..* `ResearchStudy`\n*  R4: `ResearchStudy` 0..* `ResearchStudy`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ResearchStudy.recruitment` has is mapped to FHIR R4 element `ResearchStudy`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "targetNumber",
         "short" : "Estimated total number of participants to be enrolled",
         "definition" : "Estimated total number of participants to be enrolled.",
-        "requirements" : "Element `ResearchStudy.recruitment.targetNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "requirements" : "Element `ResearchStudy.recruitment.targetNumber` is part of an existing definition because parent element `ResearchStudy.recruitment` requires a cross-version extension.\nElement `ResearchStudy.recruitment.targetNumber` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "targetNumber"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.targetNumber"
       },
       {
         "id" : "Extension.extension:targetNumber.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "actualNumber",
         "short" : "Actual total number of participants enrolled in study",
         "definition" : "Actual total number of participants enrolled in study.",
-        "requirements" : "Element `ResearchStudy.recruitment.actualNumber` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "requirements" : "Element `ResearchStudy.recruitment.actualNumber` is part of an existing definition because parent element `ResearchStudy.recruitment` requires a cross-version extension.\nElement `ResearchStudy.recruitment.actualNumber` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actualNumber"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.actualNumber"
       },
       {
         "id" : "Extension.extension:actualNumber.value[x]",
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "eligibility",
         "short" : "Inclusion and exclusion criteria",
         "definition" : "Inclusion and exclusion criteria.",
-        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.eligibility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.recruitment.eligibility` is mapped to FHIR R4 element `ResearchStudy.enrollment`.",
+        "requirements" : "Element `ResearchStudy.recruitment.eligibility` is part of an existing definition because parent element `ResearchStudy.recruitment` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.eligibility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.recruitment.eligibility` has is mapped to FHIR R4 element `ResearchStudy.enrollment`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "eligibility"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.eligibility"
       },
       {
         "id" : "Extension.extension:eligibility.value[x]",
@@ -323,7 +323,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
         "sliceName" : "actualGroup",
         "short" : "Group of participants who were enrolled in study",
         "definition" : "Group of participants who were enrolled in study.",
-        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.actualGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.recruitment.actualGroup` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "requirements" : "Element `ResearchStudy.recruitment.actualGroup` is part of an existing definition because parent element `ResearchStudy.recruitment` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.recruitment.actualGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.recruitment.actualGroup` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -342,7 +342,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSt
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actualGroup"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.recruitment.actualGroup"
       },
       {
         "id" : "Extension.extension:actualGroup.value[x]",

@@ -131,7 +131,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.ObservationDefinition.qualifiedValue` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-17T20:42:20.5370068+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -151,7 +151,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ObservationDefinition.qualifiedValue` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ObservationDefinition.qualifiedValue` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ObservationDefinition.qualifiedValue` 0..* `BackboneElement`\n*  R4B: `ObservationDefinition.qualifiedInterval` 0..* `BackboneElement`\n*  R4: `ObservationDefinition.qualifiedInterval` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ObservationDefinition.qualifiedValue` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval`."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ObservationDefinition.qualifiedValue` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ObservationDefinition.qualifiedValue` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ObservationDefinition.qualifiedValue` 0..* `BackboneElement`\n*  R4B: `ObservationDefinition.qualifiedInterval` 0..* `BackboneElement`\n*  R4: `ObservationDefinition.qualifiedInterval` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ObservationDefinition.qualifiedValue` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval`, but has no comparisons."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -165,7 +165,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Extension.extension" ]
+     fhir:expression [ fhir:v "ObservationDefinition.qualifiedInterval" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "context" ] ;
        fhir:short [ fhir:v "Context qualifier for the set of qualified values" ] ;
        fhir:definition [ fhir:v "A concept defining the context for this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.context` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.context`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.context` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.context`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -533,7 +533,7 @@
        fhir:short [ fhir:v "Targetted population for the set of qualified values" ] ;
        fhir:definition [ fhir:v "The target population this  set of qualified values applies to." ] ;
        fhir:comment [ fhir:v "If this element is not present then the global population is assumed." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.appliesTo` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.appliesTo`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.appliesTo` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.appliesTo`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -752,7 +752,7 @@
        fhir:sliceName [ fhir:v "gender" ] ;
        fhir:short [ fhir:v "male | female | other | unknown" ] ;
        fhir:definition [ fhir:v "The gender this  set of qualified values applies to." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gender` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gender`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.gender` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gender`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -971,7 +971,7 @@
        fhir:short [ fhir:v "Applicable age range for the set of qualified values" ] ;
        fhir:definition [ fhir:v "The age range this  set of qualified values applies to." ] ;
        fhir:comment [ fhir:v "Some analytes vary greatly over age." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.age` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.age`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.age` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.age`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1183,7 +1183,7 @@
        fhir:sliceName [ fhir:v "gestationalAge" ] ;
        fhir:short [ fhir:v "Applicable gestational age range for the set of qualified values" ] ;
        fhir:definition [ fhir:v "The gestational age this  set of qualified values applies to." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gestationalAge` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gestationalAge`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.gestationalAge` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gestationalAge`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1394,7 +1394,7 @@
        fhir:sliceName [ fhir:v "condition" ] ;
        fhir:short [ fhir:v "Condition associated with the set of qualified values" ] ;
        fhir:definition [ fhir:v "Text based condition for which the the set of qualified values is valid." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.condition` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.condition`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.condition` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.condition`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1605,7 +1605,7 @@
        fhir:sliceName [ fhir:v "rangeCategory" ] ;
        fhir:short [ fhir:v "reference | critical | absolute" ] ;
        fhir:definition [ fhir:v "The category of range of values for continuous or ordinal observations that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.rangeCategory` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.category`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.rangeCategory` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.category`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1823,7 +1823,7 @@
        fhir:sliceName [ fhir:v "range" ] ;
        fhir:short [ fhir:v "The range for continuous or ordinal observations" ] ;
        fhir:definition [ fhir:v "The range of values defined for continuous or ordinal observations that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "The unit may be not relevant for ordinal values. In case it is there, it is the same as ObservationDefinition.unit. Element `ObservationDefinition.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.range` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.range`." ] ;
+       fhir:requirements [ fhir:v "The unit may be not relevant for ordinal values. In case it is there, it is the same as ObservationDefinition.unit. Element `ObservationDefinition.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.range` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.range`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2034,7 +2034,7 @@
        fhir:sliceName [ fhir:v "validCodedValueSet" ] ;
        fhir:short [ fhir:v "Value set of valid coded values as part of this set of qualified values" ] ;
        fhir:definition [ fhir:v "The set of valid coded results for qualitative observations  that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.validCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.validCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2252,7 +2252,7 @@
        fhir:sliceName [ fhir:v "normalCodedValueSet" ] ;
        fhir:short [ fhir:v "Value set of normal coded values as part of this set of qualified values" ] ;
        fhir:definition [ fhir:v "The set of normal coded results for qualitative observations  that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.normalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.normalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2470,7 +2470,7 @@
        fhir:sliceName [ fhir:v "abnormalCodedValueSet" ] ;
        fhir:short [ fhir:v "Value set of abnormal coded values as part of this set of qualified values" ] ;
        fhir:definition [ fhir:v "The set of abnormal coded results for qualitative observations  that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2688,7 +2688,7 @@
        fhir:sliceName [ fhir:v "criticalCodedValueSet" ] ;
        fhir:short [ fhir:v "Value set of critical coded values as part of this set of qualified values" ] ;
        fhir:definition [ fhir:v "The set of critical coded results for qualitative observations  that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3262,7 +3262,7 @@
        fhir:sliceName [ fhir:v "context" ] ;
        fhir:short [ fhir:v "Context qualifier for the set of qualified values" ] ;
        fhir:definition [ fhir:v "A concept defining the context for this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.context` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.context`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.context` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.context` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.context`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3317,7 +3317,7 @@
        fhir:short [ fhir:v "Targetted population for the set of qualified values" ] ;
        fhir:definition [ fhir:v "The target population this  set of qualified values applies to." ] ;
        fhir:comment [ fhir:v "If this element is not present then the global population is assumed." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.appliesTo` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.appliesTo`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.appliesTo` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.appliesTo` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.appliesTo`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3372,7 +3372,7 @@
        fhir:sliceName [ fhir:v "gender" ] ;
        fhir:short [ fhir:v "male | female | other | unknown" ] ;
        fhir:definition [ fhir:v "The gender this  set of qualified values applies to." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gender` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gender`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.gender` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.gender` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gender`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3427,7 +3427,7 @@
        fhir:short [ fhir:v "Applicable age range for the set of qualified values" ] ;
        fhir:definition [ fhir:v "The age range this  set of qualified values applies to." ] ;
        fhir:comment [ fhir:v "Some analytes vary greatly over age." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.age` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.age`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.age` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.age` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.age`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3475,7 +3475,7 @@
        fhir:sliceName [ fhir:v "gestationalAge" ] ;
        fhir:short [ fhir:v "Applicable gestational age range for the set of qualified values" ] ;
        fhir:definition [ fhir:v "The gestational age this  set of qualified values applies to." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.gestationalAge` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gestationalAge`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.gestationalAge` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.gestationalAge` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.gestationalAge`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3522,7 +3522,7 @@
        fhir:sliceName [ fhir:v "condition" ] ;
        fhir:short [ fhir:v "Condition associated with the set of qualified values" ] ;
        fhir:definition [ fhir:v "Text based condition for which the the set of qualified values is valid." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.condition` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.condition`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.condition` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.condition` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.condition`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3569,7 +3569,7 @@
        fhir:sliceName [ fhir:v "rangeCategory" ] ;
        fhir:short [ fhir:v "reference | critical | absolute" ] ;
        fhir:definition [ fhir:v "The category of range of values for continuous or ordinal observations that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.rangeCategory` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.category`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.rangeCategory` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.rangeCategory` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.category`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3623,7 +3623,7 @@
        fhir:sliceName [ fhir:v "range" ] ;
        fhir:short [ fhir:v "The range for continuous or ordinal observations" ] ;
        fhir:definition [ fhir:v "The range of values defined for continuous or ordinal observations that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "The unit may be not relevant for ordinal values. In case it is there, it is the same as ObservationDefinition.unit. Element `ObservationDefinition.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nElement `ObservationDefinition.qualifiedValue.range` is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.range`." ] ;
+       fhir:requirements [ fhir:v "The unit may be not relevant for ordinal values. In case it is there, it is the same as ObservationDefinition.unit. Element `ObservationDefinition.qualifiedValue.range` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nElement `ObservationDefinition.qualifiedValue.range` has is mapped to FHIR R4 element `ObservationDefinition.qualifiedInterval.range`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3670,7 +3670,7 @@
        fhir:sliceName [ fhir:v "validCodedValueSet" ] ;
        fhir:short [ fhir:v "Value set of valid coded values as part of this set of qualified values" ] ;
        fhir:definition [ fhir:v "The set of valid coded results for qualitative observations  that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.validCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.validCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.validCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.validCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.validCodedValueSet`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3724,7 +3724,7 @@
        fhir:sliceName [ fhir:v "normalCodedValueSet" ] ;
        fhir:short [ fhir:v "Value set of normal coded values as part of this set of qualified values" ] ;
        fhir:definition [ fhir:v "The set of normal coded results for qualitative observations  that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.normalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.normalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.normalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.normalCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.normalCodedValueSet`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3778,7 +3778,7 @@
        fhir:sliceName [ fhir:v "abnormalCodedValueSet" ] ;
        fhir:short [ fhir:v "Value set of abnormal coded values as part of this set of qualified values" ] ;
        fhir:definition [ fhir:v "The set of abnormal coded results for qualitative observations  that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.abnormalCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.abnormalCodedValueSet`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3832,7 +3832,7 @@
        fhir:sliceName [ fhir:v "criticalCodedValueSet" ] ;
        fhir:short [ fhir:v "Value set of critical coded values as part of this set of qualified values" ] ;
        fhir:definition [ fhir:v "The set of critical coded results for qualitative observations  that match the criteria of this set of qualified values." ] ;
-       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet`." ] ;
+       fhir:requirements [ fhir:v "Element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` is part of an existing definition because parent element `ObservationDefinition.qualifiedValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ObservationDefinition.qualifiedValue.criticalCodedValueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ObservationDefinition.qualifiedValue.criticalCodedValueSet` has is mapped to FHIR R4 element `ObservationDefinition.criticalCodedValueSet`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

@@ -1,4 +1,4 @@
-# ConceptMapR5MolecularSequenceElementsForR4MolecularSequence - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5MolecularSequenceElementsForR4MolecularSequence - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5MolecularSequenceElementsForR4MolecularSequence 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.0544806-06:00",
+  "date" : "2026-02-17T14:42:27.3997172-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `MolecularSequence` is representable via FHIR R4 Resource `MolecularSequence`.\nElement `MolecularSequence` is mapped to FHIR R4 element `MolecularSequence`."
+              "comment" : "FHIR R5 Resource `MolecularSequence` is representable via FHIR R4 Resource `MolecularSequence`.\nElement `MolecularSequence` has is mapped to FHIR R4 element `MolecularSequence`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.meta` is mapped to FHIR R4 element `MolecularSequence.meta`."
+              "comment" : "Element `MolecularSequence.meta` has is mapped to FHIR R4 element `MolecularSequence.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.implicitRules` is mapped to FHIR R4 element `MolecularSequence.implicitRules`."
+              "comment" : "Element `MolecularSequence.implicitRules` has is mapped to FHIR R4 element `MolecularSequence.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.language` is mapped to FHIR R4 element `MolecularSequence.language`."
+              "comment" : "Element `MolecularSequence.language` has is mapped to FHIR R4 element `MolecularSequence.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.text` is mapped to FHIR R4 element `MolecularSequence.text`."
+              "comment" : "Element `MolecularSequence.text` has is mapped to FHIR R4 element `MolecularSequence.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.contained` is mapped to FHIR R4 element `MolecularSequence.contained`."
+              "comment" : "Element `MolecularSequence.contained` has is mapped to FHIR R4 element `MolecularSequence.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.identifier` is mapped to FHIR R4 element `MolecularSequence.identifier`."
+              "comment" : "Element `MolecularSequence.identifier` has is mapped to FHIR R4 element `MolecularSequence.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.type` is mapped to FHIR R4 element `MolecularSequence.type`."
+              "comment" : "Element `MolecularSequence.type` has is mapped to FHIR R4 element `MolecularSequence.type`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MolecularSequence.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MolecularSequence.subject` is mapped to FHIR R4 element `MolecularSequence.patient`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MolecularSequence.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MolecularSequence.subject` has is mapped to FHIR R4 element `MolecularSequence.patient`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MolecularSequence.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MolecularSequence.focus` is will have a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MolecularSequence.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MolecularSequence.focus` has a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.specimen",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.specimen` is mapped to FHIR R4 element `MolecularSequence.specimen`."
+              "comment" : "Element `MolecularSequence.specimen` has is mapped to FHIR R4 element `MolecularSequence.specimen`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.device",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.device` is mapped to FHIR R4 element `MolecularSequence.device`."
+              "comment" : "Element `MolecularSequence.device` has is mapped to FHIR R4 element `MolecularSequence.device`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.performer",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.performer` is mapped to FHIR R4 element `MolecularSequence.performer`."
+              "comment" : "Element `MolecularSequence.performer` has is mapped to FHIR R4 element `MolecularSequence.performer`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.observedSeq",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.literal` is mapped to FHIR R4 element `MolecularSequence.observedSeq`."
+              "comment" : "Element `MolecularSequence.literal` has is mapped to FHIR R4 element `MolecularSequence.observedSeq`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.formatted` is will have a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`."
+              "comment" : "Element `MolecularSequence.formatted` has a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`."
             }
           ]
         },
@@ -250,12 +250,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative` is mapped to FHIR R4 element `MolecularSequence.referenceSeq`.\nElement `MolecularSequence.relative` is mapped to FHIR R4 element `MolecularSequence.variant`."
+              "comment" : "Element `MolecularSequence.relative` has is mapped to FHIR R4 element `MolecularSequence.referenceSeq`, but has no comparisons.\nElement `MolecularSequence.relative` has is mapped to FHIR R4 element `MolecularSequence.variant`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative` is mapped to FHIR R4 element `MolecularSequence.referenceSeq`.\nElement `MolecularSequence.relative` is mapped to FHIR R4 element `MolecularSequence.variant`."
+              "comment" : "Element `MolecularSequence.relative` has is mapped to FHIR R4 element `MolecularSequence.referenceSeq`, but has no comparisons.\nElement `MolecularSequence.relative` has is mapped to FHIR R4 element `MolecularSequence.variant`, but has no comparisons."
             }
           ]
         },
@@ -266,7 +266,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.coordinateSystem` is will have a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`."
+              "comment" : "Element `MolecularSequence.relative.coordinateSystem` is part of an existing definition because parent element `MolecularSequence.relative` requires a cross-version extension.\nElement `MolecularSequence.relative.coordinateSystem` has a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`."
             }
           ]
         },
@@ -277,7 +277,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.ordinalPosition` is will have a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`."
+              "comment" : "Element `MolecularSequence.relative.ordinalPosition` is part of an existing definition because parent element `MolecularSequence.relative` requires a cross-version extension.\nElement `MolecularSequence.relative.ordinalPosition` has a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`."
             }
           ]
         },
@@ -288,7 +288,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.sequenceRange` is will have a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`."
+              "comment" : "Element `MolecularSequence.relative.sequenceRange` is part of an existing definition because parent element `MolecularSequence.relative` requires a cross-version extension.\nElement `MolecularSequence.relative.sequenceRange` has a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`."
             }
           ]
         },
@@ -299,7 +299,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.startingSequence` is mapped to FHIR R4 element `MolecularSequence.referenceSeq`."
+              "comment" : "Element `MolecularSequence.relative.startingSequence` is part of an existing definition because parent element `MolecularSequence.relative` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence` has is mapped to FHIR R4 element `MolecularSequence.referenceSeq`, but has no comparisons."
             }
           ]
         },
@@ -310,7 +310,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.startingSequence.genomeAssembly` is will have a context of MolecularSequence.referenceSeq based on following the parent source element upwards and mapping to `MolecularSequence`."
+              "comment" : "Element `MolecularSequence.relative.startingSequence.genomeAssembly` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.genomeAssembly` has a context of MolecularSequence.referenceSeq based on following the parent source element upwards and mapping to `MolecularSequence`."
             }
           ]
         },
@@ -321,7 +321,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.chromosome",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.startingSequence.chromosome` is mapped to FHIR R4 element `MolecularSequence.referenceSeq.chromosome`."
+              "comment" : "Element `MolecularSequence.relative.startingSequence.chromosome` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.chromosome` has is mapped to FHIR R4 element `MolecularSequence.referenceSeq.chromosome`, but has no comparisons."
             }
           ]
         },
@@ -332,7 +332,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.referenceSeqString",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.startingSequence.sequence[x]` is mapped to FHIR R4 element `MolecularSequence.referenceSeq.referenceSeqString`."
+              "comment" : "Element `MolecularSequence.relative.startingSequence.sequence[x]` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.sequence[x]` has is mapped to FHIR R4 element `MolecularSequence.referenceSeq.referenceSeqString`, but has no comparisons."
             }
           ]
         },
@@ -343,7 +343,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.windowStart",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.startingSequence.windowStart` is mapped to FHIR R4 element `MolecularSequence.referenceSeq.windowStart`."
+              "comment" : "Element `MolecularSequence.relative.startingSequence.windowStart` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.windowStart` has is mapped to FHIR R4 element `MolecularSequence.referenceSeq.windowStart`, but has no comparisons."
             }
           ]
         },
@@ -354,7 +354,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.windowEnd",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.startingSequence.windowEnd` is mapped to FHIR R4 element `MolecularSequence.referenceSeq.windowEnd`."
+              "comment" : "Element `MolecularSequence.relative.startingSequence.windowEnd` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.windowEnd` has is mapped to FHIR R4 element `MolecularSequence.referenceSeq.windowEnd`, but has no comparisons."
             }
           ]
         },
@@ -365,7 +365,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.orientation",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.startingSequence.orientation` is mapped to FHIR R4 element `MolecularSequence.referenceSeq.orientation`."
+              "comment" : "Element `MolecularSequence.relative.startingSequence.orientation` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.orientation` has is mapped to FHIR R4 element `MolecularSequence.referenceSeq.orientation`, but has no comparisons."
             }
           ]
         },
@@ -376,7 +376,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.referenceSeq.strand",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.startingSequence.strand` is mapped to FHIR R4 element `MolecularSequence.referenceSeq.strand`."
+              "comment" : "Element `MolecularSequence.relative.startingSequence.strand` is part of an existing definition because parent element `MolecularSequence.relative.startingSequence` requires a cross-version extension.\nElement `MolecularSequence.relative.startingSequence.strand` has is mapped to FHIR R4 element `MolecularSequence.referenceSeq.strand`, but has no comparisons."
             }
           ]
         },
@@ -387,7 +387,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.edit` is mapped to FHIR R4 element `MolecularSequence.variant`."
+              "comment" : "Element `MolecularSequence.relative.edit` is part of an existing definition because parent element `MolecularSequence.relative` requires a cross-version extension.\nElement `MolecularSequence.relative.edit` has is mapped to FHIR R4 element `MolecularSequence.variant`, but has no comparisons."
             }
           ]
         },
@@ -398,7 +398,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.edit.start` is will have a context of MolecularSequence.variant based on following the parent source element upwards and mapping to `MolecularSequence`."
+              "comment" : "Element `MolecularSequence.relative.edit.start` is part of an existing definition because parent element `MolecularSequence.relative.edit` requires a cross-version extension.\nElement `MolecularSequence.relative.edit.start` has a context of MolecularSequence.variant based on following the parent source element upwards and mapping to `MolecularSequence`."
             }
           ]
         },
@@ -409,7 +409,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant.end",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.edit.end` is mapped to FHIR R4 element `MolecularSequence.variant.end`."
+              "comment" : "Element `MolecularSequence.relative.edit.end` is part of an existing definition because parent element `MolecularSequence.relative.edit` requires a cross-version extension.\nElement `MolecularSequence.relative.edit.end` has is mapped to FHIR R4 element `MolecularSequence.variant.end`, but has no comparisons."
             }
           ]
         },
@@ -420,7 +420,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant.observedAllele",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.edit.replacementSequence` is mapped to FHIR R4 element `MolecularSequence.variant.observedAllele`."
+              "comment" : "Element `MolecularSequence.relative.edit.replacementSequence` is part of an existing definition because parent element `MolecularSequence.relative.edit` requires a cross-version extension.\nElement `MolecularSequence.relative.edit.replacementSequence` has is mapped to FHIR R4 element `MolecularSequence.variant.observedAllele`, but has no comparisons."
             }
           ]
         },
@@ -431,7 +431,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/MolecularSequence#MolecularSequence.variant.referenceAllele",
               "equivalence" : "relatedto",
-              "comment" : "Element `MolecularSequence.relative.edit.replacedSequence` is mapped to FHIR R4 element `MolecularSequence.variant.referenceAllele`."
+              "comment" : "Element `MolecularSequence.relative.edit.replacedSequence` is part of an existing definition because parent element `MolecularSequence.relative.edit` requires a cross-version extension.\nElement `MolecularSequence.relative.edit.replacedSequence` has is mapped to FHIR R4 element `MolecularSequence.variant.referenceAllele`, but has no comparisons."
             }
           ]
         }

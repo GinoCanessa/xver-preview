@@ -1,4 +1,4 @@
-# Lookup for ProfileDiagnosticReport - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileDiagnosticReport - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileDiagnosticReport
 
@@ -20,7 +20,7 @@ A computable version of the following element information is available in: [Conc
 | [`DiagnosticReport.contained`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.contained](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
 | [`DiagnosticReport.identifier`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.identifier](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
 | [`DiagnosticReport.basedOn`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.basedOn](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
-| [`DiagnosticReport.status`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.status](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.status](StructureDefinition-ext-R5-DiagnosticReport.status.md) |
+| [`DiagnosticReport.status`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.status](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[Extension: ExtensionDiagnosticReport_Status](StructureDefinition-ext-R5-DiagnosticReport.status.md) |
 | [`DiagnosticReport.category`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.category](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
 | [`DiagnosticReport.code`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.code](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
 | [`DiagnosticReport.subject`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.subject](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[Basic.subject](https://hl7.org/fhir/R4/Basic.html#resource) |
@@ -31,15 +31,15 @@ A computable version of the following element information is available in: [Conc
 | [`DiagnosticReport.resultsInterpreter`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.resultsInterpreter](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
 | [`DiagnosticReport.specimen`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.specimen](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
 | [`DiagnosticReport.result`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.result](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
-| [`DiagnosticReport.note`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.note](StructureDefinition-ext-R5-DiagnosticReport.note.md) |
-| [`DiagnosticReport.study`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.study](StructureDefinition-ext-R5-DiagnosticReport.study.md) |
-| [`DiagnosticReport.supportingInfo`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.supportingInfo](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md) |
-| [`DiagnosticReport.supportingInfo.type`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[Extension slice: type](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md) |
-| [`DiagnosticReport.supportingInfo.reference`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[Extension slice: reference](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md) |
-| [`DiagnosticReport.media`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.media](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
-| [`DiagnosticReport.media.comment`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.media.comment](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
-| [`DiagnosticReport.media.link`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.media.link](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.media.link](StructureDefinition-ext-R5-DiagnosticReport.med.link.md) |
-| [`DiagnosticReport.composition`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DiagnosticReport.composition](StructureDefinition-ext-R5-DiagnosticReport.composition.md) |
+| [`DiagnosticReport.note`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [Extension: ExtensionDiagnosticReport_Note](StructureDefinition-ext-R5-DiagnosticReport.note.md) |
+| [`DiagnosticReport.study`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`DiagnosticReport.supportingInfo`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [Extension: ExtensionDiagnosticReport_SupportingInfo](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md) |
+| [`DiagnosticReport.supportingInfo.type`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [Extension: ExtensionDiagnosticReport_SupportingInfo Slice:type](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md) |
+| [`DiagnosticReport.supportingInfo.reference`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`DiagnosticReport.media`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.media](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[Extension: ExtensionDiagnosticReport_Media](StructureDefinition-ext-R5-DiagnosticReport.media.md) |
+| [`DiagnosticReport.media.comment`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.media.comment](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[Extension: ExtensionDiagnosticReport_Media Slice:comment](StructureDefinition-ext-R5-DiagnosticReport.media.md) |
+| [`DiagnosticReport.media.link`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.media.link](https://hl7.org/fhir/R4/DiagnosticReport.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`DiagnosticReport.composition`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`DiagnosticReport.conclusion`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.conclusion](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
 | [`DiagnosticReport.conclusionCode`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.conclusionCode](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |
 | [`DiagnosticReport.presentedForm`](https://hl7.org/fhir/R5/DiagnosticReport.html#resource) | [DiagnosticReport.presentedForm](https://hl7.org/fhir/R4/DiagnosticReport.html#resource) |

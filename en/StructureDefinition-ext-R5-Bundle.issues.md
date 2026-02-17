@@ -1,4 +1,4 @@
-# ExtensionBundle_Issues - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionBundle_Issues - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Bundle.issues` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Bundle.iss
   "title" : "Cross-version Extension `R5.Bundle.issues` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Bundle.iss
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Bundle.issues` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Bundle.issues` 0..1 `Resource[http://hl7.org/fhir/StructureDefinition/OperationOutcome]`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Bundle.issues` 0..1 `Resource[http://hl7.org/fhir/StructureDefinition/OperationOutcome]`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Bundle.issues` is will have a context of Bundle based on following the parent source element upwards and mapping to `Bundle`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Bundle.issues` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Bundle.issues` 0..1 `Resource[http://hl7.org/fhir/StructureDefinition/OperationOutcome]`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Bundle.issues` 0..1 `Resource[http://hl7.org/fhir/StructureDefinition/OperationOutcome]`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Bundle.issues` has a context of Bundle based on following the parent source element upwards and mapping to `Bundle`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Bundle.iss
         "sliceName" : "meta",
         "short" : "Metadata about the resource",
         "definition" : "The metadata about the resource. This is content that is maintained by the infrastructure. Changes to the content might not always be associated with version changes to the resource.",
-        "requirements" : "Element `Resource.meta` is mapped to FHIR R4 element `Resource.meta`.",
+        "requirements" : "Element `Resource.meta` has is mapped to FHIR R4 element `Resource.meta`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -275,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Bundle.iss
         "short" : "A set of rules under which this content was created",
         "definition" : "A reference to a set of rules that were followed when the resource was constructed, and which must be understood when processing the content. Often, this is a reference to an implementation guide that defines the special rules along with other profiles etc.",
         "comment" : "Asserting this rule set restricts the content to be only understood by a limited set of trading partners. This inherently limits the usefulness of the data in the long term. However, the existing health eco-system is highly fractured, and not yet ready to define, collect, and exchange data in a generally computable sense. Wherever possible, implementers and/or specification writers should avoid using this element. Often, when used, the URL is a reference to an implementation guide that defines these special rules as part of its narrative along with other profiles, value sets, etc.",
-        "requirements" : "Element `Resource.implicitRules` is mapped to FHIR R4 element `Resource.implicitRules`.",
+        "requirements" : "Element `Resource.implicitRules` has is mapped to FHIR R4 element `Resource.implicitRules`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -322,7 +322,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Bundle.iss
         "short" : "Language of the resource content",
         "definition" : "The base language in which the resource is written.",
         "comment" : "Language is provided to support indexing and accessibility (typically, services such as text to speech use the language tag). The html language tag in the narrative applies  to the narrative. The language tag on the resource may be used to specify the language of other presentations generated from the data in the resource. Not all the content has to be in the base language. The Resource.language should not be assumed to apply to the narrative automatically. If a language is specified, it should it also be specified on the div element in the html (see rules in HTML5 for information about the relationship between xml:lang and the html lang attribute).",
-        "requirements" : "Element `Resource.language` is mapped to FHIR R4 element `Resource.language`.",
+        "requirements" : "Element `Resource.language` has is mapped to FHIR R4 element `Resource.language`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {

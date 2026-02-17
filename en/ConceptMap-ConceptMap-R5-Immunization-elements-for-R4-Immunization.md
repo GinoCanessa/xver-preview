@@ -1,4 +1,4 @@
-# ConceptMapR5ImmunizationElementsForR4Immunization - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ImmunizationElementsForR4Immunization - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ImmunizationElementsForR4Immunization 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.9343592-06:00",
+  "date" : "2026-02-17T14:42:27.3088119-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Immunization` is representable via FHIR R4 Resource `Immunization`.\nElement `Immunization` is mapped to FHIR R4 element `Immunization`."
+              "comment" : "FHIR R5 Resource `Immunization` is representable via FHIR R4 Resource `Immunization`.\nElement `Immunization` has is mapped to FHIR R4 element `Immunization`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.meta` is mapped to FHIR R4 element `Immunization.meta`."
+              "comment" : "Element `Immunization.meta` has is mapped to FHIR R4 element `Immunization.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.implicitRules` is mapped to FHIR R4 element `Immunization.implicitRules`."
+              "comment" : "Element `Immunization.implicitRules` has is mapped to FHIR R4 element `Immunization.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.language` is mapped to FHIR R4 element `Immunization.language`."
+              "comment" : "Element `Immunization.language` has is mapped to FHIR R4 element `Immunization.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.text` is mapped to FHIR R4 element `Immunization.text`."
+              "comment" : "Element `Immunization.text` has is mapped to FHIR R4 element `Immunization.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.contained` is mapped to FHIR R4 element `Immunization.contained`."
+              "comment" : "Element `Immunization.contained` has is mapped to FHIR R4 element `Immunization.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.identifier` is mapped to FHIR R4 element `Immunization.identifier`."
+              "comment" : "Element `Immunization.identifier` has is mapped to FHIR R4 element `Immunization.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.basedOn` is will have a context of Immunization based on following the parent source element upwards and mapping to `Immunization`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.basedOn` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.status` is mapped to FHIR R4 element `Immunization.status`."
+              "comment" : "Element `Immunization.status` has is mapped to FHIR R4 element `Immunization.status`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.statusReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.statusReason` is mapped to FHIR R4 element `Immunization.statusReason`."
+              "comment" : "Element `Immunization.statusReason` has is mapped to FHIR R4 element `Immunization.statusReason`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.vaccineCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.vaccineCode` is mapped to FHIR R4 element `Immunization.vaccineCode`."
+              "comment" : "Element `Immunization.vaccineCode` has is mapped to FHIR R4 element `Immunization.vaccineCode`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.administeredProduct` is will have a context of Immunization based on following the parent source element upwards and mapping to `Immunization`."
+              "comment" : "Element `Immunization.administeredProduct` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.manufacturer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.manufacturer` is mapped to FHIR R4 element `Immunization.manufacturer`."
+              "comment" : "Element `Immunization.manufacturer` has is mapped to FHIR R4 element `Immunization.manufacturer`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.lotNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.lotNumber` is mapped to FHIR R4 element `Immunization.lotNumber`."
+              "comment" : "Element `Immunization.lotNumber` has is mapped to FHIR R4 element `Immunization.lotNumber`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.expirationDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.expirationDate` is mapped to FHIR R4 element `Immunization.expirationDate`."
+              "comment" : "Element `Immunization.expirationDate` has is mapped to FHIR R4 element `Immunization.expirationDate`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.patient` is mapped to FHIR R4 element `Immunization.patient`."
+              "comment" : "Element `Immunization.patient` has is mapped to FHIR R4 element `Immunization.patient`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.encounter` is mapped to FHIR R4 element `Immunization.encounter`."
+              "comment" : "Element `Immunization.encounter` has is mapped to FHIR R4 element `Immunization.encounter`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.supportingInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.supportingInformation` is will have a context of Immunization based on following the parent source element upwards and mapping to `Immunization`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.supportingInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.supportingInformation` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.occurrence[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Immunization.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization`.\nElement `Immunization.occurrence[x]` is mapped to FHIR R4 element `Immunization.occurrence[x]`.\nNote that the target element context `Immunization.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization`."
+              "comment" : "Note that the target element context `Immunization.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization`.\nElement `Immunization.occurrence[x]` has is mapped to FHIR R4 element `Immunization.occurrence[x]`, but has no comparisons.\nNote that the target element context `Immunization.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.primarySource",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.primarySource` is mapped to FHIR R4 element `Immunization.primarySource`."
+              "comment" : "Element `Immunization.primarySource` has is mapped to FHIR R4 element `Immunization.primarySource`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.informationSource` is will have a context of Immunization based on following the parent source element upwards and mapping to `Immunization`."
+              "comment" : "Element `Immunization.informationSource` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.location` is mapped to FHIR R4 element `Immunization.location`."
+              "comment" : "Element `Immunization.location` has is mapped to FHIR R4 element `Immunization.location`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.site",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.site` is mapped to FHIR R4 element `Immunization.site`."
+              "comment" : "Element `Immunization.site` has is mapped to FHIR R4 element `Immunization.site`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.route",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.route` is mapped to FHIR R4 element `Immunization.route`."
+              "comment" : "Element `Immunization.route` has is mapped to FHIR R4 element `Immunization.route`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.doseQuantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.doseQuantity` is mapped to FHIR R4 element `Immunization.doseQuantity`."
+              "comment" : "Element `Immunization.doseQuantity` has is mapped to FHIR R4 element `Immunization.doseQuantity`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.performer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.performer` is mapped to FHIR R4 element `Immunization.performer`."
+              "comment" : "Element `Immunization.performer` has is mapped to FHIR R4 element `Immunization.performer`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.performer.function",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.performer.function` is mapped to FHIR R4 element `Immunization.performer.function`."
+              "comment" : "Element `Immunization.performer.function` is part of an existing definition because parent element `Immunization.performer` requires a cross-version extension.\nElement `Immunization.performer.function` has is mapped to FHIR R4 element `Immunization.performer.function`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.performer.actor",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.performer.actor` is mapped to FHIR R4 element `Immunization.performer.actor`."
+              "comment" : "Element `Immunization.performer.actor` is part of an existing definition because parent element `Immunization.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.performer.actor` has is mapped to FHIR R4 element `Immunization.performer.actor`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.note` is mapped to FHIR R4 element `Immunization.note`."
+              "comment" : "Element `Immunization.note` has is mapped to FHIR R4 element `Immunization.note`, but has no comparisons."
             }
           ]
         },
@@ -404,12 +404,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonCode`.\nElement `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonReference`."
+              "comment" : "Element `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonCode`, but has no comparisons.\nElement `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonReference`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonCode`.\nElement `Immunization.reason` is mapped to FHIR R4 element `Immunization.reasonReference`."
+              "comment" : "Element `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonCode`, but has no comparisons.\nElement `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonReference`, but has no comparisons."
             }
           ]
         },
@@ -420,7 +420,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.isSubpotent",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.isSubpotent` is mapped to FHIR R4 element `Immunization.isSubpotent`."
+              "comment" : "Element `Immunization.isSubpotent` has is mapped to FHIR R4 element `Immunization.isSubpotent`, but has no comparisons."
             }
           ]
         },
@@ -431,7 +431,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.subpotentReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.subpotentReason` is mapped to FHIR R4 element `Immunization.subpotentReason`."
+              "comment" : "Element `Immunization.subpotentReason` has is mapped to FHIR R4 element `Immunization.subpotentReason`, but has no comparisons."
             }
           ]
         },
@@ -442,7 +442,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.programEligibility",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.programEligibility` is mapped to FHIR R4 element `Immunization.programEligibility`."
+              "comment" : "Element `Immunization.programEligibility` has is mapped to FHIR R4 element `Immunization.programEligibility`, but has no comparisons."
             }
           ]
         },
@@ -453,7 +453,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.programEligibility",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.programEligibility.program` is will have a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`."
+              "comment" : "Element `Immunization.programEligibility.program` is part of an existing definition because parent element `Immunization.programEligibility` requires a cross-version extension.\nElement `Immunization.programEligibility.program` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`."
             }
           ]
         },
@@ -464,7 +464,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.programEligibility",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.programEligibility.programStatus` is will have a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`."
+              "comment" : "Element `Immunization.programEligibility.programStatus` is part of an existing definition because parent element `Immunization.programEligibility` requires a cross-version extension.\nElement `Immunization.programEligibility.programStatus` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`."
             }
           ]
         },
@@ -475,7 +475,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.fundingSource",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.fundingSource` is mapped to FHIR R4 element `Immunization.fundingSource`."
+              "comment" : "Element `Immunization.fundingSource` has is mapped to FHIR R4 element `Immunization.fundingSource`, but has no comparisons."
             }
           ]
         },
@@ -486,7 +486,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.reaction",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.reaction` is mapped to FHIR R4 element `Immunization.reaction`."
+              "comment" : "Element `Immunization.reaction` has is mapped to FHIR R4 element `Immunization.reaction`, but has no comparisons."
             }
           ]
         },
@@ -497,7 +497,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.reaction.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.reaction.date` is mapped to FHIR R4 element `Immunization.reaction.date`."
+              "comment" : "Element `Immunization.reaction.date` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.date` has is mapped to FHIR R4 element `Immunization.reaction.date`, but has no comparisons."
             }
           ]
         },
@@ -508,7 +508,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.reaction.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.reaction.manifestation` is mapped to FHIR R4 element `Immunization.reaction.detail`."
+              "comment" : "Element `Immunization.reaction.manifestation` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.manifestation` has is mapped to FHIR R4 element `Immunization.reaction.detail`, but has no comparisons."
             }
           ]
         },
@@ -519,7 +519,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.reaction.reported",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.reaction.reported` is mapped to FHIR R4 element `Immunization.reaction.reported`."
+              "comment" : "Element `Immunization.reaction.reported` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.reported` has is mapped to FHIR R4 element `Immunization.reaction.reported`, but has no comparisons."
             }
           ]
         },
@@ -530,7 +530,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.protocolApplied",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.protocolApplied` is mapped to FHIR R4 element `Immunization.protocolApplied`."
+              "comment" : "Element `Immunization.protocolApplied` has is mapped to FHIR R4 element `Immunization.protocolApplied`, but has no comparisons."
             }
           ]
         },
@@ -541,7 +541,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.protocolApplied.series",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.protocolApplied.series` is mapped to FHIR R4 element `Immunization.protocolApplied.series`."
+              "comment" : "Element `Immunization.protocolApplied.series` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.series` has is mapped to FHIR R4 element `Immunization.protocolApplied.series`, but has no comparisons."
             }
           ]
         },
@@ -552,7 +552,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.protocolApplied.authority",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.protocolApplied.authority` is mapped to FHIR R4 element `Immunization.protocolApplied.authority`."
+              "comment" : "Element `Immunization.protocolApplied.authority` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.authority` has is mapped to FHIR R4 element `Immunization.protocolApplied.authority`, but has no comparisons."
             }
           ]
         },
@@ -563,7 +563,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.protocolApplied.targetDisease",
               "equivalence" : "relatedto",
-              "comment" : "Element `Immunization.protocolApplied.targetDisease` is mapped to FHIR R4 element `Immunization.protocolApplied.targetDisease`."
+              "comment" : "Element `Immunization.protocolApplied.targetDisease` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.targetDisease` has is mapped to FHIR R4 element `Immunization.protocolApplied.targetDisease`, but has no comparisons."
             }
           ]
         },
@@ -574,7 +574,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.protocolApplied.doseNumber[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.doseNumber` is mapped to FHIR R4 element `Immunization.protocolApplied.doseNumber[x]`.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`."
+              "comment" : "Element `Immunization.protocolApplied.doseNumber` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.doseNumber` has is mapped to FHIR R4 element `Immunization.protocolApplied.doseNumber[x]`, but has no comparisons.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`."
             }
           ]
         },
@@ -585,7 +585,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Immunization#Immunization.protocolApplied.seriesDoses[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.seriesDoses` is mapped to FHIR R4 element `Immunization.protocolApplied.seriesDoses[x]`.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`."
+              "comment" : "Element `Immunization.protocolApplied.seriesDoses` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.seriesDoses` has is mapped to FHIR R4 element `Immunization.protocolApplied.seriesDoses[x]`, but has no comparisons.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`."
             }
           ]
         }

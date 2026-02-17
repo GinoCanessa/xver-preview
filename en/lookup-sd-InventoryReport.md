@@ -1,4 +1,4 @@
-# Lookup for ProfileInventoryReport - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileInventoryReport - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileInventoryReport
 
@@ -12,27 +12,27 @@ A computable version of the following element information is available in: [Conc
 
 | | |
 | :--- | :--- |
-| [`InventoryReport`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport](StructureDefinition-ext-R5-InventoryReport.md) |
 | [`InventoryReport.meta`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Basic.meta](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`InventoryReport.implicitRules`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Basic.implicitRules](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`InventoryReport.language`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Basic.language](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`InventoryReport.text`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Basic.text](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`InventoryReport.contained`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Basic.contained](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`InventoryReport.identifier`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Basic.identifier](https://hl7.org/fhir/R4/Basic.html#resource) |
-| [`InventoryReport.status`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: status](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.countType`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: countType](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.operationType`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: operationType](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.operationTypeReason`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: operationTypeReason](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.reportedDateTime`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: reportedDateTime](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.reporter`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: reporter](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.reportingPeriod`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: reportingPeriod](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.inventoryListing`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.inventoryListing.location`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: location](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.inventoryListing.itemStatus`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: itemStatus](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.inventoryListing.countingDateTime`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: countingDateTime](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.inventoryListing.item`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.inventoryListing.item.category`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: category](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.inventoryListing.item.quantity`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: quantity](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.inventoryListing.item.item`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: item](StructureDefinition-ext-R5-InventoryReport.md) |
-| [`InventoryReport.note`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension slice: note](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.status`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport Slice:status](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.countType`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport Slice:countType](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.operationType`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport Slice:operationType](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.operationTypeReason`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport Slice:operationTypeReason](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.reportedDateTime`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport Slice:reportedDateTime](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.reporter`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport Slice:reporter](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.reportingPeriod`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport Slice:reportingPeriod](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.inventoryListing`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport Slice:inventoryListing](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.inventoryListing.location`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport_InventoryListing Slice:location](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.inventoryListing.itemStatus`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport_InventoryListing Slice:itemStatus](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.inventoryListing.countingDateTime`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport_InventoryListing Slice:countingDateTime](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.inventoryListing.item`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport_InventoryListing Slice:item](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.inventoryListing.item.category`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport_InventoryListing_Item Slice:category](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.inventoryListing.item.quantity`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport_InventoryListing_Item Slice:quantity](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.inventoryListing.item.item`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport_InventoryListing_Item Slice:item](StructureDefinition-ext-R5-InventoryReport.md) |
+| [`InventoryReport.note`](https://hl7.org/fhir/R5/InventoryReport.html#resource) | [Extension: ExtensionInventoryReport Slice:note](StructureDefinition-ext-R5-InventoryReport.md) |
 

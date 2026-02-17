@@ -1,4 +1,4 @@
-# ProfileImmunizationRecommendation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileImmunizationRecommendation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileImmunizationRecommendation 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 ImmunizationRecommendation content to be re
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.CarePlan.activity` for use in FHIR R4](StructureDefinition-ext-R5-CarePlan.activity.md) and [Cross-version Extension `R5.Encounter.reason` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.reason.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ImmunizationRecommendation)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
   "title" : "Cross-version Profile for R5.ImmunizationRecommendation for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1581748-06:00",
+  "date" : "2026-02-17T14:42:26.8281319-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Immunizat
       {
         "id" : "ImmunizationRecommendation",
         "path" : "ImmunizationRecommendation"
+      },
+      {
+        "id" : "ImmunizationRecommendation.recommendation.extension",
+        "path" : "ImmunizationRecommendation.recommendation.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "ImmunizationRecommendation.recommendation.extension:recommendation",
+        "path" : "ImmunizationRecommendation.recommendation.extension",
+        "sliceName" : "recommendation",
+        "short" : "Cross-version extension for ImmunizationRecommendation.recommendation from R5 for use in FHIR R4",
+        "comment" : "Element `ImmunizationRecommendation.recommendation` has is mapped to FHIR R4 element `ImmunizationRecommendation.recommendation`, but has no comparisons.",
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

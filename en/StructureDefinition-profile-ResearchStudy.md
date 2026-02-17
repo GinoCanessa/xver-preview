@@ -1,4 +1,4 @@
-# ProfileResearchStudy - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileResearchStudy - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileResearchStudy 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 ResearchStudy content to be represented via
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.suspectEntity.instance[x]` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.sus.instance.md)
+* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.suspectEntity` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.suspectEntity.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ResearchStudy)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
   "title" : "Cross-version Profile for R5.ResearchStudy for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3072647-06:00",
+  "date" : "2026-02-17T14:42:26.8906965-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -179,7 +179,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "url",
         "short" : "Cross-version extension for ResearchStudy.url from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.url` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.url` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -201,7 +201,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "version",
         "short" : "Cross-version extension for ResearchStudy.version from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.version` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.version` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -223,7 +223,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "name",
         "short" : "Cross-version extension for ResearchStudy.name from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.name` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.name` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -245,7 +245,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "label",
         "short" : "Cross-version extension for ResearchStudy.label from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.label` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.label` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -267,7 +267,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "date",
         "short" : "Cross-version extension for ResearchStudy.date from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.date` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.date` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -289,7 +289,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "studyDesign",
         "short" : "Cross-version extension for ResearchStudy.studyDesign from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.studyDesign` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.studyDesign` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -311,7 +311,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "descriptionSummary",
         "short" : "Cross-version extension for ResearchStudy.descriptionSummary from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.descriptionSummary` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.descriptionSummary` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -333,7 +333,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "classifier",
         "short" : "Cross-version extension for ResearchStudy.classifier from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.classifier` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.classifier` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -355,7 +355,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "associatedParty",
         "short" : "Cross-version extension for ResearchStudy.associatedParty from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.associatedParty` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.associatedParty` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -377,7 +377,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "progressStatus",
         "short" : "Cross-version extension for ResearchStudy.progressStatus from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.progressStatus` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.progressStatus` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -399,7 +399,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "recruitment",
         "short" : "Cross-version extension for ResearchStudy.recruitment from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.recruitment` is mapped to FHIR R4 element `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.recruitment` has is mapped to FHIR R4 element `ResearchStudy`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -421,7 +421,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.extension",
         "sliceName" : "outcomeMeasure",
         "short" : "Cross-version extension for ResearchStudy.outcomeMeasure from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.outcomeMeasure` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Element `ResearchStudy.outcomeMeasure` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -444,7 +444,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "sliceName" : "result",
         "short" : "Cross-version extension for ResearchStudy.result from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Citation,http://hl7.org/fhir/StructureDefinition/DiagnosticReport,http://hl7.org/fhir/StructureDefinition/EvidenceReport in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.result` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.result` is will have a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.result` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.result` has a context of ResearchStudy based on following the parent source element upwards and mapping to `ResearchStudy`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -487,7 +487,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.status.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for ResearchStudy.status from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `ResearchStudy.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchStudy.status` is mapped to FHIR R4 element `ResearchStudy.status`.",
+        "comment" : "Note that the target element context `ResearchStudy.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchStudy.status` has is mapped to FHIR R4 element `ResearchStudy.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -530,7 +530,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchStudy.focus.extension",
         "sliceName" : "focus",
         "short" : "Cross-version extension for ResearchStudy.focus from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.focus` is mapped to FHIR R4 element `ResearchStudy.focus`.",
+        "comment" : "Element `ResearchStudy.focus` has is mapped to FHIR R4 element `ResearchStudy.focus`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -574,7 +574,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "sliceName" : "site",
         "short" : "Cross-version extension for ResearchStudy.site from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/ResearchStudy in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.site` is mapped to FHIR R4 element `ResearchStudy.site`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.site` has is mapped to FHIR R4 element `ResearchStudy.site`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -613,34 +613,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         }
       },
       {
-        "id" : "ResearchStudy.arm.extension:linkId",
+        "id" : "ResearchStudy.arm.extension:comparisonGroup",
         "path" : "ResearchStudy.arm.extension",
-        "sliceName" : "linkId",
-        "short" : "Cross-version extension for ResearchStudy.comparisonGroup.linkId from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.comparisonGroup.linkId` is will have a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.comparisonGroup.linkId|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ResearchStudy.arm.extension:intendedExposure",
-        "path" : "ResearchStudy.arm.extension",
-        "sliceName" : "intendedExposure",
-        "short" : "Cross-version extension for ResearchStudy.comparisonGroup.intendedExposure from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/EvidenceVariable in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.comparisonGroup.intendedExposure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.comparisonGroup.intendedExposure` is will have a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "sliceName" : "comparisonGroup",
+        "short" : "Cross-version extension for ResearchStudy.comparisonGroup from R5 for use in FHIR R4",
+        "comment" : "Element `ResearchStudy.comparisonGroup` has is mapped to FHIR R4 element `ResearchStudy.arm`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -652,30 +629,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "ResearchStudy.arm.extension:observedGroup",
-        "path" : "ResearchStudy.arm.extension",
-        "sliceName" : "observedGroup",
-        "short" : "Cross-version extension for ResearchStudy.comparisonGroup.observedGroup from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ResearchStudy.comparisonGroup.observedGroup` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ResearchStudy.comparisonGroup.observedGroup` is will have a context of ResearchStudy.arm based on following the parent source element upwards and mapping to `ResearchStudy`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.comparisonGroup|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -702,13 +656,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         }
       },
       {
-        "id" : "ResearchStudy.objective.extension:description",
+        "id" : "ResearchStudy.objective.extension:objective",
         "path" : "ResearchStudy.objective.extension",
-        "sliceName" : "description",
-        "short" : "Cross-version extension for ResearchStudy.objective.description from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchStudy.objective.description` is will have a context of ResearchStudy.objective based on following the parent source element upwards and mapping to `ResearchStudy`.",
+        "sliceName" : "objective",
+        "short" : "Cross-version extension for ResearchStudy.objective from R5 for use in FHIR R4",
+        "comment" : "Element `ResearchStudy.objective` has is mapped to FHIR R4 element `ResearchStudy.objective`, but has no comparisons.",
         "min" : 0,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -718,7 +672,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.objective.description|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchStudy.objective|0.0.1-snapshot-3"
             ]
           }
         ]

@@ -1,4 +1,4 @@
-# ConceptMapR5NutritionIntakeElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5NutritionIntakeElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5NutritionIntakeElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.0656242-06:00",
+  "date" : "2026-02-17T14:42:27.4107297-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -160,7 +160,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "instantiatesCanonical",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:instantiatesCanonical",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.instantiatesCanonical",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.instantiatesCanonical` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "instantiatesUri",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:instantiatesUri",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.instantiatesUri",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.instantiatesUri` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "basedOn",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:basedOn",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.basedOn",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.basedOn` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "partOf",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:partOf",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.partOf",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.partOf` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:status",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.status",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.status` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "statusReason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:statusReason",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.statusReason",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.statusReason` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:code",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.code",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.code` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "encounter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:encounter",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.encounter",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.encounter` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "occurrence[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:occurrence",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.occurrence",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.occurrence[x]` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "recorded",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:recorded",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.recorded",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.recorded` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reported[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:reported",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.reported",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.reported[x]` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.type",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.consumedItem.type` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "nutritionProduct",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:nutritionProduct",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.nutritionProduct",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.consumedItem.nutritionProduct` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "schedule",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:schedule",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.schedule",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.consumedItem.schedule` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "amount",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:amount",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.amount",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.consumedItem.amount` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -347,7 +347,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "rate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:rate",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.rate",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.consumedItem.rate` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -358,7 +358,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "notConsumed",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:notConsumed",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.notConsumed",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.consumedItem.notConsumed` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -369,7 +369,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "notConsumedReason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:notConsumedReason",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.notConsumedReason",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.consumedItem.notConsumedReason` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -391,7 +391,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "nutrient",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.ingredientLabel:nutrient",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.ingredientLabel:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.ingredientLabel.nutrient",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.ingredientLabel.nutrient` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -402,7 +402,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "amount",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.ingredientLabel:amount",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.ingredientLabel:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.ingredientLabel.amount",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.ingredientLabel.amount` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -424,7 +424,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "function",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.performer:function",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.performer:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.performer.function",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.performer.function` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -435,7 +435,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "actor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.performer:actor",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.performer:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.performer.actor",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.performer.actor` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -446,7 +446,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "location",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:location",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.location",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.location` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -457,7 +457,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "derivedFrom",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:derivedFrom",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.derivedFrom",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -468,7 +468,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:reason",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.reason",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.reason` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }
@@ -479,7 +479,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "note",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:note",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake:http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.note",
               "equivalence" : "relatedto",
               "comment" : "Element `NutritionIntake.note` is not mapped to FHIR R4, since FHIR R5 `NutritionIntake` is not mapped."
             }

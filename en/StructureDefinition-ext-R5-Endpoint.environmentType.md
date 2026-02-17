@@ -1,4 +1,4 @@
-# ExtensionEndpoint_EnvironmentType - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionEndpoint_EnvironmentType - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Endpoint.environmentType` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Endpoint.e
   "title" : "Cross-version Extension `R5.Endpoint.environmentType` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Endpoint.e
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Endpoint.environmentType` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Endpoint.environmentType` 0..* `CodeableConcept`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Endpoint.environmentType` 0..* `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Endpoint.environmentType` is will have a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Endpoint.environmentType` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Endpoint.environmentType` 0..* `CodeableConcept`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Endpoint.environmentType` 0..* `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Endpoint.environmentType` has a context of Endpoint based on following the parent source element upwards and mapping to `Endpoint`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

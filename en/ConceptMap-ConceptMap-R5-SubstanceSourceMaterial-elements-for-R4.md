@@ -1,4 +1,4 @@
-# ConceptMapR5SubstanceSourceMaterialElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5SubstanceSourceMaterialElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5SubstanceSourceMaterialElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2731879-06:00",
+  "date" : "2026-02-17T14:42:27.6084324-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -149,7 +149,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sourceMaterialClass",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:sourceMaterialClass",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialClass",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.sourceMaterialClass` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -160,7 +160,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sourceMaterialType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:sourceMaterialType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialType",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.sourceMaterialType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sourceMaterialState",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:sourceMaterialState",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialState",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.sourceMaterialState` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "organismId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:organismId",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organismId",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organismId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "organismName",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:organismName",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organismName",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organismName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "parentSubstanceId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:parentSubstanceId",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.parentSubstanceId",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.parentSubstanceId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "parentSubstanceName",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:parentSubstanceName",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.parentSubstanceName",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.parentSubstanceName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "countryOfOrigin",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:countryOfOrigin",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.countryOfOrigin",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.countryOfOrigin` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -237,7 +237,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "geographicalLocation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:geographicalLocation",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.geographicalLocation",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.geographicalLocation` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "developmentStage",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:developmentStage",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.developmentStage",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.developmentStage` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "fraction",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription:fraction",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription.fraction",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.fractionDescription.fraction` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "materialType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription:materialType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription.materialType",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.fractionDescription.materialType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "family",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:family",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.family",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.family` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "genus",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:genus",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.genus",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.genus` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "species",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:species",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.species",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.species` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "intraspecificType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:intraspecificType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.intraspecificType",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.intraspecificType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -347,7 +347,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "intraspecificDescription",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:intraspecificDescription",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.intraspecificDescription",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.intraspecificDescription` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -369,7 +369,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "authorType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author:authorType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author.authorType",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.author.authorType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -380,7 +380,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "authorDescription",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author:authorDescription",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author.authorDescription",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.author.authorDescription` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -402,7 +402,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "maternalOrganismId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid:maternalOrganismId",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.maternalOrganismId",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.hybrid.maternalOrganismId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -413,7 +413,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "maternalOrganismName",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid:maternalOrganismName",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.maternalOrganismName",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.hybrid.maternalOrganismName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -424,7 +424,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "paternalOrganismId",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid:paternalOrganismId",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.paternalOrganismId",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.hybrid.paternalOrganismId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -435,7 +435,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "paternalOrganismName",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid:paternalOrganismName",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.paternalOrganismName",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.hybrid.paternalOrganismName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -446,7 +446,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "hybridType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid:hybridType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.hybridType",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.hybrid.hybridType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -468,7 +468,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "kingdom",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral:kingdom",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.kingdom",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.organismGeneral.kingdom` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -479,7 +479,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "phylum",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral:phylum",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.phylum",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.organismGeneral.phylum` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -490,7 +490,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "class",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral:class",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.class",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.organismGeneral.class` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -501,7 +501,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "order",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral:order",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.order",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.organism.organismGeneral.order` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -523,7 +523,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "part",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription:part",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription.part",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.partDescription.part` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }
@@ -534,7 +534,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "partLocation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription:partLocation",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription.partLocation",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceSourceMaterial.partDescription.partLocation` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped."
             }

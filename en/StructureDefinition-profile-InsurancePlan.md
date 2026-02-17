@@ -1,4 +1,4 @@
-# ProfileInsurancePlan - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileInsurancePlan - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileInsurancePlan 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Insurance
   "title" : "Cross-version Profile for R5.InsurancePlan for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1682541-06:00",
+  "date" : "2026-02-17T14:42:26.8314284-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -137,6 +137,92 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Insurance
       {
         "id" : "InsurancePlan",
         "path" : "InsurancePlan"
+      },
+      {
+        "id" : "InsurancePlan.coverage.extension",
+        "path" : "InsurancePlan.coverage.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "InsurancePlan.coverage.extension:coverage",
+        "path" : "InsurancePlan.coverage.extension",
+        "sliceName" : "coverage",
+        "short" : "Cross-version extension for InsurancePlan.coverage from R5 for use in FHIR R4",
+        "comment" : "Element `InsurancePlan.coverage` has is mapped to FHIR R4 element `InsurancePlan.coverage`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.coverage|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "InsurancePlan.plan.extension",
+        "path" : "InsurancePlan.plan.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "InsurancePlan.plan.extension:plan",
+        "path" : "InsurancePlan.plan.extension",
+        "sliceName" : "plan",
+        "short" : "Cross-version extension for InsurancePlan.plan from R5 for use in FHIR R4",
+        "comment" : "Element `InsurancePlan.plan` has is mapped to FHIR R4 element `InsurancePlan.plan`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-InsurancePlan.plan|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

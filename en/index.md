@@ -1,4 +1,4 @@
-# Home - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Home - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Home
 
@@ -41,7 +41,7 @@ This publication includes IP covered under the following statements.
 
 * Some content from IHE® Copyright © 2015 [IHE International, Inc](http://www.ihe.net/Governance/#Intellectual_Property) .
 
-* [IHE Format Code set for use with Document Sharing](http://tx.fhir.org/r4/ValueSet/formatcode): [ExtensionEndpoint_Payload_Type](StructureDefinition-ext-R5-Endpoint.pay.type.md) and [ValueSetR5EndpointPayloadTypeForR4](ValueSet-ValueSet-R5-endpoint-payload-type-for-R4.md)
+* [IHE Format Code set for use with Document Sharing](http://tx.fhir.org/r4/ValueSet/formatcode): [ExtensionEndpoint_Payload](StructureDefinition-ext-R5-Endpoint.payload.md) and [ValueSetR5EndpointPayloadTypeForR4](ValueSet-ValueSet-R5-endpoint-payload-type-for-R4.md)
 
 
 * The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. [https://ucum.org/trac/wiki/TermsOfUse](https://ucum.org/trac/wiki/TermsOfUse)
@@ -61,7 +61,7 @@ This publication includes IP covered under the following statements.
 
 * This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
 
-* [StatisticAttribute Estimate Type](http://terminology.hl7.org/7.0.1/CodeSystem-attribute-estimate-type.html): [ValueSetR5AttributeEstimateTypeForR4](ValueSet-ValueSet-R5-attribute-estimate-type-for-R4.md)
+* [StatisticAttribute Estimate Type](http://terminology.hl7.org/7.0.1/CodeSystem-attribute-estimate-type.html): [ExtensionEvidence_Statistic](StructureDefinition-ext-R5-Evidence.statistic.md) and [ValueSetR5AttributeEstimateTypeForR4](ValueSet-ValueSet-R5-attribute-estimate-type-for-R4.md)
 * [CharacteristicMethod](http://tx.fhir.org/r4/ValueSet/characteristic-method): [ValueSetR5CharacteristicMethodForR4](ValueSet-ValueSet-R5-characteristic-method-for-R4.md)
 * [EvidenceDirectness](http://terminology.hl7.org/7.0.1/CodeSystem-directness.html): [ExtensionEvidence_VariableDefinition](StructureDefinition-ext-R5-Evidence.variableDefinition.md) and [ValueSetR5DirectnessForR4](ValueSet-ValueSet-R5-directness-for-R4.md)
 * [HL7 Terminology Maintenance Infrastructure Vocabulary](http://terminology.hl7.org/7.0.1/CodeSystem-hl7TermMaintInfra.html): [BedStatus](CodeSystem-v2-0116.md), [ContactRole2](CodeSystem-v2-0131.md)... Show 8 more, [DiagnosticServiceSectionId](CodeSystem-v2-0074.md), [EventType](CodeSystem-v2-0003.md), [IdentifierType](CodeSystem-v2-0203.md), [MessageStructure](CodeSystem-v2-0354.md), [OperationOutcomeTHO](CodeSystem-operation-outcome-tho.md), [ProviderRole](CodeSystem-v2-0443.md), [ReAdmissionIndicator](CodeSystem-v2-0092.md) and [SpecimenType](CodeSystem-v2-0487.md)
@@ -69,8 +69,8 @@ This publication includes IP covered under the following statements.
 * [Subscription Error Codes](http://terminology.hl7.org/7.0.1/CodeSystem-subscription-error.html): [ExtensionSubscriptionStatus](StructureDefinition-ext-R5-SubscriptionStatus.md) and [ValueSetR5SubscriptionErrorForR4](ValueSet-ValueSet-R5-subscription-error-for-R4.md)
 * [ActClass](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ActClass.html): [ActCode](CodeSystem-v3-ActCode.md)
 * [EntityNamePartQualifier](http://terminology.hl7.org/7.0.1/CodeSystem-v3-EntityNamePartQualifier.html): [ValueSetR5V3EntityNamePartQualifierForR4NamePartQualifier](ValueSet-ValueSet-R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier.md)
-* [HL7 Document Format Codes](http://terminology.hl7.org/7.0.1/CodeSystem-v3-HL7DocumentFormatCodes.html): [ExtensionEndpoint_Payload_Type](StructureDefinition-ext-R5-Endpoint.pay.type.md) and [ValueSetR5EndpointPayloadTypeForR4](ValueSet-ValueSet-R5-endpoint-payload-type-for-R4.md)
-* [ObservationInterpretation](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ObservationInterpretation.html): [ValueSetR5ObservationInterpretationForR4](ValueSet-ValueSet-R5-observation-interpretation-for-R4.md)
+* [HL7 Document Format Codes](http://terminology.hl7.org/7.0.1/CodeSystem-v3-HL7DocumentFormatCodes.html): [ExtensionEndpoint_Payload](StructureDefinition-ext-R5-Endpoint.payload.md) and [ValueSetR5EndpointPayloadTypeForR4](ValueSet-ValueSet-R5-endpoint-payload-type-for-R4.md)
+* [ObservationInterpretation](http://terminology.hl7.org/7.0.1/CodeSystem-v3-ObservationInterpretation.html): [ExtensionObservation_Component](StructureDefinition-ext-R5-Observation.component.md) and [ValueSetR5ObservationInterpretationForR4](ValueSet-ValueSet-R5-observation-interpretation-for-R4.md)
 * [RoleClass](http://terminology.hl7.org/7.0.1/CodeSystem-v3-RoleClass.html): [RoleCode](CodeSystem-v3-RoleCode.md)
 * [Media Type](http://tx.fhir.org/r4/ValueSet/v3-mediaType): [ValueSetR5V3MediaTypeForR4MediaType](ValueSet-ValueSet-R5-v3-MediaType-for-R4-media-type.md)
 * [EvidenceVariableRole](http://terminology.hl7.org/7.0.1/CodeSystem-variable-role.html): [ExtensionEvidence_VariableDefinition](StructureDefinition-ext-R5-Evidence.variableDefinition.md) and [ValueSetR5VariableRoleForR4](ValueSet-ValueSet-R5-variable-role-for-R4.md)

@@ -1,4 +1,4 @@
-# ConceptMapR5RequirementsElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5RequirementsElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5RequirementsElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1837215-06:00",
+  "date" : "2026-02-17T14:42:27.5169138-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -149,7 +149,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "url",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:url",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.url",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.url` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "version",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:version",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.version",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.version` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:versionAlgorithm",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.versionAlgorithm",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.versionAlgorithm[x]` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "name",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:name",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.name",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.name` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:title",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.title",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.title` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:status",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.status",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.status` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "experimental",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:experimental",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.experimental",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.experimental` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -237,7 +237,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "date",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:date",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.date",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.date` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "publisher",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:publisher",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.publisher",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.publisher` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "contact",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:contact",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.contact",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.contact` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:description",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.description",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.description` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "useContext",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:useContext",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.useContext",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.useContext` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -292,7 +292,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "jurisdiction",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:jurisdiction",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.jurisdiction",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "purpose",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:purpose",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.purpose",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.purpose` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyright",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:copyright",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.copyright",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.copyright` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyrightLabel",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:copyrightLabel",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.copyrightLabel",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.copyrightLabel` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "derivedFrom",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:derivedFrom",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.derivedFrom",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -347,7 +347,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:reference",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.reference",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.reference` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -358,7 +358,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "actor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:actor",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.actor",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.actor` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -380,7 +380,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "key",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:key",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.key",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.statement.key` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -391,7 +391,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "label",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:label",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.label",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.statement.label` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -402,7 +402,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "conformance",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:conformance",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conformance",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.statement.conformance` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -413,7 +413,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "conditionality",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:conditionality",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.conditionality",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.statement.conditionality` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -424,7 +424,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "requirement",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:requirement",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.requirement",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.statement.requirement` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -435,7 +435,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "derivedFrom",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:derivedFrom",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.derivedFrom",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.statement.derivedFrom` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -446,7 +446,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "parent",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:parent",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.parent",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.statement.parent` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -457,7 +457,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "satisfiedBy",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:satisfiedBy",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.satisfiedBy",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.statement.satisfiedBy` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -468,7 +468,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:reference",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.reference",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.statement.reference` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }
@@ -479,7 +479,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "source",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:source",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement:http://hl7.org/fhir/5.0/StructureDefinition/extension-Requirements.statement.source",
               "equivalence" : "relatedto",
               "comment" : "Element `Requirements.statement.source` is not mapped to FHIR R4, since FHIR R5 `Requirements` is not mapped."
             }

@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Lookup for ProfileAccount - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+    <title>Lookup for ProfileAccount - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -67,7 +67,7 @@
 
 
         <div id="ig-status" data-fhir="generated">
-          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
             <br/>
             <span style="display:inline-block;">0.0.1-snapshot-3 - STU
 
@@ -175,7 +175,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Lookup for ProfileAccount</h2>
   
 
@@ -245,7 +245,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.billingStatus</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.billingStatus.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.billingStatus</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.billingStatus.html">Extension: ExtensionAccount_BillingStatus</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.type</code></a></td>
@@ -265,15 +265,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.coverage</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.coverage</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.coverage</a><br /><a href="StructureDefinition-ext-R5-Account.coverage.html">Extension: ExtensionAccount_Coverage</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.coverage.coverage</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.coverage.coverage</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.coverage.coverage</a><br /><a href="StructureDefinition-ext-R5-Account.coverage.html">Extension: ExtensionAccount_Coverage Slice:coverage</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.coverage.priority</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.coverage.priority</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.coverage.priority</a><br /><a href="StructureDefinition-ext-R5-Account.coverage.html">Extension: ExtensionAccount_Coverage Slice:priority</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.owner</code></a></td>
@@ -285,115 +285,115 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.guarantor</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.guarantor</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.guarantor</a><br /><a href="StructureDefinition-ext-R5-Account.guarantor.html">Extension: ExtensionAccount_Guarantor</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.guarantor.party</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.guarantor.party</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.guarantor.party</a><br /><a href="StructureDefinition-ext-R5-Account.guarantor.html">Extension: ExtensionAccount_Guarantor Slice:party</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.guarantor.onHold</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.guarantor.onHold</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.guarantor.onHold</a><br /><a href="StructureDefinition-ext-R5-Account.guarantor.html">Extension: ExtensionAccount_Guarantor Slice:onHold</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.guarantor.period</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.guarantor.period</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.guarantor.period</a><br /><a href="StructureDefinition-ext-R5-Account.guarantor.html">Extension: ExtensionAccount_Guarantor Slice:period</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.diagnosis</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.diagnosis.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension: ExtensionAccount_Diagnosis</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.diagnosis.sequence</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension slice: sequence</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension: ExtensionAccount_Diagnosis Slice:sequence</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.diagnosis.condition</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension slice: condition</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension: ExtensionAccount_Diagnosis Slice:condition</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.diagnosis.dateOfDiagnosis</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension slice: dateOfDiagnosis</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension: ExtensionAccount_Diagnosis Slice:dateOfDiagnosis</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.diagnosis.type</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension slice: type</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension: ExtensionAccount_Diagnosis Slice:type</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.diagnosis.onAdmission</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension slice: onAdmission</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension: ExtensionAccount_Diagnosis Slice:onAdmission</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.diagnosis.packageCode</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension slice: packageCode</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.diagnosis.html">Extension: ExtensionAccount_Diagnosis Slice:packageCode</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.procedure</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.procedure.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension: ExtensionAccount_Procedure</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.procedure.sequence</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension slice: sequence</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension: ExtensionAccount_Procedure Slice:sequence</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.procedure.code</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension slice: code</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension: ExtensionAccount_Procedure Slice:code</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.procedure.dateOfService</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension slice: dateOfService</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension: ExtensionAccount_Procedure Slice:dateOfService</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.procedure.type</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension slice: type</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension: ExtensionAccount_Procedure Slice:type</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.procedure.packageCode</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension slice: packageCode</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension: ExtensionAccount_Procedure Slice:packageCode</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.procedure.device</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.procedure.html">Extension slice: device</a></td>
+      <td><a href="http://hl7.org/fhir/StructureDefinition/alternate-reference">http://hl7.org/fhir/StructureDefinition/alternate-reference</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.relatedAccount</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.relatedAccount.html">Extension: ExtensionAccount_RelatedAccount</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.relatedAccount.relationship</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.rel.relationship.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.relatedAccount.relationship</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.relatedAccount.html">Extension: ExtensionAccount_RelatedAccount Slice:relationship</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.relatedAccount.account</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.partOf</a></td>
+      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account.partOf</a><br /><a href="StructureDefinition-ext-R5-Account.relatedAccount.html">Extension: ExtensionAccount_RelatedAccount Slice:account</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.currency</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.currency.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.currency</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.currency.html">Extension: ExtensionAccount_Currency</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.balance</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.balance.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.balance.html">Extension: ExtensionAccount_Balance</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.balance.aggregate</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.balance.html">Extension slice: aggregate</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.balance.html">Extension: ExtensionAccount_Balance Slice:aggregate</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.balance.term</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.balance.html">Extension slice: term</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.balance.html">Extension: ExtensionAccount_Balance Slice:term</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.balance.estimate</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.balance.html">Extension slice: estimate</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.balance.html">Extension: ExtensionAccount_Balance Slice:estimate</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.balance.amount</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.balance.html">Extension slice: amount</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.balance.html">Extension: ExtensionAccount_Balance Slice:amount</a></td>
     </tr>
     <tr>
       <td><a href="https://hl7.org/fhir/R5/Account.html#resource"><code class="language-plaintext highlighter-rouge">Account.calculatedAt</code></a></td>
-      <td><a href="https://hl7.org/fhir/R4/Account.html#resource">Account</a><br /><a href="StructureDefinition-ext-R5-Account.calculatedAt.html">http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.calculatedAt</a></td>
+      <td><a href="StructureDefinition-ext-R5-Account.calculatedAt.html">Extension: ExtensionAccount_CalculatedAt</a></td>
     </tr>
   </tbody>
 </table>
@@ -448,8 +448,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-09 22:08:00 -0600">
-    2026-02-09
+  <span title="2026-02-17 15:29:00 -0600">
+    2026-02-17
   </span>
 
           <br/>

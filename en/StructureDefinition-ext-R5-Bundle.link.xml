@@ -58,7 +58,7 @@
   <title value="Cross-version Extension `R5.Bundle.link` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-10T04:05:33.0136333+00:00"/>
+  <date value="2026-02-17T20:42:20.5370068+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -75,7 +75,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Bundle.link` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Bundle.link` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Bundle.link` 0..* `BackboneElement`&#xA;*  R4B: `Bundle.link` 0..* `BackboneElement`&#xA;*  R4: `Bundle.link` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Bundle.link` is mapped to FHIR R4 element `Bundle.link`."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `Bundle.link` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`Bundle.link` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `Bundle.link` 0..* `BackboneElement`&#xA;*  R4B: `Bundle.link` 0..* `BackboneElement`&#xA;*  R4: `Bundle.link` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `Bundle.link` has is mapped to FHIR R4 element `Bundle.link`, but has no comparisons.&#xA;Note available implied context: `Bundle.entry.link` because `Bundle.entry.link` is defined as a content reference to `Bundle.link`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -86,7 +86,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Extension.extension"/>
+    <expression value="Bundle.link"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -198,7 +198,7 @@
       <sliceName value="relation"/>
       <short value="See http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1"/>
       <definition value="A name which details the functional use for this link - see [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1](http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1)."/>
-      <requirements value="Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `Bundle.link.relation` is mapped to FHIR R4 element `Bundle.link.relation`."/>
+      <requirements value="Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.&#xA;Element `Bundle.link.relation` has is mapped to FHIR R4 element `Bundle.link.relation`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -362,7 +362,7 @@
       <sliceName value="url"/>
       <short value="Reference details for the link"/>
       <definition value="The reference details for the link."/>
-      <requirements value="Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `Bundle.link.url` is mapped to FHIR R4 element `Bundle.link.url`."/>
+      <requirements value="Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.&#xA;Element `Bundle.link.url` has is mapped to FHIR R4 element `Bundle.link.url`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -763,7 +763,7 @@
       <sliceName value="relation"/>
       <short value="See http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1"/>
       <definition value="A name which details the functional use for this link - see [http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1](http://www.iana.org/assignments/link-relations/link-relations.xhtml#link-relations-1)."/>
-      <requirements value="Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `Bundle.link.relation` is mapped to FHIR R4 element `Bundle.link.relation`."/>
+      <requirements value="Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.&#xA;Element `Bundle.link.relation` has is mapped to FHIR R4 element `Bundle.link.relation`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -803,7 +803,7 @@
       <sliceName value="url"/>
       <short value="Reference details for the link"/>
       <definition value="The reference details for the link."/>
-      <requirements value="Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `Bundle.link.url` is mapped to FHIR R4 element `Bundle.link.url`."/>
+      <requirements value="Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.&#xA;Element `Bundle.link.url` has is mapped to FHIR R4 element `Bundle.link.url`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>

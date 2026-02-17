@@ -1,4 +1,4 @@
-# ProfileMessageDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileMessageDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileMessageDefinition 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 MessageDefinition content to be represented
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md) and [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md)
+* Refer to this Profile: [Cross-version Extension `R5.CapabilityStatement.messaging` for use in FHIR R4](StructureDefinition-ext-R5-CapabilityStatement.messaging.md), [Cross-version Extension `R5.MessageDefinition.allowedResponse` for use in FHIR R4](StructureDefinition-ext-R5-MessageDefinition.allowedResponse.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md) and [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-MessageDefinition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageDe
   "title" : "Cross-version Profile for R5.MessageDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2183758-06:00",
+  "date" : "2026-02-17T14:42:26.8553276-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -179,7 +179,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageDe
         "path" : "MessageDefinition.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for MessageDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `MessageDefinition.versionAlgorithm[x]` is will have a context of MessageDefinition based on following the parent source element upwards and mapping to `MessageDefinition`.",
+        "comment" : "Element `MessageDefinition.versionAlgorithm[x]` has a context of MessageDefinition based on following the parent source element upwards and mapping to `MessageDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -201,7 +201,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageDe
         "path" : "MessageDefinition.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for MessageDefinition.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `MessageDefinition.copyrightLabel` is will have a context of MessageDefinition based on following the parent source element upwards and mapping to `MessageDefinition`.",
+        "comment" : "Element `MessageDefinition.copyrightLabel` has a context of MessageDefinition based on following the parent source element upwards and mapping to `MessageDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -219,8 +219,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageDe
         ]
       },
       {
-        "id" : "MessageDefinition.focus.code.extension",
-        "path" : "MessageDefinition.focus.code.extension",
+        "id" : "MessageDefinition.focus.extension",
+        "path" : "MessageDefinition.focus.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -231,22 +231,22 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageDe
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "MessageDefinition.focus.code",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "MessageDefinition.focus.code.extension:code",
-        "path" : "MessageDefinition.focus.code.extension",
-        "sliceName" : "code",
-        "short" : "Cross-version extension for MessageDefinition.focus.code from R5 for use in FHIR R4",
-        "comment" : "Element `MessageDefinition.focus.code` is mapped to FHIR R4 element `MessageDefinition.focus.code`.",
-        "min" : 1,
-        "max" : "1",
+        "id" : "MessageDefinition.focus.extension:focus",
+        "path" : "MessageDefinition.focus.extension",
+        "sliceName" : "focus",
+        "short" : "Cross-version extension for MessageDefinition.focus from R5 for use in FHIR R4",
+        "comment" : "Element `MessageDefinition.focus` has is mapped to FHIR R4 element `MessageDefinition.focus`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -256,7 +256,50 @@ Other representations of profile: [CSV](../StructureDefinition-profile-MessageDe
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.focus.code|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.focus|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "MessageDefinition.allowedResponse.extension",
+        "path" : "MessageDefinition.allowedResponse.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "MessageDefinition.allowedResponse.extension:allowedResponse",
+        "path" : "MessageDefinition.allowedResponse.extension",
+        "sliceName" : "allowedResponse",
+        "short" : "Cross-version extension for MessageDefinition.allowedResponse from R5 for use in FHIR R4",
+        "comment" : "Element `MessageDefinition.allowedResponse` has is mapped to FHIR R4 element `MessageDefinition.allowedResponse`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.allowedResponse|0.0.1-snapshot-3"
             ]
           }
         ]

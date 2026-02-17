@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>FAQs - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+    <title>FAQs - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -65,7 +65,7 @@
 
 
         <div id="ig-status" data-fhir="generated">
-          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
             <br/>
             <span style="display:inline-block;">0.0.1-snapshot-3 - STU
 
@@ -173,7 +173,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.org/fhir/uv/xver/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7&reg; FHIR&reg; Standard) Build Tools. See the <a href="http://hl7.org/fhir/uv/xver/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <h2>FAQs</h2>
   
 
@@ -197,16 +197,53 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>Index:</p>
 <ul>
-  <li>2026.01.29: <a href="#faq20260129-01">What is in the Cross-Version package?</a></li>
+  <li>2026.01.29: <a href="#faq20260129-01">What are in the Cross-Version packages?</a></li>
   <li>2026.02.03: <a href="#faq20260203-01">How do I handle required elements with required bindings?</a></li>
   <li>2026.02.06: <a href="#faq20260206-02">How do I handle resources that do not exist in my FHIR version?</a></li>
   <li>2026.02.06: <a href="#faq20260206-01">How do I handle type-mapping across FHIR versions?</a></li>
   <li><a name="l347">​</a>2026.02.09: <a href="#faq20260209-01">How do I handle required reference elements?</a></li>
   <li><a name="l352">​</a>2026.02.09: <a href="#faq20260209-02">What are the CodeSystems used in the element concept maps?</a></li>
+  <li><a name="l357">​</a>2026.02.12: <a href="#faq20260212-01">I was expecting a cross-version extension, but found a different extension</a></li>
+  <li><a name="l362">​</a>2026.02.18: <a href="#faq20260217-01">The element I am looking for does not exist in the lookup or profile</a></li>
 </ul>
 
-<h4 id="what-is-in-the-cross-version-package">What is in the Cross-Version package?</h4>
+<h4 id="what-are-in-the-cross-version-packages">What are in the Cross-Version packages?</h4>
 <p><a name="faq20260129-01"></a></p>
+
+<p>There are two types of cross-version packages: ones that contain content for a specific FHIR version pairing (e.g., R5 content for use in R4) and validation packages that include all of the content available for that version (e.g., the R4 definitions that include DSTU2, STU3, R4B, and R5). The packages are differentiable based on their names.</p>
+
+<p>Note that the cross-version packages depend on definitions from other common packages in the HL7 FHIR ecosystem, such as the Extensions Pack and Tooling IG.</p>
+
+<h5 id="cross-version-content-packages">Cross-Version Content Packages</h5>
+
+<p>The cross-version content packages are named in the pattern of <code class="language-plaintext highlighter-rouge">hl7.fhir.uv.xver-[source FHIR version].[target FHIR version]</code>, for example: <code class="language-plaintext highlighter-rouge">hl7.fhir.uv.xver-r5.r4</code> is the package that allows use of FHIR R5 definitions <em>in</em> FHIR R4. Note that the trailing segment is target FHIR version by convention in HL7 publications (e.g., <code class="language-plaintext highlighter-rouge">hl7.terminology.r4</code>, etc.).</p>
+
+<p>The cross-version content packages include various FHIR artifacts:</p>
+<ul>
+  <li>Relevant core-defined and terminology.hl7.org-defined CodeSystems, converted to the correct version.</li>
+  <li>ValueSet resources that contain allowed values to use in cross-version extensions</li>
+  <li>Extension definitions (StructureDefinition resources)</li>
+  <li>Profile definitions (StructureDefinition resources)</li>
+  <li>A Resource-lookup ConceptMap resource that contains computable relationship definitions between resources in the versions</li>
+  <li>Resource-element ConceptMap resources that contain computable relationships between elements of the source and target resources and extensions</li>
+  <li>Bound ValueSet ConceptMap resources that contain the ValueSet mappings between source and target ValueSets, when both sides exist</li>
+</ul>
+
+<p>The cross-version content packages also include various lookup pages to aid in human consumption:</p>
+<ul>
+  <li>A Structure Lookup page that lists the source and target resource pairs</li>
+  <li>Structure-element lookup pages that list the source elements paired with any target elements and/or extensions for them</li>
+  <li>A ValueSet Lookup page that lists the source and target ValueSet pairs</li>
+  <li>ValueSet-concept lookup pages that list the source concepts and relationships to any target concepts</li>
+</ul>
+
+<p>Finally, the cross-version packages all include general pages, such as this FAQ.</p>
+
+<h5 id="cross-version-validation-packages">Cross-Version Validation Packages</h5>
+
+<p>The cross-version validation packages are named in the pattern of <code class="language-plaintext highlighter-rouge">hl7.fhir.uv.xver.[target FHIR version]</code>, for example: <code class="language-plaintext highlighter-rouge">hl7.fhir.uv.xver.r4</code> is the validation package that includes dependencies on each of the content packages that target FHIR R4. Note that this naming convention is very similar to the content packages and simply excludes a source FHIR version.</p>
+
+<p>The cross-version validation packages are much simpler in definition, as they are simply placeholder packages with dependencies on the relevant content packages. Their content is limited to the general-purpose page content, such as this FAQ.</p>
 
 <h4 id="how-do-i-handle-resources-that-do-not-exist-in-my-fhir-version">How do I handle resources that do not exist in my FHIR version?</h4>
 <p><a name="faq20260206-02"></a></p>
@@ -266,7 +303,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <p>In total, that provides a <em>base</em> mapping table that looks like:</p>
 
-<table>
+<table class="grid">
   <thead>
     <tr>
       <th>Source Type</th>
@@ -391,7 +428,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"oid"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">},</span><span class="w">
     </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"uri"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">},</span><span class="w">
     </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"url"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">},</span><span class="w">
-    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">}]}</span><span class="err">,</span><span class="w">
+    </span><span class="p">{</span><span class="w"> </span><span class="nl">"code"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"uuid"</span><span class="p">,</span><span class="w"> </span><span class="nl">"relationship"</span><span class="w"> </span><span class="p">:</span><span class="w"> </span><span class="s2">"source-is-broader-than-target"</span><span class="w"> </span><span class="p">}]}</span><span class="w">
 </span></code></pre></div></div>
 
 <p>This indicates that an element defined as <code class="language-plaintext highlighter-rouge">string</code> in a version of FHIR <em>is allowed</em> to map to an element defined as any of: <code class="language-plaintext highlighter-rouge">string</code>, <code class="language-plaintext highlighter-rouge">canonical</code>, <code class="language-plaintext highlighter-rouge">code</code>, <code class="language-plaintext highlighter-rouge">id</code>, <code class="language-plaintext highlighter-rouge">integer64</code>, <code class="language-plaintext highlighter-rouge">markdown</code>, <code class="language-plaintext highlighter-rouge">oid</code>, <code class="language-plaintext highlighter-rouge">uri</code>, <code class="language-plaintext highlighter-rouge">url</code>, or <code class="language-plaintext highlighter-rouge">uuid</code>. The relationship describes the difference in values that can be contained by the related types.</p>
@@ -502,42 +539,62 @@ If the base element's value fully conveys the intended meaning, the extension is
 
 <p>The definition that the cross-version guides use is based on the <em>current</em> guidance, which (at the time of writing) is reproduced below.</p>
 
-<blockquote>
-  <p>Some other parts of the FHIR infrastructure define set of concepts that may also be treated as code systems. This is most useful when mapping between systems using Concept Maps, but might also be useful for other code system related functionality (e.g. subsetting using Value Sets). The table below summarizes how to treat these items as a code system:</p>
-</blockquote>
+<hr/>
 
-<blockquote>
-  <table>
-    <thead>
-      <tr>
-        <th>CodeSystem Element Value</th>
-        <th>Meaning</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>URL (<code class="language-plaintext highlighter-rouge">CodeSystem.url</code>)</td>
-        <td><code class="language-plaintext highlighter-rouge">StructureDefinition.url</code></td>
-      </tr>
-      <tr>
-        <td>Concept (<code class="language-plaintext highlighter-rouge">CodeSystem.concept</code>)</td>
-        <td>Each <code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element</code> element corresponds to a code system concept.</td>
-      </tr>
-      <tr>
-        <td>Code (<code class="language-plaintext highlighter-rouge">CodeSystem.concept.code</code>)</td>
-        <td><code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.id</code></td>
-      </tr>
-      <tr>
-        <td>Display (<code class="language-plaintext highlighter-rouge">CodeSystem.concept.display</code>)</td>
-        <td><code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.label</code> if one exists, otherwise <code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.short</code></td>
-      </tr>
-      <tr>
-        <td>Definition (<code class="language-plaintext highlighter-rouge">CodeSystem.concept.definition</code>)</td>
-        <td><code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.definition</code></td>
-      </tr>
-    </tbody>
-  </table>
-</blockquote>
+<p>Some other parts of the FHIR infrastructure define set of concepts that may also be treated as code systems. This is most useful when mapping between systems using Concept Maps, but might also be useful for other code system related functionality (e.g. subsetting using Value Sets). The table below summarizes how to treat these items as a code system:</p>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>CodeSystem Element Value</th>
+      <th>Meaning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>URL (<code class="language-plaintext highlighter-rouge">CodeSystem.url</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">StructureDefinition.url</code></td>
+    </tr>
+    <tr>
+      <td>Concept (<code class="language-plaintext highlighter-rouge">CodeSystem.concept</code>)</td>
+      <td>Each <code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element</code> element corresponds to a code system concept.</td>
+    </tr>
+    <tr>
+      <td>Code (<code class="language-plaintext highlighter-rouge">CodeSystem.concept.code</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.id</code></td>
+    </tr>
+    <tr>
+      <td>Display (<code class="language-plaintext highlighter-rouge">CodeSystem.concept.display</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.label</code> if one exists, otherwise <code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.short</code></td>
+    </tr>
+    <tr>
+      <td>Definition (<code class="language-plaintext highlighter-rouge">CodeSystem.concept.definition</code>)</td>
+      <td><code class="language-plaintext highlighter-rouge">StructureDefinition.snapshot.element.definition</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<hr/>
+
+<h4 id="i-was-expecting-a-cross-version-extension-but-found-a-different-extension">I was expecting a cross-version extension, but found a different extension</h4>
+<p><a name="#faq20260212-01"></a></p>
+
+<p>Cross-version definitions exist to simplify and standardize representations of data when crossing FHIR versions. Due to how FHIR core development works, there is often a need for data to be represented <em>prior to</em> the FHIR publication where something becomes standard. Alternatively, there is sometimes a common extension defined to simplify consumption of data. The cross-version packages use existing extension definitions wherever possible.</p>
+
+<p>For example, there is a standard extension defined in the FHIR extensions pack for an <a href="http://hl7.org/fhir/StructureDefinition/alternate-reference"><code class="language-plaintext highlighter-rouge">alternate-reference</code></a>. This extension was defined in advance of the cross-version extensions and was already in use. Therefore, any data that <em>would</em> require a cross-version extension to represent a <code class="language-plaintext highlighter-rouge">Reference</code>, instead uses the <code class="language-plaintext highlighter-rouge">alternate-reference</code> extension. In order to facilitate discovery and use, the lookup pages, profiles, and concept maps also reference such extensions when used.</p>
+
+<h4 id="the-element-i-am-looking-for-does-not-exist-in-the-lookup-or-profile">The element I am looking for does not exist in the lookup or profile</h4>
+<p><a name="#faq20260217-01"></a></p>
+
+<p>The content on the lookup pages and in the profiles are based on the <code class="language-plaintext highlighter-rouge">StructureDefinition</code> resources published in each package. Element paths in instances are often based on following those definitions across boundaries that do not exist in the definitions themselves - such as elements within data types and elements defined as content references.</p>
+
+<h5 id="elements-within-data-types">Elements within data types</h5>
+
+<p>Generally, the cross-version packages stop at the data-type level. Complex types can include elements themselves, such as <code class="language-plaintext highlighter-rouge">HumanName.given</code> that are joined together when serializing instances. For example, the <code class="language-plaintext highlighter-rouge">Patient</code> resource defines the <code class="language-plaintext highlighter-rouge">Patient.name</code> element with the <code class="language-plaintext highlighter-rouge">HumanName</code> data type and thus creates paths such as <code class="language-plaintext highlighter-rouge">Patient.name.given</code>. When generating extensions, there can be ambiguity whether such an extension should exist rooted in the <code class="language-plaintext highlighter-rouge">Patient</code> resource or the <code class="language-plaintext highlighter-rouge">HumanName</code> data type. While efforts have been made to resolve all such instances correctly, if you believe there is an error please file a Jira ticket.</p>
+
+<h5 id="content-references">Content References</h5>
+
+<p>Some elements in FHIR are defined as 'content references' to other elements. For example, the element <code class="language-plaintext highlighter-rouge">Questionnaire.item.item</code> is defined as a reference to the element <code class="language-plaintext highlighter-rouge">Questionnaire.item</code>, allowing for a recursive type that nests into itself. When using <code class="language-plaintext highlighter-rouge">StructureDefinition</code> resources (e.g., for profiling), the content references are not followed when generating snapshots, which means that the downstream elements do not exist. Extensions that define a context of the <em>source</em> of the content reference (e.g., <code class="language-plaintext highlighter-rouge">Questionnaire.item</code>) are automatically valid in any elements that <em>use</em> that content reference (e.g., <code class="language-plaintext highlighter-rouge">Questionnaire.item.item</code>). Note that this is true even when the content references are not nested - so extensions defined with a context of <code class="language-plaintext highlighter-rouge">ValueSet.compose.include.concept.designation</code> are automatically valid to use on <code class="language-plaintext highlighter-rouge">ValueSet.expansion.contains.designation</code>.</p>
 
 
 
@@ -589,8 +646,8 @@ If the base element's value fully conveys the intended meaning, the extension is
           IG &copy; 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-09 22:08:00 -0600">
-    2026-02-09
+  <span title="2026-02-17 15:29:00 -0600">
+    2026-02-17
   </span>
 
           <br/>

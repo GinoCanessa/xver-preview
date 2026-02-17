@@ -1,4 +1,4 @@
-# ConceptMapR5SubstanceReferenceInformationElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5SubstanceReferenceInformationElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5SubstanceReferenceInformationElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2707452-06:00",
+  "date" : "2026-02-17T14:42:27.5897754-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -149,7 +149,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "comment",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:comment",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.comment",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.comment` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "geneSequenceOrigin",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene:geneSequenceOrigin",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene.geneSequenceOrigin",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.gene.geneSequenceOrigin` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "gene",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene:gene",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene.gene",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.gene.gene` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "source",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene:source",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.gene.source",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.gene.source` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement.type",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.geneElement.type` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "element",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement:element",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement.element",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.geneElement.element` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -237,7 +237,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "source",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement:source",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.geneElement.source",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.geneElement.source` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "target",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:target",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.target",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.target.target` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.type",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.target.type` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "interaction",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:interaction",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.interaction",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.target.interaction` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -292,7 +292,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "organism",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:organism",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.organism",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.target.organism` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "organismType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:organismType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.organismType",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.target.organismType` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "amount[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:amount",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.amount",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.target.amount[x]` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "amountType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:amountType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.amountType",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.target.amountType` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "source",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:source",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target:http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceReferenceInformation.target.source",
               "equivalence" : "relatedto",
               "comment" : "Element `SubstanceReferenceInformation.target.source` is not mapped to FHIR R4, since FHIR R5 `SubstanceReferenceInformation` is not mapped."
             }

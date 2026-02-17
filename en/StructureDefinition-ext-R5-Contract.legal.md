@@ -1,4 +1,4 @@
-# ExtensionContract_Legal - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionContract_Legal - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Contract.legal` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.l
   "title" : "Cross-version Extension `R5.Contract.legal` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.l
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Contract.legal` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Contract.legal` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Contract.legal` 0..* `BackboneElement`\n*  R4B: `Contract.legal` 0..* `BackboneElement`\n*  R4: `Contract.legal` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Contract.legal` is mapped to FHIR R4 element `Contract.legal`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Contract.legal` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Contract.legal` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Contract.legal` 0..* `BackboneElement`\n*  R4B: `Contract.legal` 0..* `BackboneElement`\n*  R4: `Contract.legal` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Contract.legal` has is mapped to FHIR R4 element `Contract.legal`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.l
         "sliceName" : "content",
         "short" : "Contract Legal Text",
         "definition" : "Contract legal text in human renderable form.",
-        "requirements" : "Note that the target element context `Contract.legal.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.legal`.\nElement `Contract.legal.content[x]` is mapped to FHIR R4 element `Contract.legal.content[x]`.\nNote that the target element context `Contract.legal.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.legal`.",
+        "requirements" : "Element `Contract.legal.content[x]` is part of an existing definition because parent element `Contract.legal` requires a cross-version extension.\nNote that the target element context `Contract.legal.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.legal`.\nElement `Contract.legal.content[x]` has is mapped to FHIR R4 element `Contract.legal.content[x]`, but has no comparisons.\nNote that the target element context `Contract.legal.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.legal`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.l
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "content"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.legal.content"
       },
       {
         "id" : "Extension.extension:content.value[x]",

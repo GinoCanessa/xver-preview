@@ -1,4 +1,4 @@
-# ExtensionContract_Term - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionContract_Term - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Contract.term` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `Contract.term` for 
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.Contract for use in FHIR R4](StructureDefinition-profile-Contract.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-Contract.term)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
   "title" : "Cross-version Extension `R5.Contract.term` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Contract.term` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Contract.term` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Contract.term` 0..* `BackboneElement`\n*  R4B: `Contract.term` 0..* `BackboneElement`\n*  R4: `Contract.term` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Contract.term` is mapped to FHIR R4 element `Contract.term`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Contract.term` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Contract.term` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Contract.term` 0..* `BackboneElement`\n*  R4B: `Contract.term` 0..* `BackboneElement`\n*  R4: `Contract.term` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Contract.term` has is mapped to FHIR R4 element `Contract.term`, but has no comparisons.\nNote available implied context: `Contract.term.group` because `Contract.term.group` is defined as a content reference to `Contract.term`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "Contract.term"
     }
   ],
   "type" : "Extension",
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "identifier",
         "short" : "Contract Term Number",
         "definition" : "Unique identifier for this particular Contract Provision.",
-        "requirements" : "Element `Contract.term.identifier` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.identifier` is mapped to FHIR R4 element `Contract.term.identifier`.",
+        "requirements" : "Element `Contract.term.identifier` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.identifier` has is mapped to FHIR R4 element `Contract.term.identifier`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "issued",
         "short" : "Contract Term Issue Date Time",
         "definition" : "When this Contract Provision was issued.",
-        "requirements" : "Element `Contract.term.issued` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.issued` is mapped to FHIR R4 element `Contract.term.issued`.",
+        "requirements" : "Element `Contract.term.issued` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.issued` has is mapped to FHIR R4 element `Contract.term.issued`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "applies",
         "short" : "Contract Term Effective Time",
         "definition" : "Relevant time or time-period when this Contract Provision is applicable.",
-        "requirements" : "Element `Contract.term.applies` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.applies` is mapped to FHIR R4 element `Contract.term.applies`.",
+        "requirements" : "Element `Contract.term.applies` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.applies` has is mapped to FHIR R4 element `Contract.term.applies`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -319,7 +319,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "topic",
         "short" : "Term Concern",
         "definition" : "The entity that the term applies to.",
-        "requirements" : "Element `Contract.term.topic[x]` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `Contract.term.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term`.\nElement `Contract.term.topic[x]` is mapped to FHIR R4 element `Contract.term.topic[x]`.\nNote that the target element context `Contract.term.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term`.",
+        "requirements" : "Element `Contract.term.topic[x]` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nNote that the target element context `Contract.term.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term`.\nElement `Contract.term.topic[x]` has is mapped to FHIR R4 element `Contract.term.topic[x]`, but has no comparisons.\nNote that the target element context `Contract.term.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -371,7 +371,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "type",
         "short" : "Contract Term Type or Form",
         "definition" : "A legal clause or condition contained within a contract that requires one or both parties to perform a particular requirement by some specified time or prevents one or both parties from performing a particular requirement by some specified time.",
-        "requirements" : "Element `Contract.term.type` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.type` is mapped to FHIR R4 element `Contract.term.type`.",
+        "requirements" : "Element `Contract.term.type` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.type` has is mapped to FHIR R4 element `Contract.term.type`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -421,7 +421,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "subType",
         "short" : "Contract Term Type specific classification",
         "definition" : "A specialized legal clause or condition based on overarching contract type.",
-        "requirements" : "Element `Contract.term.subType` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.subType` is mapped to FHIR R4 element `Contract.term.subType`.",
+        "requirements" : "Element `Contract.term.subType` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.subType` has is mapped to FHIR R4 element `Contract.term.subType`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -471,7 +471,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "text",
         "short" : "Term Statement",
         "definition" : "Statement of a provision in a policy or a contract.",
-        "requirements" : "Element `Contract.term.text` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.text` is mapped to FHIR R4 element `Contract.term.text`.",
+        "requirements" : "Element `Contract.term.text` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.text` has is mapped to FHIR R4 element `Contract.term.text`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -517,7 +517,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "short" : "Protection for the Term",
         "definition" : "Security labels that protect the handling of information about the term and its elements, which may be specifically identified.",
         "comment" : "Within a Contract, a security label may apply to the one to many nested group of terms or to a term, whether inside a group or a singleton.  The security label on the entire set of term provision elements may be different from the security labels on a contained offer, asset, valuedItem, or data such as sensitive information, and must be the high water mark of all security labels within the term. Rationale is that a labelled term, which may be disaggregated from the Contract, and must persist the label on the term and on contained elements within other contexts. If more than one policy dictates a level of confidentiality of the term, then each applicable policy may be represented by a security label specific to its requirements.\n\nA Security Label is comprised of 1..1 confidentiality code and 0..* other security label codes (aka \"privacy tags\". A Security Label is metadata assigned (aka \"tagged\") to Resources and Resource elements, which specify the confidentiality and sensitivity of the Resource or element and their related attributes, the purposes for which tagged items may be collected, access, used or disclosed, any limitation on the type of entities authorized to engage in permitted purposes, and handling instructions that obligate or prohibit certain actions on the tagged items.",
-        "requirements" : "This security label protects the term and its contained provision elements. Element `Contract.term.securityLabel` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.securityLabel` is mapped to FHIR R4 element `Contract.term.securityLabel`.",
+        "requirements" : "This security label protects the term and its contained provision elements. Element `Contract.term.securityLabel` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.securityLabel` has is mapped to FHIR R4 element `Contract.term.securityLabel`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -553,7 +553,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "number",
         "short" : "Link to Security Labels",
         "definition" : "Number used to link this term or term element to the applicable Security Label.",
-        "requirements" : "Element `Contract.term.securityLabel.number` is mapped to FHIR R4 element `Contract.term.securityLabel.number`.",
+        "requirements" : "Element `Contract.term.securityLabel.number` is part of an existing definition because parent element `Contract.term.securityLabel` requires a cross-version extension.\nElement `Contract.term.securityLabel.number` has is mapped to FHIR R4 element `Contract.term.securityLabel.number`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -598,7 +598,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "classification",
         "short" : "Confidentiality Protection",
         "definition" : "Security label privacy tag that specifies the level of confidentiality protection required for this term and/or term elements.",
-        "requirements" : "Element `Contract.term.securityLabel.classification` is mapped to FHIR R4 element `Contract.term.securityLabel.classification`.",
+        "requirements" : "Element `Contract.term.securityLabel.classification` is part of an existing definition because parent element `Contract.term.securityLabel` requires a cross-version extension.\nElement `Contract.term.securityLabel.classification` has is mapped to FHIR R4 element `Contract.term.securityLabel.classification`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -648,7 +648,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "category",
         "short" : "Applicable Policy",
         "definition" : "Security label privacy tag that specifies the applicable privacy and security policies governing this term and/or term elements.",
-        "requirements" : "Element `Contract.term.securityLabel.category` is mapped to FHIR R4 element `Contract.term.securityLabel.category`.",
+        "requirements" : "Element `Contract.term.securityLabel.category` is part of an existing definition because parent element `Contract.term.securityLabel` requires a cross-version extension.\nElement `Contract.term.securityLabel.category` has is mapped to FHIR R4 element `Contract.term.securityLabel.category`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -698,7 +698,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "control",
         "short" : "Handling Instructions",
         "definition" : "Security label privacy tag that specifies the manner in which term and/or term elements are to be protected.",
-        "requirements" : "Element `Contract.term.securityLabel.control` is mapped to FHIR R4 element `Contract.term.securityLabel.control`.",
+        "requirements" : "Element `Contract.term.securityLabel.control` is part of an existing definition because parent element `Contract.term.securityLabel` requires a cross-version extension.\nElement `Contract.term.securityLabel.control` has is mapped to FHIR R4 element `Contract.term.securityLabel.control`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -771,7 +771,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "offer",
         "short" : "Context of the Contract term",
         "definition" : "The matter of concern in the context of this provision of the agrement.",
-        "requirements" : "Element `Contract.term.offer` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.offer` is mapped to FHIR R4 element `Contract.term.offer`.",
+        "requirements" : "Element `Contract.term.offer` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.offer` has is mapped to FHIR R4 element `Contract.term.offer`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -807,7 +807,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "identifier",
         "short" : "Offer business ID",
         "definition" : "Unique identifier for this particular Contract Provision.",
-        "requirements" : "Element `Contract.term.offer.identifier` is mapped to FHIR R4 element `Contract.term.offer.identifier`.",
+        "requirements" : "Element `Contract.term.offer.identifier` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.identifier` has is mapped to FHIR R4 element `Contract.term.offer.identifier`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -852,7 +852,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "party",
         "short" : "Offer Recipient",
         "definition" : "Offer Recipient.",
-        "requirements" : "Element `Contract.term.offer.party` is mapped to FHIR R4 element `Contract.term.offer.party`.",
+        "requirements" : "Element `Contract.term.offer.party` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.party` has is mapped to FHIR R4 element `Contract.term.offer.party`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -888,7 +888,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "reference",
         "short" : "Referenced entity",
         "definition" : "Participant in the offer.",
-        "requirements" : "Element `Contract.term.offer.party.reference` is mapped to FHIR R4 element `Contract.term.offer.party.reference`.",
+        "requirements" : "Element `Contract.term.offer.party.reference` is part of an existing definition because parent element `Contract.term.offer.party` requires a cross-version extension.\nElement `Contract.term.offer.party.reference` has is mapped to FHIR R4 element `Contract.term.offer.party.reference`, but has no comparisons.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -949,7 +949,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "role",
         "short" : "Participant engagement type",
         "definition" : "How the party participates in the offer.",
-        "requirements" : "Element `Contract.term.offer.party.role` is mapped to FHIR R4 element `Contract.term.offer.party.role`.",
+        "requirements" : "Element `Contract.term.offer.party.role` is part of an existing definition because parent element `Contract.term.offer.party` requires a cross-version extension.\nElement `Contract.term.offer.party.role` has is mapped to FHIR R4 element `Contract.term.offer.party.role`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -1023,7 +1023,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "short" : "Negotiable offer asset",
         "definition" : "The owner of an asset has the residual control rights over the asset: the right to decide all usages of the asset in any way not inconsistent with a prior contract, custom, or law (Hart, 1995, p. 30).",
         "comment" : "The Contract.topic may be an application for or offer of a policy or service (e.g., uri to a consent directive form or a health insurance policy), which becomes the Contract once accepted by both the grantor and grantee. \rThe Contract Resource may function simply as the computable representation of the executed contract, which may be the attached to the Contract Resource as the “binding” or as the “friendly” electronic form.  For example, a Contract Resource may be automatically populated with the values expressed in a related QuestionnaireResponse. \rHowever, the Contract Resource may be considered the legally binding contract if it is the only “executed” form of this contract, and includes the signatures as *The Contract Resource may function as the computable representation of an application or offer in a pre-executed Contract if the grantor has not entered any values.  In this case, it is populated with values in a “legal” form of the application or offer or by the values in an associated Questionnaire.  If the grantor has filled in the legal form or the associated Questionnaire Response, then these values are used to populate a pre-executed Contract Resource.\rIf the Contract.topic is considered an application or offer, then the policy is often required to be attached as the “legal” basis for the application to ensure “informed consent” to the contract, and that any discrepancy between the application and the policy are interpreted against the policy.  Implementers should check organizational and jurisdictional policies to determine the relationship among multiple representations of a contract pre- and post-execution.",
-        "requirements" : "In the context of a contract, the topic is the matter under consideration in regards to which specific rights, privileges, obligations, restrictions, and prohibitions are binding on any grantor and grantee parties upon the execution of the contract. \rGiven the wide range of contract topics, implementers need to be cognizant of the business use case for which they are designing a FHIR Contract, and narrowly specify the topic being represented with respect to the Contract.type and any specializing Contract.subtype. \rThe same topic, e.g., an asset such as a good or service, such as a real property, medical supply, insurance, information, a procedure or employment, or a manner of conduct, such adherence to a privacy, trust, or security policy, may be the topic of multiple types of contracts. \rOne way to determine the Contract.topic is to answer the question: “What is the object of negotiation?”\rAnswer: The Contract.topic, which may be described with more detail in the [0..*]Contract.valuedItem @ [0..1] Contract.valuedItem.entity[x] Definition: Specific type of Contract Valued Item that may be priced. CodeableConcept|Reference(Any)\rContract.topic is “the what” that a grantor is exchanging with a grantee in return for some benefit. \rContract.topic is “the what” to which any Contract.action is being applied for any stipulated Contract.action.reason. \rAContract.topic is “the what” governed by the execution of the contract to which any party’s rights, privileges, obligations, restrictions, and prohibitions apply. Element `Contract.term.offer.topic` is mapped to FHIR R4 element `Contract.term.offer.topic`.",
+        "requirements" : "In the context of a contract, the topic is the matter under consideration in regards to which specific rights, privileges, obligations, restrictions, and prohibitions are binding on any grantor and grantee parties upon the execution of the contract. \rGiven the wide range of contract topics, implementers need to be cognizant of the business use case for which they are designing a FHIR Contract, and narrowly specify the topic being represented with respect to the Contract.type and any specializing Contract.subtype. \rThe same topic, e.g., an asset such as a good or service, such as a real property, medical supply, insurance, information, a procedure or employment, or a manner of conduct, such adherence to a privacy, trust, or security policy, may be the topic of multiple types of contracts. \rOne way to determine the Contract.topic is to answer the question: “What is the object of negotiation?”\rAnswer: The Contract.topic, which may be described with more detail in the [0..*]Contract.valuedItem @ [0..1] Contract.valuedItem.entity[x] Definition: Specific type of Contract Valued Item that may be priced. CodeableConcept|Reference(Any)\rContract.topic is “the what” that a grantor is exchanging with a grantee in return for some benefit. \rContract.topic is “the what” to which any Contract.action is being applied for any stipulated Contract.action.reason. \rAContract.topic is “the what” governed by the execution of the contract to which any party’s rights, privileges, obligations, restrictions, and prohibitions apply. Element `Contract.term.offer.topic` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.topic` has is mapped to FHIR R4 element `Contract.term.offer.topic`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1073,7 +1073,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "type",
         "short" : "Contract Offer Type or Form",
         "definition" : "Type of Contract Provision such as specific requirements, purposes for actions, obligations, prohibitions, e.g. life time maximum benefit.",
-        "requirements" : "Element `Contract.term.offer.type` is mapped to FHIR R4 element `Contract.term.offer.type`.",
+        "requirements" : "Element `Contract.term.offer.type` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.type` has is mapped to FHIR R4 element `Contract.term.offer.type`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1123,7 +1123,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "decision",
         "short" : "Accepting party choice",
         "definition" : "Type of choice made by accepting party with respect to an offer made by an offeror/ grantee.",
-        "requirements" : "In some policy or contract contexts, the \"offer\" is made by an offeror wishing to be the \"grantee\" of the offer topic by the grantor.  From this perspective, the grantor is the \"offeree\". Element `Contract.term.offer.decision` is mapped to FHIR R4 element `Contract.term.offer.decision`.",
+        "requirements" : "In some policy or contract contexts, the \"offer\" is made by an offeror wishing to be the \"grantee\" of the offer topic by the grantor.  From this perspective, the grantor is the \"offeree\". Element `Contract.term.offer.decision` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.decision` has is mapped to FHIR R4 element `Contract.term.offer.decision`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1173,7 +1173,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "decisionMode",
         "short" : "How decision is conveyed",
         "definition" : "How the decision about a Contract was conveyed.",
-        "requirements" : "Element `Contract.term.offer.decisionMode` is mapped to FHIR R4 element `Contract.term.offer.decisionMode`.",
+        "requirements" : "Element `Contract.term.offer.decisionMode` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.decisionMode` has is mapped to FHIR R4 element `Contract.term.offer.decisionMode`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1223,7 +1223,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "answer",
         "short" : "Response to offer text",
         "definition" : "Response to offer text.",
-        "requirements" : "Element `Contract.term.offer.answer` is mapped to FHIR R4 element `Contract.term.offer.answer`.",
+        "requirements" : "Element `Contract.term.offer.answer` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.answer` has is mapped to FHIR R4 element `Contract.term.offer.answer`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1231,6 +1231,109 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
           "min" : 0,
           "max" : "*"
         }
+      },
+      {
+        "id" : "Extension.extension:offer.extension:answer.extension",
+        "path" : "Extension.extension.extension.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:offer.extension:answer.extension:value",
+        "path" : "Extension.extension.extension.extension",
+        "sliceName" : "value",
+        "short" : "The actual answer response",
+        "definition" : "Response to an offer clause or question text,  which enables selection of values to be agreed to, e.g., the period of participation, the date of occupancy of a rental, warranty duration, or whether biospecimen may be used for further research.",
+        "requirements" : "Element `Contract.term.offer.answer.value[x]` is part of an existing definition because parent element `Contract.term.offer.answer` requires a cross-version extension.\nNote that the target element context `Contract.term.offer.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.offer.answer`.\nElement `Contract.term.offer.answer.value[x]` has is mapped to FHIR R4 element `Contract.term.offer.answer.value[x]`, but has no comparisons.\nNote that the target element context `Contract.term.offer.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.offer.answer`.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:offer.extension:answer.extension:value.url",
+        "path" : "Extension.extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term.offer.answer.value"
+      },
+      {
+        "id" : "Extension.extension:offer.extension:answer.extension:value.value[x]",
+        "path" : "Extension.extension.extension.extension.value[x]",
+        "short" : "The actual answer response",
+        "definition" : "Response to an offer clause or question text,  which enables selection of values to be agreed to, e.g., the period of participation, the date of occupancy of a rental, warranty duration, or whether biospecimen may be used for further research.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "boolean"
+          },
+          {
+            "code" : "decimal"
+          },
+          {
+            "code" : "integer"
+          },
+          {
+            "code" : "date"
+          },
+          {
+            "code" : "dateTime"
+          },
+          {
+            "code" : "time"
+          },
+          {
+            "code" : "string"
+          },
+          {
+            "code" : "uri"
+          },
+          {
+            "code" : "Attachment"
+          },
+          {
+            "code" : "Coding"
+          },
+          {
+            "code" : "Quantity"
+          },
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/profile-Resource|0.0.1-snapshot-3",
+              "http://hl7.org/fhir/StructureDefinition/Resource|4.0.1"
+            ]
+          }
+        ]
       },
       {
         "id" : "Extension.extension:offer.extension:answer.url",
@@ -1261,7 +1364,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "text",
         "short" : "Human readable offer text",
         "definition" : "Human readable form of this Contract Offer.",
-        "requirements" : "Element `Contract.term.offer.text` is mapped to FHIR R4 element `Contract.term.offer.text`.",
+        "requirements" : "Element `Contract.term.offer.text` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.text` has is mapped to FHIR R4 element `Contract.term.offer.text`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1306,7 +1409,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "linkId",
         "short" : "Pointer to text",
         "definition" : "The id of the clause or question text of the offer in the referenced questionnaire/response.",
-        "requirements" : "Element `Contract.term.offer.linkId` is mapped to FHIR R4 element `Contract.term.offer.linkId`.",
+        "requirements" : "Element `Contract.term.offer.linkId` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.linkId` has is mapped to FHIR R4 element `Contract.term.offer.linkId`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1351,7 +1454,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "securityLabelNumber",
         "short" : "Offer restriction numbers",
         "definition" : "Security labels that protects the offer.",
-        "requirements" : "Element `Contract.term.offer.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.offer.securityLabelNumber`.",
+        "requirements" : "Element `Contract.term.offer.securityLabelNumber` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.securityLabelNumber` has is mapped to FHIR R4 element `Contract.term.offer.securityLabelNumber`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1419,7 +1522,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "asset",
         "short" : "Contract Term Asset List",
         "definition" : "Contract Term Asset List.",
-        "requirements" : "Element `Contract.term.asset` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.asset` is mapped to FHIR R4 element `Contract.term.asset`.",
+        "requirements" : "Element `Contract.term.asset` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.asset` has is mapped to FHIR R4 element `Contract.term.asset`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1455,7 +1558,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "scope",
         "short" : "Range of asset",
         "definition" : "Differentiates the kind of the asset .",
-        "requirements" : "Element `Contract.term.asset.scope` is mapped to FHIR R4 element `Contract.term.asset.scope`.",
+        "requirements" : "Element `Contract.term.asset.scope` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.scope` has is mapped to FHIR R4 element `Contract.term.asset.scope`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1505,7 +1608,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "type",
         "short" : "Asset category",
         "definition" : "Target entity type about which the term may be concerned.",
-        "requirements" : "Element `Contract.term.asset.type` is mapped to FHIR R4 element `Contract.term.asset.type`.",
+        "requirements" : "Element `Contract.term.asset.type` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.type` has is mapped to FHIR R4 element `Contract.term.asset.type`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1555,7 +1658,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "typeReference",
         "short" : "Associated entities",
         "definition" : "Associated entities.",
-        "requirements" : "Element `Contract.term.asset.typeReference` is mapped to FHIR R4 element `Contract.term.asset.typeReference`.",
+        "requirements" : "Element `Contract.term.asset.typeReference` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.typeReference` has is mapped to FHIR R4 element `Contract.term.asset.typeReference`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1604,7 +1707,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "subtype",
         "short" : "Asset sub-category",
         "definition" : "May be a subtype or part of an offered asset.",
-        "requirements" : "Element `Contract.term.asset.subtype` is mapped to FHIR R4 element `Contract.term.asset.subtype`.",
+        "requirements" : "Element `Contract.term.asset.subtype` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.subtype` has is mapped to FHIR R4 element `Contract.term.asset.subtype`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1654,7 +1757,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "relationship",
         "short" : "Kinship of the asset",
         "definition" : "Specifies the applicability of the term to an asset resource instance, and instances it refers to or instances that refer to it, and/or are owned by the offeree.",
-        "requirements" : "Element `Contract.term.asset.relationship` is mapped to FHIR R4 element `Contract.term.asset.relationship`.",
+        "requirements" : "Element `Contract.term.asset.relationship` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.relationship` has is mapped to FHIR R4 element `Contract.term.asset.relationship`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1704,7 +1807,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "context",
         "short" : "Circumstance of the asset",
         "definition" : "Circumstance of the asset.",
-        "requirements" : "Element `Contract.term.asset.context` is mapped to FHIR R4 element `Contract.term.asset.context`.",
+        "requirements" : "Element `Contract.term.asset.context` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.context` has is mapped to FHIR R4 element `Contract.term.asset.context`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1740,7 +1843,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "reference",
         "short" : "Creator,custodian or owner",
         "definition" : "Asset context reference may include the creator, custodian, or owning Person or Organization (e.g., bank, repository),  location held, e.g., building,  jurisdiction.",
-        "requirements" : "Element `Contract.term.asset.context.reference` is mapped to FHIR R4 element `Contract.term.asset.context.reference`.",
+        "requirements" : "Element `Contract.term.asset.context.reference` is part of an existing definition because parent element `Contract.term.asset.context` requires a cross-version extension.\nElement `Contract.term.asset.context.reference` has is mapped to FHIR R4 element `Contract.term.asset.context.reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1789,7 +1892,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "code",
         "short" : "Codeable asset context",
         "definition" : "Coded representation of the context generally or of the Referenced entity, such as the asset holder type or location.",
-        "requirements" : "Element `Contract.term.asset.context.code` is mapped to FHIR R4 element `Contract.term.asset.context.code`.",
+        "requirements" : "Element `Contract.term.asset.context.code` is part of an existing definition because parent element `Contract.term.asset.context` requires a cross-version extension.\nElement `Contract.term.asset.context.code` has is mapped to FHIR R4 element `Contract.term.asset.context.code`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1839,7 +1942,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "text",
         "short" : "Context description",
         "definition" : "Context description.",
-        "requirements" : "Element `Contract.term.asset.context.text` is mapped to FHIR R4 element `Contract.term.asset.context.text`.",
+        "requirements" : "Element `Contract.term.asset.context.text` is part of an existing definition because parent element `Contract.term.asset.context` requires a cross-version extension.\nElement `Contract.term.asset.context.text` has is mapped to FHIR R4 element `Contract.term.asset.context.text`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1907,7 +2010,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "condition",
         "short" : "Quality desctiption of asset",
         "definition" : "Description of the quality and completeness of the asset that may be a factor in its valuation.",
-        "requirements" : "Element `Contract.term.asset.condition` is mapped to FHIR R4 element `Contract.term.asset.condition`.",
+        "requirements" : "Element `Contract.term.asset.condition` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.condition` has is mapped to FHIR R4 element `Contract.term.asset.condition`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1952,7 +2055,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "periodType",
         "short" : "Asset availability types",
         "definition" : "Type of Asset availability for use or ownership.",
-        "requirements" : "Element `Contract.term.asset.periodType` is mapped to FHIR R4 element `Contract.term.asset.periodType`.",
+        "requirements" : "Element `Contract.term.asset.periodType` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.periodType` has is mapped to FHIR R4 element `Contract.term.asset.periodType`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2002,7 +2105,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "period",
         "short" : "Time period of the asset",
         "definition" : "Asset relevant contractual time period.",
-        "requirements" : "Element `Contract.term.asset.period` is mapped to FHIR R4 element `Contract.term.asset.period`.",
+        "requirements" : "Element `Contract.term.asset.period` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.period` has is mapped to FHIR R4 element `Contract.term.asset.period`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2047,7 +2150,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "usePeriod",
         "short" : "Time period",
         "definition" : "Time period of asset use.",
-        "requirements" : "Element `Contract.term.asset.usePeriod` is mapped to FHIR R4 element `Contract.term.asset.usePeriod`.",
+        "requirements" : "Element `Contract.term.asset.usePeriod` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.usePeriod` has is mapped to FHIR R4 element `Contract.term.asset.usePeriod`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2092,7 +2195,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "text",
         "short" : "Asset clause or question text",
         "definition" : "Clause or question text (Prose Object) concerning the asset in a linked form, such as a QuestionnaireResponse used in the formation of the contract.",
-        "requirements" : "Element `Contract.term.asset.text` is mapped to FHIR R4 element `Contract.term.asset.text`.",
+        "requirements" : "Element `Contract.term.asset.text` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.text` has is mapped to FHIR R4 element `Contract.term.asset.text`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2137,7 +2240,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "linkId",
         "short" : "Pointer to asset text",
         "definition" : "Id [identifier??] of the clause or question text about the asset in the referenced form or QuestionnaireResponse.",
-        "requirements" : "Element `Contract.term.asset.linkId` is mapped to FHIR R4 element `Contract.term.asset.linkId`.",
+        "requirements" : "Element `Contract.term.asset.linkId` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.linkId` has is mapped to FHIR R4 element `Contract.term.asset.linkId`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2182,7 +2285,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "answer",
         "short" : "Response to assets",
         "definition" : "Response to assets.",
-        "requirements" : "Element `Contract.term.asset.answer` is mapped to FHIR R4 element `Contract.term.asset.answer`.",
+        "requirements" : "Element `Contract.term.asset.answer` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.answer` has is mapped to FHIR R4 element `Contract.term.asset.answer`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2220,7 +2323,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "securityLabelNumber",
         "short" : "Asset restriction numbers",
         "definition" : "Security labels that protects the asset.",
-        "requirements" : "Element `Contract.term.asset.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.asset.securityLabelNumber`.",
+        "requirements" : "Element `Contract.term.asset.securityLabelNumber` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.securityLabelNumber` has is mapped to FHIR R4 element `Contract.term.asset.securityLabelNumber`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2265,7 +2368,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "valuedItem",
         "short" : "Contract Valued Item List",
         "definition" : "Contract Valued Item List.",
-        "requirements" : "Element `Contract.term.asset.valuedItem` is mapped to FHIR R4 element `Contract.term.asset.valuedItem`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2301,7 +2404,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "entity",
         "short" : "Contract Valued Item Type",
         "definition" : "Specific type of Contract Valued Item that may be priced.",
-        "requirements" : "Note that the target element context `Contract.term.asset.valuedItem.entity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.valuedItem`.\nElement `Contract.term.asset.valuedItem.entity[x]` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.entity[x]`.\nNote that the target element context `Contract.term.asset.valuedItem.entity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.valuedItem`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.entity[x]` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nNote that the target element context `Contract.term.asset.valuedItem.entity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.valuedItem`.\nElement `Contract.term.asset.valuedItem.entity[x]` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.entity[x]`, but has no comparisons.\nNote that the target element context `Contract.term.asset.valuedItem.entity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.valuedItem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2353,7 +2456,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "identifier",
         "short" : "Contract Valued Item Number",
         "definition" : "Identifies a Contract Valued Item instance.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.identifier` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.identifier`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.identifier` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.identifier` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.identifier`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2398,7 +2501,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "effectiveTime",
         "short" : "Contract Valued Item Effective Tiem",
         "definition" : "Indicates the time during which this Contract ValuedItem information is effective.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.effectiveTime` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.effectiveTime`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.effectiveTime` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.effectiveTime` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.effectiveTime`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2443,7 +2546,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "quantity",
         "short" : "Count of Contract Valued Items",
         "definition" : "Specifies the units by which the Contract Valued Item is measured or counted, and quantifies the countable or measurable Contract Valued Item instances.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.quantity` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.quantity`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.quantity` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.quantity` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.quantity`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2491,7 +2594,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "unitPrice",
         "short" : "Contract Valued Item fee, charge, or cost",
         "definition" : "A Contract Valued Item unit valuation measure.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.unitPrice` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.unitPrice`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.unitPrice` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.unitPrice` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.unitPrice`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2536,7 +2639,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "factor",
         "short" : "Contract Valued Item Price Scaling Factor",
         "definition" : "A real number that represents a multiplier used in determining the overall value of the Contract Valued Item delivered. The concept of a Factor allows for a discount or surcharge multiplier to be applied to a monetary amount.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.factor` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.factor`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.factor` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.factor` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.factor`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2581,7 +2684,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "points",
         "short" : "Contract Valued Item Difficulty Scaling Factor",
         "definition" : "An amount that expresses the weighting (based on difficulty, cost and/or resource intensiveness) associated with the Contract Valued Item delivered. The concept of Points allows for assignment of point values for a Contract Valued Item, such that a monetary amount can be assigned to each point.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.points` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.points`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.points` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.points` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.points`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2626,7 +2729,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "net",
         "short" : "Total Contract Valued Item Value",
         "definition" : "Expresses the product of the Contract Valued Item unitQuantity and the unitPriceAmt. For example, the formula: unit Quantity * unit Price (Cost per Point) * factor Number  * points = net Amount. Quantity, factor and points are assumed to be 1 if not supplied.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.net` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.net`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.net` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.net` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.net`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2671,7 +2774,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "payment",
         "short" : "Terms of valuation",
         "definition" : "Terms of valuation.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.payment` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.payment`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.payment` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.payment` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.payment`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2716,7 +2819,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "paymentDate",
         "short" : "When payment is due",
         "definition" : "When payment is due.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.paymentDate` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.paymentDate`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.paymentDate` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.paymentDate` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.paymentDate`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2761,7 +2864,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "responsible",
         "short" : "Who will make payment",
         "definition" : "Who will make payment.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.responsible` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.responsible`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.responsible` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.responsible` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.responsible`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2818,7 +2921,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "recipient",
         "short" : "Who will receive payment",
         "definition" : "Who will receive payment.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.recipient` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.recipient`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.recipient` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.recipient` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.recipient`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2875,7 +2978,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "linkId",
         "short" : "Pointer to specific item",
         "definition" : "Id  of the clause or question text related to the context of this valuedItem in the referenced form or QuestionnaireResponse.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.linkId` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.linkId`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.linkId` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.linkId` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.linkId`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2920,7 +3023,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "securityLabelNumber",
         "short" : "Security Labels that define affected terms",
         "definition" : "A set of security labels that define which terms are controlled by this condition.",
-        "requirements" : "Element `Contract.term.asset.valuedItem.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.securityLabelNumber`.",
+        "requirements" : "Element `Contract.term.asset.valuedItem.securityLabelNumber` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.securityLabelNumber` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.securityLabelNumber`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -3012,7 +3115,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "short" : "Entity being ascribed responsibility",
         "definition" : "An actor taking a role in an activity for which it can be assigned some degree of responsibility for the activity taking place.",
         "comment" : "Several agents may be associated (i.e. has some responsibility for an activity) with an activity and vice-versa.\rFor example, in cases of actions initiated by one user for other users, or in events that involve more than one user, hardware device, software, or system process. However, only one user may be the initiator/requestor for the event.",
-        "requirements" : "An agent can be a person, an organization, software, device, or other entities that may be ascribed responsibility. Element `Contract.term.action` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.action` is mapped to FHIR R4 element `Contract.term.action`.",
+        "requirements" : "An agent can be a person, an organization, software, device, or other entities that may be ascribed responsibility. Element `Contract.term.action` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.action` has is mapped to FHIR R4 element `Contract.term.action`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -3048,7 +3151,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "doNotPerform",
         "short" : "True if the term prohibits the  action",
         "definition" : "True if the term prohibits the  action.",
-        "requirements" : "Element `Contract.term.action.doNotPerform` is mapped to FHIR R4 element `Contract.term.action.doNotPerform`.",
+        "requirements" : "Element `Contract.term.action.doNotPerform` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nNote that the target element context `Contract.term.action.doNotPerform` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Contract.term.action.doNotPerform` has is mapped to FHIR R4 element `Contract.term.action.doNotPerform`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3093,7 +3196,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "type",
         "short" : "Type or form of the action",
         "definition" : "Activity or service obligation to be done or not done, performed or not performed, effectuated or not by this Contract term.",
-        "requirements" : "Element `Contract.term.action.type` is mapped to FHIR R4 element `Contract.term.action.type`.",
+        "requirements" : "Element `Contract.term.action.type` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.type` has is mapped to FHIR R4 element `Contract.term.action.type`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -3143,7 +3246,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "subject",
         "short" : "Entity of the action",
         "definition" : "Entity of the action.",
-        "requirements" : "Element `Contract.term.action.subject` is mapped to FHIR R4 element `Contract.term.action.subject`.",
+        "requirements" : "Element `Contract.term.action.subject` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.subject` has is mapped to FHIR R4 element `Contract.term.action.subject`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -3179,7 +3282,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "reference",
         "short" : "Entity of the action",
         "definition" : "The entity the action is performed or not performed on or for.",
-        "requirements" : "Element `Contract.term.action.subject.reference` is mapped to FHIR R4 element `Contract.term.action.subject.reference`.",
+        "requirements" : "Element `Contract.term.action.subject.reference` is part of an existing definition because parent element `Contract.term.action.subject` requires a cross-version extension.\nElement `Contract.term.action.subject.reference` has is mapped to FHIR R4 element `Contract.term.action.subject.reference`, but has no comparisons.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -3240,7 +3343,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "role",
         "short" : "Role type of the agent",
         "definition" : "Role type of agent assigned roles in this Contract.",
-        "requirements" : "Element `Contract.term.action.subject.role` is mapped to FHIR R4 element `Contract.term.action.subject.role`.",
+        "requirements" : "Element `Contract.term.action.subject.role` is part of an existing definition because parent element `Contract.term.action.subject` requires a cross-version extension.\nElement `Contract.term.action.subject.role` has is mapped to FHIR R4 element `Contract.term.action.subject.role`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3313,7 +3416,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "intent",
         "short" : "Purpose for the Contract Term Action",
         "definition" : "Reason or purpose for the action stipulated by this Contract Provision.",
-        "requirements" : "Element `Contract.term.action.intent` is mapped to FHIR R4 element `Contract.term.action.intent`.",
+        "requirements" : "Element `Contract.term.action.intent` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.intent` has is mapped to FHIR R4 element `Contract.term.action.intent`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -3363,7 +3466,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "linkId",
         "short" : "Pointer to specific item",
         "definition" : "Id [identifier??] of the clause or question text related to this action in the referenced form or QuestionnaireResponse.",
-        "requirements" : "Element `Contract.term.action.linkId` is mapped to FHIR R4 element `Contract.term.action.linkId`.",
+        "requirements" : "Element `Contract.term.action.linkId` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.linkId` has is mapped to FHIR R4 element `Contract.term.action.linkId`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -3408,7 +3511,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "status",
         "short" : "State of the action",
         "definition" : "Current state of the term action.",
-        "requirements" : "Element `Contract.term.action.status` is mapped to FHIR R4 element `Contract.term.action.status`.",
+        "requirements" : "Element `Contract.term.action.status` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.status` has is mapped to FHIR R4 element `Contract.term.action.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -3458,7 +3561,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "context",
         "short" : "Episode associated with action",
         "definition" : "Encounter or Episode with primary association to the specified term activity.",
-        "requirements" : "Element `Contract.term.action.context` is mapped to FHIR R4 element `Contract.term.action.context`.",
+        "requirements" : "Element `Contract.term.action.context` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.context` has is mapped to FHIR R4 element `Contract.term.action.context`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3509,7 +3612,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "contextLinkId",
         "short" : "Pointer to specific item",
         "definition" : "Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.",
-        "requirements" : "Element `Contract.term.action.contextLinkId` is mapped to FHIR R4 element `Contract.term.action.contextLinkId`.",
+        "requirements" : "Element `Contract.term.action.contextLinkId` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.contextLinkId` has is mapped to FHIR R4 element `Contract.term.action.contextLinkId`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -3554,7 +3657,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "occurrence",
         "short" : "When action happens",
         "definition" : "When action happens.",
-        "requirements" : "Note that the target element context `Contract.term.action.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.action`.\nElement `Contract.term.action.occurrence[x]` is mapped to FHIR R4 element `Contract.term.action.occurrence[x]`.\nNote that the target element context `Contract.term.action.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.action`.",
+        "requirements" : "Element `Contract.term.action.occurrence[x]` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nNote that the target element context `Contract.term.action.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.action`.\nElement `Contract.term.action.occurrence[x]` has is mapped to FHIR R4 element `Contract.term.action.occurrence[x]`, but has no comparisons.\nNote that the target element context `Contract.term.action.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.action`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3605,7 +3708,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "requester",
         "short" : "Who asked for action",
         "definition" : "Who or what initiated the action and has responsibility for its activation.",
-        "requirements" : "Element `Contract.term.action.requester` is mapped to FHIR R4 element `Contract.term.action.requester`.",
+        "requirements" : "Element `Contract.term.action.requester` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.requester` has is mapped to FHIR R4 element `Contract.term.action.requester`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -3666,7 +3769,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "requesterLinkId",
         "short" : "Pointer to specific item",
         "definition" : "Id [identifier??] of the clause or question text related to the requester of this action in the referenced form or QuestionnaireResponse.",
-        "requirements" : "Element `Contract.term.action.requesterLinkId` is mapped to FHIR R4 element `Contract.term.action.requesterLinkId`.",
+        "requirements" : "Element `Contract.term.action.requesterLinkId` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.requesterLinkId` has is mapped to FHIR R4 element `Contract.term.action.requesterLinkId`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -3711,7 +3814,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "performerType",
         "short" : "Kind of service performer",
         "definition" : "The type of individual that is desired or required to perform or not perform the action.",
-        "requirements" : "Element `Contract.term.action.performerType` is mapped to FHIR R4 element `Contract.term.action.performerType`.",
+        "requirements" : "Element `Contract.term.action.performerType` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.performerType` has is mapped to FHIR R4 element `Contract.term.action.performerType`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -3761,7 +3864,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "performerRole",
         "short" : "Competency of the performer",
         "definition" : "The type of role or competency of an individual desired or required to perform or not perform the action.",
-        "requirements" : "Element `Contract.term.action.performerRole` is mapped to FHIR R4 element `Contract.term.action.performerRole`.",
+        "requirements" : "Element `Contract.term.action.performerRole` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.performerRole` has is mapped to FHIR R4 element `Contract.term.action.performerRole`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3811,7 +3914,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "performer",
         "short" : "Actor that wil execute (or not) the action",
         "definition" : "Indicates who or what is being asked to perform (or not perform) the ction.",
-        "requirements" : "Element `Contract.term.action.performer` is mapped to FHIR R4 element `Contract.term.action.performer`.",
+        "requirements" : "Element `Contract.term.action.performer` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.performer` has is mapped to FHIR R4 element `Contract.term.action.performer`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -3876,7 +3979,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "performerLinkId",
         "short" : "Pointer to specific item",
         "definition" : "Id [identifier??] of the clause or question text related to the reason type or reference of this  action in the referenced form or QuestionnaireResponse.",
-        "requirements" : "Element `Contract.term.action.performerLinkId` is mapped to FHIR R4 element `Contract.term.action.performerLinkId`.",
+        "requirements" : "Element `Contract.term.action.performerLinkId` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.performerLinkId` has is mapped to FHIR R4 element `Contract.term.action.performerLinkId`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -3921,7 +4024,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "reason",
         "short" : "Why is action (not) needed?",
         "definition" : "Rationale for the action to be performed or not performed. Describes why the action is permitted or prohibited. Either a coded concept, or another resource whose existence justifies permitting or not permitting this action.",
-        "requirements" : "Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason`.",
+        "requirements" : "Element `Contract.term.action.reason` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reasonCode`, but has no comparisons.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reasonReference`, but has no comparisons.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reason`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -4001,7 +4104,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -4050,7 +4153,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -4132,7 +4235,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "reasonLinkId",
         "short" : "Pointer to specific item",
         "definition" : "Id [identifier??] of the clause or question text related to the reason type or reference of this  action in the referenced form or QuestionnaireResponse.",
-        "requirements" : "Element `Contract.term.action.reasonLinkId` is mapped to FHIR R4 element `Contract.term.action.reasonLinkId`.",
+        "requirements" : "Element `Contract.term.action.reasonLinkId` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.reasonLinkId` has is mapped to FHIR R4 element `Contract.term.action.reasonLinkId`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -4177,7 +4280,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "note",
         "short" : "Comments about the action",
         "definition" : "Comments made about the term action made by the requester, performer, subject or other participants.",
-        "requirements" : "Element `Contract.term.action.note` is mapped to FHIR R4 element `Contract.term.action.note`.",
+        "requirements" : "Element `Contract.term.action.note` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.note` has is mapped to FHIR R4 element `Contract.term.action.note`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -4222,7 +4325,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "securityLabelNumber",
         "short" : "Action restriction numbers",
         "definition" : "Security labels that protects the action.",
-        "requirements" : "Element `Contract.term.action.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.action.securityLabelNumber`.",
+        "requirements" : "Element `Contract.term.action.securityLabelNumber` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.securityLabelNumber` has is mapped to FHIR R4 element `Contract.term.action.securityLabelNumber`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -4290,7 +4393,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Contract.t
         "sliceName" : "group",
         "short" : "Nested Contract Term Group",
         "definition" : "Nested group of Contract Provisions.",
-        "requirements" : "Element `Contract.term.group` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.group` is mapped to FHIR R4 element `Contract.term.group`.",
+        "requirements" : "Element `Contract.term.group` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.group` has is mapped to FHIR R4 element `Contract.term.group`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

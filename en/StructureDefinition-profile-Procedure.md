@@ -1,4 +1,4 @@
-# ProfileProcedure - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileProcedure - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileProcedure 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Procedure content to be represented via FHI
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.Account.procedure` for use in FHIR R4](StructureDefinition-ext-R5-Account.procedure.md), [Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.contributingFactor.md), [Cross-version Extension `R5.AdverseEvent.mitigatingAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.mitigatingAction.md), [Cross-version Extension `R5.AdverseEvent.preventiveAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.preventiveAction.md)... Show 7 more, [Cross-version Extension `R5.AdverseEvent.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.supportingInfo.md), [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md), [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.DiagnosticReport.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md), [Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4](StructureDefinition-ext-R5-EpisodeOfCare.reason.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md) and [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)
+* Refer to this Profile: [Cross-version Extension `R5.Account.procedure` for use in FHIR R4](StructureDefinition-ext-R5-Account.procedure.md), [Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.contributingFactor.md), [Cross-version Extension `R5.AdverseEvent.mitigatingAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.mitigatingAction.md), [Cross-version Extension `R5.AdverseEvent.preventiveAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.preventiveAction.md)... Show 11 more, [Cross-version Extension `R5.AdverseEvent.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.supportingInfo.md), [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md), [Cross-version Extension `R5.Claim.procedure` for use in FHIR R4](StructureDefinition-ext-R5-Claim.procedure.md), [Cross-version Extension `R5.DeviceDispense` for use in FHIR R4](StructureDefinition-ext-R5-DeviceDispense.md), [Cross-version Extension `R5.DiagnosticReport.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md), [Cross-version Extension `R5.Encounter.reason` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.reason.md), [Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4](StructureDefinition-ext-R5-EpisodeOfCare.reason.md), [Cross-version Extension `R5.ExplanationOfBenefit.procedure` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.procedure.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md) and [Cross-version Extension `R5.Specimen.collection` for use in FHIR R4](StructureDefinition-ext-R5-Specimen.collection.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Procedure)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
   "title" : "Cross-version Profile for R5.Procedure for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2824755-06:00",
+  "date" : "2026-02-17T14:42:26.8823642-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
         "path" : "Procedure.extension",
         "sliceName" : "occurrence",
         "short" : "Cross-version extension for Procedure.occurrence[x] from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`.\nElement `Procedure.occurrence[x]` is mapped to FHIR R4 element `Procedure.performed[x]`.\nNote that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`.",
+        "comment" : "Note that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`.\nElement `Procedure.occurrence[x]` has is mapped to FHIR R4 element `Procedure.performed[x]`, but has no comparisons.\nNote that the target element context `Procedure.performed[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Procedure`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
         "path" : "Procedure.extension",
         "sliceName" : "recorded",
         "short" : "Cross-version extension for Procedure.recorded from R5 for use in FHIR R4",
-        "comment" : "Element `Procedure.recorded` is will have a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
+        "comment" : "Element `Procedure.recorded` has a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
         "path" : "Procedure.extension",
         "sliceName" : "reported",
         "short" : "Cross-version extension for Procedure.reported[x] from R5 for use in FHIR R4",
-        "comment" : "Element `Procedure.reported[x]` is will have a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
+        "comment" : "Element `Procedure.reported[x]` has a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -241,7 +241,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
         "sliceName" : "reportedCanonical",
         "short" : "Cross-version extension for Procedure.reported[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
-        "comment" : "Element `Procedure.reported[x]` is will have a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
+        "comment" : "Element `Procedure.reported[x]` has a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -264,7 +264,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
         "sliceName" : "reportedReference",
         "short" : "Cross-version extension for Procedure.reported[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
-        "comment" : "Element `Procedure.reported[x]` is will have a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
+        "comment" : "Element `Procedure.reported[x]` has a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -287,7 +287,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
         "sliceName" : "focus",
         "short" : "Cross-version extension for Procedure.focus from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/Group,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Specimen in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.focus` is will have a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.focus` has a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -310,7 +310,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
         "sliceName" : "supportingInfo",
         "short" : "Cross-version extension for Procedure.supportingInfo from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Resource in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.supportingInfo` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.supportingInfo` is will have a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.supportingInfo` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.supportingInfo` has a context of Procedure based on following the parent source element upwards and mapping to `Procedure`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -349,58 +349,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
         }
       },
       {
-        "id" : "Procedure.performer.extension:period",
+        "id" : "Procedure.performer.extension:performer",
         "path" : "Procedure.performer.extension",
-        "sliceName" : "period",
-        "short" : "Cross-version extension for Procedure.performer.period from R5 for use in FHIR R4",
-        "comment" : "Element `Procedure.performer.period` is will have a context of Procedure.performer based on following the parent source element upwards and mapping to `Procedure`.",
+        "sliceName" : "performer",
+        "short" : "Cross-version extension for Procedure.performer from R5 for use in FHIR R4",
+        "comment" : "Element `Procedure.performer` has is mapped to FHIR R4 element `Procedure.performer`, but has no comparisons.",
         "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.performer.period|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Procedure.performer.actor.extension",
-        "path" : "Procedure.performer.actor.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1,
         "max" : "*",
         "base" : {
-          "path" : "Procedure.performer.actor",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "Procedure.performer.actor.extension:actor",
-        "path" : "Procedure.performer.actor.extension",
-        "sliceName" : "actor",
-        "short" : "Cross-version extension for Procedure.performer.actor from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.performer.actor` is mapped to FHIR R4 element `Procedure.performer.actor`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
           "max" : "*"
@@ -409,7 +365,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.performer|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -441,7 +397,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
         "sliceName" : "report",
         "short" : "Cross-version extension for Procedure.report from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.report` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.report` is mapped to FHIR R4 element `Procedure.report`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Procedure.report` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Procedure.report` has is mapped to FHIR R4 element `Procedure.report`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -454,6 +410,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Procedure
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Procedure.focalDevice.extension",
+        "path" : "Procedure.focalDevice.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Procedure.focalDevice.extension:focalDevice",
+        "path" : "Procedure.focalDevice.extension",
+        "sliceName" : "focalDevice",
+        "short" : "Cross-version extension for Procedure.focalDevice from R5 for use in FHIR R4",
+        "comment" : "Element `Procedure.focalDevice` has is mapped to FHIR R4 element `Procedure.focalDevice`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Procedure.focalDevice|0.0.1-snapshot-3"
             ]
           }
         ]

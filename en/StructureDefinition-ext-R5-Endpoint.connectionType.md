@@ -1,4 +1,4 @@
-# ExtensionEndpoint_ConnectionType - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionEndpoint_ConnectionType - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Endpoint.connectionType` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Endpoint.c
   "title" : "Cross-version Extension `R5.Endpoint.connectionType` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Endpoint.c
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Endpoint.connectionType` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Endpoint.connectionType` 1..* `CodeableConcept`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Endpoint.connectionType` 1..* `CodeableConcept`\n*  R4B: `Endpoint.connectionType` 1..1 `Coding`\n*  R4: `Endpoint.connectionType` 1..1 `Coding`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Endpoint.connectionType` is mapped to FHIR R4 element `Endpoint.connectionType`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Endpoint.connectionType` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Endpoint.connectionType` 1..* `CodeableConcept`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Endpoint.connectionType` 1..* `CodeableConcept`\n*  R4B: `Endpoint.connectionType` 1..1 `Coding`\n*  R4: `Endpoint.connectionType` 1..1 `Coding`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Endpoint.connectionType` has is mapped to FHIR R4 element `Endpoint.connectionType`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

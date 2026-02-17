@@ -1,4 +1,4 @@
-# Lookup for ProfileMessageDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileMessageDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileMessageDefinition
 
@@ -21,7 +21,7 @@ A computable version of the following element information is available in: [Conc
 | [`MessageDefinition.url`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.url](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.identifier`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.identifier](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.version`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.version](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.versionAlgorithm[x]`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.versionAlgorithm](StructureDefinition-ext-R5-MessageDefinition.versionAlgorithm.md) |
+| [`MessageDefinition.versionAlgorithm[x]`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [Extension: ExtensionMessageDefinition_VersionAlgorithm](StructureDefinition-ext-R5-MessageDefinition.versionAlgorithm.md) |
 | [`MessageDefinition.name`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.name](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.title`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.title](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.replaces`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.replaces](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
@@ -35,19 +35,19 @@ A computable version of the following element information is available in: [Conc
 | [`MessageDefinition.jurisdiction`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.jurisdiction](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.purpose`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.purpose](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.copyright`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.copyright](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.copyrightLabel`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.copyrightLabel](StructureDefinition-ext-R5-MessageDefinition.copyrightLabel.md) |
+| [`MessageDefinition.copyrightLabel`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [Extension: ExtensionMessageDefinition_CopyrightLabel](StructureDefinition-ext-R5-MessageDefinition.copyrightLabel.md) |
 | [`MessageDefinition.base`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.base](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.parent`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.parent](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.event[x]`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.event[x]](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 | [`MessageDefinition.category`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.category](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.focus`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.focus](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.focus.code`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.focus.code](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageDefinition.focus.code](StructureDefinition-ext-R5-MessageDefinition.foc.code.md) |
-| [`MessageDefinition.focus.profile`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.focus.profile](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.focus.min`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.focus.min](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.focus.max`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.focus.max](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
+| [`MessageDefinition.focus`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.focus](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[Extension: ExtensionMessageDefinition_Focus](StructureDefinition-ext-R5-MessageDefinition.focus.md) |
+| [`MessageDefinition.focus.code`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.focus.code](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[Extension: ExtensionMessageDefinition_Focus Slice:code](StructureDefinition-ext-R5-MessageDefinition.focus.md) |
+| [`MessageDefinition.focus.profile`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.focus.profile](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[Extension: ExtensionMessageDefinition_Focus Slice:profile](StructureDefinition-ext-R5-MessageDefinition.focus.md) |
+| [`MessageDefinition.focus.min`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.focus.min](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[Extension: ExtensionMessageDefinition_Focus Slice:min](StructureDefinition-ext-R5-MessageDefinition.focus.md) |
+| [`MessageDefinition.focus.max`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.focus.max](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[Extension: ExtensionMessageDefinition_Focus Slice:max](StructureDefinition-ext-R5-MessageDefinition.focus.md) |
 | [`MessageDefinition.responseRequired`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.responseRequired](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.allowedResponse`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.allowedResponse](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.allowedResponse.message`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.allowedResponse.message](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
-| [`MessageDefinition.allowedResponse.situation`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.allowedResponse.situation](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
+| [`MessageDefinition.allowedResponse`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.allowedResponse](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[Extension: ExtensionMessageDefinition_AllowedResponse](StructureDefinition-ext-R5-MessageDefinition.allowedResponse.md) |
+| [`MessageDefinition.allowedResponse.message`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.allowedResponse.message](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[Extension: ExtensionMessageDefinition_AllowedResponse Slice:message](StructureDefinition-ext-R5-MessageDefinition.allowedResponse.md) |
+| [`MessageDefinition.allowedResponse.situation`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.allowedResponse.situation](https://hl7.org/fhir/R4/MessageDefinition.html#resource)[Extension: ExtensionMessageDefinition_AllowedResponse Slice:situation](StructureDefinition-ext-R5-MessageDefinition.allowedResponse.md) |
 | [`MessageDefinition.graph`](https://hl7.org/fhir/R5/MessageDefinition.html#resource) | [MessageDefinition.graph](https://hl7.org/fhir/R4/MessageDefinition.html#resource) |
 

@@ -1,4 +1,4 @@
-# ConceptMapR5AddressElementsForR4Address - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5AddressElementsForR4Address - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5AddressElementsForR4Address 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.4433884-06:00",
+  "date" : "2026-02-17T14:42:26.9658416-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Address` is representable via FHIR R4 extensions.\nElement `Address` is mapped to FHIR R4 element `Address`."
+              "comment" : "FHIR R5 ComplexType `Address` is representable via FHIR R4 extensions.\nElement `Address` has is mapped to FHIR R4 element `Address`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `Address.use` is mapped to FHIR R4 element `Address.use`."
+              "comment" : "Element `Address.use` has is mapped to FHIR R4 element `Address.use`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Address.type` is mapped to FHIR R4 element `Address.type`."
+              "comment" : "Element `Address.type` has is mapped to FHIR R4 element `Address.type`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Address.text` is mapped to FHIR R4 element `Address.text`."
+              "comment" : "Element `Address.text` has is mapped to FHIR R4 element `Address.text`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address.line",
               "equivalence" : "relatedto",
-              "comment" : "Element `Address.line` is mapped to FHIR R4 element `Address.line`."
+              "comment" : "Element `Address.line` has is mapped to FHIR R4 element `Address.line`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address.city",
               "equivalence" : "relatedto",
-              "comment" : "Element `Address.city` is mapped to FHIR R4 element `Address.city`."
+              "comment" : "Element `Address.city` has is mapped to FHIR R4 element `Address.city`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address.district",
               "equivalence" : "relatedto",
-              "comment" : "Element `Address.district` is mapped to FHIR R4 element `Address.district`."
+              "comment" : "Element `Address.district` has is mapped to FHIR R4 element `Address.district`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address.state",
               "equivalence" : "relatedto",
-              "comment" : "Element `Address.state` is mapped to FHIR R4 element `Address.state`."
+              "comment" : "Element `Address.state` has is mapped to FHIR R4 element `Address.state`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address.postalCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Address.postalCode` is mapped to FHIR R4 element `Address.postalCode`."
+              "comment" : "Element `Address.postalCode` has is mapped to FHIR R4 element `Address.postalCode`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address.country",
               "equivalence" : "relatedto",
-              "comment" : "Element `Address.country` is mapped to FHIR R4 element `Address.country`."
+              "comment" : "Element `Address.country` has is mapped to FHIR R4 element `Address.country`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Address#Address.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Address.period` is mapped to FHIR R4 element `Address.period`."
+              "comment" : "Element `Address.period` has is mapped to FHIR R4 element `Address.period`, but has no comparisons."
             }
           ]
         }

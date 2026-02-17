@@ -1,4 +1,4 @@
-# Lookup for ProfileSupplyDelivery - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileSupplyDelivery - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileSupplyDelivery
 
@@ -23,12 +23,12 @@ A computable version of the following element information is available in: [Conc
 | [`SupplyDelivery.partOf`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.partOf](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) |
 | [`SupplyDelivery.status`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.status](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) |
 | [`SupplyDelivery.patient`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.patient](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) |
-| [`SupplyDelivery.type`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.type](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyDelivery.type](StructureDefinition-ext-R5-SupplyDelivery.type.md) |
-| [`SupplyDelivery.suppliedItem`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.suppliedItem](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) |
-| [`SupplyDelivery.suppliedItem.quantity`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.suppliedItem.quantity](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) |
-| [`SupplyDelivery.suppliedItem.item[x]`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.suppliedItem.item[x]](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyDelivery.suppliedItem.item](StructureDefinition-ext-R5-SupplyDelivery.sup.item.md) |
+| [`SupplyDelivery.type`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.type](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[Extension: ExtensionSupplyDelivery_Type](StructureDefinition-ext-R5-SupplyDelivery.type.md) |
+| [`SupplyDelivery.suppliedItem`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.suppliedItem](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[Extension: ExtensionSupplyDelivery_SuppliedItem](StructureDefinition-ext-R5-SupplyDelivery.suppliedItem.md) |
+| [`SupplyDelivery.suppliedItem.quantity`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.suppliedItem.quantity](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[Extension: ExtensionSupplyDelivery_SuppliedItem Slice:quantity](StructureDefinition-ext-R5-SupplyDelivery.suppliedItem.md) |
+| [`SupplyDelivery.suppliedItem.item[x]`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.suppliedItem.item[x]](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[Extension: ExtensionSupplyDelivery_SuppliedItem Slice:item](StructureDefinition-ext-R5-SupplyDelivery.suppliedItem.md)[alternate-canonical](http://hl7.org/fhir/StructureDefinition/alternate-canonical)[alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`SupplyDelivery.occurrence[x]`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.occurrence[x]](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) |
 | [`SupplyDelivery.supplier`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.supplier](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) |
 | [`SupplyDelivery.destination`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.destination](https://hl7.org/fhir/R4/SupplyDelivery.html#resource) |
-| [`SupplyDelivery.receiver`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.receiver](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-SupplyDelivery.receiver](StructureDefinition-ext-R5-SupplyDelivery.receiver.md) |
+| [`SupplyDelivery.receiver`](https://hl7.org/fhir/R5/SupplyDelivery.html#resource) | [SupplyDelivery.receiver](https://hl7.org/fhir/R4/SupplyDelivery.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 

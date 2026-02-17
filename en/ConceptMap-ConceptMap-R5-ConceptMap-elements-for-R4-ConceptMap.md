@@ -1,4 +1,4 @@
-# ConceptMapR5ConceptMapElementsForR4ConceptMap - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ConceptMapElementsForR4ConceptMap - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ConceptMapElementsForR4ConceptMap 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.6750066-06:00",
+  "date" : "2026-02-17T14:42:27.0982569-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ConceptMap` is representable via FHIR R4 Resource `ConceptMap`.\nElement `ConceptMap` is mapped to FHIR R4 element `ConceptMap`."
+              "comment" : "FHIR R5 Resource `ConceptMap` is representable via FHIR R4 Resource `ConceptMap`.\nElement `ConceptMap` has is mapped to FHIR R4 element `ConceptMap`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.meta` is mapped to FHIR R4 element `ConceptMap.meta`."
+              "comment" : "Element `ConceptMap.meta` has is mapped to FHIR R4 element `ConceptMap.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.implicitRules` is mapped to FHIR R4 element `ConceptMap.implicitRules`."
+              "comment" : "Element `ConceptMap.implicitRules` has is mapped to FHIR R4 element `ConceptMap.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.language` is mapped to FHIR R4 element `ConceptMap.language`."
+              "comment" : "Element `ConceptMap.language` has is mapped to FHIR R4 element `ConceptMap.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.text` is mapped to FHIR R4 element `ConceptMap.text`."
+              "comment" : "Element `ConceptMap.text` has is mapped to FHIR R4 element `ConceptMap.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.contained` is mapped to FHIR R4 element `ConceptMap.contained`."
+              "comment" : "Element `ConceptMap.contained` has is mapped to FHIR R4 element `ConceptMap.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.url` is mapped to FHIR R4 element `ConceptMap.url`."
+              "comment" : "Element `ConceptMap.url` has is mapped to FHIR R4 element `ConceptMap.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.identifier` is mapped to FHIR R4 element `ConceptMap.identifier`."
+              "comment" : "Element `ConceptMap.identifier` has is mapped to FHIR R4 element `ConceptMap.identifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.version` is mapped to FHIR R4 element `ConceptMap.version`."
+              "comment" : "Element `ConceptMap.version` has is mapped to FHIR R4 element `ConceptMap.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.versionAlgorithm[x]` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.versionAlgorithm[x]` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.name` is mapped to FHIR R4 element `ConceptMap.name`."
+              "comment" : "Element `ConceptMap.name` has is mapped to FHIR R4 element `ConceptMap.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.title` is mapped to FHIR R4 element `ConceptMap.title`."
+              "comment" : "Element `ConceptMap.title` has is mapped to FHIR R4 element `ConceptMap.title`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.status` is mapped to FHIR R4 element `ConceptMap.status`."
+              "comment" : "Element `ConceptMap.status` has is mapped to FHIR R4 element `ConceptMap.status`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.experimental` is mapped to FHIR R4 element `ConceptMap.experimental`."
+              "comment" : "Element `ConceptMap.experimental` has is mapped to FHIR R4 element `ConceptMap.experimental`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.date` is mapped to FHIR R4 element `ConceptMap.date`."
+              "comment" : "Element `ConceptMap.date` has is mapped to FHIR R4 element `ConceptMap.date`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.publisher` is mapped to FHIR R4 element `ConceptMap.publisher`."
+              "comment" : "Element `ConceptMap.publisher` has is mapped to FHIR R4 element `ConceptMap.publisher`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.contact` is mapped to FHIR R4 element `ConceptMap.contact`."
+              "comment" : "Element `ConceptMap.contact` has is mapped to FHIR R4 element `ConceptMap.contact`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.description` is mapped to FHIR R4 element `ConceptMap.description`."
+              "comment" : "Element `ConceptMap.description` has is mapped to FHIR R4 element `ConceptMap.description`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.useContext` is mapped to FHIR R4 element `ConceptMap.useContext`."
+              "comment" : "Element `ConceptMap.useContext` has is mapped to FHIR R4 element `ConceptMap.useContext`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.jurisdiction` is mapped to FHIR R4 element `ConceptMap.jurisdiction`."
+              "comment" : "Element `ConceptMap.jurisdiction` has is mapped to FHIR R4 element `ConceptMap.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.purpose` is mapped to FHIR R4 element `ConceptMap.purpose`."
+              "comment" : "Element `ConceptMap.purpose` has is mapped to FHIR R4 element `ConceptMap.purpose`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.copyright` is mapped to FHIR R4 element `ConceptMap.copyright`."
+              "comment" : "Element `ConceptMap.copyright` has is mapped to FHIR R4 element `ConceptMap.copyright`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.copyrightLabel` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.copyrightLabel` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.approvalDate` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.approvalDate` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.lastReviewDate` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.lastReviewDate` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.effectivePeriod` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.effectivePeriod` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.topic` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.topic` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `ConceptMap.author` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Note that the source element matches Basic element path ``, but the definitions are not compatible (source: `ContactDetail`:0..* -> basic: `Reference(http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson,http://hl7.org/fhir/StructureDefinition/Organization)`:0..1).\nElement `ConceptMap.author` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.editor` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.editor` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.reviewer` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.reviewer` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.endorser` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.endorser` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.relatedArtifact` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.relatedArtifact` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.property` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.property` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.property.code` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.code` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.property.code` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.code` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.property.uri` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.uri` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.property.uri` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.uri` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.property.description` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.description` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.property.description` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.description` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.property.type` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.type` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.property.type` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nElement `ConceptMap.property.type` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.property.system` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.property.system` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.property.system` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.property.system` is part of an existing definition because parent element `ConceptMap.property` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.property.system` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.property.system` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.additionalAttribute` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.additionalAttribute` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.additionalAttribute.code` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.code` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.additionalAttribute.code` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.code` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.additionalAttribute.uri` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.uri` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.additionalAttribute.uri` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.uri` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.additionalAttribute.description` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.description` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.additionalAttribute.description` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.description` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.additionalAttribute.type` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.type` is will have a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.additionalAttribute.type` is part of an existing definition because parent element `ConceptMap.additionalAttribute` requires a cross-version extension.\nElement `ConceptMap.additionalAttribute.type` has a context of ConceptMap based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.source[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ConceptMap.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.\nElement `ConceptMap.sourceScope[x]` is mapped to FHIR R4 element `ConceptMap.source[x]`.\nNote that the target element context `ConceptMap.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`."
+              "comment" : "Note that the target element context `ConceptMap.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.\nElement `ConceptMap.sourceScope[x]` has is mapped to FHIR R4 element `ConceptMap.source[x]`, but has no comparisons.\nNote that the target element context `ConceptMap.source[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.target[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ConceptMap.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.\nElement `ConceptMap.targetScope[x]` is mapped to FHIR R4 element `ConceptMap.target[x]`.\nNote that the target element context `ConceptMap.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`."
+              "comment" : "Note that the target element context `ConceptMap.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`.\nElement `ConceptMap.targetScope[x]` has is mapped to FHIR R4 element `ConceptMap.target[x]`, but has no comparisons.\nNote that the target element context `ConceptMap.target[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ConceptMap`."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group` is mapped to FHIR R4 element `ConceptMap.group`."
+              "comment" : "Element `ConceptMap.group` has is mapped to FHIR R4 element `ConceptMap.group`, but has no comparisons."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.source` is mapped to FHIR R4 element `ConceptMap.group.source`."
+              "comment" : "Element `ConceptMap.group.source` is part of an existing definition because parent element `ConceptMap.group` requires a cross-version extension.\nElement `ConceptMap.group.source` has is mapped to FHIR R4 element `ConceptMap.group.source`, but has no comparisons."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.target` is mapped to FHIR R4 element `ConceptMap.group.target`."
+              "comment" : "Element `ConceptMap.group.target` is part of an existing definition because parent element `ConceptMap.group` requires a cross-version extension.\nElement `ConceptMap.group.target` has is mapped to FHIR R4 element `ConceptMap.group.target`, but has no comparisons."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element` is mapped to FHIR R4 element `ConceptMap.group.element`."
+              "comment" : "Element `ConceptMap.group.element` is part of an existing definition because parent element `ConceptMap.group` requires a cross-version extension.\nElement `ConceptMap.group.element` has is mapped to FHIR R4 element `ConceptMap.group.element`, but has no comparisons."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.code` is mapped to FHIR R4 element `ConceptMap.group.element.code`."
+              "comment" : "Element `ConceptMap.group.element.code` is part of an existing definition because parent element `ConceptMap.group.element` requires a cross-version extension.\nElement `ConceptMap.group.element.code` has is mapped to FHIR R4 element `ConceptMap.group.element.code`, but has no comparisons."
             }
           ]
         },
@@ -635,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.display` is mapped to FHIR R4 element `ConceptMap.group.element.display`."
+              "comment" : "Element `ConceptMap.group.element.display` is part of an existing definition because parent element `ConceptMap.group.element` requires a cross-version extension.\nElement `ConceptMap.group.element.display` has is mapped to FHIR R4 element `ConceptMap.group.element.display`, but has no comparisons."
             }
           ]
         },
@@ -646,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.group.element.valueSet` is will have a context of ConceptMap.group.element based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.group.element.valueSet` is part of an existing definition because parent element `ConceptMap.group.element` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.group.element.valueSet` has a context of ConceptMap.group.element based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -657,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.equivalence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.noMap` is mapped to FHIR R4 element `ConceptMap.group.element.target.equivalence`."
+              "comment" : "Element `ConceptMap.group.element.noMap` is part of an existing definition because parent element `ConceptMap.group.element` requires a cross-version extension.\nElement `ConceptMap.group.element.noMap` has is mapped to FHIR R4 element `ConceptMap.group.element.target.equivalence`, but has no comparisons."
             }
           ]
         },
@@ -668,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target` is mapped to FHIR R4 element `ConceptMap.group.element.target`."
+              "comment" : "Element `ConceptMap.group.element.target` is part of an existing definition because parent element `ConceptMap.group.element` requires a cross-version extension.\nElement `ConceptMap.group.element.target` has is mapped to FHIR R4 element `ConceptMap.group.element.target`, but has no comparisons."
             }
           ]
         },
@@ -679,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.code` is mapped to FHIR R4 element `ConceptMap.group.element.target.code`."
+              "comment" : "Element `ConceptMap.group.element.target.code` is part of an existing definition because parent element `ConceptMap.group.element.target` requires a cross-version extension.\nElement `ConceptMap.group.element.target.code` has is mapped to FHIR R4 element `ConceptMap.group.element.target.code`, but has no comparisons."
             }
           ]
         },
@@ -690,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.display` is mapped to FHIR R4 element `ConceptMap.group.element.target.display`."
+              "comment" : "Element `ConceptMap.group.element.target.display` is part of an existing definition because parent element `ConceptMap.group.element.target` requires a cross-version extension.\nElement `ConceptMap.group.element.target.display` has is mapped to FHIR R4 element `ConceptMap.group.element.target.display`, but has no comparisons."
             }
           ]
         },
@@ -701,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.group.element.target.valueSet` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.group.element.target.valueSet` is part of an existing definition because parent element `ConceptMap.group.element.target` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.group.element.target.valueSet` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -712,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.equivalence",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.relationship` is mapped to FHIR R4 element `ConceptMap.group.element.target.equivalence`."
+              "comment" : "Element `ConceptMap.group.element.target.relationship` is part of an existing definition because parent element `ConceptMap.group.element.target` requires a cross-version extension.\nNote that the target element context `ConceptMap.group.element.target.equivalence` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ConceptMap.group.element.target.relationship` has is mapped to FHIR R4 element `ConceptMap.group.element.target.equivalence`, but has no comparisons."
             }
           ]
         },
@@ -723,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.comment",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.comment`: `http://hl7.org/fhir/StructureDefinition/conceptmap-notarget-comment`.\nElement `ConceptMap.group.element.target.comment` is mapped to FHIR R4 element `ConceptMap.group.element.target.comment`."
+              "comment" : "Element `ConceptMap.group.element.target.comment` is part of an existing definition because parent element `ConceptMap.group.element.target` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.comment`: `http://hl7.org/fhir/StructureDefinition/conceptmap-notarget-comment`.\nElement `ConceptMap.group.element.target.comment` has is mapped to FHIR R4 element `ConceptMap.group.element.target.comment`, but has no comparisons."
             }
           ]
         },
@@ -734,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.property` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.group.element.target.property` is part of an existing definition because parent element `ConceptMap.group.element.target` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -745,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.code` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.group.element.target.property.code` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.code` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -756,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.value[x]` is will have a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.group.element.target.property.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.property` requires a cross-version extension.\nElement `ConceptMap.group.element.target.property.value[x]` has a context of ConceptMap.group.element.target based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -767,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.dependsOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.dependsOn` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn`."
+              "comment" : "Element `ConceptMap.group.element.target.dependsOn` is part of an existing definition because parent element `ConceptMap.group.element.target` requires a cross-version extension.\nElement `ConceptMap.group.element.target.dependsOn` has is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn`, but has no comparisons."
             }
           ]
         },
@@ -778,7 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.dependsOn.property",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.dependsOn.attribute` is part of an existing definition because parent element `ConceptMap.group.element.target.dependsOn` requires a component extension (e.g., if this element is used as a content reference).\nElement `ConceptMap.group.element.target.dependsOn.attribute` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.property`."
+              "comment" : "Element `ConceptMap.group.element.target.dependsOn.attribute` is part of an existing definition because parent element `ConceptMap.group.element.target.dependsOn` requires a cross-version extension.\nElement `ConceptMap.group.element.target.dependsOn.attribute` has is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.property`, but has no comparisons."
             }
           ]
         },
@@ -789,7 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.dependsOn.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.dependsOn.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.dependsOn` requires a component extension (e.g., if this element is used as a content reference).\nElement `ConceptMap.group.element.target.dependsOn.value[x]` is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.value`."
+              "comment" : "Element `ConceptMap.group.element.target.dependsOn.value[x]` is part of an existing definition because parent element `ConceptMap.group.element.target.dependsOn` requires a cross-version extension.\nElement `ConceptMap.group.element.target.dependsOn.value[x]` has is mapped to FHIR R4 element `ConceptMap.group.element.target.dependsOn.value`, but has no comparisons."
             }
           ]
         },
@@ -800,7 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.dependsOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.dependsOn.valueSet` is part of an existing definition because parent element `ConceptMap.group.element.target.dependsOn` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.dependsOn.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.group.element.target.dependsOn.valueSet` is will have a context of ConceptMap.group.element.target.dependsOn based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.group.element.target.dependsOn.valueSet` is part of an existing definition because parent element `ConceptMap.group.element.target.dependsOn` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.dependsOn.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.group.element.target.dependsOn.valueSet` has a context of ConceptMap.group.element.target.dependsOn based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -811,40 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.product",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.product` is mapped to FHIR R4 element `ConceptMap.group.element.target.product`."
-            }
-          ]
-        },
-        {
-          "code" : "ConceptMap.group.element.target.product.attribute",
-          "display" : "attribute",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.product.property",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.product.attribute` is mapped to FHIR R4 element `ConceptMap.group.element.target.product.property`."
-            }
-          ]
-        },
-        {
-          "code" : "ConceptMap.group.element.target.product.value[x]",
-          "display" : "value[x]",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.product",
-              "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.element.target.product.value[x]` is will have a context of ConceptMap.group.element.target.product based on following the parent source element upwards and mapping to `ConceptMap`."
-            }
-          ]
-        },
-        {
-          "code" : "ConceptMap.group.element.target.product.valueSet",
-          "display" : "valueSet",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.element.target.product",
-              "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.element.target.product.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.group.element.target.product.valueSet` is will have a context of ConceptMap.group.element.target.product based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.group.element.target.product` is part of an existing definition because parent element `ConceptMap.group.element.target` requires a cross-version extension.\nElement `ConceptMap.group.element.target.product` has is mapped to FHIR R4 element `ConceptMap.group.element.target.product`, but has no comparisons."
             }
           ]
         },
@@ -855,7 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.unmapped",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.unmapped` is mapped to FHIR R4 element `ConceptMap.group.unmapped`."
+              "comment" : "Element `ConceptMap.group.unmapped` is part of an existing definition because parent element `ConceptMap.group` requires a cross-version extension.\nElement `ConceptMap.group.unmapped` has is mapped to FHIR R4 element `ConceptMap.group.unmapped`, but has no comparisons."
             }
           ]
         },
@@ -866,7 +833,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.unmapped.mode",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.unmapped.mode` is mapped to FHIR R4 element `ConceptMap.group.unmapped.mode`."
+              "comment" : "Element `ConceptMap.group.unmapped.mode` is part of an existing definition because parent element `ConceptMap.group.unmapped` requires a cross-version extension.\nElement `ConceptMap.group.unmapped.mode` has is mapped to FHIR R4 element `ConceptMap.group.unmapped.mode`, but has no comparisons."
             }
           ]
         },
@@ -877,7 +844,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.unmapped.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.unmapped.code` is mapped to FHIR R4 element `ConceptMap.group.unmapped.code`."
+              "comment" : "Element `ConceptMap.group.unmapped.code` is part of an existing definition because parent element `ConceptMap.group.unmapped` requires a cross-version extension.\nElement `ConceptMap.group.unmapped.code` has is mapped to FHIR R4 element `ConceptMap.group.unmapped.code`, but has no comparisons."
             }
           ]
         },
@@ -888,7 +855,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.unmapped.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.unmapped.display` is mapped to FHIR R4 element `ConceptMap.group.unmapped.display`."
+              "comment" : "Element `ConceptMap.group.unmapped.display` is part of an existing definition because parent element `ConceptMap.group.unmapped` requires a cross-version extension.\nElement `ConceptMap.group.unmapped.display` has is mapped to FHIR R4 element `ConceptMap.group.unmapped.display`, but has no comparisons."
             }
           ]
         },
@@ -899,7 +866,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.unmapped",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.unmapped.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.group.unmapped.valueSet` is will have a context of ConceptMap.group.unmapped based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.group.unmapped.valueSet` is part of an existing definition because parent element `ConceptMap.group.unmapped` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ConceptMap.group.unmapped.valueSet` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ConceptMap.group.unmapped.valueSet` has a context of ConceptMap.group.unmapped based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -910,7 +877,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.unmapped",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.unmapped.relationship` is will have a context of ConceptMap.group.unmapped based on following the parent source element upwards and mapping to `ConceptMap`."
+              "comment" : "Element `ConceptMap.group.unmapped.relationship` is part of an existing definition because parent element `ConceptMap.group.unmapped` requires a cross-version extension.\nElement `ConceptMap.group.unmapped.relationship` has a context of ConceptMap.group.unmapped based on following the parent source element upwards and mapping to `ConceptMap`."
             }
           ]
         },
@@ -921,7 +888,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ConceptMap#ConceptMap.group.unmapped.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `ConceptMap.group.unmapped.otherMap` is mapped to FHIR R4 element `ConceptMap.group.unmapped.url`."
+              "comment" : "Element `ConceptMap.group.unmapped.otherMap` is part of an existing definition because parent element `ConceptMap.group.unmapped` requires a cross-version extension.\nElement `ConceptMap.group.unmapped.otherMap` has is mapped to FHIR R4 element `ConceptMap.group.unmapped.url`, but has no comparisons."
             }
           ]
         }

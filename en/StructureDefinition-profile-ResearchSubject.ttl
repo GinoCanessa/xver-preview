@@ -121,7 +121,7 @@
   fhir:title [ fhir:v "Cross-version Profile for R5.ResearchSubject for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-09T22:05:43.3116366-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-17T14:42:26.8922933-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -566,7 +566,7 @@
        fhir:sliceName [ fhir:v "progress" ] ;
        fhir:short [ fhir:v "Cross-version extension for ResearchSubject.progress from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "The current state (status) of the subject and resons for status change where appropriate." ] ;
-       fhir:comment [ fhir:v "Element `ResearchSubject.progress` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`." ] ;
+       fhir:comment [ fhir:v "Element `ResearchSubject.progress` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -845,7 +845,7 @@
        fhir:sliceName [ fhir:v "status" ] ;
        fhir:short [ fhir:v "Cross-version extension for ResearchSubject.status from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "The publication state of the resource (not of the subject)." ] ;
-       fhir:comment [ fhir:v "Note that the target element context `ResearchSubject.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchSubject.status` is mapped to FHIR R4 element `ResearchSubject.status`." ] ;
+       fhir:comment [ fhir:v "Note that the target element context `ResearchSubject.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchSubject.status` has is mapped to FHIR R4 element `ResearchSubject.status`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1183,7 +1183,7 @@
        fhir:path [ fhir:v "ResearchSubject.extension" ] ;
        fhir:sliceName [ fhir:v "progress" ] ;
        fhir:short [ fhir:v "Cross-version extension for ResearchSubject.progress from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `ResearchSubject.progress` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`." ] ;
+       fhir:comment [ fhir:v "Element `ResearchSubject.progress` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1224,7 +1224,7 @@
        fhir:path [ fhir:v "ResearchSubject.status.extension" ] ;
        fhir:sliceName [ fhir:v "status" ] ;
        fhir:short [ fhir:v "Cross-version extension for ResearchSubject.status from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that the target element context `ResearchSubject.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchSubject.status` is mapped to FHIR R4 element `ResearchSubject.status`." ] ;
+       fhir:comment [ fhir:v "Note that the target element context `ResearchSubject.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchSubject.status` has is mapped to FHIR R4 element `ResearchSubject.status`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

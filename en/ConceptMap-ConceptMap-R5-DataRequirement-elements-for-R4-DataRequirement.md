@@ -1,4 +1,4 @@
-# ConceptMapR5DataRequirementElementsForR4DataRequirement - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5DataRequirementElementsForR4DataRequirement - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5DataRequirementElementsForR4DataRequirement 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.7391141-06:00",
+  "date" : "2026-02-17T14:42:27.1560871-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `DataRequirement` is representable via FHIR R4 extensions.\nElement `DataRequirement` is mapped to FHIR R4 element `DataRequirement`."
+              "comment" : "FHIR R5 ComplexType `DataRequirement` is representable via FHIR R4 extensions.\nElement `DataRequirement` has is mapped to FHIR R4 element `DataRequirement`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.type` is mapped to FHIR R4 element `DataRequirement.type`."
+              "comment" : "Element `DataRequirement.type` has is mapped to FHIR R4 element `DataRequirement.type`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.profile",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.profile` is mapped to FHIR R4 element `DataRequirement.profile`."
+              "comment" : "Element `DataRequirement.profile` has is mapped to FHIR R4 element `DataRequirement.profile`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.subject[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DataRequirement.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement`.\nElement `DataRequirement.subject[x]` is mapped to FHIR R4 element `DataRequirement.subject[x]`.\nNote that the target element context `DataRequirement.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement`."
+              "comment" : "Note that the target element context `DataRequirement.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement`.\nElement `DataRequirement.subject[x]` has is mapped to FHIR R4 element `DataRequirement.subject[x]`, but has no comparisons.\nNote that the target element context `DataRequirement.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.mustSupport",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.mustSupport` is mapped to FHIR R4 element `DataRequirement.mustSupport`."
+              "comment" : "Element `DataRequirement.mustSupport` has is mapped to FHIR R4 element `DataRequirement.mustSupport`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.codeFilter` is mapped to FHIR R4 element `DataRequirement.codeFilter`."
+              "comment" : "Element `DataRequirement.codeFilter` has is mapped to FHIR R4 element `DataRequirement.codeFilter`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.path",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.codeFilter.path` is mapped to FHIR R4 element `DataRequirement.codeFilter.path`."
+              "comment" : "Element `DataRequirement.codeFilter.path` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.path` has is mapped to FHIR R4 element `DataRequirement.codeFilter.path`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.searchParam",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.codeFilter.searchParam` is mapped to FHIR R4 element `DataRequirement.codeFilter.searchParam`."
+              "comment" : "Element `DataRequirement.codeFilter.searchParam` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.searchParam` has is mapped to FHIR R4 element `DataRequirement.codeFilter.searchParam`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.valueSet",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.codeFilter.valueSet` is mapped to FHIR R4 element `DataRequirement.codeFilter.valueSet`."
+              "comment" : "Element `DataRequirement.codeFilter.valueSet` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.valueSet` has is mapped to FHIR R4 element `DataRequirement.codeFilter.valueSet`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.codeFilter.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.codeFilter.code` is mapped to FHIR R4 element `DataRequirement.codeFilter.code`."
+              "comment" : "Element `DataRequirement.codeFilter.code` is part of an existing definition because parent element `DataRequirement.codeFilter` requires a cross-version extension.\nElement `DataRequirement.codeFilter.code` has is mapped to FHIR R4 element `DataRequirement.codeFilter.code`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.dateFilter` is mapped to FHIR R4 element `DataRequirement.dateFilter`."
+              "comment" : "Element `DataRequirement.dateFilter` has is mapped to FHIR R4 element `DataRequirement.dateFilter`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter.path",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.dateFilter.path` is mapped to FHIR R4 element `DataRequirement.dateFilter.path`."
+              "comment" : "Element `DataRequirement.dateFilter.path` is part of an existing definition because parent element `DataRequirement.dateFilter` requires a cross-version extension.\nElement `DataRequirement.dateFilter.path` has is mapped to FHIR R4 element `DataRequirement.dateFilter.path`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter.searchParam",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.dateFilter.searchParam` is mapped to FHIR R4 element `DataRequirement.dateFilter.searchParam`."
+              "comment" : "Element `DataRequirement.dateFilter.searchParam` is part of an existing definition because parent element `DataRequirement.dateFilter` requires a cross-version extension.\nElement `DataRequirement.dateFilter.searchParam` has is mapped to FHIR R4 element `DataRequirement.dateFilter.searchParam`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.dateFilter.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `DataRequirement.dateFilter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.dateFilter`.\nElement `DataRequirement.dateFilter.value[x]` is mapped to FHIR R4 element `DataRequirement.dateFilter.value[x]`.\nNote that the target element context `DataRequirement.dateFilter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.dateFilter`."
+              "comment" : "Element `DataRequirement.dateFilter.value[x]` is part of an existing definition because parent element `DataRequirement.dateFilter` requires a cross-version extension.\nNote that the target element context `DataRequirement.dateFilter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.dateFilter`.\nElement `DataRequirement.dateFilter.value[x]` has is mapped to FHIR R4 element `DataRequirement.dateFilter.value[x]`, but has no comparisons.\nNote that the target element context `DataRequirement.dateFilter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `DataRequirement.dateFilter`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.valueFilter` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."
+              "comment" : "Element `DataRequirement.valueFilter` has a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.path` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."
+              "comment" : "Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.path` has a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.searchParam` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."
+              "comment" : "Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.searchParam` has a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.comparator` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."
+              "comment" : "Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.comparator` has a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.value[x]` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."
+              "comment" : "Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.value[x]` has a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.limit",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.limit` is mapped to FHIR R4 element `DataRequirement.limit`."
+              "comment" : "Element `DataRequirement.limit` has is mapped to FHIR R4 element `DataRequirement.limit`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.sort",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.sort` is mapped to FHIR R4 element `DataRequirement.sort`."
+              "comment" : "Element `DataRequirement.sort` has is mapped to FHIR R4 element `DataRequirement.sort`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.sort.path",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.sort.path` is mapped to FHIR R4 element `DataRequirement.sort.path`."
+              "comment" : "Element `DataRequirement.sort.path` is part of an existing definition because parent element `DataRequirement.sort` requires a cross-version extension.\nElement `DataRequirement.sort.path` has is mapped to FHIR R4 element `DataRequirement.sort.path`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/DataRequirement#DataRequirement.sort.direction",
               "equivalence" : "relatedto",
-              "comment" : "Element `DataRequirement.sort.direction` is mapped to FHIR R4 element `DataRequirement.sort.direction`."
+              "comment" : "Element `DataRequirement.sort.direction` is part of an existing definition because parent element `DataRequirement.sort` requires a cross-version extension.\nElement `DataRequirement.sort.direction` has is mapped to FHIR R4 element `DataRequirement.sort.direction`, but has no comparisons."
             }
           ]
         }

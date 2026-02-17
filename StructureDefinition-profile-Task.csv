@@ -25,19 +25,19 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Task.extension:doNotPerform","Task.extension","doNotPerform","","",0,1,"","Y","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.doNotPerform|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Task.doNotPerform from R5 for use in FHIR R4","If true indicates that the Task is asking for the specified action to *not* occur.","Element `Task.doNotPerform` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Cross-version extension for Task.doNotPerform from R5 for use in FHIR R4","If true indicates that the Task is asking for the specified action to *not* occur.","Element `Task.doNotPerform` has a context of Task based on following the parent source element upwards and mapping to `Task`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Task.extension:requestedPeriod","Task.extension","requestedPeriod","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPeriod|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Task.requestedPeriod from R5 for use in FHIR R4","Indicates the start and/or end of the period of time when completion of the task is desired to take place.","Element `Task.requestedPeriod` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Cross-version extension for Task.requestedPeriod from R5 for use in FHIR R4","Indicates the start and/or end of the period of time when completion of the task is desired to take place.","Element `Task.requestedPeriod` has a context of Task based on following the parent source element upwards and mapping to `Task`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Task.extension:requestedPerformer","Task.extension","requestedPerformer","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.requestedPerformer|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Task.requestedPerformer from R5 for use in FHIR R4","The kind of participant or specific participant that should perform the task.","Element `Task.requestedPerformer` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Cross-version extension for Task.requestedPerformer from R5 for use in FHIR R4","The kind of participant or specific participant that should perform the task.","Element `Task.requestedPerformer` has a context of Task based on following the parent source element upwards and mapping to `Task`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Task.extension:performer","Task.extension","performer","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.performer|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Task.performer from R5 for use in FHIR R4","The entity who performed the requested task.","Element `Task.performer` is will have a context of Task based on following the parent source element upwards and mapping to `Task`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Cross-version extension for Task.performer from R5 for use in FHIR R4","The entity who performed the requested task.","Element `Task.performer` has a context of Task based on following the parent source element upwards and mapping to `Task`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Task.modifierExtension","Task.modifierExtension","","extensions
@@ -77,7 +77,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Task.statusReason.extension:statusReason","Task.statusReason.extension","statusReason","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.statusReason|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Task.statusReason from R5 for use in FHIR R4","An explanation as to why this task is held, failed, was refused, etc.","Element `Task.statusReason` is mapped to FHIR R4 element `Task.statusReason`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Cross-version extension for Task.statusReason from R5 for use in FHIR R4","An explanation as to why this task is held, failed, was refused, etc.","Element `Task.statusReason` has is mapped to FHIR R4 element `Task.statusReason`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Task.statusReason.coding","Task.statusReason.coding","","","",0,*,"","","Y","Coding {[]} {[]}
 ","Code defined by a terminology system","A reference to a code defined by a terminology system.","Codes may be defined very casually in enumerations, or code lists, up to very formal definitions such as SNOMED CT - see the HL7 v3 Core Principles for more information.  Ordering of codings is undefined and SHALL NOT be used to infer meaning. Generally, at most only one of the coding values will be labeled as UserSelected = true.","Allows for alternative encodings within a code system, and translations to other code systems.","","","","","","","",,,,,"",,,,"CodeableConcept.coding",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -159,10 +159,14 @@ Executer","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/S
 ","Instead of pointing to request, would point to component of request, having these characteristics"
 "Task.restriction.id","Task.restriction.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Task.restriction.extension","Task.restriction.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"Task.restriction.extension","Task.restriction.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Task.restriction.extension:restriction","Task.restriction.extension","restriction","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.restriction|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Task.restriction from R5 for use in FHIR R4","If the Task.focus is a request resource and the task is seeking fulfillment (i.e. is asking for the request to be actioned), this element identifies any limitations on what parts of the referenced request should be actioned.","Element `Task.restriction` has is mapped to FHIR R4 element `Task.restriction`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Task.restriction.modifierExtension","Task.restriction.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -184,14 +188,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","???"
 "Task.input.id","Task.input.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Task.input.extension","Task.input.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Task.input.extension","Task.input.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Task.input.extension:value","Task.input.extension","value","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input.value|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Task.input.value[x] from R5 for use in FHIR R4","The value of the input parameter as a basic type.","Note that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.
-Element `Task.input.value[x]` is mapped to FHIR R4 element `Task.input.value[x]`.
-Note that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Task.input.extension:input","Task.input.extension","input","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.input|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Task.input from R5 for use in FHIR R4","Additional information that may be needed in the execution of the task.","Element `Task.input` has is mapped to FHIR R4 element `Task.input`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Task.input.modifierExtension","Task.input.modifierExtension","","extensions
@@ -212,14 +214,12 @@ boolean {[]} {[]}canonical {[]} {[]}code {[]} {[]}date {[]} {[]}dateTime {[]} {[
 ","???"
 "Task.output.id","Task.output.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"Task.output.extension","Task.output.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Task.output.extension","Task.output.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Task.output.extension:value","Task.output.extension","value","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output.value|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Task.output.value[x] from R5 for use in FHIR R4","The value of the Output parameter as a basic type.","Note that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.
-Element `Task.output.value[x]` is mapped to FHIR R4 element `Task.output.value[x]`.
-Note that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"Task.output.extension:output","Task.output.extension","output","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Task.output|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for Task.output from R5 for use in FHIR R4","Outputs produced by the Task.","Element `Task.output` has is mapped to FHIR R4 element `Task.output`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Task.output.modifierExtension","Task.output.modifierExtension","","extensions

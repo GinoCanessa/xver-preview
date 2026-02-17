@@ -1,4 +1,4 @@
-# ConceptMapR5CitationElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5CitationElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5CitationElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.5398095-06:00",
+  "date" : "2026-02-17T14:42:27.0325938-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -622,7 +622,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "baseCitation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation:citedArtifact:version:baseCitation",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Element `Citation.citedArtifact.version.baseCitation` is part of an existing definition because parent element `Citation.citedArtifact.version` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.version.baseCitation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.version.baseCitation` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped."
             }
@@ -820,7 +820,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "baseCitation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation:citedArtifact:part:baseCitation",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Element `Citation.citedArtifact.part.baseCitation` is part of an existing definition because parent element `Citation.citedArtifact.part` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.part.baseCitation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.part.baseCitation` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped."
             }
@@ -908,7 +908,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "resource",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation:citedArtifact:relatesTo:resource",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-canonical",
               "equivalence" : "relatedto",
               "comment" : "Element `Citation.citedArtifact.relatesTo.resource` is part of an existing definition because parent element `Citation.citedArtifact.relatesTo` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.relatesTo.resource` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Citation.citedArtifact.relatesTo.resource` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped."
             }
@@ -919,7 +919,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "resourceReference",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation:citedArtifact:relatesTo:resourceReference",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Element `Citation.citedArtifact.relatesTo.resourceReference` is part of an existing definition because parent element `Citation.citedArtifact.relatesTo` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.relatesTo.resourceReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.relatesTo.resourceReference` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped."
             }
@@ -985,7 +985,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "publisher",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation:citedArtifact:publicationForm:publishedIn:publisher",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Element `Citation.citedArtifact.publicationForm.publishedIn.publisher` is part of an existing definition because parent element `Citation.citedArtifact.publicationForm.publishedIn` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.publicationForm.publishedIn.publisher` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.publicationForm.publishedIn.publisher` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped."
             }
@@ -1227,7 +1227,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "artifactAssessment",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation:citedArtifact:classification:artifactAssessment",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Element `Citation.citedArtifact.classification.artifactAssessment` is part of an existing definition because parent element `Citation.citedArtifact.classification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.classification.artifactAssessment` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.classification.artifactAssessment` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped."
             }
@@ -1271,7 +1271,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "contributor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation:citedArtifact:contributorship:entry:contributor",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Element `Citation.citedArtifact.contributorship.entry.contributor` is part of an existing definition because parent element `Citation.citedArtifact.contributorship.entry` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.contributorship.entry.contributor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.contributorship.entry.contributor` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped."
             }
@@ -1293,7 +1293,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "affiliation",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Citation:citedArtifact:contributorship:entry:affiliation",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Element `Citation.citedArtifact.contributorship.entry.affiliation` is part of an existing definition because parent element `Citation.citedArtifact.contributorship.entry` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Citation.citedArtifact.contributorship.entry.affiliation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Citation.citedArtifact.contributorship.entry.affiliation` is not mapped to FHIR R4, since FHIR R5 `Citation` is not mapped."
             }

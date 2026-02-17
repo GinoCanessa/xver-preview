@@ -1,4 +1,4 @@
-# ProfileNutritionIntake - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileNutritionIntake - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileNutritionIntake 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
   "title" : "Cross-version Profile for R5.NutritionIntake for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2321252-06:00",
+  "date" : "2026-02-17T14:42:26.8603951-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

@@ -1,4 +1,4 @@
-# ValueSetR5SubstanceWeightTypeForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ValueSetR5SubstanceWeightTypeForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ValueSet: Cross-version ValueSet R5.WeightType for use in FHIR R4 
 
@@ -72,7 +72,7 @@ This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSe
   "title" : "Cross-version ValueSet R5.WeightType for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "Biomedical Research and Regulation",
   "contact" : [
     {
@@ -97,7 +97,7 @@ This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSe
       ]
     }
   ],
-  "purpose" : "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/substance-weight-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `SubstanceDefinition.molecularWeight.type` as Example\n* `SubstanceDefinition.structure.molecularWeight.type` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/substance-weight-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/substance-weight-type|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (3).",
+  "purpose" : "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/substance-weight-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `SubstanceDefinition.molecularWeight.type` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/substance-weight-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/substance-weight-type|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (3).",
   "compose" : {
     "include" : [
       {

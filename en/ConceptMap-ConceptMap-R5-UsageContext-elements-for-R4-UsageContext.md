@@ -1,4 +1,4 @@
-# ConceptMapR5UsageContextElementsForR4UsageContext - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5UsageContextElementsForR4UsageContext - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5UsageContextElementsForR4UsageContext 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.3429198-06:00",
+  "date" : "2026-02-17T14:42:27.6535226-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/UsageContext#UsageContext",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `UsageContext` is representable via FHIR R4 extensions.\nElement `UsageContext` is mapped to FHIR R4 element `UsageContext`."
+              "comment" : "FHIR R5 ComplexType `UsageContext` is representable via FHIR R4 extensions.\nElement `UsageContext` has is mapped to FHIR R4 element `UsageContext`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/UsageContext#UsageContext.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `UsageContext.code` is mapped to FHIR R4 element `UsageContext.code`."
+              "comment" : "Element `UsageContext.code` has is mapped to FHIR R4 element `UsageContext.code`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/UsageContext#UsageContext.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `UsageContext.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `UsageContext`.\nElement `UsageContext.value[x]` is mapped to FHIR R4 element `UsageContext.value[x]`.\nNote that the target element context `UsageContext.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `UsageContext`."
+              "comment" : "Note that the target element context `UsageContext.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `UsageContext`.\nElement `UsageContext.value[x]` has is mapped to FHIR R4 element `UsageContext.value[x]`, but has no comparisons.\nNote that the target element context `UsageContext.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `UsageContext`."
             }
           ]
         }

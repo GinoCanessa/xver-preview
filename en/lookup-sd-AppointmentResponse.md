@@ -1,4 +1,4 @@
-# Lookup for ProfileAppointmentResponse - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileAppointmentResponse - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileAppointmentResponse
 
@@ -20,14 +20,14 @@ A computable version of the following element information is available in: [Conc
 | [`AppointmentResponse.contained`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.contained](https://hl7.org/fhir/R4/AppointmentResponse.html#resource) |
 | [`AppointmentResponse.identifier`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.identifier](https://hl7.org/fhir/R4/AppointmentResponse.html#resource) |
 | [`AppointmentResponse.appointment`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.appointment](https://hl7.org/fhir/R4/AppointmentResponse.html#resource) |
-| [`AppointmentResponse.proposedNewTime`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse](https://hl7.org/fhir/R4/AppointmentResponse.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.proposedNewTime](StructureDefinition-ext-R5-AppointmentResponse.proposedNewTime.md) |
+| [`AppointmentResponse.proposedNewTime`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [Extension: ExtensionAppointmentResponse_ProposedNewTime](StructureDefinition-ext-R5-AppointmentResponse.proposedNewTime.md) |
 | [`AppointmentResponse.start`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.start](https://hl7.org/fhir/R4/AppointmentResponse.html#resource) |
 | [`AppointmentResponse.end`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.end](https://hl7.org/fhir/R4/AppointmentResponse.html#resource) |
 | [`AppointmentResponse.participantType`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.participantType](https://hl7.org/fhir/R4/AppointmentResponse.html#resource) |
-| [`AppointmentResponse.actor`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.actor](https://hl7.org/fhir/R4/AppointmentResponse.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.actor](StructureDefinition-ext-R5-AppointmentResponse.actor.md) |
-| [`AppointmentResponse.participantStatus`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.participantStatus](https://hl7.org/fhir/R4/AppointmentResponse.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.participantStatus](StructureDefinition-ext-R5-AppointmentResponse.participantStatus.md) |
+| [`AppointmentResponse.actor`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.actor](https://hl7.org/fhir/R4/AppointmentResponse.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`AppointmentResponse.participantStatus`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.participantStatus](https://hl7.org/fhir/R4/AppointmentResponse.html#resource)[Extension: ExtensionAppointmentResponse_ParticipantStatus](StructureDefinition-ext-R5-AppointmentResponse.participantStatus.md) |
 | [`AppointmentResponse.comment`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse.comment](https://hl7.org/fhir/R4/AppointmentResponse.html#resource) |
-| [`AppointmentResponse.recurring`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse](https://hl7.org/fhir/R4/AppointmentResponse.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurring](StructureDefinition-ext-R5-AppointmentResponse.recurring.md) |
-| [`AppointmentResponse.occurrenceDate`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse](https://hl7.org/fhir/R4/AppointmentResponse.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.occurrenceDate](StructureDefinition-ext-R5-AppointmentResponse.occurrenceDate.md) |
-| [`AppointmentResponse.recurrenceId`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [AppointmentResponse](https://hl7.org/fhir/R4/AppointmentResponse.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-AppointmentResponse.recurrenceId](StructureDefinition-ext-R5-AppointmentResponse.recurrenceId.md) |
+| [`AppointmentResponse.recurring`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [Extension: ExtensionAppointmentResponse_Recurring](StructureDefinition-ext-R5-AppointmentResponse.recurring.md) |
+| [`AppointmentResponse.occurrenceDate`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [Extension: ExtensionAppointmentResponse_OccurrenceDate](StructureDefinition-ext-R5-AppointmentResponse.occurrenceDate.md) |
+| [`AppointmentResponse.recurrenceId`](https://hl7.org/fhir/R5/AppointmentResponse.html#resource) | [Extension: ExtensionAppointmentResponse_RecurrenceId](StructureDefinition-ext-R5-AppointmentResponse.recurrenceId.md) |
 

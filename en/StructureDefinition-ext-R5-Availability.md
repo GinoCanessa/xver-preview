@@ -1,4 +1,4 @@
-# ExtensionAvailability - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAvailability - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Availability` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Availabili
   "title" : "Cross-version Extension `R5.Availability` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -239,7 +239,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Availabili
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "daysOfWeek"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.daysOfWeek"
       },
       {
         "id" : "Extension.extension:availableTime.extension:daysOfWeek.value[x]",
@@ -289,7 +289,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Availabili
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "allDay"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.allDay"
       },
       {
         "id" : "Extension.extension:availableTime.extension:allDay.value[x]",
@@ -335,7 +335,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Availabili
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "availableStartTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableStartTime"
       },
       {
         "id" : "Extension.extension:availableTime.extension:availableStartTime.value[x]",
@@ -382,7 +382,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Availabili
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "availableEndTime"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.availableTime.availableEndTime"
       },
       {
         "id" : "Extension.extension:availableTime.extension:availableEndTime.value[x]",
@@ -488,7 +488,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Availabili
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.description"
       },
       {
         "id" : "Extension.extension:notAvailableTime.extension:description.value[x]",
@@ -534,7 +534,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Availabili
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "during"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Availability.notAvailableTime.during"
       },
       {
         "id" : "Extension.extension:notAvailableTime.extension:during.value[x]",

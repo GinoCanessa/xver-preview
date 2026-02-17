@@ -1,4 +1,4 @@
-# ProfileBiologicallyDerivedProductDispense - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileBiologicallyDerivedProductDispense - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileBiologicallyDerivedProductDispense 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Biologica
   "title" : "Cross-version Profile for R5.BiologicallyDerivedProductDispense for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:42.9918487-06:00",
+  "date" : "2026-02-17T14:42:26.7394604-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

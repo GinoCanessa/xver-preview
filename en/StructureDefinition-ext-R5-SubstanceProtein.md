@@ -1,4 +1,4 @@
-# ExtensionSubstanceProtein - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSubstanceProtein - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SubstanceProtein` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
   "title" : "Cross-version Extension `R5.SubstanceProtein` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sequenceType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.sequenceType"
       },
       {
         "id" : "Extension.extension:sequenceType.value[x]",
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "numberOfSubunits"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.numberOfSubunits"
       },
       {
         "id" : "Extension.extension:numberOfSubunits.value[x]",
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "disulfideLinkage"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.disulfideLinkage"
       },
       {
         "id" : "Extension.extension:disulfideLinkage.value[x]",
@@ -374,7 +374,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "subunit"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.subunit"
       },
       {
         "id" : "Extension.extension:subunit.extension:subunit.value[x]",
@@ -419,7 +419,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sequence"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.sequence"
       },
       {
         "id" : "Extension.extension:subunit.extension:sequence.value[x]",
@@ -464,7 +464,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "length"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.length"
       },
       {
         "id" : "Extension.extension:subunit.extension:length.value[x]",
@@ -509,7 +509,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sequenceAttachment"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.sequenceAttachment"
       },
       {
         "id" : "Extension.extension:subunit.extension:sequenceAttachment.value[x]",
@@ -554,7 +554,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "nTerminalModificationId"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.nTerminalModificationId"
       },
       {
         "id" : "Extension.extension:subunit.extension:nTerminalModificationId.value[x]",
@@ -599,7 +599,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "nTerminalModification"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.nTerminalModification"
       },
       {
         "id" : "Extension.extension:subunit.extension:nTerminalModification.value[x]",
@@ -644,7 +644,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "cTerminalModificationId"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.cTerminalModificationId"
       },
       {
         "id" : "Extension.extension:subunit.extension:cTerminalModificationId.value[x]",
@@ -689,7 +689,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "cTerminalModification"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceProtein.subunit.cTerminalModification"
       },
       {
         "id" : "Extension.extension:subunit.extension:cTerminalModification.value[x]",

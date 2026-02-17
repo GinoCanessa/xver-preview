@@ -1,4 +1,4 @@
-# ExtensionSubstanceDefinition_Property - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSubstanceDefinition_Property - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SubstanceDefinition.property` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
   "title" : "Cross-version Extension `R5.SubstanceDefinition.property` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.property` 0..* `BackboneElement`\n*  R4B: `SubstanceDefinition.property` 0..* `BackboneElement`\n*  R4: `SubstanceSpecification.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.property` is mapped to FHIR R4 element `SubstanceSpecification.property`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SubstanceDefinition.property` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SubstanceDefinition.property` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SubstanceDefinition.property` 0..* `BackboneElement`\n*  R4B: `SubstanceDefinition.property` 0..* `BackboneElement`\n*  R4: `SubstanceSpecification.property` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SubstanceDefinition.property` has is mapped to FHIR R4 element `SubstanceSpecification.property`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "type",
         "short" : "A code expressing the type of property",
         "definition" : "A code expressing the type of property.",
-        "requirements" : "Element `SubstanceDefinition.property.type` is will have a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.property.type` is part of an existing definition because parent element `SubstanceDefinition.property` requires a cross-version extension.\nElement `SubstanceDefinition.property.type` has a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.property.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
         "sliceName" : "value",
         "short" : "A value for the property",
         "definition" : "A value for the property.",
-        "requirements" : "Element `SubstanceDefinition.property.value[x]` is will have a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
+        "requirements" : "Element `SubstanceDefinition.property.value[x]` is part of an existing definition because parent element `SubstanceDefinition.property` requires a cross-version extension.\nElement `SubstanceDefinition.property.value[x]` has a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceD
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceDefinition.property.value"
       },
       {
         "id" : "Extension.extension:value.value[x]",

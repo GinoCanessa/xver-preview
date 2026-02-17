@@ -121,7 +121,7 @@
   fhir:title [ fhir:v "Cross-version Profile for R5.ServiceRequest for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-09T22:05:43.3223014-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-17T14:42:26.8982766-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -582,7 +582,7 @@
        fhir:sliceName [ fhir:v "focus" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.focus from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Resource in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.focus` is will have a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.focus` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -627,7 +627,7 @@
        fhir:sliceName [ fhir:v "bodyStructure" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.bodyStructure from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/BodyStructure in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.bodyStructure` is will have a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.bodyStructure` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1452,7 +1452,7 @@
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.code from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "A code or reference that identifies a particular service (i.e., procedure, diagnostic investigation, or panel of investigations) that have been requested." ] ;
-       fhir:comment [ fhir:v "Element `ServiceRequest.code` is mapped to FHIR R4 element `ServiceRequest.code`." ] ;
+       fhir:comment [ fhir:v "Element `ServiceRequest.code` has is mapped to FHIR R4 element `ServiceRequest.code`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1743,7 +1743,7 @@
        fhir:sliceName [ fhir:v "orderDetail" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.orderDetail from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "Additional details and instructions about the how the services are to be delivered.   For example, and order for a urinary catheter may have an order detail for an external or indwelling catheter, or an order for a bandage may require additional instructions specifying how the bandage should be applied." ] ;
-       fhir:comment [ fhir:v "Element `ServiceRequest.orderDetail` is mapped to FHIR R4 element `ServiceRequest.orderDetail`." ] ;
+       fhir:comment [ fhir:v "Element `ServiceRequest.orderDetail` has is mapped to FHIR R4 element `ServiceRequest.orderDetail`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2820,7 +2820,7 @@
        fhir:sliceName [ fhir:v "supportingInfo" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.supportingInfo from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "Additional clinical information about the patient or specimen that may influence the services or their interpretations.     This information includes diagnosis, clinical findings and other observations.  In laboratory ordering these are typically referred to as \"ask at order entry questions (AOEs)\".  This includes observations explicitly requested by the producer (filler) to provide context or supporting information needed to complete the order. For example,  reporting the amount of inspired oxygen for blood gas measurements." ] ;
-       fhir:comment [ fhir:v "Element `ServiceRequest.supportingInfo` is mapped to FHIR R4 element `ServiceRequest.supportingInfo`." ] ;
+       fhir:comment [ fhir:v "Element `ServiceRequest.supportingInfo` has is mapped to FHIR R4 element `ServiceRequest.supportingInfo`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3308,7 +3308,7 @@
        fhir:sliceName [ fhir:v "patientInstruction" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.patientInstruction from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "Instructions in terms that are understood by the patient or consumer." ] ;
-       fhir:comment [ fhir:v "Element `ServiceRequest.patientInstruction` is mapped to FHIR R4 element `ServiceRequest.patientInstruction`." ] ;
+       fhir:comment [ fhir:v "Element `ServiceRequest.patientInstruction` has is mapped to FHIR R4 element `ServiceRequest.patientInstruction`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3468,7 +3468,7 @@
        fhir:sliceName [ fhir:v "focus" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.focus from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Resource in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.focus` is will have a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.focus` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3492,7 +3492,7 @@
        fhir:sliceName [ fhir:v "bodyStructure" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.bodyStructure from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/BodyStructure in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.bodyStructure` is will have a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ServiceRequest.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ServiceRequest.bodyStructure` has a context of ServiceRequest based on following the parent source element upwards and mapping to `ServiceRequest`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3533,7 +3533,7 @@
        fhir:path [ fhir:v "ServiceRequest.code.extension" ] ;
        fhir:sliceName [ fhir:v "code" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.code from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `ServiceRequest.code` is mapped to FHIR R4 element `ServiceRequest.code`." ] ;
+       fhir:comment [ fhir:v "Element `ServiceRequest.code` has is mapped to FHIR R4 element `ServiceRequest.code`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3574,7 +3574,7 @@
        fhir:path [ fhir:v "ServiceRequest.orderDetail.extension" ] ;
        fhir:sliceName [ fhir:v "orderDetail" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.orderDetail from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `ServiceRequest.orderDetail` is mapped to FHIR R4 element `ServiceRequest.orderDetail`." ] ;
+       fhir:comment [ fhir:v "Element `ServiceRequest.orderDetail` has is mapped to FHIR R4 element `ServiceRequest.orderDetail`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3615,7 +3615,7 @@
        fhir:path [ fhir:v "ServiceRequest.supportingInfo.extension" ] ;
        fhir:sliceName [ fhir:v "supportingInfo" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.supportingInfo from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `ServiceRequest.supportingInfo` is mapped to FHIR R4 element `ServiceRequest.supportingInfo`." ] ;
+       fhir:comment [ fhir:v "Element `ServiceRequest.supportingInfo` has is mapped to FHIR R4 element `ServiceRequest.supportingInfo`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3656,7 +3656,7 @@
        fhir:path [ fhir:v "ServiceRequest.patientInstruction.extension" ] ;
        fhir:sliceName [ fhir:v "patientInstruction" ] ;
        fhir:short [ fhir:v "Cross-version extension for ServiceRequest.patientInstruction from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `ServiceRequest.patientInstruction` is mapped to FHIR R4 element `ServiceRequest.patientInstruction`." ] ;
+       fhir:comment [ fhir:v "Element `ServiceRequest.patientInstruction` has is mapped to FHIR R4 element `ServiceRequest.patientInstruction`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

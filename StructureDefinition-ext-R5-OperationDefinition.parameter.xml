@@ -104,7 +104,7 @@
   <title value="Cross-version Extension `R5.OperationDefinition.parameter` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-10T04:05:33.0136333+00:00"/>
+  <date value="2026-02-17T20:42:20.5370068+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -121,7 +121,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `OperationDefinition.parameter` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`OperationDefinition.parameter` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `OperationDefinition.parameter` 0..* `BackboneElement`&#xA;*  R4B: `OperationDefinition.parameter` 0..* `BackboneElement`&#xA;*  R4: `OperationDefinition.parameter` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `OperationDefinition.parameter` is mapped to FHIR R4 element `OperationDefinition.parameter`."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `OperationDefinition.parameter` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`OperationDefinition.parameter` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `OperationDefinition.parameter` 0..* `BackboneElement`&#xA;*  R4B: `OperationDefinition.parameter` 0..* `BackboneElement`&#xA;*  R4: `OperationDefinition.parameter` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `OperationDefinition.parameter` has is mapped to FHIR R4 element `OperationDefinition.parameter`, but has no comparisons.&#xA;Note available implied context: `OperationDefinition.parameter.part` because `OperationDefinition.parameter.part` is defined as a content reference to `OperationDefinition.parameter`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -132,7 +132,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Extension.extension"/>
+    <expression value="OperationDefinition.parameter"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -245,7 +245,7 @@
       <short value="Name in Parameters.parameter.name or in URL"/>
       <definition value="The name of used to identify the parameter."/>
       <comment value="This name must be a token (start with a letter in a..z, and only contain letters, numerals, and underscore. Note that for search parameters (type = string, with a search type), the name may be altered by the search modifiers."/>
-      <requirements value="Element `OperationDefinition.parameter.name` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.name` is mapped to FHIR R4 element `OperationDefinition.parameter.name`."/>
+      <requirements value="Element `OperationDefinition.parameter.name` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.name` has is mapped to FHIR R4 element `OperationDefinition.parameter.name`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -411,7 +411,7 @@
       <short value="in | out"/>
       <definition value="Whether this is an input or an output parameter."/>
       <comment value="If a parameter name is used for both an input and an output parameter, the parameter should be defined twice."/>
-      <requirements value="Element `OperationDefinition.parameter.use` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.use` is mapped to FHIR R4 element `OperationDefinition.parameter.use`."/>
+      <requirements value="Element `OperationDefinition.parameter.use` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.use` has is mapped to FHIR R4 element `OperationDefinition.parameter.use`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -581,7 +581,7 @@
       <sliceName value="scope"/>
       <short value="instance | type | system"/>
       <definition value="If present, indicates that the parameter applies when the operation is being invoked at the specified level."/>
-      <requirements value="Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.scope` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`."/>
+      <requirements value="Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.scope` has a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -745,7 +745,7 @@
       <sliceName value="min"/>
       <short value="Minimum Cardinality"/>
       <definition value="The minimum number of times this parameter SHALL appear in the request or response."/>
-      <requirements value="Element `OperationDefinition.parameter.min` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.min` is mapped to FHIR R4 element `OperationDefinition.parameter.min`."/>
+      <requirements value="Element `OperationDefinition.parameter.min` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.min` has is mapped to FHIR R4 element `OperationDefinition.parameter.min`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -909,7 +909,7 @@
       <sliceName value="max"/>
       <short value="Maximum Cardinality (a number or *)"/>
       <definition value="The maximum number of times this element is permitted to appear in the request or response."/>
-      <requirements value="Element `OperationDefinition.parameter.max` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.max` is mapped to FHIR R4 element `OperationDefinition.parameter.max`."/>
+      <requirements value="Element `OperationDefinition.parameter.max` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.max` has is mapped to FHIR R4 element `OperationDefinition.parameter.max`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1073,7 +1073,7 @@
       <sliceName value="documentation"/>
       <short value="Description of meaning/use"/>
       <definition value="Describes the meaning or use of this parameter."/>
-      <requirements value="Element `OperationDefinition.parameter.documentation` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.documentation` is mapped to FHIR R4 element `OperationDefinition.parameter.documentation`."/>
+      <requirements value="Element `OperationDefinition.parameter.documentation` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.documentation` has is mapped to FHIR R4 element `OperationDefinition.parameter.documentation`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1238,7 +1238,7 @@
       <short value="What type this parameter has"/>
       <definition value="The type for this parameter."/>
       <comment value="if there is no stated parameter, then the parameter is a multi-part parameter type and must have at least one part defined."/>
-      <requirements value="Element `OperationDefinition.parameter.type` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.type` is mapped to FHIR R4 element `OperationDefinition.parameter.type`."/>
+      <requirements value="Element `OperationDefinition.parameter.type` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.type` has is mapped to FHIR R4 element `OperationDefinition.parameter.type`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1404,7 +1404,7 @@
       <short value="Allowed sub-type this parameter can have (if type is abstract)"/>
       <definition value="Support for polymorphic types. If the parameter type is abstract, this element lists allowed sub-types for the parameter."/>
       <comment value="In previous versions of FHIR, there was an extension for this: http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"/>
-      <requirements value="Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.allowedType` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`."/>
+      <requirements value="Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.allowedType` has a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1570,7 +1570,7 @@
       <short value="If type is Reference | canonical, allowed targets. If type is 'Resource', then this constrains the allowed resource types"/>
       <definition value="Used when the type is &quot;Reference&quot; or &quot;canonical&quot;, and identifies a profile structure or implementation Guide that applies to the target of the reference this parameter refers to. If any profiles are specified, then the content must conform to at least one of them. The URL can be a local reference - to a contained StructureDefinition, or a reference to another StructureDefinition or Implementation Guide by a canonical URL. When an implementation guide is specified, the target resource SHALL conform to at least one profile defined in the implementation guide."/>
       <comment value="Often, these profiles are the base definitions from the spec (e.g. http://hl7.org/fhir/StructureDefinition/Patient)."/>
-      <requirements value="Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.targetProfile` is mapped to FHIR R4 element `OperationDefinition.parameter.targetProfile`."/>
+      <requirements value="Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.targetProfile` has is mapped to FHIR R4 element `OperationDefinition.parameter.targetProfile`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1738,7 +1738,7 @@
       <short value="number | date | string | token | reference | composite | quantity | uri | special"/>
       <definition value="How the parameter is understood if/when it used as search parameter. This is only used if the parameter is a string."/>
       <comment value="Parameters that are search parameter usually - but not always - are also defined for use with general searches, and function in the operation to filter the set of resources in scope for the operation just like the do when searching. The searchType describes how the server processes the value. For an example, see the [Evaluate Measure Operation](https://hl7.org/fhir/measure-operation-evaluate-measure.html)"/>
-      <requirements value="Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.searchType` is mapped to FHIR R4 element `OperationDefinition.parameter.searchType`."/>
+      <requirements value="Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.searchType` has is mapped to FHIR R4 element `OperationDefinition.parameter.searchType`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1908,7 +1908,7 @@
       <sliceName value="binding"/>
       <short value="ValueSet details if this is coded"/>
       <definition value="Binds to a value set if this parameter is coded (code, Coding, CodeableConcept)."/>
-      <requirements value="Element `OperationDefinition.parameter.binding` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.binding` is mapped to FHIR R4 element `OperationDefinition.parameter.binding`."/>
+      <requirements value="Element `OperationDefinition.parameter.binding` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.binding` has is mapped to FHIR R4 element `OperationDefinition.parameter.binding`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2011,7 +2011,7 @@
       <short value="required | extensible | preferred | example"/>
       <definition value="Indicates the degree of conformance expectations associated with this binding - that is, the degree to which the provided value set must be adhered to in the instances."/>
       <comment value="For further discussion, see [Using Terminologies](https://hl7.org/fhir/terminologies.html)."/>
-      <requirements value="Element `OperationDefinition.parameter.binding.strength` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.strength`."/>
+      <requirements value="Element `OperationDefinition.parameter.binding.strength` is part of an existing definition because parent element `OperationDefinition.parameter.binding` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.binding.strength` has is mapped to FHIR R4 element `OperationDefinition.parameter.binding.strength`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2182,7 +2182,7 @@
       <short value="Source of value set"/>
       <definition value="Points to the value set or external definition (e.g. implicit value set) that identifies the set of codes to be used."/>
       <comment value="For value sets with a referenceResource, the display can contain the value set description.  The reference may be version-specific or not."/>
-      <requirements value="Element `OperationDefinition.parameter.binding.valueSet` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.valueSet`."/>
+      <requirements value="Element `OperationDefinition.parameter.binding.valueSet` is part of an existing definition because parent element `OperationDefinition.parameter.binding` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.binding.valueSet` has is mapped to FHIR R4 element `OperationDefinition.parameter.binding.valueSet`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2553,7 +2553,7 @@
       <short value="References to this parameter"/>
       <definition value="Identifies other resource parameters within the operation invocation that are expected to resolve to this resource."/>
       <comment value="Resolution applies if the referenced parameter exists."/>
-      <requirements value="Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.referencedFrom` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom`."/>
+      <requirements value="Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.referencedFrom` has is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2655,7 +2655,7 @@
       <sliceName value="source"/>
       <short value="Referencing parameter"/>
       <definition value="The name of the parameter or dot-separated path of parameter names pointing to the resource parameter that is expected to contain a reference to this resource."/>
-      <requirements value="Element `OperationDefinition.parameter.referencedFrom.source` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.source`."/>
+      <requirements value="Element `OperationDefinition.parameter.referencedFrom.source` is part of an existing definition because parent element `OperationDefinition.parameter.referencedFrom` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.referencedFrom.source` has is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.source`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2819,7 +2819,7 @@
       <sliceName value="sourceId"/>
       <short value="Element id of reference"/>
       <definition value="The id of the element in the referencing resource that is expected to resolve to this resource."/>
-      <requirements value="Element `OperationDefinition.parameter.referencedFrom.sourceId` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.sourceId`."/>
+      <requirements value="Element `OperationDefinition.parameter.referencedFrom.sourceId` is part of an existing definition because parent element `OperationDefinition.parameter.referencedFrom` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.referencedFrom.sourceId` has is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.sourceId`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3187,7 +3187,7 @@
       <short value="Parts of a nested Parameter"/>
       <definition value="The parts of a nested Parameter."/>
       <comment value="Query Definitions only have one output parameter, named &quot;result&quot;. This might not be described, but can be to allow a profile to be defined."/>
-      <requirements value="Element `OperationDefinition.parameter.part` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.part` is mapped to FHIR R4 element `OperationDefinition.parameter.part`."/>
+      <requirements value="Element `OperationDefinition.parameter.part` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.part` has is mapped to FHIR R4 element `OperationDefinition.parameter.part`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -3736,7 +3736,7 @@
       <short value="Name in Parameters.parameter.name or in URL"/>
       <definition value="The name of used to identify the parameter."/>
       <comment value="This name must be a token (start with a letter in a..z, and only contain letters, numerals, and underscore. Note that for search parameters (type = string, with a search type), the name may be altered by the search modifiers."/>
-      <requirements value="Element `OperationDefinition.parameter.name` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.name` is mapped to FHIR R4 element `OperationDefinition.parameter.name`."/>
+      <requirements value="Element `OperationDefinition.parameter.name` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.name` has is mapped to FHIR R4 element `OperationDefinition.parameter.name`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3778,7 +3778,7 @@
       <short value="in | out"/>
       <definition value="Whether this is an input or an output parameter."/>
       <comment value="If a parameter name is used for both an input and an output parameter, the parameter should be defined twice."/>
-      <requirements value="Element `OperationDefinition.parameter.use` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.use` is mapped to FHIR R4 element `OperationDefinition.parameter.use`."/>
+      <requirements value="Element `OperationDefinition.parameter.use` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.use` has is mapped to FHIR R4 element `OperationDefinition.parameter.use`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3824,7 +3824,7 @@
       <sliceName value="scope"/>
       <short value="instance | type | system"/>
       <definition value="If present, indicates that the parameter applies when the operation is being invoked at the specified level."/>
-      <requirements value="Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.scope` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`."/>
+      <requirements value="Element `OperationDefinition.parameter.scope` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.scope` has a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -3864,7 +3864,7 @@
       <sliceName value="min"/>
       <short value="Minimum Cardinality"/>
       <definition value="The minimum number of times this parameter SHALL appear in the request or response."/>
-      <requirements value="Element `OperationDefinition.parameter.min` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.min` is mapped to FHIR R4 element `OperationDefinition.parameter.min`."/>
+      <requirements value="Element `OperationDefinition.parameter.min` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.min` has is mapped to FHIR R4 element `OperationDefinition.parameter.min`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3904,7 +3904,7 @@
       <sliceName value="max"/>
       <short value="Maximum Cardinality (a number or *)"/>
       <definition value="The maximum number of times this element is permitted to appear in the request or response."/>
-      <requirements value="Element `OperationDefinition.parameter.max` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.max` is mapped to FHIR R4 element `OperationDefinition.parameter.max`."/>
+      <requirements value="Element `OperationDefinition.parameter.max` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.max` has is mapped to FHIR R4 element `OperationDefinition.parameter.max`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3944,7 +3944,7 @@
       <sliceName value="documentation"/>
       <short value="Description of meaning/use"/>
       <definition value="Describes the meaning or use of this parameter."/>
-      <requirements value="Element `OperationDefinition.parameter.documentation` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.documentation` is mapped to FHIR R4 element `OperationDefinition.parameter.documentation`."/>
+      <requirements value="Element `OperationDefinition.parameter.documentation` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.documentation` has is mapped to FHIR R4 element `OperationDefinition.parameter.documentation`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3985,7 +3985,7 @@
       <short value="What type this parameter has"/>
       <definition value="The type for this parameter."/>
       <comment value="if there is no stated parameter, then the parameter is a multi-part parameter type and must have at least one part defined."/>
-      <requirements value="Element `OperationDefinition.parameter.type` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.type` is mapped to FHIR R4 element `OperationDefinition.parameter.type`."/>
+      <requirements value="Element `OperationDefinition.parameter.type` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.type` has is mapped to FHIR R4 element `OperationDefinition.parameter.type`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4027,7 +4027,7 @@
       <short value="Allowed sub-type this parameter can have (if type is abstract)"/>
       <definition value="Support for polymorphic types. If the parameter type is abstract, this element lists allowed sub-types for the parameter."/>
       <comment value="In previous versions of FHIR, there was an extension for this: http://hl7.org/fhir/StructureDefinition/operationdefinition-allowed-type"/>
-      <requirements value="Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.allowedType` is will have a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`."/>
+      <requirements value="Element `OperationDefinition.parameter.allowedType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.allowedType` has a context of OperationDefinition.parameter based on following the parent source element upwards and mapping to `OperationDefinition`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -4069,7 +4069,7 @@
       <short value="If type is Reference | canonical, allowed targets. If type is 'Resource', then this constrains the allowed resource types"/>
       <definition value="Used when the type is &quot;Reference&quot; or &quot;canonical&quot;, and identifies a profile structure or implementation Guide that applies to the target of the reference this parameter refers to. If any profiles are specified, then the content must conform to at least one of them. The URL can be a local reference - to a contained StructureDefinition, or a reference to another StructureDefinition or Implementation Guide by a canonical URL. When an implementation guide is specified, the target resource SHALL conform to at least one profile defined in the implementation guide."/>
       <comment value="Often, these profiles are the base definitions from the spec (e.g. http://hl7.org/fhir/StructureDefinition/Patient)."/>
-      <requirements value="Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.targetProfile` is mapped to FHIR R4 element `OperationDefinition.parameter.targetProfile`."/>
+      <requirements value="Element `OperationDefinition.parameter.targetProfile` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.targetProfile` has is mapped to FHIR R4 element `OperationDefinition.parameter.targetProfile`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -4113,7 +4113,7 @@
       <short value="number | date | string | token | reference | composite | quantity | uri | special"/>
       <definition value="How the parameter is understood if/when it used as search parameter. This is only used if the parameter is a string."/>
       <comment value="Parameters that are search parameter usually - but not always - are also defined for use with general searches, and function in the operation to filter the set of resources in scope for the operation just like the do when searching. The searchType describes how the server processes the value. For an example, see the [Evaluate Measure Operation](https://hl7.org/fhir/measure-operation-evaluate-measure.html)"/>
-      <requirements value="Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.searchType` is mapped to FHIR R4 element `OperationDefinition.parameter.searchType`."/>
+      <requirements value="Element `OperationDefinition.parameter.searchType` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.searchType` has is mapped to FHIR R4 element `OperationDefinition.parameter.searchType`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4159,7 +4159,7 @@
       <sliceName value="binding"/>
       <short value="ValueSet details if this is coded"/>
       <definition value="Binds to a value set if this parameter is coded (code, Coding, CodeableConcept)."/>
-      <requirements value="Element `OperationDefinition.parameter.binding` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.binding` is mapped to FHIR R4 element `OperationDefinition.parameter.binding`."/>
+      <requirements value="Element `OperationDefinition.parameter.binding` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.binding` has is mapped to FHIR R4 element `OperationDefinition.parameter.binding`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4192,7 +4192,7 @@
       <short value="required | extensible | preferred | example"/>
       <definition value="Indicates the degree of conformance expectations associated with this binding - that is, the degree to which the provided value set must be adhered to in the instances."/>
       <comment value="For further discussion, see [Using Terminologies](https://hl7.org/fhir/terminologies.html)."/>
-      <requirements value="Element `OperationDefinition.parameter.binding.strength` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.strength`."/>
+      <requirements value="Element `OperationDefinition.parameter.binding.strength` is part of an existing definition because parent element `OperationDefinition.parameter.binding` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.binding.strength` has is mapped to FHIR R4 element `OperationDefinition.parameter.binding.strength`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -4239,7 +4239,7 @@
       <short value="Source of value set"/>
       <definition value="Points to the value set or external definition (e.g. implicit value set) that identifies the set of codes to be used."/>
       <comment value="For value sets with a referenceResource, the display can contain the value set description.  The reference may be version-specific or not."/>
-      <requirements value="Element `OperationDefinition.parameter.binding.valueSet` is mapped to FHIR R4 element `OperationDefinition.parameter.binding.valueSet`."/>
+      <requirements value="Element `OperationDefinition.parameter.binding.valueSet` is part of an existing definition because parent element `OperationDefinition.parameter.binding` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.binding.valueSet` has is mapped to FHIR R4 element `OperationDefinition.parameter.binding.valueSet`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -4304,7 +4304,7 @@
       <short value="References to this parameter"/>
       <definition value="Identifies other resource parameters within the operation invocation that are expected to resolve to this resource."/>
       <comment value="Resolution applies if the referenced parameter exists."/>
-      <requirements value="Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.referencedFrom` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom`."/>
+      <requirements value="Element `OperationDefinition.parameter.referencedFrom` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.referencedFrom` has is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -4336,7 +4336,7 @@
       <sliceName value="source"/>
       <short value="Referencing parameter"/>
       <definition value="The name of the parameter or dot-separated path of parameter names pointing to the resource parameter that is expected to contain a reference to this resource."/>
-      <requirements value="Element `OperationDefinition.parameter.referencedFrom.source` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.source`."/>
+      <requirements value="Element `OperationDefinition.parameter.referencedFrom.source` is part of an existing definition because parent element `OperationDefinition.parameter.referencedFrom` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.referencedFrom.source` has is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.source`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -4376,7 +4376,7 @@
       <sliceName value="sourceId"/>
       <short value="Element id of reference"/>
       <definition value="The id of the element in the referencing resource that is expected to resolve to this resource."/>
-      <requirements value="Element `OperationDefinition.parameter.referencedFrom.sourceId` is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.sourceId`."/>
+      <requirements value="Element `OperationDefinition.parameter.referencedFrom.sourceId` is part of an existing definition because parent element `OperationDefinition.parameter.referencedFrom` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.referencedFrom.sourceId` has is mapped to FHIR R4 element `OperationDefinition.parameter.referencedFrom.sourceId`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -4438,7 +4438,7 @@
       <short value="Parts of a nested Parameter"/>
       <definition value="The parts of a nested Parameter."/>
       <comment value="Query Definitions only have one output parameter, named &quot;result&quot;. This might not be described, but can be to allow a profile to be defined."/>
-      <requirements value="Element `OperationDefinition.parameter.part` is part of an existing definition because parent element `OperationDefinition.parameter` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `OperationDefinition.parameter.part` is mapped to FHIR R4 element `OperationDefinition.parameter.part`."/>
+      <requirements value="Element `OperationDefinition.parameter.part` is part of an existing definition because parent element `OperationDefinition.parameter` requires a cross-version extension.&#xA;Element `OperationDefinition.parameter.part` has is mapped to FHIR R4 element `OperationDefinition.parameter.part`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>

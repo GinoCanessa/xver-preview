@@ -1,4 +1,4 @@
-# ConceptMapR5AdministrableProductDefinitionElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5AdministrableProductDefinitionElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5AdministrableProductDefinitionElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.445987-06:00",
+  "date" : "2026-02-17T14:42:26.9674291-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "formOf",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdministrableProductDefinition:formOf",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdministrableProductDefinition.formOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdministrableProductDefinition.formOf` is not mapped to FHIR R4, since FHIR R5 `AdministrableProductDefinition` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "producedFrom",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdministrableProductDefinition:producedFrom",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdministrableProductDefinition.producedFrom` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdministrableProductDefinition.producedFrom` is not mapped to FHIR R4, since FHIR R5 `AdministrableProductDefinition` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "device",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdministrableProductDefinition:device",
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdministrableProductDefinition.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdministrableProductDefinition.device` is not mapped to FHIR R4, since FHIR R5 `AdministrableProductDefinition` is not mapped."
             }
@@ -271,6 +271,16 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "target" : [
             {
               "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdministrableProductDefinition:property:value",
+              "equivalence" : "relatedto",
+              "comment" : "Element `AdministrableProductDefinition.property.value[x]` is part of an existing definition because parent element `AdministrableProductDefinition.property` requires a cross-version extension.\nElement `AdministrableProductDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `AdministrableProductDefinition` is not mapped."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-canonical",
+              "equivalence" : "relatedto",
+              "comment" : "Element `AdministrableProductDefinition.property.value[x]` is part of an existing definition because parent element `AdministrableProductDefinition.property` requires a cross-version extension.\nElement `AdministrableProductDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `AdministrableProductDefinition` is not mapped."
+            },
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/alternate-reference",
               "equivalence" : "relatedto",
               "comment" : "Element `AdministrableProductDefinition.property.value[x]` is part of an existing definition because parent element `AdministrableProductDefinition.property` requires a cross-version extension.\nElement `AdministrableProductDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `AdministrableProductDefinition` is not mapped."
             }

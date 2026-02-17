@@ -1,4 +1,4 @@
-# ConceptMapR5ParametersElementsForR4Parameters - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ParametersElementsForR4Parameters - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ParametersElementsForR4Parameters 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.110744-06:00",
+  "date" : "2026-02-17T14:42:27.4514399-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Parameters#Parameters",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Parameters` is representable via FHIR R4 Resource `Parameters`.\nElement `Parameters` is mapped to FHIR R4 element `Parameters`."
+              "comment" : "FHIR R5 Resource `Parameters` is representable via FHIR R4 Resource `Parameters`.\nElement `Parameters` has is mapped to FHIR R4 element `Parameters`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Parameters#Parameters.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Parameters.meta` is mapped to FHIR R4 element `Parameters.meta`."
+              "comment" : "Element `Parameters.meta` has is mapped to FHIR R4 element `Parameters.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Parameters#Parameters.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Parameters.implicitRules` is mapped to FHIR R4 element `Parameters.implicitRules`."
+              "comment" : "Element `Parameters.implicitRules` has is mapped to FHIR R4 element `Parameters.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Parameters#Parameters.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Parameters.language` is mapped to FHIR R4 element `Parameters.language`."
+              "comment" : "Element `Parameters.language` has is mapped to FHIR R4 element `Parameters.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Parameters#Parameters.parameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `Parameters.parameter` is mapped to FHIR R4 element `Parameters.parameter`."
+              "comment" : "Element `Parameters.parameter` has is mapped to FHIR R4 element `Parameters.parameter`, but has no comparisons.\nNote available implied context: `Parameters.parameter.part` because `Parameters.parameter.part` is defined as a content reference to `Parameters.parameter`."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Parameters#Parameters.parameter.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Parameters.parameter.name` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `Parameters.parameter.name` is mapped to FHIR R4 element `Parameters.parameter.name`."
+              "comment" : "Element `Parameters.parameter.name` is part of an existing definition because parent element `Parameters.parameter` requires a cross-version extension.\nElement `Parameters.parameter.name` has is mapped to FHIR R4 element `Parameters.parameter.name`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Parameters#Parameters.parameter.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Element `Parameters.parameter.value[x]` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.\nElement `Parameters.parameter.value[x]` is mapped to FHIR R4 element `Parameters.parameter.value[x]`.\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`."
+              "comment" : "Element `Parameters.parameter.value[x]` is part of an existing definition because parent element `Parameters.parameter` requires a cross-version extension.\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`.\nElement `Parameters.parameter.value[x]` has is mapped to FHIR R4 element `Parameters.parameter.value[x]`, but has no comparisons.\nNote that the target element context `Parameters.parameter.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Parameters.parameter`."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Parameters#Parameters.parameter.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `Parameters.parameter.resource` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `Parameters.parameter.resource` is mapped to FHIR R4 element `Parameters.parameter.resource`."
+              "comment" : "Element `Parameters.parameter.resource` is part of an existing definition because parent element `Parameters.parameter` requires a cross-version extension.\nElement `Parameters.parameter.resource` has is mapped to FHIR R4 element `Parameters.parameter.resource`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Parameters#Parameters.parameter.part",
               "equivalence" : "relatedto",
-              "comment" : "Element `Parameters.parameter.part` is part of an existing definition because parent element `Parameters.parameter` requires a component extension (e.g., if this element is used as a content reference).\nElement `Parameters.parameter.part` is mapped to FHIR R4 element `Parameters.parameter.part`."
+              "comment" : "Element `Parameters.parameter.part` is part of an existing definition because parent element `Parameters.parameter` requires a cross-version extension.\nElement `Parameters.parameter.part` has is mapped to FHIR R4 element `Parameters.parameter.part`, but has no comparisons."
             }
           ]
         }

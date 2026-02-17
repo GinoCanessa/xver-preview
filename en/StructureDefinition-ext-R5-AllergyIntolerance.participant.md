@@ -1,4 +1,4 @@
-# ExtensionAllergyIntolerance_Participant - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAllergyIntolerance_Participant - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.AllergyIntolerance.participant` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AllergyInt
   "title" : "Cross-version Extension `R5.AllergyIntolerance.participant` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AllergyInt
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AllergyIntolerance.participant` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AllergyIntolerance.participant` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AllergyIntolerance.participant` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AllergyIntolerance.participant` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `AllergyIntolerance.participant` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`AllergyIntolerance.participant` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `AllergyIntolerance.participant` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `AllergyIntolerance.participant` has a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AllergyInt
         "sliceName" : "function",
         "short" : "Type of involvement",
         "definition" : "Distinguishes the type of involvement of the actor in the activities related to the allergy or intolerance.",
-        "requirements" : "Element `AllergyIntolerance.participant.function` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nElement `AllergyIntolerance.participant.function` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.",
+        "requirements" : "Element `AllergyIntolerance.participant.function` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nElement `AllergyIntolerance.participant.function` has a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AllergyInt
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "function"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.participant.function"
       },
       {
         "id" : "Extension.extension:function.value[x]",
@@ -233,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AllergyInt
         "sliceName" : "actor",
         "short" : "Who or what participated in the activities related to the allergy or intolerance",
         "definition" : "Indicates who or what participated in the activities related to the allergy or intolerance.",
-        "requirements" : "Element `AllergyIntolerance.participant.actor` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AllergyIntolerance.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AllergyIntolerance.participant.actor` is will have a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.",
+        "requirements" : "Element `AllergyIntolerance.participant.actor` is part of an existing definition because parent element `AllergyIntolerance.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AllergyIntolerance.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AllergyIntolerance.participant.actor` has a context of AllergyIntolerance based on following the parent source element upwards and mapping to `AllergyIntolerance`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-AllergyInt
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-AllergyIntolerance.participant.actor"
       },
       {
         "id" : "Extension.extension:actor.value[x]",

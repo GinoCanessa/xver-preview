@@ -1,4 +1,4 @@
-# ExtensionDuration_Comparator - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionDuration_Comparator - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Duration.comparator` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Duration.c
   "title" : "Cross-version Extension `R5.Duration.comparator` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Duration.c
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Duration.comparator` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Duration.comparator` 0..1 `code`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Duration.comparator` 0..1 `code`\n*  R4B: `Duration.comparator` 0..1 `code`\n*  R4: `Duration.comparator` 0..1 `code`\r\n\r\nFollowing are the generation technical comments:\r\nNote that the target element context `Duration.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Duration.comparator` is mapped to FHIR R4 element `Duration.comparator`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Duration.comparator` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Duration.comparator` 0..1 `code`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Duration.comparator` 0..1 `code`\n*  R4B: `Duration.comparator` 0..1 `code`\n*  R4: `Duration.comparator` 0..1 `code`\r\n\r\nFollowing are the generation technical comments:\r\nNote that the target element context `Duration.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Duration.comparator` has is mapped to FHIR R4 element `Duration.comparator`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

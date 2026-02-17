@@ -1,4 +1,4 @@
-# ExtensionEvidence_VariableDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionEvidence_VariableDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Evidence.variableDefinition` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
   "title" : "Cross-version Extension `R5.Evidence.variableDefinition` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.variableDefinition` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.variableDefinition` 1..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.variableDefinition` 1..* `BackboneElement`\n*  R4B: `Evidence.variableDefinition` 1..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.variableDefinition` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Evidence.variableDefinition` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Evidence.variableDefinition` 1..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Evidence.variableDefinition` 1..* `BackboneElement`\n*  R4B: `Evidence.variableDefinition` 1..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Evidence.variableDefinition` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
         "sliceName" : "description",
         "short" : "A text description or summary of the variable",
         "definition" : "A text description or summary of the variable.",
-        "requirements" : "Element `Evidence.variableDefinition.description` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.description` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.variableDefinition.description` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.description"
       },
       {
         "id" : "Extension.extension:description.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
         "sliceName" : "note",
         "short" : "Footnotes and/or explanatory notes",
         "definition" : "Footnotes and/or explanatory notes.",
-        "requirements" : "Element `Evidence.variableDefinition.note` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.note` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.variableDefinition.note` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.note"
       },
       {
         "id" : "Extension.extension:note.value[x]",
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
         "sliceName" : "variableRole",
         "short" : "population | subpopulation | exposure | referenceExposure | measuredVariable | confounder",
         "definition" : "population | subpopulation | exposure | referenceExposure | measuredVariable | confounder.",
-        "requirements" : "Element `Evidence.variableDefinition.variableRole` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.variableRole` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.variableDefinition.variableRole` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.variableRole` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "variableRole"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.variableRole"
       },
       {
         "id" : "Extension.extension:variableRole.value[x]",
@@ -324,7 +324,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
         "sliceName" : "observed",
         "short" : "Definition of the actual variable related to the statistic(s)",
         "definition" : "Definition of the actual variable related to the statistic(s).",
-        "requirements" : "Element `Evidence.variableDefinition.observed` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.observed` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.variableDefinition.observed` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.variableDefinition.observed` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.observed` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.variableDefinition.observed` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -343,7 +343,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "observed"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.observed"
       },
       {
         "id" : "Extension.extension:observed.value[x]",
@@ -375,7 +375,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
         "sliceName" : "intended",
         "short" : "Definition of the intended variable related to the Evidence",
         "definition" : "Definition of the intended variable related to the Evidence.",
-        "requirements" : "Element `Evidence.variableDefinition.intended` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.intended` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.variableDefinition.intended` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.variableDefinition.intended` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.intended` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.variableDefinition.intended` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -394,7 +394,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "intended"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.intended"
       },
       {
         "id" : "Extension.extension:intended.value[x]",
@@ -426,7 +426,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
         "sliceName" : "directnessMatch",
         "short" : "low | moderate | high | exact",
         "definition" : "Indication of quality of match between intended variable to actual variable.",
-        "requirements" : "Element `Evidence.variableDefinition.directnessMatch` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.directnessMatch` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "requirements" : "Element `Evidence.variableDefinition.directnessMatch` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.directnessMatch` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -445,7 +445,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Evidence.v
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "directnessMatch"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.directnessMatch"
       },
       {
         "id" : "Extension.extension:directnessMatch.value[x]",

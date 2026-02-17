@@ -1,4 +1,4 @@
-# ExtensionResearchSubject_Progress - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionResearchSubject_Progress - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ResearchSubject.progress` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
   "title" : "Cross-version Extension `R5.ResearchSubject.progress` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ResearchSubject.progress` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ResearchSubject.progress` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ResearchSubject.progress` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ResearchSubject.progress` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ResearchSubject.progress` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ResearchSubject.progress` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ResearchSubject.progress` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `ResearchSubject.progress` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
         "sliceName" : "type",
         "short" : "state | milestone",
         "definition" : "Identifies the aspect of the subject's journey that the state refers to.",
-        "requirements" : "Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.type` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
+        "requirements" : "Element `ResearchSubject.progress.type` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.type` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
         "sliceName" : "subjectState",
         "short" : "candidate | eligible | follow-up | ineligible | not-registered | off-study | on-study | on-study-intervention | on-study-observation | pending-on-study | potential-candidate | screening | withdrawn",
         "definition" : "The current state of the subject.",
-        "requirements" : "Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.subjectState` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
+        "requirements" : "Element `ResearchSubject.progress.subjectState` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.subjectState` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -249,7 +249,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "subjectState"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress.subjectState"
       },
       {
         "id" : "Extension.extension:subjectState.value[x]",
@@ -276,7 +276,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
         "short" : "SignedUp | Screened | Randomized",
         "definition" : "The milestones the subject has passed through.",
         "comment" : "There can be multiple entries but it is also valid to just have the most recent.  This should npt be rlied upon as the full path the subject has taken.",
-        "requirements" : "Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.milestone` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
+        "requirements" : "Element `ResearchSubject.progress.milestone` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.milestone` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -295,7 +295,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "milestone"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress.milestone"
       },
       {
         "id" : "Extension.extension:milestone.value[x]",
@@ -322,7 +322,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
         "sliceName" : "reason",
         "short" : "State change reason",
         "definition" : "The reason for the state change.  If coded it should follow the formal subject state model.",
-        "requirements" : "Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.reason` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
+        "requirements" : "Element `ResearchSubject.progress.reason` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.reason` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -341,7 +341,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress.reason"
       },
       {
         "id" : "Extension.extension:reason.value[x]",
@@ -368,7 +368,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
         "short" : "State change date",
         "definition" : "The date when the new status started.",
         "comment" : "This is NOT the date the change in state was recorded.",
-        "requirements" : "This was originally defined as the date when the change in status occurred.  This assumed all                      states were recorded which is not true.  Hence the need to track the end of the state. Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.startDate` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
+        "requirements" : "This was originally defined as the date when the change in status occurred.  This assumed all                      states were recorded which is not true.  Hence the need to track the end of the state. Element `ResearchSubject.progress.startDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.startDate` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -387,7 +387,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "startDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress.startDate"
       },
       {
         "id" : "Extension.extension:startDate.value[x]",
@@ -414,7 +414,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
         "sliceName" : "endDate",
         "short" : "State change date",
         "definition" : "The date when the state ended.",
-        "requirements" : "See the requirement on the start date. Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.endDate` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
+        "requirements" : "See the requirement on the start date. Element `ResearchSubject.progress.endDate` is part of an existing definition because parent element `ResearchSubject.progress` requires a cross-version extension.\nElement `ResearchSubject.progress.endDate` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -433,7 +433,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ResearchSu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "endDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress.endDate"
       },
       {
         "id" : "Extension.extension:endDate.value[x]",

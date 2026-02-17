@@ -1,4 +1,4 @@
-# ProfileInvoice - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileInvoice - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileInvoice 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Invoice content to be represented via FHIR 
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.PaymentReconciliation.allocation` for use in FHIR R4](StructureDefinition-ext-R5-PaymentReconciliation.allocation.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Invoice)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Invoice.c
   "title" : "Cross-version Profile for R5.Invoice for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1776283-06:00",
+  "date" : "2026-02-17T14:42:26.8340044-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Invoice.c
         "path" : "Invoice.extension",
         "sliceName" : "creation",
         "short" : "Cross-version extension for Invoice.creation from R5 for use in FHIR R4",
-        "comment" : "Element `Invoice.creation` is will have a context of Invoice based on following the parent source element upwards and mapping to `Invoice`.",
+        "comment" : "Element `Invoice.creation` has a context of Invoice based on following the parent source element upwards and mapping to `Invoice`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Invoice.c
         "path" : "Invoice.extension",
         "sliceName" : "period",
         "short" : "Cross-version extension for Invoice.period[x] from R5 for use in FHIR R4",
-        "comment" : "Element `Invoice.period[x]` is will have a context of Invoice based on following the parent source element upwards and mapping to `Invoice`.",
+        "comment" : "Element `Invoice.period[x]` has a context of Invoice based on following the parent source element upwards and mapping to `Invoice`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -209,6 +209,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Invoice.c
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.period|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Invoice.participant.extension",
+        "path" : "Invoice.participant.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Invoice.participant.extension:participant",
+        "path" : "Invoice.participant.extension",
+        "sliceName" : "participant",
+        "short" : "Cross-version extension for Invoice.participant from R5 for use in FHIR R4",
+        "comment" : "Element `Invoice.participant` has is mapped to FHIR R4 element `Invoice.participant`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.participant|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -235,13 +278,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Invoice.c
         }
       },
       {
-        "id" : "Invoice.lineItem.extension:serviced",
+        "id" : "Invoice.lineItem.extension:lineItem",
         "path" : "Invoice.lineItem.extension",
-        "sliceName" : "serviced",
-        "short" : "Cross-version extension for Invoice.lineItem.serviced[x] from R5 for use in FHIR R4",
-        "comment" : "Element `Invoice.lineItem.serviced[x]` is will have a context of Invoice.lineItem based on following the parent source element upwards and mapping to `Invoice`.",
+        "sliceName" : "lineItem",
+        "short" : "Cross-version extension for Invoice.lineItem from R5 for use in FHIR R4",
+        "comment" : "Element `Invoice.lineItem` has is mapped to FHIR R4 element `Invoice.lineItem`, but has no comparisons.",
         "min" : 0,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -251,7 +294,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Invoice.c
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem.serviced|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem|0.0.1-snapshot-3"
             ]
           }
         ]

@@ -1,4 +1,4 @@
-# ProfileEvidence - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileEvidence - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileEvidence 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
   "title" : "Cross-version Profile for R5.Evidence for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1125117-06:00",
+  "date" : "2026-02-17T14:42:26.8045549-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for Evidence.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.versionAlgorithm[x]` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.versionAlgorithm[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "name",
         "short" : "Cross-version extension for Evidence.name from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.name` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.name` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "citeAs",
         "short" : "Cross-version extension for Evidence.citeAs[x] from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.citeAs[x]` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.citeAs[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -241,7 +241,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "sliceName" : "citeAsCanonical",
         "short" : "Cross-version extension for Evidence.citeAs[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/Citation in FHIR R4",
-        "comment" : "Element `Evidence.citeAs[x]` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.citeAs[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -264,7 +264,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "sliceName" : "citeAsReference",
         "short" : "Cross-version extension for Evidence.citeAs[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Citation in FHIR R4",
-        "comment" : "Element `Evidence.citeAs[x]` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.citeAs[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -286,7 +286,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "experimental",
         "short" : "Cross-version extension for Evidence.experimental from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.experimental` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.experimental` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -308,7 +308,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "purpose",
         "short" : "Cross-version extension for Evidence.purpose from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.purpose` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.purpose` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -330,7 +330,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "copyright",
         "short" : "Cross-version extension for Evidence.copyright from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.copyright` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.copyright` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -352,7 +352,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for Evidence.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.copyrightLabel` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.copyrightLabel` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -374,7 +374,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "assertion",
         "short" : "Cross-version extension for Evidence.assertion from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.assertion` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.assertion` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -396,7 +396,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "variableDefinition",
         "short" : "Cross-version extension for Evidence.variableDefinition from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.variableDefinition` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.variableDefinition` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -418,7 +418,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "synthesisType",
         "short" : "Cross-version extension for Evidence.synthesisType from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.synthesisType` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.synthesisType` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -440,7 +440,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "studyDesign",
         "short" : "Cross-version extension for Evidence.studyDesign from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.studyDesign` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.studyDesign` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -462,7 +462,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "statistic",
         "short" : "Cross-version extension for Evidence.statistic from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.statistic` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.statistic` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -484,7 +484,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Evidence.
         "path" : "Evidence.extension",
         "sliceName" : "certainty",
         "short" : "Cross-version extension for Evidence.certainty from R5 for use in FHIR R4",
-        "comment" : "Element `Evidence.certainty` is will have a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
+        "comment" : "Element `Evidence.certainty` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.",
         "min" : 0,
         "max" : "*",
         "base" : {

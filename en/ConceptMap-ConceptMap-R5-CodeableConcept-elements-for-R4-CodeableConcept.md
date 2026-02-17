@@ -1,4 +1,4 @@
-# ConceptMapR5CodeableConceptElementsForR4CodeableConcept - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5CodeableConceptElementsForR4CodeableConcept - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5CodeableConceptElementsForR4CodeableConcept 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.6563638-06:00",
+  "date" : "2026-02-17T14:42:27.0799749-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeableConcept#CodeableConcept",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `CodeableConcept` is representable via FHIR R4 extensions.\nElement `CodeableConcept` is mapped to FHIR R4 element `CodeableConcept`."
+              "comment" : "FHIR R5 ComplexType `CodeableConcept` is representable via FHIR R4 extensions.\nElement `CodeableConcept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeableConcept#CodeableConcept.coding",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeableConcept.coding` is mapped to FHIR R4 element `CodeableConcept.coding`."
+              "comment" : "Element `CodeableConcept.coding` has is mapped to FHIR R4 element `CodeableConcept.coding`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/CodeableConcept#CodeableConcept.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `CodeableConcept.text` is mapped to FHIR R4 element `CodeableConcept.text`."
+              "comment" : "Element `CodeableConcept.text` has is mapped to FHIR R4 element `CodeableConcept.text`, but has no comparisons."
             }
           ]
         }

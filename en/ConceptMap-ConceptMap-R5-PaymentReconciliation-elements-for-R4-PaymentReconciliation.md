@@ -1,4 +1,4 @@
-# ConceptMapR5PaymentReconciliationElementsForR4PaymentReconciliation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5PaymentReconciliationElementsForR4PaymentReconciliation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5PaymentReconciliationElementsForR4PaymentReconciliation 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1181878-06:00",
+  "date" : "2026-02-17T14:42:27.4600988-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `PaymentReconciliation` is representable via FHIR R4 Resource `PaymentReconciliation`.\nElement `PaymentReconciliation` is mapped to FHIR R4 element `PaymentReconciliation`."
+              "comment" : "FHIR R5 Resource `PaymentReconciliation` is representable via FHIR R4 Resource `PaymentReconciliation`.\nElement `PaymentReconciliation` has is mapped to FHIR R4 element `PaymentReconciliation`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.meta` is mapped to FHIR R4 element `PaymentReconciliation.meta`."
+              "comment" : "Element `PaymentReconciliation.meta` has is mapped to FHIR R4 element `PaymentReconciliation.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.implicitRules` is mapped to FHIR R4 element `PaymentReconciliation.implicitRules`."
+              "comment" : "Element `PaymentReconciliation.implicitRules` has is mapped to FHIR R4 element `PaymentReconciliation.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.language` is mapped to FHIR R4 element `PaymentReconciliation.language`."
+              "comment" : "Element `PaymentReconciliation.language` has is mapped to FHIR R4 element `PaymentReconciliation.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.text` is mapped to FHIR R4 element `PaymentReconciliation.text`."
+              "comment" : "Element `PaymentReconciliation.text` has is mapped to FHIR R4 element `PaymentReconciliation.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.contained` is mapped to FHIR R4 element `PaymentReconciliation.contained`."
+              "comment" : "Element `PaymentReconciliation.contained` has is mapped to FHIR R4 element `PaymentReconciliation.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.identifier` is mapped to FHIR R4 element `PaymentReconciliation.identifier`."
+              "comment" : "Element `PaymentReconciliation.identifier` has is mapped to FHIR R4 element `PaymentReconciliation.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.type` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.type` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.status` is mapped to FHIR R4 element `PaymentReconciliation.status`."
+              "comment" : "Element `PaymentReconciliation.status` has is mapped to FHIR R4 element `PaymentReconciliation.status`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.kind` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.kind` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.period` is mapped to FHIR R4 element `PaymentReconciliation.period`."
+              "comment" : "Element `PaymentReconciliation.period` has is mapped to FHIR R4 element `PaymentReconciliation.period`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.created",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.created` is mapped to FHIR R4 element `PaymentReconciliation.created`."
+              "comment" : "Element `PaymentReconciliation.created` has is mapped to FHIR R4 element `PaymentReconciliation.created`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.enterer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.enterer` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.enterer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.enterer` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.issuerType` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.issuerType` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentIssuer",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.paymentIssuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.paymentIssuer` is mapped to FHIR R4 element `PaymentReconciliation.paymentIssuer`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.paymentIssuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.paymentIssuer` has is mapped to FHIR R4 element `PaymentReconciliation.paymentIssuer`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.request",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.request` is mapped to FHIR R4 element `PaymentReconciliation.request`."
+              "comment" : "Element `PaymentReconciliation.request` has is mapped to FHIR R4 element `PaymentReconciliation.request`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.requestor",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.requestor` is mapped to FHIR R4 element `PaymentReconciliation.requestor`."
+              "comment" : "Element `PaymentReconciliation.requestor` has is mapped to FHIR R4 element `PaymentReconciliation.requestor`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.outcome",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.outcome` is mapped to FHIR R4 element `PaymentReconciliation.outcome`."
+              "comment" : "Element `PaymentReconciliation.outcome` has is mapped to FHIR R4 element `PaymentReconciliation.outcome`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.disposition",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.disposition` is mapped to FHIR R4 element `PaymentReconciliation.disposition`."
+              "comment" : "Element `PaymentReconciliation.disposition` has is mapped to FHIR R4 element `PaymentReconciliation.disposition`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.date` is mapped to FHIR R4 element `PaymentReconciliation.paymentDate`."
+              "comment" : "Element `PaymentReconciliation.date` has is mapped to FHIR R4 element `PaymentReconciliation.paymentDate`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.location` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.location` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.location` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.location` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.method` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.method` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.cardBrand` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.cardBrand` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.accountNumber` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.accountNumber` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.expirationDate` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.expirationDate` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.processor` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.processor` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.referenceNumber` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.referenceNumber` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.authorization` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.authorization` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.tenderedAmount` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.tenderedAmount` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.returnedAmount` is will have a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.returnedAmount` has a context of PaymentReconciliation based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentAmount",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.amount` is mapped to FHIR R4 element `PaymentReconciliation.paymentAmount`."
+              "comment" : "Element `PaymentReconciliation.amount` has is mapped to FHIR R4 element `PaymentReconciliation.paymentAmount`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.paymentIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.paymentIdentifier` is mapped to FHIR R4 element `PaymentReconciliation.paymentIdentifier`."
+              "comment" : "Element `PaymentReconciliation.paymentIdentifier` has is mapped to FHIR R4 element `PaymentReconciliation.paymentIdentifier`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.allocation` is mapped to FHIR R4 element `PaymentReconciliation.detail`."
+              "comment" : "Element `PaymentReconciliation.allocation` has is mapped to FHIR R4 element `PaymentReconciliation.detail`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.allocation.identifier` is mapped to FHIR R4 element `PaymentReconciliation.detail.identifier`."
+              "comment" : "Element `PaymentReconciliation.allocation.identifier` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nElement `PaymentReconciliation.allocation.identifier` has is mapped to FHIR R4 element `PaymentReconciliation.detail.identifier`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.predecessor",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.allocation.predecessor` is mapped to FHIR R4 element `PaymentReconciliation.detail.predecessor`."
+              "comment" : "Element `PaymentReconciliation.allocation.predecessor` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nElement `PaymentReconciliation.allocation.predecessor` has is mapped to FHIR R4 element `PaymentReconciliation.detail.predecessor`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.target` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.target` is will have a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.allocation.target` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.target` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.target` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.allocation.targetItem[x]` is will have a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.allocation.targetItem[x]` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nElement `PaymentReconciliation.allocation.targetItem[x]` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.encounter` is will have a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.allocation.encounter` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.encounter` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.account` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.account` is will have a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`."
+              "comment" : "Element `PaymentReconciliation.allocation.account` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.account` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.account` has a context of PaymentReconciliation.detail based on following the parent source element upwards and mapping to `PaymentReconciliation`."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.allocation.type` is mapped to FHIR R4 element `PaymentReconciliation.detail.type`."
+              "comment" : "Element `PaymentReconciliation.allocation.type` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nElement `PaymentReconciliation.allocation.type` has is mapped to FHIR R4 element `PaymentReconciliation.detail.type`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.submitter",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.allocation.submitter` is mapped to FHIR R4 element `PaymentReconciliation.detail.submitter`."
+              "comment" : "Element `PaymentReconciliation.allocation.submitter` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nElement `PaymentReconciliation.allocation.submitter` has is mapped to FHIR R4 element `PaymentReconciliation.detail.submitter`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.response",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.response` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.response` is mapped to FHIR R4 element `PaymentReconciliation.detail.response`."
+              "comment" : "Element `PaymentReconciliation.allocation.response` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PaymentReconciliation.allocation.response` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PaymentReconciliation.allocation.response` has is mapped to FHIR R4 element `PaymentReconciliation.detail.response`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.allocation.date` is mapped to FHIR R4 element `PaymentReconciliation.detail.date`."
+              "comment" : "Element `PaymentReconciliation.allocation.date` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nElement `PaymentReconciliation.allocation.date` has is mapped to FHIR R4 element `PaymentReconciliation.detail.date`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.responsible",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.allocation.responsible` is mapped to FHIR R4 element `PaymentReconciliation.detail.responsible`."
+              "comment" : "Element `PaymentReconciliation.allocation.responsible` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nElement `PaymentReconciliation.allocation.responsible` has is mapped to FHIR R4 element `PaymentReconciliation.detail.responsible`, but has no comparisons."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.payee",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.allocation.payee` is mapped to FHIR R4 element `PaymentReconciliation.detail.payee`."
+              "comment" : "Element `PaymentReconciliation.allocation.payee` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nElement `PaymentReconciliation.allocation.payee` has is mapped to FHIR R4 element `PaymentReconciliation.detail.payee`, but has no comparisons."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.detail.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.allocation.amount` is mapped to FHIR R4 element `PaymentReconciliation.detail.amount`."
+              "comment" : "Element `PaymentReconciliation.allocation.amount` is part of an existing definition because parent element `PaymentReconciliation.allocation` requires a cross-version extension.\nElement `PaymentReconciliation.allocation.amount` has is mapped to FHIR R4 element `PaymentReconciliation.detail.amount`, but has no comparisons."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.formCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.formCode` is mapped to FHIR R4 element `PaymentReconciliation.formCode`."
+              "comment" : "Element `PaymentReconciliation.formCode` has is mapped to FHIR R4 element `PaymentReconciliation.formCode`, but has no comparisons."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.processNote",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.processNote` is mapped to FHIR R4 element `PaymentReconciliation.processNote`."
+              "comment" : "Element `PaymentReconciliation.processNote` has is mapped to FHIR R4 element `PaymentReconciliation.processNote`, but has no comparisons."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.processNote.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.processNote.type` is mapped to FHIR R4 element `PaymentReconciliation.processNote.type`."
+              "comment" : "Element `PaymentReconciliation.processNote.type` is part of an existing definition because parent element `PaymentReconciliation.processNote` requires a cross-version extension.\nElement `PaymentReconciliation.processNote.type` has is mapped to FHIR R4 element `PaymentReconciliation.processNote.type`, but has no comparisons."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PaymentReconciliation#PaymentReconciliation.processNote.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `PaymentReconciliation.processNote.text` is mapped to FHIR R4 element `PaymentReconciliation.processNote.text`."
+              "comment" : "Element `PaymentReconciliation.processNote.text` is part of an existing definition because parent element `PaymentReconciliation.processNote` requires a cross-version extension.\nElement `PaymentReconciliation.processNote.text` has is mapped to FHIR R4 element `PaymentReconciliation.processNote.text`, but has no comparisons."
             }
           ]
         }

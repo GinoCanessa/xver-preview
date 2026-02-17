@@ -1,4 +1,4 @@
-# ProfileVisionPrescription - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileVisionPrescription - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileVisionPrescription 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 VisionPrescription content to be represente
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.Claim.item` for use in FHIR R4](StructureDefinition-ext-R5-Claim.item.md), [Cross-version Extension `R5.ClaimResponse.addItem` for use in FHIR R4](StructureDefinition-ext-R5-ClaimResponse.addItem.md), [Cross-version Extension `R5.ExplanationOfBenefit.addItem` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.addItem.md) and [Cross-version Extension `R5.ExplanationOfBenefit.item` for use in FHIR R4](StructureDefinition-ext-R5-ExplanationOfBenefit.item.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-VisionPrescription)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-VisionPre
   "title" : "Cross-version Profile for R5.VisionPrescription for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.4042019-06:00",
+  "date" : "2026-02-17T14:42:26.944225-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -147,6 +147,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-VisionPre
       {
         "id" : "VisionPrescription",
         "path" : "VisionPrescription"
+      },
+      {
+        "id" : "VisionPrescription.lensSpecification.extension",
+        "path" : "VisionPrescription.lensSpecification.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "VisionPrescription.lensSpecification.extension:lensSpecification",
+        "path" : "VisionPrescription.lensSpecification.extension",
+        "sliceName" : "lensSpecification",
+        "short" : "Cross-version extension for VisionPrescription.lensSpecification from R5 for use in FHIR R4",
+        "comment" : "Element `VisionPrescription.lensSpecification` has is mapped to FHIR R4 element `VisionPrescription.lensSpecification`, but has no comparisons.",
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-VisionPrescription.lensSpecification|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

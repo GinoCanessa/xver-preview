@@ -1,4 +1,4 @@
-# ProfileEventDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileEventDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileEventDefinition 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EventDefi
   "title" : "Cross-version Profile for R5.EventDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1100279-06:00",
+  "date" : "2026-02-17T14:42:26.803491-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EventDefi
         "path" : "EventDefinition.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for EventDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `EventDefinition.versionAlgorithm[x]` is will have a context of EventDefinition based on following the parent source element upwards and mapping to `EventDefinition`.",
+        "comment" : "Element `EventDefinition.versionAlgorithm[x]` has a context of EventDefinition based on following the parent source element upwards and mapping to `EventDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EventDefi
         "path" : "EventDefinition.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for EventDefinition.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `EventDefinition.copyrightLabel` is will have a context of EventDefinition based on following the parent source element upwards and mapping to `EventDefinition`.",
+        "comment" : "Element `EventDefinition.copyrightLabel` has a context of EventDefinition based on following the parent source element upwards and mapping to `EventDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {

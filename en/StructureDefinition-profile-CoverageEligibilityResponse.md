@@ -1,4 +1,4 @@
-# ProfileCoverageEligibilityResponse - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileCoverageEligibilityResponse - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileCoverageEligibilityResponse 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
   "title" : "Cross-version Profile for R5.CoverageEligibilityResponse for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0601359-06:00",
+  "date" : "2026-02-17T14:42:26.7797126-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
         "path" : "CoverageEligibilityResponse.extension",
         "sliceName" : "event",
         "short" : "Cross-version extension for CoverageEligibilityResponse.event from R5 for use in FHIR R4",
-        "comment" : "Element `CoverageEligibilityResponse.event` is will have a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`.",
+        "comment" : "Element `CoverageEligibilityResponse.event` has a context of CoverageEligibilityResponse based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -187,6 +187,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.event|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CoverageEligibilityResponse.insurance.extension",
+        "path" : "CoverageEligibilityResponse.insurance.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CoverageEligibilityResponse.insurance.extension:insurance",
+        "path" : "CoverageEligibilityResponse.insurance.extension",
+        "sliceName" : "insurance",
+        "short" : "Cross-version extension for CoverageEligibilityResponse.insurance from R5 for use in FHIR R4",
+        "comment" : "Element `CoverageEligibilityResponse.insurance` has is mapped to FHIR R4 element `CoverageEligibilityResponse.insurance`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.insurance|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -213,11 +256,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
         }
       },
       {
-        "id" : "CoverageEligibilityResponse.error.extension:expression",
+        "id" : "CoverageEligibilityResponse.error.extension:error",
         "path" : "CoverageEligibilityResponse.error.extension",
-        "sliceName" : "expression",
-        "short" : "Cross-version extension for CoverageEligibilityResponse.error.expression from R5 for use in FHIR R4",
-        "comment" : "Element `CoverageEligibilityResponse.error.expression` is will have a context of CoverageEligibilityResponse.error based on following the parent source element upwards and mapping to `CoverageEligibilityResponse`.",
+        "sliceName" : "error",
+        "short" : "Cross-version extension for CoverageEligibilityResponse.error from R5 for use in FHIR R4",
+        "comment" : "Element `CoverageEligibilityResponse.error` has is mapped to FHIR R4 element `CoverageEligibilityResponse.error`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -229,7 +272,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-CoverageE
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.error.expression|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityResponse.error|0.0.1-snapshot-3"
             ]
           }
         ]

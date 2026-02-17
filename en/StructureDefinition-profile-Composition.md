@@ -1,4 +1,4 @@
-# ProfileComposition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileComposition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileComposition 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compositi
   "title" : "Cross-version Profile for R5.Composition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0374576-06:00",
+  "date" : "2026-02-17T14:42:26.7678719-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -179,7 +179,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compositi
         "path" : "Composition.extension",
         "sliceName" : "url",
         "short" : "Cross-version extension for Composition.url from R5 for use in FHIR R4",
-        "comment" : "Element `Composition.url` is will have a context of Composition based on following the parent source element upwards and mapping to `Composition`.",
+        "comment" : "Element `Composition.url` has a context of Composition based on following the parent source element upwards and mapping to `Composition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -201,7 +201,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compositi
         "path" : "Composition.extension",
         "sliceName" : "version",
         "short" : "Cross-version extension for Composition.version from R5 for use in FHIR R4",
-        "comment" : "Element `Composition.version` is will have a context of Composition based on following the parent source element upwards and mapping to `Composition`.",
+        "comment" : "Element `Composition.version` has a context of Composition based on following the parent source element upwards and mapping to `Composition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -223,7 +223,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compositi
         "path" : "Composition.extension",
         "sliceName" : "useContext",
         "short" : "Cross-version extension for Composition.useContext from R5 for use in FHIR R4",
-        "comment" : "Element `Composition.useContext` is will have a context of Composition based on following the parent source element upwards and mapping to `Composition`.",
+        "comment" : "Element `Composition.useContext` has a context of Composition based on following the parent source element upwards and mapping to `Composition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -245,7 +245,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compositi
         "path" : "Composition.extension",
         "sliceName" : "name",
         "short" : "Cross-version extension for Composition.name from R5 for use in FHIR R4",
-        "comment" : "Element `Composition.name` is will have a context of Composition based on following the parent source element upwards and mapping to `Composition`.",
+        "comment" : "Element `Composition.name` has a context of Composition based on following the parent source element upwards and mapping to `Composition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -267,7 +267,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compositi
         "path" : "Composition.extension",
         "sliceName" : "note",
         "short" : "Cross-version extension for Composition.note from R5 for use in FHIR R4",
-        "comment" : "Element `Composition.note` is will have a context of Composition based on following the parent source element upwards and mapping to `Composition`.",
+        "comment" : "Element `Composition.note` has a context of Composition based on following the parent source element upwards and mapping to `Composition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -310,7 +310,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compositi
         "path" : "Composition.status.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for Composition.status from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `Composition.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Composition.status` is mapped to FHIR R4 element `Composition.status`.",
+        "comment" : "Note that the target element context `Composition.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Composition.status` has is mapped to FHIR R4 element `Composition.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -328,8 +328,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compositi
         ]
       },
       {
-        "id" : "Composition.attester.mode.extension",
-        "path" : "Composition.attester.mode.extension",
+        "id" : "Composition.attester.extension",
+        "path" : "Composition.attester.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -340,22 +340,22 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compositi
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "Composition.attester.mode",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "Composition.attester.mode.extension:mode",
-        "path" : "Composition.attester.mode.extension",
-        "sliceName" : "mode",
-        "short" : "Cross-version extension for Composition.attester.mode from R5 for use in FHIR R4",
-        "comment" : "Element `Composition.attester.mode` is mapped to FHIR R4 element `Composition.attester.mode`.",
-        "min" : 1,
-        "max" : "1",
+        "id" : "Composition.attester.extension:attester",
+        "path" : "Composition.attester.extension",
+        "sliceName" : "attester",
+        "short" : "Cross-version extension for Composition.attester from R5 for use in FHIR R4",
+        "comment" : "Element `Composition.attester` has is mapped to FHIR R4 element `Composition.attester`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -365,7 +365,93 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Compositi
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.attester.mode|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.attester|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Composition.event.extension",
+        "path" : "Composition.event.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Composition.event.extension:event",
+        "path" : "Composition.event.extension",
+        "sliceName" : "event",
+        "short" : "Cross-version extension for Composition.event from R5 for use in FHIR R4",
+        "comment" : "Element `Composition.event` has is mapped to FHIR R4 element `Composition.event`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.event|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Composition.section.extension",
+        "path" : "Composition.section.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Composition.section.extension:section",
+        "path" : "Composition.section.extension",
+        "sliceName" : "section",
+        "short" : "Cross-version extension for Composition.section from R5 for use in FHIR R4",
+        "comment" : "Element `Composition.section` has is mapped to FHIR R4 element `Composition.section`, but has no comparisons.\nNote available implied context: `Composition.section.section` because `Composition.section.section` is defined as a content reference to `Composition.section`.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Composition.section|0.0.1-snapshot-3"
             ]
           }
         ]

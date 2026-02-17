@@ -1,4 +1,4 @@
-# ProfileChargeItemDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileChargeItemDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileChargeItemDefinition 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
   "title" : "Cross-version Profile for R5.ChargeItemDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0100572-06:00",
+  "date" : "2026-02-17T14:42:26.7494172-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         "path" : "ChargeItemDefinition.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for ChargeItemDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `ChargeItemDefinition.versionAlgorithm[x]` is will have a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
+        "comment" : "Element `ChargeItemDefinition.versionAlgorithm[x]` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         "path" : "ChargeItemDefinition.extension",
         "sliceName" : "name",
         "short" : "Cross-version extension for ChargeItemDefinition.name from R5 for use in FHIR R4",
-        "comment" : "Element `ChargeItemDefinition.name` is will have a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
+        "comment" : "Element `ChargeItemDefinition.name` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         "path" : "ChargeItemDefinition.extension",
         "sliceName" : "purpose",
         "short" : "Cross-version extension for ChargeItemDefinition.purpose from R5 for use in FHIR R4",
-        "comment" : "Element `ChargeItemDefinition.purpose` is will have a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
+        "comment" : "Element `ChargeItemDefinition.purpose` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         "path" : "ChargeItemDefinition.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for ChargeItemDefinition.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `ChargeItemDefinition.copyrightLabel` is will have a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
+        "comment" : "Element `ChargeItemDefinition.copyrightLabel` has a context of ChargeItemDefinition based on following the parent source element upwards and mapping to `ChargeItemDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -284,7 +284,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         "sliceName" : "instance",
         "short" : "Cross-version extension for ChargeItemDefinition.instance from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/ActivityDefinition,http://hl7.org/fhir/StructureDefinition/DeviceDefinition,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/PlanDefinition in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ChargeItemDefinition.instance` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ChargeItemDefinition.instance` is mapped to FHIR R4 element `ChargeItemDefinition.instance`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ChargeItemDefinition.instance` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ChargeItemDefinition.instance` has is mapped to FHIR R4 element `ChargeItemDefinition.instance`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -327,7 +327,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         "path" : "ChargeItemDefinition.applicability.extension",
         "sliceName" : "applicability",
         "short" : "Cross-version extension for ChargeItemDefinition.applicability from R5 for use in FHIR R4",
-        "comment" : "Element `ChargeItemDefinition.applicability` is mapped to FHIR R4 element `ChargeItemDefinition.applicability`.",
+        "comment" : "Element `ChargeItemDefinition.applicability` has is mapped to FHIR R4 element `ChargeItemDefinition.applicability`, but has no comparisons.\nNote available implied context: `ChargeItemDefinition.propertyGroup.applicability` because `ChargeItemDefinition.propertyGroup.applicability` is defined as a content reference to `ChargeItemDefinition.applicability`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -345,8 +345,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         ]
       },
       {
-        "id" : "ChargeItemDefinition.propertyGroup.applicability.extension",
-        "path" : "ChargeItemDefinition.propertyGroup.applicability.extension",
+        "id" : "ChargeItemDefinition.propertyGroup.extension",
+        "path" : "ChargeItemDefinition.propertyGroup.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -366,11 +366,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         }
       },
       {
-        "id" : "ChargeItemDefinition.propertyGroup.applicability.extension:applicability",
-        "path" : "ChargeItemDefinition.propertyGroup.applicability.extension",
-        "sliceName" : "applicability",
-        "short" : "Cross-version extension for ChargeItemDefinition.propertyGroup.applicability from R5 for use in FHIR R4",
-        "comment" : "Element `ChargeItemDefinition.propertyGroup.applicability` is mapped to FHIR R4 element `ChargeItemDefinition.propertyGroup.applicability`.",
+        "id" : "ChargeItemDefinition.propertyGroup.extension:propertyGroup",
+        "path" : "ChargeItemDefinition.propertyGroup.extension",
+        "sliceName" : "propertyGroup",
+        "short" : "Cross-version extension for ChargeItemDefinition.propertyGroup from R5 for use in FHIR R4",
+        "comment" : "Element `ChargeItemDefinition.propertyGroup` has is mapped to FHIR R4 element `ChargeItemDefinition.propertyGroup`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -382,7 +382,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.propertyGroup.applicability|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItemDefinition.propertyGroup|0.0.1-snapshot-3"
             ]
           }
         ]

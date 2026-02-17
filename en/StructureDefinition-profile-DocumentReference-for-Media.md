@@ -1,4 +1,4 @@
-# ProfileDocumentReferenceForMedia - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileDocumentReferenceForMedia - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileDocumentReferenceForMedia 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 DocumentReference content to be represented
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.contributingFactor.md), [Cross-version Extension `R5.AdverseEvent.mitigatingAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.mitigatingAction.md), [Cross-version Extension `R5.AdverseEvent.preventiveAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.preventiveAction.md), [Cross-version Extension `R5.AdverseEvent.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.supportingInfo.md)... Show 15 more, [Cross-version Extension `R5.Appointment.patientInstruction` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.patientInstruction.md), [Cross-version Extension `R5.Contract.friendly` for use in FHIR R4](StructureDefinition-ext-R5-Contract.friendly.md), [Cross-version Extension `R5.Contract.legal` for use in FHIR R4](StructureDefinition-ext-R5-Contract.legal.md), [Cross-version Extension `R5.Contract.legallyBinding[x]` for use in FHIR R4](StructureDefinition-ext-R5-Contract.legallyBinding.md), [Cross-version Extension `R5.Contract.rule` for use in FHIR R4](StructureDefinition-ext-R5-Contract.rule.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DocumentReference.relatesTo` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.relatesTo.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.PackagedProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-PackagedProductDefinition.md), [Cross-version Extension `R5.RegulatedAuthorization` for use in FHIR R4](StructureDefinition-ext-R5-RegulatedAuthorization.md), [Cross-version Extension `R5.ServiceRequest.patientInstruction` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.patientInstruction.md), [Cross-version Extension `R5.SubstanceDefinition.name` for use in FHIR R4](StructureDefinition-ext-R5-SubstanceDefinition.name.md) and [Cross-version Extension `R5.SubstanceReferenceInformation` for use in FHIR R4](StructureDefinition-ext-R5-SubstanceReferenceInformation.md)
+* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.contributingFactor.md), [Cross-version Extension `R5.AdverseEvent.mitigatingAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.mitigatingAction.md), [Cross-version Extension `R5.AdverseEvent.preventiveAction` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.preventiveAction.md), [Cross-version Extension `R5.AdverseEvent.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.supportingInfo.md)... Show 21 more, [Cross-version Extension `R5.Appointment.patientInstruction` for use in FHIR R4](StructureDefinition-ext-R5-Appointment.patientInstruction.md), [Cross-version Extension `R5.ClinicalImpression.finding` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalImpression.finding.md), [Cross-version Extension `R5.Contract.friendly` for use in FHIR R4](StructureDefinition-ext-R5-Contract.friendly.md), [Cross-version Extension `R5.Contract.legal` for use in FHIR R4](StructureDefinition-ext-R5-Contract.legal.md), [Cross-version Extension `R5.Contract.legallyBinding[x]` for use in FHIR R4](StructureDefinition-ext-R5-Contract.legallyBinding.md), [Cross-version Extension `R5.Contract.rule` for use in FHIR R4](StructureDefinition-ext-R5-Contract.rule.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DiagnosticReport.media` for use in FHIR R4](StructureDefinition-ext-R5-DiagnosticReport.media.md), [Cross-version Extension `R5.DocumentReference.relatesTo` for use in FHIR R4](StructureDefinition-ext-R5-DocumentReference.relatesTo.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.ImagingSelection` for use in FHIR R4](StructureDefinition-ext-R5-ImagingSelection.md), [Cross-version Extension `R5.MedicationKnowledge.monograph` for use in FHIR R4](StructureDefinition-ext-R5-MedicationKnowledge.monograph.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.PackagedProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-PackagedProductDefinition.md), [Cross-version Extension `R5.RegulatedAuthorization` for use in FHIR R4](StructureDefinition-ext-R5-RegulatedAuthorization.md), [Cross-version Extension `R5.ServiceRequest.patientInstruction` for use in FHIR R4](StructureDefinition-ext-R5-ServiceRequest.patientInstruction.md), [Cross-version Extension `R5.SubstanceDefinition.code` for use in FHIR R4](StructureDefinition-ext-R5-SubstanceDefinition.code.md), [Cross-version Extension `R5.SubstanceDefinition.name` for use in FHIR R4](StructureDefinition-ext-R5-SubstanceDefinition.name.md), [Cross-version Extension `R5.SubstanceDefinition.relationship` for use in FHIR R4](StructureDefinition-ext-R5-SubstanceDefinition.relationship.md), [Cross-version Extension `R5.SubstanceDefinition.structure` for use in FHIR R4](StructureDefinition-ext-R5-SubstanceDefinition.structure.md) and [Cross-version Extension `R5.SubstanceReferenceInformation` for use in FHIR R4](StructureDefinition-ext-R5-SubstanceReferenceInformation.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-DocumentReference-for-Media)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
   "title" : "Cross-version Profile for R5.DocumentReference for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0857968-06:00",
+  "date" : "2026-02-17T14:42:26.7943412-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -189,7 +189,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
         "path" : "Media.extension",
         "sliceName" : "version",
         "short" : "Cross-version extension for DocumentReference.version from R5 for use in FHIR R4",
-        "comment" : "Element `DocumentReference.version` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.version` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.",
+        "comment" : "Element `DocumentReference.version` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.version` has a context of Media based on following the parent source element upwards and mapping to `Media`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -211,7 +211,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
         "path" : "Media.extension",
         "sliceName" : "docStatus",
         "short" : "Cross-version extension for DocumentReference.docStatus from R5 for use in FHIR R4",
-        "comment" : "Element `DocumentReference.docStatus` is mapped to FHIR R4 element `DocumentReference.docStatus`.\nElement `DocumentReference.docStatus` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.",
+        "comment" : "Element `DocumentReference.docStatus` has is mapped to FHIR R4 element `DocumentReference.docStatus`, but has no comparisons.\nElement `DocumentReference.docStatus` has a context of Media based on following the parent source element upwards and mapping to `Media`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -233,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
         "path" : "Media.extension",
         "sliceName" : "event",
         "short" : "Cross-version extension for DocumentReference.event from R5 for use in FHIR R4",
-        "comment" : "Element `DocumentReference.event` is mapped to FHIR R4 element `DocumentReference.context.event`.\nElement `DocumentReference.event` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.",
+        "comment" : "Element `DocumentReference.event` has is mapped to FHIR R4 element `DocumentReference.context.event`, but has no comparisons.\nElement `DocumentReference.event` has a context of Media based on following the parent source element upwards and mapping to `Media`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -255,7 +255,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
         "path" : "Media.extension",
         "sliceName" : "attester",
         "short" : "Cross-version extension for DocumentReference.attester from R5 for use in FHIR R4",
-        "comment" : "Element `DocumentReference.attester` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.",
+        "comment" : "Element `DocumentReference.attester` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.attester` has a context of Media based on following the parent source element upwards and mapping to `Media`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -277,7 +277,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
         "path" : "Media.extension",
         "sliceName" : "relatesTo",
         "short" : "Cross-version extension for DocumentReference.relatesTo from R5 for use in FHIR R4",
-        "comment" : "Element `DocumentReference.relatesTo` is mapped to FHIR R4 element `DocumentReference.relatesTo`.\nElement `DocumentReference.relatesTo` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.",
+        "comment" : "Element `DocumentReference.relatesTo` has is mapped to FHIR R4 element `DocumentReference.relatesTo`, but has no comparisons.\nElement `DocumentReference.relatesTo` has a context of Media based on following the parent source element upwards and mapping to `Media`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -300,7 +300,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
         "sliceName" : "context",
         "short" : "Cross-version extension for DocumentReference.context from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Appointment,http://hl7.org/fhir/StructureDefinition/Encounter,http://hl7.org/fhir/StructureDefinition/EpisodeOfCare in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.context` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.context` is mapped to FHIR R4 element `DocumentReference.context`.\nElement `DocumentReference.context` is will have a context of Media based on following the parent source element upwards and mapping to `Media`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.context` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.context` has is mapped to FHIR R4 element `DocumentReference.context`, but has no comparisons.\nElement `DocumentReference.context` has a context of Media based on following the parent source element upwards and mapping to `Media`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -344,7 +344,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
         "sliceName" : "basedOn",
         "short" : "Cross-version extension for DocumentReference.basedOn from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Appointment,http://hl7.org/fhir/StructureDefinition/AppointmentResponse,http://hl7.org/fhir/StructureDefinition/Claim,http://hl7.org/fhir/StructureDefinition/CommunicationRequest,http://hl7.org/fhir/StructureDefinition/Contract,http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest,http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/EnrollmentRequest,http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation,http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/RequestOrchestration,http://hl7.org/fhir/StructureDefinition/SupplyRequest,http://hl7.org/fhir/StructureDefinition/VisionPrescription in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.basedOn` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.basedOn` is mapped to FHIR R4 element `Media.basedOn`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DocumentReference.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DocumentReference.basedOn` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.basedOn` has is mapped to FHIR R4 element `Media.basedOn`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -387,7 +387,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
         "path" : "Media.bodySite.extension",
         "sliceName" : "bodySite",
         "short" : "Cross-version extension for DocumentReference.bodySite from R5 for use in FHIR R4",
-        "comment" : "Element `DocumentReference.bodySite` is will have a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.bodySite` is mapped to FHIR R4 element `Media.bodySite`.",
+        "comment" : "Element `DocumentReference.bodySite` has a context of DocumentReference based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.bodySite` has is mapped to FHIR R4 element `Media.bodySite`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -417,7 +417,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 0,
+        "min" : 1,
         "max" : "*",
         "base" : {
           "path" : "Media.content",
@@ -426,12 +426,12 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
         }
       },
       {
-        "id" : "Media.content.extension:profile",
+        "id" : "Media.content.extension:content",
         "path" : "Media.content.extension",
-        "sliceName" : "profile",
-        "short" : "Cross-version extension for DocumentReference.content.profile from R5 for use in FHIR R4",
-        "comment" : "Element `DocumentReference.content.profile` is will have a context of DocumentReference.content based on following the parent source element upwards and mapping to `DocumentReference`.\nElement `DocumentReference.content.profile` is will have a context of Media.content based on following the parent source element upwards and mapping to `Media`.",
-        "min" : 0,
+        "sliceName" : "content",
+        "short" : "Cross-version extension for DocumentReference.content from R5 for use in FHIR R4",
+        "comment" : "Element `DocumentReference.content` has is mapped to FHIR R4 element `DocumentReference.content`, but has no comparisons.\nElement `DocumentReference.content` has is mapped to FHIR R4 element `Media.content`, but has no comparisons.",
+        "min" : 1,
         "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
@@ -442,7 +442,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DocumentR
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content.profile|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DocumentReference.content|0.0.1-snapshot-3"
             ]
           }
         ]

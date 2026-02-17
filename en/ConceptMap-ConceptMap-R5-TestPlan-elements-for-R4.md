@@ -1,4 +1,4 @@
-# ConceptMapR5TestPlanElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5TestPlanElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5TestPlanElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.296035-06:00",
+  "date" : "2026-02-17T14:42:27.6257154-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -149,7 +149,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "url",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:url",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.url",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.url` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "version",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:version",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.version",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.version` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -182,7 +182,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "versionAlgorithm[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:versionAlgorithm",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.versionAlgorithm",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.versionAlgorithm[x]` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "name",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:name",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.name",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.name` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:title",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.title",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.title` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:status",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.status",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.status` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "experimental",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:experimental",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.experimental",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.experimental` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -237,7 +237,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "date",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:date",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.date",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.date` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "publisher",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:publisher",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.publisher",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.publisher` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "contact",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:contact",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.contact",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.contact` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:description",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.description",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.description` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "useContext",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:useContext",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.useContext",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.useContext` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -292,7 +292,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "jurisdiction",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:jurisdiction",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.jurisdiction",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -303,7 +303,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "purpose",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:purpose",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.purpose",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.purpose` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyright",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:copyright",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.copyright",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.copyright` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "copyrightLabel",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:copyrightLabel",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.copyrightLabel",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.copyrightLabel` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "category",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:category",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.category",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.category` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -347,7 +347,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "scope",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:scope",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.scope",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.scope` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -358,7 +358,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "testTools",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:testTools",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testTools",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testTools` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -380,7 +380,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.dependency:description",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.dependency:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.dependency.description",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.dependency.description` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -391,7 +391,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "predecessor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.dependency:predecessor",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.dependency:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.dependency.predecessor",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.dependency.predecessor` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -402,7 +402,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "exitCriteria",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:exitCriteria",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.exitCriteria",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.exitCriteria` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -424,7 +424,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "sequence",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:sequence",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.sequence",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.sequence` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -435,7 +435,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "scope",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:scope",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.scope",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.scope` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -457,7 +457,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.dependency:description",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.dependency:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.dependency.description",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.dependency.description` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -468,7 +468,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "predecessor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.dependency:predecessor",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.dependency:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.dependency.predecessor",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.dependency.predecessor` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -490,7 +490,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "narrative",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun:narrative",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.narrative",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.testRun.narrative` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -512,7 +512,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "language",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script:language",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script.language",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.testRun.script.language` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -523,7 +523,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "source[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script:source",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testRun.script.source",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.testRun.script.source[x]` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -545,7 +545,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData.type",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.testData.type` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -556,7 +556,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "content",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData:content",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData.content",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.testData.content` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -567,7 +567,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "source[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData:source",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.testData.source",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.testData.source[x]` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -589,7 +589,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion.type",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.assertion.type` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -600,7 +600,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "object",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion:object",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion.object",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.assertion.object` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }
@@ -611,7 +611,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "result",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion:result",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion:http://hl7.org/fhir/5.0/StructureDefinition/extension-TestPlan.testCase.assertion.result",
               "equivalence" : "relatedto",
               "comment" : "Element `TestPlan.testCase.assertion.result` is not mapped to FHIR R4, since FHIR R5 `TestPlan` is not mapped."
             }

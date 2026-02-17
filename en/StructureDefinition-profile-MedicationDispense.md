@@ -1,4 +1,4 @@
-# ProfileMedicationDispense - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileMedicationDispense - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileMedicationDispense 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
   "title" : "Cross-version Profile for R5.MedicationDispense for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.198731-06:00",
+  "date" : "2026-02-17T14:42:26.8474946-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -179,7 +179,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "path" : "MedicationDispense.extension",
         "sliceName" : "statusChanged",
         "short" : "Cross-version extension for MedicationDispense.statusChanged from R5 for use in FHIR R4",
-        "comment" : "Element `MedicationDispense.statusChanged` is will have a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.",
+        "comment" : "Element `MedicationDispense.statusChanged` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -201,7 +201,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "path" : "MedicationDispense.extension",
         "sliceName" : "recorded",
         "short" : "Cross-version extension for MedicationDispense.recorded from R5 for use in FHIR R4",
-        "comment" : "Element `MedicationDispense.recorded` is will have a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.",
+        "comment" : "Element `MedicationDispense.recorded` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -223,7 +223,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "path" : "MedicationDispense.extension",
         "sliceName" : "renderedDosageInstruction",
         "short" : "Cross-version extension for MedicationDispense.renderedDosageInstruction from R5 for use in FHIR R4",
-        "comment" : "Element `MedicationDispense.renderedDosageInstruction` is will have a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.",
+        "comment" : "Element `MedicationDispense.renderedDosageInstruction` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -246,7 +246,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "sliceName" : "basedOn",
         "short" : "Cross-version extension for MedicationDispense.basedOn from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CarePlan in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.basedOn` is will have a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.basedOn` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -290,7 +290,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "sliceName" : "partOf",
         "short" : "Cross-version extension for MedicationDispense.partOf from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/MedicationAdministration in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.partOf` is mapped to FHIR R4 element `MedicationDispense.partOf`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.partOf` has is mapped to FHIR R4 element `MedicationDispense.partOf`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -308,8 +308,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         ]
       },
       {
-        "id" : "MedicationDispense.performer.actor.extension",
-        "path" : "MedicationDispense.performer.actor.extension",
+        "id" : "MedicationDispense.performer.extension",
+        "path" : "MedicationDispense.performer.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -320,23 +320,22 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "MedicationDispense.performer.actor",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "MedicationDispense.performer.actor.extension:actor",
-        "path" : "MedicationDispense.performer.actor.extension",
-        "sliceName" : "actor",
-        "short" : "Cross-version extension for MedicationDispense.performer.actor from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.performer.actor` is mapped to FHIR R4 element `MedicationDispense.performer.actor`.",
-        "min" : 1,
-        "max" : "1",
+        "id" : "MedicationDispense.performer.extension:performer",
+        "path" : "MedicationDispense.performer.extension",
+        "sliceName" : "performer",
+        "short" : "Cross-version extension for MedicationDispense.performer from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationDispense.performer` has is mapped to FHIR R4 element `MedicationDispense.performer`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -346,7 +345,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.performer|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -378,7 +377,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "sliceName" : "receiver",
         "short" : "Cross-version extension for MedicationDispense.receiver from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Location,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.receiver` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.receiver` is mapped to FHIR R4 element `MedicationDispense.receiver`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.receiver` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.receiver` has is mapped to FHIR R4 element `MedicationDispense.receiver`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -396,8 +395,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         ]
       },
       {
-        "id" : "MedicationDispense.substitution.responsibleParty.extension",
-        "path" : "MedicationDispense.substitution.responsibleParty.extension",
+        "id" : "MedicationDispense.substitution.extension",
+        "path" : "MedicationDispense.substitution.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -411,18 +410,17 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "MedicationDispense.substitution.responsibleParty",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "MedicationDispense.substitution.responsibleParty.extension:responsibleParty",
-        "path" : "MedicationDispense.substitution.responsibleParty.extension",
-        "sliceName" : "responsibleParty",
-        "short" : "Cross-version extension for MedicationDispense.substitution.responsibleParty from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.substitution.responsibleParty` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.substitution.responsibleParty` is mapped to FHIR R4 element `MedicationDispense.substitution.responsibleParty`.",
+        "id" : "MedicationDispense.substitution.extension:substitution",
+        "path" : "MedicationDispense.substitution.extension",
+        "sliceName" : "substitution",
+        "short" : "Cross-version extension for MedicationDispense.substitution from R5 for use in FHIR R4",
+        "comment" : "Element `MedicationDispense.substitution` has is mapped to FHIR R4 element `MedicationDispense.substitution`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -434,7 +432,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Medicatio
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.substitution|0.0.1-snapshot-3"
             ]
           }
         ]

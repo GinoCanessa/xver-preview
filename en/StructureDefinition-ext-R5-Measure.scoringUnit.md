@@ -1,4 +1,4 @@
-# ExtensionMeasure_ScoringUnit - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionMeasure_ScoringUnit - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Measure.scoringUnit` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Measure.sc
   "title" : "Cross-version Extension `R5.Measure.scoringUnit` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Measure.sc
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Measure.scoringUnit` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Measure.scoringUnit` 0..1 `CodeableConcept`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Measure.scoringUnit` 0..1 `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Measure.scoringUnit` is will have a context of Measure based on following the parent source element upwards and mapping to `Measure`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Measure.scoringUnit` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Measure.scoringUnit` 0..1 `CodeableConcept`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Measure.scoringUnit` 0..1 `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Measure.scoringUnit` has a context of Measure based on following the parent source element upwards and mapping to `Measure`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

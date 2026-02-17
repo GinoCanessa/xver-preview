@@ -1,4 +1,4 @@
-# ConceptMapR5SupplyDeliveryElementsForR4SupplyDelivery - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5SupplyDeliveryElementsForR4SupplyDelivery - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5SupplyDeliveryElementsForR4SupplyDelivery 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2778847-06:00",
+  "date" : "2026-02-17T14:42:27.6121268-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `SupplyDelivery` is representable via FHIR R4 Resource `SupplyDelivery`.\nElement `SupplyDelivery` is mapped to FHIR R4 element `SupplyDelivery`."
+              "comment" : "FHIR R5 Resource `SupplyDelivery` is representable via FHIR R4 Resource `SupplyDelivery`.\nElement `SupplyDelivery` has is mapped to FHIR R4 element `SupplyDelivery`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.meta` is mapped to FHIR R4 element `SupplyDelivery.meta`."
+              "comment" : "Element `SupplyDelivery.meta` has is mapped to FHIR R4 element `SupplyDelivery.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.implicitRules` is mapped to FHIR R4 element `SupplyDelivery.implicitRules`."
+              "comment" : "Element `SupplyDelivery.implicitRules` has is mapped to FHIR R4 element `SupplyDelivery.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.language` is mapped to FHIR R4 element `SupplyDelivery.language`."
+              "comment" : "Element `SupplyDelivery.language` has is mapped to FHIR R4 element `SupplyDelivery.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.text` is mapped to FHIR R4 element `SupplyDelivery.text`."
+              "comment" : "Element `SupplyDelivery.text` has is mapped to FHIR R4 element `SupplyDelivery.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.contained` is mapped to FHIR R4 element `SupplyDelivery.contained`."
+              "comment" : "Element `SupplyDelivery.contained` has is mapped to FHIR R4 element `SupplyDelivery.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.identifier` is mapped to FHIR R4 element `SupplyDelivery.identifier`."
+              "comment" : "Element `SupplyDelivery.identifier` has is mapped to FHIR R4 element `SupplyDelivery.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.basedOn` is mapped to FHIR R4 element `SupplyDelivery.basedOn`."
+              "comment" : "Element `SupplyDelivery.basedOn` has is mapped to FHIR R4 element `SupplyDelivery.basedOn`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.partOf` is mapped to FHIR R4 element `SupplyDelivery.partOf`."
+              "comment" : "Element `SupplyDelivery.partOf` has is mapped to FHIR R4 element `SupplyDelivery.partOf`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.status` is mapped to FHIR R4 element `SupplyDelivery.status`."
+              "comment" : "Element `SupplyDelivery.status` has is mapped to FHIR R4 element `SupplyDelivery.status`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.patient",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.patient` is mapped to FHIR R4 element `SupplyDelivery.patient`."
+              "comment" : "Element `SupplyDelivery.patient` has is mapped to FHIR R4 element `SupplyDelivery.patient`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.type` is mapped to FHIR R4 element `SupplyDelivery.type`."
+              "comment" : "Element `SupplyDelivery.type` has is mapped to FHIR R4 element `SupplyDelivery.type`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.suppliedItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.suppliedItem` is mapped to FHIR R4 element `SupplyDelivery.suppliedItem`."
+              "comment" : "Element `SupplyDelivery.suppliedItem` has is mapped to FHIR R4 element `SupplyDelivery.suppliedItem`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.suppliedItem.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.suppliedItem.quantity` is mapped to FHIR R4 element `SupplyDelivery.suppliedItem.quantity`."
+              "comment" : "Element `SupplyDelivery.suppliedItem.quantity` is part of an existing definition because parent element `SupplyDelivery.suppliedItem` requires a cross-version extension.\nElement `SupplyDelivery.suppliedItem.quantity` has is mapped to FHIR R4 element `SupplyDelivery.suppliedItem.quantity`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.suppliedItem.item[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `SupplyDelivery.suppliedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery.suppliedItem`.\nElement `SupplyDelivery.suppliedItem.item[x]` is mapped to FHIR R4 element `SupplyDelivery.suppliedItem.item[x]`.\nNote that the target element context `SupplyDelivery.suppliedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery.suppliedItem`."
+              "comment" : "Element `SupplyDelivery.suppliedItem.item[x]` is part of an existing definition because parent element `SupplyDelivery.suppliedItem` requires a cross-version extension.\nNote that the target element context `SupplyDelivery.suppliedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery.suppliedItem`.\nElement `SupplyDelivery.suppliedItem.item[x]` has is mapped to FHIR R4 element `SupplyDelivery.suppliedItem.item[x]`, but has no comparisons.\nNote that the target element context `SupplyDelivery.suppliedItem.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery.suppliedItem`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.occurrence[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `SupplyDelivery.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery`.\nElement `SupplyDelivery.occurrence[x]` is mapped to FHIR R4 element `SupplyDelivery.occurrence[x]`.\nNote that the target element context `SupplyDelivery.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery`."
+              "comment" : "Note that the target element context `SupplyDelivery.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery`.\nElement `SupplyDelivery.occurrence[x]` has is mapped to FHIR R4 element `SupplyDelivery.occurrence[x]`, but has no comparisons.\nNote that the target element context `SupplyDelivery.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SupplyDelivery`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.supplier",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.supplier` is mapped to FHIR R4 element `SupplyDelivery.supplier`."
+              "comment" : "Element `SupplyDelivery.supplier` has is mapped to FHIR R4 element `SupplyDelivery.supplier`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.destination",
               "equivalence" : "relatedto",
-              "comment" : "Element `SupplyDelivery.destination` is mapped to FHIR R4 element `SupplyDelivery.destination`."
+              "comment" : "Element `SupplyDelivery.destination` has is mapped to FHIR R4 element `SupplyDelivery.destination`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SupplyDelivery#SupplyDelivery.receiver",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyDelivery.receiver` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyDelivery.receiver` is mapped to FHIR R4 element `SupplyDelivery.receiver`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SupplyDelivery.receiver` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SupplyDelivery.receiver` has is mapped to FHIR R4 element `SupplyDelivery.receiver`, but has no comparisons."
             }
           ]
         }

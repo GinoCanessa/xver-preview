@@ -1,4 +1,4 @@
-# ConceptMapR5ContactDetailElementsForR4ContactDetail - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ContactDetailElementsForR4ContactDetail - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ContactDetailElementsForR4ContactDetail 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.6922724-06:00",
+  "date" : "2026-02-17T14:42:27.1143561-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactDetail#ContactDetail",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `ContactDetail` is representable via FHIR R4 extensions.\nElement `ContactDetail` is mapped to FHIR R4 element `ContactDetail`."
+              "comment" : "FHIR R5 ComplexType `ContactDetail` is representable via FHIR R4 extensions.\nElement `ContactDetail` has is mapped to FHIR R4 element `ContactDetail`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactDetail#ContactDetail.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactDetail.name` is mapped to FHIR R4 element `ContactDetail.name`."
+              "comment" : "Element `ContactDetail.name` has is mapped to FHIR R4 element `ContactDetail.name`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactDetail#ContactDetail.telecom",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactDetail.telecom` is mapped to FHIR R4 element `ContactDetail.telecom`."
+              "comment" : "Element `ContactDetail.telecom` has is mapped to FHIR R4 element `ContactDetail.telecom`, but has no comparisons."
             }
           ]
         }

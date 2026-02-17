@@ -1,4 +1,4 @@
-# ProfileDeviceMetric - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileDeviceMetric - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileDeviceMetric 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 DeviceMetric content to be represented via 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.EvidenceVariable.characteristic.definitionByTypeAndValue` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceVariable.cha.dBTAV.md) and [Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceVariable.characteristic.md)
+* Refer to this Profile: [Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4](StructureDefinition-ext-R5-EvidenceVariable.characteristic.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-DeviceMetric)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceMet
   "title" : "Cross-version Profile for R5.DeviceMetric for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0710226-06:00",
+  "date" : "2026-02-17T14:42:26.7874031-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -164,7 +164,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceMet
         "path" : "DeviceMetric.extension",
         "sliceName" : "measurementFrequency",
         "short" : "Cross-version extension for DeviceMetric.measurementFrequency from R5 for use in FHIR R4",
-        "comment" : "Element `DeviceMetric.measurementFrequency` is will have a context of DeviceMetric based on following the parent source element upwards and mapping to `DeviceMetric`.",
+        "comment" : "Element `DeviceMetric.measurementFrequency` has a context of DeviceMetric based on following the parent source element upwards and mapping to `DeviceMetric`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -177,6 +177,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DeviceMet
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceMetric.measurementFrequency|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DeviceMetric.calibration.extension",
+        "path" : "DeviceMetric.calibration.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "DeviceMetric.calibration.extension:calibration",
+        "path" : "DeviceMetric.calibration.extension",
+        "sliceName" : "calibration",
+        "short" : "Cross-version extension for DeviceMetric.calibration from R5 for use in FHIR R4",
+        "comment" : "Element `DeviceMetric.calibration` has is mapped to FHIR R4 element `DeviceMetric.calibration`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceMetric.calibration|0.0.1-snapshot-3"
             ]
           }
         ]

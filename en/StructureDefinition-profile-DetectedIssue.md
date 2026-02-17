@@ -1,4 +1,4 @@
-# ProfileDetectedIssue - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileDetectedIssue - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileDetectedIssue 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
   "title" : "Cross-version Profile for R5.DetectedIssue for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0616976-06:00",
+  "date" : "2026-02-17T14:42:26.7809655-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
         "path" : "DetectedIssue.extension",
         "sliceName" : "category",
         "short" : "Cross-version extension for DetectedIssue.category from R5 for use in FHIR R4",
-        "comment" : "Element `DetectedIssue.category` is will have a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`.",
+        "comment" : "Element `DetectedIssue.category` has a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -197,7 +197,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
         "sliceName" : "encounter",
         "short" : "Cross-version extension for DetectedIssue.encounter from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.encounter` is will have a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `DetectedIssue.encounter` has a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -240,7 +240,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
         "path" : "DetectedIssue.status.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for DetectedIssue.status from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `DetectedIssue.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DetectedIssue.status` is mapped to FHIR R4 element `DetectedIssue.status`.",
+        "comment" : "Note that the target element context `DetectedIssue.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `DetectedIssue.status` has is mapped to FHIR R4 element `DetectedIssue.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -253,6 +253,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.status|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "DetectedIssue.evidence.extension",
+        "path" : "DetectedIssue.evidence.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "DetectedIssue.evidence.extension:evidence",
+        "path" : "DetectedIssue.evidence.extension",
+        "sliceName" : "evidence",
+        "short" : "Cross-version extension for DetectedIssue.evidence from R5 for use in FHIR R4",
+        "comment" : "Element `DetectedIssue.evidence` has is mapped to FHIR R4 element `DetectedIssue.evidence`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -279,11 +322,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
         }
       },
       {
-        "id" : "DetectedIssue.mitigation.extension:note",
+        "id" : "DetectedIssue.mitigation.extension:mitigation",
         "path" : "DetectedIssue.mitigation.extension",
-        "sliceName" : "note",
-        "short" : "Cross-version extension for DetectedIssue.mitigation.note from R5 for use in FHIR R4",
-        "comment" : "Element `DetectedIssue.mitigation.note` is will have a context of DetectedIssue.mitigation based on following the parent source element upwards and mapping to `DetectedIssue`.",
+        "sliceName" : "mitigation",
+        "short" : "Cross-version extension for DetectedIssue.mitigation from R5 for use in FHIR R4",
+        "comment" : "Element `DetectedIssue.mitigation` has is mapped to FHIR R4 element `DetectedIssue.mitigation`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -295,7 +338,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-DetectedI
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation.note|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation|0.0.1-snapshot-3"
             ]
           }
         ]

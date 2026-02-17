@@ -1,4 +1,4 @@
-# ExtensionManufacturedItemDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionManufacturedItemDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ManufacturedItemDefinition` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Manufactur
   "title" : "Cross-version Extension `R5.ManufacturedItemDefinition` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -505,7 +505,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Manufactur
         "sliceName" : "country",
         "short" : "The country in which the marketing authorization has been granted shall be specified It should be specified using the ISO 3166 ‑ 1 alpha-2 code elements",
         "definition" : "The country in which the marketing authorization has been granted shall be specified It should be specified using the ISO 3166 ‑ 1 alpha-2 code elements.",
-        "requirements" : "Element `MarketingStatus.country` is mapped to FHIR R4 element `MarketingStatus.country`.",
+        "requirements" : "Element `MarketingStatus.country` has is mapped to FHIR R4 element `MarketingStatus.country`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -550,7 +550,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Manufactur
         "sliceName" : "jurisdiction",
         "short" : "Where a Medicines Regulatory Agency has granted a marketing authorization for which specific provisions within a jurisdiction apply, the jurisdiction can be specified using an appropriate controlled terminology The controlled term and the controlled term identifier shall be specified",
         "definition" : "Where a Medicines Regulatory Agency has granted a marketing authorization for which specific provisions within a jurisdiction apply, the jurisdiction can be specified using an appropriate controlled terminology The controlled term and the controlled term identifier shall be specified.",
-        "requirements" : "Element `MarketingStatus.jurisdiction` is mapped to FHIR R4 element `MarketingStatus.jurisdiction`.",
+        "requirements" : "Element `MarketingStatus.jurisdiction` has is mapped to FHIR R4 element `MarketingStatus.jurisdiction`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -595,7 +595,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Manufactur
         "sliceName" : "status",
         "short" : "This attribute provides information on the status of the marketing of the medicinal product See ISO/TS 20443 for more information and examples",
         "definition" : "This attribute provides information on the status of the marketing of the medicinal product See ISO/TS 20443 for more information and examples.",
-        "requirements" : "Element `MarketingStatus.status` is mapped to FHIR R4 element `MarketingStatus.status`.",
+        "requirements" : "Element `MarketingStatus.status` has is mapped to FHIR R4 element `MarketingStatus.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -640,7 +640,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Manufactur
         "sliceName" : "dateRange",
         "short" : "The date when the Medicinal Product is placed on the market by the Marketing Authorization Holder (or where applicable, the manufacturer/distributor) in a country and/or jurisdiction shall be provided A complete date consisting of day, month and year shall be specified using the ISO 8601 date format NOTE “Placed on the market” refers to the release of the Medicinal Product into the distribution chain",
         "definition" : "The date when the Medicinal Product is placed on the market by the Marketing Authorization Holder (or where applicable, the manufacturer/distributor) in a country and/or jurisdiction shall be provided A complete date consisting of day, month and year shall be specified using the ISO 8601 date format NOTE “Placed on the market” refers to the release of the Medicinal Product into the distribution chain.",
-        "requirements" : "Element `MarketingStatus.dateRange` is mapped to FHIR R4 element `MarketingStatus.dateRange`.",
+        "requirements" : "Element `MarketingStatus.dateRange` has is mapped to FHIR R4 element `MarketingStatus.dateRange`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -685,7 +685,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Manufactur
         "sliceName" : "restoreDate",
         "short" : "The date when the Medicinal Product is placed on the market by the Marketing Authorization Holder (or where applicable, the manufacturer/distributor) in a country and/or jurisdiction shall be provided A complete date consisting of day, month and year shall be specified using the ISO 8601 date format NOTE “Placed on the market” refers to the release of the Medicinal Product into the distribution chain",
         "definition" : "The date when the Medicinal Product is placed on the market by the Marketing Authorization Holder (or where applicable, the manufacturer/distributor) in a country and/or jurisdiction shall be provided A complete date consisting of day, month and year shall be specified using the ISO 8601 date format NOTE “Placed on the market” refers to the release of the Medicinal Product into the distribution chain.",
-        "requirements" : "Element `MarketingStatus.restoreDate` is mapped to FHIR R4 element `MarketingStatus.restoreDate`.",
+        "requirements" : "Element `MarketingStatus.restoreDate` has is mapped to FHIR R4 element `MarketingStatus.restoreDate`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -808,6 +808,139 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Manufactur
         }
       },
       {
+        "id" : "Extension.extension:property.extension",
+        "path" : "Extension.extension.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:property.extension:type",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "type",
+        "short" : "A code expressing the type of characteristic",
+        "definition" : "A code expressing the type of characteristic.",
+        "requirements" : "Element `ManufacturedItemDefinition.property.type` is part of an existing definition because parent element `ManufacturedItemDefinition.property` requires a cross-version extension.\nElement `ManufacturedItemDefinition.property.type` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:property.extension:type.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "type"
+      },
+      {
+        "id" : "Extension.extension:property.extension:type.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "A code expressing the type of characteristic",
+        "definition" : "A code expressing the type of characteristic.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:property.extension:value",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "value",
+        "short" : "A value for the characteristic",
+        "definition" : "A value for the characteristic.",
+        "requirements" : "Element `ManufacturedItemDefinition.property.value[x]` is part of an existing definition because parent element `ManufacturedItemDefinition.property` requires a cross-version extension.\nElement `ManufacturedItemDefinition.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:property.extension:value.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "value"
+      },
+      {
+        "id" : "Extension.extension:property.extension:value.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "A value for the characteristic",
+        "definition" : "A value for the characteristic.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          },
+          {
+            "code" : "Quantity"
+          },
+          {
+            "code" : "date"
+          },
+          {
+            "code" : "boolean"
+          },
+          {
+            "code" : "markdown"
+          },
+          {
+            "code" : "Attachment"
+          },
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/profile-Binary|0.0.1-snapshot-3",
+              "http://hl7.org/fhir/StructureDefinition/Binary|4.0.1"
+            ]
+          }
+        ]
+      },
+      {
         "id" : "Extension.extension:property.url",
         "path" : "Extension.extension.url",
         "min" : 1,
@@ -843,6 +976,629 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Manufactur
           "path" : "Extension.extension",
           "min" : 0,
           "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension",
+        "path" : "Extension.extension.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:type",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "type",
+        "short" : "Defining type of the component e.g. shell, layer, ink",
+        "definition" : "Defining type of the component e.g. shell, layer, ink.",
+        "requirements" : "Element `ManufacturedItemDefinition.component.type` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.type` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:type.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "type"
+      },
+      {
+        "id" : "Extension.extension:component.extension:type.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "Defining type of the component e.g. shell, layer, ink",
+        "definition" : "Defining type of the component e.g. shell, layer, ink.",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:component.extension:function",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "function",
+        "short" : "The function of this component within the item e.g. delivers active ingredient, masks taste",
+        "definition" : "The function of this component within the item e.g. delivers active ingredient, masks taste.",
+        "requirements" : "Element `ManufacturedItemDefinition.component.function` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.function` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:function.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "function"
+      },
+      {
+        "id" : "Extension.extension:component.extension:function.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "The function of this component within the item e.g. delivers active ingredient, masks taste",
+        "definition" : "The function of this component within the item e.g. delivers active ingredient, masks taste.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:component.extension:amount",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "amount",
+        "short" : "The measurable amount of total quantity of all substances in the component, expressable in different ways (e.g. by mass or volume)",
+        "definition" : "The measurable amount of total quantity of all substances in the component, expressable in different ways (e.g. by mass or volume).",
+        "requirements" : "Element `ManufacturedItemDefinition.component.amount` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.amount` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:amount.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "amount"
+      },
+      {
+        "id" : "Extension.extension:component.extension:amount.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "The measurable amount of total quantity of all substances in the component, expressable in different ways (e.g. by mass or volume)",
+        "definition" : "The measurable amount of total quantity of all substances in the component, expressable in different ways (e.g. by mass or volume).",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "Quantity"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "constituent",
+        "short" : "A reference to a constituent of the manufactured item as a whole, linked here so that its component location within the item can be indicated. This not where the item's ingredient are primarily stated (for which see Ingredient.for or ManufacturedItemDefinition.ingredient)",
+        "definition" : "A reference to a constituent of the manufactured item as a whole, linked here so that its component location within the item can be indicated. This not where the item's ingredient are primarily stated (for which see Ingredient.for or ManufacturedItemDefinition.ingredient).",
+        "requirements" : "Element `ManufacturedItemDefinition.component.constituent` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.constituent` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension",
+        "path" : "Extension.extension.extension.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:amount",
+        "path" : "Extension.extension.extension.extension",
+        "sliceName" : "amount",
+        "short" : "The measurable amount of the substance, expressable in different ways (e.g. by mass or volume)",
+        "definition" : "The measurable amount of the substance, expressable in different ways (e.g. by mass or volume).",
+        "requirements" : "Element `ManufacturedItemDefinition.component.constituent.amount` is part of an existing definition because parent element `ManufacturedItemDefinition.component.constituent` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.constituent.amount` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:amount.url",
+        "path" : "Extension.extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "amount"
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:amount.value[x]",
+        "path" : "Extension.extension.extension.extension.value[x]",
+        "short" : "The measurable amount of the substance, expressable in different ways (e.g. by mass or volume)",
+        "definition" : "The measurable amount of the substance, expressable in different ways (e.g. by mass or volume).",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "Quantity"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:location",
+        "path" : "Extension.extension.extension.extension",
+        "sliceName" : "location",
+        "short" : "The physical location of the constituent/ingredient within the component",
+        "definition" : "The physical location of the constituent/ingredient within the component. Example – if the component is the bead in the capsule, then the location would be where the ingredient resides within the product part – intragranular, extra-granular, etc.",
+        "requirements" : "Element `ManufacturedItemDefinition.component.constituent.location` is part of an existing definition because parent element `ManufacturedItemDefinition.component.constituent` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.constituent.location` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:location.url",
+        "path" : "Extension.extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "location"
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:location.value[x]",
+        "path" : "Extension.extension.extension.extension.value[x]",
+        "short" : "The physical location of the constituent/ingredient within the component",
+        "definition" : "The physical location of the constituent/ingredient within the component. Example – if the component is the bead in the capsule, then the location would be where the ingredient resides within the product part – intragranular, extra-granular, etc.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:function",
+        "path" : "Extension.extension.extension.extension",
+        "sliceName" : "function",
+        "short" : "The function of this constituent within the component e.g. binder",
+        "definition" : "The function of this constituent within the component e.g. binder.",
+        "requirements" : "Element `ManufacturedItemDefinition.component.constituent.function` is part of an existing definition because parent element `ManufacturedItemDefinition.component.constituent` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.constituent.function` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:function.url",
+        "path" : "Extension.extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "function"
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:function.value[x]",
+        "path" : "Extension.extension.extension.extension.value[x]",
+        "short" : "The function of this constituent within the component e.g. binder",
+        "definition" : "The function of this constituent within the component e.g. binder.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient",
+        "path" : "Extension.extension.extension.extension",
+        "sliceName" : "hasIngredient",
+        "short" : "The ingredient that is the constituent of the given component",
+        "definition" : "The ingredient that is the constituent of the given component.",
+        "requirements" : "Element `ManufacturedItemDefinition.component.constituent.hasIngredient` is part of an existing definition because parent element `ManufacturedItemDefinition.component.constituent` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.constituent.hasIngredient` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.extension",
+        "path" : "Extension.extension.extension.extension.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.extension:_datatype",
+        "path" : "Extension.extension.extension.extension.extension",
+        "sliceName" : "_datatype",
+        "short" : "DataType slice for a FHIR R5 `CodeableReference` value",
+        "definition" : "Slice to indicate the presence of a R5 `CodeableReference` in FHIR R4",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.extension:_datatype.url",
+        "path" : "Extension.extension.extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/StructureDefinition/_datatype"
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.extension:_datatype.value[x]",
+        "path" : "Extension.extension.extension.extension.extension.value[x]",
+        "comment" : "Must be: CodeableReference",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "string"
+          }
+        ],
+        "fixedString" : "CodeableReference"
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.extension:concept",
+        "path" : "Extension.extension.extension.extension.extension",
+        "sliceName" : "concept",
+        "short" : "Reference to a concept (by class)",
+        "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.extension:concept.url",
+        "path" : "Extension.extension.extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "concept"
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.extension:concept.value[x]",
+        "path" : "Extension.extension.extension.extension.extension.value[x]",
+        "short" : "Reference to a concept (by class)",
+        "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.extension:reference",
+        "path" : "Extension.extension.extension.extension.extension",
+        "sliceName" : "reference",
+        "short" : "Reference to a resource (by instance)",
+        "definition" : "A reference to a resource the provides exact details about the information being referenced.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.extension:reference.url",
+        "path" : "Extension.extension.extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "reference"
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.extension:reference.value[x]",
+        "path" : "Extension.extension.extension.extension.extension.value[x]",
+        "short" : "Reference to a resource (by instance)",
+        "definition" : "A reference to a resource the provides exact details about the information being referenced.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/profile-Ingredient|0.0.1-snapshot-3",
+              "http://hl7.org/fhir/StructureDefinition/Basic|4.0.1"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.url",
+        "path" : "Extension.extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "hasIngredient"
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.extension:hasIngredient.value[x]",
+        "path" : "Extension.extension.extension.extension.value[x]",
+        "min" : 0,
+        "max" : "0",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "constituent"
+      },
+      {
+        "id" : "Extension.extension:component.extension:constituent.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "min" : 0,
+        "max" : "0",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:property",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "property",
+        "short" : "General characteristics of this component",
+        "definition" : "General characteristics of this component.",
+        "requirements" : "Element `ManufacturedItemDefinition.component.property` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.property` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:property.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.property"
+      },
+      {
+        "id" : "Extension.extension:component.extension:property.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "min" : 0,
+        "max" : "0",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:component",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "component",
+        "short" : "A component that this component contains or is made from",
+        "definition" : "A component that this component contains or is made from.",
+        "requirements" : "Element `ManufacturedItemDefinition.component.component` is part of an existing definition because parent element `ManufacturedItemDefinition.component` requires a cross-version extension.\nElement `ManufacturedItemDefinition.component.component` is not mapped to FHIR R4, since FHIR R5 `ManufacturedItemDefinition` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:component.extension:component.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ManufacturedItemDefinition.component"
+      },
+      {
+        "id" : "Extension.extension:component.extension:component.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "min" : 0,
+        "max" : "0",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
         }
       },
       {

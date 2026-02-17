@@ -1,4 +1,4 @@
-# ExtensionCoverageEligibilityRequest_Event - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionCoverageEligibilityRequest_Event - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.CoverageEligibilityRequest.event` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CoverageEl
   "title" : "Cross-version Extension `R5.CoverageEligibilityRequest.event` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CoverageEl
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `CoverageEligibilityRequest.event` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`CoverageEligibilityRequest.event` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `CoverageEligibilityRequest.event` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `CoverageEligibilityRequest.event` is will have a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `CoverageEligibilityRequest.event` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`CoverageEligibilityRequest.event` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `CoverageEligibilityRequest.event` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `CoverageEligibilityRequest.event` has a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CoverageEl
         "sliceName" : "type",
         "short" : "Specific event",
         "definition" : "A coded event such as when a service is expected or a card printed.",
-        "requirements" : "Element `CoverageEligibilityRequest.event.type` is part of an existing definition because parent element `CoverageEligibilityRequest.event` requires a cross-version extension.\nElement `CoverageEligibilityRequest.event.type` is will have a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.",
+        "requirements" : "Element `CoverageEligibilityRequest.event.type` is part of an existing definition because parent element `CoverageEligibilityRequest.event` requires a cross-version extension.\nElement `CoverageEligibilityRequest.event.type` has a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CoverageEl
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.event.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CoverageEl
         "sliceName" : "when",
         "short" : "Occurance date or period",
         "definition" : "A date or period in the past or future indicating when the event occurred or is expectd to occur.",
-        "requirements" : "Element `CoverageEligibilityRequest.event.when[x]` is part of an existing definition because parent element `CoverageEligibilityRequest.event` requires a cross-version extension.\nElement `CoverageEligibilityRequest.event.when[x]` is will have a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.",
+        "requirements" : "Element `CoverageEligibilityRequest.event.when[x]` is part of an existing definition because parent element `CoverageEligibilityRequest.event` requires a cross-version extension.\nElement `CoverageEligibilityRequest.event.when[x]` has a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-CoverageEl
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "when"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.event.when"
       },
       {
         "id" : "Extension.extension:when.value[x]",

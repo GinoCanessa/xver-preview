@@ -1,4 +1,4 @@
-# ProfileSubscription - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileSubscription - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileSubscription 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
   "title" : "Cross-version Profile for R5.Subscription for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3430726-06:00",
+  "date" : "2026-02-17T14:42:26.9208067-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -164,7 +164,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "path" : "Subscription.extension",
         "sliceName" : "name",
         "short" : "Cross-version extension for Subscription.name from R5 for use in FHIR R4",
-        "comment" : "Element `Subscription.name` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "comment" : "Element `Subscription.name` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "path" : "Subscription.extension",
         "sliceName" : "filterBy",
         "short" : "Cross-version extension for Subscription.filterBy from R5 for use in FHIR R4",
-        "comment" : "Element `Subscription.filterBy` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "comment" : "Element `Subscription.filterBy` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -208,7 +208,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "path" : "Subscription.extension",
         "sliceName" : "parameter",
         "short" : "Cross-version extension for Subscription.parameter from R5 for use in FHIR R4",
-        "comment" : "Element `Subscription.parameter` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "comment" : "Element `Subscription.parameter` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "path" : "Subscription.extension",
         "sliceName" : "heartbeatPeriod",
         "short" : "Cross-version extension for Subscription.heartbeatPeriod from R5 for use in FHIR R4",
-        "comment" : "Element `Subscription.heartbeatPeriod` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "comment" : "Element `Subscription.heartbeatPeriod` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "path" : "Subscription.extension",
         "sliceName" : "timeout",
         "short" : "Cross-version extension for Subscription.timeout from R5 for use in FHIR R4",
-        "comment" : "Element `Subscription.timeout` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "comment" : "Element `Subscription.timeout` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "path" : "Subscription.extension",
         "sliceName" : "content",
         "short" : "Cross-version extension for Subscription.content from R5 for use in FHIR R4",
-        "comment" : "Element `Subscription.content` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "comment" : "Element `Subscription.content` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -296,7 +296,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "path" : "Subscription.extension",
         "sliceName" : "maxCount",
         "short" : "Cross-version extension for Subscription.maxCount from R5 for use in FHIR R4",
-        "comment" : "Element `Subscription.maxCount` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "comment" : "Element `Subscription.maxCount` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -319,7 +319,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "sliceName" : "topic",
         "short" : "Cross-version extension for Subscription.topic from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/SubscriptionTopic in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Subscription.topic` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.topic` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `Subscription.topic` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -342,7 +342,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "sliceName" : "managingEntity",
         "short" : "Cross-version extension for Subscription.managingEntity from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/HealthcareService,http://hl7.org/fhir/StructureDefinition/Organization,http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/Practitioner,http://hl7.org/fhir/StructureDefinition/PractitionerRole,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Subscription.managingEntity` is will have a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Subscription.managingEntity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Subscription.managingEntity` has a context of Subscription based on following the parent source element upwards and mapping to `Subscription`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -385,7 +385,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "path" : "Subscription.status.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for Subscription.status from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Subscription.status` is mapped to FHIR R4 element `Subscription.status`.",
+        "comment" : "Note that the target element context `Subscription.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Subscription.status` has is mapped to FHIR R4 element `Subscription.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -428,7 +428,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Subscript
         "path" : "Subscription.channel.type.extension",
         "sliceName" : "channelType",
         "short" : "Cross-version extension for Subscription.channelType from R5 for use in FHIR R4",
-        "comment" : "Element `Subscription.channelType` is mapped to FHIR R4 element `Subscription.channel.type`.",
+        "comment" : "Element `Subscription.channelType` has is mapped to FHIR R4 element `Subscription.channel.type`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {

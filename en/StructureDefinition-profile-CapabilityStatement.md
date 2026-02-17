@@ -1,4 +1,4 @@
-# ProfileCapabilityStatement - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileCapabilityStatement - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileCapabilityStatement 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 CapabilityStatement content to be represent
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ActorDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ActorDefinition.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md), [Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.participant.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
+* Refer to this Profile: [Cross-version Extension `R5.ActivityDefinition.participant` for use in FHIR R4](StructureDefinition-ext-R5-ActivityDefinition.participant.md), [Cross-version Extension `R5.ActorDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ActorDefinition.md), [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.actor.md)... Show 2 more, [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md) and [Cross-version Extension `R5.TestScript.metadata` for use in FHIR R4](StructureDefinition-ext-R5-TestScript.metadata.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-CapabilityStatement)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
   "title" : "Cross-version Profile for R5.CapabilityStatement for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0028899-06:00",
+  "date" : "2026-02-17T14:42:26.7423718-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
         "path" : "CapabilityStatement.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for CapabilityStatement.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `CapabilityStatement.versionAlgorithm[x]` is will have a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`.",
+        "comment" : "Element `CapabilityStatement.versionAlgorithm[x]` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
         "path" : "CapabilityStatement.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for CapabilityStatement.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `CapabilityStatement.copyrightLabel` is will have a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`.",
+        "comment" : "Element `CapabilityStatement.copyrightLabel` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -218,7 +218,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
         "path" : "CapabilityStatement.extension",
         "sliceName" : "acceptLanguage",
         "short" : "Cross-version extension for CapabilityStatement.acceptLanguage from R5 for use in FHIR R4",
-        "comment" : "Element `CapabilityStatement.acceptLanguage` is will have a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`.",
+        "comment" : "Element `CapabilityStatement.acceptLanguage` has a context of CapabilityStatement based on following the parent source element upwards and mapping to `CapabilityStatement`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -231,6 +231,92 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.acceptLanguage|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CapabilityStatement.software.extension",
+        "path" : "CapabilityStatement.software.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CapabilityStatement.software.extension:software",
+        "path" : "CapabilityStatement.software.extension",
+        "sliceName" : "software",
+        "short" : "Cross-version extension for CapabilityStatement.software from R5 for use in FHIR R4",
+        "comment" : "Element `CapabilityStatement.software` has is mapped to FHIR R4 element `CapabilityStatement.software`, but has no comparisons.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.software|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "CapabilityStatement.implementation.extension",
+        "path" : "CapabilityStatement.implementation.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "CapabilityStatement.implementation.extension:implementation",
+        "path" : "CapabilityStatement.implementation.extension",
+        "sliceName" : "implementation",
+        "short" : "Cross-version extension for CapabilityStatement.implementation from R5 for use in FHIR R4",
+        "comment" : "Element `CapabilityStatement.implementation` has is mapped to FHIR R4 element `CapabilityStatement.implementation`, but has no comparisons.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.implementation|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -261,7 +347,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
         "path" : "CapabilityStatement.fhirVersion.extension",
         "sliceName" : "fhirVersion",
         "short" : "Cross-version extension for CapabilityStatement.fhirVersion from R5 for use in FHIR R4",
-        "comment" : "Element `CapabilityStatement.fhirVersion` is mapped to FHIR R4 element `CapabilityStatement.fhirVersion`.",
+        "comment" : "Element `CapabilityStatement.fhirVersion` has is mapped to FHIR R4 element `CapabilityStatement.fhirVersion`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -279,8 +365,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
         ]
       },
       {
-        "id" : "CapabilityStatement.rest.resource.extension",
-        "path" : "CapabilityStatement.rest.resource.extension",
+        "id" : "CapabilityStatement.rest.extension",
+        "path" : "CapabilityStatement.rest.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -300,57 +386,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
         }
       },
       {
-        "id" : "CapabilityStatement.rest.resource.extension:conditionalPatch",
-        "path" : "CapabilityStatement.rest.resource.extension",
-        "sliceName" : "conditionalPatch",
-        "short" : "Cross-version extension for CapabilityStatement.rest.resource.conditionalPatch from R5 for use in FHIR R4",
-        "comment" : "Element `CapabilityStatement.rest.resource.conditionalPatch` is will have a context of CapabilityStatement.rest.resource based on following the parent source element upwards and mapping to `CapabilityStatement`.",
+        "id" : "CapabilityStatement.rest.extension:rest",
+        "path" : "CapabilityStatement.rest.extension",
+        "sliceName" : "rest",
+        "short" : "Cross-version extension for CapabilityStatement.rest from R5 for use in FHIR R4",
+        "comment" : "Element `CapabilityStatement.rest` has is mapped to FHIR R4 element `CapabilityStatement.rest`, but has no comparisons.",
         "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.conditionalPatch|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "CapabilityStatement.rest.resource.type.extension",
-        "path" : "CapabilityStatement.rest.resource.type.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1,
         "max" : "*",
         "base" : {
-          "path" : "CapabilityStatement.rest.resource.type",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "CapabilityStatement.rest.resource.type.extension:type",
-        "path" : "CapabilityStatement.rest.resource.type.extension",
-        "sliceName" : "type",
-        "short" : "Cross-version extension for CapabilityStatement.rest.resource.type from R5 for use in FHIR R4",
-        "comment" : "Element `CapabilityStatement.rest.resource.type` is mapped to FHIR R4 element `CapabilityStatement.rest.resource.type`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
           "max" : "*"
@@ -359,14 +402,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.resource.type|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest|0.0.1-snapshot-3"
             ]
           }
         ]
       },
       {
-        "id" : "CapabilityStatement.rest.searchParam.extension",
-        "path" : "CapabilityStatement.rest.searchParam.extension",
+        "id" : "CapabilityStatement.messaging.extension",
+        "path" : "CapabilityStatement.messaging.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -386,11 +429,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
         }
       },
       {
-        "id" : "CapabilityStatement.rest.searchParam.extension:searchParam",
-        "path" : "CapabilityStatement.rest.searchParam.extension",
-        "sliceName" : "searchParam",
-        "short" : "Cross-version extension for CapabilityStatement.rest.searchParam from R5 for use in FHIR R4",
-        "comment" : "Element `CapabilityStatement.rest.searchParam` is mapped to FHIR R4 element `CapabilityStatement.rest.searchParam`.",
+        "id" : "CapabilityStatement.messaging.extension:messaging",
+        "path" : "CapabilityStatement.messaging.extension",
+        "sliceName" : "messaging",
+        "short" : "Cross-version extension for CapabilityStatement.messaging from R5 for use in FHIR R4",
+        "comment" : "Element `CapabilityStatement.messaging` has is mapped to FHIR R4 element `CapabilityStatement.messaging`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -402,14 +445,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.searchParam|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.messaging|0.0.1-snapshot-3"
             ]
           }
         ]
       },
       {
-        "id" : "CapabilityStatement.rest.operation.extension",
-        "path" : "CapabilityStatement.rest.operation.extension",
+        "id" : "CapabilityStatement.document.extension",
+        "path" : "CapabilityStatement.document.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -429,11 +472,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
         }
       },
       {
-        "id" : "CapabilityStatement.rest.operation.extension:operation",
-        "path" : "CapabilityStatement.rest.operation.extension",
-        "sliceName" : "operation",
-        "short" : "Cross-version extension for CapabilityStatement.rest.operation from R5 for use in FHIR R4",
-        "comment" : "Element `CapabilityStatement.rest.operation` is mapped to FHIR R4 element `CapabilityStatement.rest.operation`.",
+        "id" : "CapabilityStatement.document.extension:document",
+        "path" : "CapabilityStatement.document.extension",
+        "sliceName" : "document",
+        "short" : "Cross-version extension for CapabilityStatement.document from R5 for use in FHIR R4",
+        "comment" : "Element `CapabilityStatement.document` has is mapped to FHIR R4 element `CapabilityStatement.document`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -445,7 +488,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Capabilit
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.rest.operation|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-CapabilityStatement.document|0.0.1-snapshot-3"
             ]
           }
         ]

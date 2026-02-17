@@ -1,4 +1,4 @@
-# ExtensionEvidenceVariable_Characteristic - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionEvidenceVariable_Characteristic - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `EvidenceVariable.ch
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.EvidenceVariable for use in FHIR R4](StructureDefinition-profile-EvidenceVariable.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-EvidenceVariable.characteristic)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
   "title" : "Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `EvidenceVariable.characteristic` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`EvidenceVariable.characteristic` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `EvidenceVariable.characteristic` 0..* `BackboneElement`\n*  R4B: `EvidenceVariable.characteristic` 0..* `BackboneElement`\n*  R4: `EvidenceVariable.characteristic` 1..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `EvidenceVariable.characteristic` is mapped to FHIR R4 element `EvidenceVariable.characteristic`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `EvidenceVariable.characteristic` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`EvidenceVariable.characteristic` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `EvidenceVariable.characteristic` 0..* `BackboneElement`\n*  R4B: `EvidenceVariable.characteristic` 0..* `BackboneElement`\n*  R4: `EvidenceVariable.characteristic` 1..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `EvidenceVariable.characteristic` has is mapped to FHIR R4 element `EvidenceVariable.characteristic`, but has no comparisons.\nNote available implied context: `EvidenceVariable.characteristic.definitionByCombination.characteristic` because `EvidenceVariable.characteristic.definitionByCombination.characteristic` is defined as a content reference to `EvidenceVariable.characteristic`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "EvidenceVariable.characteristic"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "linkId",
         "short" : "Label for internal linking",
         "definition" : "Label used for when a characteristic refers to another characteristic.",
-        "requirements" : "Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.linkId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.linkId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.linkId` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "description",
         "short" : "Natural language description of the characteristic",
         "definition" : "A short, natural language description of the characteristic that could be used to communicate the criteria to an end-user.",
-        "requirements" : "Need to be able to describe characteristics in natural language so that end users can understand the criteria. Element `EvidenceVariable.characteristic.description` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.description` is mapped to FHIR R4 element `EvidenceVariable.characteristic.description`.",
+        "requirements" : "Need to be able to describe characteristics in natural language so that end users can understand the criteria. Element `EvidenceVariable.characteristic.description` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.description` has is mapped to FHIR R4 element `EvidenceVariable.characteristic.description`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -275,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "note",
         "short" : "Used for footnotes or explanatory notes",
         "definition" : "A human-readable string to clarify or explain concepts about the characteristic.",
-        "requirements" : "Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.note` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.note` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.note` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -320,7 +320,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "exclude",
         "short" : "Whether the characteristic is an inclusion criterion or exclusion criterion",
         "definition" : "When true, this characteristic is an exclusion criterion. In other words, not matching this characteristic definition is equivalent to meeting this criterion.",
-        "requirements" : "Element `EvidenceVariable.characteristic.exclude` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.exclude` is mapped to FHIR R4 element `EvidenceVariable.characteristic.exclude`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.exclude` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.exclude` has is mapped to FHIR R4 element `EvidenceVariable.characteristic.exclude`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -365,7 +365,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "definitionReference",
         "short" : "Defines the characteristic (without using type and value) by a Reference",
         "definition" : "Defines the characteristic using a Reference.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionReference` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionReference` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionReference` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -418,7 +418,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "definitionCanonical",
         "short" : "Defines the characteristic (without using type and value) by a Canonical",
         "definition" : "Defines the characteristic using Canonical.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `EvidenceVariable.characteristic.definitionCanonical` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionCanonical` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `EvidenceVariable.characteristic.definitionCanonical` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -469,7 +469,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "definitionCodeableConcept",
         "short" : "Defines the characteristic (without using type and value) by a CodeableConcept",
         "definition" : "Defines the characteristic using CodeableConcept.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionCodeableConcept` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionCodeableConcept` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -515,7 +515,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "short" : "Defines the characteristic (without using type and value) by an expression",
         "definition" : "Defines the characteristic using Expression.",
         "comment" : "When another element provides a definition of the characteristic, the definitionExpression content SHALL match the definition (only adding technical concepts necessary for implementation) without changing the meaning.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionExpression` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionExpression` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionExpression` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -561,7 +561,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "definitionId",
         "short" : "Defines the characteristic (without using type and value) by an id",
         "definition" : "Defines the characteristic using id.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionId` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionId` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionId` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -606,7 +606,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "definitionByTypeAndValue",
         "short" : "Defines the characteristic using type and value",
         "definition" : "Defines the characteristic using both a type and value[x] elements.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -642,7 +642,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "type",
         "short" : "Expresses the type of characteristic",
         "definition" : "Used to express the type of characteristic.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.type` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.type` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -661,7 +661,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue.type"
       },
       {
         "id" : "Extension.extension:definitionByTypeAndValue.extension:type.value[x]",
@@ -691,7 +691,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "method",
         "short" : "Method for how the characteristic value was determined",
         "definition" : "Method for how the characteristic value was determined.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.method` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.method` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -710,7 +710,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "method"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue.method"
       },
       {
         "id" : "Extension.extension:definitionByTypeAndValue.extension:method.value[x]",
@@ -736,7 +736,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "device",
         "short" : "Device used for determining characteristic",
         "definition" : "Device used for determining characteristic.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EvidenceVariable.characteristic.definitionByTypeAndValue.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.device` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -755,7 +755,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "device"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue.device"
       },
       {
         "id" : "Extension.extension:definitionByTypeAndValue.extension:device.value[x]",
@@ -787,7 +787,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "value",
         "short" : "Defines the characteristic when coupled with characteristic.type",
         "definition" : "Defines the characteristic when paired with characteristic.type.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.value[x]` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -806,7 +806,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue.value"
       },
       {
         "id" : "Extension.extension:definitionByTypeAndValue.extension:value.value[x]",
@@ -847,7 +847,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "offset",
         "short" : "Reference point for valueQuantity or valueRange",
         "definition" : "Defines the reference point for comparison when valueQuantity or valueRange is not compared to zero.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByTypeAndValue` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByTypeAndValue.offset` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -866,7 +866,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "offset"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByTypeAndValue.offset"
       },
       {
         "id" : "Extension.extension:definitionByTypeAndValue.extension:offset.value[x]",
@@ -915,7 +915,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "definitionByCombination",
         "short" : "Used to specify how two or more characteristics are combined",
         "definition" : "Defines the characteristic as a combination of two or more characteristics.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.definitionByCombination` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionByCombination` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -951,7 +951,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "code",
         "short" : "all-of | any-of | at-least | at-most | statistical | net-effect | dataset",
         "definition" : "Used to specify if two or more characteristics are combined with OR or AND.",
-        "requirements" : "If code is \"at-least\" or \"at-most\" then threshold SHALL be used. If code is neither \"at-least\" nor \"at-most\" then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.code` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "If code is \"at-least\" or \"at-most\" then threshold SHALL be used. If code is neither \"at-least\" nor \"at-most\" then threshold SHALL NOT be used. Element `EvidenceVariable.characteristic.definitionByCombination.code` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.code` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -970,7 +970,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination.code"
       },
       {
         "id" : "Extension.extension:definitionByCombination.extension:code.value[x]",
@@ -1000,7 +1000,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "threshold",
         "short" : "Provides the value of \"n\" when \"at-least\" or \"at-most\" codes are used",
         "definition" : "Provides the value of \"n\" when \"at-least\" or \"at-most\" codes are used.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.threshold` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionByCombination.threshold` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.threshold` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1019,7 +1019,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "threshold"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.definitionByCombination.threshold"
       },
       {
         "id" : "Extension.extension:definitionByCombination.extension:threshold.value[x]",
@@ -1045,7 +1045,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "characteristic",
         "short" : "A defining factor of the characteristic",
         "definition" : "A defining factor of the characteristic.",
-        "requirements" : "Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.characteristic` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.definitionByCombination.characteristic` is part of an existing definition because parent element `EvidenceVariable.characteristic.definitionByCombination` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.definitionByCombination.characteristic` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -1106,7 +1106,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "instances",
         "short" : "Number of occurrences meeting the characteristic",
         "definition" : "Number of occurrences meeting the characteristic.",
-        "requirements" : "Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.instances[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.instances[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.instances[x]` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1154,7 +1154,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "duration",
         "short" : "Length of time in which the characteristic is met",
         "definition" : "Length of time in which the characteristic is met.",
-        "requirements" : "Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.duration[x]` is will have a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.duration[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.duration[x]` has a context of EvidenceVariable.characteristic based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1202,7 +1202,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "timeFromEvent",
         "short" : "Timing in which the characteristic is determined",
         "definition" : "Timing in which the characteristic is determined.",
-        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a component extension (e.g., if this element is used as a content reference).\nElement `EvidenceVariable.characteristic.timeFromEvent` is mapped to FHIR R4 element `EvidenceVariable.characteristic.timeFromStart`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent` is part of an existing definition because parent element `EvidenceVariable.characteristic` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent` has is mapped to FHIR R4 element `EvidenceVariable.characteristic.timeFromStart`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1238,7 +1238,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "description",
         "short" : "Human readable description",
         "definition" : "Human readable description.",
-        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent.description` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent.description` is part of an existing definition because parent element `EvidenceVariable.characteristic.timeFromEvent` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent.description` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1257,7 +1257,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.description"
       },
       {
         "id" : "Extension.extension:timeFromEvent.extension:description.value[x]",
@@ -1283,7 +1283,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "note",
         "short" : "Used for footnotes or explanatory notes",
         "definition" : "A human-readable string to clarify or explain concepts about the timeFromEvent.",
-        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent.note` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent.note` is part of an existing definition because parent element `EvidenceVariable.characteristic.timeFromEvent` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent.note` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1302,7 +1302,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.note"
       },
       {
         "id" : "Extension.extension:timeFromEvent.extension:note.value[x]",
@@ -1328,7 +1328,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "event",
         "short" : "The event used as a base point (reference point) in time",
         "definition" : "The event used as a base point (reference point) in time.",
-        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent.event[x]` is part of an existing definition because parent element `EvidenceVariable.characteristic.timeFromEvent` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent.event[x]` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1347,7 +1347,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "event"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.event"
       },
       {
         "id" : "Extension.extension:timeFromEvent.extension:event.value[x]",
@@ -1382,7 +1382,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "quantity",
         "short" : "Used to express the observation at a defined amount of time before or after the event",
         "definition" : "Used to express the observation at a defined amount of time before or after the event.",
-        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent.quantity` is part of an existing definition because parent element `EvidenceVariable.characteristic.timeFromEvent` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent.quantity` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1401,7 +1401,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "quantity"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.quantity"
       },
       {
         "id" : "Extension.extension:timeFromEvent.extension:quantity.value[x]",
@@ -1427,7 +1427,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
         "sliceName" : "range",
         "short" : "Used to express the observation within a period before and/or after the event",
         "definition" : "Used to express the observation within a period before and/or after the event.",
-        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent.range` is will have a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.",
+        "requirements" : "Element `EvidenceVariable.characteristic.timeFromEvent.range` is part of an existing definition because parent element `EvidenceVariable.characteristic.timeFromEvent` requires a cross-version extension.\nElement `EvidenceVariable.characteristic.timeFromEvent.range` has a context of EvidenceVariable.characteristic.timeFromStart based on following the parent source element upwards and mapping to `EvidenceVariable`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1446,7 +1446,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-EvidenceVa
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "range"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-EvidenceVariable.characteristic.timeFromEvent.range"
       },
       {
         "id" : "Extension.extension:timeFromEvent.extension:range.value[x]",

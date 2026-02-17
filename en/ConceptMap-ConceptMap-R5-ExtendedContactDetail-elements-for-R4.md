@@ -1,4 +1,4 @@
-# ConceptMapR5ExtendedContactDetailElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ExtendedContactDetailElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ExtendedContactDetailElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.8863394-06:00",
+  "date" : "2026-02-17T14:42:27.2704489-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -94,7 +94,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "purpose",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:purpose",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.purpose",
               "equivalence" : "relatedto",
               "comment" : "Element `ExtendedContactDetail.purpose` is not mapped to FHIR R4, since FHIR R5 `ExtendedContactDetail` is not mapped."
             }
@@ -105,7 +105,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "name",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:name",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.name",
               "equivalence" : "relatedto",
               "comment" : "Element `ExtendedContactDetail.name` is not mapped to FHIR R4, since FHIR R5 `ExtendedContactDetail` is not mapped."
             }
@@ -116,7 +116,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "telecom",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:telecom",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.telecom",
               "equivalence" : "relatedto",
               "comment" : "Element `ExtendedContactDetail.telecom` is not mapped to FHIR R4, since FHIR R5 `ExtendedContactDetail` is not mapped."
             }
@@ -127,7 +127,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "address",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:address",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.address",
               "equivalence" : "relatedto",
               "comment" : "Element `ExtendedContactDetail.address` is not mapped to FHIR R4, since FHIR R5 `ExtendedContactDetail` is not mapped."
             }
@@ -138,7 +138,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "organization",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:organization",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.organization",
               "equivalence" : "relatedto",
               "comment" : "Element `ExtendedContactDetail.organization` is not mapped to FHIR R4, since FHIR R5 `ExtendedContactDetail` is not mapped."
             }
@@ -149,7 +149,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "period",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:period",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail:http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.period",
               "equivalence" : "relatedto",
               "comment" : "Element `ExtendedContactDetail.period` is not mapped to FHIR R4, since FHIR R5 `ExtendedContactDetail` is not mapped."
             }

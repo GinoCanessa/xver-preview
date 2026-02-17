@@ -9,7 +9,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>ConceptMapR5ListElementsForR4List - XML Representation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+    <title>ConceptMapR5ListElementsForR4List - XML Representation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -50,8 +50,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.2013"}
-    h3,h4,h5,h6{--heading-prefix:"7.2013"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.1906"}
+    h3,h4,h5,h6{--heading-prefix:"7.1906"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -71,7 +71,7 @@
 
 
         <div id="ig-status" data-fhir="generated">
-          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
             <br/>
             <span style="display:inline-block;">0.0.1-snapshot-3 - STU
 
@@ -173,7 +173,7 @@
 
 <!-- layouts\layout-instance-format -->
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -250,17 +250,22 @@
 
 
 
-  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code class="language-xml" style="white-space: pre; text-wrap: nowrap;">
+  <pre class="xml" data-fhir="generated" style="white-space: pre; text-wrap: nowrap; width: auto;"><code style="white-space: pre; text-wrap: nowrap;">
 &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap">ConceptMap</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/resource.html#ConceptMap.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;ConceptMap-R5-List-elements-for-R4-List&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/resource.html#ConceptMap.language">language</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;en&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
     &lt;div xmlns=&quot;http://www.w3.org/1999/xhtml&quot;&gt;&lt;p class=&quot;res-header-id&quot;&gt;&lt;b&gt;Generated Narrative: ConceptMap ConceptMap-R5-List-elements-for-R4-List&lt;/b&gt;&lt;/p&gt;&lt;a name=&quot;ConceptMap-R5-List-elements-for-R4-List&quot;&gt; &lt;/a&gt;&lt;a name=&quot;hcConceptMap-R5-List-elements-for-R4-List&quot;&gt; &lt;/a&gt;&lt;p&gt;Mapping from (not specified) to (not specified)&lt;/p&gt;&lt;br/&gt;&lt;p&gt;&lt;b&gt;Group 1 &lt;/b&gt;Mapping from &lt;code&gt;http://hl7.org/fhir/StructureDefinition/List|5.0.0&lt;/code&gt; to &lt;code&gt;unspecified code system&lt;/code&gt;&lt;/p&gt;&lt;table class=&quot;grid&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Source Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Relationship&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Target Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Comment&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List&lt;/td&gt;&lt;td&gt;FHIR R5 Resource `List` is representable via FHIR R4 Resource `List`.
-Element `List` is mapped to FHIR R4 element `List`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.meta (meta)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.meta&lt;/td&gt;&lt;td&gt;Element `List.meta` is mapped to FHIR R4 element `List.meta`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.implicitRules (implicitRules)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.implicitRules&lt;/td&gt;&lt;td&gt;Element `List.implicitRules` is mapped to FHIR R4 element `List.implicitRules`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.language (language)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.language&lt;/td&gt;&lt;td&gt;Element `List.language` is mapped to FHIR R4 element `List.language`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.text (text)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.text&lt;/td&gt;&lt;td&gt;Element `List.text` is mapped to FHIR R4 element `List.text`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.contained (contained)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.contained&lt;/td&gt;&lt;td&gt;Element `List.contained` is mapped to FHIR R4 element `List.contained`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.identifier (identifier)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.identifier&lt;/td&gt;&lt;td&gt;Element `List.identifier` is mapped to FHIR R4 element `List.identifier`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.status (status)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.status&lt;/td&gt;&lt;td&gt;Element `List.status` is mapped to FHIR R4 element `List.status`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.mode (mode)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.mode&lt;/td&gt;&lt;td&gt;Element `List.mode` is mapped to FHIR R4 element `List.mode`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.title (title)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.title&lt;/td&gt;&lt;td&gt;Element `List.title` is mapped to FHIR R4 element `List.title`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.code (code)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.code&lt;/td&gt;&lt;td&gt;Element `List.code` is mapped to FHIR R4 element `List.code`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.subject (subject)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.subject&lt;/td&gt;&lt;td&gt;Element matches Basic element path `Basic.subject`, use that element instead.
+Element `List` has is mapped to FHIR R4 element `List`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.meta (meta)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.meta&lt;/td&gt;&lt;td&gt;Element `List.meta` has is mapped to FHIR R4 element `List.meta`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.implicitRules (implicitRules)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.implicitRules&lt;/td&gt;&lt;td&gt;Element `List.implicitRules` has is mapped to FHIR R4 element `List.implicitRules`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.language (language)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.language&lt;/td&gt;&lt;td&gt;Element `List.language` has is mapped to FHIR R4 element `List.language`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.text (text)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.text&lt;/td&gt;&lt;td&gt;Element `List.text` has is mapped to FHIR R4 element `List.text`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.contained (contained)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.contained&lt;/td&gt;&lt;td&gt;Element `List.contained` has is mapped to FHIR R4 element `List.contained`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.identifier (identifier)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.identifier&lt;/td&gt;&lt;td&gt;Element `List.identifier` has is mapped to FHIR R4 element `List.identifier`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.status (status)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.status&lt;/td&gt;&lt;td&gt;Element `List.status` has is mapped to FHIR R4 element `List.status`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.mode (mode)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.mode&lt;/td&gt;&lt;td&gt;Element `List.mode` has is mapped to FHIR R4 element `List.mode`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.title (title)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.title&lt;/td&gt;&lt;td&gt;Element `List.title` has is mapped to FHIR R4 element `List.title`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.code (code)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.code&lt;/td&gt;&lt;td&gt;Element `List.code` has is mapped to FHIR R4 element `List.code`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.subject (subject)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.subject&lt;/td&gt;&lt;td&gt;Element matches Basic element path `Basic.subject`, use that element instead.
 Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `List.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
-Element `List.subject` is mapped to FHIR R4 element `List.subject`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.encounter (encounter)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.encounter&lt;/td&gt;&lt;td&gt;Element `List.encounter` is mapped to FHIR R4 element `List.encounter`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.date (date)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.date&lt;/td&gt;&lt;td&gt;Element `List.date` is mapped to FHIR R4 element `List.date`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.source (source)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.source&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `List.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
-Element `List.source` is mapped to FHIR R4 element `List.source`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.orderedBy (orderedBy)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.orderedBy&lt;/td&gt;&lt;td&gt;Element `List.orderedBy` is mapped to FHIR R4 element `List.orderedBy`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.note (note)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.note&lt;/td&gt;&lt;td&gt;Element `List.note` is mapped to FHIR R4 element `List.note`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.entry (entry)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.entry&lt;/td&gt;&lt;td&gt;Element `List.entry` is mapped to FHIR R4 element `List.entry`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.entry.flag (flag)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.entry.flag&lt;/td&gt;&lt;td&gt;Element `List.entry.flag` is mapped to FHIR R4 element `List.entry.flag`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.entry.deleted (deleted)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.entry.deleted&lt;/td&gt;&lt;td&gt;Element `List.entry.deleted` is mapped to FHIR R4 element `List.entry.deleted`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.entry.date (date)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.entry.date&lt;/td&gt;&lt;td&gt;Element `List.entry.date` is mapped to FHIR R4 element `List.entry.date`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.entry.item (item)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.entry.item&lt;/td&gt;&lt;td&gt;Element `List.entry.item` is mapped to FHIR R4 element `List.entry.item`.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.emptyReason (emptyReason)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.emptyReason&lt;/td&gt;&lt;td&gt;Element `List.emptyReason` is mapped to FHIR R4 element `List.emptyReason`.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
+Element `List.subject` has is mapped to FHIR R4 element `List.subject`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.encounter (encounter)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.encounter&lt;/td&gt;&lt;td&gt;Element `List.encounter` has is mapped to FHIR R4 element `List.encounter`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.date (date)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.date&lt;/td&gt;&lt;td&gt;Element `List.date` has is mapped to FHIR R4 element `List.date`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.source (source)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.source&lt;/td&gt;&lt;td&gt;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `List.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `List.source` has is mapped to FHIR R4 element `List.source`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.orderedBy (orderedBy)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.orderedBy&lt;/td&gt;&lt;td&gt;Element `List.orderedBy` has is mapped to FHIR R4 element `List.orderedBy`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.note (note)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.note&lt;/td&gt;&lt;td&gt;Element `List.note` has is mapped to FHIR R4 element `List.note`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.entry (entry)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.entry&lt;/td&gt;&lt;td&gt;Element `List.entry` has is mapped to FHIR R4 element `List.entry`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.entry.flag (flag)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.entry.flag&lt;/td&gt;&lt;td&gt;Element `List.entry.flag` is part of an existing definition because parent element `List.entry` requires a cross-version extension.
+Element `List.entry.flag` has is mapped to FHIR R4 element `List.entry.flag`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.entry.deleted (deleted)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.entry.deleted&lt;/td&gt;&lt;td&gt;Element `List.entry.deleted` is part of an existing definition because parent element `List.entry` requires a cross-version extension.
+Note that the target element context `List.entry.deleted` is a modifier element, so this extension does not need to be defined as a modifier.
+Element `List.entry.deleted` has is mapped to FHIR R4 element `List.entry.deleted`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.entry.date (date)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.entry.date&lt;/td&gt;&lt;td&gt;Element `List.entry.date` is part of an existing definition because parent element `List.entry` requires a cross-version extension.
+Element `List.entry.date` has is mapped to FHIR R4 element `List.entry.date`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.entry.item (item)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.entry.item&lt;/td&gt;&lt;td&gt;Element `List.entry.item` is part of an existing definition because parent element `List.entry` requires a cross-version extension.
+Element `List.entry.item` has is mapped to FHIR R4 element `List.entry.item`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;List.emptyReason (emptyReason)&lt;/td&gt;&lt;td&gt;:(equivalent)&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/StructureDefinition/List#List.emptyReason&lt;/td&gt;&lt;td&gt;Element `List.emptyReason` has is mapped to FHIR R4 element `List.emptyReason`, but has no comparisons.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;<a name="end-xhtml"></a>
   &lt;/<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.text">text</a>&gt;
   &lt;<a href="http://hl7.org/fhir/R4/domainresource.html#ConceptMap.extension">extension</a>
              <a href="http://hl7.org/fhir/R4/datatypes.html#uri">url</a>=&quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-wg&quot;&gt;
@@ -293,7 +298,7 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&lt;/td&gt;&lt;
   &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Cross-version ConceptMap for FHIR R5 resources in FHIR R4&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-09T22:05:43.9788214-06:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2026-02-17T14:42:27.3443719-06:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.contact">contact</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR Infrastructure&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">telecom</a>&gt;
@@ -321,7 +326,7 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&lt;/td&gt;&lt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
                  <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;FHIR R5 Resource `List` is representable via FHIR R4 Resource `List`.
-Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
+Element `List` has is mapped to FHIR R4 element `List`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -331,7 +336,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.meta&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.meta` is mapped to FHIR R4 element `List.meta`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.meta` has is mapped to FHIR R4 element `List.meta`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -342,7 +347,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.implicitRules&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.implicitRules` is mapped to FHIR R4 element `List.implicitRules`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.implicitRules` has is mapped to FHIR R4 element `List.implicitRules`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -353,7 +358,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.language&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.language` is mapped to FHIR R4 element `List.language`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.language` has is mapped to FHIR R4 element `List.language`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -363,7 +368,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.text&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.text` is mapped to FHIR R4 element `List.text`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.text` has is mapped to FHIR R4 element `List.text`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -374,7 +379,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.contained&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.contained` is mapped to FHIR R4 element `List.contained`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.contained` has is mapped to FHIR R4 element `List.contained`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -385,7 +390,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.identifier&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.identifier` is mapped to FHIR R4 element `List.identifier`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.identifier` has is mapped to FHIR R4 element `List.identifier`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -396,7 +401,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.status&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.status` is mapped to FHIR R4 element `List.status`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.status` has is mapped to FHIR R4 element `List.status`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -406,7 +411,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.mode&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.mode` is mapped to FHIR R4 element `List.mode`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.mode` has is mapped to FHIR R4 element `List.mode`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -417,7 +422,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.title&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.title` is mapped to FHIR R4 element `List.title`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.title` has is mapped to FHIR R4 element `List.title`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -427,7 +432,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.code&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.code` is mapped to FHIR R4 element `List.code`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.code` has is mapped to FHIR R4 element `List.code`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -440,7 +445,7 @@ Element `List` is mapped to FHIR R4 element `List`.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
                  <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element matches Basic element path `Basic.subject`, use that element instead.
 Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `List.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
-Element `List.subject` is mapped to FHIR R4 element `List.subject`.&quot;/&gt;
+Element `List.subject` has is mapped to FHIR R4 element `List.subject`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -451,7 +456,7 @@ Element `List.subject` is mapped to FHIR R4 element `List.subject`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.encounter&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.encounter` is mapped to FHIR R4 element `List.encounter`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.encounter` has is mapped to FHIR R4 element `List.encounter`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -461,7 +466,7 @@ Element `List.subject` is mapped to FHIR R4 element `List.subject`.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.date&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.date` is mapped to FHIR R4 element `List.date`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.date` has is mapped to FHIR R4 element `List.date`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -473,7 +478,7 @@ Element `List.subject` is mapped to FHIR R4 element `List.subject`.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
                  <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `List.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
-Element `List.source` is mapped to FHIR R4 element `List.source`.&quot;/&gt;
+Element `List.source` has is mapped to FHIR R4 element `List.source`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -484,7 +489,7 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.orderedBy&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.orderedBy` is mapped to FHIR R4 element `List.orderedBy`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.orderedBy` has is mapped to FHIR R4 element `List.orderedBy`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -494,7 +499,7 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.note&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.note` is mapped to FHIR R4 element `List.note`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.note` has is mapped to FHIR R4 element `List.note`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -505,7 +510,7 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.entry&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.entry` is mapped to FHIR R4 element `List.entry`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.entry` has is mapped to FHIR R4 element `List.entry`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -516,7 +521,8 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.entry.flag&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.entry.flag` is mapped to FHIR R4 element `List.entry.flag`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.entry.flag` is part of an existing definition because parent element `List.entry` requires a cross-version extension.
+Element `List.entry.flag` has is mapped to FHIR R4 element `List.entry.flag`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -527,7 +533,9 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.entry.deleted&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.entry.deleted` is mapped to FHIR R4 element `List.entry.deleted`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.entry.deleted` is part of an existing definition because parent element `List.entry` requires a cross-version extension.
+Note that the target element context `List.entry.deleted` is a modifier element, so this extension does not need to be defined as a modifier.
+Element `List.entry.deleted` has is mapped to FHIR R4 element `List.entry.deleted`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -538,7 +546,8 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.entry.date&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.entry.date` is mapped to FHIR R4 element `List.entry.date`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.entry.date` is part of an existing definition because parent element `List.entry` requires a cross-version extension.
+Element `List.entry.date` has is mapped to FHIR R4 element `List.entry.date`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -549,7 +558,8 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.entry.item&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.entry.item` is mapped to FHIR R4 element `List.entry.item`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.entry.item` is part of an existing definition because parent element `List.entry` requires a cross-version extension.
+Element `List.entry.item` has is mapped to FHIR R4 element `List.entry.item`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
@@ -560,7 +570,7 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&quot;/&gt;
               <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/List#List.emptyReason&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.equivalence">equivalence</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;relatedto&quot;/&gt;
         &lt;<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target.comment">comment</a>
-                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.emptyReason` is mapped to FHIR R4 element `List.emptyReason`.&quot;/&gt;
+                 <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Element `List.emptyReason` has is mapped to FHIR R4 element `List.emptyReason`, but has no comparisons.&quot;/&gt;
       &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element.target">target</a>&gt;
     &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group.element">element</a>&gt;
   &lt;/<a href="http://hl7.org/fhir/R4/conceptmap.html#ConceptMap.group">group</a>&gt;
@@ -619,8 +629,8 @@ Element `List.source` is mapped to FHIR R4 element `List.source`.&quot;/&gt;
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-09 22:08:00 -0600">
-    2026-02-09
+  <span title="2026-02-17 15:29:00 -0600">
+    2026-02-17
   </span>
 
           <br/>

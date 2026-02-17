@@ -1,4 +1,4 @@
-# ConceptMapR5TaskElementsForR4Task - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5TaskElementsForR4Task - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5TaskElementsForR4Task 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2831673-06:00",
+  "date" : "2026-02-17T14:42:27.6172673-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Task` is representable via FHIR R4 Resource `Task`.\nElement `Task` is mapped to FHIR R4 element `Task`."
+              "comment" : "FHIR R5 Resource `Task` is representable via FHIR R4 Resource `Task`.\nElement `Task` has is mapped to FHIR R4 element `Task`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.meta` is mapped to FHIR R4 element `Task.meta`."
+              "comment" : "Element `Task.meta` has is mapped to FHIR R4 element `Task.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.implicitRules` is mapped to FHIR R4 element `Task.implicitRules`."
+              "comment" : "Element `Task.implicitRules` has is mapped to FHIR R4 element `Task.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.language` is mapped to FHIR R4 element `Task.language`."
+              "comment" : "Element `Task.language` has is mapped to FHIR R4 element `Task.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.text` is mapped to FHIR R4 element `Task.text`."
+              "comment" : "Element `Task.text` has is mapped to FHIR R4 element `Task.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.contained` is mapped to FHIR R4 element `Task.contained`."
+              "comment" : "Element `Task.contained` has is mapped to FHIR R4 element `Task.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.identifier` is mapped to FHIR R4 element `Task.identifier`."
+              "comment" : "Element `Task.identifier` has is mapped to FHIR R4 element `Task.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.instantiatesCanonical",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.instantiatesCanonical` is mapped to FHIR R4 element `Task.instantiatesCanonical`."
+              "comment" : "Element `Task.instantiatesCanonical` has is mapped to FHIR R4 element `Task.instantiatesCanonical`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.instantiatesUri",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.instantiatesUri` is mapped to FHIR R4 element `Task.instantiatesUri`."
+              "comment" : "Element `Task.instantiatesUri` has is mapped to FHIR R4 element `Task.instantiatesUri`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.basedOn` is mapped to FHIR R4 element `Task.basedOn`."
+              "comment" : "Element `Task.basedOn` has is mapped to FHIR R4 element `Task.basedOn`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.groupIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.groupIdentifier` is mapped to FHIR R4 element `Task.groupIdentifier`."
+              "comment" : "Element `Task.groupIdentifier` has is mapped to FHIR R4 element `Task.groupIdentifier`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.partOf` is mapped to FHIR R4 element `Task.partOf`."
+              "comment" : "Element `Task.partOf` has is mapped to FHIR R4 element `Task.partOf`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.status` is mapped to FHIR R4 element `Task.status`."
+              "comment" : "Element `Task.status` has is mapped to FHIR R4 element `Task.status`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.statusReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.statusReason` is mapped to FHIR R4 element `Task.statusReason`."
+              "comment" : "Element `Task.statusReason` has is mapped to FHIR R4 element `Task.statusReason`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.businessStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.businessStatus` is mapped to FHIR R4 element `Task.businessStatus`."
+              "comment" : "Element `Task.businessStatus` has is mapped to FHIR R4 element `Task.businessStatus`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.intent",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.intent` is mapped to FHIR R4 element `Task.intent`."
+              "comment" : "Element `Task.intent` has is mapped to FHIR R4 element `Task.intent`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.priority` is mapped to FHIR R4 element `Task.priority`."
+              "comment" : "Element `Task.priority` has is mapped to FHIR R4 element `Task.priority`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.doNotPerform` is will have a context of Task based on following the parent source element upwards and mapping to `Task`."
+              "comment" : "Element `Task.doNotPerform` has a context of Task based on following the parent source element upwards and mapping to `Task`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.code` is mapped to FHIR R4 element `Task.code`."
+              "comment" : "Element `Task.code` has is mapped to FHIR R4 element `Task.code`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.description` is mapped to FHIR R4 element `Task.description`."
+              "comment" : "Element `Task.description` has is mapped to FHIR R4 element `Task.description`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.focus",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.focus` is mapped to FHIR R4 element `Task.focus`."
+              "comment" : "Element `Task.focus` has is mapped to FHIR R4 element `Task.focus`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.for",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.for` is mapped to FHIR R4 element `Task.for`."
+              "comment" : "Element `Task.for` has is mapped to FHIR R4 element `Task.for`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.encounter` is mapped to FHIR R4 element `Task.encounter`."
+              "comment" : "Element `Task.encounter` has is mapped to FHIR R4 element `Task.encounter`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.requestedPeriod` is will have a context of Task based on following the parent source element upwards and mapping to `Task`."
+              "comment" : "Element `Task.requestedPeriod` has a context of Task based on following the parent source element upwards and mapping to `Task`."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.executionPeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.executionPeriod` is mapped to FHIR R4 element `Task.executionPeriod`."
+              "comment" : "Element `Task.executionPeriod` has is mapped to FHIR R4 element `Task.executionPeriod`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.authoredOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.authoredOn` is mapped to FHIR R4 element `Task.authoredOn`."
+              "comment" : "Element `Task.authoredOn` has is mapped to FHIR R4 element `Task.authoredOn`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.lastModified",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.lastModified` is mapped to FHIR R4 element `Task.lastModified`."
+              "comment" : "Element `Task.lastModified` has is mapped to FHIR R4 element `Task.lastModified`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.requester",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.requester` is mapped to FHIR R4 element `Task.requester`."
+              "comment" : "Element `Task.requester` has is mapped to FHIR R4 element `Task.requester`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.requestedPerformer` is will have a context of Task based on following the parent source element upwards and mapping to `Task`."
+              "comment" : "Element `Task.requestedPerformer` has a context of Task based on following the parent source element upwards and mapping to `Task`."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.owner",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.owner` is mapped to FHIR R4 element `Task.owner`."
+              "comment" : "Element `Task.owner` has is mapped to FHIR R4 element `Task.owner`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.performer` is will have a context of Task based on following the parent source element upwards and mapping to `Task`."
+              "comment" : "Element `Task.performer` has a context of Task based on following the parent source element upwards and mapping to `Task`."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` is will have a context of Task based on following the parent source element upwards and mapping to `Task`."
+              "comment" : "Element `Task.performer.function` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nElement `Task.performer.function` has a context of Task based on following the parent source element upwards and mapping to `Task`."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Task.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Task.performer.actor` is will have a context of Task based on following the parent source element upwards and mapping to `Task`."
+              "comment" : "Element `Task.performer.actor` is part of an existing definition because parent element `Task.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Task.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Task.performer.actor` has a context of Task based on following the parent source element upwards and mapping to `Task`."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.location` is mapped to FHIR R4 element `Task.location`."
+              "comment" : "Element `Task.location` has is mapped to FHIR R4 element `Task.location`, but has no comparisons."
             }
           ]
         },
@@ -459,12 +459,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.reason` is mapped to FHIR R4 element `Task.reasonCode`.\nElement `Task.reason` is mapped to FHIR R4 element `Task.reasonReference`."
+              "comment" : "Element `Task.reason` has is mapped to FHIR R4 element `Task.reasonCode`, but has no comparisons.\nElement `Task.reason` has is mapped to FHIR R4 element `Task.reasonReference`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.reason` is mapped to FHIR R4 element `Task.reasonCode`.\nElement `Task.reason` is mapped to FHIR R4 element `Task.reasonReference`."
+              "comment" : "Element `Task.reason` has is mapped to FHIR R4 element `Task.reasonCode`, but has no comparisons.\nElement `Task.reason` has is mapped to FHIR R4 element `Task.reasonReference`, but has no comparisons."
             }
           ]
         },
@@ -475,7 +475,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.insurance",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.insurance` is mapped to FHIR R4 element `Task.insurance`."
+              "comment" : "Element `Task.insurance` has is mapped to FHIR R4 element `Task.insurance`, but has no comparisons."
             }
           ]
         },
@@ -486,7 +486,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.note` is mapped to FHIR R4 element `Task.note`."
+              "comment" : "Element `Task.note` has is mapped to FHIR R4 element `Task.note`, but has no comparisons."
             }
           ]
         },
@@ -497,7 +497,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.relevantHistory",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.relevantHistory` is mapped to FHIR R4 element `Task.relevantHistory`."
+              "comment" : "Element `Task.relevantHistory` has is mapped to FHIR R4 element `Task.relevantHistory`, but has no comparisons."
             }
           ]
         },
@@ -508,7 +508,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.restriction",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.restriction` is mapped to FHIR R4 element `Task.restriction`."
+              "comment" : "Element `Task.restriction` has is mapped to FHIR R4 element `Task.restriction`, but has no comparisons."
             }
           ]
         },
@@ -519,7 +519,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.restriction.repetitions",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.restriction.repetitions` is mapped to FHIR R4 element `Task.restriction.repetitions`."
+              "comment" : "Element `Task.restriction.repetitions` is part of an existing definition because parent element `Task.restriction` requires a cross-version extension.\nElement `Task.restriction.repetitions` has is mapped to FHIR R4 element `Task.restriction.repetitions`, but has no comparisons."
             }
           ]
         },
@@ -530,7 +530,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.restriction.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.restriction.period` is mapped to FHIR R4 element `Task.restriction.period`."
+              "comment" : "Element `Task.restriction.period` is part of an existing definition because parent element `Task.restriction` requires a cross-version extension.\nElement `Task.restriction.period` has is mapped to FHIR R4 element `Task.restriction.period`, but has no comparisons."
             }
           ]
         },
@@ -541,7 +541,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.restriction.recipient",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.restriction.recipient` is mapped to FHIR R4 element `Task.restriction.recipient`."
+              "comment" : "Element `Task.restriction.recipient` is part of an existing definition because parent element `Task.restriction` requires a cross-version extension.\nElement `Task.restriction.recipient` has is mapped to FHIR R4 element `Task.restriction.recipient`, but has no comparisons."
             }
           ]
         },
@@ -552,7 +552,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.input",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.input` is mapped to FHIR R4 element `Task.input`."
+              "comment" : "Element `Task.input` has is mapped to FHIR R4 element `Task.input`, but has no comparisons."
             }
           ]
         },
@@ -563,7 +563,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.input.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.input.type` is mapped to FHIR R4 element `Task.input.type`."
+              "comment" : "Element `Task.input.type` is part of an existing definition because parent element `Task.input` requires a cross-version extension.\nElement `Task.input.type` has is mapped to FHIR R4 element `Task.input.type`, but has no comparisons."
             }
           ]
         },
@@ -574,7 +574,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.input.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.\nElement `Task.input.value[x]` is mapped to FHIR R4 element `Task.input.value[x]`.\nNote that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`."
+              "comment" : "Element `Task.input.value[x]` is part of an existing definition because parent element `Task.input` requires a cross-version extension.\nNote that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`.\nElement `Task.input.value[x]` has is mapped to FHIR R4 element `Task.input.value[x]`, but has no comparisons.\nNote that the target element context `Task.input.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.input`."
             }
           ]
         },
@@ -585,7 +585,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.output",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.output` is mapped to FHIR R4 element `Task.output`."
+              "comment" : "Element `Task.output` has is mapped to FHIR R4 element `Task.output`, but has no comparisons."
             }
           ]
         },
@@ -596,7 +596,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.output.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Task.output.type` is mapped to FHIR R4 element `Task.output.type`."
+              "comment" : "Element `Task.output.type` is part of an existing definition because parent element `Task.output` requires a cross-version extension.\nElement `Task.output.type` has is mapped to FHIR R4 element `Task.output.type`, but has no comparisons."
             }
           ]
         },
@@ -607,7 +607,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Task#Task.output.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.\nElement `Task.output.value[x]` is mapped to FHIR R4 element `Task.output.value[x]`.\nNote that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`."
+              "comment" : "Element `Task.output.value[x]` is part of an existing definition because parent element `Task.output` requires a cross-version extension.\nNote that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`.\nElement `Task.output.value[x]` has is mapped to FHIR R4 element `Task.output.value[x]`, but has no comparisons.\nNote that the target element context `Task.output.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Task.output`."
             }
           ]
         }

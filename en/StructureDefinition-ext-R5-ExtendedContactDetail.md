@@ -1,4 +1,4 @@
-# ExtensionExtendedContactDetail - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionExtendedContactDetail - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ExtendedContactDetail` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ExtendedCo
   "title" : "Cross-version Extension `R5.ExtendedContactDetail` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -205,7 +205,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ExtendedCo
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "purpose"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.purpose"
       },
       {
         "id" : "Extension.extension:purpose.value[x]",
@@ -257,7 +257,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ExtendedCo
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "name"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.name"
       },
       {
         "id" : "Extension.extension:name.value[x]",
@@ -303,7 +303,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ExtendedCo
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "telecom"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.telecom"
       },
       {
         "id" : "Extension.extension:telecom.value[x]",
@@ -349,7 +349,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ExtendedCo
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "address"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.address"
       },
       {
         "id" : "Extension.extension:address.value[x]",
@@ -395,7 +395,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ExtendedCo
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "organization"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.organization"
       },
       {
         "id" : "Extension.extension:organization.value[x]",
@@ -445,7 +445,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ExtendedCo
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "period"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ExtendedContactDetail.period"
       },
       {
         "id" : "Extension.extension:period.value[x]",

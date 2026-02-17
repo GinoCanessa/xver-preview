@@ -1,4 +1,4 @@
-# ProfileProvenance - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileProvenance - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileProvenance 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Provenanc
   "title" : "Cross-version Profile for R5.Provenance for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2845793-06:00",
+  "date" : "2026-02-17T14:42:26.8838643-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -180,7 +180,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Provenanc
         "sliceName" : "basedOn",
         "short" : "Cross-version extension for Provenance.basedOn from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CarePlan,http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation,http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/ServiceRequest,http://hl7.org/fhir/StructureDefinition/Task in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.basedOn` is will have a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.basedOn` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Provenanc
         "sliceName" : "patient",
         "short" : "Cross-version extension for Provenance.patient from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.patient` is will have a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.patient` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -226,7 +226,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Provenanc
         "sliceName" : "encounter",
         "short" : "Cross-version extension for Provenance.encounter from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.encounter` is will have a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.encounter` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -269,7 +269,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Provenanc
         "path" : "Provenance.reason.extension",
         "sliceName" : "authorization",
         "short" : "Cross-version extension for Provenance.authorization from R5 for use in FHIR R4",
-        "comment" : "Element `Provenance.authorization` is mapped to FHIR R4 element `Provenance.reason`.",
+        "comment" : "Element `Provenance.authorization` has is mapped to FHIR R4 element `Provenance.reason`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -287,8 +287,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Provenanc
         ]
       },
       {
-        "id" : "Provenance.agent.who.extension",
-        "path" : "Provenance.agent.who.extension",
+        "id" : "Provenance.agent.extension",
+        "path" : "Provenance.agent.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -302,108 +302,20 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Provenanc
         "min" : 1,
         "max" : "*",
         "base" : {
-          "path" : "Provenance.agent.who",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "Provenance.agent.who.extension:who",
-        "path" : "Provenance.agent.who.extension",
-        "sliceName" : "who",
-        "short" : "Cross-version extension for Provenance.agent.who from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam in FHIR R4",
-        "comment" : "Element `Provenance.agent.who` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.agent.who` is mapped to FHIR R4 element `Provenance.agent.who`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Provenance.agent.onBehalfOf.extension",
-        "path" : "Provenance.agent.onBehalfOf.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Provenance.agent.onBehalfOf",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "Provenance.agent.onBehalfOf.extension:onBehalfOf",
-        "path" : "Provenance.agent.onBehalfOf.extension",
-        "sliceName" : "onBehalfOf",
-        "short" : "Cross-version extension for Provenance.agent.onBehalfOf from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam in FHIR R4",
-        "comment" : "Element `Provenance.agent.onBehalfOf` is part of an existing definition because parent element `Provenance.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.agent.onBehalfOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Provenance.agent.onBehalfOf` is mapped to FHIR R4 element `Provenance.agent.onBehalfOf`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Provenance.entity.role.extension",
-        "path" : "Provenance.entity.role.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
+        "id" : "Provenance.agent.extension:agent",
+        "path" : "Provenance.agent.extension",
+        "sliceName" : "agent",
+        "short" : "Cross-version extension for Provenance.agent from R5 for use in FHIR R4",
+        "comment" : "Element `Provenance.agent` has is mapped to FHIR R4 element `Provenance.agent`, but has no comparisons.\nNote available implied context: `Provenance.entity.agent` because `Provenance.entity.agent` is defined as a content reference to `Provenance.agent`.",
         "min" : 1,
         "max" : "*",
         "base" : {
-          "path" : "Provenance.entity.role",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "Provenance.entity.role.extension:role",
-        "path" : "Provenance.entity.role.extension",
-        "sliceName" : "role",
-        "short" : "Cross-version extension for Provenance.entity.role from R5 for use in FHIR R4",
-        "comment" : "Element `Provenance.entity.role` is mapped to FHIR R4 element `Provenance.entity.role`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
           "max" : "*"
@@ -412,14 +324,14 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Provenanc
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.role|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.agent|0.0.1-snapshot-3"
             ]
           }
         ]
       },
       {
-        "id" : "Provenance.entity.agent.extension",
-        "path" : "Provenance.entity.agent.extension",
+        "id" : "Provenance.entity.extension",
+        "path" : "Provenance.entity.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -439,11 +351,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Provenanc
         }
       },
       {
-        "id" : "Provenance.entity.agent.extension:agent",
-        "path" : "Provenance.entity.agent.extension",
-        "sliceName" : "agent",
-        "short" : "Cross-version extension for Provenance.entity.agent from R5 for use in FHIR R4",
-        "comment" : "Element `Provenance.entity.agent` is mapped to FHIR R4 element `Provenance.entity.agent`.",
+        "id" : "Provenance.entity.extension:entity",
+        "path" : "Provenance.entity.extension",
+        "sliceName" : "entity",
+        "short" : "Cross-version extension for Provenance.entity from R5 for use in FHIR R4",
+        "comment" : "Element `Provenance.entity` has is mapped to FHIR R4 element `Provenance.entity`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -455,7 +367,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Provenanc
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity.agent|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity|0.0.1-snapshot-3"
             ]
           }
         ]

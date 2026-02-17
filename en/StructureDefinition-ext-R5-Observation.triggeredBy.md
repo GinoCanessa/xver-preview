@@ -1,4 +1,4 @@
-# ExtensionObservation_TriggeredBy - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionObservation_TriggeredBy - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Observation.triggeredBy` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
   "title" : "Cross-version Extension `R5.Observation.triggeredBy` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Observation.triggeredBy` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Observation.triggeredBy` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Observation.triggeredBy` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Observation.triggeredBy` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Observation.triggeredBy` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Observation.triggeredBy` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Observation.triggeredBy` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Observation.triggeredBy` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "observation",
         "short" : "Triggering observation",
         "definition" : "Reference to the triggering observation.",
-        "requirements" : "Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.triggeredBy.observation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.triggeredBy.observation` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
+        "requirements" : "Element `Observation.triggeredBy.observation` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.triggeredBy.observation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.triggeredBy.observation` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "observation"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy.observation"
       },
       {
         "id" : "Extension.extension:observation.value[x]",
@@ -233,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "type",
         "short" : "reflex | repeat | re-run",
         "definition" : "The type of trigger.\nReflex | Repeat | Re-run.",
-        "requirements" : "Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.type` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
+        "requirements" : "Element `Observation.triggeredBy.type` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.type` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -278,7 +278,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
         "sliceName" : "reason",
         "short" : "Reason that the observation was triggered",
         "definition" : "Provides the reason why this observation was performed as a result of the observation(s) referenced.",
-        "requirements" : "Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.reason` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
+        "requirements" : "Element `Observation.triggeredBy.reason` is part of an existing definition because parent element `Observation.triggeredBy` requires a cross-version extension.\nElement `Observation.triggeredBy.reason` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -297,7 +297,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Observatio
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.triggeredBy.reason"
       },
       {
         "id" : "Extension.extension:reason.value[x]",

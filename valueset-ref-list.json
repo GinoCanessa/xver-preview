@@ -10,9 +10,9 @@
       "systems" : ["http://hl7.org/fhir/FHIR-version"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-StructureDefinition.fhirVersion.html" : "Cross-version Extension `R5.StructureDefinition.fhirVersion` for use in FHIR R4",
-      "StructureDefinition-ext-R5-ImplementationGuide.def.res.fhirVersion.html" : "Cross-version Extension `R5.ImplementationGuide.definition.resource.fhirVersion` for use in FHIR R4",
       "StructureDefinition-ext-R5-CapabilityStatement.fhirVersion.html" : "Cross-version Extension `R5.CapabilityStatement.fhirVersion` for use in FHIR R4",
+      "StructureDefinition-ext-R5-ImplementationGuide.definition.html" : "Cross-version Extension `R5.ImplementationGuide.definition` for use in FHIR R4",
+      "StructureDefinition-ext-R5-StructureDefinition.fhirVersion.html" : "Cross-version Extension `R5.StructureDefinition.fhirVersion` for use in FHIR R4",
       "StructureDefinition-ext-R5-ImplementationGuide.fhirVersion.html" : "Cross-version Extension `R5.ImplementationGuide.fhirVersion` for use in FHIR R4"
     },
     {
@@ -38,12 +38,10 @@
       "systems" : ["http://hl7.org/fhir/action-participant-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-RequestOrchestration.act.participant.html" : "Cross-version Extension `R5.RequestOrchestration.action.participant` for use in FHIR R4",
+      "StructureDefinition-ext-R5-PlanDefinition.actor.html" : "Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4",
       "StructureDefinition-ext-R5-RequestOrchestration.action.html" : "Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4",
-      "StructureDefinition-ext-R5-ActivityDefinition.par.type.html" : "Cross-version Extension `R5.ActivityDefinition.participant.type` for use in FHIR R4",
-      "StructureDefinition-ext-R5-PlanDefinition.action.html" : "Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4",
-      "StructureDefinition-ext-R5-PlanDefinition.act.par.type.html" : "Cross-version Extension `R5.PlanDefinition.action.participant.type` for use in FHIR R4",
-      "StructureDefinition-ext-R5-PlanDefinition.actor.html" : "Cross-version Extension `R5.PlanDefinition.actor` for use in FHIR R4"
+      "StructureDefinition-ext-R5-ActivityDefinition.participant.html" : "Cross-version Extension `R5.ActivityDefinition.participant` for use in FHIR R4",
+      "StructureDefinition-ext-R5-PlanDefinition.action.html" : "Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-action-reason-code-for-R4",
@@ -127,8 +125,7 @@
       "systems" : ["http://hl7.org/fhir/assert-operator-codes"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-TestScript.set.act.ass.operator.html" : "Cross-version Extension `R5.TestScript.setup.action.assert.operator` for use in FHIR R4",
-      "StructureDefinition-ext-R5-TestScript.set.act.assert.html" : "Cross-version Extension `R5.TestScript.setup.action.assert` for use in FHIR R4"
+      "StructureDefinition-ext-R5-TestScript.setup.html" : "Cross-version Extension `R5.TestScript.setup` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-assert-response-code-types-for-R4",
@@ -140,8 +137,7 @@
       "systems" : ["http://hl7.org/fhir/assert-response-code-types"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-TestScript.set.act.ass.response.html" : "Cross-version Extension `R5.TestScript.setup.action.assert.response` for use in FHIR R4",
-      "StructureDefinition-ext-R5-TestScript.set.act.assert.html" : "Cross-version Extension `R5.TestScript.setup.action.assert` for use in FHIR R4"
+      "StructureDefinition-ext-R5-TestScript.setup.html" : "Cross-version Extension `R5.TestScript.setup` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-attribute-estimate-type-for-R4",
@@ -152,7 +148,10 @@
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/attribute-estimate-type|5.0.0` for use in FHIR R4.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/attribute-estimate-type"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-Evidence.statistic.html" : "Cross-version Extension `R5.Evidence.statistic` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-bundle-type-for-R4",
@@ -188,7 +187,8 @@
       "systems" : ["http://hl7.org/fhir/certainty-rating"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-Evidence.certainty.html" : "Cross-version Extension `R5.Evidence.certainty` for use in FHIR R4"
+      "StructureDefinition-ext-R5-Evidence.certainty.html" : "Cross-version Extension `R5.Evidence.certainty` for use in FHIR R4",
+      "StructureDefinition-ext-R5-ArtifactAssessment.html" : "Cross-version Extension `R5.ArtifactAssessment` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-certainty-type-for-R4",
@@ -200,7 +200,8 @@
       "systems" : ["http://hl7.org/fhir/certainty-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-Evidence.certainty.html" : "Cross-version Extension `R5.Evidence.certainty` for use in FHIR R4"
+      "StructureDefinition-ext-R5-Evidence.certainty.html" : "Cross-version Extension `R5.Evidence.certainty` for use in FHIR R4",
+      "StructureDefinition-ext-R5-ArtifactAssessment.html" : "Cross-version Extension `R5.ArtifactAssessment` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-characteristic-combination-for-R4",
@@ -212,7 +213,6 @@
       "systems" : ["http://hl7.org/fhir/characteristic-combination"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-EvidenceVariable.cha.dBC.html" : "Cross-version Extension `R5.EvidenceVariable.characteristic.definitionByCombination` for use in FHIR R4",
       "StructureDefinition-ext-R5-EvidenceVariable.characteristic.html" : "Cross-version Extension `R5.EvidenceVariable.characteristic` for use in FHIR R4"
     },
     {
@@ -236,8 +236,8 @@
       "systems" : ["http://hl7.org/fhir/citation-artifact-classifier"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-Citation.html" : "Cross-version Extension `R5.Citation` for use in FHIR R4",
-      "StructureDefinition-ext-R5-RelatedArtifact.classifier.html" : "Cross-version Extension `R5.RelatedArtifact.classifier` for use in FHIR R4"
+      "StructureDefinition-ext-R5-RelatedArtifact.classifier.html" : "Cross-version Extension `R5.RelatedArtifact.classifier` for use in FHIR R4",
+      "StructureDefinition-ext-R5-Citation.html" : "Cross-version Extension `R5.Citation` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-citation-classification-type-for-R4",
@@ -391,7 +391,7 @@
       "uses" : {
       },
       "StructureDefinition-ext-R5-CompartmentDefinition.code.html" : "Cross-version Extension `R5.CompartmentDefinition.code` for use in FHIR R4",
-      "StructureDefinition-ext-R5-GraphDefinition.lin.compartment.html" : "Cross-version Extension `R5.GraphDefinition.link.compartment` for use in FHIR R4"
+      "StructureDefinition-ext-R5-GraphDefinition.link.html" : "Cross-version Extension `R5.GraphDefinition.link` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-composition-status-for-R4",
@@ -497,8 +497,8 @@
       "systems" : ["http://hl7.org/fhir/deviceusage-status"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-DeviceUsage.status.html" : "Cross-version Extension `R5.DeviceUsage.status` for use in FHIR R4",
-      "StructureDefinition-ext-R5-DeviceUsage.usageStatus.html" : "Cross-version Extension `R5.DeviceUsage.usageStatus` for use in FHIR R4"
+      "StructureDefinition-ext-R5-DeviceUsage.usageStatus.html" : "Cross-version Extension `R5.DeviceUsage.usageStatus` for use in FHIR R4",
+      "StructureDefinition-ext-R5-DeviceUsage.status.html" : "Cross-version Extension `R5.DeviceUsage.status` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-directness-for-R4",
@@ -522,7 +522,9 @@
       "systems" : ["http://hl7.org/fhir/discriminator-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-ElementDefinition.sli.dis.type.html" : "Cross-version Extension `R5.ElementDefinition.slicing.discriminator.type` for use in FHIR R4"
+      "StructureDefinition-ext-R5-StructureDefinition.snapshot.html" : "Cross-version Extension `R5.StructureDefinition.snapshot` for use in FHIR R4",
+      "StructureDefinition-ext-R5-ElementDefinition.slicing.html" : "Cross-version Extension `R5.ElementDefinition.slicing` for use in FHIR R4",
+      "StructureDefinition-ext-R5-StructureDefinition.differential.html" : "Cross-version Extension `R5.StructureDefinition.differential` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-document-relationship-type-for-R4",
@@ -562,7 +564,7 @@
       ],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-Endpoint.pay.type.html" : "Cross-version Extension `R5.Endpoint.payload.type` for use in FHIR R4"
+      "StructureDefinition-ext-R5-Endpoint.payload.html" : "Cross-version Extension `R5.Endpoint.payload` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-event-timing-for-R4",
@@ -574,7 +576,7 @@
       "systems" : ["http://hl7.org/fhir/event-timing"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-Timing.rep.when.html" : "Cross-version Extension `R5.Timing.repeat.when` for use in FHIR R4"
+      "StructureDefinition-ext-R5-Timing.repeat.html" : "Cross-version Extension `R5.Timing.repeat` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-evidence-classifier-code-for-R4",
@@ -583,7 +585,10 @@
       "name" : "ValueSetR5EvidenceClassifierCodeForR4",
       "title" : "Cross-version ValueSet R5.EvidenceClassifier for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/evidence-classifier-code|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/evidence-classifier-code"]
+      "systems" : ["http://hl7.org/fhir/evidence-classifier-code"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-EvidenceReport.html" : "Cross-version Extension `R5.EvidenceReport` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-evidence-report-section-for-R4",
@@ -592,7 +597,10 @@
       "name" : "ValueSetR5EvidenceReportSectionForR4",
       "title" : "Cross-version ValueSet R5.ReportSectionType for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/evidence-report-section|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/evidence-report-section"]
+      "systems" : ["http://hl7.org/fhir/evidence-report-section"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-EvidenceReport.html" : "Cross-version Extension `R5.EvidenceReport` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-evidence-report-type-for-R4",
@@ -625,9 +633,8 @@
       "systems" : ["http://hl7.org/fhir/filter-operator"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-ValueSet.com.inc.fil.op.html" : "Cross-version Extension `R5.ValueSet.compose.include.filter.op` for use in FHIR R4",
-      "StructureDefinition-ext-R5-CodeSystem.fil.operator.html" : "Cross-version Extension `R5.CodeSystem.filter.operator` for use in FHIR R4",
-      "StructureDefinition-ext-R5-ValueSet.com.include.html" : "Cross-version Extension `R5.ValueSet.compose.include` for use in FHIR R4"
+      "StructureDefinition-ext-R5-ValueSet.compose.html" : "Cross-version Extension `R5.ValueSet.compose` for use in FHIR R4",
+      "StructureDefinition-ext-R5-CodeSystem.filter.html" : "Cross-version Extension `R5.CodeSystem.filter` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-focus-characteristic-code-for-R4",
@@ -735,7 +742,7 @@
       "systems" : ["http://hl7.org/fhir/issue-severity"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-OperationOutcome.iss.severity.html" : "Cross-version Extension `R5.OperationOutcome.issue.severity` for use in FHIR R4"
+      "StructureDefinition-ext-R5-OperationOutcome.issue.html" : "Cross-version Extension `R5.OperationOutcome.issue` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-issue-type-for-R4",
@@ -747,7 +754,7 @@
       "systems" : ["http://hl7.org/fhir/issue-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-OperationOutcome.iss.code.html" : "Cross-version Extension `R5.OperationOutcome.issue.code` for use in FHIR R4"
+      "StructureDefinition-ext-R5-OperationOutcome.issue.html" : "Cross-version Extension `R5.OperationOutcome.issue` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-item-type-for-R4",
@@ -759,8 +766,7 @@
       "systems" : ["http://hl7.org/fhir/item-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-Questionnaire.item.html" : "Cross-version Extension `R5.Questionnaire.item` for use in FHIR R4",
-      "StructureDefinition-ext-R5-Questionnaire.ite.type.html" : "Cross-version Extension `R5.Questionnaire.item.type` for use in FHIR R4"
+      "StructureDefinition-ext-R5-Questionnaire.item.html" : "Cross-version Extension `R5.Questionnaire.item` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-languages-for-R4",
@@ -772,8 +778,8 @@
       "systems" : ["urn:ietf:bcp:47"],
       "uses" : {
       },
+      "StructureDefinition-ext-R5-TerminologyCapabilities.codeSystem.html" : "Cross-version Extension `R5.TerminologyCapabilities.codeSystem` for use in FHIR R4",
       "StructureDefinition-ext-R5-InventoryItem.html" : "Cross-version Extension `R5.InventoryItem` for use in FHIR R4",
-      "StructureDefinition-ext-R5-TC.cod.ver.language.html" : "Cross-version Extension `R5.TerminologyCapabilities.codeSystem.version.language` for use in FHIR R4",
       "StructureDefinition-ext-R5-Citation.html" : "Cross-version Extension `R5.Citation` for use in FHIR R4"
     },
     {
@@ -795,7 +801,11 @@
       "name" : "ValueSetR5MeasureGroupExampleForR4",
       "title" : "Cross-version ValueSet R5.MeasureGroupExample for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/measure-group-example|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/measure-group-example"]
+      "systems" : ["http://hl7.org/fhir/measure-group-example"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-MeasureReport.group.html" : "Cross-version Extension `R5.MeasureReport.group` for use in FHIR R4",
+      "StructureDefinition-ext-R5-Measure.group.html" : "Cross-version Extension `R5.Measure.group` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-measure-stratifier-example-for-R4",
@@ -804,7 +814,11 @@
       "name" : "ValueSetR5MeasureStratifierExampleForR4",
       "title" : "Cross-version ValueSet R5.MeasureStratifierExample for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/measure-stratifier-example|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/measure-stratifier-example"]
+      "systems" : ["http://hl7.org/fhir/measure-stratifier-example"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-MeasureReport.group.html" : "Cross-version Extension `R5.MeasureReport.group` for use in FHIR R4",
+      "StructureDefinition-ext-R5-Measure.group.html" : "Cross-version Extension `R5.Measure.group` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-measure-supplemental-data-example-for-R4",
@@ -813,7 +827,10 @@
       "name" : "ValueSetR5MeasureSupplementalDataExampleForR4",
       "title" : "Cross-version ValueSet R5.MeasureSupplementalDataExample for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/measure-supplemental-data-example|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/measure-supplemental-data-example"]
+      "systems" : ["http://hl7.org/fhir/measure-supplemental-data-example"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-Measure.supplementalData.html" : "Cross-version Extension `R5.Measure.supplementalData` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-measurereport-stratifier-value-example-for-R4",
@@ -825,8 +842,7 @@
       "systems" : ["http://hl7.org/fhir/measurereport-stratifier-value-example"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-MeasureReport.gro.str.str.value.html" : "Cross-version Extension `R5.MeasureReport.group.stratifier.stratum.value[x]` for use in FHIR R4",
-      "StructureDefinition-ext-R5-MeasureReport.gro.str.str.com.value.html" : "Cross-version Extension `R5.MeasureReport.group.stratifier.stratum.component.value[x]` for use in FHIR R4"
+      "StructureDefinition-ext-R5-MeasureReport.group.html" : "Cross-version Extension `R5.MeasureReport.group` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-medicinal-product-additional-monitoring-for-R4",
@@ -897,7 +913,7 @@
       "systems" : ["http://hl7.org/fhir/medicinal-product-name-part-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-MPD.nam.par.type.html" : "Cross-version Extension `R5.MedicinalProductDefinition.name.part.type` for use in FHIR R4"
+      "StructureDefinition-ext-R5-MedicinalProductDefinition.name.html" : "Cross-version Extension `R5.MedicinalProductDefinition.name` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-medicinal-product-name-type-for-R4",
@@ -909,7 +925,7 @@
       "systems" : ["http://hl7.org/fhir/medicinal-product-name-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-MPD.nam.type.html" : "Cross-version Extension `R5.MedicinalProductDefinition.name.type` for use in FHIR R4"
+      "StructureDefinition-ext-R5-MedicinalProductDefinition.name.html" : "Cross-version Extension `R5.MedicinalProductDefinition.name` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-medicinal-product-package-type-for-R4",
@@ -966,7 +982,7 @@
       "systems" : ["http://hl7.org/fhir/namingsystem-identifier-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-NamingSystem.uni.type.html" : "Cross-version Extension `R5.NamingSystem.uniqueId.type` for use in FHIR R4"
+      "StructureDefinition-ext-R5-NamingSystem.uniqueId.html" : "Cross-version Extension `R5.NamingSystem.uniqueId` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-nutritionproduct-status-for-R4",
@@ -989,7 +1005,10 @@
       "description" : "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1`.",
       "systems" : [
         "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
-      ]
+      ],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-Observation.component.html" : "Cross-version Extension `R5.Observation.component` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-package-material-for-R4",
@@ -998,7 +1017,10 @@
       "name" : "ValueSetR5PackageMaterialForR4",
       "title" : "Cross-version ValueSet R5.PackageMaterial for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/package-material|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/package-material"]
+      "systems" : ["http://hl7.org/fhir/package-material"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-PackagedProductDefinition.html" : "Cross-version Extension `R5.PackagedProductDefinition` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-package-type-for-R4",
@@ -1019,7 +1041,10 @@
       "name" : "ValueSetR5PackagingTypeForR4",
       "title" : "Cross-version ValueSet R5.PackagingType for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/packaging-type|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/packaging-type"]
+      "systems" : ["http://hl7.org/fhir/packaging-type"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-PackagedProductDefinition.html" : "Cross-version Extension `R5.PackagedProductDefinition` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-product-intended-use-for-R4",
@@ -1031,8 +1056,8 @@
       "systems" : ["http://hl7.org/fhir/product-intended-use"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-RegulatedAuthorization.html" : "Cross-version Extension `R5.RegulatedAuthorization` for use in FHIR R4",
-      "StructureDefinition-ext-R5-ClinicalUseDefinition.html" : "Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4"
+      "StructureDefinition-ext-R5-ClinicalUseDefinition.html" : "Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4",
+      "StructureDefinition-ext-R5-RegulatedAuthorization.html" : "Cross-version Extension `R5.RegulatedAuthorization` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-provenance-entity-role-for-R4",
@@ -1044,7 +1069,7 @@
       "systems" : ["http://hl7.org/fhir/provenance-entity-role"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-Provenance.ent.role.html" : "Cross-version Extension `R5.Provenance.entity.role` for use in FHIR R4"
+      "StructureDefinition-ext-R5-Provenance.entity.html" : "Cross-version Extension `R5.Provenance.entity` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-published-in-type-for-R4",
@@ -1068,11 +1093,11 @@
       "systems" : ["http://hl7.org/fhir/quantity-comparator"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-Count.comparator.html" : "Cross-version Extension `R5.Count.comparator` for use in FHIR R4",
       "StructureDefinition-ext-R5-Duration.comparator.html" : "Cross-version Extension `R5.Duration.comparator` for use in FHIR R4",
       "StructureDefinition-ext-R5-Age.comparator.html" : "Cross-version Extension `R5.Age.comparator` for use in FHIR R4",
+      "StructureDefinition-ext-R5-Distance.comparator.html" : "Cross-version Extension `R5.Distance.comparator` for use in FHIR R4",
       "StructureDefinition-ext-R5-Quantity.comparator.html" : "Cross-version Extension `R5.Quantity.comparator` for use in FHIR R4",
-      "StructureDefinition-ext-R5-Distance.comparator.html" : "Cross-version Extension `R5.Distance.comparator` for use in FHIR R4"
+      "StructureDefinition-ext-R5-Count.comparator.html" : "Cross-version Extension `R5.Count.comparator` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-regulated-authorization-basis-for-R4",
@@ -1093,7 +1118,10 @@
       "name" : "ValueSetR5RegulatedAuthorizationCaseTypeForR4",
       "title" : "Cross-version ValueSet R5.RegulatedAuthorizationCaseType for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/regulated-authorization-case-type|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/regulated-authorization-case-type"]
+      "systems" : ["http://hl7.org/fhir/regulated-authorization-case-type"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-RegulatedAuthorization.html" : "Cross-version Extension `R5.RegulatedAuthorization` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-regulated-authorization-type-for-R4",
@@ -1141,9 +1169,9 @@
       "systems" : ["http://hl7.org/fhir/search-modifier-code"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-SubscriptionTopic.html" : "Cross-version Extension `R5.SubscriptionTopic` for use in FHIR R4",
       "StructureDefinition-ext-R5-SearchParameter.modifier.html" : "Cross-version Extension `R5.SearchParameter.modifier` for use in FHIR R4",
-      "StructureDefinition-ext-R5-Subscription.filterBy.html" : "Cross-version Extension `R5.Subscription.filterBy` for use in FHIR R4"
+      "StructureDefinition-ext-R5-Subscription.filterBy.html" : "Cross-version Extension `R5.Subscription.filterBy` for use in FHIR R4",
+      "StructureDefinition-ext-R5-SubscriptionTopic.html" : "Cross-version Extension `R5.SubscriptionTopic` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-statistic-model-code-for-R4",
@@ -1212,8 +1240,8 @@
       "systems" : ["http://hl7.org/fhir/subscription-status"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-Subscription.status.html" : "Cross-version Extension `R5.Subscription.status` for use in FHIR R4",
-      "StructureDefinition-ext-R5-SubscriptionStatus.html" : "Cross-version Extension `R5.SubscriptionStatus` for use in FHIR R4"
+      "StructureDefinition-ext-R5-SubscriptionStatus.html" : "Cross-version Extension `R5.SubscriptionStatus` for use in FHIR R4",
+      "StructureDefinition-ext-R5-Subscription.status.html" : "Cross-version Extension `R5.Subscription.status` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-subscriptiontopic-cr-behavior-for-R4",
@@ -1237,8 +1265,8 @@
       "systems" : ["http://hl7.org/fhir/substance-amount-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-SubstanceDefinition.rel.comparator.html" : "Cross-version Extension `R5.SubstanceDefinition.relationship.comparator` for use in FHIR R4",
-      "StructureDefinition-ext-R5-SubstanceDefinition.moi.measurementType.html" : "Cross-version Extension `R5.SubstanceDefinition.moiety.measurementType` for use in FHIR R4"
+      "StructureDefinition-ext-R5-SubstanceDefinition.relationship.html" : "Cross-version Extension `R5.SubstanceDefinition.relationship` for use in FHIR R4",
+      "StructureDefinition-ext-R5-SubstanceDefinition.moiety.html" : "Cross-version Extension `R5.SubstanceDefinition.moiety` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-substance-grade-for-R4",
@@ -1295,7 +1323,11 @@
       "name" : "ValueSetR5SubstanceOpticalActivityForR4",
       "title" : "Cross-version ValueSet R5.OpticalActivity for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/substance-optical-activity|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/substance-optical-activity"]
+      "systems" : ["http://hl7.org/fhir/substance-optical-activity"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-SubstanceDefinition.moiety.html" : "Cross-version Extension `R5.SubstanceDefinition.moiety` for use in FHIR R4",
+      "StructureDefinition-ext-R5-SubstanceDefinition.structure.html" : "Cross-version Extension `R5.SubstanceDefinition.structure` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-substance-relationship-type-for-R4",
@@ -1307,7 +1339,7 @@
       "systems" : ["http://hl7.org/fhir/substance-relationship-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-SubstanceDefinition.rel.type.html" : "Cross-version Extension `R5.SubstanceDefinition.relationship.type` for use in FHIR R4"
+      "StructureDefinition-ext-R5-SubstanceDefinition.relationship.html" : "Cross-version Extension `R5.SubstanceDefinition.relationship` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-substance-representation-format-for-R4",
@@ -1319,7 +1351,7 @@
       "systems" : ["http://hl7.org/fhir/substance-representation-format"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-SubstanceDefinition.str.rep.format.html" : "Cross-version Extension `R5.SubstanceDefinition.structure.representation.format` for use in FHIR R4"
+      "StructureDefinition-ext-R5-SubstanceDefinition.structure.html" : "Cross-version Extension `R5.SubstanceDefinition.structure` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-substance-representation-type-for-R4",
@@ -1328,7 +1360,10 @@
       "name" : "ValueSetR5SubstanceRepresentationTypeForR4",
       "title" : "Cross-version ValueSet R5.SubstanceRepresentationType for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/substance-representation-type|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/substance-representation-type"]
+      "systems" : ["http://hl7.org/fhir/substance-representation-type"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-SubstanceDefinition.structure.html" : "Cross-version Extension `R5.SubstanceDefinition.structure` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-substance-source-material-genus-for-R4",
@@ -1385,7 +1420,11 @@
       "name" : "ValueSetR5SubstanceStereochemistryForR4",
       "title" : "Cross-version ValueSet R5.Stereochemistry for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/substance-stereochemistry|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/substance-stereochemistry"]
+      "systems" : ["http://hl7.org/fhir/substance-stereochemistry"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-SubstanceDefinition.moiety.html" : "Cross-version Extension `R5.SubstanceDefinition.moiety` for use in FHIR R4",
+      "StructureDefinition-ext-R5-SubstanceDefinition.structure.html" : "Cross-version Extension `R5.SubstanceDefinition.structure` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-substance-structure-technique-for-R4",
@@ -1398,7 +1437,7 @@
       "uses" : {
       },
       "StructureDefinition-ext-R5-SubstanceDefinition.characterization.html" : "Cross-version Extension `R5.SubstanceDefinition.characterization` for use in FHIR R4",
-      "StructureDefinition-ext-R5-SubstanceDefinition.str.technique.html" : "Cross-version Extension `R5.SubstanceDefinition.structure.technique` for use in FHIR R4"
+      "StructureDefinition-ext-R5-SubstanceDefinition.structure.html" : "Cross-version Extension `R5.SubstanceDefinition.structure` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-substance-weight-method-for-R4",
@@ -1435,7 +1474,7 @@
       "uses" : {
       },
       "StructureDefinition-ext-R5-SupplyDelivery.type.html" : "Cross-version Extension `R5.SupplyDelivery.type` for use in FHIR R4",
-      "StructureDefinition-ext-R5-SupplyDelivery.sup.item.html" : "Cross-version Extension `R5.SupplyDelivery.suppliedItem.item[x]` for use in FHIR R4"
+      "StructureDefinition-ext-R5-SupplyDelivery.suppliedItem.html" : "Cross-version Extension `R5.SupplyDelivery.suppliedItem` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-target-species-for-R4",
@@ -1459,8 +1498,8 @@
       "systems" : ["http://hl7.org/fhir/restful-interaction"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-ExampleScenario.pro.ste.ope.type.html" : "Cross-version Extension `R5.ExampleScenario.process.step.operation.type` for use in FHIR R4",
-      "StructureDefinition-ext-R5-TestScript.set.act.operation.html" : "Cross-version Extension `R5.TestScript.setup.action.operation` for use in FHIR R4"
+      "StructureDefinition-ext-R5-ExampleScenario.process.html" : "Cross-version Extension `R5.ExampleScenario.process` for use in FHIR R4",
+      "StructureDefinition-ext-R5-TestScript.setup.html" : "Cross-version Extension `R5.TestScript.setup` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-therapy-relationship-type-for-R4",
@@ -1469,7 +1508,10 @@
       "name" : "ValueSetR5TherapyRelationshipTypeForR4",
       "title" : "Cross-version ValueSet R5.TherapyRelationshipType for use in FHIR R4",
       "description" : "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/therapy-relationship-type|5.0.0` for use in FHIR R4.",
-      "systems" : ["http://hl7.org/fhir/therapy-relationship-type"]
+      "systems" : ["http://hl7.org/fhir/therapy-relationship-type"],
+      "uses" : {
+      },
+      "StructureDefinition-ext-R5-ClinicalUseDefinition.html" : "Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-title-type-for-R4",
@@ -1503,7 +1545,7 @@
       "systems" : ["http://hl7.org/fhir/udi-entry-type"],
       "uses" : {
       },
-      "StructureDefinition-ext-R5-Device.udi.entryType.html" : "Cross-version Extension `R5.Device.udiCarrier.entryType` for use in FHIR R4"
+      "StructureDefinition-ext-R5-Device.udiCarrier.html" : "Cross-version Extension `R5.Device.udiCarrier` for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-undesirable-effect-frequency-for-R4",

@@ -1,4 +1,4 @@
-# ExtensionNutritionIntake - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionNutritionIntake - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.NutritionIntake` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
   "title" : "Cross-version Extension `R5.NutritionIntake` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "instantiatesCanonical"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.instantiatesCanonical"
       },
       {
         "id" : "Extension.extension:instantiatesCanonical.value[x]",
@@ -278,7 +278,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "instantiatesUri"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.instantiatesUri"
       },
       {
         "id" : "Extension.extension:instantiatesUri.value[x]",
@@ -323,7 +323,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "basedOn"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.basedOn"
       },
       {
         "id" : "Extension.extension:basedOn.value[x]",
@@ -376,7 +376,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "partOf"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.partOf"
       },
       {
         "id" : "Extension.extension:partOf.value[x]",
@@ -430,7 +430,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -482,7 +482,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "statusReason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.statusReason"
       },
       {
         "id" : "Extension.extension:statusReason.value[x]",
@@ -528,7 +528,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.code"
       },
       {
         "id" : "Extension.extension:code.value[x]",
@@ -578,7 +578,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "encounter"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.encounter"
       },
       {
         "id" : "Extension.extension:encounter.value[x]",
@@ -628,7 +628,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "occurrence"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.occurrence"
       },
       {
         "id" : "Extension.extension:occurrence.value[x]",
@@ -677,7 +677,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "recorded"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.recorded"
       },
       {
         "id" : "Extension.extension:recorded.value[x]",
@@ -722,7 +722,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reported"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.reported"
       },
       {
         "id" : "Extension.extension:reported.value[x]",
@@ -818,7 +818,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.type"
       },
       {
         "id" : "Extension.extension:consumedItem.extension:type.value[x]",
@@ -925,7 +925,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -974,7 +974,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1027,7 +1027,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "nutritionProduct"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.nutritionProduct"
       },
       {
         "id" : "Extension.extension:consumedItem.extension:nutritionProduct.value[x]",
@@ -1065,7 +1065,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "schedule"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.schedule"
       },
       {
         "id" : "Extension.extension:consumedItem.extension:schedule.value[x]",
@@ -1110,7 +1110,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "amount"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.amount"
       },
       {
         "id" : "Extension.extension:consumedItem.extension:amount.value[x]",
@@ -1158,7 +1158,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "rate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.rate"
       },
       {
         "id" : "Extension.extension:consumedItem.extension:rate.value[x]",
@@ -1206,7 +1206,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "notConsumed"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.notConsumed"
       },
       {
         "id" : "Extension.extension:consumedItem.extension:notConsumed.value[x]",
@@ -1251,7 +1251,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "notConsumedReason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.consumedItem.notConsumedReason"
       },
       {
         "id" : "Extension.extension:consumedItem.extension:notConsumedReason.value[x]",
@@ -1417,7 +1417,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1466,7 +1466,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1519,7 +1519,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "nutrient"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.ingredientLabel.nutrient"
       },
       {
         "id" : "Extension.extension:ingredientLabel.extension:nutrient.value[x]",
@@ -1557,7 +1557,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "amount"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.ingredientLabel.amount"
       },
       {
         "id" : "Extension.extension:ingredientLabel.extension:amount.value[x]",
@@ -1664,7 +1664,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "function"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.performer.function"
       },
       {
         "id" : "Extension.extension:performer.extension:function.value[x]",
@@ -1714,7 +1714,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.performer.actor"
       },
       {
         "id" : "Extension.extension:performer.extension:actor.value[x]",
@@ -1798,7 +1798,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "location"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.location"
       },
       {
         "id" : "Extension.extension:location.value[x]",
@@ -1848,7 +1848,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "derivedFrom"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.derivedFrom"
       },
       {
         "id" : "Extension.extension:derivedFrom.value[x]",
@@ -1959,7 +1959,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2008,7 +2008,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2067,7 +2067,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.reason"
       },
       {
         "id" : "Extension.extension:reason.value[x]",
@@ -2105,7 +2105,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-NutritionI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-NutritionIntake.note"
       },
       {
         "id" : "Extension.extension:note.value[x]",

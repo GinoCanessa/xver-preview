@@ -1,4 +1,4 @@
-# ExtensionOrganization_Qualification - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionOrganization_Qualification - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Organization.qualification` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Organizati
   "title" : "Cross-version Extension `R5.Organization.qualification` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Organizati
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Organization.qualification` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Organization.qualification` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Organization.qualification` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Organization.qualification` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Organization.qualification` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Organization.qualification` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Organization.qualification` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Organization.qualification` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Organizati
         "sliceName" : "identifier",
         "short" : "An identifier for this qualification for the organization",
         "definition" : "An identifier allocated to this qualification for this organization.",
-        "requirements" : "Often, specific identities are assigned for the qualification by the assigning organization. Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.identifier` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`.",
+        "requirements" : "Often, specific identities are assigned for the qualification by the assigning organization. Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.identifier` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Organizati
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "identifier"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification.identifier"
       },
       {
         "id" : "Extension.extension:identifier.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Organizati
         "sliceName" : "code",
         "short" : "Coded representation of the qualification",
         "definition" : "Coded representation of the qualification.",
-        "requirements" : "Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.code` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`.",
+        "requirements" : "Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.code` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Organizati
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification.code"
       },
       {
         "id" : "Extension.extension:code.value[x]",
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Organizati
         "sliceName" : "period",
         "short" : "Period during which the qualification is valid",
         "definition" : "Period during which the qualification is valid.",
-        "requirements" : "Qualifications are often for a limited period of time, and can be revoked. Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.period` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`.",
+        "requirements" : "Qualifications are often for a limited period of time, and can be revoked. Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.period` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Organizati
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "period"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification.period"
       },
       {
         "id" : "Extension.extension:period.value[x]",
@@ -319,7 +319,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Organizati
         "sliceName" : "issuer",
         "short" : "Organization that regulates and issues the qualification",
         "definition" : "Organization that regulates and issues the qualification.",
-        "requirements" : "Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Organization.qualification.issuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Organization.qualification.issuer` is will have a context of Organization based on following the parent source element upwards and mapping to `Organization`.",
+        "requirements" : "Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Organization.qualification.issuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Organization.qualification.issuer` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -338,7 +338,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Organizati
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "issuer"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification.issuer"
       },
       {
         "id" : "Extension.extension:issuer.value[x]",

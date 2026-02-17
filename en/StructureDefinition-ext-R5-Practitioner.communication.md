@@ -1,4 +1,4 @@
-# ExtensionPractitioner_Communication - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionPractitioner_Communication - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Practitioner.communication` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Practition
   "title" : "Cross-version Extension `R5.Practitioner.communication` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Practition
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Practitioner.communication` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Practitioner.communication` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Practitioner.communication` 0..* `BackboneElement`\n*  R4B: `Practitioner.communication` 0..* `CodeableConcept`\n*  R4: `Practitioner.communication` 0..* `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Practitioner.communication` is mapped to FHIR R4 element `Practitioner.communication`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Practitioner.communication` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Practitioner.communication` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Practitioner.communication` 0..* `BackboneElement`\n*  R4B: `Practitioner.communication` 0..* `CodeableConcept`\n*  R4: `Practitioner.communication` 0..* `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Practitioner.communication` has is mapped to FHIR R4 element `Practitioner.communication`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Practition
         "short" : "The language code used to communicate with the practitioner",
         "definition" : "The ISO-639-1 alpha 2 code in lower case for the language, optionally followed by a hyphen and the ISO-3166-1 alpha 2 code for the region in upper case; e.g. \"en\" for English, or \"en-US\" for American English versus \"en-AU\" for Australian English.",
         "comment" : "The structure aa-BB with this exact casing is one the most widely used notations for locale. However not all systems actually code this but instead have it as free text. Hence CodeableConcept instead of code as the data type.",
-        "requirements" : "Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect. Element `Practitioner.communication.language` is will have a context of Practitioner.communication based on following the parent source element upwards and mapping to `Practitioner`.",
+        "requirements" : "Most systems in multilingual countries will want to convey language. Not all systems actually need the regional dialect. Element `Practitioner.communication.language` is part of an existing definition because parent element `Practitioner.communication` requires a cross-version extension.\nElement `Practitioner.communication.language` has a context of Practitioner.communication based on following the parent source element upwards and mapping to `Practitioner`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -205,7 +205,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Practition
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "language"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.communication.language"
       },
       {
         "id" : "Extension.extension:language.value[x]",
@@ -233,7 +233,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Practition
         "short" : "Language preference indicator",
         "definition" : "Indicates whether or not the person prefers this language (over other languages he masters up a certain level).",
         "comment" : "This language is specifically identified for communicating directly with the practitioner (typically un-related to patient communications).",
-        "requirements" : "People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method. Element `Practitioner.communication.preferred` is will have a context of Practitioner.communication based on following the parent source element upwards and mapping to `Practitioner`.",
+        "requirements" : "People that master multiple languages up to certain level may prefer one or more, i.e. feel more confident in communicating in a particular language making other languages sort of a fall back method. Element `Practitioner.communication.preferred` is part of an existing definition because parent element `Practitioner.communication` requires a cross-version extension.\nElement `Practitioner.communication.preferred` has a context of Practitioner.communication based on following the parent source element upwards and mapping to `Practitioner`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Practition
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "preferred"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.communication.preferred"
       },
       {
         "id" : "Extension.extension:preferred.value[x]",

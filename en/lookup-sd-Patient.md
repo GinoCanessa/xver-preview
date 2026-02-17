@@ -1,4 +1,4 @@
-# Lookup for ProfilePatient - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfilePatient - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfilePatient
 
@@ -29,20 +29,20 @@ A computable version of the following element information is available in: [Conc
 | [`Patient.maritalStatus`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.maritalStatus](https://hl7.org/fhir/R4/Patient.html#resource) |
 | [`Patient.multipleBirth[x]`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.multipleBirth[x]](https://hl7.org/fhir/R4/Patient.html#resource) |
 | [`Patient.photo`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.photo](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.contact`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.contact.relationship`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.relationship](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.contact.name`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.name](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.contact.telecom`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.telecom](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.contact.address`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.address](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.contact.gender`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.gender](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.contact.organization`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.organization](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.contact.period`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.period](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.communication`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.communication](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.communication.language`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.communication.language](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.communication.preferred`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.communication.preferred](https://hl7.org/fhir/R4/Patient.html#resource) |
+| [`Patient.contact`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Contact](StructureDefinition-ext-R5-Patient.contact.md) |
+| [`Patient.contact.relationship`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.relationship](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Contact Slice:relationship](StructureDefinition-ext-R5-Patient.contact.md) |
+| [`Patient.contact.name`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.name](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Contact Slice:name](StructureDefinition-ext-R5-Patient.contact.md) |
+| [`Patient.contact.telecom`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.telecom](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Contact Slice:telecom](StructureDefinition-ext-R5-Patient.contact.md) |
+| [`Patient.contact.address`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.address](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Contact Slice:address](StructureDefinition-ext-R5-Patient.contact.md) |
+| [`Patient.contact.gender`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.gender](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Contact Slice:gender](StructureDefinition-ext-R5-Patient.contact.md) |
+| [`Patient.contact.organization`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.organization](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Contact Slice:organization](StructureDefinition-ext-R5-Patient.contact.md) |
+| [`Patient.contact.period`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.contact.period](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Contact Slice:period](StructureDefinition-ext-R5-Patient.contact.md) |
+| [`Patient.communication`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.communication](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Communication](StructureDefinition-ext-R5-Patient.communication.md) |
+| [`Patient.communication.language`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.communication.language](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Communication Slice:language](StructureDefinition-ext-R5-Patient.communication.md) |
+| [`Patient.communication.preferred`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.communication.preferred](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Communication Slice:preferred](StructureDefinition-ext-R5-Patient.communication.md) |
 | [`Patient.generalPractitioner`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.generalPractitioner](https://hl7.org/fhir/R4/Patient.html#resource) |
 | [`Patient.managingOrganization`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.managingOrganization](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.link`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.link](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.link.other`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.link.other](https://hl7.org/fhir/R4/Patient.html#resource) |
-| [`Patient.link.type`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.link.type](https://hl7.org/fhir/R4/Patient.html#resource) |
+| [`Patient.link`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.link](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Link](StructureDefinition-ext-R5-Patient.link.md) |
+| [`Patient.link.other`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.link.other](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Link Slice:other](StructureDefinition-ext-R5-Patient.link.md) |
+| [`Patient.link.type`](https://hl7.org/fhir/R5/Patient.html#resource) | [Patient.link.type](https://hl7.org/fhir/R4/Patient.html#resource)[Extension: ExtensionPatient_Link Slice:type](StructureDefinition-ext-R5-Patient.link.md) |
 

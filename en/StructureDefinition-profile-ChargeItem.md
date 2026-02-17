@@ -1,4 +1,4 @@
-# ProfileChargeItem - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileChargeItem - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileChargeItem 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 ChargeItem content to be represented via FH
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.Invoice.lineItem` for use in FHIR R4](StructureDefinition-ext-R5-Invoice.lineItem.md) and [Cross-version Extension `R5.PaymentReconciliation.allocation` for use in FHIR R4](StructureDefinition-ext-R5-PaymentReconciliation.allocation.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ChargeItem)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
   "title" : "Cross-version Profile for R5.ChargeItem for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0087161-06:00",
+  "date" : "2026-02-17T14:42:26.7478818-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         "path" : "ChargeItem.extension",
         "sliceName" : "unitPriceComponent",
         "short" : "Cross-version extension for ChargeItem.unitPriceComponent from R5 for use in FHIR R4",
-        "comment" : "Element `ChargeItem.unitPriceComponent` is will have a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`.",
+        "comment" : "Element `ChargeItem.unitPriceComponent` has a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -196,7 +196,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         "path" : "ChargeItem.extension",
         "sliceName" : "totalPriceComponent",
         "short" : "Cross-version extension for ChargeItem.totalPriceComponent from R5 for use in FHIR R4",
-        "comment" : "Element `ChargeItem.totalPriceComponent` is will have a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`.",
+        "comment" : "Element `ChargeItem.totalPriceComponent` has a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -214,8 +214,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         ]
       },
       {
-        "id" : "ChargeItem.performer.actor.extension",
-        "path" : "ChargeItem.performer.actor.extension",
+        "id" : "ChargeItem.performer.extension",
+        "path" : "ChargeItem.performer.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -226,23 +226,22 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "ChargeItem.performer.actor",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "ChargeItem.performer.actor.extension:actor",
-        "path" : "ChargeItem.performer.actor.extension",
-        "sliceName" : "actor",
-        "short" : "Cross-version extension for ChargeItem.performer.actor from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/HealthcareService in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ChargeItem.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ChargeItem.performer.actor` is mapped to FHIR R4 element `ChargeItem.performer.actor`.",
-        "min" : 1,
-        "max" : "1",
+        "id" : "ChargeItem.performer.extension:performer",
+        "path" : "ChargeItem.performer.extension",
+        "sliceName" : "performer",
+        "short" : "Cross-version extension for ChargeItem.performer from R5 for use in FHIR R4",
+        "comment" : "Element `ChargeItem.performer` has is mapped to FHIR R4 element `ChargeItem.performer`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -252,7 +251,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.performer|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -283,7 +282,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         "path" : "ChargeItem.overrideReason.extension",
         "sliceName" : "overrideReason",
         "short" : "Cross-version extension for ChargeItem.overrideReason from R5 for use in FHIR R4",
-        "comment" : "Element `ChargeItem.overrideReason` is mapped to FHIR R4 element `ChargeItem.overrideReason`.",
+        "comment" : "Element `ChargeItem.overrideReason` has is mapped to FHIR R4 element `ChargeItem.overrideReason`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -326,7 +325,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ChargeIte
         "path" : "ChargeItem.service.extension",
         "sliceName" : "service",
         "short" : "Cross-version extension for ChargeItem.service from R5 for use in FHIR R4",
-        "comment" : "Element `ChargeItem.service` is mapped to FHIR R4 element `ChargeItem.service`.",
+        "comment" : "Element `ChargeItem.service` has is mapped to FHIR R4 element `ChargeItem.service`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

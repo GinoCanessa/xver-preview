@@ -1,4 +1,4 @@
-# ExtensionAppointment_RecurrenceId - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAppointment_RecurrenceId - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Appointment.recurrenceId` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Appointmen
   "title" : "Cross-version Extension `R5.Appointment.recurrenceId` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Appointmen
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Appointment.recurrenceId` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Appointment.recurrenceId` 0..1 `positiveInt`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Appointment.recurrenceId` 0..1 `positiveInt`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Appointment.recurrenceId` is will have a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Appointment.recurrenceId` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Appointment.recurrenceId` 0..1 `positiveInt`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Appointment.recurrenceId` 0..1 `positiveInt`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Appointment.recurrenceId` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

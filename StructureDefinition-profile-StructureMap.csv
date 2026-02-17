@@ -26,15 +26,15 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "StructureMap.extension:versionAlgorithm","StructureMap.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.versionAlgorithm|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for StructureMap.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Element `StructureMap.versionAlgorithm[x]` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Cross-version extension for StructureMap.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Element `StructureMap.versionAlgorithm[x]` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "StructureMap.extension:copyrightLabel","StructureMap.extension","copyrightLabel","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.copyrightLabel|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for StructureMap.copyrightLabel from R5 for use in FHIR R4","A short string (<50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').","Element `StructureMap.copyrightLabel` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Cross-version extension for StructureMap.copyrightLabel from R5 for use in FHIR R4","A short string (<50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').","Element `StructureMap.copyrightLabel` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "StructureMap.extension:const","StructureMap.extension","const","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.const|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for StructureMap.const from R5 for use in FHIR R4","Definition of a constant value used in the map rules.","Element `StructureMap.const` is will have a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Cross-version extension for StructureMap.const from R5 for use in FHIR R4","Definition of a constant value used in the map rules.","Element `StructureMap.const` has a context of StructureMap based on following the parent source element upwards and mapping to `StructureMap`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "StructureMap.modifierExtension","StructureMap.modifierExtension","","extensions
@@ -101,10 +101,14 @@ Restrictions","",0,1,"","","","markdown {[]} {[]}
 "
 "StructureMap.structure.id","StructureMap.structure.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"StructureMap.structure.extension","StructureMap.structure.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"StructureMap.structure.extension","StructureMap.structure.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"StructureMap.structure.extension:structure","StructureMap.structure.extension","structure","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.structure|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for StructureMap.structure from R5 for use in FHIR R4","A structure definition used by this map. The structure definition may describe instances that are converted, or the instances that are produced.","Element `StructureMap.structure` has is mapped to FHIR R4 element `StructureMap.structure`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "StructureMap.structure.modifierExtension","StructureMap.structure.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -131,10 +135,14 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "StructureMap.group.id","StructureMap.group.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"StructureMap.group.extension","StructureMap.group.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"StructureMap.group.extension","StructureMap.group.extension","","","",1,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"StructureMap.group.extension:group","StructureMap.group.extension","group","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for StructureMap.group from R5 for use in FHIR R4","Organizes the mapping into managable chunks for human review/ease of maintenance.","Element `StructureMap.group` has is mapped to FHIR R4 element `StructureMap.group`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "StructureMap.group.modifierExtension","StructureMap.group.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -287,14 +295,10 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "StructureMap.group.rule.target.parameter.id","StructureMap.group.rule.target.parameter.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"StructureMap.group.rule.target.parameter.extension","StructureMap.group.rule.target.parameter.extension","","","",0,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"StructureMap.group.rule.target.parameter.extension:parameter","StructureMap.group.rule.target.parameter.extension","parameter","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group.rule.target.parameter|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for StructureMap.group.rule.target.parameter from R5 for use in FHIR R4","Parameters to the transform.","Element `StructureMap.group.rule.target.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.target.parameter`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"StructureMap.group.rule.target.parameter.extension","StructureMap.group.rule.target.parameter.extension","","extensions
+user content","",0,*,"","","","Extension {[]} {[]}
+","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "StructureMap.group.rule.target.parameter.modifierExtension","StructureMap.group.rule.target.parameter.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -328,18 +332,6 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "StructureMap.group.rule.dependent.variable","StructureMap.group.rule.dependent.variable","","","",1,*,"","","Y","string {[]} {[]}
 ","Variable to pass to the rule or group","Variable to pass to the rule or group.","","","","","","","","","",,,,,"",,,,"StructureMap.group.rule.dependent.variable",1,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
-"StructureMap.group.rule.dependent.variable.id","StructureMap.group.rule.dependent.variable.id","","","",0,1,"","","","string {[]} {[]}
-","xml:id (or equivalent in JSON)","unique id for the element within a resource (for internal references)","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"StructureMap.group.rule.dependent.variable.extension","StructureMap.group.rule.dependent.variable.extension","","","",1,*,"","","","Extension {[]} {[]}
-","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
-","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"StructureMap.group.rule.dependent.variable.extension:parameter","StructureMap.group.rule.dependent.variable.extension","parameter","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureMap.group.rule.dependent.parameter|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for StructureMap.group.rule.dependent.parameter from R5 for use in FHIR R4","Parameter to pass to the rule or group.","Element `StructureMap.group.rule.dependent.parameter` is mapped to FHIR R4 element `StructureMap.group.rule.dependent.variable`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"StructureMap.group.rule.dependent.variable.value","StructureMap.group.rule.dependent.variable.value","","","",0,1,"","","","string {[]} {[]}
-","Primitive value for string","The actual value","","","","","","","","","",1048576,,,,"",,,,"string.value",0,1,"",""
 "StructureMap.group.rule.documentation","StructureMap.group.rule.documentation","","","",0,1,"","","","string {[]} {[]}
 ","Documentation for this instance of data","Documentation for this instance of data.","","","","","","","","","",,,,,"",,,,"StructureMap.group.rule.documentation",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "

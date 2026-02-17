@@ -1,4 +1,4 @@
-# ConceptMapR5ResourceElementsForR4Resource - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ResourceElementsForR4Resource - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ResourceElementsForR4Resource 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2027724-06:00",
+  "date" : "2026-02-17T14:42:27.5272946-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Resource#Resource",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Resource` is representable via FHIR R4 Resource `Resource`.\nElement `Resource` is mapped to FHIR R4 element `Resource`."
+              "comment" : "FHIR R5 Resource `Resource` is representable via FHIR R4 Resource `Resource`.\nElement `Resource` has is mapped to FHIR R4 element `Resource`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Resource#Resource.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Resource.meta` is mapped to FHIR R4 element `Resource.meta`."
+              "comment" : "Element `Resource.meta` has is mapped to FHIR R4 element `Resource.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Resource#Resource.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Resource.implicitRules` is mapped to FHIR R4 element `Resource.implicitRules`."
+              "comment" : "Element `Resource.implicitRules` has is mapped to FHIR R4 element `Resource.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Resource#Resource.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Resource.language` is mapped to FHIR R4 element `Resource.language`."
+              "comment" : "Element `Resource.language` has is mapped to FHIR R4 element `Resource.language`, but has no comparisons."
             }
           ]
         }

@@ -1,4 +1,4 @@
-# Lookup for ProfileActorDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileActorDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileActorDefinition
 
@@ -12,32 +12,32 @@ A computable version of the following element information is available in: [Conc
 
 | | |
 | :--- | :--- |
-| [`ActorDefinition`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition](StructureDefinition-ext-R5-ActorDefinition.md) |
 | [`ActorDefinition.meta`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Basic.meta](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`ActorDefinition.implicitRules`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Basic.implicitRules](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`ActorDefinition.language`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Basic.language](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`ActorDefinition.text`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Basic.text](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`ActorDefinition.contained`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Basic.contained](https://hl7.org/fhir/R4/Basic.html#resource) |
-| [`ActorDefinition.url`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: url](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.url`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:url](StructureDefinition-ext-R5-ActorDefinition.md) |
 | [`ActorDefinition.identifier`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Basic.identifier](https://hl7.org/fhir/R4/Basic.html#resource) |
-| [`ActorDefinition.version`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: version](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.versionAlgorithm[x]`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: versionAlgorithm](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.name`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: name](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.title`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: title](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.status`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: status](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.experimental`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: experimental](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.date`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: date](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.publisher`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: publisher](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.contact`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: contact](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.description`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: description](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.useContext`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: useContext](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.jurisdiction`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: jurisdiction](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.purpose`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: purpose](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.copyright`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: copyright](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.copyrightLabel`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: copyrightLabel](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.type`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: type](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.documentation`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: documentation](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.reference`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: reference](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.capabilities`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: capabilities](StructureDefinition-ext-R5-ActorDefinition.md) |
-| [`ActorDefinition.derivedFrom`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension slice: derivedFrom](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.version`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:version](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.versionAlgorithm[x]`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:versionAlgorithm](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.name`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:name](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.title`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:title](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.status`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:status](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.experimental`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:experimental](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.date`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:date](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.publisher`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:publisher](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.contact`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:contact](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.description`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:description](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.useContext`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:useContext](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.jurisdiction`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:jurisdiction](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.purpose`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:purpose](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.copyright`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:copyright](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.copyrightLabel`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:copyrightLabel](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.type`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:type](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.documentation`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:documentation](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.reference`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:reference](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.capabilities`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:capabilities](StructureDefinition-ext-R5-ActorDefinition.md) |
+| [`ActorDefinition.derivedFrom`](https://hl7.org/fhir/R5/ActorDefinition.html#resource) | [Extension: ExtensionActorDefinition Slice:derivedFrom](StructureDefinition-ext-R5-ActorDefinition.md) |
 

@@ -57,7 +57,7 @@
   <title value="Cross-version Profile for R5.AppointmentResponse for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-09T22:05:42.984309-06:00"/>
+  <date value="2026-02-17T14:42:26.7322465-06:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -408,7 +408,7 @@
       <sliceName value="proposedNewTime"/>
       <short value="Cross-version extension for AppointmentResponse.proposedNewTime from R5 for use in FHIR R4"/>
       <definition value="Indicates that the response is proposing a different time that was initially requested.  The new proposed time will be indicated in the start and end properties."/>
-      <comment value="Element `AppointmentResponse.proposedNewTime` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
+      <comment value="Element `AppointmentResponse.proposedNewTime` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -445,7 +445,7 @@
       <sliceName value="recurring"/>
       <short value="Cross-version extension for AppointmentResponse.recurring from R5 for use in FHIR R4"/>
       <definition value="Indicates that this AppointmentResponse applies to all occurrences in a recurring request."/>
-      <comment value="Element `AppointmentResponse.recurring` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
+      <comment value="Element `AppointmentResponse.recurring` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -482,7 +482,7 @@
       <sliceName value="occurrenceDate"/>
       <short value="Cross-version extension for AppointmentResponse.occurrenceDate from R5 for use in FHIR R4"/>
       <definition value="The original date within a recurring request. This could be used in place of the recurrenceId to be more direct (or where the template is provided through the simple list of dates in `Appointment.occurrenceDate`)."/>
-      <comment value="Element `AppointmentResponse.occurrenceDate` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
+      <comment value="Element `AppointmentResponse.occurrenceDate` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -519,7 +519,7 @@
       <sliceName value="recurrenceId"/>
       <short value="Cross-version extension for AppointmentResponse.recurrenceId from R5 for use in FHIR R4"/>
       <definition value="The recurrence ID (sequence number) of the specific appointment when responding to a recurring request."/>
-      <comment value="Element `AppointmentResponse.recurrenceId` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
+      <comment value="Element `AppointmentResponse.recurrenceId` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -913,7 +913,7 @@
       <sliceName value="actor"/>
       <short value="Cross-version extension for AppointmentResponse.actor from R5 for use in FHIR R4"/>
       <definition value="This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4"/>
-      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AppointmentResponse.actor` is mapped to FHIR R4 element `AppointmentResponse.actor`."/>
+      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AppointmentResponse.actor` has is mapped to FHIR R4 element `AppointmentResponse.actor`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1190,7 +1190,7 @@
       <sliceName value="participantStatus"/>
       <short value="Cross-version extension for AppointmentResponse.participantStatus from R5 for use in FHIR R4"/>
       <definition value="Participation status of the participant. When the status is declined or tentative if the start/end times are different to the appointment, then these times should be interpreted as a requested time change. When the status is accepted, the times can either be the time of the appointment (as a confirmation of the time) or can be empty."/>
-      <comment value="Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Element `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus`."/>
+      <comment value="Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Element `AppointmentResponse.participantStatus` has is mapped to FHIR R4 element `AppointmentResponse.participantStatus`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1311,7 +1311,7 @@
       <path value="AppointmentResponse.extension"/>
       <sliceName value="proposedNewTime"/>
       <short value="Cross-version extension for AppointmentResponse.proposedNewTime from R5 for use in FHIR R4"/>
-      <comment value="Element `AppointmentResponse.proposedNewTime` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
+      <comment value="Element `AppointmentResponse.proposedNewTime` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1328,7 +1328,7 @@
       <path value="AppointmentResponse.extension"/>
       <sliceName value="recurring"/>
       <short value="Cross-version extension for AppointmentResponse.recurring from R5 for use in FHIR R4"/>
-      <comment value="Element `AppointmentResponse.recurring` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
+      <comment value="Element `AppointmentResponse.recurring` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1345,7 +1345,7 @@
       <path value="AppointmentResponse.extension"/>
       <sliceName value="occurrenceDate"/>
       <short value="Cross-version extension for AppointmentResponse.occurrenceDate from R5 for use in FHIR R4"/>
-      <comment value="Element `AppointmentResponse.occurrenceDate` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
+      <comment value="Element `AppointmentResponse.occurrenceDate` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1362,7 +1362,7 @@
       <path value="AppointmentResponse.extension"/>
       <sliceName value="recurrenceId"/>
       <short value="Cross-version extension for AppointmentResponse.recurrenceId from R5 for use in FHIR R4"/>
-      <comment value="Element `AppointmentResponse.recurrenceId` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
+      <comment value="Element `AppointmentResponse.recurrenceId` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1398,7 +1398,7 @@
       <sliceName value="actor"/>
       <short value="Cross-version extension for AppointmentResponse.actor from R5 for use in FHIR R4"/>
       <definition value="This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4"/>
-      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AppointmentResponse.actor` is mapped to FHIR R4 element `AppointmentResponse.actor`."/>
+      <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AppointmentResponse.actor` has is mapped to FHIR R4 element `AppointmentResponse.actor`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1433,7 +1433,7 @@
       <path value="AppointmentResponse.participantStatus.extension"/>
       <sliceName value="participantStatus"/>
       <short value="Cross-version extension for AppointmentResponse.participantStatus from R5 for use in FHIR R4"/>
-      <comment value="Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Element `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus`."/>
+      <comment value="Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.&#xA;Element `AppointmentResponse.participantStatus` has is mapped to FHIR R4 element `AppointmentResponse.participantStatus`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>

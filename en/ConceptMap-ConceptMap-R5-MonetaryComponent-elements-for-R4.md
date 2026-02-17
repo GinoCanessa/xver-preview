@@ -1,4 +1,4 @@
-# ConceptMapR5MonetaryComponentElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5MonetaryComponentElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5MonetaryComponentElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.0592889-06:00",
+  "date" : "2026-02-17T14:42:27.4024093-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -94,7 +94,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent:http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent.type",
               "equivalence" : "relatedto",
               "comment" : "Element `MonetaryComponent.type` is not mapped to FHIR R4, since FHIR R5 `MonetaryComponent` is not mapped."
             }
@@ -105,7 +105,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "code",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent:code",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent:http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent.code",
               "equivalence" : "relatedto",
               "comment" : "Element `MonetaryComponent.code` is not mapped to FHIR R4, since FHIR R5 `MonetaryComponent` is not mapped."
             }
@@ -116,7 +116,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "factor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent:factor",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent:http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent.factor",
               "equivalence" : "relatedto",
               "comment" : "Element `MonetaryComponent.factor` is not mapped to FHIR R4, since FHIR R5 `MonetaryComponent` is not mapped."
             }
@@ -127,7 +127,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "amount",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent:amount",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent:http://hl7.org/fhir/5.0/StructureDefinition/extension-MonetaryComponent.amount",
               "equivalence" : "relatedto",
               "comment" : "Element `MonetaryComponent.amount` is not mapped to FHIR R4, since FHIR R5 `MonetaryComponent` is not mapped."
             }

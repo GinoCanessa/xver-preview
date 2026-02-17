@@ -1,4 +1,4 @@
-# ConceptMapR5RiskAssessmentElementsForR4RiskAssessment - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5RiskAssessmentElementsForR4RiskAssessment - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5RiskAssessmentElementsForR4RiskAssessment 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2036485-06:00",
+  "date" : "2026-02-17T14:42:27.5280407-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `RiskAssessment` is representable via FHIR R4 Resource `RiskAssessment`.\nElement `RiskAssessment` is mapped to FHIR R4 element `RiskAssessment`."
+              "comment" : "FHIR R5 Resource `RiskAssessment` is representable via FHIR R4 Resource `RiskAssessment`.\nElement `RiskAssessment` has is mapped to FHIR R4 element `RiskAssessment`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.meta` is mapped to FHIR R4 element `RiskAssessment.meta`."
+              "comment" : "Element `RiskAssessment.meta` has is mapped to FHIR R4 element `RiskAssessment.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.implicitRules` is mapped to FHIR R4 element `RiskAssessment.implicitRules`."
+              "comment" : "Element `RiskAssessment.implicitRules` has is mapped to FHIR R4 element `RiskAssessment.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.language` is mapped to FHIR R4 element `RiskAssessment.language`."
+              "comment" : "Element `RiskAssessment.language` has is mapped to FHIR R4 element `RiskAssessment.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.text` is mapped to FHIR R4 element `RiskAssessment.text`."
+              "comment" : "Element `RiskAssessment.text` has is mapped to FHIR R4 element `RiskAssessment.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.contained` is mapped to FHIR R4 element `RiskAssessment.contained`."
+              "comment" : "Element `RiskAssessment.contained` has is mapped to FHIR R4 element `RiskAssessment.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.identifier` is mapped to FHIR R4 element `RiskAssessment.identifier`."
+              "comment" : "Element `RiskAssessment.identifier` has is mapped to FHIR R4 element `RiskAssessment.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.basedOn",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.basedOn` is mapped to FHIR R4 element `RiskAssessment.basedOn`."
+              "comment" : "Element `RiskAssessment.basedOn` has is mapped to FHIR R4 element `RiskAssessment.basedOn`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.parent",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.parent` is mapped to FHIR R4 element `RiskAssessment.parent`."
+              "comment" : "Element `RiskAssessment.parent` has is mapped to FHIR R4 element `RiskAssessment.parent`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.status` is mapped to FHIR R4 element `RiskAssessment.status`."
+              "comment" : "Element `RiskAssessment.status` has is mapped to FHIR R4 element `RiskAssessment.status`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.method",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.method` is mapped to FHIR R4 element `RiskAssessment.method`."
+              "comment" : "Element `RiskAssessment.method` has is mapped to FHIR R4 element `RiskAssessment.method`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.code` is mapped to FHIR R4 element `RiskAssessment.code`."
+              "comment" : "Element `RiskAssessment.code` has is mapped to FHIR R4 element `RiskAssessment.code`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.subject` is mapped to FHIR R4 element `RiskAssessment.subject`."
+              "comment" : "Element `RiskAssessment.subject` has is mapped to FHIR R4 element `RiskAssessment.subject`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.encounter` is mapped to FHIR R4 element `RiskAssessment.encounter`."
+              "comment" : "Element `RiskAssessment.encounter` has is mapped to FHIR R4 element `RiskAssessment.encounter`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.occurrence[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `RiskAssessment.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment`.\nElement `RiskAssessment.occurrence[x]` is mapped to FHIR R4 element `RiskAssessment.occurrence[x]`.\nNote that the target element context `RiskAssessment.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment`."
+              "comment" : "Note that the target element context `RiskAssessment.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment`.\nElement `RiskAssessment.occurrence[x]` has is mapped to FHIR R4 element `RiskAssessment.occurrence[x]`, but has no comparisons.\nNote that the target element context `RiskAssessment.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.condition` is mapped to FHIR R4 element `RiskAssessment.condition`."
+              "comment" : "Element `RiskAssessment.condition` has is mapped to FHIR R4 element `RiskAssessment.condition`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.performer",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RiskAssessment.performer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RiskAssessment.performer` is mapped to FHIR R4 element `RiskAssessment.performer`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RiskAssessment.performer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RiskAssessment.performer` has is mapped to FHIR R4 element `RiskAssessment.performer`, but has no comparisons."
             }
           ]
         },
@@ -272,12 +272,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.reason` is mapped to FHIR R4 element `RiskAssessment.reasonCode`.\nElement `RiskAssessment.reason` is mapped to FHIR R4 element `RiskAssessment.reasonReference`."
+              "comment" : "Element `RiskAssessment.reason` has is mapped to FHIR R4 element `RiskAssessment.reasonCode`, but has no comparisons.\nElement `RiskAssessment.reason` has is mapped to FHIR R4 element `RiskAssessment.reasonReference`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.reason` is mapped to FHIR R4 element `RiskAssessment.reasonCode`.\nElement `RiskAssessment.reason` is mapped to FHIR R4 element `RiskAssessment.reasonReference`."
+              "comment" : "Element `RiskAssessment.reason` has is mapped to FHIR R4 element `RiskAssessment.reasonCode`, but has no comparisons.\nElement `RiskAssessment.reason` has is mapped to FHIR R4 element `RiskAssessment.reasonReference`, but has no comparisons."
             }
           ]
         },
@@ -288,7 +288,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.basis",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.basis` is mapped to FHIR R4 element `RiskAssessment.basis`."
+              "comment" : "Element `RiskAssessment.basis` has is mapped to FHIR R4 element `RiskAssessment.basis`, but has no comparisons."
             }
           ]
         },
@@ -299,7 +299,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.prediction",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.prediction` is mapped to FHIR R4 element `RiskAssessment.prediction`."
+              "comment" : "Element `RiskAssessment.prediction` has is mapped to FHIR R4 element `RiskAssessment.prediction`, but has no comparisons."
             }
           ]
         },
@@ -310,7 +310,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.prediction.outcome",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.prediction.outcome` is mapped to FHIR R4 element `RiskAssessment.prediction.outcome`."
+              "comment" : "Element `RiskAssessment.prediction.outcome` is part of an existing definition because parent element `RiskAssessment.prediction` requires a cross-version extension.\nElement `RiskAssessment.prediction.outcome` has is mapped to FHIR R4 element `RiskAssessment.prediction.outcome`, but has no comparisons."
             }
           ]
         },
@@ -321,7 +321,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.prediction.probability[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `RiskAssessment.prediction.probability[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment.prediction`.\nElement `RiskAssessment.prediction.probability[x]` is mapped to FHIR R4 element `RiskAssessment.prediction.probability[x]`.\nNote that the target element context `RiskAssessment.prediction.probability[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment.prediction`."
+              "comment" : "Element `RiskAssessment.prediction.probability[x]` is part of an existing definition because parent element `RiskAssessment.prediction` requires a cross-version extension.\nNote that the target element context `RiskAssessment.prediction.probability[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment.prediction`.\nElement `RiskAssessment.prediction.probability[x]` has is mapped to FHIR R4 element `RiskAssessment.prediction.probability[x]`, but has no comparisons.\nNote that the target element context `RiskAssessment.prediction.probability[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment.prediction`."
             }
           ]
         },
@@ -332,7 +332,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.prediction.qualitativeRisk",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.prediction.qualitativeRisk` is mapped to FHIR R4 element `RiskAssessment.prediction.qualitativeRisk`."
+              "comment" : "Element `RiskAssessment.prediction.qualitativeRisk` is part of an existing definition because parent element `RiskAssessment.prediction` requires a cross-version extension.\nElement `RiskAssessment.prediction.qualitativeRisk` has is mapped to FHIR R4 element `RiskAssessment.prediction.qualitativeRisk`, but has no comparisons."
             }
           ]
         },
@@ -343,7 +343,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.prediction.relativeRisk",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.prediction.relativeRisk` is mapped to FHIR R4 element `RiskAssessment.prediction.relativeRisk`."
+              "comment" : "Element `RiskAssessment.prediction.relativeRisk` is part of an existing definition because parent element `RiskAssessment.prediction` requires a cross-version extension.\nElement `RiskAssessment.prediction.relativeRisk` has is mapped to FHIR R4 element `RiskAssessment.prediction.relativeRisk`, but has no comparisons."
             }
           ]
         },
@@ -354,7 +354,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.prediction.when[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `RiskAssessment.prediction.when[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment.prediction`.\nElement `RiskAssessment.prediction.when[x]` is mapped to FHIR R4 element `RiskAssessment.prediction.when[x]`.\nNote that the target element context `RiskAssessment.prediction.when[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment.prediction`."
+              "comment" : "Element `RiskAssessment.prediction.when[x]` is part of an existing definition because parent element `RiskAssessment.prediction` requires a cross-version extension.\nNote that the target element context `RiskAssessment.prediction.when[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment.prediction`.\nElement `RiskAssessment.prediction.when[x]` has is mapped to FHIR R4 element `RiskAssessment.prediction.when[x]`, but has no comparisons.\nNote that the target element context `RiskAssessment.prediction.when[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `RiskAssessment.prediction`."
             }
           ]
         },
@@ -365,7 +365,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.prediction.rationale",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.prediction.rationale` is mapped to FHIR R4 element `RiskAssessment.prediction.rationale`."
+              "comment" : "Element `RiskAssessment.prediction.rationale` is part of an existing definition because parent element `RiskAssessment.prediction` requires a cross-version extension.\nElement `RiskAssessment.prediction.rationale` has is mapped to FHIR R4 element `RiskAssessment.prediction.rationale`, but has no comparisons."
             }
           ]
         },
@@ -376,7 +376,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.mitigation",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.mitigation` is mapped to FHIR R4 element `RiskAssessment.mitigation`."
+              "comment" : "Element `RiskAssessment.mitigation` has is mapped to FHIR R4 element `RiskAssessment.mitigation`, but has no comparisons."
             }
           ]
         },
@@ -387,7 +387,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/RiskAssessment#RiskAssessment.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `RiskAssessment.note` is mapped to FHIR R4 element `RiskAssessment.note`."
+              "comment" : "Element `RiskAssessment.note` has is mapped to FHIR R4 element `RiskAssessment.note`, but has no comparisons."
             }
           ]
         }

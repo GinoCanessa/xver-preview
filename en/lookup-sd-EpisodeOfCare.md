@@ -1,4 +1,4 @@
-# Lookup for ProfileEpisodeOfCare - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileEpisodeOfCare - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileEpisodeOfCare
 
@@ -20,16 +20,16 @@ A computable version of the following element information is available in: [Conc
 | [`EpisodeOfCare.contained`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.contained](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
 | [`EpisodeOfCare.identifier`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.identifier](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
 | [`EpisodeOfCare.status`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.status](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
-| [`EpisodeOfCare.statusHistory`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.statusHistory](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
-| [`EpisodeOfCare.statusHistory.status`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.statusHistory.status](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
-| [`EpisodeOfCare.statusHistory.period`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.statusHistory.period](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
+| [`EpisodeOfCare.statusHistory`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.statusHistory](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource)[Extension: ExtensionEpisodeOfCare_StatusHistory](StructureDefinition-ext-R5-EpisodeOfCare.statusHistory.md) |
+| [`EpisodeOfCare.statusHistory.status`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.statusHistory.status](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource)[Extension: ExtensionEpisodeOfCare_StatusHistory Slice:status](StructureDefinition-ext-R5-EpisodeOfCare.statusHistory.md) |
+| [`EpisodeOfCare.statusHistory.period`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.statusHistory.period](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource)[Extension: ExtensionEpisodeOfCare_StatusHistory Slice:period](StructureDefinition-ext-R5-EpisodeOfCare.statusHistory.md) |
 | [`EpisodeOfCare.type`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.type](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
-| [`EpisodeOfCare.reason`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.reason](StructureDefinition-ext-R5-EpisodeOfCare.reason.md) |
-| [`EpisodeOfCare.reason.use`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource)[Extension slice: use](StructureDefinition-ext-R5-EpisodeOfCare.reason.md) |
-| [`EpisodeOfCare.reason.value`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource)[Extension slice: value](StructureDefinition-ext-R5-EpisodeOfCare.reason.md) |
-| [`EpisodeOfCare.diagnosis`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.diagnosis](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
-| [`EpisodeOfCare.diagnosis.condition`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.diagnosis.condition](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis.condition](StructureDefinition-ext-R5-EpisodeOfCare.dia.condition.md) |
-| [`EpisodeOfCare.diagnosis.use`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.diagnosis.role](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
+| [`EpisodeOfCare.reason`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [Extension: ExtensionEpisodeOfCare_Reason](StructureDefinition-ext-R5-EpisodeOfCare.reason.md) |
+| [`EpisodeOfCare.reason.use`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [Extension: ExtensionEpisodeOfCare_Reason Slice:use](StructureDefinition-ext-R5-EpisodeOfCare.reason.md) |
+| [`EpisodeOfCare.reason.value`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [Extension: ExtensionEpisodeOfCare_Reason Slice:value](StructureDefinition-ext-R5-EpisodeOfCare.reason.md) |
+| [`EpisodeOfCare.diagnosis`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.diagnosis](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource)[Extension: ExtensionEpisodeOfCare_Diagnosis](StructureDefinition-ext-R5-EpisodeOfCare.diagnosis.md) |
+| [`EpisodeOfCare.diagnosis.condition`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.diagnosis.condition](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource)[Extension: ExtensionEpisodeOfCare_Diagnosis Slice:condition](StructureDefinition-ext-R5-EpisodeOfCare.diagnosis.md) |
+| [`EpisodeOfCare.diagnosis.use`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.diagnosis.role](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource)[Extension: ExtensionEpisodeOfCare_Diagnosis Slice:use](StructureDefinition-ext-R5-EpisodeOfCare.diagnosis.md) |
 | [`EpisodeOfCare.patient`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.patient](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
 | [`EpisodeOfCare.managingOrganization`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.managingOrganization](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |
 | [`EpisodeOfCare.period`](https://hl7.org/fhir/R5/EpisodeOfCare.html#resource) | [EpisodeOfCare.period](https://hl7.org/fhir/R4/EpisodeOfCare.html#resource) |

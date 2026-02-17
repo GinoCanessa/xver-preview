@@ -1,4 +1,4 @@
-# ConceptMapR5ContractElementsForR4Contract - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ContractElementsForR4Contract - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ContractElementsForR4Contract 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.69524-06:00",
+  "date" : "2026-02-17T14:42:27.1302114-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Contract` is representable via FHIR R4 Resource `Contract`.\nElement `Contract` is mapped to FHIR R4 element `Contract`."
+              "comment" : "FHIR R5 Resource `Contract` is representable via FHIR R4 Resource `Contract`.\nElement `Contract` has is mapped to FHIR R4 element `Contract`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.meta` is mapped to FHIR R4 element `Contract.meta`."
+              "comment" : "Element `Contract.meta` has is mapped to FHIR R4 element `Contract.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.implicitRules` is mapped to FHIR R4 element `Contract.implicitRules`."
+              "comment" : "Element `Contract.implicitRules` has is mapped to FHIR R4 element `Contract.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.language` is mapped to FHIR R4 element `Contract.language`."
+              "comment" : "Element `Contract.language` has is mapped to FHIR R4 element `Contract.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.text` is mapped to FHIR R4 element `Contract.text`."
+              "comment" : "Element `Contract.text` has is mapped to FHIR R4 element `Contract.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.contained` is mapped to FHIR R4 element `Contract.contained`."
+              "comment" : "Element `Contract.contained` has is mapped to FHIR R4 element `Contract.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.identifier` is mapped to FHIR R4 element `Contract.identifier`."
+              "comment" : "Element `Contract.identifier` has is mapped to FHIR R4 element `Contract.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.url` is mapped to FHIR R4 element `Contract.url`."
+              "comment" : "Element `Contract.url` has is mapped to FHIR R4 element `Contract.url`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.version` is mapped to FHIR R4 element `Contract.version`."
+              "comment" : "Element `Contract.version` has is mapped to FHIR R4 element `Contract.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.status` is mapped to FHIR R4 element `Contract.status`."
+              "comment" : "Element `Contract.status` has is mapped to FHIR R4 element `Contract.status`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.legalState",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.legalState` is mapped to FHIR R4 element `Contract.legalState`."
+              "comment" : "Element `Contract.legalState` has is mapped to FHIR R4 element `Contract.legalState`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.instantiatesCanonical",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.instantiatesCanonical` is mapped to FHIR R4 element `Contract.instantiatesCanonical`."
+              "comment" : "Element `Contract.instantiatesCanonical` has is mapped to FHIR R4 element `Contract.instantiatesCanonical`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.instantiatesUri",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.instantiatesUri` is mapped to FHIR R4 element `Contract.instantiatesUri`."
+              "comment" : "Element `Contract.instantiatesUri` has is mapped to FHIR R4 element `Contract.instantiatesUri`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.contentDerivative",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.contentDerivative` is mapped to FHIR R4 element `Contract.contentDerivative`."
+              "comment" : "Element `Contract.contentDerivative` has is mapped to FHIR R4 element `Contract.contentDerivative`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.issued",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.issued` is mapped to FHIR R4 element `Contract.issued`."
+              "comment" : "Element `Contract.issued` has is mapped to FHIR R4 element `Contract.issued`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.applies",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.applies` is mapped to FHIR R4 element `Contract.applies`."
+              "comment" : "Element `Contract.applies` has is mapped to FHIR R4 element `Contract.applies`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.expirationType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.expirationType` is mapped to FHIR R4 element `Contract.expirationType`."
+              "comment" : "Element `Contract.expirationType` has is mapped to FHIR R4 element `Contract.expirationType`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.subject` is mapped to FHIR R4 element `Contract.subject`."
+              "comment" : "Element `Contract.subject` has is mapped to FHIR R4 element `Contract.subject`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.authority",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.authority` is mapped to FHIR R4 element `Contract.authority`."
+              "comment" : "Element `Contract.authority` has is mapped to FHIR R4 element `Contract.authority`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.domain",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.domain` is mapped to FHIR R4 element `Contract.domain`."
+              "comment" : "Element `Contract.domain` has is mapped to FHIR R4 element `Contract.domain`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.site",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.site` is mapped to FHIR R4 element `Contract.site`."
+              "comment" : "Element `Contract.site` has is mapped to FHIR R4 element `Contract.site`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.name` is mapped to FHIR R4 element `Contract.name`."
+              "comment" : "Element `Contract.name` has is mapped to FHIR R4 element `Contract.name`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.title` is mapped to FHIR R4 element `Contract.title`."
+              "comment" : "Element `Contract.title` has is mapped to FHIR R4 element `Contract.title`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.subtitle",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.subtitle` is mapped to FHIR R4 element `Contract.subtitle`."
+              "comment" : "Element `Contract.subtitle` has is mapped to FHIR R4 element `Contract.subtitle`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.alias",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.alias` is mapped to FHIR R4 element `Contract.alias`."
+              "comment" : "Element `Contract.alias` has is mapped to FHIR R4 element `Contract.alias`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.author",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.author` is mapped to FHIR R4 element `Contract.author`."
+              "comment" : "Element `Contract.author` has is mapped to FHIR R4 element `Contract.author`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.scope",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.scope` is mapped to FHIR R4 element `Contract.scope`."
+              "comment" : "Element `Contract.scope` has is mapped to FHIR R4 element `Contract.scope`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.topic[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Contract.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nElement `Contract.topic[x]` is mapped to FHIR R4 element `Contract.topic[x]`.\nNote that the target element context `Contract.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`."
+              "comment" : "Note that the target element context `Contract.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nElement `Contract.topic[x]` has is mapped to FHIR R4 element `Contract.topic[x]`, but has no comparisons.\nNote that the target element context `Contract.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.type` is mapped to FHIR R4 element `Contract.type`."
+              "comment" : "Element `Contract.type` has is mapped to FHIR R4 element `Contract.type`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.subType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.subType` is mapped to FHIR R4 element `Contract.subType`."
+              "comment" : "Element `Contract.subType` has is mapped to FHIR R4 element `Contract.subType`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.contentDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.contentDefinition` is mapped to FHIR R4 element `Contract.contentDefinition`."
+              "comment" : "Element `Contract.contentDefinition` has is mapped to FHIR R4 element `Contract.contentDefinition`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.contentDefinition.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.contentDefinition.type` is mapped to FHIR R4 element `Contract.contentDefinition.type`."
+              "comment" : "Element `Contract.contentDefinition.type` is part of an existing definition because parent element `Contract.contentDefinition` requires a cross-version extension.\nElement `Contract.contentDefinition.type` has is mapped to FHIR R4 element `Contract.contentDefinition.type`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.contentDefinition.subType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.contentDefinition.subType` is mapped to FHIR R4 element `Contract.contentDefinition.subType`."
+              "comment" : "Element `Contract.contentDefinition.subType` is part of an existing definition because parent element `Contract.contentDefinition` requires a cross-version extension.\nElement `Contract.contentDefinition.subType` has is mapped to FHIR R4 element `Contract.contentDefinition.subType`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.contentDefinition.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.contentDefinition.publisher` is mapped to FHIR R4 element `Contract.contentDefinition.publisher`."
+              "comment" : "Element `Contract.contentDefinition.publisher` is part of an existing definition because parent element `Contract.contentDefinition` requires a cross-version extension.\nElement `Contract.contentDefinition.publisher` has is mapped to FHIR R4 element `Contract.contentDefinition.publisher`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.contentDefinition.publicationDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.contentDefinition.publicationDate` is mapped to FHIR R4 element `Contract.contentDefinition.publicationDate`."
+              "comment" : "Element `Contract.contentDefinition.publicationDate` is part of an existing definition because parent element `Contract.contentDefinition` requires a cross-version extension.\nElement `Contract.contentDefinition.publicationDate` has is mapped to FHIR R4 element `Contract.contentDefinition.publicationDate`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.contentDefinition.publicationStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.contentDefinition.publicationStatus` is mapped to FHIR R4 element `Contract.contentDefinition.publicationStatus`."
+              "comment" : "Element `Contract.contentDefinition.publicationStatus` is part of an existing definition because parent element `Contract.contentDefinition` requires a cross-version extension.\nElement `Contract.contentDefinition.publicationStatus` has is mapped to FHIR R4 element `Contract.contentDefinition.publicationStatus`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.contentDefinition.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.contentDefinition.copyright` is mapped to FHIR R4 element `Contract.contentDefinition.copyright`."
+              "comment" : "Element `Contract.contentDefinition.copyright` is part of an existing definition because parent element `Contract.contentDefinition` requires a cross-version extension.\nElement `Contract.contentDefinition.copyright` has is mapped to FHIR R4 element `Contract.contentDefinition.copyright`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term` is mapped to FHIR R4 element `Contract.term`."
+              "comment" : "Element `Contract.term` has is mapped to FHIR R4 element `Contract.term`, but has no comparisons.\nNote available implied context: `Contract.term.group` because `Contract.term.group` is defined as a content reference to `Contract.term`."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.identifier` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.identifier` is mapped to FHIR R4 element `Contract.term.identifier`."
+              "comment" : "Element `Contract.term.identifier` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.identifier` has is mapped to FHIR R4 element `Contract.term.identifier`, but has no comparisons."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.issued",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.issued` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.issued` is mapped to FHIR R4 element `Contract.term.issued`."
+              "comment" : "Element `Contract.term.issued` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.issued` has is mapped to FHIR R4 element `Contract.term.issued`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.applies",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.applies` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.applies` is mapped to FHIR R4 element `Contract.term.applies`."
+              "comment" : "Element `Contract.term.applies` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.applies` has is mapped to FHIR R4 element `Contract.term.applies`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.topic[x]",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.topic[x]` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `Contract.term.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term`.\nElement `Contract.term.topic[x]` is mapped to FHIR R4 element `Contract.term.topic[x]`.\nNote that the target element context `Contract.term.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term`."
+              "comment" : "Element `Contract.term.topic[x]` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nNote that the target element context `Contract.term.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term`.\nElement `Contract.term.topic[x]` has is mapped to FHIR R4 element `Contract.term.topic[x]`, but has no comparisons.\nNote that the target element context `Contract.term.topic[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term`."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.type` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.type` is mapped to FHIR R4 element `Contract.term.type`."
+              "comment" : "Element `Contract.term.type` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.type` has is mapped to FHIR R4 element `Contract.term.type`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.subType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.subType` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.subType` is mapped to FHIR R4 element `Contract.term.subType`."
+              "comment" : "Element `Contract.term.subType` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.subType` has is mapped to FHIR R4 element `Contract.term.subType`, but has no comparisons."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.text` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.text` is mapped to FHIR R4 element `Contract.term.text`."
+              "comment" : "Element `Contract.term.text` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.text` has is mapped to FHIR R4 element `Contract.term.text`, but has no comparisons."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.securityLabel",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.securityLabel` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.securityLabel` is mapped to FHIR R4 element `Contract.term.securityLabel`."
+              "comment" : "Element `Contract.term.securityLabel` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.securityLabel` has is mapped to FHIR R4 element `Contract.term.securityLabel`, but has no comparisons."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.securityLabel.number",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.securityLabel.number` is mapped to FHIR R4 element `Contract.term.securityLabel.number`."
+              "comment" : "Element `Contract.term.securityLabel.number` is part of an existing definition because parent element `Contract.term.securityLabel` requires a cross-version extension.\nElement `Contract.term.securityLabel.number` has is mapped to FHIR R4 element `Contract.term.securityLabel.number`, but has no comparisons."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.securityLabel.classification",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.securityLabel.classification` is mapped to FHIR R4 element `Contract.term.securityLabel.classification`."
+              "comment" : "Element `Contract.term.securityLabel.classification` is part of an existing definition because parent element `Contract.term.securityLabel` requires a cross-version extension.\nElement `Contract.term.securityLabel.classification` has is mapped to FHIR R4 element `Contract.term.securityLabel.classification`, but has no comparisons."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.securityLabel.category",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.securityLabel.category` is mapped to FHIR R4 element `Contract.term.securityLabel.category`."
+              "comment" : "Element `Contract.term.securityLabel.category` is part of an existing definition because parent element `Contract.term.securityLabel` requires a cross-version extension.\nElement `Contract.term.securityLabel.category` has is mapped to FHIR R4 element `Contract.term.securityLabel.category`, but has no comparisons."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.securityLabel.control",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.securityLabel.control` is mapped to FHIR R4 element `Contract.term.securityLabel.control`."
+              "comment" : "Element `Contract.term.securityLabel.control` is part of an existing definition because parent element `Contract.term.securityLabel` requires a cross-version extension.\nElement `Contract.term.securityLabel.control` has is mapped to FHIR R4 element `Contract.term.securityLabel.control`, but has no comparisons."
             }
           ]
         },
@@ -635,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.offer` is mapped to FHIR R4 element `Contract.term.offer`."
+              "comment" : "Element `Contract.term.offer` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.offer` has is mapped to FHIR R4 element `Contract.term.offer`, but has no comparisons."
             }
           ]
         },
@@ -646,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.identifier` is mapped to FHIR R4 element `Contract.term.offer.identifier`."
+              "comment" : "Element `Contract.term.offer.identifier` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.identifier` has is mapped to FHIR R4 element `Contract.term.offer.identifier`, but has no comparisons."
             }
           ]
         },
@@ -657,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.party",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.party` is mapped to FHIR R4 element `Contract.term.offer.party`."
+              "comment" : "Element `Contract.term.offer.party` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.party` has is mapped to FHIR R4 element `Contract.term.offer.party`, but has no comparisons."
             }
           ]
         },
@@ -668,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.party.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.party.reference` is mapped to FHIR R4 element `Contract.term.offer.party.reference`."
+              "comment" : "Element `Contract.term.offer.party.reference` is part of an existing definition because parent element `Contract.term.offer.party` requires a cross-version extension.\nElement `Contract.term.offer.party.reference` has is mapped to FHIR R4 element `Contract.term.offer.party.reference`, but has no comparisons."
             }
           ]
         },
@@ -679,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.party.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.party.role` is mapped to FHIR R4 element `Contract.term.offer.party.role`."
+              "comment" : "Element `Contract.term.offer.party.role` is part of an existing definition because parent element `Contract.term.offer.party` requires a cross-version extension.\nElement `Contract.term.offer.party.role` has is mapped to FHIR R4 element `Contract.term.offer.party.role`, but has no comparisons."
             }
           ]
         },
@@ -690,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.topic",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.topic` is mapped to FHIR R4 element `Contract.term.offer.topic`."
+              "comment" : "Element `Contract.term.offer.topic` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.topic` has is mapped to FHIR R4 element `Contract.term.offer.topic`, but has no comparisons."
             }
           ]
         },
@@ -701,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.type` is mapped to FHIR R4 element `Contract.term.offer.type`."
+              "comment" : "Element `Contract.term.offer.type` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.type` has is mapped to FHIR R4 element `Contract.term.offer.type`, but has no comparisons."
             }
           ]
         },
@@ -712,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.decision",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.decision` is mapped to FHIR R4 element `Contract.term.offer.decision`."
+              "comment" : "Element `Contract.term.offer.decision` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.decision` has is mapped to FHIR R4 element `Contract.term.offer.decision`, but has no comparisons."
             }
           ]
         },
@@ -723,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.decisionMode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.decisionMode` is mapped to FHIR R4 element `Contract.term.offer.decisionMode`."
+              "comment" : "Element `Contract.term.offer.decisionMode` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.decisionMode` has is mapped to FHIR R4 element `Contract.term.offer.decisionMode`, but has no comparisons."
             }
           ]
         },
@@ -734,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.answer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.answer` is mapped to FHIR R4 element `Contract.term.offer.answer`."
+              "comment" : "Element `Contract.term.offer.answer` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.answer` has is mapped to FHIR R4 element `Contract.term.offer.answer`, but has no comparisons."
             }
           ]
         },
@@ -745,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.answer.value[x]",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.answer.value[x]` is part of an existing definition because parent element `Contract.term.offer.answer` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `Contract.term.offer.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.offer.answer`.\nElement `Contract.term.offer.answer.value[x]` is mapped to FHIR R4 element `Contract.term.offer.answer.value[x]`.\nNote that the target element context `Contract.term.offer.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.offer.answer`."
+              "comment" : "Element `Contract.term.offer.answer.value[x]` is part of an existing definition because parent element `Contract.term.offer.answer` requires a cross-version extension.\nNote that the target element context `Contract.term.offer.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.offer.answer`.\nElement `Contract.term.offer.answer.value[x]` has is mapped to FHIR R4 element `Contract.term.offer.answer.value[x]`, but has no comparisons.\nNote that the target element context `Contract.term.offer.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.offer.answer`."
             }
           ]
         },
@@ -756,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.text` is mapped to FHIR R4 element `Contract.term.offer.text`."
+              "comment" : "Element `Contract.term.offer.text` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.text` has is mapped to FHIR R4 element `Contract.term.offer.text`, but has no comparisons."
             }
           ]
         },
@@ -767,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.linkId",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.linkId` is mapped to FHIR R4 element `Contract.term.offer.linkId`."
+              "comment" : "Element `Contract.term.offer.linkId` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.linkId` has is mapped to FHIR R4 element `Contract.term.offer.linkId`, but has no comparisons."
             }
           ]
         },
@@ -778,7 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.offer.securityLabelNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.offer.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.offer.securityLabelNumber`."
+              "comment" : "Element `Contract.term.offer.securityLabelNumber` is part of an existing definition because parent element `Contract.term.offer` requires a cross-version extension.\nElement `Contract.term.offer.securityLabelNumber` has is mapped to FHIR R4 element `Contract.term.offer.securityLabelNumber`, but has no comparisons."
             }
           ]
         },
@@ -789,7 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.asset` is mapped to FHIR R4 element `Contract.term.asset`."
+              "comment" : "Element `Contract.term.asset` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.asset` has is mapped to FHIR R4 element `Contract.term.asset`, but has no comparisons."
             }
           ]
         },
@@ -800,7 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.scope",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.scope` is mapped to FHIR R4 element `Contract.term.asset.scope`."
+              "comment" : "Element `Contract.term.asset.scope` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.scope` has is mapped to FHIR R4 element `Contract.term.asset.scope`, but has no comparisons."
             }
           ]
         },
@@ -811,7 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.type` is mapped to FHIR R4 element `Contract.term.asset.type`."
+              "comment" : "Element `Contract.term.asset.type` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.type` has is mapped to FHIR R4 element `Contract.term.asset.type`, but has no comparisons."
             }
           ]
         },
@@ -822,7 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.typeReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.typeReference` is mapped to FHIR R4 element `Contract.term.asset.typeReference`."
+              "comment" : "Element `Contract.term.asset.typeReference` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.typeReference` has is mapped to FHIR R4 element `Contract.term.asset.typeReference`, but has no comparisons."
             }
           ]
         },
@@ -833,7 +833,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.subtype",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.subtype` is mapped to FHIR R4 element `Contract.term.asset.subtype`."
+              "comment" : "Element `Contract.term.asset.subtype` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.subtype` has is mapped to FHIR R4 element `Contract.term.asset.subtype`, but has no comparisons."
             }
           ]
         },
@@ -844,7 +844,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.relationship` is mapped to FHIR R4 element `Contract.term.asset.relationship`."
+              "comment" : "Element `Contract.term.asset.relationship` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.relationship` has is mapped to FHIR R4 element `Contract.term.asset.relationship`, but has no comparisons."
             }
           ]
         },
@@ -855,7 +855,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.context",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.context` is mapped to FHIR R4 element `Contract.term.asset.context`."
+              "comment" : "Element `Contract.term.asset.context` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.context` has is mapped to FHIR R4 element `Contract.term.asset.context`, but has no comparisons."
             }
           ]
         },
@@ -866,7 +866,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.context.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.context.reference` is mapped to FHIR R4 element `Contract.term.asset.context.reference`."
+              "comment" : "Element `Contract.term.asset.context.reference` is part of an existing definition because parent element `Contract.term.asset.context` requires a cross-version extension.\nElement `Contract.term.asset.context.reference` has is mapped to FHIR R4 element `Contract.term.asset.context.reference`, but has no comparisons."
             }
           ]
         },
@@ -877,7 +877,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.context.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.context.code` is mapped to FHIR R4 element `Contract.term.asset.context.code`."
+              "comment" : "Element `Contract.term.asset.context.code` is part of an existing definition because parent element `Contract.term.asset.context` requires a cross-version extension.\nElement `Contract.term.asset.context.code` has is mapped to FHIR R4 element `Contract.term.asset.context.code`, but has no comparisons."
             }
           ]
         },
@@ -888,7 +888,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.context.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.context.text` is mapped to FHIR R4 element `Contract.term.asset.context.text`."
+              "comment" : "Element `Contract.term.asset.context.text` is part of an existing definition because parent element `Contract.term.asset.context` requires a cross-version extension.\nElement `Contract.term.asset.context.text` has is mapped to FHIR R4 element `Contract.term.asset.context.text`, but has no comparisons."
             }
           ]
         },
@@ -899,7 +899,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.condition` is mapped to FHIR R4 element `Contract.term.asset.condition`."
+              "comment" : "Element `Contract.term.asset.condition` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.condition` has is mapped to FHIR R4 element `Contract.term.asset.condition`, but has no comparisons."
             }
           ]
         },
@@ -910,7 +910,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.periodType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.periodType` is mapped to FHIR R4 element `Contract.term.asset.periodType`."
+              "comment" : "Element `Contract.term.asset.periodType` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.periodType` has is mapped to FHIR R4 element `Contract.term.asset.periodType`, but has no comparisons."
             }
           ]
         },
@@ -921,7 +921,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.period` is mapped to FHIR R4 element `Contract.term.asset.period`."
+              "comment" : "Element `Contract.term.asset.period` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.period` has is mapped to FHIR R4 element `Contract.term.asset.period`, but has no comparisons."
             }
           ]
         },
@@ -932,7 +932,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.usePeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.usePeriod` is mapped to FHIR R4 element `Contract.term.asset.usePeriod`."
+              "comment" : "Element `Contract.term.asset.usePeriod` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.usePeriod` has is mapped to FHIR R4 element `Contract.term.asset.usePeriod`, but has no comparisons."
             }
           ]
         },
@@ -943,7 +943,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.text` is mapped to FHIR R4 element `Contract.term.asset.text`."
+              "comment" : "Element `Contract.term.asset.text` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.text` has is mapped to FHIR R4 element `Contract.term.asset.text`, but has no comparisons."
             }
           ]
         },
@@ -954,7 +954,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.linkId",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.linkId` is mapped to FHIR R4 element `Contract.term.asset.linkId`."
+              "comment" : "Element `Contract.term.asset.linkId` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.linkId` has is mapped to FHIR R4 element `Contract.term.asset.linkId`, but has no comparisons."
             }
           ]
         },
@@ -965,18 +965,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.answer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.answer` is mapped to FHIR R4 element `Contract.term.asset.answer`."
-            }
-          ]
-        },
-        {
-          "code" : "Contract.term.asset.answer.value[x]",
-          "display" : "value[x]",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.answer.value[x]",
-              "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Contract.term.asset.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.answer`.\nElement `Contract.term.asset.answer.value[x]` is mapped to FHIR R4 element `Contract.term.asset.answer.value[x]`.\nNote that the target element context `Contract.term.asset.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.answer`."
+              "comment" : "Element `Contract.term.asset.answer` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.answer` has is mapped to FHIR R4 element `Contract.term.asset.answer`, but has no comparisons."
             }
           ]
         },
@@ -987,7 +976,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.securityLabelNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.asset.securityLabelNumber`."
+              "comment" : "Element `Contract.term.asset.securityLabelNumber` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.securityLabelNumber` has is mapped to FHIR R4 element `Contract.term.asset.securityLabelNumber`, but has no comparisons."
             }
           ]
         },
@@ -998,7 +987,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem` is mapped to FHIR R4 element `Contract.term.asset.valuedItem`."
+              "comment" : "Element `Contract.term.asset.valuedItem` is part of an existing definition because parent element `Contract.term.asset` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem`, but has no comparisons."
             }
           ]
         },
@@ -1009,7 +998,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.entity[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Contract.term.asset.valuedItem.entity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.valuedItem`.\nElement `Contract.term.asset.valuedItem.entity[x]` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.entity[x]`.\nNote that the target element context `Contract.term.asset.valuedItem.entity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.valuedItem`."
+              "comment" : "Element `Contract.term.asset.valuedItem.entity[x]` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nNote that the target element context `Contract.term.asset.valuedItem.entity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.valuedItem`.\nElement `Contract.term.asset.valuedItem.entity[x]` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.entity[x]`, but has no comparisons.\nNote that the target element context `Contract.term.asset.valuedItem.entity[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.asset.valuedItem`."
             }
           ]
         },
@@ -1020,7 +1009,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.identifier` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.identifier`."
+              "comment" : "Element `Contract.term.asset.valuedItem.identifier` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.identifier` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.identifier`, but has no comparisons."
             }
           ]
         },
@@ -1031,7 +1020,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.effectiveTime",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.effectiveTime` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.effectiveTime`."
+              "comment" : "Element `Contract.term.asset.valuedItem.effectiveTime` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.effectiveTime` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.effectiveTime`, but has no comparisons."
             }
           ]
         },
@@ -1042,7 +1031,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.quantity` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.quantity`."
+              "comment" : "Element `Contract.term.asset.valuedItem.quantity` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.quantity` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.quantity`, but has no comparisons."
             }
           ]
         },
@@ -1053,7 +1042,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.unitPrice",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.unitPrice` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.unitPrice`."
+              "comment" : "Element `Contract.term.asset.valuedItem.unitPrice` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.unitPrice` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.unitPrice`, but has no comparisons."
             }
           ]
         },
@@ -1064,7 +1053,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.factor` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.factor`."
+              "comment" : "Element `Contract.term.asset.valuedItem.factor` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.factor` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.factor`, but has no comparisons."
             }
           ]
         },
@@ -1075,7 +1064,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.points",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.points` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.points`."
+              "comment" : "Element `Contract.term.asset.valuedItem.points` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.points` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.points`, but has no comparisons."
             }
           ]
         },
@@ -1086,7 +1075,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.net",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.net` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.net`."
+              "comment" : "Element `Contract.term.asset.valuedItem.net` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.net` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.net`, but has no comparisons."
             }
           ]
         },
@@ -1097,7 +1086,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.payment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.payment` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.payment`."
+              "comment" : "Element `Contract.term.asset.valuedItem.payment` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.payment` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.payment`, but has no comparisons."
             }
           ]
         },
@@ -1108,7 +1097,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.paymentDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.paymentDate` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.paymentDate`."
+              "comment" : "Element `Contract.term.asset.valuedItem.paymentDate` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.paymentDate` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.paymentDate`, but has no comparisons."
             }
           ]
         },
@@ -1119,7 +1108,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.responsible",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.responsible` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.responsible`."
+              "comment" : "Element `Contract.term.asset.valuedItem.responsible` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.responsible` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.responsible`, but has no comparisons."
             }
           ]
         },
@@ -1130,7 +1119,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.recipient",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.recipient` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.recipient`."
+              "comment" : "Element `Contract.term.asset.valuedItem.recipient` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.recipient` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.recipient`, but has no comparisons."
             }
           ]
         },
@@ -1141,7 +1130,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.linkId",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.linkId` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.linkId`."
+              "comment" : "Element `Contract.term.asset.valuedItem.linkId` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.linkId` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.linkId`, but has no comparisons."
             }
           ]
         },
@@ -1152,7 +1141,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.asset.valuedItem.securityLabelNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.asset.valuedItem.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.asset.valuedItem.securityLabelNumber`."
+              "comment" : "Element `Contract.term.asset.valuedItem.securityLabelNumber` is part of an existing definition because parent element `Contract.term.asset.valuedItem` requires a cross-version extension.\nElement `Contract.term.asset.valuedItem.securityLabelNumber` has is mapped to FHIR R4 element `Contract.term.asset.valuedItem.securityLabelNumber`, but has no comparisons."
             }
           ]
         },
@@ -1163,7 +1152,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.action` is mapped to FHIR R4 element `Contract.term.action`."
+              "comment" : "Element `Contract.term.action` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.action` has is mapped to FHIR R4 element `Contract.term.action`, but has no comparisons."
             }
           ]
         },
@@ -1174,7 +1163,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.doNotPerform",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.doNotPerform` is mapped to FHIR R4 element `Contract.term.action.doNotPerform`."
+              "comment" : "Element `Contract.term.action.doNotPerform` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nNote that the target element context `Contract.term.action.doNotPerform` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Contract.term.action.doNotPerform` has is mapped to FHIR R4 element `Contract.term.action.doNotPerform`, but has no comparisons."
             }
           ]
         },
@@ -1185,7 +1174,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.type` is mapped to FHIR R4 element `Contract.term.action.type`."
+              "comment" : "Element `Contract.term.action.type` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.type` has is mapped to FHIR R4 element `Contract.term.action.type`, but has no comparisons."
             }
           ]
         },
@@ -1196,7 +1185,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.subject` is mapped to FHIR R4 element `Contract.term.action.subject`."
+              "comment" : "Element `Contract.term.action.subject` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.subject` has is mapped to FHIR R4 element `Contract.term.action.subject`, but has no comparisons."
             }
           ]
         },
@@ -1207,7 +1196,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.subject.reference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.subject.reference` is mapped to FHIR R4 element `Contract.term.action.subject.reference`."
+              "comment" : "Element `Contract.term.action.subject.reference` is part of an existing definition because parent element `Contract.term.action.subject` requires a cross-version extension.\nElement `Contract.term.action.subject.reference` has is mapped to FHIR R4 element `Contract.term.action.subject.reference`, but has no comparisons."
             }
           ]
         },
@@ -1218,7 +1207,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.subject.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.subject.role` is mapped to FHIR R4 element `Contract.term.action.subject.role`."
+              "comment" : "Element `Contract.term.action.subject.role` is part of an existing definition because parent element `Contract.term.action.subject` requires a cross-version extension.\nElement `Contract.term.action.subject.role` has is mapped to FHIR R4 element `Contract.term.action.subject.role`, but has no comparisons."
             }
           ]
         },
@@ -1229,7 +1218,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.intent",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.intent` is mapped to FHIR R4 element `Contract.term.action.intent`."
+              "comment" : "Element `Contract.term.action.intent` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.intent` has is mapped to FHIR R4 element `Contract.term.action.intent`, but has no comparisons."
             }
           ]
         },
@@ -1240,7 +1229,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.linkId",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.linkId` is mapped to FHIR R4 element `Contract.term.action.linkId`."
+              "comment" : "Element `Contract.term.action.linkId` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.linkId` has is mapped to FHIR R4 element `Contract.term.action.linkId`, but has no comparisons."
             }
           ]
         },
@@ -1251,7 +1240,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.status` is mapped to FHIR R4 element `Contract.term.action.status`."
+              "comment" : "Element `Contract.term.action.status` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.status` has is mapped to FHIR R4 element `Contract.term.action.status`, but has no comparisons."
             }
           ]
         },
@@ -1262,7 +1251,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.context",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.context` is mapped to FHIR R4 element `Contract.term.action.context`."
+              "comment" : "Element `Contract.term.action.context` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.context` has is mapped to FHIR R4 element `Contract.term.action.context`, but has no comparisons."
             }
           ]
         },
@@ -1273,7 +1262,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.contextLinkId",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.contextLinkId` is mapped to FHIR R4 element `Contract.term.action.contextLinkId`."
+              "comment" : "Element `Contract.term.action.contextLinkId` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.contextLinkId` has is mapped to FHIR R4 element `Contract.term.action.contextLinkId`, but has no comparisons."
             }
           ]
         },
@@ -1284,7 +1273,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.occurrence[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Contract.term.action.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.action`.\nElement `Contract.term.action.occurrence[x]` is mapped to FHIR R4 element `Contract.term.action.occurrence[x]`.\nNote that the target element context `Contract.term.action.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.action`."
+              "comment" : "Element `Contract.term.action.occurrence[x]` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nNote that the target element context `Contract.term.action.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.action`.\nElement `Contract.term.action.occurrence[x]` has is mapped to FHIR R4 element `Contract.term.action.occurrence[x]`, but has no comparisons.\nNote that the target element context `Contract.term.action.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.term.action`."
             }
           ]
         },
@@ -1295,7 +1284,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.requester",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.requester` is mapped to FHIR R4 element `Contract.term.action.requester`."
+              "comment" : "Element `Contract.term.action.requester` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.requester` has is mapped to FHIR R4 element `Contract.term.action.requester`, but has no comparisons."
             }
           ]
         },
@@ -1306,7 +1295,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.requesterLinkId",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.requesterLinkId` is mapped to FHIR R4 element `Contract.term.action.requesterLinkId`."
+              "comment" : "Element `Contract.term.action.requesterLinkId` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.requesterLinkId` has is mapped to FHIR R4 element `Contract.term.action.requesterLinkId`, but has no comparisons."
             }
           ]
         },
@@ -1317,7 +1306,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.performerType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.performerType` is mapped to FHIR R4 element `Contract.term.action.performerType`."
+              "comment" : "Element `Contract.term.action.performerType` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.performerType` has is mapped to FHIR R4 element `Contract.term.action.performerType`, but has no comparisons."
             }
           ]
         },
@@ -1328,7 +1317,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.performerRole",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.performerRole` is mapped to FHIR R4 element `Contract.term.action.performerRole`."
+              "comment" : "Element `Contract.term.action.performerRole` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.performerRole` has is mapped to FHIR R4 element `Contract.term.action.performerRole`, but has no comparisons."
             }
           ]
         },
@@ -1339,7 +1328,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.performer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.performer` is mapped to FHIR R4 element `Contract.term.action.performer`."
+              "comment" : "Element `Contract.term.action.performer` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.performer` has is mapped to FHIR R4 element `Contract.term.action.performer`, but has no comparisons."
             }
           ]
         },
@@ -1350,7 +1339,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.performerLinkId",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.performerLinkId` is mapped to FHIR R4 element `Contract.term.action.performerLinkId`."
+              "comment" : "Element `Contract.term.action.performerLinkId` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.performerLinkId` has is mapped to FHIR R4 element `Contract.term.action.performerLinkId`, but has no comparisons."
             }
           ]
         },
@@ -1361,17 +1350,17 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.reason",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason`."
+              "comment" : "Element `Contract.term.action.reason` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reasonCode`, but has no comparisons.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reasonReference`, but has no comparisons.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reason`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.reasonCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason`."
+              "comment" : "Element `Contract.term.action.reason` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reasonCode`, but has no comparisons.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reasonReference`, but has no comparisons.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reason`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.reasonReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonCode`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reasonReference`.\nElement `Contract.term.action.reason` is mapped to FHIR R4 element `Contract.term.action.reason`."
+              "comment" : "Element `Contract.term.action.reason` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reasonCode`, but has no comparisons.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reasonReference`, but has no comparisons.\nElement `Contract.term.action.reason` has is mapped to FHIR R4 element `Contract.term.action.reason`, but has no comparisons."
             }
           ]
         },
@@ -1382,7 +1371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.reasonLinkId",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.reasonLinkId` is mapped to FHIR R4 element `Contract.term.action.reasonLinkId`."
+              "comment" : "Element `Contract.term.action.reasonLinkId` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.reasonLinkId` has is mapped to FHIR R4 element `Contract.term.action.reasonLinkId`, but has no comparisons."
             }
           ]
         },
@@ -1393,7 +1382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.note` is mapped to FHIR R4 element `Contract.term.action.note`."
+              "comment" : "Element `Contract.term.action.note` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.note` has is mapped to FHIR R4 element `Contract.term.action.note`, but has no comparisons."
             }
           ]
         },
@@ -1404,7 +1393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.action.securityLabelNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.action.securityLabelNumber` is mapped to FHIR R4 element `Contract.term.action.securityLabelNumber`."
+              "comment" : "Element `Contract.term.action.securityLabelNumber` is part of an existing definition because parent element `Contract.term.action` requires a cross-version extension.\nElement `Contract.term.action.securityLabelNumber` has is mapped to FHIR R4 element `Contract.term.action.securityLabelNumber`, but has no comparisons."
             }
           ]
         },
@@ -1415,7 +1404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.term.group",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.term.group` is part of an existing definition because parent element `Contract.term` requires a component extension (e.g., if this element is used as a content reference).\nElement `Contract.term.group` is mapped to FHIR R4 element `Contract.term.group`."
+              "comment" : "Element `Contract.term.group` is part of an existing definition because parent element `Contract.term` requires a cross-version extension.\nElement `Contract.term.group` has is mapped to FHIR R4 element `Contract.term.group`, but has no comparisons."
             }
           ]
         },
@@ -1426,7 +1415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.supportingInfo",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.supportingInfo` is mapped to FHIR R4 element `Contract.supportingInfo`."
+              "comment" : "Element `Contract.supportingInfo` has is mapped to FHIR R4 element `Contract.supportingInfo`, but has no comparisons."
             }
           ]
         },
@@ -1437,7 +1426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.relevantHistory",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.relevantHistory` is mapped to FHIR R4 element `Contract.relevantHistory`."
+              "comment" : "Element `Contract.relevantHistory` has is mapped to FHIR R4 element `Contract.relevantHistory`, but has no comparisons."
             }
           ]
         },
@@ -1448,7 +1437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.signer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.signer` is mapped to FHIR R4 element `Contract.signer`."
+              "comment" : "Element `Contract.signer` has is mapped to FHIR R4 element `Contract.signer`, but has no comparisons."
             }
           ]
         },
@@ -1459,7 +1448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.signer.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.signer.type` is mapped to FHIR R4 element `Contract.signer.type`."
+              "comment" : "Element `Contract.signer.type` is part of an existing definition because parent element `Contract.signer` requires a cross-version extension.\nElement `Contract.signer.type` has is mapped to FHIR R4 element `Contract.signer.type`, but has no comparisons."
             }
           ]
         },
@@ -1470,7 +1459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.signer.party",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.signer.party` is mapped to FHIR R4 element `Contract.signer.party`."
+              "comment" : "Element `Contract.signer.party` is part of an existing definition because parent element `Contract.signer` requires a cross-version extension.\nElement `Contract.signer.party` has is mapped to FHIR R4 element `Contract.signer.party`, but has no comparisons."
             }
           ]
         },
@@ -1481,7 +1470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.signer.signature",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.signer.signature` is mapped to FHIR R4 element `Contract.signer.signature`."
+              "comment" : "Element `Contract.signer.signature` is part of an existing definition because parent element `Contract.signer` requires a cross-version extension.\nElement `Contract.signer.signature` has is mapped to FHIR R4 element `Contract.signer.signature`, but has no comparisons."
             }
           ]
         },
@@ -1492,7 +1481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.friendly",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.friendly` is mapped to FHIR R4 element `Contract.friendly`."
+              "comment" : "Element `Contract.friendly` has is mapped to FHIR R4 element `Contract.friendly`, but has no comparisons."
             }
           ]
         },
@@ -1503,7 +1492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.friendly.content[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Contract.friendly.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.friendly`.\nElement `Contract.friendly.content[x]` is mapped to FHIR R4 element `Contract.friendly.content[x]`.\nNote that the target element context `Contract.friendly.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.friendly`."
+              "comment" : "Element `Contract.friendly.content[x]` is part of an existing definition because parent element `Contract.friendly` requires a cross-version extension.\nNote that the target element context `Contract.friendly.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.friendly`.\nElement `Contract.friendly.content[x]` has is mapped to FHIR R4 element `Contract.friendly.content[x]`, but has no comparisons.\nNote that the target element context `Contract.friendly.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.friendly`."
             }
           ]
         },
@@ -1514,7 +1503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.legal",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.legal` is mapped to FHIR R4 element `Contract.legal`."
+              "comment" : "Element `Contract.legal` has is mapped to FHIR R4 element `Contract.legal`, but has no comparisons."
             }
           ]
         },
@@ -1525,7 +1514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.legal.content[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Contract.legal.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.legal`.\nElement `Contract.legal.content[x]` is mapped to FHIR R4 element `Contract.legal.content[x]`.\nNote that the target element context `Contract.legal.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.legal`."
+              "comment" : "Element `Contract.legal.content[x]` is part of an existing definition because parent element `Contract.legal` requires a cross-version extension.\nNote that the target element context `Contract.legal.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.legal`.\nElement `Contract.legal.content[x]` has is mapped to FHIR R4 element `Contract.legal.content[x]`, but has no comparisons.\nNote that the target element context `Contract.legal.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.legal`."
             }
           ]
         },
@@ -1536,7 +1525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.rule",
               "equivalence" : "relatedto",
-              "comment" : "Element `Contract.rule` is mapped to FHIR R4 element `Contract.rule`."
+              "comment" : "Element `Contract.rule` has is mapped to FHIR R4 element `Contract.rule`, but has no comparisons."
             }
           ]
         },
@@ -1547,7 +1536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.rule.content[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Contract.rule.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.rule`.\nElement `Contract.rule.content[x]` is mapped to FHIR R4 element `Contract.rule.content[x]`.\nNote that the target element context `Contract.rule.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.rule`."
+              "comment" : "Element `Contract.rule.content[x]` is part of an existing definition because parent element `Contract.rule` requires a cross-version extension.\nNote that the target element context `Contract.rule.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.rule`.\nElement `Contract.rule.content[x]` has is mapped to FHIR R4 element `Contract.rule.content[x]`, but has no comparisons.\nNote that the target element context `Contract.rule.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract.rule`."
             }
           ]
         },
@@ -1558,7 +1547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Contract#Contract.legallyBinding[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nElement `Contract.legallyBinding[x]` is mapped to FHIR R4 element `Contract.legallyBinding[x]`.\nNote that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`."
+              "comment" : "Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nElement `Contract.legallyBinding[x]` has is mapped to FHIR R4 element `Contract.legallyBinding[x]`, but has no comparisons.\nNote that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`."
             }
           ]
         }

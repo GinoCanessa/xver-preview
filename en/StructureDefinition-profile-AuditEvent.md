@@ -1,4 +1,4 @@
-# ProfileAuditEvent - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileAuditEvent - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileAuditEvent 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
   "title" : "Cross-version Profile for R5.AuditEvent for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:42.986181-06:00",
+  "date" : "2026-02-17T14:42:26.734808-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         "path" : "AuditEvent.extension",
         "sliceName" : "severity",
         "short" : "Cross-version extension for AuditEvent.severity from R5 for use in FHIR R4",
-        "comment" : "Element `AuditEvent.severity` is will have a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.",
+        "comment" : "Element `AuditEvent.severity` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -207,7 +207,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         "sliceName" : "basedOn",
         "short" : "Cross-version extension for AuditEvent.basedOn from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CarePlan,http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation,http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/ServiceRequest,http://hl7.org/fhir/StructureDefinition/Task in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.basedOn` is will have a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.basedOn` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         "sliceName" : "patient",
         "short" : "Cross-version extension for AuditEvent.patient from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.patient` is will have a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.patient` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -253,7 +253,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         "sliceName" : "encounter",
         "short" : "Cross-version extension for AuditEvent.encounter from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.encounter` is will have a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.encounter` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -296,7 +296,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         "path" : "AuditEvent.type.extension",
         "sliceName" : "category",
         "short" : "Cross-version extension for AuditEvent.category from R5 for use in FHIR R4",
-        "comment" : "Element `AuditEvent.category` is mapped to FHIR R4 element `AuditEvent.type`.",
+        "comment" : "Element `AuditEvent.category` has is mapped to FHIR R4 element `AuditEvent.type`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -339,7 +339,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         "path" : "AuditEvent.subtype.extension",
         "sliceName" : "code",
         "short" : "Cross-version extension for AuditEvent.code from R5 for use in FHIR R4",
-        "comment" : "Element `AuditEvent.code` is mapped to FHIR R4 element `AuditEvent.subtype`.",
+        "comment" : "Element `AuditEvent.code` has is mapped to FHIR R4 element `AuditEvent.subtype`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -382,7 +382,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         "path" : "AuditEvent.period.extension",
         "sliceName" : "occurred",
         "short" : "Cross-version extension for AuditEvent.occurred[x] from R5 for use in FHIR R4",
-        "comment" : "Element `AuditEvent.occurred[x]` is mapped to FHIR R4 element `AuditEvent.period`.",
+        "comment" : "Element `AuditEvent.occurred[x]` has is mapped to FHIR R4 element `AuditEvent.period`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -425,7 +425,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         "path" : "AuditEvent.outcome.extension",
         "sliceName" : "outcome",
         "short" : "Cross-version extension for AuditEvent.outcome from R5 for use in FHIR R4",
-        "comment" : "Element `AuditEvent.outcome` is mapped to FHIR R4 element `AuditEvent.outcome`.",
+        "comment" : "Element `AuditEvent.outcome` has is mapped to FHIR R4 element `AuditEvent.outcome`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -443,8 +443,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         ]
       },
       {
-        "id" : "AuditEvent.agent.who.extension",
-        "path" : "AuditEvent.agent.who.extension",
+        "id" : "AuditEvent.agent.extension",
+        "path" : "AuditEvent.agent.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -458,20 +458,19 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         "min" : 1,
         "max" : "*",
         "base" : {
-          "path" : "AuditEvent.agent.who",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "AuditEvent.agent.who.extension:who",
-        "path" : "AuditEvent.agent.who.extension",
-        "sliceName" : "who",
-        "short" : "Cross-version extension for AuditEvent.agent.who from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam in FHIR R4",
-        "comment" : "Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AuditEvent.agent.who` is mapped to FHIR R4 element `AuditEvent.agent.who`.",
+        "id" : "AuditEvent.agent.extension:agent",
+        "path" : "AuditEvent.agent.extension",
+        "sliceName" : "agent",
+        "short" : "Cross-version extension for AuditEvent.agent from R5 for use in FHIR R4",
+        "comment" : "Element `AuditEvent.agent` has is mapped to FHIR R4 element `AuditEvent.agent`, but has no comparisons.\nNote available implied context: `AuditEvent.entity.agent` because `AuditEvent.entity.agent` is defined as a content reference to `AuditEvent.agent`.",
         "min" : 1,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -481,7 +480,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -512,7 +511,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         "path" : "AuditEvent.source.extension",
         "sliceName" : "source",
         "short" : "Cross-version extension for AuditEvent.source from R5 for use in FHIR R4",
-        "comment" : "Element `AuditEvent.source` is mapped to FHIR R4 element `AuditEvent.source`.",
+        "comment" : "Element `AuditEvent.source` has is mapped to FHIR R4 element `AuditEvent.source`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -551,11 +550,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
         }
       },
       {
-        "id" : "AuditEvent.entity.extension:agent",
+        "id" : "AuditEvent.entity.extension:entity",
         "path" : "AuditEvent.entity.extension",
-        "sliceName" : "agent",
-        "short" : "Cross-version extension for AuditEvent.entity.agent from R5 for use in FHIR R4",
-        "comment" : "Element `AuditEvent.entity.agent` is will have a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`.",
+        "sliceName" : "entity",
+        "short" : "Cross-version extension for AuditEvent.entity from R5 for use in FHIR R4",
+        "comment" : "Element `AuditEvent.entity` has is mapped to FHIR R4 element `AuditEvent.entity`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -567,136 +566,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-AuditEven
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.agent|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "AuditEvent.entity.role.extension",
-        "path" : "AuditEvent.entity.role.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "AuditEvent.entity.role",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "AuditEvent.entity.role.extension:role",
-        "path" : "AuditEvent.entity.role.extension",
-        "sliceName" : "role",
-        "short" : "Cross-version extension for AuditEvent.entity.role from R5 for use in FHIR R4",
-        "comment" : "Element `AuditEvent.entity.role` is mapped to FHIR R4 element `AuditEvent.entity.role`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.role|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "AuditEvent.entity.securityLabel.extension",
-        "path" : "AuditEvent.entity.securityLabel.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "AuditEvent.entity.securityLabel",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "AuditEvent.entity.securityLabel.extension:securityLabel",
-        "path" : "AuditEvent.entity.securityLabel.extension",
-        "sliceName" : "securityLabel",
-        "short" : "Cross-version extension for AuditEvent.entity.securityLabel from R5 for use in FHIR R4",
-        "comment" : "Element `AuditEvent.entity.securityLabel` is mapped to FHIR R4 element `AuditEvent.entity.securityLabel`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.securityLabel|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "AuditEvent.entity.detail.extension",
-        "path" : "AuditEvent.entity.detail.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "AuditEvent.entity.detail.extension:detail",
-        "path" : "AuditEvent.entity.detail.extension",
-        "sliceName" : "detail",
-        "short" : "Cross-version extension for AuditEvent.entity.detail from R5 for use in FHIR R4",
-        "comment" : "Element `AuditEvent.entity.detail` is mapped to FHIR R4 element `AuditEvent.entity.detail`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.detail|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity|0.0.1-snapshot-3"
             ]
           }
         ]

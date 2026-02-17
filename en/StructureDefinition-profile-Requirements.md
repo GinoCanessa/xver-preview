@@ -1,4 +1,4 @@
-# ProfileRequirements - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileRequirements - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileRequirements 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Requirements content to be represented via 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.Requirements` for use in FHIR R4](StructureDefinition-ext-R5-Requirements.md), [Cross-version Extension `R5.TestReport.setup.action.assert.requirement` for use in FHIR R4](StructureDefinition-ext-R5-TestReport.set.act.ass.requirement.md), [Cross-version Extension `R5.TestReport.setup.action.assert` for use in FHIR R4](StructureDefinition-ext-R5-TestReport.set.act.assert.md)... Show 2 more, [Cross-version Extension `R5.TestScript.setup.action.assert.requirement` for use in FHIR R4](StructureDefinition-ext-R5-TestScript.set.act.ass.requirement.md) and [Cross-version Extension `R5.TestScript.setup.action.assert` for use in FHIR R4](StructureDefinition-ext-R5-TestScript.set.act.assert.md)
+* Refer to this Profile: [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md), [Cross-version Extension `R5.Requirements` for use in FHIR R4](StructureDefinition-ext-R5-Requirements.md), [Cross-version Extension `R5.TestReport.setup` for use in FHIR R4](StructureDefinition-ext-R5-TestReport.setup.md) and [Cross-version Extension `R5.TestScript.setup` for use in FHIR R4](StructureDefinition-ext-R5-TestScript.setup.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Requirements)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Requireme
   "title" : "Cross-version Profile for R5.Requirements for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3050056-06:00",
+  "date" : "2026-02-17T14:42:26.8900082-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

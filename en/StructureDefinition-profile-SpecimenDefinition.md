@@ -1,4 +1,4 @@
-# ProfileSpecimenDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileSpecimenDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileSpecimenDefinition 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 SpecimenDefinition content to be represente
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md), [Cross-version Extension `R5.RequestOrchestration.action.definition[x]` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.act.definition.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
+* Refer to this Profile: [Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4](StructureDefinition-ext-R5-PlanDefinition.action.md) and [Cross-version Extension `R5.RequestOrchestration.action` for use in FHIR R4](StructureDefinition-ext-R5-RequestOrchestration.action.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-SpecimenDefinition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
   "title" : "Cross-version Profile for R5.SpecimenDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3331034-06:00",
+  "date" : "2026-02-17T14:42:26.9159832-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -164,7 +164,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "url",
         "short" : "Cross-version extension for SpecimenDefinition.url from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.url` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.url` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -186,7 +186,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "version",
         "short" : "Cross-version extension for SpecimenDefinition.version from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.version` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.version` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -208,7 +208,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for SpecimenDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.versionAlgorithm[x]` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.versionAlgorithm[x]` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "name",
         "short" : "Cross-version extension for SpecimenDefinition.name from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.name` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.name` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "title",
         "short" : "Cross-version extension for SpecimenDefinition.title from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.title` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.title` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "derivedFromUri",
         "short" : "Cross-version extension for SpecimenDefinition.derivedFromUri from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.derivedFromUri` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.derivedFromUri` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -296,7 +296,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for SpecimenDefinition.status from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.status` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.status` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -318,7 +318,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "experimental",
         "short" : "Cross-version extension for SpecimenDefinition.experimental from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.experimental` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.experimental` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -340,7 +340,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "subject",
         "short" : "Cross-version extension for SpecimenDefinition.subject[x] from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.subject[x]` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.subject[x]` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -363,7 +363,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "sliceName" : "subjectCanonical",
         "short" : "Cross-version extension for SpecimenDefinition.subject[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.subject[x]` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.subject[x]` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -386,7 +386,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "sliceName" : "subjectReference",
         "short" : "Cross-version extension for SpecimenDefinition.subject[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.subject[x]` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.subject[x]` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -408,7 +408,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "date",
         "short" : "Cross-version extension for SpecimenDefinition.date from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.date` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.date` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -430,7 +430,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "publisher",
         "short" : "Cross-version extension for SpecimenDefinition.publisher from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.publisher` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.publisher` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -452,7 +452,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "contact",
         "short" : "Cross-version extension for SpecimenDefinition.contact from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.contact` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.contact` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -474,7 +474,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "description",
         "short" : "Cross-version extension for SpecimenDefinition.description from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.description` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.description` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -496,7 +496,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "useContext",
         "short" : "Cross-version extension for SpecimenDefinition.useContext from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.useContext` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.useContext` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -518,7 +518,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "jurisdiction",
         "short" : "Cross-version extension for SpecimenDefinition.jurisdiction from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.jurisdiction` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.jurisdiction` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -540,7 +540,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "purpose",
         "short" : "Cross-version extension for SpecimenDefinition.purpose from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.purpose` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.purpose` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -562,7 +562,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "copyright",
         "short" : "Cross-version extension for SpecimenDefinition.copyright from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.copyright` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.copyright` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -584,7 +584,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for SpecimenDefinition.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.copyrightLabel` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.copyrightLabel` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -606,7 +606,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "approvalDate",
         "short" : "Cross-version extension for SpecimenDefinition.approvalDate from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.approvalDate` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.approvalDate` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -628,7 +628,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "lastReviewDate",
         "short" : "Cross-version extension for SpecimenDefinition.lastReviewDate from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.lastReviewDate` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.lastReviewDate` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -650,7 +650,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "path" : "SpecimenDefinition.extension",
         "sliceName" : "effectivePeriod",
         "short" : "Cross-version extension for SpecimenDefinition.effectivePeriod from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.effectivePeriod` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Element `SpecimenDefinition.effectivePeriod` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -673,7 +673,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         "sliceName" : "derivedFromCanonical",
         "short" : "Cross-version extension for SpecimenDefinition.derivedFromCanonical from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/SpecimenDefinition in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SpecimenDefinition.derivedFromCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `SpecimenDefinition.derivedFromCanonical` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SpecimenDefinition.derivedFromCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `SpecimenDefinition.derivedFromCanonical` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -712,33 +712,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
         }
       },
       {
-        "id" : "SpecimenDefinition.typeTested.extension:singleUse",
+        "id" : "SpecimenDefinition.typeTested.extension:typeTested",
         "path" : "SpecimenDefinition.typeTested.extension",
-        "sliceName" : "singleUse",
-        "short" : "Cross-version extension for SpecimenDefinition.typeTested.singleUse from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.typeTested.singleUse` is will have a context of SpecimenDefinition.typeTested based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.typeTested.singleUse|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "SpecimenDefinition.typeTested.extension:testingDestination",
-        "path" : "SpecimenDefinition.typeTested.extension",
-        "sliceName" : "testingDestination",
-        "short" : "Cross-version extension for SpecimenDefinition.typeTested.testingDestination from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.typeTested.testingDestination` is will have a context of SpecimenDefinition.typeTested based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+        "sliceName" : "typeTested",
+        "short" : "Cross-version extension for SpecimenDefinition.typeTested from R5 for use in FHIR R4",
+        "comment" : "Element `SpecimenDefinition.typeTested` has is mapped to FHIR R4 element `SpecimenDefinition.typeTested`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -750,50 +728,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-SpecimenD
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.typeTested.testingDestination|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "SpecimenDefinition.typeTested.container.additive.extension",
-        "path" : "SpecimenDefinition.typeTested.container.additive.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "SpecimenDefinition.typeTested.container.additive.extension:additive",
-        "path" : "SpecimenDefinition.typeTested.container.additive.extension",
-        "sliceName" : "additive",
-        "short" : "Cross-version extension for SpecimenDefinition.typeTested.container.additive from R5 for use in FHIR R4",
-        "comment" : "Element `SpecimenDefinition.typeTested.container.additive` is mapped to FHIR R4 element `SpecimenDefinition.typeTested.container.additive`.",
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.typeTested.container.additive|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-SpecimenDefinition.typeTested|0.0.1-snapshot-3"
             ]
           }
         ]

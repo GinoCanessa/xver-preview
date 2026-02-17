@@ -1,4 +1,4 @@
-# ExtensionTestReport_Teardown - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionTestReport_Teardown - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.TestReport.teardown` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
   "title" : "Cross-version Extension `R5.TestReport.teardown` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `TestReport.teardown` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`TestReport.teardown` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `TestReport.teardown` 0..1 `BackboneElement`\n*  R4B: `TestReport.teardown` 0..1 `BackboneElement`\n*  R4: `TestReport.teardown` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `TestReport.teardown` is mapped to FHIR R4 element `TestReport.teardown`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `TestReport.teardown` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`TestReport.teardown` 0..1 `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `TestReport.teardown` 0..1 `BackboneElement`\n*  R4B: `TestReport.teardown` 0..1 `BackboneElement`\n*  R4: `TestReport.teardown` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `TestReport.teardown` has is mapped to FHIR R4 element `TestReport.teardown`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
         "short" : "One or more teardown operations performed",
         "definition" : "The teardown action will only contain an operation.",
         "comment" : "An action should contain either an operation or an assertion but not both.  It can contain any number of variables.",
-        "requirements" : "Element `TestReport.teardown.action` is mapped to FHIR R4 element `TestReport.teardown.action`.",
+        "requirements" : "Element `TestReport.teardown.action` is part of an existing definition because parent element `TestReport.teardown` requires a cross-version extension.\nElement `TestReport.teardown.action` has is mapped to FHIR R4 element `TestReport.teardown.action`, but has no comparisons.",
         "min" : 1,
         "max" : "*",
         "base" : {
@@ -221,7 +221,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
         "sliceName" : "operation",
         "short" : "The teardown operation performed",
         "definition" : "An operation would involve a REST request to a server.",
-        "requirements" : "Element `TestReport.teardown.action.operation` is mapped to FHIR R4 element `TestReport.teardown.action.operation`.",
+        "requirements" : "Element `TestReport.teardown.action.operation` is part of an existing definition because parent element `TestReport.teardown.action` requires a cross-version extension.\nElement `TestReport.teardown.action.operation` has is mapped to FHIR R4 element `TestReport.teardown.action.operation`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -263,7 +263,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-TestReport
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "action"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-TestReport.teardown.action"
       },
       {
         "id" : "Extension.extension:action.value[x]",

@@ -1,4 +1,4 @@
-# Lookup for ProfileSlot - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileSlot - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileSlot
 
@@ -20,7 +20,7 @@ A computable version of the following element information is available in: [Conc
 | [`Slot.contained`](https://hl7.org/fhir/R5/Slot.html#resource) | [Slot.contained](https://hl7.org/fhir/R4/Slot.html#resource) |
 | [`Slot.identifier`](https://hl7.org/fhir/R5/Slot.html#resource) | [Slot.identifier](https://hl7.org/fhir/R4/Slot.html#resource) |
 | [`Slot.serviceCategory`](https://hl7.org/fhir/R5/Slot.html#resource) | [Slot.serviceCategory](https://hl7.org/fhir/R4/Slot.html#resource) |
-| [`Slot.serviceType`](https://hl7.org/fhir/R5/Slot.html#resource) | [Slot.serviceType](https://hl7.org/fhir/R4/Slot.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Slot.serviceType](StructureDefinition-ext-R5-Slot.serviceType.md) |
+| [`Slot.serviceType`](https://hl7.org/fhir/R5/Slot.html#resource) | [Slot.serviceType](https://hl7.org/fhir/R4/Slot.html#resource)[Extension: ExtensionSlot_ServiceType](StructureDefinition-ext-R5-Slot.serviceType.md) |
 | [`Slot.specialty`](https://hl7.org/fhir/R5/Slot.html#resource) | [Slot.specialty](https://hl7.org/fhir/R4/Slot.html#resource) |
 | [`Slot.appointmentType`](https://hl7.org/fhir/R5/Slot.html#resource) | [Slot.appointmentType](https://hl7.org/fhir/R4/Slot.html#resource) |
 | [`Slot.schedule`](https://hl7.org/fhir/R5/Slot.html#resource) | [Slot.schedule](https://hl7.org/fhir/R4/Slot.html#resource) |

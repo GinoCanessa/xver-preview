@@ -1,4 +1,4 @@
-# ConceptMapR5InvoiceElementsForR4Invoice - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5InvoiceElementsForR4Invoice - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5InvoiceElementsForR4Invoice 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.9673085-06:00",
+  "date" : "2026-02-17T14:42:27.3372514-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Invoice` is representable via FHIR R4 Resource `Invoice`.\nElement `Invoice` is mapped to FHIR R4 element `Invoice`."
+              "comment" : "FHIR R5 Resource `Invoice` is representable via FHIR R4 Resource `Invoice`.\nElement `Invoice` has is mapped to FHIR R4 element `Invoice`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.meta` is mapped to FHIR R4 element `Invoice.meta`."
+              "comment" : "Element `Invoice.meta` has is mapped to FHIR R4 element `Invoice.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.implicitRules` is mapped to FHIR R4 element `Invoice.implicitRules`."
+              "comment" : "Element `Invoice.implicitRules` has is mapped to FHIR R4 element `Invoice.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.language` is mapped to FHIR R4 element `Invoice.language`."
+              "comment" : "Element `Invoice.language` has is mapped to FHIR R4 element `Invoice.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.text` is mapped to FHIR R4 element `Invoice.text`."
+              "comment" : "Element `Invoice.text` has is mapped to FHIR R4 element `Invoice.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.contained` is mapped to FHIR R4 element `Invoice.contained`."
+              "comment" : "Element `Invoice.contained` has is mapped to FHIR R4 element `Invoice.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.identifier` is mapped to FHIR R4 element `Invoice.identifier`."
+              "comment" : "Element `Invoice.identifier` has is mapped to FHIR R4 element `Invoice.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.status` is mapped to FHIR R4 element `Invoice.status`."
+              "comment" : "Element `Invoice.status` has is mapped to FHIR R4 element `Invoice.status`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.cancelledReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.cancelledReason` is mapped to FHIR R4 element `Invoice.cancelledReason`."
+              "comment" : "Element `Invoice.cancelledReason` has is mapped to FHIR R4 element `Invoice.cancelledReason`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.type` is mapped to FHIR R4 element `Invoice.type`."
+              "comment" : "Element `Invoice.type` has is mapped to FHIR R4 element `Invoice.type`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.subject` is mapped to FHIR R4 element `Invoice.subject`."
+              "comment" : "Element `Invoice.subject` has is mapped to FHIR R4 element `Invoice.subject`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.recipient",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.recipient` is mapped to FHIR R4 element `Invoice.recipient`."
+              "comment" : "Element `Invoice.recipient` has is mapped to FHIR R4 element `Invoice.recipient`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.date` is mapped to FHIR R4 element `Invoice.date`."
+              "comment" : "Element `Invoice.date` has is mapped to FHIR R4 element `Invoice.date`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.creation` is will have a context of Invoice based on following the parent source element upwards and mapping to `Invoice`."
+              "comment" : "Element `Invoice.creation` has a context of Invoice based on following the parent source element upwards and mapping to `Invoice`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.period[x]` is will have a context of Invoice based on following the parent source element upwards and mapping to `Invoice`."
+              "comment" : "Element `Invoice.period[x]` has a context of Invoice based on following the parent source element upwards and mapping to `Invoice`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.participant` is mapped to FHIR R4 element `Invoice.participant`."
+              "comment" : "Element `Invoice.participant` has is mapped to FHIR R4 element `Invoice.participant`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.participant.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.participant.role` is mapped to FHIR R4 element `Invoice.participant.role`."
+              "comment" : "Element `Invoice.participant.role` is part of an existing definition because parent element `Invoice.participant` requires a cross-version extension.\nElement `Invoice.participant.role` has is mapped to FHIR R4 element `Invoice.participant.role`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.participant.actor",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.participant.actor` is mapped to FHIR R4 element `Invoice.participant.actor`."
+              "comment" : "Element `Invoice.participant.actor` is part of an existing definition because parent element `Invoice.participant` requires a cross-version extension.\nElement `Invoice.participant.actor` has is mapped to FHIR R4 element `Invoice.participant.actor`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.issuer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.issuer` is mapped to FHIR R4 element `Invoice.issuer`."
+              "comment" : "Element `Invoice.issuer` has is mapped to FHIR R4 element `Invoice.issuer`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.account",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.account` is mapped to FHIR R4 element `Invoice.account`."
+              "comment" : "Element `Invoice.account` has is mapped to FHIR R4 element `Invoice.account`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.lineItem` is mapped to FHIR R4 element `Invoice.lineItem`."
+              "comment" : "Element `Invoice.lineItem` has is mapped to FHIR R4 element `Invoice.lineItem`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem.sequence",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.lineItem.sequence` is mapped to FHIR R4 element `Invoice.lineItem.sequence`."
+              "comment" : "Element `Invoice.lineItem.sequence` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.sequence` has is mapped to FHIR R4 element `Invoice.lineItem.sequence`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.lineItem.serviced[x]` is will have a context of Invoice.lineItem based on following the parent source element upwards and mapping to `Invoice`."
+              "comment" : "Element `Invoice.lineItem.serviced[x]` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.serviced[x]` has a context of Invoice.lineItem based on following the parent source element upwards and mapping to `Invoice`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem.chargeItem[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Invoice.lineItem.chargeItem[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Invoice.lineItem`.\nElement `Invoice.lineItem.chargeItem[x]` is mapped to FHIR R4 element `Invoice.lineItem.chargeItem[x]`.\nNote that the target element context `Invoice.lineItem.chargeItem[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Invoice.lineItem`."
+              "comment" : "Element `Invoice.lineItem.chargeItem[x]` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nNote that the target element context `Invoice.lineItem.chargeItem[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Invoice.lineItem`.\nElement `Invoice.lineItem.chargeItem[x]` has is mapped to FHIR R4 element `Invoice.lineItem.chargeItem[x]`, but has no comparisons.\nNote that the target element context `Invoice.lineItem.chargeItem[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Invoice.lineItem`."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.lineItem.priceComponent",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.lineItem.priceComponent` is mapped to FHIR R4 element `Invoice.lineItem.priceComponent`."
+              "comment" : "Element `Invoice.lineItem.priceComponent` is part of an existing definition because parent element `Invoice.lineItem` requires a cross-version extension.\nElement `Invoice.lineItem.priceComponent` has is mapped to FHIR R4 element `Invoice.lineItem.priceComponent`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.totalPriceComponent",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.totalPriceComponent` is mapped to FHIR R4 element `Invoice.totalPriceComponent`."
+              "comment" : "Element `Invoice.totalPriceComponent` has is mapped to FHIR R4 element `Invoice.totalPriceComponent`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.totalNet",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.totalNet` is mapped to FHIR R4 element `Invoice.totalNet`."
+              "comment" : "Element `Invoice.totalNet` has is mapped to FHIR R4 element `Invoice.totalNet`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.totalGross",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.totalGross` is mapped to FHIR R4 element `Invoice.totalGross`."
+              "comment" : "Element `Invoice.totalGross` has is mapped to FHIR R4 element `Invoice.totalGross`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.paymentTerms",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.paymentTerms` is mapped to FHIR R4 element `Invoice.paymentTerms`."
+              "comment" : "Element `Invoice.paymentTerms` has is mapped to FHIR R4 element `Invoice.paymentTerms`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Invoice#Invoice.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `Invoice.note` is mapped to FHIR R4 element `Invoice.note`."
+              "comment" : "Element `Invoice.note` has is mapped to FHIR R4 element `Invoice.note`, but has no comparisons."
             }
           ]
         }

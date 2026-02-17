@@ -1,4 +1,4 @@
-# ProfileMolecularSequence - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileMolecularSequence - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileMolecularSequence 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 MolecularSequence content to be represented
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.MolecularSequence.relative.startingSequence.sequence[x]` for use in FHIR R4](StructureDefinition-ext-R5-MolecularSequence.rel.sta.sequence.md), [Cross-version Extension `R5.Observation.component.value[x]` for use in FHIR R4](StructureDefinition-ext-R5-Observation.com.value.md) and [Cross-version Extension `R5.Observation.value[x]` for use in FHIR R4](StructureDefinition-ext-R5-Observation.value.md)
+* Refer to this Profile: [Cross-version Extension `R5.MolecularSequence.relative` for use in FHIR R4](StructureDefinition-ext-R5-MolecularSequence.relative.md), [Cross-version Extension `R5.Observation.component` for use in FHIR R4](StructureDefinition-ext-R5-Observation.component.md) and [Cross-version Extension `R5.Observation.value[x]` for use in FHIR R4](StructureDefinition-ext-R5-Observation.value.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-MolecularSequence)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Molecular
   "title" : "Cross-version Profile for R5.MolecularSequence for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2249234-06:00",
+  "date" : "2026-02-17T14:42:26.8577082-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -151,7 +151,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Molecular
           "ordered" : false,
           "rules" : "open"
         },
-        "min" : 1,
+        "min" : 0,
         "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
@@ -164,7 +164,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Molecular
         "path" : "MolecularSequence.extension",
         "sliceName" : "formatted",
         "short" : "Cross-version extension for MolecularSequence.formatted from R5 for use in FHIR R4",
-        "comment" : "Element `MolecularSequence.formatted` is will have a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`.",
+        "comment" : "Element `MolecularSequence.formatted` has a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -182,35 +182,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Molecular
         ]
       },
       {
-        "id" : "MolecularSequence.extension:coordinateSystem",
+        "id" : "MolecularSequence.extension:relative",
         "path" : "MolecularSequence.extension",
-        "sliceName" : "coordinateSystem",
-        "short" : "Cross-version extension for MolecularSequence.relative.coordinateSystem from R5 for use in FHIR R4",
-        "comment" : "Element `MolecularSequence.relative.coordinateSystem` is will have a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.coordinateSystem|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "MolecularSequence.extension:ordinalPosition",
-        "path" : "MolecularSequence.extension",
-        "sliceName" : "ordinalPosition",
-        "short" : "Cross-version extension for MolecularSequence.relative.ordinalPosition from R5 for use in FHIR R4",
-        "comment" : "Element `MolecularSequence.relative.ordinalPosition` is will have a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`.",
+        "sliceName" : "relative",
+        "short" : "Cross-version extension for MolecularSequence.relative from R5 for use in FHIR R4",
+        "comment" : "Element `MolecularSequence.relative` has is mapped to FHIR R4 element `MolecularSequence.referenceSeq`, but has no comparisons.\nElement `MolecularSequence.relative` has is mapped to FHIR R4 element `MolecularSequence.variant`, but has no comparisons.",
         "min" : 0,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -220,29 +198,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Molecular
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.ordinalPosition|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "MolecularSequence.extension:sequenceRange",
-        "path" : "MolecularSequence.extension",
-        "sliceName" : "sequenceRange",
-        "short" : "Cross-version extension for MolecularSequence.relative.sequenceRange from R5 for use in FHIR R4",
-        "comment" : "Element `MolecularSequence.relative.sequenceRange` is will have a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.sequenceRange|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -253,7 +209,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Molecular
         "sliceName" : "focus",
         "short" : "Cross-version extension for MolecularSequence.focus from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Resource in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MolecularSequence.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MolecularSequence.focus` is will have a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MolecularSequence.focus` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MolecularSequence.focus` has a context of MolecularSequence based on following the parent source element upwards and mapping to `MolecularSequence`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -266,224 +222,6 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Molecular
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "MolecularSequence.referenceSeq.extension",
-        "path" : "MolecularSequence.referenceSeq.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "MolecularSequence.referenceSeq.extension:genomeAssembly",
-        "path" : "MolecularSequence.referenceSeq.extension",
-        "sliceName" : "genomeAssembly",
-        "short" : "Cross-version extension for MolecularSequence.relative.startingSequence.genomeAssembly from R5 for use in FHIR R4",
-        "comment" : "Element `MolecularSequence.relative.startingSequence.genomeAssembly` is will have a context of MolecularSequence.referenceSeq based on following the parent source element upwards and mapping to `MolecularSequence`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.startingSequence.genomeAssembly|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "MolecularSequence.referenceSeq.chromosome.extension",
-        "path" : "MolecularSequence.referenceSeq.chromosome.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "MolecularSequence.referenceSeq.chromosome",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "MolecularSequence.referenceSeq.chromosome.extension:chromosome",
-        "path" : "MolecularSequence.referenceSeq.chromosome.extension",
-        "sliceName" : "chromosome",
-        "short" : "Cross-version extension for MolecularSequence.relative.startingSequence.chromosome from R5 for use in FHIR R4",
-        "comment" : "Element `MolecularSequence.relative.startingSequence.chromosome` is mapped to FHIR R4 element `MolecularSequence.referenceSeq.chromosome`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.startingSequence.chromosome|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "MolecularSequence.referenceSeq.referenceSeqString.extension",
-        "path" : "MolecularSequence.referenceSeq.referenceSeqString.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "MolecularSequence.referenceSeq.referenceSeqString",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "MolecularSequence.referenceSeq.referenceSeqString.extension:sequence",
-        "path" : "MolecularSequence.referenceSeq.referenceSeqString.extension",
-        "sliceName" : "sequence",
-        "short" : "Cross-version extension for MolecularSequence.relative.startingSequence.sequence[x] from R5 for use in FHIR R4",
-        "comment" : "Element `MolecularSequence.relative.startingSequence.sequence[x]` is mapped to FHIR R4 element `MolecularSequence.referenceSeq.referenceSeqString`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.startingSequence.sequence|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "MolecularSequence.referenceSeq.referenceSeqString.extension:sequenceCanonical",
-        "path" : "MolecularSequence.referenceSeq.referenceSeqString.extension",
-        "sliceName" : "sequenceCanonical",
-        "short" : "Cross-version extension for MolecularSequence.relative.startingSequence.sequence[x] from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/MolecularSequence in FHIR R4",
-        "comment" : "Element `MolecularSequence.relative.startingSequence.sequence[x]` is mapped to FHIR R4 element `MolecularSequence.referenceSeq.referenceSeqString`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.startingSequence.sequence|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "MolecularSequence.referenceSeq.referenceSeqString.extension:sequenceReference",
-        "path" : "MolecularSequence.referenceSeq.referenceSeqString.extension",
-        "sliceName" : "sequenceReference",
-        "short" : "Cross-version extension for MolecularSequence.relative.startingSequence.sequence[x] from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/MolecularSequence in FHIR R4",
-        "comment" : "Element `MolecularSequence.relative.startingSequence.sequence[x]` is mapped to FHIR R4 element `MolecularSequence.referenceSeq.referenceSeqString`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.startingSequence.sequence|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "MolecularSequence.variant.extension",
-        "path" : "MolecularSequence.variant.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "MolecularSequence.variant.extension:start",
-        "path" : "MolecularSequence.variant.extension",
-        "sliceName" : "start",
-        "short" : "Cross-version extension for MolecularSequence.relative.edit.start from R5 for use in FHIR R4",
-        "comment" : "Element `MolecularSequence.relative.edit.start` is will have a context of MolecularSequence.variant based on following the parent source element upwards and mapping to `MolecularSequence`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-MolecularSequence.relative.edit.start|0.0.1-snapshot-3"
             ]
           }
         ]

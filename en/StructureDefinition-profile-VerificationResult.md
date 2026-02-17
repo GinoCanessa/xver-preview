@@ -1,4 +1,4 @@
-# ProfileVerificationResult - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileVerificationResult - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileVerificationResult 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Verificat
   "title" : "Cross-version Profile for R5.VerificationResult for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.40296-06:00",
+  "date" : "2026-02-17T14:42:26.9429865-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -164,7 +164,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Verificat
         "path" : "VerificationResult.status.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for VerificationResult.status from R5 for use in FHIR R4",
-        "comment" : "Element `VerificationResult.status` is mapped to FHIR R4 element `VerificationResult.status`.",
+        "comment" : "Element `VerificationResult.status` has is mapped to FHIR R4 element `VerificationResult.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -177,6 +177,135 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Verificat
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "VerificationResult.primarySource.extension",
+        "path" : "VerificationResult.primarySource.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "VerificationResult.primarySource.extension:primarySource",
+        "path" : "VerificationResult.primarySource.extension",
+        "sliceName" : "primarySource",
+        "short" : "Cross-version extension for VerificationResult.primarySource from R5 for use in FHIR R4",
+        "comment" : "Element `VerificationResult.primarySource` has is mapped to FHIR R4 element `VerificationResult.primarySource`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.primarySource|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "VerificationResult.attestation.extension",
+        "path" : "VerificationResult.attestation.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "VerificationResult.attestation.extension:attestation",
+        "path" : "VerificationResult.attestation.extension",
+        "sliceName" : "attestation",
+        "short" : "Cross-version extension for VerificationResult.attestation from R5 for use in FHIR R4",
+        "comment" : "Element `VerificationResult.attestation` has is mapped to FHIR R4 element `VerificationResult.attestation`, but has no comparisons.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.attestation|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "VerificationResult.validator.extension",
+        "path" : "VerificationResult.validator.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "VerificationResult.validator.extension:validator",
+        "path" : "VerificationResult.validator.extension",
+        "sliceName" : "validator",
+        "short" : "Cross-version extension for VerificationResult.validator from R5 for use in FHIR R4",
+        "comment" : "Element `VerificationResult.validator` has is mapped to FHIR R4 element `VerificationResult.validator`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.validator|0.0.1-snapshot-3"
             ]
           }
         ]

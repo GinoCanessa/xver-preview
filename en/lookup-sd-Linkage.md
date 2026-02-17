@@ -1,4 +1,4 @@
-# Lookup for ProfileLinkage - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileLinkage - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileLinkage
 
@@ -20,7 +20,7 @@ A computable version of the following element information is available in: [Conc
 | [`Linkage.contained`](https://hl7.org/fhir/R5/Linkage.html#resource) | [Linkage.contained](https://hl7.org/fhir/R4/Linkage.html#resource) |
 | [`Linkage.active`](https://hl7.org/fhir/R5/Linkage.html#resource) | [Linkage.active](https://hl7.org/fhir/R4/Linkage.html#resource) |
 | [`Linkage.author`](https://hl7.org/fhir/R5/Linkage.html#resource) | [Linkage.author](https://hl7.org/fhir/R4/Linkage.html#resource) |
-| [`Linkage.item`](https://hl7.org/fhir/R5/Linkage.html#resource) | [Linkage.item](https://hl7.org/fhir/R4/Linkage.html#resource) |
-| [`Linkage.item.type`](https://hl7.org/fhir/R5/Linkage.html#resource) | [Linkage.item.type](https://hl7.org/fhir/R4/Linkage.html#resource) |
-| [`Linkage.item.resource`](https://hl7.org/fhir/R5/Linkage.html#resource) | [Linkage.item.resource](https://hl7.org/fhir/R4/Linkage.html#resource) |
+| [`Linkage.item`](https://hl7.org/fhir/R5/Linkage.html#resource) | [Linkage.item](https://hl7.org/fhir/R4/Linkage.html#resource)[Extension: ExtensionLinkage_Item](StructureDefinition-ext-R5-Linkage.item.md) |
+| [`Linkage.item.type`](https://hl7.org/fhir/R5/Linkage.html#resource) | [Linkage.item.type](https://hl7.org/fhir/R4/Linkage.html#resource)[Extension: ExtensionLinkage_Item Slice:type](StructureDefinition-ext-R5-Linkage.item.md) |
+| [`Linkage.item.resource`](https://hl7.org/fhir/R5/Linkage.html#resource) | [Linkage.item.resource](https://hl7.org/fhir/R4/Linkage.html#resource)[Extension: ExtensionLinkage_Item Slice:resource](StructureDefinition-ext-R5-Linkage.item.md) |
 

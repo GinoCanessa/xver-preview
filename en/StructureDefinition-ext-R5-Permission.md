@@ -1,4 +1,4 @@
-# ExtensionPermission - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionPermission - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Permission` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
   "title" : "Cross-version Extension `R5.Permission` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "asserter"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.asserter"
       },
       {
         "id" : "Extension.extension:asserter.value[x]",
@@ -309,7 +309,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "date"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.date"
       },
       {
         "id" : "Extension.extension:date.value[x]",
@@ -354,7 +354,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "validity"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.validity"
       },
       {
         "id" : "Extension.extension:validity.value[x]",
@@ -435,7 +435,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "basis"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.justification.basis"
       },
       {
         "id" : "Extension.extension:justification.extension:basis.value[x]",
@@ -486,7 +486,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "evidence"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.justification.evidence"
       },
       {
         "id" : "Extension.extension:justification.extension:evidence.value[x]",
@@ -560,7 +560,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "combining"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.combining"
       },
       {
         "id" : "Extension.extension:combining.value[x]",
@@ -642,7 +642,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.type"
       },
       {
         "id" : "Extension.extension:rule.extension:type.value[x]",
@@ -764,7 +764,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "meaning"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.resource.meaning"
       },
       {
         "id" : "Extension.extension:rule.extension:data.extension:resource.extension:meaning.value[x]",
@@ -814,7 +814,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reference"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.resource.reference"
       },
       {
         "id" : "Extension.extension:rule.extension:data.extension:resource.extension:reference.value[x]",
@@ -887,7 +887,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "security"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.security"
       },
       {
         "id" : "Extension.extension:rule.extension:data.extension:security.value[x]",
@@ -934,7 +934,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "period"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.period"
       },
       {
         "id" : "Extension.extension:rule.extension:data.extension:period.value[x]",
@@ -980,7 +980,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "expression"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.data.expression"
       },
       {
         "id" : "Extension.extension:rule.extension:data.extension:expression.value[x]",
@@ -1084,7 +1084,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity.actor"
       },
       {
         "id" : "Extension.extension:rule.extension:activity.extension:actor.value[x]",
@@ -1148,7 +1148,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "action"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity.action"
       },
       {
         "id" : "Extension.extension:rule.extension:activity.extension:action.value[x]",
@@ -1199,7 +1199,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "purpose"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.activity.purpose"
       },
       {
         "id" : "Extension.extension:rule.extension:activity.extension:purpose.value[x]",
@@ -1272,7 +1272,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Permission
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "limit"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Permission.rule.limit"
       },
       {
         "id" : "Extension.extension:rule.extension:limit.value[x]",

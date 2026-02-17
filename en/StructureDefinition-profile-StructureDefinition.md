@@ -1,4 +1,4 @@
-# ProfileStructureDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileStructureDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileStructureDefinition 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 StructureDefinition content to be represent
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.GraphDefinition.node` for use in FHIR R4](StructureDefinition-ext-R5-GraphDefinition.node.md) and [Cross-version Extension `R5.OperationDefinition.parameter` for use in FHIR R4](StructureDefinition-ext-R5-OperationDefinition.parameter.md)
+* Refer to this Profile: [Cross-version Extension `R5.CapabilityStatement.document` for use in FHIR R4](StructureDefinition-ext-R5-CapabilityStatement.document.md), [Cross-version Extension `R5.CapabilityStatement.rest` for use in FHIR R4](StructureDefinition-ext-R5-CapabilityStatement.rest.md), [Cross-version Extension `R5.ElementDefinition.constraint` for use in FHIR R4](StructureDefinition-ext-R5-ElementDefinition.constraint.md), [Cross-version Extension `R5.ElementDefinition.type` for use in FHIR R4](StructureDefinition-ext-R5-ElementDefinition.type.md)... Show 9 more, [Cross-version Extension `R5.GraphDefinition.node` for use in FHIR R4](StructureDefinition-ext-R5-GraphDefinition.node.md), [Cross-version Extension `R5.ImplementationGuide.definition` for use in FHIR R4](StructureDefinition-ext-R5-ImplementationGuide.definition.md), [Cross-version Extension `R5.ImplementationGuide.global` for use in FHIR R4](StructureDefinition-ext-R5-ImplementationGuide.global.md), [Cross-version Extension `R5.ImplementationGuide.manifest` for use in FHIR R4](StructureDefinition-ext-R5-ImplementationGuide.manifest.md), [Cross-version Extension `R5.MessageDefinition.focus` for use in FHIR R4](StructureDefinition-ext-R5-MessageDefinition.focus.md), [Cross-version Extension `R5.OperationDefinition.parameter` for use in FHIR R4](StructureDefinition-ext-R5-OperationDefinition.parameter.md), [Cross-version Extension `R5.StructureDefinition.differential` for use in FHIR R4](StructureDefinition-ext-R5-StructureDefinition.differential.md), [Cross-version Extension `R5.StructureDefinition.snapshot` for use in FHIR R4](StructureDefinition-ext-R5-StructureDefinition.snapshot.md) and [Cross-version Extension `R5.StructureMap.structure` for use in FHIR R4](StructureDefinition-ext-R5-StructureMap.structure.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-StructureDefinition)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
   "title" : "Cross-version Profile for R5.StructureDefinition for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3360249-06:00",
+  "date" : "2026-02-17T14:42:26.917957-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -179,7 +179,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
         "path" : "StructureDefinition.extension",
         "sliceName" : "versionAlgorithm",
         "short" : "Cross-version extension for StructureDefinition.versionAlgorithm[x] from R5 for use in FHIR R4",
-        "comment" : "Element `StructureDefinition.versionAlgorithm[x]` is will have a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.",
+        "comment" : "Element `StructureDefinition.versionAlgorithm[x]` has a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -201,7 +201,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
         "path" : "StructureDefinition.extension",
         "sliceName" : "copyrightLabel",
         "short" : "Cross-version extension for StructureDefinition.copyrightLabel from R5 for use in FHIR R4",
-        "comment" : "Element `StructureDefinition.copyrightLabel` is will have a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.",
+        "comment" : "Element `StructureDefinition.copyrightLabel` has a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -244,7 +244,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
         "path" : "StructureDefinition.fhirVersion.extension",
         "sliceName" : "fhirVersion",
         "short" : "Cross-version extension for StructureDefinition.fhirVersion from R5 for use in FHIR R4",
-        "comment" : "Element `StructureDefinition.fhirVersion` is mapped to FHIR R4 element `StructureDefinition.fhirVersion`.",
+        "comment" : "Element `StructureDefinition.fhirVersion` has is mapped to FHIR R4 element `StructureDefinition.fhirVersion`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -257,6 +257,178 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Structure
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.fhirVersion|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "StructureDefinition.mapping.extension",
+        "path" : "StructureDefinition.mapping.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "StructureDefinition.mapping.extension:mapping",
+        "path" : "StructureDefinition.mapping.extension",
+        "sliceName" : "mapping",
+        "short" : "Cross-version extension for StructureDefinition.mapping from R5 for use in FHIR R4",
+        "comment" : "Element `StructureDefinition.mapping` has is mapped to FHIR R4 element `StructureDefinition.mapping`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.mapping|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "StructureDefinition.context.extension",
+        "path" : "StructureDefinition.context.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "StructureDefinition.context.extension:context",
+        "path" : "StructureDefinition.context.extension",
+        "sliceName" : "context",
+        "short" : "Cross-version extension for StructureDefinition.context from R5 for use in FHIR R4",
+        "comment" : "Element `StructureDefinition.context` has is mapped to FHIR R4 element `StructureDefinition.context`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.context|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "StructureDefinition.snapshot.extension",
+        "path" : "StructureDefinition.snapshot.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "StructureDefinition.snapshot.extension:snapshot",
+        "path" : "StructureDefinition.snapshot.extension",
+        "sliceName" : "snapshot",
+        "short" : "Cross-version extension for StructureDefinition.snapshot from R5 for use in FHIR R4",
+        "comment" : "Element `StructureDefinition.snapshot` has is mapped to FHIR R4 element `StructureDefinition.snapshot`, but has no comparisons.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.snapshot|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "StructureDefinition.differential.extension",
+        "path" : "StructureDefinition.differential.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "StructureDefinition.differential.extension:differential",
+        "path" : "StructureDefinition.differential.extension",
+        "sliceName" : "differential",
+        "short" : "Cross-version extension for StructureDefinition.differential from R5 for use in FHIR R4",
+        "comment" : "Element `StructureDefinition.differential` has is mapped to FHIR R4 element `StructureDefinition.differential`, but has no comparisons.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.differential|0.0.1-snapshot-3"
             ]
           }
         ]

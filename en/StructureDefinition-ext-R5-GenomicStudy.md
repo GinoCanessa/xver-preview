@@ -1,4 +1,4 @@
-# ExtensionGenomicStudy - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionGenomicStudy - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.GenomicStudy` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
   "title" : "Cross-version Extension `R5.GenomicStudy` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "encounter"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.encounter"
       },
       {
         "id" : "Extension.extension:encounter.value[x]",
@@ -342,7 +342,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "startDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.startDate"
       },
       {
         "id" : "Extension.extension:startDate.value[x]",
@@ -387,7 +387,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "basedOn"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.basedOn"
       },
       {
         "id" : "Extension.extension:basedOn.value[x]",
@@ -438,7 +438,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "referrer"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.referrer"
       },
       {
         "id" : "Extension.extension:referrer.value[x]",
@@ -489,7 +489,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "interpreter"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.interpreter"
       },
       {
         "id" : "Extension.extension:interpreter.value[x]",
@@ -601,7 +601,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -646,7 +646,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -701,7 +701,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reason"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.reason"
       },
       {
         "id" : "Extension.extension:reason.value[x]",
@@ -739,7 +739,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "instantiatesCanonical"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.instantiatesCanonical"
       },
       {
         "id" : "Extension.extension:instantiatesCanonical.value[x]",
@@ -788,7 +788,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "instantiatesUri"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.instantiatesUri"
       },
       {
         "id" : "Extension.extension:instantiatesUri.value[x]",
@@ -833,7 +833,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.note"
       },
       {
         "id" : "Extension.extension:note.value[x]",
@@ -878,7 +878,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.description"
       },
       {
         "id" : "Extension.extension:description.value[x]",
@@ -959,7 +959,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "identifier"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.identifier"
       },
       {
         "id" : "Extension.extension:analysis.extension:identifier.value[x]",
@@ -1004,7 +1004,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "methodType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.methodType"
       },
       {
         "id" : "Extension.extension:analysis.extension:methodType.value[x]",
@@ -1049,7 +1049,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "changeType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.changeType"
       },
       {
         "id" : "Extension.extension:analysis.extension:changeType.value[x]",
@@ -1094,7 +1094,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "genomeBuild"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.genomeBuild"
       },
       {
         "id" : "Extension.extension:analysis.extension:genomeBuild.value[x]",
@@ -1139,7 +1139,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "instantiatesCanonical"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.instantiatesCanonical"
       },
       {
         "id" : "Extension.extension:analysis.extension:instantiatesCanonical.value[x]",
@@ -1190,7 +1190,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "instantiatesUri"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.instantiatesUri"
       },
       {
         "id" : "Extension.extension:analysis.extension:instantiatesUri.value[x]",
@@ -1235,7 +1235,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "title"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.title"
       },
       {
         "id" : "Extension.extension:analysis.extension:title.value[x]",
@@ -1281,7 +1281,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "focus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.focus"
       },
       {
         "id" : "Extension.extension:analysis.extension:focus.value[x]",
@@ -1331,7 +1331,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "specimen"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.specimen"
       },
       {
         "id" : "Extension.extension:analysis.extension:specimen.value[x]",
@@ -1380,7 +1380,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "date"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.date"
       },
       {
         "id" : "Extension.extension:analysis.extension:date.value[x]",
@@ -1425,7 +1425,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "note"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.note"
       },
       {
         "id" : "Extension.extension:analysis.extension:note.value[x]",
@@ -1470,7 +1470,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "protocolPerformed"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.protocolPerformed"
       },
       {
         "id" : "Extension.extension:analysis.extension:protocolPerformed.value[x]",
@@ -1521,7 +1521,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "regionsStudied"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.regionsStudied"
       },
       {
         "id" : "Extension.extension:analysis.extension:regionsStudied.value[x]",
@@ -1572,7 +1572,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "regionsCalled"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.regionsCalled"
       },
       {
         "id" : "Extension.extension:analysis.extension:regionsCalled.value[x]",
@@ -1659,7 +1659,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "file"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input.file"
       },
       {
         "id" : "Extension.extension:analysis.extension:input.extension:file.value[x]",
@@ -1708,7 +1708,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input.type"
       },
       {
         "id" : "Extension.extension:analysis.extension:input.extension:type.value[x]",
@@ -1753,7 +1753,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "generatedBy"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input.generatedBy"
       },
       {
         "id" : "Extension.extension:analysis.extension:input.extension:generatedBy.value[x]",
@@ -1864,7 +1864,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "file"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output.file"
       },
       {
         "id" : "Extension.extension:analysis.extension:output.extension:file.value[x]",
@@ -1913,7 +1913,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output.type"
       },
       {
         "id" : "Extension.extension:analysis.extension:output.extension:type.value[x]",
@@ -2017,7 +2017,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "actor"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer.actor"
       },
       {
         "id" : "Extension.extension:analysis.extension:performer.extension:actor.value[x]",
@@ -2072,7 +2072,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "role"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer.role"
       },
       {
         "id" : "Extension.extension:analysis.extension:performer.extension:role.value[x]",
@@ -2176,7 +2176,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "device"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device.device"
       },
       {
         "id" : "Extension.extension:analysis.extension:device.extension:device.value[x]",
@@ -2225,7 +2225,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-GenomicStu
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "function"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device.function"
       },
       {
         "id" : "Extension.extension:analysis.extension:device.extension:function.value[x]",

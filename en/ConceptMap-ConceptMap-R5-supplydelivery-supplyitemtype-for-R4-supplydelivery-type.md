@@ -1,4 +1,4 @@
-# ConceptMapR5SupplydeliverySupplyitemtypeForR4SupplydeliveryType - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5SupplydeliverySupplyitemtypeForR4SupplydeliveryType - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5SupplydeliverySupplyitemtypeForR4SupplydeliveryType 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of concepts from ValueSet `
   "title" : "Cross-version ConceptMap for ValueSet ValueSet-R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type from FHIR R5 to FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:37.3495797-06:00",
+  "date" : "2026-02-17T14:42:22.7411011-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",

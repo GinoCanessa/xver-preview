@@ -97,7 +97,7 @@
   <title value="Cross-version Extension `R5.CodeSystem.concept` for use in FHIR R4"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-02-10T04:05:33.0136333+00:00"/>
+  <date value="2026-02-17T20:42:20.5370068+00:00"/>
   <publisher value="FHIR Infrastructure"/>
   <contact>
     <name value="FHIR Infrastructure"/>
@@ -114,7 +114,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `CodeSystem.concept` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`CodeSystem.concept` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `CodeSystem.concept` 0..* `BackboneElement`&#xA;*  R4B: `CodeSystem.concept` 0..* `BackboneElement`&#xA;*  R4: `CodeSystem.concept` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `CodeSystem.concept` is mapped to FHIR R4 element `CodeSystem.concept`."/>
+  <purpose value="This extension is part of the cross-version definitions generated to enable use of the&#xD;&#xA;element `CodeSystem.concept` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source element is defined as:&#xD;&#xA;`CodeSystem.concept` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the element set has been mapped as:&#xD;&#xA;*  R5: `CodeSystem.concept` 0..* `BackboneElement`&#xA;*  R4B: `CodeSystem.concept` 0..* `BackboneElement`&#xA;*  R4: `CodeSystem.concept` 0..* `BackboneElement`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;Element `CodeSystem.concept` has is mapped to FHIR R4 element `CodeSystem.concept`, but has no comparisons.&#xA;Note available implied context: `CodeSystem.concept.concept` because `CodeSystem.concept.concept` is defined as a content reference to `CodeSystem.concept`."/>
   <fhirVersion value="4.0.1"/>
   <mapping>
     <identity value="rim"/>
@@ -125,7 +125,7 @@
   <abstract value="false"/>
   <context>
     <type value="element"/>
-    <expression value="Extension.extension"/>
+    <expression value="CodeSystem.concept"/>
   </context>
   <type value="Extension"/>
   <baseDefinition value="http://hl7.org/fhir/StructureDefinition/Extension|4.0.1"/>
@@ -237,7 +237,7 @@
       <sliceName value="code"/>
       <short value="Code that identifies concept"/>
       <definition value="A code - a text symbol - that uniquely identifies the concept within the code system."/>
-      <requirements value="Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.code` is mapped to FHIR R4 element `CodeSystem.concept.code`."/>
+      <requirements value="Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.code` has is mapped to FHIR R4 element `CodeSystem.concept.code`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -401,7 +401,7 @@
       <sliceName value="display"/>
       <short value="Text to display to the user"/>
       <definition value="A human readable string that is the recommended default way to present this concept to a user."/>
-      <requirements value="Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.display` is mapped to FHIR R4 element `CodeSystem.concept.display`."/>
+      <requirements value="Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.display` has is mapped to FHIR R4 element `CodeSystem.concept.display`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -565,7 +565,7 @@
       <sliceName value="definition"/>
       <short value="Formal definition"/>
       <definition value="The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept."/>
-      <requirements value="Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.definition` is mapped to FHIR R4 element `CodeSystem.concept.definition`."/>
+      <requirements value="Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.definition` has is mapped to FHIR R4 element `CodeSystem.concept.definition`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -730,7 +730,7 @@
       <short value="Additional representations for the concept"/>
       <definition value="Additional representations for the concept - other languages, aliases, specialized purposes, used for particular purposes, etc."/>
       <comment value="Concepts have both a ```display``` and an array of ```designation```. The display is equivalent to a special designation with an implied ```designation.use``` of &quot;primary code&quot; and a language equal to the [Resource Language](https://hl7.org/fhir/resource..html#language)."/>
-      <requirements value="Many concept definition systems support multiple representations, in multiple languages, and for multiple purposes. Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.designation` is mapped to FHIR R4 element `CodeSystem.concept.designation`."/>
+      <requirements value="Many concept definition systems support multiple representations, in multiple languages, and for multiple purposes. Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.designation` has is mapped to FHIR R4 element `CodeSystem.concept.designation`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -833,7 +833,7 @@
       <short value="Human language of the designation"/>
       <definition value="The language this designation is defined for."/>
       <comment value="In the absence of a language, the resource language applies."/>
-      <requirements value="Element `CodeSystem.concept.designation.language` is mapped to FHIR R4 element `CodeSystem.concept.designation.language`."/>
+      <requirements value="Element `CodeSystem.concept.designation.language` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.&#xA;Element `CodeSystem.concept.designation.language` has is mapped to FHIR R4 element `CodeSystem.concept.designation.language`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -999,7 +999,7 @@
       <short value="Details how this designation would be used"/>
       <definition value="A code that details how this designation would be used."/>
       <comment value="If no use is provided, the designation can be assumed to be suitable for general display to a human user."/>
-      <requirements value="Element `CodeSystem.concept.designation.use` is mapped to FHIR R4 element `CodeSystem.concept.designation.use`."/>
+      <requirements value="Element `CodeSystem.concept.designation.use` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.&#xA;Element `CodeSystem.concept.designation.use` has is mapped to FHIR R4 element `CodeSystem.concept.designation.use`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -1170,7 +1170,7 @@
       <short value="Additional ways how this designation would be used"/>
       <definition value="Additional codes that detail how this designation would be used, if there is more than one use."/>
       <comment value="This was added rather than increasing the cardinality of .use to 0..* in order to maintain backward compatibility."/>
-      <requirements value="Element `CodeSystem.concept.designation.additionalUse` is will have a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`."/>
+      <requirements value="Element `CodeSystem.concept.designation.additionalUse` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.&#xA;Element `CodeSystem.concept.designation.additionalUse` has a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1340,7 +1340,7 @@
       <sliceName value="value"/>
       <short value="The text value for this designation"/>
       <definition value="The text value for this designation."/>
-      <requirements value="Element `CodeSystem.concept.designation.value` is mapped to FHIR R4 element `CodeSystem.concept.designation.value`."/>
+      <requirements value="Element `CodeSystem.concept.designation.value` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.&#xA;Element `CodeSystem.concept.designation.value` has is mapped to FHIR R4 element `CodeSystem.concept.designation.value`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1707,7 +1707,7 @@
       <sliceName value="property"/>
       <short value="Property value for the concept"/>
       <definition value="A property value for this concept."/>
-      <requirements value="Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.property` is mapped to FHIR R4 element `CodeSystem.concept.property`."/>
+      <requirements value="Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.property` has is mapped to FHIR R4 element `CodeSystem.concept.property`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -1809,7 +1809,7 @@
       <sliceName value="code"/>
       <short value="Reference to CodeSystem.property.code"/>
       <definition value="A code that is a reference to CodeSystem.property.code."/>
-      <requirements value="Element `CodeSystem.concept.property.code` is mapped to FHIR R4 element `CodeSystem.concept.property.code`."/>
+      <requirements value="Element `CodeSystem.concept.property.code` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.&#xA;Element `CodeSystem.concept.property.code` has is mapped to FHIR R4 element `CodeSystem.concept.property.code`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -1973,7 +1973,7 @@
       <sliceName value="value"/>
       <short value="Value of the property for this concept"/>
       <definition value="The value of this property."/>
-      <requirements value="Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.&#xA;Element `CodeSystem.concept.property.value[x]` is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]`.&#xA;Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`."/>
+      <requirements value="Element `CodeSystem.concept.property.value[x]` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.&#xA;Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.&#xA;Element `CodeSystem.concept.property.value[x]` has is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]`, but has no comparisons.&#xA;Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2358,7 +2358,7 @@
       <sliceName value="concept"/>
       <short value="Child Concepts (is-a/contains/categorizes)"/>
       <definition value="Defines children of a concept to produce a hierarchy of concepts. The nature of the relationships is variable (is-a/contains/categorizes) - see hierarchyMeaning."/>
-      <requirements value="Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.concept` is mapped to FHIR R4 element `CodeSystem.concept.concept`."/>
+      <requirements value="Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.concept` has is mapped to FHIR R4 element `CodeSystem.concept.concept`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -2906,7 +2906,7 @@
       <sliceName value="code"/>
       <short value="Code that identifies concept"/>
       <definition value="A code - a text symbol - that uniquely identifies the concept within the code system."/>
-      <requirements value="Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.code` is mapped to FHIR R4 element `CodeSystem.concept.code`."/>
+      <requirements value="Element `CodeSystem.concept.code` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.code` has is mapped to FHIR R4 element `CodeSystem.concept.code`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -2946,7 +2946,7 @@
       <sliceName value="display"/>
       <short value="Text to display to the user"/>
       <definition value="A human readable string that is the recommended default way to present this concept to a user."/>
-      <requirements value="Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.display` is mapped to FHIR R4 element `CodeSystem.concept.display`."/>
+      <requirements value="Element `CodeSystem.concept.display` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.display` has is mapped to FHIR R4 element `CodeSystem.concept.display`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -2986,7 +2986,7 @@
       <sliceName value="definition"/>
       <short value="Formal definition"/>
       <definition value="The formal definition of the concept. The code system resource does not make formal definitions required, because of the prevalence of legacy systems. However, they are highly recommended, as without them there is no formal meaning associated with the concept."/>
-      <requirements value="Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.definition` is mapped to FHIR R4 element `CodeSystem.concept.definition`."/>
+      <requirements value="Element `CodeSystem.concept.definition` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.definition` has is mapped to FHIR R4 element `CodeSystem.concept.definition`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3027,7 +3027,7 @@
       <short value="Additional representations for the concept"/>
       <definition value="Additional representations for the concept - other languages, aliases, specialized purposes, used for particular purposes, etc."/>
       <comment value="Concepts have both a ```display``` and an array of ```designation```. The display is equivalent to a special designation with an implied ```designation.use``` of &quot;primary code&quot; and a language equal to the [Resource Language](https://hl7.org/fhir/resource..html#language)."/>
-      <requirements value="Many concept definition systems support multiple representations, in multiple languages, and for multiple purposes. Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.designation` is mapped to FHIR R4 element `CodeSystem.concept.designation`."/>
+      <requirements value="Many concept definition systems support multiple representations, in multiple languages, and for multiple purposes. Element `CodeSystem.concept.designation` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.designation` has is mapped to FHIR R4 element `CodeSystem.concept.designation`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -3060,7 +3060,7 @@
       <short value="Human language of the designation"/>
       <definition value="The language this designation is defined for."/>
       <comment value="In the absence of a language, the resource language applies."/>
-      <requirements value="Element `CodeSystem.concept.designation.language` is mapped to FHIR R4 element `CodeSystem.concept.designation.language`."/>
+      <requirements value="Element `CodeSystem.concept.designation.language` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.&#xA;Element `CodeSystem.concept.designation.language` has is mapped to FHIR R4 element `CodeSystem.concept.designation.language`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3102,7 +3102,7 @@
       <short value="Details how this designation would be used"/>
       <definition value="A code that details how this designation would be used."/>
       <comment value="If no use is provided, the designation can be assumed to be suitable for general display to a human user."/>
-      <requirements value="Element `CodeSystem.concept.designation.use` is mapped to FHIR R4 element `CodeSystem.concept.designation.use`."/>
+      <requirements value="Element `CodeSystem.concept.designation.use` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.&#xA;Element `CodeSystem.concept.designation.use` has is mapped to FHIR R4 element `CodeSystem.concept.designation.use`, but has no comparisons."/>
       <min value="0"/>
       <max value="1"/>
       <base>
@@ -3149,7 +3149,7 @@
       <short value="Additional ways how this designation would be used"/>
       <definition value="Additional codes that detail how this designation would be used, if there is more than one use."/>
       <comment value="This was added rather than increasing the cardinality of .use to 0..* in order to maintain backward compatibility."/>
-      <requirements value="Element `CodeSystem.concept.designation.additionalUse` is will have a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`."/>
+      <requirements value="Element `CodeSystem.concept.designation.additionalUse` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.&#xA;Element `CodeSystem.concept.designation.additionalUse` has a context of CodeSystem.concept.designation based on following the parent source element upwards and mapping to `CodeSystem`."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -3195,7 +3195,7 @@
       <sliceName value="value"/>
       <short value="The text value for this designation"/>
       <definition value="The text value for this designation."/>
-      <requirements value="Element `CodeSystem.concept.designation.value` is mapped to FHIR R4 element `CodeSystem.concept.designation.value`."/>
+      <requirements value="Element `CodeSystem.concept.designation.value` is part of an existing definition because parent element `CodeSystem.concept.designation` requires a cross-version extension.&#xA;Element `CodeSystem.concept.designation.value` has is mapped to FHIR R4 element `CodeSystem.concept.designation.value`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3256,7 +3256,7 @@
       <sliceName value="property"/>
       <short value="Property value for the concept"/>
       <definition value="A property value for this concept."/>
-      <requirements value="Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.property` is mapped to FHIR R4 element `CodeSystem.concept.property`."/>
+      <requirements value="Element `CodeSystem.concept.property` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.property` has is mapped to FHIR R4 element `CodeSystem.concept.property`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>
@@ -3288,7 +3288,7 @@
       <sliceName value="code"/>
       <short value="Reference to CodeSystem.property.code"/>
       <definition value="A code that is a reference to CodeSystem.property.code."/>
-      <requirements value="Element `CodeSystem.concept.property.code` is mapped to FHIR R4 element `CodeSystem.concept.property.code`."/>
+      <requirements value="Element `CodeSystem.concept.property.code` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.&#xA;Element `CodeSystem.concept.property.code` has is mapped to FHIR R4 element `CodeSystem.concept.property.code`, but has no comparisons."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3328,7 +3328,7 @@
       <sliceName value="value"/>
       <short value="Value of the property for this concept"/>
       <definition value="The value of this property."/>
-      <requirements value="Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.&#xA;Element `CodeSystem.concept.property.value[x]` is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]`.&#xA;Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`."/>
+      <requirements value="Element `CodeSystem.concept.property.value[x]` is part of an existing definition because parent element `CodeSystem.concept.property` requires a cross-version extension.&#xA;Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`.&#xA;Element `CodeSystem.concept.property.value[x]` has is mapped to FHIR R4 element `CodeSystem.concept.property.value[x]`, but has no comparisons.&#xA;Note that the target element context `CodeSystem.concept.property.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CodeSystem.concept.property`."/>
       <min value="1"/>
       <max value="1"/>
       <base>
@@ -3407,7 +3407,7 @@
       <sliceName value="concept"/>
       <short value="Child Concepts (is-a/contains/categorizes)"/>
       <definition value="Defines children of a concept to produce a hierarchy of concepts. The nature of the relationships is variable (is-a/contains/categorizes) - see hierarchyMeaning."/>
-      <requirements value="Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a component extension (e.g., if this element is used as a content reference).&#xA;Element `CodeSystem.concept.concept` is mapped to FHIR R4 element `CodeSystem.concept.concept`."/>
+      <requirements value="Element `CodeSystem.concept.concept` is part of an existing definition because parent element `CodeSystem.concept` requires a cross-version extension.&#xA;Element `CodeSystem.concept.concept` has is mapped to FHIR R4 element `CodeSystem.concept.concept`, but has no comparisons."/>
       <min value="0"/>
       <max value="*"/>
       <base>

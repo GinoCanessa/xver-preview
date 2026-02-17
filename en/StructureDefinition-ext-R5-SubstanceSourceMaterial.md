@@ -1,4 +1,4 @@
-# ExtensionSubstanceSourceMaterial - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSubstanceSourceMaterial - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SubstanceSourceMaterial` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
   "title" : "Cross-version Extension `R5.SubstanceSourceMaterial` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sourceMaterialClass"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialClass"
       },
       {
         "id" : "Extension.extension:sourceMaterialClass.value[x]",
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sourceMaterialType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialType"
       },
       {
         "id" : "Extension.extension:sourceMaterialType.value[x]",
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "sourceMaterialState"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialState"
       },
       {
         "id" : "Extension.extension:sourceMaterialState.value[x]",
@@ -338,7 +338,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "organismId"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organismId"
       },
       {
         "id" : "Extension.extension:organismId.value[x]",
@@ -383,7 +383,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "organismName"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organismName"
       },
       {
         "id" : "Extension.extension:organismName.value[x]",
@@ -428,7 +428,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "parentSubstanceId"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.parentSubstanceId"
       },
       {
         "id" : "Extension.extension:parentSubstanceId.value[x]",
@@ -473,7 +473,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "parentSubstanceName"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.parentSubstanceName"
       },
       {
         "id" : "Extension.extension:parentSubstanceName.value[x]",
@@ -518,7 +518,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "countryOfOrigin"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.countryOfOrigin"
       },
       {
         "id" : "Extension.extension:countryOfOrigin.value[x]",
@@ -563,7 +563,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "geographicalLocation"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.geographicalLocation"
       },
       {
         "id" : "Extension.extension:geographicalLocation.value[x]",
@@ -608,7 +608,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "developmentStage"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.developmentStage"
       },
       {
         "id" : "Extension.extension:developmentStage.value[x]",
@@ -689,7 +689,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "fraction"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription.fraction"
       },
       {
         "id" : "Extension.extension:fractionDescription.extension:fraction.value[x]",
@@ -734,7 +734,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "materialType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription.materialType"
       },
       {
         "id" : "Extension.extension:fractionDescription.extension:materialType.value[x]",
@@ -838,7 +838,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "family"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.family"
       },
       {
         "id" : "Extension.extension:organism.extension:family.value[x]",
@@ -883,7 +883,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "genus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.genus"
       },
       {
         "id" : "Extension.extension:organism.extension:genus.value[x]",
@@ -928,7 +928,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "species"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.species"
       },
       {
         "id" : "Extension.extension:organism.extension:species.value[x]",
@@ -973,7 +973,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "intraspecificType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.intraspecificType"
       },
       {
         "id" : "Extension.extension:organism.extension:intraspecificType.value[x]",
@@ -1018,7 +1018,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "intraspecificDescription"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.intraspecificDescription"
       },
       {
         "id" : "Extension.extension:organism.extension:intraspecificDescription.value[x]",
@@ -1099,7 +1099,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "authorType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author.authorType"
       },
       {
         "id" : "Extension.extension:organism.extension:author.extension:authorType.value[x]",
@@ -1144,7 +1144,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "authorDescription"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author.authorDescription"
       },
       {
         "id" : "Extension.extension:organism.extension:author.extension:authorDescription.value[x]",
@@ -1248,7 +1248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "maternalOrganismId"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.maternalOrganismId"
       },
       {
         "id" : "Extension.extension:organism.extension:hybrid.extension:maternalOrganismId.value[x]",
@@ -1293,7 +1293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "maternalOrganismName"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.maternalOrganismName"
       },
       {
         "id" : "Extension.extension:organism.extension:hybrid.extension:maternalOrganismName.value[x]",
@@ -1338,7 +1338,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "paternalOrganismId"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.paternalOrganismId"
       },
       {
         "id" : "Extension.extension:organism.extension:hybrid.extension:paternalOrganismId.value[x]",
@@ -1383,7 +1383,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "paternalOrganismName"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.paternalOrganismName"
       },
       {
         "id" : "Extension.extension:organism.extension:hybrid.extension:paternalOrganismName.value[x]",
@@ -1428,7 +1428,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "hybridType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.hybridType"
       },
       {
         "id" : "Extension.extension:organism.extension:hybrid.extension:hybridType.value[x]",
@@ -1532,7 +1532,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "kingdom"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.kingdom"
       },
       {
         "id" : "Extension.extension:organism.extension:organismGeneral.extension:kingdom.value[x]",
@@ -1577,7 +1577,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "phylum"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.phylum"
       },
       {
         "id" : "Extension.extension:organism.extension:organismGeneral.extension:phylum.value[x]",
@@ -1622,7 +1622,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "class"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.class"
       },
       {
         "id" : "Extension.extension:organism.extension:organismGeneral.extension:class.value[x]",
@@ -1667,7 +1667,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "order"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.order"
       },
       {
         "id" : "Extension.extension:organism.extension:organismGeneral.extension:order.value[x]",
@@ -1794,7 +1794,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "part"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription.part"
       },
       {
         "id" : "Extension.extension:partDescription.extension:part.value[x]",
@@ -1839,7 +1839,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SubstanceS
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "partLocation"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription.partLocation"
       },
       {
         "id" : "Extension.extension:partDescription.extension:partLocation.value[x]",

@@ -1,4 +1,4 @@
-# Lookup for ProfileLibrary - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileLibrary - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileLibrary
 
@@ -21,7 +21,7 @@ A computable version of the following element information is available in: [Conc
 | [`Library.url`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.url](https://hl7.org/fhir/R4/Library.html#resource) |
 | [`Library.identifier`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.identifier](https://hl7.org/fhir/R4/Library.html#resource) |
 | [`Library.version`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.version](https://hl7.org/fhir/R4/Library.html#resource) |
-| [`Library.versionAlgorithm[x]`](https://hl7.org/fhir/R5/Library.html#resource) | [Library](https://hl7.org/fhir/R4/Library.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Library.versionAlgorithm](StructureDefinition-ext-R5-Library.versionAlgorithm.md) |
+| [`Library.versionAlgorithm[x]`](https://hl7.org/fhir/R5/Library.html#resource) | [Extension: ExtensionLibrary_VersionAlgorithm](StructureDefinition-ext-R5-Library.versionAlgorithm.md) |
 | [`Library.name`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.name](https://hl7.org/fhir/R4/Library.html#resource) |
 | [`Library.title`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.title](https://hl7.org/fhir/R4/Library.html#resource) |
 | [`Library.subtitle`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.subtitle](https://hl7.org/fhir/R4/Library.html#resource) |
@@ -38,7 +38,7 @@ A computable version of the following element information is available in: [Conc
 | [`Library.purpose`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.purpose](https://hl7.org/fhir/R4/Library.html#resource) |
 | [`Library.usage`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.usage](https://hl7.org/fhir/R4/Library.html#resource) |
 | [`Library.copyright`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.copyright](https://hl7.org/fhir/R4/Library.html#resource) |
-| [`Library.copyrightLabel`](https://hl7.org/fhir/R5/Library.html#resource) | [Library](https://hl7.org/fhir/R4/Library.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Library.copyrightLabel](StructureDefinition-ext-R5-Library.copyrightLabel.md) |
+| [`Library.copyrightLabel`](https://hl7.org/fhir/R5/Library.html#resource) | [Extension: ExtensionLibrary_CopyrightLabel](StructureDefinition-ext-R5-Library.copyrightLabel.md) |
 | [`Library.approvalDate`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.approvalDate](https://hl7.org/fhir/R4/Library.html#resource) |
 | [`Library.lastReviewDate`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.lastReviewDate](https://hl7.org/fhir/R4/Library.html#resource) |
 | [`Library.effectivePeriod`](https://hl7.org/fhir/R5/Library.html#resource) | [Library.effectivePeriod](https://hl7.org/fhir/R4/Library.html#resource) |

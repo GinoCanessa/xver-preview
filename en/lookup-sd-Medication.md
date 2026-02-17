@@ -1,4 +1,4 @@
-# Lookup for ProfileMedication - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileMedication - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileMedication
 
@@ -23,13 +23,13 @@ A computable version of the following element information is available in: [Conc
 | [`Medication.status`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.status](https://hl7.org/fhir/R4/Medication.html#resource) |
 | [`Medication.marketingAuthorizationHolder`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.manufacturer](https://hl7.org/fhir/R4/Medication.html#resource) |
 | [`Medication.doseForm`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.form](https://hl7.org/fhir/R4/Medication.html#resource) |
-| [`Medication.totalVolume`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.amount](https://hl7.org/fhir/R4/Medication.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.totalVolume](StructureDefinition-ext-R5-Medication.totalVolume.md) |
-| [`Medication.ingredient`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.ingredient](https://hl7.org/fhir/R4/Medication.html#resource) |
-| [`Medication.ingredient.item`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.ingredient.item[x]](https://hl7.org/fhir/R4/Medication.html#resource) |
-| [`Medication.ingredient.isActive`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.ingredient.isActive](https://hl7.org/fhir/R4/Medication.html#resource) |
-| [`Medication.ingredient.strength[x]`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.ingredient.strength](https://hl7.org/fhir/R4/Medication.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient.strength](StructureDefinition-ext-R5-Medication.ing.strength.md) |
-| [`Medication.batch`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.batch](https://hl7.org/fhir/R4/Medication.html#resource) |
-| [`Medication.batch.lotNumber`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.batch.lotNumber](https://hl7.org/fhir/R4/Medication.html#resource) |
-| [`Medication.batch.expirationDate`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.batch.expirationDate](https://hl7.org/fhir/R4/Medication.html#resource) |
-| [`Medication.definition`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication](https://hl7.org/fhir/R4/Medication.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.definition](StructureDefinition-ext-R5-Medication.definition.md) |
+| [`Medication.totalVolume`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.amount](https://hl7.org/fhir/R4/Medication.html#resource)[Extension: ExtensionMedication_TotalVolume](StructureDefinition-ext-R5-Medication.totalVolume.md) |
+| [`Medication.ingredient`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.ingredient](https://hl7.org/fhir/R4/Medication.html#resource)[Extension: ExtensionMedication_Ingredient](StructureDefinition-ext-R5-Medication.ingredient.md) |
+| [`Medication.ingredient.item`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.ingredient.item[x]](https://hl7.org/fhir/R4/Medication.html#resource)[Extension: ExtensionMedication_Ingredient Slice:item](StructureDefinition-ext-R5-Medication.ingredient.md) |
+| [`Medication.ingredient.isActive`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.ingredient.isActive](https://hl7.org/fhir/R4/Medication.html#resource)[Extension: ExtensionMedication_Ingredient Slice:isActive](StructureDefinition-ext-R5-Medication.ingredient.md) |
+| [`Medication.ingredient.strength[x]`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.ingredient.strength](https://hl7.org/fhir/R4/Medication.html#resource)[Extension: ExtensionMedication_Ingredient Slice:strength](StructureDefinition-ext-R5-Medication.ingredient.md) |
+| [`Medication.batch`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.batch](https://hl7.org/fhir/R4/Medication.html#resource)[Extension: ExtensionMedication_Batch](StructureDefinition-ext-R5-Medication.batch.md) |
+| [`Medication.batch.lotNumber`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.batch.lotNumber](https://hl7.org/fhir/R4/Medication.html#resource)[Extension: ExtensionMedication_Batch Slice:lotNumber](StructureDefinition-ext-R5-Medication.batch.md) |
+| [`Medication.batch.expirationDate`](https://hl7.org/fhir/R5/Medication.html#resource) | [Medication.batch.expirationDate](https://hl7.org/fhir/R4/Medication.html#resource)[Extension: ExtensionMedication_Batch Slice:expirationDate](StructureDefinition-ext-R5-Medication.batch.md) |
+| [`Medication.definition`](https://hl7.org/fhir/R5/Medication.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 

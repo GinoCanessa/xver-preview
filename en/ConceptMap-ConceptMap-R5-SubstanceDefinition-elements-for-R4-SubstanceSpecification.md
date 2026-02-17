@@ -1,4 +1,4 @@
-# ConceptMapR5SubstanceDefinitionElementsForR4SubstanceSpecification - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5SubstanceDefinitionElementsForR4SubstanceSpecification - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5SubstanceDefinitionElementsForR4SubstanceSpecification 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2551471-06:00",
+  "date" : "2026-02-17T14:42:27.5741971-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `SubstanceDefinition` is representable via FHIR R4 Resource `SubstanceSpecification`.\nElement `SubstanceDefinition` is mapped to FHIR R4 element `SubstanceSpecification`."
+              "comment" : "FHIR R5 Resource `SubstanceDefinition` is representable via FHIR R4 Resource `SubstanceSpecification`.\nElement `SubstanceDefinition` has is mapped to FHIR R4 element `SubstanceSpecification`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.meta` is mapped to FHIR R4 element `SubstanceSpecification.meta`."
+              "comment" : "Element `SubstanceDefinition.meta` has is mapped to FHIR R4 element `SubstanceSpecification.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.implicitRules` is mapped to FHIR R4 element `SubstanceSpecification.implicitRules`."
+              "comment" : "Element `SubstanceDefinition.implicitRules` has is mapped to FHIR R4 element `SubstanceSpecification.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.language` is mapped to FHIR R4 element `SubstanceSpecification.language`."
+              "comment" : "Element `SubstanceDefinition.language` has is mapped to FHIR R4 element `SubstanceSpecification.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.text` is mapped to FHIR R4 element `SubstanceSpecification.text`."
+              "comment" : "Element `SubstanceDefinition.text` has is mapped to FHIR R4 element `SubstanceSpecification.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.contained` is mapped to FHIR R4 element `SubstanceSpecification.contained`."
+              "comment" : "Element `SubstanceDefinition.contained` has is mapped to FHIR R4 element `SubstanceSpecification.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.identifier` is mapped to FHIR R4 element `SubstanceSpecification.identifier`."
+              "comment" : "Element `SubstanceDefinition.identifier` has is mapped to FHIR R4 element `SubstanceSpecification.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.version` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.version` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.status` is mapped to FHIR R4 element `SubstanceSpecification.status`."
+              "comment" : "Element `SubstanceDefinition.status` has is mapped to FHIR R4 element `SubstanceSpecification.status`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.classification` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.classification` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.domain",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.domain` is mapped to FHIR R4 element `SubstanceSpecification.domain`."
+              "comment" : "Element `SubstanceDefinition.domain` has is mapped to FHIR R4 element `SubstanceSpecification.domain`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.grade` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.grade` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.description` is mapped to FHIR R4 element `SubstanceSpecification.description`."
+              "comment" : "Element `SubstanceDefinition.description` has is mapped to FHIR R4 element `SubstanceSpecification.description`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.informationSource` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.informationSource` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.informationSource` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.informationSource` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.note` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.note` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.manufacturer` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.manufacturer` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.supplier` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.supplier` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.supplier` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.supplier` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.moiety",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.moiety` is mapped to FHIR R4 element `SubstanceSpecification.moiety`."
+              "comment" : "Element `SubstanceDefinition.moiety` has is mapped to FHIR R4 element `SubstanceSpecification.moiety`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.moiety.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.moiety.role` is mapped to FHIR R4 element `SubstanceSpecification.moiety.role`."
+              "comment" : "Element `SubstanceDefinition.moiety.role` is part of an existing definition because parent element `SubstanceDefinition.moiety` requires a cross-version extension.\nElement `SubstanceDefinition.moiety.role` has is mapped to FHIR R4 element `SubstanceSpecification.moiety.role`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.moiety.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.moiety.identifier` is mapped to FHIR R4 element `SubstanceSpecification.moiety.identifier`."
+              "comment" : "Element `SubstanceDefinition.moiety.identifier` is part of an existing definition because parent element `SubstanceDefinition.moiety` requires a cross-version extension.\nElement `SubstanceDefinition.moiety.identifier` has is mapped to FHIR R4 element `SubstanceSpecification.moiety.identifier`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.moiety.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.moiety.name` is mapped to FHIR R4 element `SubstanceSpecification.moiety.name`."
+              "comment" : "Element `SubstanceDefinition.moiety.name` is part of an existing definition because parent element `SubstanceDefinition.moiety` requires a cross-version extension.\nElement `SubstanceDefinition.moiety.name` has is mapped to FHIR R4 element `SubstanceSpecification.moiety.name`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.moiety.stereochemistry",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.moiety.stereochemistry` is mapped to FHIR R4 element `SubstanceSpecification.moiety.stereochemistry`."
+              "comment" : "Element `SubstanceDefinition.moiety.stereochemistry` is part of an existing definition because parent element `SubstanceDefinition.moiety` requires a cross-version extension.\nElement `SubstanceDefinition.moiety.stereochemistry` has is mapped to FHIR R4 element `SubstanceSpecification.moiety.stereochemistry`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.moiety.opticalActivity",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.moiety.opticalActivity` is mapped to FHIR R4 element `SubstanceSpecification.moiety.opticalActivity`."
+              "comment" : "Element `SubstanceDefinition.moiety.opticalActivity` is part of an existing definition because parent element `SubstanceDefinition.moiety` requires a cross-version extension.\nElement `SubstanceDefinition.moiety.opticalActivity` has is mapped to FHIR R4 element `SubstanceSpecification.moiety.opticalActivity`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.moiety.molecularFormula",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.moiety.molecularFormula` is mapped to FHIR R4 element `SubstanceSpecification.moiety.molecularFormula`."
+              "comment" : "Element `SubstanceDefinition.moiety.molecularFormula` is part of an existing definition because parent element `SubstanceDefinition.moiety` requires a cross-version extension.\nElement `SubstanceDefinition.moiety.molecularFormula` has is mapped to FHIR R4 element `SubstanceSpecification.moiety.molecularFormula`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.moiety.amount[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `SubstanceSpecification.moiety.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.moiety`.\nElement `SubstanceDefinition.moiety.amount[x]` is mapped to FHIR R4 element `SubstanceSpecification.moiety.amount[x]`.\nNote that the target element context `SubstanceSpecification.moiety.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.moiety`."
+              "comment" : "Element `SubstanceDefinition.moiety.amount[x]` is part of an existing definition because parent element `SubstanceDefinition.moiety` requires a cross-version extension.\nNote that the target element context `SubstanceSpecification.moiety.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.moiety`.\nElement `SubstanceDefinition.moiety.amount[x]` has is mapped to FHIR R4 element `SubstanceSpecification.moiety.amount[x]`, but has no comparisons.\nNote that the target element context `SubstanceSpecification.moiety.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.moiety`."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.moiety",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.moiety.measurementType` is will have a context of SubstanceSpecification.moiety based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.moiety.measurementType` is part of an existing definition because parent element `SubstanceDefinition.moiety` requires a cross-version extension.\nElement `SubstanceDefinition.moiety.measurementType` has a context of SubstanceSpecification.moiety based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.characterization` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.characterization` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.technique` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.characterization.technique` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.technique` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.form` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.characterization.form` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.form` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.description` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.characterization.description` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.description` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.file` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.characterization.file` is part of an existing definition because parent element `SubstanceDefinition.characterization` requires a cross-version extension.\nElement `SubstanceDefinition.characterization.file` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.property",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.property` is mapped to FHIR R4 element `SubstanceSpecification.property`."
+              "comment" : "Element `SubstanceDefinition.property` has is mapped to FHIR R4 element `SubstanceSpecification.property`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.property",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.property.type` is will have a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.property.type` is part of an existing definition because parent element `SubstanceDefinition.property` requires a cross-version extension.\nElement `SubstanceDefinition.property.type` has a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.property",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.property.value[x]` is will have a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.property.value[x]` is part of an existing definition because parent element `SubstanceDefinition.property` requires a cross-version extension.\nElement `SubstanceDefinition.property.value[x]` has a context of SubstanceSpecification.property based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.referenceInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.referenceInformation` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.referenceInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.referenceInformation` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.molecularWeight",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.molecularWeight` is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight`."
+              "comment" : "Element `SubstanceDefinition.molecularWeight` has is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight`, but has no comparisons."
             }
           ]
         },
@@ -479,9 +479,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "method",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.molecularWeight.method",
+              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.molecularWeight",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.molecularWeight.method` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.molecularWeight.method` is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight.method`."
+              "comment" : "Element `SubstanceDefinition.molecularWeight.method` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a cross-version extension.\nElement `SubstanceDefinition.molecularWeight.method` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -490,9 +490,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.molecularWeight.type",
+              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.molecularWeight",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.molecularWeight.type` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.molecularWeight.type` is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight.type`."
+              "comment" : "Element `SubstanceDefinition.molecularWeight.type` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a cross-version extension.\nElement `SubstanceDefinition.molecularWeight.type` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -501,9 +501,9 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "amount",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.molecularWeight.amount",
+              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.molecularWeight",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.molecularWeight.amount` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.molecularWeight.amount` is mapped to FHIR R4 element `SubstanceSpecification.molecularWeight.amount`."
+              "comment" : "Element `SubstanceDefinition.molecularWeight.amount` is part of an existing definition because parent element `SubstanceDefinition.molecularWeight` requires a cross-version extension.\nElement `SubstanceDefinition.molecularWeight.amount` has a context of SubstanceSpecification.molecularWeight based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure` is mapped to FHIR R4 element `SubstanceSpecification.structure`."
+              "comment" : "Element `SubstanceDefinition.structure` has is mapped to FHIR R4 element `SubstanceSpecification.structure`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.stereochemistry",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.stereochemistry` is mapped to FHIR R4 element `SubstanceSpecification.structure.stereochemistry`."
+              "comment" : "Element `SubstanceDefinition.structure.stereochemistry` is part of an existing definition because parent element `SubstanceDefinition.structure` requires a cross-version extension.\nElement `SubstanceDefinition.structure.stereochemistry` has is mapped to FHIR R4 element `SubstanceSpecification.structure.stereochemistry`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.opticalActivity",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.opticalActivity` is mapped to FHIR R4 element `SubstanceSpecification.structure.opticalActivity`."
+              "comment" : "Element `SubstanceDefinition.structure.opticalActivity` is part of an existing definition because parent element `SubstanceDefinition.structure` requires a cross-version extension.\nElement `SubstanceDefinition.structure.opticalActivity` has is mapped to FHIR R4 element `SubstanceSpecification.structure.opticalActivity`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.molecularFormula",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.molecularFormula` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularFormula`."
+              "comment" : "Element `SubstanceDefinition.structure.molecularFormula` is part of an existing definition because parent element `SubstanceDefinition.structure` requires a cross-version extension.\nElement `SubstanceDefinition.structure.molecularFormula` has is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularFormula`, but has no comparisons."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.molecularFormulaByMoiety",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.molecularFormulaByMoiety` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularFormulaByMoiety`."
+              "comment" : "Element `SubstanceDefinition.structure.molecularFormulaByMoiety` is part of an existing definition because parent element `SubstanceDefinition.structure` requires a cross-version extension.\nElement `SubstanceDefinition.structure.molecularFormulaByMoiety` has is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularFormulaByMoiety`, but has no comparisons."
             }
           ]
         },
@@ -569,40 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.molecularWeight",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.molecularWeight` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularWeight`."
-            }
-          ]
-        },
-        {
-          "code" : "SubstanceDefinition.structure.molecularWeight.method",
-          "display" : "method",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.molecularWeight.method",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.molecularWeight.method` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularWeight.method`."
-            }
-          ]
-        },
-        {
-          "code" : "SubstanceDefinition.structure.molecularWeight.type",
-          "display" : "type",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.molecularWeight.type",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.molecularWeight.type` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularWeight.type`."
-            }
-          ]
-        },
-        {
-          "code" : "SubstanceDefinition.structure.molecularWeight.amount",
-          "display" : "amount",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.molecularWeight.amount",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.molecularWeight.amount` is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularWeight.amount`."
+              "comment" : "Element `SubstanceDefinition.structure.molecularWeight` is part of an existing definition because parent element `SubstanceDefinition.structure` requires a cross-version extension.\nElement `SubstanceDefinition.structure.molecularWeight` has is mapped to FHIR R4 element `SubstanceSpecification.structure.molecularWeight`, but has no comparisons."
             }
           ]
         },
@@ -613,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.technique` is will have a context of SubstanceSpecification.structure based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.structure.technique` is part of an existing definition because parent element `SubstanceDefinition.structure` requires a cross-version extension.\nElement `SubstanceDefinition.structure.technique` has a context of SubstanceSpecification.structure based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -624,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.structure.sourceDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.structure.sourceDocument` is will have a context of SubstanceSpecification.structure based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.structure.sourceDocument` is part of an existing definition because parent element `SubstanceDefinition.structure` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.structure.sourceDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.structure.sourceDocument` has a context of SubstanceSpecification.structure based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -635,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.representation",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.representation` is mapped to FHIR R4 element `SubstanceSpecification.structure.representation`."
+              "comment" : "Element `SubstanceDefinition.structure.representation` is part of an existing definition because parent element `SubstanceDefinition.structure` requires a cross-version extension.\nElement `SubstanceDefinition.structure.representation` has is mapped to FHIR R4 element `SubstanceSpecification.structure.representation`, but has no comparisons."
             }
           ]
         },
@@ -646,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.representation.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.representation.type` is mapped to FHIR R4 element `SubstanceSpecification.structure.representation.type`."
+              "comment" : "Element `SubstanceDefinition.structure.representation.type` is part of an existing definition because parent element `SubstanceDefinition.structure.representation` requires a cross-version extension.\nElement `SubstanceDefinition.structure.representation.type` has is mapped to FHIR R4 element `SubstanceSpecification.structure.representation.type`, but has no comparisons."
             }
           ]
         },
@@ -657,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.representation.representation",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.representation.representation` is mapped to FHIR R4 element `SubstanceSpecification.structure.representation.representation`."
+              "comment" : "Element `SubstanceDefinition.structure.representation.representation` is part of an existing definition because parent element `SubstanceDefinition.structure.representation` requires a cross-version extension.\nElement `SubstanceDefinition.structure.representation.representation` has is mapped to FHIR R4 element `SubstanceSpecification.structure.representation.representation`, but has no comparisons."
             }
           ]
         },
@@ -668,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.representation",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.structure.representation.format` is will have a context of SubstanceSpecification.structure.representation based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.structure.representation.format` is part of an existing definition because parent element `SubstanceDefinition.structure.representation` requires a cross-version extension.\nElement `SubstanceDefinition.structure.representation.format` has a context of SubstanceSpecification.structure.representation based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -679,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.structure.representation",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.structure.representation.document` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.structure.representation.document` is will have a context of SubstanceSpecification.structure.representation based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.structure.representation.document` is part of an existing definition because parent element `SubstanceDefinition.structure.representation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.structure.representation.document` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.structure.representation.document` has a context of SubstanceSpecification.structure.representation based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -690,18 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.code` is mapped to FHIR R4 element `SubstanceSpecification.code`."
-            }
-          ]
-        },
-        {
-          "code" : "SubstanceDefinition.name",
-          "display" : "name",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name",
-              "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name` is mapped to FHIR R4 element `SubstanceSpecification.name`."
+              "comment" : "Element `SubstanceDefinition.code` has is mapped to FHIR R4 element `SubstanceSpecification.code`, but has no comparisons."
             }
           ]
         },
@@ -712,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.code.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.code.code` is mapped to FHIR R4 element `SubstanceSpecification.code.code`."
+              "comment" : "Element `SubstanceDefinition.code.code` is part of an existing definition because parent element `SubstanceDefinition.code` requires a cross-version extension.\nElement `SubstanceDefinition.code.code` has is mapped to FHIR R4 element `SubstanceSpecification.code.code`, but has no comparisons."
             }
           ]
         },
@@ -723,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.code.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.code.status` is mapped to FHIR R4 element `SubstanceSpecification.code.status`."
+              "comment" : "Element `SubstanceDefinition.code.status` is part of an existing definition because parent element `SubstanceDefinition.code` requires a cross-version extension.\nElement `SubstanceDefinition.code.status` has is mapped to FHIR R4 element `SubstanceSpecification.code.status`, but has no comparisons."
             }
           ]
         },
@@ -734,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.code.statusDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.code.statusDate` is mapped to FHIR R4 element `SubstanceSpecification.code.statusDate`."
+              "comment" : "Element `SubstanceDefinition.code.statusDate` is part of an existing definition because parent element `SubstanceDefinition.code` requires a cross-version extension.\nElement `SubstanceDefinition.code.statusDate` has is mapped to FHIR R4 element `SubstanceSpecification.code.statusDate`, but has no comparisons."
             }
           ]
         },
@@ -745,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.code.note` is will have a context of SubstanceSpecification.code based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.code.note` is part of an existing definition because parent element `SubstanceDefinition.code` requires a cross-version extension.\nElement `SubstanceDefinition.code.note` has a context of SubstanceSpecification.code based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -756,7 +712,18 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.code.source",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.code.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.code.source` is mapped to FHIR R4 element `SubstanceSpecification.code.source`."
+              "comment" : "Element `SubstanceDefinition.code.source` is part of an existing definition because parent element `SubstanceDefinition.code` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.code.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.code.source` has is mapped to FHIR R4 element `SubstanceSpecification.code.source`, but has no comparisons."
+            }
+          ]
+        },
+        {
+          "code" : "SubstanceDefinition.name",
+          "display" : "name",
+          "target" : [
+            {
+              "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name",
+              "equivalence" : "relatedto",
+              "comment" : "Element `SubstanceDefinition.name` has is mapped to FHIR R4 element `SubstanceSpecification.name`, but has no comparisons."
             }
           ]
         },
@@ -767,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.name` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.name` is mapped to FHIR R4 element `SubstanceSpecification.name.name`."
+              "comment" : "Element `SubstanceDefinition.name.name` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.name` has is mapped to FHIR R4 element `SubstanceSpecification.name.name`, but has no comparisons."
             }
           ]
         },
@@ -778,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.type` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.type` is mapped to FHIR R4 element `SubstanceSpecification.name.type`."
+              "comment" : "Element `SubstanceDefinition.name.type` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.type` has is mapped to FHIR R4 element `SubstanceSpecification.name.type`, but has no comparisons."
             }
           ]
         },
@@ -789,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.status` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.status` is mapped to FHIR R4 element `SubstanceSpecification.name.status`."
+              "comment" : "Element `SubstanceDefinition.name.status` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.status` has is mapped to FHIR R4 element `SubstanceSpecification.name.status`, but has no comparisons."
             }
           ]
         },
@@ -800,7 +767,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.preferred",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.preferred` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.preferred` is mapped to FHIR R4 element `SubstanceSpecification.name.preferred`."
+              "comment" : "Element `SubstanceDefinition.name.preferred` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.preferred` has is mapped to FHIR R4 element `SubstanceSpecification.name.preferred`, but has no comparisons."
             }
           ]
         },
@@ -811,7 +778,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.language` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.language` is mapped to FHIR R4 element `SubstanceSpecification.name.language`."
+              "comment" : "Element `SubstanceDefinition.name.language` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.language` has is mapped to FHIR R4 element `SubstanceSpecification.name.language`, but has no comparisons."
             }
           ]
         },
@@ -822,7 +789,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.domain",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.domain` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.domain` is mapped to FHIR R4 element `SubstanceSpecification.name.domain`."
+              "comment" : "Element `SubstanceDefinition.name.domain` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.domain` has is mapped to FHIR R4 element `SubstanceSpecification.name.domain`, but has no comparisons."
             }
           ]
         },
@@ -833,7 +800,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.jurisdiction` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.jurisdiction` is mapped to FHIR R4 element `SubstanceSpecification.name.jurisdiction`."
+              "comment" : "Element `SubstanceDefinition.name.jurisdiction` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.jurisdiction` has is mapped to FHIR R4 element `SubstanceSpecification.name.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -844,7 +811,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.synonym",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.synonym` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.synonym` is mapped to FHIR R4 element `SubstanceSpecification.name.synonym`."
+              "comment" : "Element `SubstanceDefinition.name.synonym` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.synonym` has is mapped to FHIR R4 element `SubstanceSpecification.name.synonym`, but has no comparisons."
             }
           ]
         },
@@ -855,7 +822,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.translation",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.translation` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.translation` is mapped to FHIR R4 element `SubstanceSpecification.name.translation`."
+              "comment" : "Element `SubstanceDefinition.name.translation` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.translation` has is mapped to FHIR R4 element `SubstanceSpecification.name.translation`, but has no comparisons."
             }
           ]
         },
@@ -866,7 +833,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.official",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.official` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nElement `SubstanceDefinition.name.official` is mapped to FHIR R4 element `SubstanceSpecification.name.official`."
+              "comment" : "Element `SubstanceDefinition.name.official` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nElement `SubstanceDefinition.name.official` has is mapped to FHIR R4 element `SubstanceSpecification.name.official`, but has no comparisons."
             }
           ]
         },
@@ -877,7 +844,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.official.authority",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.official.authority` is mapped to FHIR R4 element `SubstanceSpecification.name.official.authority`."
+              "comment" : "Element `SubstanceDefinition.name.official.authority` is part of an existing definition because parent element `SubstanceDefinition.name.official` requires a cross-version extension.\nElement `SubstanceDefinition.name.official.authority` has is mapped to FHIR R4 element `SubstanceSpecification.name.official.authority`, but has no comparisons."
             }
           ]
         },
@@ -888,7 +855,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.official.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.official.status` is mapped to FHIR R4 element `SubstanceSpecification.name.official.status`."
+              "comment" : "Element `SubstanceDefinition.name.official.status` is part of an existing definition because parent element `SubstanceDefinition.name.official` requires a cross-version extension.\nElement `SubstanceDefinition.name.official.status` has is mapped to FHIR R4 element `SubstanceSpecification.name.official.status`, but has no comparisons."
             }
           ]
         },
@@ -899,7 +866,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.official.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.official.date` is mapped to FHIR R4 element `SubstanceSpecification.name.official.date`."
+              "comment" : "Element `SubstanceDefinition.name.official.date` is part of an existing definition because parent element `SubstanceDefinition.name.official` requires a cross-version extension.\nElement `SubstanceDefinition.name.official.date` has is mapped to FHIR R4 element `SubstanceSpecification.name.official.date`, but has no comparisons."
             }
           ]
         },
@@ -910,7 +877,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.name.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.name.source` is part of an existing definition because parent element `SubstanceDefinition.name` requires a component extension (e.g., if this element is used as a content reference).\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.name.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.name.source` is mapped to FHIR R4 element `SubstanceSpecification.name.source`."
+              "comment" : "Element `SubstanceDefinition.name.source` is part of an existing definition because parent element `SubstanceDefinition.name` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.name.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.name.source` has is mapped to FHIR R4 element `SubstanceSpecification.name.source`, but has no comparisons."
             }
           ]
         },
@@ -921,7 +888,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.relationship` is mapped to FHIR R4 element `SubstanceSpecification.relationship`."
+              "comment" : "Element `SubstanceDefinition.relationship` has is mapped to FHIR R4 element `SubstanceSpecification.relationship`, but has no comparisons."
             }
           ]
         },
@@ -932,7 +899,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.relationship.substanceDefinition[x]` is will have a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.relationship.substanceDefinition[x]` is part of an existing definition because parent element `SubstanceDefinition.relationship` requires a cross-version extension.\nElement `SubstanceDefinition.relationship.substanceDefinition[x]` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -943,7 +910,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.relationship.type` is will have a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.relationship.type` is part of an existing definition because parent element `SubstanceDefinition.relationship` requires a cross-version extension.\nElement `SubstanceDefinition.relationship.type` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -954,7 +921,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.relationship.isDefining",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.relationship.isDefining` is mapped to FHIR R4 element `SubstanceSpecification.relationship.isDefining`."
+              "comment" : "Element `SubstanceDefinition.relationship.isDefining` is part of an existing definition because parent element `SubstanceDefinition.relationship` requires a cross-version extension.\nElement `SubstanceDefinition.relationship.isDefining` has is mapped to FHIR R4 element `SubstanceSpecification.relationship.isDefining`, but has no comparisons."
             }
           ]
         },
@@ -965,7 +932,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.relationship.amount[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `SubstanceSpecification.relationship.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.relationship`.\nElement `SubstanceDefinition.relationship.amount[x]` is mapped to FHIR R4 element `SubstanceSpecification.relationship.amount[x]`.\nNote that the target element context `SubstanceSpecification.relationship.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.relationship`."
+              "comment" : "Element `SubstanceDefinition.relationship.amount[x]` is part of an existing definition because parent element `SubstanceDefinition.relationship` requires a cross-version extension.\nNote that the target element context `SubstanceSpecification.relationship.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.relationship`.\nElement `SubstanceDefinition.relationship.amount[x]` has is mapped to FHIR R4 element `SubstanceSpecification.relationship.amount[x]`, but has no comparisons.\nNote that the target element context `SubstanceSpecification.relationship.amount[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `SubstanceSpecification.relationship`."
             }
           ]
         },
@@ -976,7 +943,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.relationship.ratioHighLimitAmount` is will have a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.relationship.ratioHighLimitAmount` is part of an existing definition because parent element `SubstanceDefinition.relationship` requires a cross-version extension.\nElement `SubstanceDefinition.relationship.ratioHighLimitAmount` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -987,7 +954,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.relationship",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.relationship.comparator` is will have a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.relationship.comparator` is part of an existing definition because parent element `SubstanceDefinition.relationship` requires a cross-version extension.\nElement `SubstanceDefinition.relationship.comparator` has a context of SubstanceSpecification.relationship based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -998,7 +965,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.relationship.source",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.relationship.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.relationship.source` is mapped to FHIR R4 element `SubstanceSpecification.relationship.source`."
+              "comment" : "Element `SubstanceDefinition.relationship.source` is part of an existing definition because parent element `SubstanceDefinition.relationship` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.relationship.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.relationship.source` has is mapped to FHIR R4 element `SubstanceSpecification.relationship.source`, but has no comparisons."
             }
           ]
         },
@@ -1009,7 +976,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.nucleicAcid` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.nucleicAcid` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.nucleicAcid` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.nucleicAcid` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -1020,7 +987,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.polymer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.polymer` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.polymer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.polymer` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -1031,7 +998,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.protein` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.protein` is will have a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SubstanceDefinition.protein` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `SubstanceDefinition.protein` has a context of SubstanceSpecification based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -1042,7 +1009,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.sourceMaterial",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.sourceMaterial` is mapped to FHIR R4 element `SubstanceSpecification.sourceMaterial`."
+              "comment" : "Element `SubstanceDefinition.sourceMaterial` has is mapped to FHIR R4 element `SubstanceSpecification.sourceMaterial`, but has no comparisons."
             }
           ]
         },
@@ -1053,7 +1020,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.sourceMaterial",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.sourceMaterial.type` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.sourceMaterial.type` is part of an existing definition because parent element `SubstanceDefinition.sourceMaterial` requires a cross-version extension.\nElement `SubstanceDefinition.sourceMaterial.type` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -1064,7 +1031,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.sourceMaterial",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.sourceMaterial.genus` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.sourceMaterial.genus` is part of an existing definition because parent element `SubstanceDefinition.sourceMaterial` requires a cross-version extension.\nElement `SubstanceDefinition.sourceMaterial.genus` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -1075,7 +1042,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.sourceMaterial",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.sourceMaterial.species` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.sourceMaterial.species` is part of an existing definition because parent element `SubstanceDefinition.sourceMaterial` requires a cross-version extension.\nElement `SubstanceDefinition.sourceMaterial.species` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -1086,7 +1053,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.sourceMaterial",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.sourceMaterial.part` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.sourceMaterial.part` is part of an existing definition because parent element `SubstanceDefinition.sourceMaterial` requires a cross-version extension.\nElement `SubstanceDefinition.sourceMaterial.part` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         },
@@ -1097,7 +1064,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SubstanceSpecification#SubstanceSpecification.sourceMaterial",
               "equivalence" : "relatedto",
-              "comment" : "Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` is will have a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."
+              "comment" : "Element `SubstanceDefinition.sourceMaterial.countryOfOrigin` is part of an existing definition because parent element `SubstanceDefinition.sourceMaterial` requires a cross-version extension.\nElement `SubstanceDefinition.sourceMaterial.countryOfOrigin` has a context of SubstanceSpecification.sourceMaterial based on following the parent source element upwards and mapping to `SubstanceSpecification`."
             }
           ]
         }

@@ -1,4 +1,4 @@
-# ConceptMapR5ContactPointElementsForR4ContactPoint - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ContactPointElementsForR4ContactPoint - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ContactPointElementsForR4ContactPoint 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.6930537-06:00",
+  "date" : "2026-02-17T14:42:27.1290967-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `ContactPoint` is representable via FHIR R4 extensions.\nElement `ContactPoint` is mapped to FHIR R4 element `ContactPoint`."
+              "comment" : "FHIR R5 ComplexType `ContactPoint` is representable via FHIR R4 extensions.\nElement `ContactPoint` has is mapped to FHIR R4 element `ContactPoint`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactPoint.system` is mapped to FHIR R4 element `ContactPoint.system`."
+              "comment" : "Element `ContactPoint.system` has is mapped to FHIR R4 element `ContactPoint.system`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactPoint.value` is mapped to FHIR R4 element `ContactPoint.value`."
+              "comment" : "Element `ContactPoint.value` has is mapped to FHIR R4 element `ContactPoint.value`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.use",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactPoint.use` is mapped to FHIR R4 element `ContactPoint.use`."
+              "comment" : "Element `ContactPoint.use` has is mapped to FHIR R4 element `ContactPoint.use`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.rank",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactPoint.rank` is mapped to FHIR R4 element `ContactPoint.rank`."
+              "comment" : "Element `ContactPoint.rank` has is mapped to FHIR R4 element `ContactPoint.rank`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ContactPoint#ContactPoint.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `ContactPoint.period` is mapped to FHIR R4 element `ContactPoint.period`."
+              "comment" : "Element `ContactPoint.period` has is mapped to FHIR R4 element `ContactPoint.period`, but has no comparisons."
             }
           ]
         }

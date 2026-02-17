@@ -26,7 +26,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ResearchSubject.extension:progress","ResearchSubject.extension","progress","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.progress|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for ResearchSubject.progress from R5 for use in FHIR R4","The current state (status) of the subject and resons for status change where appropriate.","Element `ResearchSubject.progress` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Cross-version extension for ResearchSubject.progress from R5 for use in FHIR R4","The current state (status) of the subject and resons for status change where appropriate.","Element `ResearchSubject.progress` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ResearchSubject.modifierExtension","ResearchSubject.modifierExtension","","extensions
@@ -49,7 +49,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ResearchSubject.status.extension:status","ResearchSubject.status.extension","status","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ResearchSubject.status|0.0.1-snapshot-3]]} {[]}
 ","Cross-version extension for ResearchSubject.status from R5 for use in FHIR R4","The publication state of the resource (not of the subject).","Note that the target element context `ResearchSubject.status` is a modifier element, so this extension does not need to be defined as a modifier.
-Element `ResearchSubject.status` is mapped to FHIR R4 element `ResearchSubject.status`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+Element `ResearchSubject.status` has is mapped to FHIR R4 element `ResearchSubject.status`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ResearchSubject.status.value","ResearchSubject.status.value","","","",0,1,"","","","string {[]} {[]}

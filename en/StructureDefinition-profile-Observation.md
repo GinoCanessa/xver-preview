@@ -1,4 +1,4 @@
-# ProfileObservation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileObservation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileObservation 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Observation content to be represented via F
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.contributingFactor.md), [Cross-version Extension `R5.AdverseEvent.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.supportingInfo.md), [Cross-version Extension `R5.AllergyIntolerance.reaction.manifestation` for use in FHIR R4](StructureDefinition-ext-R5-AllergyIntolerance.rea.manifestation.md), [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md)... Show 6 more, [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DiagnosticReport.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md), [Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4](StructureDefinition-ext-R5-EpisodeOfCare.reason.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md) and [Cross-version Extension `R5.Observation.triggeredBy` for use in FHIR R4](StructureDefinition-ext-R5-Observation.triggeredBy.md)
+* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.contributingFactor` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.contributingFactor.md), [Cross-version Extension `R5.AdverseEvent.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.supportingInfo.md), [Cross-version Extension `R5.AllergyIntolerance.reaction` for use in FHIR R4](StructureDefinition-ext-R5-AllergyIntolerance.reaction.md), [Cross-version Extension `R5.ChargeItem.service` for use in FHIR R4](StructureDefinition-ext-R5-ChargeItem.service.md)... Show 10 more, [Cross-version Extension `R5.ClinicalImpression.finding` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalImpression.finding.md), [Cross-version Extension `R5.Condition.stage` for use in FHIR R4](StructureDefinition-ext-R5-Condition.stage.md), [Cross-version Extension `R5.Contract.term` for use in FHIR R4](StructureDefinition-ext-R5-Contract.term.md), [Cross-version Extension `R5.DiagnosticReport.supportingInfo` for use in FHIR R4](StructureDefinition-ext-R5-DiagnosticReport.supportingInfo.md), [Cross-version Extension `R5.Encounter.reason` for use in FHIR R4](StructureDefinition-ext-R5-Encounter.reason.md), [Cross-version Extension `R5.EpisodeOfCare.reason` for use in FHIR R4](StructureDefinition-ext-R5-EpisodeOfCare.reason.md), [Cross-version Extension `R5.GenomicStudy` for use in FHIR R4](StructureDefinition-ext-R5-GenomicStudy.md), [Cross-version Extension `R5.Immunization.reaction` for use in FHIR R4](StructureDefinition-ext-R5-Immunization.reaction.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md) and [Cross-version Extension `R5.Observation.triggeredBy` for use in FHIR R4](StructureDefinition-ext-R5-Observation.triggeredBy.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Observation)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
   "title" : "Cross-version Profile for R5.Observation for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2376099-06:00",
+  "date" : "2026-02-17T14:42:26.8632645-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "path" : "Observation.extension",
         "sliceName" : "instantiates",
         "short" : "Cross-version extension for Observation.instantiates[x] from R5 for use in FHIR R4",
-        "comment" : "Element `Observation.instantiates[x]` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
+        "comment" : "Element `Observation.instantiates[x]` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -207,7 +207,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "sliceName" : "instantiatesCanonical",
         "short" : "Cross-version extension for Observation.instantiates[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/ObservationDefinition in FHIR R4",
-        "comment" : "Element `Observation.instantiates[x]` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
+        "comment" : "Element `Observation.instantiates[x]` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "sliceName" : "instantiatesReference",
         "short" : "Cross-version extension for Observation.instantiates[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/ObservationDefinition in FHIR R4",
-        "comment" : "Element `Observation.instantiates[x]` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
+        "comment" : "Element `Observation.instantiates[x]` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -252,7 +252,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "path" : "Observation.extension",
         "sliceName" : "triggeredBy",
         "short" : "Cross-version extension for Observation.triggeredBy from R5 for use in FHIR R4",
-        "comment" : "Element `Observation.triggeredBy` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
+        "comment" : "Element `Observation.triggeredBy` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "path" : "Observation.extension",
         "sliceName" : "value",
         "short" : "Cross-version extension for Observation.value[x] from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.value[x]` is mapped to FHIR R4 element `Observation.value[x]`.\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.",
+        "comment" : "Note that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.value[x]` has is mapped to FHIR R4 element `Observation.value[x]`, but has no comparisons.\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -297,7 +297,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "sliceName" : "valueCanonical",
         "short" : "Cross-version extension for Observation.value[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/MolecularSequence in FHIR R4",
-        "comment" : "Note that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.value[x]` is mapped to FHIR R4 element `Observation.value[x]`.\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.",
+        "comment" : "Note that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.value[x]` has is mapped to FHIR R4 element `Observation.value[x]`, but has no comparisons.\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -320,7 +320,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "sliceName" : "valueReference",
         "short" : "Cross-version extension for Observation.value[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/MolecularSequence in FHIR R4",
-        "comment" : "Note that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.value[x]` is mapped to FHIR R4 element `Observation.value[x]`.\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.",
+        "comment" : "Note that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.\nElement `Observation.value[x]` has is mapped to FHIR R4 element `Observation.value[x]`, but has no comparisons.\nNote that the target element context `Observation.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -343,7 +343,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "sliceName" : "bodyStructure",
         "short" : "Cross-version extension for Observation.bodyStructure from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/BodyStructure in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.bodyStructure` is will have a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.bodyStructure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.bodyStructure` has a context of Observation based on following the parent source element upwards and mapping to `Observation`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -387,7 +387,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "sliceName" : "partOf",
         "short" : "Cross-version extension for Observation.partOf from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/GenomicStudy in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.partOf` is mapped to FHIR R4 element `Observation.partOf`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.partOf` has is mapped to FHIR R4 element `Observation.partOf`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -431,7 +431,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "sliceName" : "specimen",
         "short" : "Cross-version extension for Observation.specimen from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.specimen` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.specimen` is mapped to FHIR R4 element `Observation.specimen`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.specimen` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.specimen` has is mapped to FHIR R4 element `Observation.specimen`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -470,13 +470,13 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         }
       },
       {
-        "id" : "Observation.referenceRange.extension:normalValue",
+        "id" : "Observation.referenceRange.extension:referenceRange",
         "path" : "Observation.referenceRange.extension",
-        "sliceName" : "normalValue",
-        "short" : "Cross-version extension for Observation.referenceRange.normalValue from R5 for use in FHIR R4",
-        "comment" : "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is will have a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`.",
+        "sliceName" : "referenceRange",
+        "short" : "Cross-version extension for Observation.referenceRange from R5 for use in FHIR R4",
+        "comment" : "Element `Observation.referenceRange` has is mapped to FHIR R4 element `Observation.referenceRange`, but has no comparisons.\nNote available implied context: `Observation.component.referenceRange` because `Observation.component.referenceRange` is defined as a content reference to `Observation.referenceRange`.",
         "min" : 0,
-        "max" : "1",
+        "max" : "*",
         "base" : {
           "path" : "DomainResource.extension",
           "min" : 0,
@@ -486,7 +486,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange.normalValue|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.referenceRange|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -518,7 +518,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         "sliceName" : "derivedFrom",
         "short" : "Cross-version extension for Observation.derivedFrom from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DocumentReference,http://hl7.org/fhir/StructureDefinition/GenomicStudy,http://hl7.org/fhir/StructureDefinition/ImagingSelection in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.derivedFrom` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.derivedFrom` is mapped to FHIR R4 element `Observation.derivedFrom`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Observation.derivedFrom` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Observation.derivedFrom` has is mapped to FHIR R4 element `Observation.derivedFrom`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -557,100 +557,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
         }
       },
       {
-        "id" : "Observation.component.extension:value",
+        "id" : "Observation.component.extension:component",
         "path" : "Observation.component.extension",
-        "sliceName" : "value",
-        "short" : "Cross-version extension for Observation.component.value[x] from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.\nElement `Observation.component.value[x]` is mapped to FHIR R4 element `Observation.component.value[x]`.\nNote that the target element context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.value|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Observation.component.extension:valueCanonical",
-        "path" : "Observation.component.extension",
-        "sliceName" : "valueCanonical",
-        "short" : "Cross-version extension for Observation.component.value[x] from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/MolecularSequence in FHIR R4",
-        "comment" : "Note that the target element context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.\nElement `Observation.component.value[x]` is mapped to FHIR R4 element `Observation.component.value[x]`.\nNote that the target element context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.value|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Observation.component.extension:valueReference",
-        "path" : "Observation.component.extension",
-        "sliceName" : "valueReference",
-        "short" : "Cross-version extension for Observation.component.value[x] from R5 for use in FHIR R4",
-        "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/MolecularSequence in FHIR R4",
-        "comment" : "Note that the target element context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.\nElement `Observation.component.value[x]` is mapped to FHIR R4 element `Observation.component.value[x]`.\nNote that the target element context `Observation.component.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Observation.component`.",
-        "min" : 0,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.value|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Observation.component.referenceRange.extension",
-        "path" : "Observation.component.referenceRange.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 0,
-        "max" : "*",
-        "base" : {
-          "path" : "Element.extension",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "Observation.component.referenceRange.extension:referenceRange",
-        "path" : "Observation.component.referenceRange.extension",
-        "sliceName" : "referenceRange",
-        "short" : "Cross-version extension for Observation.component.referenceRange from R5 for use in FHIR R4",
-        "comment" : "Element `Observation.component.referenceRange` is mapped to FHIR R4 element `Observation.component.referenceRange`.",
+        "sliceName" : "component",
+        "short" : "Cross-version extension for Observation.component from R5 for use in FHIR R4",
+        "comment" : "Element `Observation.component` has is mapped to FHIR R4 element `Observation.component`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -662,7 +573,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Observati
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component.referenceRange|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Observation.component|0.0.1-snapshot-3"
             ]
           }
         ]

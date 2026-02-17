@@ -1,4 +1,4 @@
-# ExtensionMedicinalProductDefinition_Operation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionMedicinalProductDefinition_Operation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.MedicinalProductDefinition.operation` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
   "title" : "Cross-version Extension `R5.MedicinalProductDefinition.operation` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicinalProductDefinition.operation` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicinalProductDefinition.operation` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicinalProductDefinition.operation` 0..* `BackboneElement`\n*  R4B: `MedicinalProductDefinition.operation` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicinalProductDefinition.operation` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicinalProductDefinition.operation` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicinalProductDefinition.operation` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicinalProductDefinition.operation` 0..* `BackboneElement`\n*  R4B: `MedicinalProductDefinition.operation` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicinalProductDefinition.operation` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "type",
         "short" : "The type of manufacturing operation e.g. manufacturing itself, re-packaging",
         "definition" : "The type of manufacturing operation e.g. manufacturing itself, re-packaging. For the authorization of this, a RegulatedAuthorization would point to the same plan or activity referenced here.",
-        "requirements" : "Element `MedicinalProductDefinition.operation.type` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.\nElement `MedicinalProductDefinition.operation.type` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "requirements" : "Element `MedicinalProductDefinition.operation.type` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.\nElement `MedicinalProductDefinition.operation.type` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -264,7 +264,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -309,7 +309,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -364,7 +364,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.operation.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -383,7 +383,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "effectiveDate",
         "short" : "Date range of applicability",
         "definition" : "Date range of applicability.",
-        "requirements" : "Element `MedicinalProductDefinition.operation.effectiveDate` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.\nElement `MedicinalProductDefinition.operation.effectiveDate` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "requirements" : "Element `MedicinalProductDefinition.operation.effectiveDate` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.\nElement `MedicinalProductDefinition.operation.effectiveDate` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -402,7 +402,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "effectiveDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.operation.effectiveDate"
       },
       {
         "id" : "Extension.extension:effectiveDate.value[x]",
@@ -428,7 +428,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "organization",
         "short" : "The organization responsible for the particular process, e.g. the manufacturer or importer",
         "definition" : "The organization or establishment responsible for (or associated with) the particular process or step, examples include the manufacturer, importer, agent.",
-        "requirements" : "Element `MedicinalProductDefinition.operation.organization` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.operation.organization` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.operation.organization` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "requirements" : "Element `MedicinalProductDefinition.operation.organization` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicinalProductDefinition.operation.organization` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicinalProductDefinition.operation.organization` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -447,7 +447,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "organization"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.operation.organization"
       },
       {
         "id" : "Extension.extension:organization.value[x]",
@@ -477,7 +477,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
         "sliceName" : "confidentialityIndicator",
         "short" : "Specifies whether this process is considered proprietary or confidential",
         "definition" : "Specifies whether this particular business or manufacturing process is considered proprietary or confidential.",
-        "requirements" : "Element `MedicinalProductDefinition.operation.confidentialityIndicator` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.\nElement `MedicinalProductDefinition.operation.confidentialityIndicator` is will have a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
+        "requirements" : "Element `MedicinalProductDefinition.operation.confidentialityIndicator` is part of an existing definition because parent element `MedicinalProductDefinition.operation` requires a cross-version extension.\nElement `MedicinalProductDefinition.operation.confidentialityIndicator` has a context of MedicinalProduct based on following the parent source element upwards and mapping to `MedicinalProduct`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -496,7 +496,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-MedicinalP
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "confidentialityIndicator"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicinalProductDefinition.operation.confidentialityIndicator"
       },
       {
         "id" : "Extension.extension:confidentialityIndicator.value[x]",

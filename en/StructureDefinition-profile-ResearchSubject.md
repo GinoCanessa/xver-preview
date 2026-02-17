@@ -1,4 +1,4 @@
-# ProfileResearchSubject - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileResearchSubject - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileResearchSubject 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 ResearchSubject content to be represented v
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.participant` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.participant.md)
+* Refer to this Profile: [Cross-version Extension `R5.AdverseEvent.participant` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.participant.md) and [Cross-version Extension `R5.AdverseEvent.suspectEntity` for use in FHIR R4](StructureDefinition-ext-R5-AdverseEvent.suspectEntity.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-ResearchSubject)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
   "title" : "Cross-version Profile for R5.ResearchSubject for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3116366-06:00",
+  "date" : "2026-02-17T14:42:26.8922933-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchSubject.extension",
         "sliceName" : "progress",
         "short" : "Cross-version extension for ResearchSubject.progress from R5 for use in FHIR R4",
-        "comment" : "Element `ResearchSubject.progress` is will have a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
+        "comment" : "Element `ResearchSubject.progress` has a context of ResearchSubject based on following the parent source element upwards and mapping to `ResearchSubject`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -217,7 +217,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-ResearchS
         "path" : "ResearchSubject.status.extension",
         "sliceName" : "status",
         "short" : "Cross-version extension for ResearchSubject.status from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `ResearchSubject.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchSubject.status` is mapped to FHIR R4 element `ResearchSubject.status`.",
+        "comment" : "Note that the target element context `ResearchSubject.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ResearchSubject.status` has is mapped to FHIR R4 element `ResearchSubject.status`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {

@@ -1,4 +1,4 @@
-# Lookup for ProfileSubstance - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileSubstance - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileSubstance
 
@@ -22,11 +22,11 @@ A computable version of the following element information is available in: [Conc
 | [`Substance.instance`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.instance](https://hl7.org/fhir/R4/Substance.html#resource) |
 | [`Substance.status`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.status](https://hl7.org/fhir/R4/Substance.html#resource) |
 | [`Substance.category`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.category](https://hl7.org/fhir/R4/Substance.html#resource) |
-| [`Substance.code`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.code](https://hl7.org/fhir/R4/Substance.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Substance.code](StructureDefinition-ext-R5-Substance.code.md) |
+| [`Substance.code`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.code](https://hl7.org/fhir/R4/Substance.html#resource)[Extension: ExtensionSubstance_Code](StructureDefinition-ext-R5-Substance.code.md) |
 | [`Substance.description`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.description](https://hl7.org/fhir/R4/Substance.html#resource) |
 | [`Substance.expiry`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.instance.expiry](https://hl7.org/fhir/R4/Substance.html#resource) |
 | [`Substance.quantity`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.instance.quantity](https://hl7.org/fhir/R4/Substance.html#resource) |
-| [`Substance.ingredient`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.ingredient](https://hl7.org/fhir/R4/Substance.html#resource) |
-| [`Substance.ingredient.quantity`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.ingredient.quantity](https://hl7.org/fhir/R4/Substance.html#resource) |
-| [`Substance.ingredient.substance[x]`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.ingredient.substance[x]](https://hl7.org/fhir/R4/Substance.html#resource) |
+| [`Substance.ingredient`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.ingredient](https://hl7.org/fhir/R4/Substance.html#resource)[Extension: ExtensionSubstance_Ingredient](StructureDefinition-ext-R5-Substance.ingredient.md) |
+| [`Substance.ingredient.quantity`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.ingredient.quantity](https://hl7.org/fhir/R4/Substance.html#resource)[Extension: ExtensionSubstance_Ingredient Slice:quantity](StructureDefinition-ext-R5-Substance.ingredient.md) |
+| [`Substance.ingredient.substance[x]`](https://hl7.org/fhir/R5/Substance.html#resource) | [Substance.ingredient.substance[x]](https://hl7.org/fhir/R4/Substance.html#resource)[Extension: ExtensionSubstance_Ingredient Slice:substance](StructureDefinition-ext-R5-Substance.ingredient.md) |
 

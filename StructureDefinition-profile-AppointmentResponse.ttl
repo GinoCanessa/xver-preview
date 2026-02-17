@@ -120,7 +120,7 @@
   fhir:title [ fhir:v "Cross-version Profile for R5.AppointmentResponse for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-09T22:05:42.984309-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-17T14:42:26.7322465-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -580,7 +580,7 @@
        fhir:sliceName [ fhir:v "proposedNewTime" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.proposedNewTime from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "Indicates that the response is proposing a different time that was initially requested.  The new proposed time will be indicated in the start and end properties." ] ;
-       fhir:comment [ fhir:v "Element `AppointmentResponse.proposedNewTime` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
+       fhir:comment [ fhir:v "Element `AppointmentResponse.proposedNewTime` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -628,7 +628,7 @@
        fhir:sliceName [ fhir:v "recurring" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.recurring from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "Indicates that this AppointmentResponse applies to all occurrences in a recurring request." ] ;
-       fhir:comment [ fhir:v "Element `AppointmentResponse.recurring` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
+       fhir:comment [ fhir:v "Element `AppointmentResponse.recurring` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -676,7 +676,7 @@
        fhir:sliceName [ fhir:v "occurrenceDate" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.occurrenceDate from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "The original date within a recurring request. This could be used in place of the recurrenceId to be more direct (or where the template is provided through the simple list of dates in `Appointment.occurrenceDate`)." ] ;
-       fhir:comment [ fhir:v "Element `AppointmentResponse.occurrenceDate` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
+       fhir:comment [ fhir:v "Element `AppointmentResponse.occurrenceDate` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -724,7 +724,7 @@
        fhir:sliceName [ fhir:v "recurrenceId" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.recurrenceId from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "The recurrence ID (sequence number) of the specific appointment when responding to a recurring request." ] ;
-       fhir:comment [ fhir:v "Element `AppointmentResponse.recurrenceId` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
+       fhir:comment [ fhir:v "Element `AppointmentResponse.recurrenceId` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1205,7 +1205,7 @@
        fhir:sliceName [ fhir:v "actor" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.actor from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AppointmentResponse.actor` is mapped to FHIR R4 element `AppointmentResponse.actor`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AppointmentResponse.actor` has is mapped to FHIR R4 element `AppointmentResponse.actor`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1567,7 +1567,7 @@
        fhir:sliceName [ fhir:v "participantStatus" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.participantStatus from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "Participation status of the participant. When the status is declined or tentative if the start/end times are different to the appointment, then these times should be interpreted as a requested time change. When the status is accepted, the times can either be the time of the appointment (as a confirmation of the time) or can be empty." ] ;
-       fhir:comment [ fhir:v "Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus`." ] ;
+       fhir:comment [ fhir:v "Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` has is mapped to FHIR R4 element `AppointmentResponse.participantStatus`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1721,7 +1721,7 @@
        fhir:path [ fhir:v "AppointmentResponse.extension" ] ;
        fhir:sliceName [ fhir:v "proposedNewTime" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.proposedNewTime from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `AppointmentResponse.proposedNewTime` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
+       fhir:comment [ fhir:v "Element `AppointmentResponse.proposedNewTime` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1744,7 +1744,7 @@
        fhir:path [ fhir:v "AppointmentResponse.extension" ] ;
        fhir:sliceName [ fhir:v "recurring" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.recurring from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `AppointmentResponse.recurring` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
+       fhir:comment [ fhir:v "Element `AppointmentResponse.recurring` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1767,7 +1767,7 @@
        fhir:path [ fhir:v "AppointmentResponse.extension" ] ;
        fhir:sliceName [ fhir:v "occurrenceDate" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.occurrenceDate from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `AppointmentResponse.occurrenceDate` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
+       fhir:comment [ fhir:v "Element `AppointmentResponse.occurrenceDate` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1790,7 +1790,7 @@
        fhir:path [ fhir:v "AppointmentResponse.extension" ] ;
        fhir:sliceName [ fhir:v "recurrenceId" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.recurrenceId from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `AppointmentResponse.recurrenceId` is will have a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
+       fhir:comment [ fhir:v "Element `AppointmentResponse.recurrenceId` has a context of AppointmentResponse based on following the parent source element upwards and mapping to `AppointmentResponse`." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1832,7 +1832,7 @@
        fhir:sliceName [ fhir:v "actor" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.actor from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Group in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AppointmentResponse.actor` is mapped to FHIR R4 element `AppointmentResponse.actor`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AppointmentResponse.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AppointmentResponse.actor` has is mapped to FHIR R4 element `AppointmentResponse.actor`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1873,7 +1873,7 @@
        fhir:path [ fhir:v "AppointmentResponse.participantStatus.extension" ] ;
        fhir:sliceName [ fhir:v "participantStatus" ] ;
        fhir:short [ fhir:v "Cross-version extension for AppointmentResponse.participantStatus from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` is mapped to FHIR R4 element `AppointmentResponse.participantStatus`." ] ;
+       fhir:comment [ fhir:v "Note that the target element context `AppointmentResponse.participantStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `AppointmentResponse.participantStatus` has is mapped to FHIR R4 element `AppointmentResponse.participantStatus`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [

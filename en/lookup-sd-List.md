@@ -1,4 +1,4 @@
-# Lookup for ProfileList - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileList - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileList
 
@@ -26,13 +26,13 @@ A computable version of the following element information is available in: [Conc
 | [`List.subject`](https://hl7.org/fhir/R5/List.html#resource) | [List.subject](https://hl7.org/fhir/R4/List.html#resource)[Basic.subject](https://hl7.org/fhir/R4/Basic.html#resource) |
 | [`List.encounter`](https://hl7.org/fhir/R5/List.html#resource) | [List.encounter](https://hl7.org/fhir/R4/List.html#resource) |
 | [`List.date`](https://hl7.org/fhir/R5/List.html#resource) | [List.date](https://hl7.org/fhir/R4/List.html#resource) |
-| [`List.source`](https://hl7.org/fhir/R5/List.html#resource) | [List.source](https://hl7.org/fhir/R4/List.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-List.source](StructureDefinition-ext-R5-List.source.md) |
+| [`List.source`](https://hl7.org/fhir/R5/List.html#resource) | [List.source](https://hl7.org/fhir/R4/List.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`List.orderedBy`](https://hl7.org/fhir/R5/List.html#resource) | [List.orderedBy](https://hl7.org/fhir/R4/List.html#resource) |
 | [`List.note`](https://hl7.org/fhir/R5/List.html#resource) | [List.note](https://hl7.org/fhir/R4/List.html#resource) |
-| [`List.entry`](https://hl7.org/fhir/R5/List.html#resource) | [List.entry](https://hl7.org/fhir/R4/List.html#resource) |
-| [`List.entry.flag`](https://hl7.org/fhir/R5/List.html#resource) | [List.entry.flag](https://hl7.org/fhir/R4/List.html#resource) |
-| [`List.entry.deleted`](https://hl7.org/fhir/R5/List.html#resource) | [List.entry.deleted](https://hl7.org/fhir/R4/List.html#resource) |
-| [`List.entry.date`](https://hl7.org/fhir/R5/List.html#resource) | [List.entry.date](https://hl7.org/fhir/R4/List.html#resource) |
-| [`List.entry.item`](https://hl7.org/fhir/R5/List.html#resource) | [List.entry.item](https://hl7.org/fhir/R4/List.html#resource) |
+| [`List.entry`](https://hl7.org/fhir/R5/List.html#resource) | [List.entry](https://hl7.org/fhir/R4/List.html#resource)[Extension: ExtensionList_Entry](StructureDefinition-ext-R5-List.entry.md) |
+| [`List.entry.flag`](https://hl7.org/fhir/R5/List.html#resource) | [List.entry.flag](https://hl7.org/fhir/R4/List.html#resource)[Extension: ExtensionList_Entry Slice:flag](StructureDefinition-ext-R5-List.entry.md) |
+| [`List.entry.deleted`](https://hl7.org/fhir/R5/List.html#resource) | [List.entry.deleted](https://hl7.org/fhir/R4/List.html#resource)[Extension: ExtensionList_Entry Slice:deleted](StructureDefinition-ext-R5-List.entry.md) |
+| [`List.entry.date`](https://hl7.org/fhir/R5/List.html#resource) | [List.entry.date](https://hl7.org/fhir/R4/List.html#resource)[Extension: ExtensionList_Entry Slice:date](StructureDefinition-ext-R5-List.entry.md) |
+| [`List.entry.item`](https://hl7.org/fhir/R5/List.html#resource) | [List.entry.item](https://hl7.org/fhir/R4/List.html#resource)[Extension: ExtensionList_Entry Slice:item](StructureDefinition-ext-R5-List.entry.md) |
 | [`List.emptyReason`](https://hl7.org/fhir/R5/List.html#resource) | [List.emptyReason](https://hl7.org/fhir/R4/List.html#resource) |
 

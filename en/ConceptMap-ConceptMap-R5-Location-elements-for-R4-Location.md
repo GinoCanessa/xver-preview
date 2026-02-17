@@ -1,4 +1,4 @@
-# ConceptMapR5LocationElementsForR4Location - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5LocationElementsForR4Location - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5LocationElementsForR4Location 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.9810058-06:00",
+  "date" : "2026-02-17T14:42:27.346568-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Location` is representable via FHIR R4 Resource `Location`.\nElement `Location` is mapped to FHIR R4 element `Location`."
+              "comment" : "FHIR R5 Resource `Location` is representable via FHIR R4 Resource `Location`.\nElement `Location` has is mapped to FHIR R4 element `Location`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.meta` is mapped to FHIR R4 element `Location.meta`."
+              "comment" : "Element `Location.meta` has is mapped to FHIR R4 element `Location.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.implicitRules` is mapped to FHIR R4 element `Location.implicitRules`."
+              "comment" : "Element `Location.implicitRules` has is mapped to FHIR R4 element `Location.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.language` is mapped to FHIR R4 element `Location.language`."
+              "comment" : "Element `Location.language` has is mapped to FHIR R4 element `Location.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.text` is mapped to FHIR R4 element `Location.text`."
+              "comment" : "Element `Location.text` has is mapped to FHIR R4 element `Location.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.contained` is mapped to FHIR R4 element `Location.contained`."
+              "comment" : "Element `Location.contained` has is mapped to FHIR R4 element `Location.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.identifier` is mapped to FHIR R4 element `Location.identifier`."
+              "comment" : "Element `Location.identifier` has is mapped to FHIR R4 element `Location.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.status` is mapped to FHIR R4 element `Location.status`."
+              "comment" : "Element `Location.status` has is mapped to FHIR R4 element `Location.status`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.operationalStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.operationalStatus` is mapped to FHIR R4 element `Location.operationalStatus`."
+              "comment" : "Element `Location.operationalStatus` has is mapped to FHIR R4 element `Location.operationalStatus`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.name` is mapped to FHIR R4 element `Location.name`."
+              "comment" : "Element `Location.name` has is mapped to FHIR R4 element `Location.name`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.alias",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.alias` is mapped to FHIR R4 element `Location.alias`."
+              "comment" : "Element `Location.alias` has is mapped to FHIR R4 element `Location.alias`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.description` is mapped to FHIR R4 element `Location.description`."
+              "comment" : "Element `Location.description` has is mapped to FHIR R4 element `Location.description`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.mode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.mode` is mapped to FHIR R4 element `Location.mode`."
+              "comment" : "Element `Location.mode` has is mapped to FHIR R4 element `Location.mode`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.type` is mapped to FHIR R4 element `Location.type`."
+              "comment" : "Element `Location.type` has is mapped to FHIR R4 element `Location.type`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.contact` is will have a context of Location based on following the parent source element upwards and mapping to `Location`."
+              "comment" : "Element `Location.contact` has a context of Location based on following the parent source element upwards and mapping to `Location`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.address",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.address` is mapped to FHIR R4 element `Location.address`."
+              "comment" : "Element `Location.address` has is mapped to FHIR R4 element `Location.address`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.physicalType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.form` is mapped to FHIR R4 element `Location.physicalType`."
+              "comment" : "Element `Location.form` has is mapped to FHIR R4 element `Location.physicalType`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.position",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.position` is mapped to FHIR R4 element `Location.position`."
+              "comment" : "Element `Location.position` has is mapped to FHIR R4 element `Location.position`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.position.longitude",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.position.longitude` is mapped to FHIR R4 element `Location.position.longitude`."
+              "comment" : "Element `Location.position.longitude` is part of an existing definition because parent element `Location.position` requires a cross-version extension.\nElement `Location.position.longitude` has is mapped to FHIR R4 element `Location.position.longitude`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.position.latitude",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.position.latitude` is mapped to FHIR R4 element `Location.position.latitude`."
+              "comment" : "Element `Location.position.latitude` is part of an existing definition because parent element `Location.position` requires a cross-version extension.\nElement `Location.position.latitude` has is mapped to FHIR R4 element `Location.position.latitude`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.position.altitude",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.position.altitude` is mapped to FHIR R4 element `Location.position.altitude`."
+              "comment" : "Element `Location.position.altitude` is part of an existing definition because parent element `Location.position` requires a cross-version extension.\nElement `Location.position.altitude` has is mapped to FHIR R4 element `Location.position.altitude`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.managingOrganization",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.managingOrganization` is mapped to FHIR R4 element `Location.managingOrganization`."
+              "comment" : "Element `Location.managingOrganization` has is mapped to FHIR R4 element `Location.managingOrganization`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.partOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.partOf` is mapped to FHIR R4 element `Location.partOf`."
+              "comment" : "Element `Location.partOf` has is mapped to FHIR R4 element `Location.partOf`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.characteristic` is will have a context of Location based on following the parent source element upwards and mapping to `Location`."
+              "comment" : "Element `Location.characteristic` has a context of Location based on following the parent source element upwards and mapping to `Location`."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.hoursOfOperation",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.hoursOfOperation` is mapped to FHIR R4 element `Location.hoursOfOperation`."
+              "comment" : "Element `Location.hoursOfOperation` has is mapped to FHIR R4 element `Location.hoursOfOperation`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.virtualService` is will have a context of Location based on following the parent source element upwards and mapping to `Location`."
+              "comment" : "Element `Location.virtualService` has a context of Location based on following the parent source element upwards and mapping to `Location`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Location#Location.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `Location.endpoint` is mapped to FHIR R4 element `Location.endpoint`."
+              "comment" : "Element `Location.endpoint` has is mapped to FHIR R4 element `Location.endpoint`, but has no comparisons."
             }
           ]
         }

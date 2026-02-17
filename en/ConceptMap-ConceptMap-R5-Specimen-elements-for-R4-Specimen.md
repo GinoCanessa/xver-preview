@@ -1,4 +1,4 @@
-# ConceptMapR5SpecimenElementsForR4Specimen - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5SpecimenElementsForR4Specimen - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5SpecimenElementsForR4Specimen 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2198544-06:00",
+  "date" : "2026-02-17T14:42:27.5431604-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Specimen` is representable via FHIR R4 Resource `Specimen`.\nElement `Specimen` is mapped to FHIR R4 element `Specimen`."
+              "comment" : "FHIR R5 Resource `Specimen` is representable via FHIR R4 Resource `Specimen`.\nElement `Specimen` has is mapped to FHIR R4 element `Specimen`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.meta` is mapped to FHIR R4 element `Specimen.meta`."
+              "comment" : "Element `Specimen.meta` has is mapped to FHIR R4 element `Specimen.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.implicitRules` is mapped to FHIR R4 element `Specimen.implicitRules`."
+              "comment" : "Element `Specimen.implicitRules` has is mapped to FHIR R4 element `Specimen.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.language` is mapped to FHIR R4 element `Specimen.language`."
+              "comment" : "Element `Specimen.language` has is mapped to FHIR R4 element `Specimen.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.text` is mapped to FHIR R4 element `Specimen.text`."
+              "comment" : "Element `Specimen.text` has is mapped to FHIR R4 element `Specimen.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.contained` is mapped to FHIR R4 element `Specimen.contained`."
+              "comment" : "Element `Specimen.contained` has is mapped to FHIR R4 element `Specimen.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.identifier` is mapped to FHIR R4 element `Specimen.identifier`."
+              "comment" : "Element `Specimen.identifier` has is mapped to FHIR R4 element `Specimen.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.accessionIdentifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.accessionIdentifier` is mapped to FHIR R4 element `Specimen.accessionIdentifier`."
+              "comment" : "Element `Specimen.accessionIdentifier` has is mapped to FHIR R4 element `Specimen.accessionIdentifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.status` is mapped to FHIR R4 element `Specimen.status`."
+              "comment" : "Element `Specimen.status` has is mapped to FHIR R4 element `Specimen.status`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.type` is mapped to FHIR R4 element `Specimen.type`."
+              "comment" : "Element `Specimen.type` has is mapped to FHIR R4 element `Specimen.type`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.subject` is mapped to FHIR R4 element `Specimen.subject`."
+              "comment" : "Element matches Basic element path `Basic.subject`, use that element instead.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.subject` has is mapped to FHIR R4 element `Specimen.subject`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.receivedTime",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.receivedTime` is mapped to FHIR R4 element `Specimen.receivedTime`."
+              "comment" : "Element `Specimen.receivedTime` has is mapped to FHIR R4 element `Specimen.receivedTime`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.parent",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.parent` is mapped to FHIR R4 element `Specimen.parent`."
+              "comment" : "Element `Specimen.parent` has is mapped to FHIR R4 element `Specimen.parent`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.request",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.request` is mapped to FHIR R4 element `Specimen.request`."
+              "comment" : "Element `Specimen.request` has is mapped to FHIR R4 element `Specimen.request`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.combined` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`."
+              "comment" : "Element `Specimen.combined` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.role` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`."
+              "comment" : "Element `Specimen.role` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.feature` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`."
+              "comment" : "Element `Specimen.feature` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.feature.type` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.type` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`."
+              "comment" : "Element `Specimen.feature.type` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.type` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.feature.description` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.description` is will have a context of Specimen based on following the parent source element upwards and mapping to `Specimen`."
+              "comment" : "Element `Specimen.feature.description` is part of an existing definition because parent element `Specimen.feature` requires a cross-version extension.\nElement `Specimen.feature.description` has a context of Specimen based on following the parent source element upwards and mapping to `Specimen`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.collection` is mapped to FHIR R4 element `Specimen.collection`."
+              "comment" : "Element `Specimen.collection` has is mapped to FHIR R4 element `Specimen.collection`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.collector",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.collection.collector` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.collection.collector` is mapped to FHIR R4 element `Specimen.collection.collector`."
+              "comment" : "Element `Specimen.collection.collector` is part of an existing definition because parent element `Specimen.collection` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.collection.collector` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.collection.collector` has is mapped to FHIR R4 element `Specimen.collection.collector`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.collected[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Specimen.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.\nElement `Specimen.collection.collected[x]` is mapped to FHIR R4 element `Specimen.collection.collected[x]`.\nNote that the target element context `Specimen.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`."
+              "comment" : "Element `Specimen.collection.collected[x]` is part of an existing definition because parent element `Specimen.collection` requires a cross-version extension.\nNote that the target element context `Specimen.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.\nElement `Specimen.collection.collected[x]` has is mapped to FHIR R4 element `Specimen.collection.collected[x]`, but has no comparisons.\nNote that the target element context `Specimen.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.duration",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.collection.duration` is mapped to FHIR R4 element `Specimen.collection.duration`."
+              "comment" : "Element `Specimen.collection.duration` is part of an existing definition because parent element `Specimen.collection` requires a cross-version extension.\nElement `Specimen.collection.duration` has is mapped to FHIR R4 element `Specimen.collection.duration`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.collection.quantity` is mapped to FHIR R4 element `Specimen.collection.quantity`."
+              "comment" : "Element `Specimen.collection.quantity` is part of an existing definition because parent element `Specimen.collection` requires a cross-version extension.\nElement `Specimen.collection.quantity` has is mapped to FHIR R4 element `Specimen.collection.quantity`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.method",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.collection.method` is mapped to FHIR R4 element `Specimen.collection.method`."
+              "comment" : "Element `Specimen.collection.method` is part of an existing definition because parent element `Specimen.collection` requires a cross-version extension.\nElement `Specimen.collection.method` has is mapped to FHIR R4 element `Specimen.collection.method`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.collection.device` is will have a context of Specimen.collection based on following the parent source element upwards and mapping to `Specimen`."
+              "comment" : "Element `Specimen.collection.device` is part of an existing definition because parent element `Specimen.collection` requires a cross-version extension.\nElement `Specimen.collection.device` has a context of Specimen.collection based on following the parent source element upwards and mapping to `Specimen`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.collection.procedure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.collection.procedure` is will have a context of Specimen.collection based on following the parent source element upwards and mapping to `Specimen`."
+              "comment" : "Element `Specimen.collection.procedure` is part of an existing definition because parent element `Specimen.collection` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.collection.procedure` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.collection.procedure` has a context of Specimen.collection based on following the parent source element upwards and mapping to `Specimen`."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.collection.bodySite` is mapped to FHIR R4 element `Specimen.collection.bodySite`."
+              "comment" : "Element `Specimen.collection.bodySite` is part of an existing definition because parent element `Specimen.collection` requires a cross-version extension.\nElement `Specimen.collection.bodySite` has is mapped to FHIR R4 element `Specimen.collection.bodySite`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.collection.fastingStatus[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Specimen.collection.fastingStatus[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.\nElement `Specimen.collection.fastingStatus[x]` is mapped to FHIR R4 element `Specimen.collection.fastingStatus[x]`.\nNote that the target element context `Specimen.collection.fastingStatus[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`."
+              "comment" : "Element `Specimen.collection.fastingStatus[x]` is part of an existing definition because parent element `Specimen.collection` requires a cross-version extension.\nNote that the target element context `Specimen.collection.fastingStatus[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`.\nElement `Specimen.collection.fastingStatus[x]` has is mapped to FHIR R4 element `Specimen.collection.fastingStatus[x]`, but has no comparisons.\nNote that the target element context `Specimen.collection.fastingStatus[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.collection`."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.processing` is mapped to FHIR R4 element `Specimen.processing`."
+              "comment" : "Element `Specimen.processing` has is mapped to FHIR R4 element `Specimen.processing`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.processing.description` is mapped to FHIR R4 element `Specimen.processing.description`."
+              "comment" : "Element `Specimen.processing.description` is part of an existing definition because parent element `Specimen.processing` requires a cross-version extension.\nElement `Specimen.processing.description` has is mapped to FHIR R4 element `Specimen.processing.description`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.procedure",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.processing.method` is mapped to FHIR R4 element `Specimen.processing.procedure`."
+              "comment" : "Element `Specimen.processing.method` is part of an existing definition because parent element `Specimen.processing` requires a cross-version extension.\nElement `Specimen.processing.method` has is mapped to FHIR R4 element `Specimen.processing.procedure`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.additive",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.processing.additive` is mapped to FHIR R4 element `Specimen.processing.additive`."
+              "comment" : "Element `Specimen.processing.additive` is part of an existing definition because parent element `Specimen.processing` requires a cross-version extension.\nElement `Specimen.processing.additive` has is mapped to FHIR R4 element `Specimen.processing.additive`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.processing.time[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Specimen.processing.time[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.processing`.\nElement `Specimen.processing.time[x]` is mapped to FHIR R4 element `Specimen.processing.time[x]`.\nNote that the target element context `Specimen.processing.time[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.processing`."
+              "comment" : "Element `Specimen.processing.time[x]` is part of an existing definition because parent element `Specimen.processing` requires a cross-version extension.\nNote that the target element context `Specimen.processing.time[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.processing`.\nElement `Specimen.processing.time[x]` has is mapped to FHIR R4 element `Specimen.processing.time[x]`, but has no comparisons.\nNote that the target element context `Specimen.processing.time[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Specimen.processing`."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.container` is mapped to FHIR R4 element `Specimen.container`."
+              "comment" : "Element `Specimen.container` has is mapped to FHIR R4 element `Specimen.container`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.container.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.container.device` is will have a context of Specimen.container based on following the parent source element upwards and mapping to `Specimen`."
+              "comment" : "Element `Specimen.container.device` is part of an existing definition because parent element `Specimen.container` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.container.device` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.container.device` has a context of Specimen.container based on following the parent source element upwards and mapping to `Specimen`."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.container.location` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.container.location` is will have a context of Specimen.container based on following the parent source element upwards and mapping to `Specimen`."
+              "comment" : "Element `Specimen.container.location` is part of an existing definition because parent element `Specimen.container` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Specimen.container.location` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Specimen.container.location` has a context of Specimen.container based on following the parent source element upwards and mapping to `Specimen`."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.specimenQuantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.container.specimenQuantity` is mapped to FHIR R4 element `Specimen.container.specimenQuantity`."
+              "comment" : "Element `Specimen.container.specimenQuantity` is part of an existing definition because parent element `Specimen.container` requires a cross-version extension.\nElement `Specimen.container.specimenQuantity` has is mapped to FHIR R4 element `Specimen.container.specimenQuantity`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.condition",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.condition` is mapped to FHIR R4 element `Specimen.condition`."
+              "comment" : "Element `Specimen.condition` has is mapped to FHIR R4 element `Specimen.condition`, but has no comparisons."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `Specimen.note` is mapped to FHIR R4 element `Specimen.note`."
+              "comment" : "Element `Specimen.note` has is mapped to FHIR R4 element `Specimen.note`, but has no comparisons."
             }
           ]
         }

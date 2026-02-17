@@ -1,4 +1,4 @@
-# ExtensionActorDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionActorDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ActorDefinition` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
   "title" : "Cross-version Extension `R5.ActorDefinition` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "url"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.url"
       },
       {
         "id" : "Extension.extension:url.value[x]",
@@ -251,7 +251,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "version"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.version"
       },
       {
         "id" : "Extension.extension:version.value[x]",
@@ -298,7 +298,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "versionAlgorithm"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.versionAlgorithm"
       },
       {
         "id" : "Extension.extension:versionAlgorithm.value[x]",
@@ -348,7 +348,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "name"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.name"
       },
       {
         "id" : "Extension.extension:name.value[x]",
@@ -395,7 +395,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "title"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.title"
       },
       {
         "id" : "Extension.extension:title.value[x]",
@@ -442,7 +442,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -494,7 +494,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "experimental"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.experimental"
       },
       {
         "id" : "Extension.extension:experimental.value[x]",
@@ -541,7 +541,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "date"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.date"
       },
       {
         "id" : "Extension.extension:date.value[x]",
@@ -588,7 +588,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "publisher"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.publisher"
       },
       {
         "id" : "Extension.extension:publisher.value[x]",
@@ -635,7 +635,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "contact"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.contact"
       },
       {
         "id" : "Extension.extension:contact.value[x]",
@@ -682,7 +682,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.description"
       },
       {
         "id" : "Extension.extension:description.value[x]",
@@ -729,7 +729,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "useContext"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.useContext"
       },
       {
         "id" : "Extension.extension:useContext.value[x]",
@@ -776,7 +776,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "jurisdiction"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.jurisdiction"
       },
       {
         "id" : "Extension.extension:jurisdiction.value[x]",
@@ -828,7 +828,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "purpose"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.purpose"
       },
       {
         "id" : "Extension.extension:purpose.value[x]",
@@ -875,7 +875,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "copyright"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.copyright"
       },
       {
         "id" : "Extension.extension:copyright.value[x]",
@@ -922,7 +922,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "copyrightLabel"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.copyrightLabel"
       },
       {
         "id" : "Extension.extension:copyrightLabel.value[x]",
@@ -968,7 +968,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "type"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.type"
       },
       {
         "id" : "Extension.extension:type.value[x]",
@@ -1019,7 +1019,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "documentation"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.documentation"
       },
       {
         "id" : "Extension.extension:documentation.value[x]",
@@ -1065,7 +1065,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "reference"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.reference"
       },
       {
         "id" : "Extension.extension:reference.value[x]",
@@ -1110,7 +1110,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "capabilities"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.capabilities"
       },
       {
         "id" : "Extension.extension:capabilities.value[x]",
@@ -1159,7 +1159,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActorDefin
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "derivedFrom"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ActorDefinition.derivedFrom"
       },
       {
         "id" : "Extension.extension:derivedFrom.value[x]",

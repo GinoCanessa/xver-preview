@@ -1,4 +1,4 @@
-# Lookup for ProfileInvoice - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileInvoice - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileInvoice
 
@@ -25,18 +25,18 @@ A computable version of the following element information is available in: [Conc
 | [`Invoice.subject`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.subject](https://hl7.org/fhir/R4/Invoice.html#resource) |
 | [`Invoice.recipient`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.recipient](https://hl7.org/fhir/R4/Invoice.html#resource) |
 | [`Invoice.date`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.date](https://hl7.org/fhir/R4/Invoice.html#resource) |
-| [`Invoice.creation`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice](https://hl7.org/fhir/R4/Invoice.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.creation](StructureDefinition-ext-R5-Invoice.creation.md) |
-| [`Invoice.period[x]`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice](https://hl7.org/fhir/R4/Invoice.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.period](StructureDefinition-ext-R5-Invoice.period.md) |
-| [`Invoice.participant`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.participant](https://hl7.org/fhir/R4/Invoice.html#resource) |
-| [`Invoice.participant.role`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.participant.role](https://hl7.org/fhir/R4/Invoice.html#resource) |
-| [`Invoice.participant.actor`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.participant.actor](https://hl7.org/fhir/R4/Invoice.html#resource) |
+| [`Invoice.creation`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Extension: ExtensionInvoice_Creation](StructureDefinition-ext-R5-Invoice.creation.md) |
+| [`Invoice.period[x]`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Extension: ExtensionInvoice_Period](StructureDefinition-ext-R5-Invoice.period.md) |
+| [`Invoice.participant`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.participant](https://hl7.org/fhir/R4/Invoice.html#resource)[Extension: ExtensionInvoice_Participant](StructureDefinition-ext-R5-Invoice.participant.md) |
+| [`Invoice.participant.role`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.participant.role](https://hl7.org/fhir/R4/Invoice.html#resource)[Extension: ExtensionInvoice_Participant Slice:role](StructureDefinition-ext-R5-Invoice.participant.md) |
+| [`Invoice.participant.actor`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.participant.actor](https://hl7.org/fhir/R4/Invoice.html#resource)[Extension: ExtensionInvoice_Participant Slice:actor](StructureDefinition-ext-R5-Invoice.participant.md) |
 | [`Invoice.issuer`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.issuer](https://hl7.org/fhir/R4/Invoice.html#resource) |
 | [`Invoice.account`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.account](https://hl7.org/fhir/R4/Invoice.html#resource) |
-| [`Invoice.lineItem`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.lineItem](https://hl7.org/fhir/R4/Invoice.html#resource) |
-| [`Invoice.lineItem.sequence`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.lineItem.sequence](https://hl7.org/fhir/R4/Invoice.html#resource) |
-| [`Invoice.lineItem.serviced[x]`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.lineItem](https://hl7.org/fhir/R4/Invoice.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Invoice.lineItem.serviced](StructureDefinition-ext-R5-Invoice.lin.serviced.md) |
-| [`Invoice.lineItem.chargeItem[x]`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.lineItem.chargeItem[x]](https://hl7.org/fhir/R4/Invoice.html#resource) |
-| [`Invoice.lineItem.priceComponent`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.lineItem.priceComponent](https://hl7.org/fhir/R4/Invoice.html#resource) |
+| [`Invoice.lineItem`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.lineItem](https://hl7.org/fhir/R4/Invoice.html#resource)[Extension: ExtensionInvoice_LineItem](StructureDefinition-ext-R5-Invoice.lineItem.md) |
+| [`Invoice.lineItem.sequence`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.lineItem.sequence](https://hl7.org/fhir/R4/Invoice.html#resource)[Extension: ExtensionInvoice_LineItem Slice:sequence](StructureDefinition-ext-R5-Invoice.lineItem.md) |
+| [`Invoice.lineItem.serviced[x]`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.lineItem](https://hl7.org/fhir/R4/Invoice.html#resource)[Extension: ExtensionInvoice_LineItem Slice:serviced](StructureDefinition-ext-R5-Invoice.lineItem.md) |
+| [`Invoice.lineItem.chargeItem[x]`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.lineItem.chargeItem[x]](https://hl7.org/fhir/R4/Invoice.html#resource)[Extension: ExtensionInvoice_LineItem Slice:chargeItem](StructureDefinition-ext-R5-Invoice.lineItem.md) |
+| [`Invoice.lineItem.priceComponent`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.lineItem.priceComponent](https://hl7.org/fhir/R4/Invoice.html#resource)[Extension: ExtensionInvoice_LineItem Slice:priceComponent](StructureDefinition-ext-R5-Invoice.lineItem.md) |
 | [`Invoice.totalPriceComponent`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.totalPriceComponent](https://hl7.org/fhir/R4/Invoice.html#resource) |
 | [`Invoice.totalNet`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.totalNet](https://hl7.org/fhir/R4/Invoice.html#resource) |
 | [`Invoice.totalGross`](https://hl7.org/fhir/R5/Invoice.html#resource) | [Invoice.totalGross](https://hl7.org/fhir/R4/Invoice.html#resource) |

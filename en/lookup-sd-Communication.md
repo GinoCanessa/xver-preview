@@ -1,4 +1,4 @@
-# Lookup for ProfileCommunication - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileCommunication - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileCommunication
 
@@ -35,10 +35,10 @@ A computable version of the following element information is available in: [Conc
 | [`Communication.encounter`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.encounter](https://hl7.org/fhir/R4/Communication.html#resource) |
 | [`Communication.sent`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.sent](https://hl7.org/fhir/R4/Communication.html#resource) |
 | [`Communication.received`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.received](https://hl7.org/fhir/R4/Communication.html#resource) |
-| [`Communication.recipient`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.recipient](https://hl7.org/fhir/R4/Communication.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Communication.recipient](StructureDefinition-ext-R5-Communication.recipient.md) |
-| [`Communication.sender`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.sender](https://hl7.org/fhir/R4/Communication.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Communication.sender](StructureDefinition-ext-R5-Communication.sender.md) |
+| [`Communication.recipient`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.recipient](https://hl7.org/fhir/R4/Communication.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`Communication.sender`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.sender](https://hl7.org/fhir/R4/Communication.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`Communication.reason`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.reasonCode](https://hl7.org/fhir/R4/Communication.html#resource)[Communication.reasonReference](https://hl7.org/fhir/R4/Communication.html#resource) |
-| [`Communication.payload`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.payload](https://hl7.org/fhir/R4/Communication.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Communication.payload](StructureDefinition-ext-R5-Communication.payload.md) |
-| [`Communication.payload.content[x]`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.payload.content[x]](https://hl7.org/fhir/R4/Communication.html#resource)[Extension slice: content](StructureDefinition-ext-R5-Communication.payload.md) |
+| [`Communication.payload`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.payload](https://hl7.org/fhir/R4/Communication.html#resource)[Extension: ExtensionCommunication_Payload](StructureDefinition-ext-R5-Communication.payload.md) |
+| [`Communication.payload.content[x]`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.payload.content[x]](https://hl7.org/fhir/R4/Communication.html#resource)[Extension: ExtensionCommunication_Payload Slice:content](StructureDefinition-ext-R5-Communication.payload.md) |
 | [`Communication.note`](https://hl7.org/fhir/R5/Communication.html#resource) | [Communication.note](https://hl7.org/fhir/R4/Communication.html#resource) |
 

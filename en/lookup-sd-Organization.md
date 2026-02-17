@@ -1,4 +1,4 @@
-# Lookup for ProfileOrganization - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileOrganization - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileOrganization
 
@@ -23,13 +23,13 @@ A computable version of the following element information is available in: [Conc
 | [`Organization.type`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization.type](https://hl7.org/fhir/R4/Organization.html#resource) |
 | [`Organization.name`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization.name](https://hl7.org/fhir/R4/Organization.html#resource) |
 | [`Organization.alias`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization.alias](https://hl7.org/fhir/R4/Organization.html#resource) |
-| [`Organization.description`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization](https://hl7.org/fhir/R4/Organization.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.description](StructureDefinition-ext-R5-Organization.description.md) |
+| [`Organization.description`](https://hl7.org/fhir/R5/Organization.html#resource) | [Extension: ExtensionOrganization_Description](StructureDefinition-ext-R5-Organization.description.md) |
 | [`Organization.contact`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization.contact](https://hl7.org/fhir/R4/Organization.html#resource) |
 | [`Organization.partOf`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization.partOf](https://hl7.org/fhir/R4/Organization.html#resource) |
 | [`Organization.endpoint`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization.endpoint](https://hl7.org/fhir/R4/Organization.html#resource) |
-| [`Organization.qualification`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization](https://hl7.org/fhir/R4/Organization.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification](StructureDefinition-ext-R5-Organization.qualification.md) |
-| [`Organization.qualification.identifier`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization](https://hl7.org/fhir/R4/Organization.html#resource)[Extension slice: identifier](StructureDefinition-ext-R5-Organization.qualification.md) |
-| [`Organization.qualification.code`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization](https://hl7.org/fhir/R4/Organization.html#resource)[Extension slice: code](StructureDefinition-ext-R5-Organization.qualification.md) |
-| [`Organization.qualification.period`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization](https://hl7.org/fhir/R4/Organization.html#resource)[Extension slice: period](StructureDefinition-ext-R5-Organization.qualification.md) |
-| [`Organization.qualification.issuer`](https://hl7.org/fhir/R5/Organization.html#resource) | [Organization](https://hl7.org/fhir/R4/Organization.html#resource)[Extension slice: issuer](StructureDefinition-ext-R5-Organization.qualification.md) |
+| [`Organization.qualification`](https://hl7.org/fhir/R5/Organization.html#resource) | [Extension: ExtensionOrganization_Qualification](StructureDefinition-ext-R5-Organization.qualification.md) |
+| [`Organization.qualification.identifier`](https://hl7.org/fhir/R5/Organization.html#resource) | [Extension: ExtensionOrganization_Qualification Slice:identifier](StructureDefinition-ext-R5-Organization.qualification.md) |
+| [`Organization.qualification.code`](https://hl7.org/fhir/R5/Organization.html#resource) | [Extension: ExtensionOrganization_Qualification Slice:code](StructureDefinition-ext-R5-Organization.qualification.md) |
+| [`Organization.qualification.period`](https://hl7.org/fhir/R5/Organization.html#resource) | [Extension: ExtensionOrganization_Qualification Slice:period](StructureDefinition-ext-R5-Organization.qualification.md) |
+| [`Organization.qualification.issuer`](https://hl7.org/fhir/R5/Organization.html#resource) | [http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 

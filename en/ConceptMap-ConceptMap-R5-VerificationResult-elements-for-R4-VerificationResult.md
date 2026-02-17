@@ -1,4 +1,4 @@
-# ConceptMapR5VerificationResultElementsForR4VerificationResult - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5VerificationResultElementsForR4VerificationResult - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5VerificationResultElementsForR4VerificationResult 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.3546251-06:00",
+  "date" : "2026-02-17T14:42:27.6875904-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `VerificationResult` is representable via FHIR R4 Resource `VerificationResult`.\nElement `VerificationResult` is mapped to FHIR R4 element `VerificationResult`."
+              "comment" : "FHIR R5 Resource `VerificationResult` is representable via FHIR R4 Resource `VerificationResult`.\nElement `VerificationResult` has is mapped to FHIR R4 element `VerificationResult`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.meta` is mapped to FHIR R4 element `VerificationResult.meta`."
+              "comment" : "Element `VerificationResult.meta` has is mapped to FHIR R4 element `VerificationResult.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.implicitRules` is mapped to FHIR R4 element `VerificationResult.implicitRules`."
+              "comment" : "Element `VerificationResult.implicitRules` has is mapped to FHIR R4 element `VerificationResult.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.language` is mapped to FHIR R4 element `VerificationResult.language`."
+              "comment" : "Element `VerificationResult.language` has is mapped to FHIR R4 element `VerificationResult.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.text` is mapped to FHIR R4 element `VerificationResult.text`."
+              "comment" : "Element `VerificationResult.text` has is mapped to FHIR R4 element `VerificationResult.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.contained` is mapped to FHIR R4 element `VerificationResult.contained`."
+              "comment" : "Element `VerificationResult.contained` has is mapped to FHIR R4 element `VerificationResult.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.target",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.target` is mapped to FHIR R4 element `VerificationResult.target`."
+              "comment" : "Element `VerificationResult.target` has is mapped to FHIR R4 element `VerificationResult.target`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.targetLocation",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.targetLocation` is mapped to FHIR R4 element `VerificationResult.targetLocation`."
+              "comment" : "Element `VerificationResult.targetLocation` has is mapped to FHIR R4 element `VerificationResult.targetLocation`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.need",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.need` is mapped to FHIR R4 element `VerificationResult.need`."
+              "comment" : "Element `VerificationResult.need` has is mapped to FHIR R4 element `VerificationResult.need`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.status` is mapped to FHIR R4 element `VerificationResult.status`."
+              "comment" : "Element `VerificationResult.status` has is mapped to FHIR R4 element `VerificationResult.status`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.statusDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.statusDate` is mapped to FHIR R4 element `VerificationResult.statusDate`."
+              "comment" : "Element `VerificationResult.statusDate` has is mapped to FHIR R4 element `VerificationResult.statusDate`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.validationType",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.validationType` is mapped to FHIR R4 element `VerificationResult.validationType`."
+              "comment" : "Element `VerificationResult.validationType` has is mapped to FHIR R4 element `VerificationResult.validationType`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.validationProcess",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.validationProcess` is mapped to FHIR R4 element `VerificationResult.validationProcess`."
+              "comment" : "Element `VerificationResult.validationProcess` has is mapped to FHIR R4 element `VerificationResult.validationProcess`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.frequency",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.frequency` is mapped to FHIR R4 element `VerificationResult.frequency`."
+              "comment" : "Element `VerificationResult.frequency` has is mapped to FHIR R4 element `VerificationResult.frequency`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.lastPerformed",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.lastPerformed` is mapped to FHIR R4 element `VerificationResult.lastPerformed`."
+              "comment" : "Element `VerificationResult.lastPerformed` has is mapped to FHIR R4 element `VerificationResult.lastPerformed`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.nextScheduled",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.nextScheduled` is mapped to FHIR R4 element `VerificationResult.nextScheduled`."
+              "comment" : "Element `VerificationResult.nextScheduled` has is mapped to FHIR R4 element `VerificationResult.nextScheduled`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.failureAction",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.failureAction` is mapped to FHIR R4 element `VerificationResult.failureAction`."
+              "comment" : "Element `VerificationResult.failureAction` has is mapped to FHIR R4 element `VerificationResult.failureAction`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.primarySource",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.primarySource` is mapped to FHIR R4 element `VerificationResult.primarySource`."
+              "comment" : "Element `VerificationResult.primarySource` has is mapped to FHIR R4 element `VerificationResult.primarySource`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.primarySource.who",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.primarySource.who` is mapped to FHIR R4 element `VerificationResult.primarySource.who`."
+              "comment" : "Element `VerificationResult.primarySource.who` is part of an existing definition because parent element `VerificationResult.primarySource` requires a cross-version extension.\nElement `VerificationResult.primarySource.who` has is mapped to FHIR R4 element `VerificationResult.primarySource.who`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.primarySource.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.primarySource.type` is mapped to FHIR R4 element `VerificationResult.primarySource.type`."
+              "comment" : "Element `VerificationResult.primarySource.type` is part of an existing definition because parent element `VerificationResult.primarySource` requires a cross-version extension.\nElement `VerificationResult.primarySource.type` has is mapped to FHIR R4 element `VerificationResult.primarySource.type`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.primarySource.communicationMethod",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.primarySource.communicationMethod` is mapped to FHIR R4 element `VerificationResult.primarySource.communicationMethod`."
+              "comment" : "Element `VerificationResult.primarySource.communicationMethod` is part of an existing definition because parent element `VerificationResult.primarySource` requires a cross-version extension.\nElement `VerificationResult.primarySource.communicationMethod` has is mapped to FHIR R4 element `VerificationResult.primarySource.communicationMethod`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.primarySource.validationStatus",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.primarySource.validationStatus` is mapped to FHIR R4 element `VerificationResult.primarySource.validationStatus`."
+              "comment" : "Element `VerificationResult.primarySource.validationStatus` is part of an existing definition because parent element `VerificationResult.primarySource` requires a cross-version extension.\nElement `VerificationResult.primarySource.validationStatus` has is mapped to FHIR R4 element `VerificationResult.primarySource.validationStatus`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.primarySource.validationDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.primarySource.validationDate` is mapped to FHIR R4 element `VerificationResult.primarySource.validationDate`."
+              "comment" : "Element `VerificationResult.primarySource.validationDate` is part of an existing definition because parent element `VerificationResult.primarySource` requires a cross-version extension.\nElement `VerificationResult.primarySource.validationDate` has is mapped to FHIR R4 element `VerificationResult.primarySource.validationDate`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.primarySource.canPushUpdates",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.primarySource.canPushUpdates` is mapped to FHIR R4 element `VerificationResult.primarySource.canPushUpdates`."
+              "comment" : "Element `VerificationResult.primarySource.canPushUpdates` is part of an existing definition because parent element `VerificationResult.primarySource` requires a cross-version extension.\nElement `VerificationResult.primarySource.canPushUpdates` has is mapped to FHIR R4 element `VerificationResult.primarySource.canPushUpdates`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.primarySource.pushTypeAvailable",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.primarySource.pushTypeAvailable` is mapped to FHIR R4 element `VerificationResult.primarySource.pushTypeAvailable`."
+              "comment" : "Element `VerificationResult.primarySource.pushTypeAvailable` is part of an existing definition because parent element `VerificationResult.primarySource` requires a cross-version extension.\nElement `VerificationResult.primarySource.pushTypeAvailable` has is mapped to FHIR R4 element `VerificationResult.primarySource.pushTypeAvailable`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.attestation",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.attestation` is mapped to FHIR R4 element `VerificationResult.attestation`."
+              "comment" : "Element `VerificationResult.attestation` has is mapped to FHIR R4 element `VerificationResult.attestation`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.attestation.who",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.attestation.who` is mapped to FHIR R4 element `VerificationResult.attestation.who`."
+              "comment" : "Element `VerificationResult.attestation.who` is part of an existing definition because parent element `VerificationResult.attestation` requires a cross-version extension.\nElement `VerificationResult.attestation.who` has is mapped to FHIR R4 element `VerificationResult.attestation.who`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.attestation.onBehalfOf",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.attestation.onBehalfOf` is mapped to FHIR R4 element `VerificationResult.attestation.onBehalfOf`."
+              "comment" : "Element `VerificationResult.attestation.onBehalfOf` is part of an existing definition because parent element `VerificationResult.attestation` requires a cross-version extension.\nElement `VerificationResult.attestation.onBehalfOf` has is mapped to FHIR R4 element `VerificationResult.attestation.onBehalfOf`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.attestation.communicationMethod",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.attestation.communicationMethod` is mapped to FHIR R4 element `VerificationResult.attestation.communicationMethod`."
+              "comment" : "Element `VerificationResult.attestation.communicationMethod` is part of an existing definition because parent element `VerificationResult.attestation` requires a cross-version extension.\nElement `VerificationResult.attestation.communicationMethod` has is mapped to FHIR R4 element `VerificationResult.attestation.communicationMethod`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.attestation.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.attestation.date` is mapped to FHIR R4 element `VerificationResult.attestation.date`."
+              "comment" : "Element `VerificationResult.attestation.date` is part of an existing definition because parent element `VerificationResult.attestation` requires a cross-version extension.\nElement `VerificationResult.attestation.date` has is mapped to FHIR R4 element `VerificationResult.attestation.date`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.attestation.sourceIdentityCertificate",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.attestation.sourceIdentityCertificate` is mapped to FHIR R4 element `VerificationResult.attestation.sourceIdentityCertificate`."
+              "comment" : "Element `VerificationResult.attestation.sourceIdentityCertificate` is part of an existing definition because parent element `VerificationResult.attestation` requires a cross-version extension.\nElement `VerificationResult.attestation.sourceIdentityCertificate` has is mapped to FHIR R4 element `VerificationResult.attestation.sourceIdentityCertificate`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.attestation.proxyIdentityCertificate",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.attestation.proxyIdentityCertificate` is mapped to FHIR R4 element `VerificationResult.attestation.proxyIdentityCertificate`."
+              "comment" : "Element `VerificationResult.attestation.proxyIdentityCertificate` is part of an existing definition because parent element `VerificationResult.attestation` requires a cross-version extension.\nElement `VerificationResult.attestation.proxyIdentityCertificate` has is mapped to FHIR R4 element `VerificationResult.attestation.proxyIdentityCertificate`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.attestation.proxySignature",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.attestation.proxySignature` is mapped to FHIR R4 element `VerificationResult.attestation.proxySignature`."
+              "comment" : "Element `VerificationResult.attestation.proxySignature` is part of an existing definition because parent element `VerificationResult.attestation` requires a cross-version extension.\nElement `VerificationResult.attestation.proxySignature` has is mapped to FHIR R4 element `VerificationResult.attestation.proxySignature`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.attestation.sourceSignature",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.attestation.sourceSignature` is mapped to FHIR R4 element `VerificationResult.attestation.sourceSignature`."
+              "comment" : "Element `VerificationResult.attestation.sourceSignature` is part of an existing definition because parent element `VerificationResult.attestation` requires a cross-version extension.\nElement `VerificationResult.attestation.sourceSignature` has is mapped to FHIR R4 element `VerificationResult.attestation.sourceSignature`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.validator",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.validator` is mapped to FHIR R4 element `VerificationResult.validator`."
+              "comment" : "Element `VerificationResult.validator` has is mapped to FHIR R4 element `VerificationResult.validator`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.validator.organization",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.validator.organization` is mapped to FHIR R4 element `VerificationResult.validator.organization`."
+              "comment" : "Element `VerificationResult.validator.organization` is part of an existing definition because parent element `VerificationResult.validator` requires a cross-version extension.\nElement `VerificationResult.validator.organization` has is mapped to FHIR R4 element `VerificationResult.validator.organization`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.validator.identityCertificate",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.validator.identityCertificate` is mapped to FHIR R4 element `VerificationResult.validator.identityCertificate`."
+              "comment" : "Element `VerificationResult.validator.identityCertificate` is part of an existing definition because parent element `VerificationResult.validator` requires a cross-version extension.\nElement `VerificationResult.validator.identityCertificate` has is mapped to FHIR R4 element `VerificationResult.validator.identityCertificate`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/VerificationResult#VerificationResult.validator.attestationSignature",
               "equivalence" : "relatedto",
-              "comment" : "Element `VerificationResult.validator.attestationSignature` is mapped to FHIR R4 element `VerificationResult.validator.attestationSignature`."
+              "comment" : "Element `VerificationResult.validator.attestationSignature` is part of an existing definition because parent element `VerificationResult.validator` requires a cross-version extension.\nElement `VerificationResult.validator.attestationSignature` has is mapped to FHIR R4 element `VerificationResult.validator.attestationSignature`, but has no comparisons."
             }
           ]
         }

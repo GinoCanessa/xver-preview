@@ -1,4 +1,4 @@
-# ProfileEpisodeOfCare - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileEpisodeOfCare - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileEpisodeOfCare 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EpisodeOf
   "title" : "Cross-version Profile for R5.EpisodeOfCare for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1069605-06:00",
+  "date" : "2026-02-17T14:42:26.8024189-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EpisodeOf
         "path" : "EpisodeOfCare.extension",
         "sliceName" : "reason",
         "short" : "Cross-version extension for EpisodeOfCare.reason from R5 for use in FHIR R4",
-        "comment" : "Element `EpisodeOfCare.reason` is will have a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`.",
+        "comment" : "Element `EpisodeOfCare.reason` has a context of EpisodeOfCare based on following the parent source element upwards and mapping to `EpisodeOfCare`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -187,8 +187,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EpisodeOf
         ]
       },
       {
-        "id" : "EpisodeOfCare.diagnosis.condition.extension",
-        "path" : "EpisodeOfCare.diagnosis.condition.extension",
+        "id" : "EpisodeOfCare.statusHistory.extension",
+        "path" : "EpisodeOfCare.statusHistory.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -202,17 +202,17 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EpisodeOf
         "min" : 0,
         "max" : "*",
         "base" : {
-          "path" : "EpisodeOfCare.diagnosis.condition",
+          "path" : "Element.extension",
           "min" : 0,
           "max" : "*"
         }
       },
       {
-        "id" : "EpisodeOfCare.diagnosis.condition.extension:condition",
-        "path" : "EpisodeOfCare.diagnosis.condition.extension",
-        "sliceName" : "condition",
-        "short" : "Cross-version extension for EpisodeOfCare.diagnosis.condition from R5 for use in FHIR R4",
-        "comment" : "Element `EpisodeOfCare.diagnosis.condition` is mapped to FHIR R4 element `EpisodeOfCare.diagnosis.condition`.",
+        "id" : "EpisodeOfCare.statusHistory.extension:statusHistory",
+        "path" : "EpisodeOfCare.statusHistory.extension",
+        "sliceName" : "statusHistory",
+        "short" : "Cross-version extension for EpisodeOfCare.statusHistory from R5 for use in FHIR R4",
+        "comment" : "Element `EpisodeOfCare.statusHistory` has is mapped to FHIR R4 element `EpisodeOfCare.statusHistory`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -224,7 +224,50 @@ Other representations of profile: [CSV](../StructureDefinition-profile-EpisodeOf
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis.condition|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.statusHistory|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "EpisodeOfCare.diagnosis.extension",
+        "path" : "EpisodeOfCare.diagnosis.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "EpisodeOfCare.diagnosis.extension:diagnosis",
+        "path" : "EpisodeOfCare.diagnosis.extension",
+        "sliceName" : "diagnosis",
+        "short" : "Cross-version extension for EpisodeOfCare.diagnosis from R5 for use in FHIR R4",
+        "comment" : "Element `EpisodeOfCare.diagnosis` has is mapped to FHIR R4 element `EpisodeOfCare.diagnosis`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-EpisodeOfCare.diagnosis|0.0.1-snapshot-3"
             ]
           }
         ]

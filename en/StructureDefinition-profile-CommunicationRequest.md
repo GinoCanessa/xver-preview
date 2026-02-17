@@ -1,4 +1,4 @@
-# ProfileCommunicationRequest - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileCommunicationRequest - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileCommunicationRequest 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
   "title" : "Cross-version Profile for R5.CommunicationRequest for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0321754-06:00",
+  "date" : "2026-02-17T14:42:26.7655414-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
         "path" : "CommunicationRequest.extension",
         "sliceName" : "intent",
         "short" : "Cross-version extension for CommunicationRequest.intent from R5 for use in FHIR R4",
-        "comment" : "Element `CommunicationRequest.intent` is will have a context of CommunicationRequest based on following the parent source element upwards and mapping to `CommunicationRequest`.",
+        "comment" : "Element `CommunicationRequest.intent` has a context of CommunicationRequest based on following the parent source element upwards and mapping to `CommunicationRequest`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -212,7 +212,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
         "path" : "CommunicationRequest.payload.extension",
         "sliceName" : "payload",
         "short" : "Cross-version extension for CommunicationRequest.payload from R5 for use in FHIR R4",
-        "comment" : "Element `CommunicationRequest.payload` is mapped to FHIR R4 element `CommunicationRequest.payload`.",
+        "comment" : "Element `CommunicationRequest.payload` has is mapped to FHIR R4 element `CommunicationRequest.payload`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -256,7 +256,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
         "sliceName" : "recipient",
         "short" : "Cross-version extension for CommunicationRequest.recipient from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.recipient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.recipient` is mapped to FHIR R4 element `CommunicationRequest.recipient`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.recipient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.recipient` has is mapped to FHIR R4 element `CommunicationRequest.recipient`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -300,7 +300,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Communica
         "sliceName" : "informationProvider",
         "short" : "Cross-version extension for CommunicationRequest.informationProvider from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.informationProvider` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.informationProvider` is mapped to FHIR R4 element `CommunicationRequest.sender`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.informationProvider` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.informationProvider` has is mapped to FHIR R4 element `CommunicationRequest.sender`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

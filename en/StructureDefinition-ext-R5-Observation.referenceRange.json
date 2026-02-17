@@ -62,7 +62,7 @@
   "title" : "Cross-version Extension `R5.Observation.referenceRange` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [{
     "name" : "FHIR Infrastructure",
@@ -79,7 +79,7 @@
       "display" : "World"
     }]
   }],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Observation.referenceRange` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Observation.referenceRange` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Observation.referenceRange` 0..* `BackboneElement`\n*  R4B: `Observation.referenceRange` 0..* `BackboneElement`\n*  R4: `Observation.referenceRange` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Observation.referenceRange` is mapped to FHIR R4 element `Observation.referenceRange`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Observation.referenceRange` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Observation.referenceRange` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Observation.referenceRange` 0..* `BackboneElement`\n*  R4B: `Observation.referenceRange` 0..* `BackboneElement`\n*  R4: `Observation.referenceRange` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Observation.referenceRange` has is mapped to FHIR R4 element `Observation.referenceRange`, but has no comparisons.\nNote available implied context: `Observation.component.referenceRange` because `Observation.component.referenceRange` is defined as a content reference to `Observation.referenceRange`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [{
     "identity" : "rim",
@@ -90,7 +90,7 @@
   "abstract" : false,
   "context" : [{
     "type" : "element",
-    "expression" : "Extension.extension"
+    "expression" : "Observation.referenceRange"
   }],
   "type" : "Extension",
   "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension|4.0.1",
@@ -208,7 +208,7 @@
       "sliceName" : "low",
       "short" : "Low Range, if relevant",
       "definition" : "The value of the low bound of the reference range.  The low bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the low bound is omitted,  it is assumed to be meaningless (e.g. reference range is <=2.3).",
-      "requirements" : "Element `Observation.referenceRange.low` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.low` is mapped to FHIR R4 element `Observation.referenceRange.low`.",
+      "requirements" : "Element `Observation.referenceRange.low` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.low` has is mapped to FHIR R4 element `Observation.referenceRange.low`, but has no comparisons.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -380,7 +380,7 @@
       "sliceName" : "high",
       "short" : "High Range, if relevant",
       "definition" : "The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3).",
-      "requirements" : "Element `Observation.referenceRange.high` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.high` is mapped to FHIR R4 element `Observation.referenceRange.high`.",
+      "requirements" : "Element `Observation.referenceRange.high` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.high` has is mapped to FHIR R4 element `Observation.referenceRange.high`, but has no comparisons.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -552,7 +552,7 @@
       "sliceName" : "normalValue",
       "short" : "Normal value, if relevant",
       "definition" : "The value of the normal value of the reference range.",
-      "requirements" : "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is will have a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`.",
+      "requirements" : "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.normalValue` has a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -724,7 +724,7 @@
       "short" : "Reference range qualifier",
       "definition" : "Codes to indicate the what part of the targeted reference population it applies to. For example, the normal or therapeutic range.",
       "comment" : "This SHOULD be populated if there is more than one range.  If this element is not present then the normal range is assumed.",
-      "requirements" : "Need to be able to say what kind of reference range this is - normal, recommended, therapeutic, etc.,  - for proper interpretation. Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.type` is mapped to FHIR R4 element `Observation.referenceRange.type`.",
+      "requirements" : "Need to be able to say what kind of reference range this is - normal, recommended, therapeutic, etc.,  - for proper interpretation. Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.type` has is mapped to FHIR R4 element `Observation.referenceRange.type`, but has no comparisons.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -902,7 +902,7 @@
       "short" : "Reference range population",
       "definition" : "Codes to indicate the target population this reference range applies to.  For example, a reference range may be based on the normal population or a particular sex or race.  Multiple `appliesTo`  are interpreted as an \"AND\" of the target populations.  For example, to represent a target population of African American females, both a code of female and a code for African American would be used.",
       "comment" : "This SHOULD be populated if there is more than one range.  If this element is not present then the normal population is assumed.",
-      "requirements" : "Need to be able to identify the target population for proper interpretation. Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.appliesTo` is mapped to FHIR R4 element `Observation.referenceRange.appliesTo`.",
+      "requirements" : "Need to be able to identify the target population for proper interpretation. Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.appliesTo` has is mapped to FHIR R4 element `Observation.referenceRange.appliesTo`, but has no comparisons.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -1079,7 +1079,7 @@
       "sliceName" : "age",
       "short" : "Applicable age range, if relevant",
       "definition" : "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
-      "requirements" : "Some analytes vary greatly over age. Element `Observation.referenceRange.age` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.age` is mapped to FHIR R4 element `Observation.referenceRange.age`.",
+      "requirements" : "Some analytes vary greatly over age. Element `Observation.referenceRange.age` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.age` has is mapped to FHIR R4 element `Observation.referenceRange.age`, but has no comparisons.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1250,7 +1250,7 @@
       "sliceName" : "text",
       "short" : "Text based reference range in an observation",
       "definition" : "Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation.  An example would be a reference value of \"Negative\" or a list or table of \"normals\".",
-      "requirements" : "Element `Observation.referenceRange.text` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.text` is mapped to FHIR R4 element `Observation.referenceRange.text`.",
+      "requirements" : "Element `Observation.referenceRange.text` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.text` has is mapped to FHIR R4 element `Observation.referenceRange.text`, but has no comparisons.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1663,7 +1663,7 @@
       "sliceName" : "low",
       "short" : "Low Range, if relevant",
       "definition" : "The value of the low bound of the reference range.  The low bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the low bound is omitted,  it is assumed to be meaningless (e.g. reference range is <=2.3).",
-      "requirements" : "Element `Observation.referenceRange.low` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.low` is mapped to FHIR R4 element `Observation.referenceRange.low`.",
+      "requirements" : "Element `Observation.referenceRange.low` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.low` has is mapped to FHIR R4 element `Observation.referenceRange.low`, but has no comparisons.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1707,7 +1707,7 @@
       "sliceName" : "high",
       "short" : "High Range, if relevant",
       "definition" : "The value of the high bound of the reference range.  The high bound of the reference range endpoint is inclusive of the value (e.g.  reference range is >=5 - <=9). If the high bound is omitted,  it is assumed to be meaningless (e.g. reference range is >= 2.3).",
-      "requirements" : "Element `Observation.referenceRange.high` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.high` is mapped to FHIR R4 element `Observation.referenceRange.high`.",
+      "requirements" : "Element `Observation.referenceRange.high` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.high` has is mapped to FHIR R4 element `Observation.referenceRange.high`, but has no comparisons.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1751,7 +1751,7 @@
       "sliceName" : "normalValue",
       "short" : "Normal value, if relevant",
       "definition" : "The value of the normal value of the reference range.",
-      "requirements" : "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.normalValue` is will have a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`.",
+      "requirements" : "Element `Observation.referenceRange.normalValue` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.normalValue` has a context of Observation.referenceRange based on following the parent source element upwards and mapping to `Observation`.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1795,7 +1795,7 @@
       "short" : "Reference range qualifier",
       "definition" : "Codes to indicate the what part of the targeted reference population it applies to. For example, the normal or therapeutic range.",
       "comment" : "This SHOULD be populated if there is more than one range.  If this element is not present then the normal range is assumed.",
-      "requirements" : "Need to be able to say what kind of reference range this is - normal, recommended, therapeutic, etc.,  - for proper interpretation. Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.type` is mapped to FHIR R4 element `Observation.referenceRange.type`.",
+      "requirements" : "Need to be able to say what kind of reference range this is - normal, recommended, therapeutic, etc.,  - for proper interpretation. Element `Observation.referenceRange.type` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.type` has is mapped to FHIR R4 element `Observation.referenceRange.type`, but has no comparisons.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1845,7 +1845,7 @@
       "short" : "Reference range population",
       "definition" : "Codes to indicate the target population this reference range applies to.  For example, a reference range may be based on the normal population or a particular sex or race.  Multiple `appliesTo`  are interpreted as an \"AND\" of the target populations.  For example, to represent a target population of African American females, both a code of female and a code for African American would be used.",
       "comment" : "This SHOULD be populated if there is more than one range.  If this element is not present then the normal population is assumed.",
-      "requirements" : "Need to be able to identify the target population for proper interpretation. Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.appliesTo` is mapped to FHIR R4 element `Observation.referenceRange.appliesTo`.",
+      "requirements" : "Need to be able to identify the target population for proper interpretation. Element `Observation.referenceRange.appliesTo` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.appliesTo` has is mapped to FHIR R4 element `Observation.referenceRange.appliesTo`, but has no comparisons.",
       "min" : 0,
       "max" : "*",
       "base" : {
@@ -1894,7 +1894,7 @@
       "sliceName" : "age",
       "short" : "Applicable age range, if relevant",
       "definition" : "The age at which this reference range is applicable. This is a neonatal age (e.g. number of weeks at term) if the meaning says so.",
-      "requirements" : "Some analytes vary greatly over age. Element `Observation.referenceRange.age` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.age` is mapped to FHIR R4 element `Observation.referenceRange.age`.",
+      "requirements" : "Some analytes vary greatly over age. Element `Observation.referenceRange.age` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.age` has is mapped to FHIR R4 element `Observation.referenceRange.age`, but has no comparisons.",
       "min" : 0,
       "max" : "1",
       "base" : {
@@ -1937,7 +1937,7 @@
       "sliceName" : "text",
       "short" : "Text based reference range in an observation",
       "definition" : "Text based reference range in an observation which may be used when a quantitative range is not appropriate for an observation.  An example would be a reference value of \"Negative\" or a list or table of \"normals\".",
-      "requirements" : "Element `Observation.referenceRange.text` is part of an existing definition because parent element `Observation.referenceRange` requires a component extension (e.g., if this element is used as a content reference).\nElement `Observation.referenceRange.text` is mapped to FHIR R4 element `Observation.referenceRange.text`.",
+      "requirements" : "Element `Observation.referenceRange.text` is part of an existing definition because parent element `Observation.referenceRange` requires a cross-version extension.\nElement `Observation.referenceRange.text` has is mapped to FHIR R4 element `Observation.referenceRange.text`, but has no comparisons.",
       "min" : 0,
       "max" : "1",
       "base" : {

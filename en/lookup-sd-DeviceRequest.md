@@ -1,4 +1,4 @@
-# Lookup for ProfileDeviceRequest - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileDeviceRequest - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileDeviceRequest
 
@@ -22,17 +22,17 @@ A computable version of the following element information is available in: [Conc
 | [`DeviceRequest.instantiatesCanonical`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.instantiatesCanonical](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.instantiatesUri`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.instantiatesUri](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.basedOn`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.basedOn](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
-| [`DeviceRequest.replaces`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.priorRequest](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.replaces](StructureDefinition-ext-R5-DeviceRequest.replaces.md) |
+| [`DeviceRequest.replaces`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.priorRequest](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
 | [`DeviceRequest.groupIdentifier`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.groupIdentifier](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.status`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.status](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.intent`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.intent](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.priority`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.priority](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
-| [`DeviceRequest.doNotPerform`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.doNotPerform](StructureDefinition-ext-R5-DeviceRequest.doNotPerform.md) |
+| [`DeviceRequest.doNotPerform`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [Extension: ExtensionDeviceRequest_DoNotPerform](StructureDefinition-ext-R5-DeviceRequest.doNotPerform.md) |
 | [`DeviceRequest.code`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.code[x]](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
-| [`DeviceRequest.quantity`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.quantity](StructureDefinition-ext-R5-DeviceRequest.quantity.md) |
-| [`DeviceRequest.parameter`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.parameter](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
-| [`DeviceRequest.parameter.code`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.parameter.code](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
-| [`DeviceRequest.parameter.value[x]`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.parameter.value[x]](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
+| [`DeviceRequest.quantity`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [Extension: ExtensionDeviceRequest_Quantity](StructureDefinition-ext-R5-DeviceRequest.quantity.md) |
+| [`DeviceRequest.parameter`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.parameter](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[Extension: ExtensionDeviceRequest_Parameter](StructureDefinition-ext-R5-DeviceRequest.parameter.md) |
+| [`DeviceRequest.parameter.code`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.parameter.code](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[Extension: ExtensionDeviceRequest_Parameter Slice:code](StructureDefinition-ext-R5-DeviceRequest.parameter.md) |
+| [`DeviceRequest.parameter.value[x]`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.parameter.value[x]](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[Extension: ExtensionDeviceRequest_Parameter Slice:value](StructureDefinition-ext-R5-DeviceRequest.parameter.md) |
 | [`DeviceRequest.subject`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.subject](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.encounter`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.encounter](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.occurrence[x]`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.occurrence[x]](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
@@ -40,8 +40,8 @@ A computable version of the following element information is available in: [Conc
 | [`DeviceRequest.requester`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.requester](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.performer`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.performer](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[DeviceRequest.performerType](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.reason`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.reasonCode](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[DeviceRequest.reasonReference](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
-| [`DeviceRequest.asNeeded`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeeded](StructureDefinition-ext-R5-DeviceRequest.asNeeded.md) |
-| [`DeviceRequest.asNeededFor`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest](https://hl7.org/fhir/R4/DeviceRequest.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeededFor](StructureDefinition-ext-R5-DeviceRequest.asNeededFor.md) |
+| [`DeviceRequest.asNeeded`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [Extension: ExtensionDeviceRequest_AsNeeded](StructureDefinition-ext-R5-DeviceRequest.asNeeded.md) |
+| [`DeviceRequest.asNeededFor`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [Extension: ExtensionDeviceRequest_AsNeededFor](StructureDefinition-ext-R5-DeviceRequest.asNeededFor.md) |
 | [`DeviceRequest.insurance`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.insurance](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.supportingInfo`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.supportingInfo](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |
 | [`DeviceRequest.note`](https://hl7.org/fhir/R5/DeviceRequest.html#resource) | [DeviceRequest.note](https://hl7.org/fhir/R4/DeviceRequest.html#resource) |

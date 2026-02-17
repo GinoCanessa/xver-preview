@@ -14,8 +14,9 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 
 If the content isn't codified, contentCodeableConcept.text can be used.  
 
-When using contentCodeableConcept, the CodeableConcept is what is being communicated and is not a categorization of the content.","Note that the target element context `Communication.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Communication.payload`.
-Element `Communication.payload.content[x]` is mapped to FHIR R4 element `Communication.payload.content[x]`.
+When using contentCodeableConcept, the CodeableConcept is what is being communicated and is not a categorization of the content.","Element `Communication.payload.content[x]` is part of an existing definition because parent element `Communication.payload` requires a cross-version extension.
+Note that the target element context `Communication.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Communication.payload`.
+Element `Communication.payload.content[x]` has is mapped to FHIR R4 element `Communication.payload.content[x]`, but has no comparisons.
 Note that the target element context `Communication.payload.content[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Communication.payload`.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:content.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -26,7 +27,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Extension.extension:content.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
-","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""content""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
+","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/5.0/StructureDefinition/extension-Communication.payload.content""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
 "Extension.extension:content.value[x]","Extension.extension.value[x]","","","",1,1,"","","","CodeableConcept {[]} {[]}
 ","Message part content","A communicated content (or for multi-part communications, one portion of the communication).","The content can be codified or textual.  As an example of codified content, when working with machine generated communications, the payload may be drawn from a finite, terminology defined set of communications, especially for short, status update kinds of communications where more of a natural language approach isn't appropriate.
 

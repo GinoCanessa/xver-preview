@@ -7,7 +7,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>ConceptMapR5EncounterHistoryElementsForR4Encounter - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
+    <title>ConceptMapR5EncounterHistoryElementsForR4Encounter - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -48,8 +48,8 @@
 	  <script src="assets/js/prism.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"7.1975"}
-    h3,h4,h5,h6{--heading-prefix:"7.1975"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.1868"}
+    h3,h4,h5,h6{--heading-prefix:"7.1868"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -69,7 +69,7 @@
 
 
         <div id="ig-status" data-fhir="generated">
-          <p><span style="font-size:12pt;font-weight:bold">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4</span>
+          <p><span style="font-size:12pt;font-weight:bold">Extensions for Using Data Elements from FHIR R5 in FHIR R4</span>
             <br/>
             <span style="display:inline-block;">0.0.1-snapshot-3 - STU
 
@@ -171,7 +171,7 @@
 
 <!-- layouts\layout-canonical -->
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">Extensions for Using Data Elements from FHIR R5 in FHIR R4 - Local Development build (v0.0.1-snapshot-3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='http://hl7.org/fhir/uv/xver/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -228,13 +228,14 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-EncounterHistory-elements-for-R4-Encounter<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-EncounterHistory-elements-for-R4-Encounter"/></span>
       </td>
       <td><i>Version</i>:
-      <td id="toggle-change-display" style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
-        <label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
+      <span class="copy-text">0.0.1-snapshot-3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-EncounterHistory-elements-for-R4-Encounter|0.0.1-snapshot-3"/></span>
+      </td>
+      <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
+        <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
   
         <input style="margin:0" type="checkbox" id="showChanges" onchange="toggleChanges()"/>
   
-      </td>
-      <span class="copy-text">0.0.1-snapshot-3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/5.0/ConceptMap/ConceptMap-R5-EncounterHistory-elements-for-R4-Encounter|0.0.1-snapshot-3"/></span>
+      </span>
       </td>
     </tr>
 
@@ -246,7 +247,7 @@
 
 
 
-      <td colspan="2">
+      <td colspan="3">
         
           <i>
             
@@ -258,7 +259,7 @@
           
 
             as of 
-2026-02-09
+2026-02-17
 
           
         
@@ -299,9 +300,11 @@
 
 
   <div data-fhir="generated"><p class="res-header-id"/><a name="ConceptMap-R5-EncounterHistory-elements-for-R4-Encounter"> </a><a name="hcConceptMap-R5-EncounterHistory-elements-for-R4-Encounter"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Language: en</p></div><p>Mapping from (not specified) to (not specified)</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/EncounterHistory|5.0.0</code> to <code>unspecified code system</code></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>EncounterHistory</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>FHIR R5 Resource `EncounterHistory` is representable via FHIR R4 Resource `Encounter`.
-Element `EncounterHistory` is mapped to FHIR R4 element `Encounter`.</td></tr><tr><td>EncounterHistory.meta (meta)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.meta</td><td>Element `EncounterHistory.meta` is mapped to FHIR R4 element `Encounter.meta`.</td></tr><tr><td>EncounterHistory.implicitRules (implicitRules)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.implicitRules</td><td>Element `EncounterHistory.implicitRules` is mapped to FHIR R4 element `Encounter.implicitRules`.</td></tr><tr><td>EncounterHistory.language (language)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.language</td><td>Element `EncounterHistory.language` is mapped to FHIR R4 element `Encounter.language`.</td></tr><tr><td>EncounterHistory.text (text)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.text</td><td>Element `EncounterHistory.text` is mapped to FHIR R4 element `Encounter.text`.</td></tr><tr><td>EncounterHistory.contained (contained)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.contained</td><td>Element `EncounterHistory.contained` is mapped to FHIR R4 element `Encounter.contained`.</td></tr><tr><td>EncounterHistory.encounter (encounter)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EncounterHistory.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
-Element `EncounterHistory.encounter` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>EncounterHistory.identifier (identifier)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.identifier</td><td>Element `EncounterHistory.identifier` is mapped to FHIR R4 element `Encounter.identifier`.</td></tr><tr><td>EncounterHistory.status (status)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.status</td><td>Note that the target element context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.
-Element `EncounterHistory.status` is mapped to FHIR R4 element `Encounter.status`.</td></tr><tr><td>EncounterHistory.class (class)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.class</td><td>Element `EncounterHistory.class` is mapped to FHIR R4 element `Encounter.class`.</td></tr><tr><td>EncounterHistory.type (type)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.type</td><td>Element `EncounterHistory.type` is mapped to FHIR R4 element `Encounter.type`.</td></tr><tr><td>EncounterHistory.serviceType (serviceType)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.serviceType</td><td>Element `EncounterHistory.serviceType` is mapped to FHIR R4 element `Encounter.serviceType`.</td></tr><tr><td>EncounterHistory.subject (subject)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.subject</td><td>Element `EncounterHistory.subject` is mapped to FHIR R4 element `Encounter.subject`.</td></tr><tr><td>EncounterHistory.subjectStatus (subjectStatus)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>Element `EncounterHistory.subjectStatus` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>EncounterHistory.actualPeriod (actualPeriod)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>Element `EncounterHistory.actualPeriod` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>EncounterHistory.plannedStartDate (plannedStartDate)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>Element `EncounterHistory.plannedStartDate` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>EncounterHistory.plannedEndDate (plannedEndDate)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>Element `EncounterHistory.plannedEndDate` is will have a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>EncounterHistory.length (length)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.length</td><td>Element `EncounterHistory.length` is mapped to FHIR R4 element `Encounter.length`.</td></tr><tr><td>EncounterHistory.location (location)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.location</td><td>Element `EncounterHistory.location` is mapped to FHIR R4 element `Encounter.location`.</td></tr><tr><td>EncounterHistory.location.location (location)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.location.location</td><td>Element `EncounterHistory.location.location` is mapped to FHIR R4 element `Encounter.location.location`.</td></tr><tr><td>EncounterHistory.location.form (form)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.location</td><td>Element `EncounterHistory.location.form` is will have a context of Encounter.location based on following the parent source element upwards and mapping to `Encounter`.</td></tr></table></div>
+Element `EncounterHistory` has is mapped to FHIR R4 element `Encounter`, but has no comparisons.</td></tr><tr><td>EncounterHistory.meta (meta)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.meta</td><td>Element `EncounterHistory.meta` has is mapped to FHIR R4 element `Encounter.meta`, but has no comparisons.</td></tr><tr><td>EncounterHistory.implicitRules (implicitRules)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.implicitRules</td><td>Element `EncounterHistory.implicitRules` has is mapped to FHIR R4 element `Encounter.implicitRules`, but has no comparisons.</td></tr><tr><td>EncounterHistory.language (language)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.language</td><td>Element `EncounterHistory.language` has is mapped to FHIR R4 element `Encounter.language`, but has no comparisons.</td></tr><tr><td>EncounterHistory.text (text)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.text</td><td>Element `EncounterHistory.text` has is mapped to FHIR R4 element `Encounter.text`, but has no comparisons.</td></tr><tr><td>EncounterHistory.contained (contained)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.contained</td><td>Element `EncounterHistory.contained` has is mapped to FHIR R4 element `Encounter.contained`, but has no comparisons.</td></tr><tr><td>EncounterHistory.encounter (encounter)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `EncounterHistory.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `EncounterHistory.encounter` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>EncounterHistory.identifier (identifier)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.identifier</td><td>Element `EncounterHistory.identifier` has is mapped to FHIR R4 element `Encounter.identifier`, but has no comparisons.</td></tr><tr><td>EncounterHistory.status (status)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.status</td><td>Note that the target element context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.
+Element `EncounterHistory.status` has is mapped to FHIR R4 element `Encounter.status`, but has no comparisons.</td></tr><tr><td>EncounterHistory.class (class)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.class</td><td>Element `EncounterHistory.class` has is mapped to FHIR R4 element `Encounter.class`, but has no comparisons.</td></tr><tr><td>EncounterHistory.type (type)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.type</td><td>Element `EncounterHistory.type` has is mapped to FHIR R4 element `Encounter.type`, but has no comparisons.</td></tr><tr><td>EncounterHistory.serviceType (serviceType)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.serviceType</td><td>Element `EncounterHistory.serviceType` has is mapped to FHIR R4 element `Encounter.serviceType`, but has no comparisons.</td></tr><tr><td>EncounterHistory.subject (subject)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.subject</td><td>Element `EncounterHistory.subject` has is mapped to FHIR R4 element `Encounter.subject`, but has no comparisons.</td></tr><tr><td>EncounterHistory.subjectStatus (subjectStatus)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>Element `EncounterHistory.subjectStatus` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>EncounterHistory.actualPeriod (actualPeriod)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>Element `EncounterHistory.actualPeriod` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>EncounterHistory.plannedStartDate (plannedStartDate)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>Element `EncounterHistory.plannedStartDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>EncounterHistory.plannedEndDate (plannedEndDate)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter</td><td>Element `EncounterHistory.plannedEndDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>EncounterHistory.length (length)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.length</td><td>Element `EncounterHistory.length` has is mapped to FHIR R4 element `Encounter.length`, but has no comparisons.</td></tr><tr><td>EncounterHistory.location (location)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.location</td><td>Element `EncounterHistory.location` has is mapped to FHIR R4 element `Encounter.location`, but has no comparisons.</td></tr><tr><td>EncounterHistory.location.location (location)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.location.location</td><td>Element `EncounterHistory.location.location` is part of an existing definition because parent element `EncounterHistory.location` requires a cross-version extension.
+Element `EncounterHistory.location.location` has is mapped to FHIR R4 element `Encounter.location.location`, but has no comparisons.</td></tr><tr><td>EncounterHistory.location.form (form)</td><td>:(equivalent)</td><td>http://hl7.org/fhir/StructureDefinition/Encounter#Encounter.location</td><td>Element `EncounterHistory.location.form` is part of an existing definition because parent element `EncounterHistory.location` requires a cross-version extension.
+Element `EncounterHistory.location.form` has a context of Encounter.location based on following the parent source element upwards and mapping to `Encounter`.</td></tr></table></div>
 
   <!-- insert notes if present -->
   
@@ -357,8 +360,8 @@ Element `EncounterHistory.status` is mapped to FHIR R4 element `Encounter.status
           IG © 2025+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.hl7.org/Special/committees/fiwg">FHIR Infrastructure</a>.  
           Package hl7.fhir.uv.xver-r5.r4#0.0.1-snapshot-3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-02-09 22:08:00 -0600">
-    2026-02-09
+  <span title="2026-02-17 15:29:00 -0600">
+    2026-02-17
   </span>
 
           <br/>

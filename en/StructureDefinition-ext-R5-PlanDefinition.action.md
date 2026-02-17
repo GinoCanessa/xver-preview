@@ -1,4 +1,4 @@
-# ExtensionPlanDefinition_Action - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionPlanDefinition_Action - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4 
 
@@ -10,7 +10,7 @@ This cross-version extension represents the FHIR R5 element `PlanDefinition.acti
 
 **Usages:**
 
-* This Extension is not used by any profiles in this Implementation Guide
+* Use this Extension: [Cross-version Profile for R5.PlanDefinition for use in FHIR R4](StructureDefinition-profile-PlanDefinition.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/ext-R5-PlanDefinition.action)
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
   "title" : "Cross-version Extension `R5.PlanDefinition.action` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `PlanDefinition.action` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`PlanDefinition.action` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `PlanDefinition.action` 0..* `BackboneElement`\n*  R4B: `PlanDefinition.action` 0..* `BackboneElement`\n*  R4: `PlanDefinition.action` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `PlanDefinition.action` is mapped to FHIR R4 element `PlanDefinition.action`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `PlanDefinition.action` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`PlanDefinition.action` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `PlanDefinition.action` 0..* `BackboneElement`\n*  R4B: `PlanDefinition.action` 0..* `BackboneElement`\n*  R4: `PlanDefinition.action` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `PlanDefinition.action` has is mapped to FHIR R4 element `PlanDefinition.action`, but has no comparisons.\nNote available implied context: `PlanDefinition.action.action` because `PlanDefinition.action.action` is defined as a content reference to `PlanDefinition.action`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -135,7 +135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
   "context" : [
     {
       "type" : "element",
-      "expression" : "Extension.extension"
+      "expression" : "PlanDefinition.action"
     }
   ],
   "type" : "Extension",
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "linkId",
         "short" : "Unique id for the action in the PlanDefinition",
         "definition" : "An identifier that is unique within the PlanDefinition to allow linkage within the realized CarePlan and/or RequestOrchestration.",
-        "requirements" : "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.linkId` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.linkId` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.linkId` has a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -230,7 +230,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "prefix",
         "short" : "User-visible prefix for the action (e.g. 1. or A.)",
         "definition" : "A user-visible prefix for the action. For example a section or item numbering such as 1. or A.",
-        "requirements" : "Element `PlanDefinition.action.prefix` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.prefix` is mapped to FHIR R4 element `PlanDefinition.action.prefix`.",
+        "requirements" : "Element `PlanDefinition.action.prefix` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.prefix` has is mapped to FHIR R4 element `PlanDefinition.action.prefix`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -275,7 +275,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "The textual description of the action displayed to a user. For example, when the action is a test to be performed, the title would be the title of the test such as Assay by HPLC.",
-        "requirements" : "Element `PlanDefinition.action.title` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.title` is mapped to FHIR R4 element `PlanDefinition.action.title`.",
+        "requirements" : "Element `PlanDefinition.action.title` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.title` has is mapped to FHIR R4 element `PlanDefinition.action.title`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -320,7 +320,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "description",
         "short" : "Brief description of the action",
         "definition" : "A brief description of the action used to provide a summary to display to the user.",
-        "requirements" : "Element `PlanDefinition.action.description` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.description` is mapped to FHIR R4 element `PlanDefinition.action.description`.",
+        "requirements" : "Element `PlanDefinition.action.description` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.description` has is mapped to FHIR R4 element `PlanDefinition.action.description`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -365,7 +365,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "textEquivalent",
         "short" : "Static text equivalent of the action, used if the dynamic aspects cannot be interpreted by the receiving system",
         "definition" : "A text equivalent of the action to be performed. This provides a human-interpretable description of the action when the definition is consumed by a system that might not be capable of interpreting it dynamically.",
-        "requirements" : "Element `PlanDefinition.action.textEquivalent` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.textEquivalent` is mapped to FHIR R4 element `PlanDefinition.action.textEquivalent`.",
+        "requirements" : "Element `PlanDefinition.action.textEquivalent` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.textEquivalent` has is mapped to FHIR R4 element `PlanDefinition.action.textEquivalent`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -410,7 +410,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "priority",
         "short" : "routine | urgent | asap | stat",
         "definition" : "Indicates how quickly the action should be addressed with respect to other actions.",
-        "requirements" : "Element `PlanDefinition.action.priority` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.priority` is mapped to FHIR R4 element `PlanDefinition.action.priority`.",
+        "requirements" : "Element `PlanDefinition.action.priority` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.priority` has is mapped to FHIR R4 element `PlanDefinition.action.priority`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -460,7 +460,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "code",
         "short" : "Code representing the meaning of the action or sub-actions",
         "definition" : "A code that provides a meaning, grouping, or classification for the action or action group. For example, a section may have a LOINC code for the section of a documentation template. In pharmaceutical quality, an action (Test) such as pH could be classified as a physical property.",
-        "requirements" : "Element `PlanDefinition.action.code` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.code` is mapped to FHIR R4 element `PlanDefinition.action.code`.",
+        "requirements" : "Element `PlanDefinition.action.code` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.code` has is mapped to FHIR R4 element `PlanDefinition.action.code`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -511,7 +511,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Why the action should be performed",
         "definition" : "A description of why this action is necessary or appropriate.",
         "comment" : "This is different than the clinical evidence documentation, it's an actual business description of the reason for performing the action.",
-        "requirements" : "Element `PlanDefinition.action.reason` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.reason` is mapped to FHIR R4 element `PlanDefinition.action.reason`.",
+        "requirements" : "Element `PlanDefinition.action.reason` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.reason` has is mapped to FHIR R4 element `PlanDefinition.action.reason`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -562,7 +562,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "documentation",
         "short" : "Supporting documentation for the intended performer of the action",
         "definition" : "Didactic or other informational resources associated with the action that can be provided to the CDS recipient. Information resources can include inline text commentary and links to web resources.",
-        "requirements" : "Element `PlanDefinition.action.documentation` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.documentation` is mapped to FHIR R4 element `PlanDefinition.action.documentation`.",
+        "requirements" : "Element `PlanDefinition.action.documentation` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.documentation` has is mapped to FHIR R4 element `PlanDefinition.action.documentation`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -607,7 +607,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "goalId",
         "short" : "What goals this action supports",
         "definition" : "Identifies goals that this action supports. The reference must be to a goal element defined within this plan definition. In pharmaceutical quality, a goal represents acceptance criteria (Goal) for a given action (Test), so the goalId would be the unique id of a defined goal element establishing the acceptance criteria for the action.",
-        "requirements" : "Element `PlanDefinition.action.goalId` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.goalId` is mapped to FHIR R4 element `PlanDefinition.action.goalId`.",
+        "requirements" : "Element `PlanDefinition.action.goalId` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.goalId` has is mapped to FHIR R4 element `PlanDefinition.action.goalId`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -653,7 +653,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Type of individual the action is focused on",
         "definition" : "A code, group definition, or canonical reference that describes the intended subject of the action and its children, if any. Canonical references are allowed to support the definition of protocols for drug and substance quality specifications, and is allowed to reference a MedicinalProductDefinition, SubstanceDefinition, AdministrableProductDefinition, ManufacturedItemDefinition, or PackagedProductDefinition resource.",
         "comment" : "The subject of an action overrides the subject at a parent action or on the root of the PlanDefinition if specified.\n\nIn addition, because the subject needs to be resolved during realization, use of subjects in actions (or in the ActivityDefinition referenced by the action) resolves based on the set of subjects supplied in context and by type (i.e. the patient subject would resolve to a resource of type Patient).",
-        "requirements" : "Multiple steps in a protocol often have different groups of steps that are focused on testing different things. The subject of an action specifies the focus of the action and any child actions. Element `PlanDefinition.action.subject[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `PlanDefinition.action.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.subject[x]` is mapped to FHIR R4 element `PlanDefinition.action.subject[x]`.\nNote that the target element context `PlanDefinition.action.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.",
+        "requirements" : "Multiple steps in a protocol often have different groups of steps that are focused on testing different things. The subject of an action specifies the focus of the action and any child actions. Element `PlanDefinition.action.subject[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nNote that the target element context `PlanDefinition.action.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.subject[x]` has is mapped to FHIR R4 element `PlanDefinition.action.subject[x]`, but has no comparisons.\nNote that the target element context `PlanDefinition.action.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -699,7 +699,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "trigger",
         "short" : "When the action should be triggered",
         "definition" : "A description of when the action should be triggered. When multiple triggers are specified on an action, any triggering event invokes the action.",
-        "requirements" : "Element `PlanDefinition.action.trigger` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.trigger` is mapped to FHIR R4 element `PlanDefinition.action.trigger`.",
+        "requirements" : "Element `PlanDefinition.action.trigger` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.trigger` has is mapped to FHIR R4 element `PlanDefinition.action.trigger`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -745,7 +745,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Whether or not the action is applicable",
         "definition" : "An expression that describes applicability criteria or start/stop conditions for the action.",
         "comment" : "When multiple conditions of the same kind are present, the effects are combined using AND semantics, so the overall condition is true only if all the conditions are true.",
-        "requirements" : "Element `PlanDefinition.action.condition` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.condition` is mapped to FHIR R4 element `PlanDefinition.action.condition`.",
+        "requirements" : "Element `PlanDefinition.action.condition` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.condition` has is mapped to FHIR R4 element `PlanDefinition.action.condition`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -782,7 +782,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "applicability | start | stop",
         "definition" : "The kind of condition.",
         "comment" : "Applicability criteria are used to determine immediate applicability when a plan definition is applied to a given context. Start and stop criteria are carried through application and used to describe enter/exit criteria for an action.",
-        "requirements" : "Element `PlanDefinition.action.condition.kind` is mapped to FHIR R4 element `PlanDefinition.action.condition.kind`.",
+        "requirements" : "Element `PlanDefinition.action.condition.kind` is part of an existing definition because parent element `PlanDefinition.action.condition` requires a cross-version extension.\nElement `PlanDefinition.action.condition.kind` has is mapped to FHIR R4 element `PlanDefinition.action.condition.kind`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -834,7 +834,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Boolean-valued expression",
         "definition" : "An expression that returns true or false, indicating whether the condition is satisfied.",
         "comment" : "The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element.",
-        "requirements" : "Element `PlanDefinition.action.condition.expression` is mapped to FHIR R4 element `PlanDefinition.action.condition.expression`.",
+        "requirements" : "Element `PlanDefinition.action.condition.expression` is part of an existing definition because parent element `PlanDefinition.action.condition` requires a cross-version extension.\nElement `PlanDefinition.action.condition.expression` has is mapped to FHIR R4 element `PlanDefinition.action.condition.expression`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -903,7 +903,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "input",
         "short" : "Input data requirements",
         "definition" : "Defines input data requirements for the action.",
-        "requirements" : "Element `PlanDefinition.action.input` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.input` is mapped to FHIR R4 element `PlanDefinition.action.input`.",
+        "requirements" : "Element `PlanDefinition.action.input` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.input` has is mapped to FHIR R4 element `PlanDefinition.action.input`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -939,7 +939,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-        "requirements" : "Element `PlanDefinition.action.input.title` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.input.title` is part of an existing definition because parent element `PlanDefinition.action.input` requires a cross-version extension.\nElement `PlanDefinition.action.input.title` has a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -958,7 +958,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "title"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.input.title"
       },
       {
         "id" : "Extension.extension:input.extension:title.value[x]",
@@ -984,7 +984,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "requirement",
         "short" : "What data is provided",
         "definition" : "Defines the data that is to be provided as input to the action.",
-        "requirements" : "Element `PlanDefinition.action.input.requirement` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.input.requirement` is part of an existing definition because parent element `PlanDefinition.action.input` requires a cross-version extension.\nElement `PlanDefinition.action.input.requirement` has a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1003,7 +1003,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "requirement"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.input.requirement"
       },
       {
         "id" : "Extension.extension:input.extension:requirement.value[x]",
@@ -1030,7 +1030,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "What data is provided",
         "definition" : "Points to an existing input or output element that provides data to this input.",
         "comment" : "The relatedData element allows indicating that an input to a parent action is an input to specific child actions. It also allows the output of one action to be identified as the input to a different action",
-        "requirements" : "Element `PlanDefinition.action.input.relatedData` is will have a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.input.relatedData` is part of an existing definition because parent element `PlanDefinition.action.input` requires a cross-version extension.\nElement `PlanDefinition.action.input.relatedData` has a context of PlanDefinition.action.input based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1049,7 +1049,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "relatedData"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.input.relatedData"
       },
       {
         "id" : "Extension.extension:input.extension:relatedData.value[x]",
@@ -1099,7 +1099,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "output",
         "short" : "Output data definition",
         "definition" : "Defines the outputs of the action, if any.",
-        "requirements" : "Element `PlanDefinition.action.output` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.output` is mapped to FHIR R4 element `PlanDefinition.action.output`.",
+        "requirements" : "Element `PlanDefinition.action.output` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.output` has is mapped to FHIR R4 element `PlanDefinition.action.output`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1135,7 +1135,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "title",
         "short" : "User-visible title",
         "definition" : "A human-readable label for the data requirement used to label data flows in BPMN or similar diagrams. Also provides a human readable label when rendering the data requirement that conveys its purpose to human readers.",
-        "requirements" : "Element `PlanDefinition.action.output.title` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.output.title` is part of an existing definition because parent element `PlanDefinition.action.output` requires a cross-version extension.\nElement `PlanDefinition.action.output.title` has a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1154,7 +1154,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "title"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.output.title"
       },
       {
         "id" : "Extension.extension:output.extension:title.value[x]",
@@ -1180,7 +1180,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "requirement",
         "short" : "What data is provided",
         "definition" : "Defines the data that results as output from the action.",
-        "requirements" : "Element `PlanDefinition.action.output.requirement` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.output.requirement` is part of an existing definition because parent element `PlanDefinition.action.output` requires a cross-version extension.\nElement `PlanDefinition.action.output.requirement` has a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1199,7 +1199,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "requirement"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.output.requirement"
       },
       {
         "id" : "Extension.extension:output.extension:requirement.value[x]",
@@ -1226,7 +1226,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "What data is provided",
         "definition" : "Points to an existing input or output element that is results as output from the action.",
         "comment" : "The relatedData element allows indicating that the output of child action is also the output of a parent action. It also allows the input of one action to be identified as the output of a different action",
-        "requirements" : "Element `PlanDefinition.action.output.relatedData` is will have a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.output.relatedData` is part of an existing definition because parent element `PlanDefinition.action.output` requires a cross-version extension.\nElement `PlanDefinition.action.output.relatedData` has a context of PlanDefinition.action.output based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1245,7 +1245,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "relatedData"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-PlanDefinition.action.output.relatedData"
       },
       {
         "id" : "Extension.extension:output.extension:relatedData.value[x]",
@@ -1296,7 +1296,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Relationship to another action",
         "definition" : "A relationship to another action such as \"before\" or \"30-60 minutes after start of\".",
         "comment" : "When an action depends on multiple actions, the meaning is that all actions are dependencies, rather than that any of the actions are a dependency.",
-        "requirements" : "Element `PlanDefinition.action.relatedAction` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.relatedAction` is mapped to FHIR R4 element `PlanDefinition.action.relatedAction`.",
+        "requirements" : "Element `PlanDefinition.action.relatedAction` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.relatedAction` has is mapped to FHIR R4 element `PlanDefinition.action.relatedAction`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1332,7 +1332,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "targetId",
         "short" : "What action is this related to",
         "definition" : "The element id of the target related action.",
-        "requirements" : "Element `PlanDefinition.action.relatedAction.targetId` is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.actionId`.",
+        "requirements" : "Element `PlanDefinition.action.relatedAction.targetId` is part of an existing definition because parent element `PlanDefinition.action.relatedAction` requires a cross-version extension.\nElement `PlanDefinition.action.relatedAction.targetId` has is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.actionId`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -1377,7 +1377,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "relationship",
         "short" : "before | before-start | before-end | concurrent | concurrent-with-start | concurrent-with-end | after | after-start | after-end",
         "definition" : "The relationship of the start of this action to the related action.",
-        "requirements" : "Element `PlanDefinition.action.relatedAction.relationship` is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.relationship`.",
+        "requirements" : "Element `PlanDefinition.action.relatedAction.relationship` is part of an existing definition because parent element `PlanDefinition.action.relatedAction` requires a cross-version extension.\nElement `PlanDefinition.action.relatedAction.relationship` has is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.relationship`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -1427,7 +1427,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "endRelationship",
         "short" : "before | before-start | before-end | concurrent | concurrent-with-start | concurrent-with-end | after | after-start | after-end",
         "definition" : "The relationship of the end of this action to the related action.",
-        "requirements" : "Element `PlanDefinition.action.relatedAction.endRelationship` is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.relationship`.",
+        "requirements" : "Element `PlanDefinition.action.relatedAction.endRelationship` is part of an existing definition because parent element `PlanDefinition.action.relatedAction` requires a cross-version extension.\nElement `PlanDefinition.action.relatedAction.endRelationship` has is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.relationship`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1477,7 +1477,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "offset",
         "short" : "Time offset for the relationship",
         "definition" : "A duration or range of durations to apply to the relationship. For example, 30-60 minutes before.",
-        "requirements" : "Note that the target element context `PlanDefinition.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action.relatedAction`.\nElement `PlanDefinition.action.relatedAction.offset[x]` is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.offset[x]`.\nNote that the target element context `PlanDefinition.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action.relatedAction`.",
+        "requirements" : "Element `PlanDefinition.action.relatedAction.offset[x]` is part of an existing definition because parent element `PlanDefinition.action.relatedAction` requires a cross-version extension.\nNote that the target element context `PlanDefinition.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action.relatedAction`.\nElement `PlanDefinition.action.relatedAction.offset[x]` has is mapped to FHIR R4 element `PlanDefinition.action.relatedAction.offset[x]`, but has no comparisons.\nNote that the target element context `PlanDefinition.action.relatedAction.offset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action.relatedAction`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1549,7 +1549,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "When the action should take place",
         "definition" : "An optional value describing when the action should be performed.",
         "comment" : "The intent of the timing element is to provide timing when the action should be performed. As a definitional resource, this timing is interpreted as part of an apply operation so that the timing of the result actions in a CarePlan or RequestOrchestration, for example, would be specified by evaluating the timing definition in the context of the apply and setting the resulting timing on the appropriate elements of the target resource. If the timing is an Age, the activity is expected to be performed when the subject is the given Age. When the timing is a Duration, the activity is expected to be performed within the specified duration from the apply. When the timing is a Range, it may be a range of Ages or Durations, providing a range for the expected timing of the resulting activity. When the timing is a Timing, it is establishing a schedule for the timing of the resulting activity.",
-        "requirements" : "Allows prompting for activities and detection of missed planned activities. Element `PlanDefinition.action.timing[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `PlanDefinition.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.timing[x]` is mapped to FHIR R4 element `PlanDefinition.action.timing[x]`.\nNote that the target element context `PlanDefinition.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.",
+        "requirements" : "Allows prompting for activities and detection of missed planned activities. Element `PlanDefinition.action.timing[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nNote that the target element context `PlanDefinition.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.timing[x]` has is mapped to FHIR R4 element `PlanDefinition.action.timing[x]`, but has no comparisons.\nNote that the target element context `PlanDefinition.action.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1605,7 +1605,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Where it should happen",
         "definition" : "Identifies the facility where the action will occur; e.g. home, hospital, specific clinic, etc.",
         "comment" : "May reference a specific clinical location or may just identify a type of location.",
-        "requirements" : "Helps in planning of activity. Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.location` is will have a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Helps in planning of activity. Element `PlanDefinition.action.location` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.location` has a context of PlanDefinition.action based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1685,7 +1685,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "concept",
         "short" : "Reference to a concept (by class)",
         "definition" : "A reference to a concept - e.g. the information is identified by its general class to the degree of precision found in the terminology.",
-        "requirements" : "Element `CodeableReference.concept` is mapped to FHIR R4 element `CodeableConcept`.\nElement `CodeableReference.concept` is will have a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
+        "requirements" : "Element `CodeableReference.concept` has is mapped to FHIR R4 element `CodeableConcept`, but has no comparisons.\nElement `CodeableReference.concept` has a context of Reference based on following the parent source element upwards and mapping to `Reference`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1730,7 +1730,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "reference",
         "short" : "Reference to a resource (by instance)",
         "definition" : "A reference to a resource the provides exact details about the information being referenced.",
-        "requirements" : "Element `CodeableReference.reference` is will have a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` is mapped to FHIR R4 element `Reference`.",
+        "requirements" : "Element `CodeableReference.reference` has a context of CodeableConcept based on following the parent source element upwards and mapping to `CodeableConcept`.\nElement `CodeableReference.reference` has is mapped to FHIR R4 element `Reference`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1802,7 +1802,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "participant",
         "short" : "Who should participate in the action",
         "definition" : "Indicates who should participate in performing the action described.",
-        "requirements" : "Element `PlanDefinition.action.participant` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.participant` is mapped to FHIR R4 element `PlanDefinition.action.participant`.",
+        "requirements" : "Element `PlanDefinition.action.participant` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.participant` has is mapped to FHIR R4 element `PlanDefinition.action.participant`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -1838,7 +1838,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "actorId",
         "short" : "What actor",
         "definition" : "A reference to the id element of the actor who will participate in this action.",
-        "requirements" : "Element `PlanDefinition.action.participant.actorId` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.participant.actorId` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nElement `PlanDefinition.action.participant.actorId` has a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1883,7 +1883,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "type",
         "short" : "careteam | device | group | healthcareservice | location | organization | patient | practitioner | practitionerrole | relatedperson",
         "definition" : "The type of participant in the action.",
-        "requirements" : "Element `PlanDefinition.action.participant.type` is mapped to FHIR R4 element `PlanDefinition.action.participant.type`.",
+        "requirements" : "Element `PlanDefinition.action.participant.type` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nElement `PlanDefinition.action.participant.type` has is mapped to FHIR R4 element `PlanDefinition.action.participant.type`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1933,7 +1933,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "typeCanonical",
         "short" : "Who or what can participate",
         "definition" : "The type of participant in the action.",
-        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.action.participant.typeCanonical` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.participant.typeCanonical` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `PlanDefinition.action.participant.typeCanonical` has a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -1983,7 +1983,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Who or what can participate",
         "definition" : "The type of participant in the action.",
         "comment" : "When this element is a reference, it SHOULD be a reference to a definitional resource (for example, a location type, rather than a specific location).",
-        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.action.participant.typeReference` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.participant.typeReference` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PlanDefinition.action.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PlanDefinition.action.participant.typeReference` has a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2055,7 +2055,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "role",
         "short" : "E.g. Nurse, Surgeon, Parent",
         "definition" : "The role the participant should play in performing the described action.",
-        "requirements" : "Element `PlanDefinition.action.participant.role` is mapped to FHIR R4 element `PlanDefinition.action.participant.role`.",
+        "requirements" : "Element `PlanDefinition.action.participant.role` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nElement `PlanDefinition.action.participant.role` has is mapped to FHIR R4 element `PlanDefinition.action.participant.role`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2105,7 +2105,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "function",
         "short" : "E.g. Author, Reviewer, Witness, etc",
         "definition" : "Indicates how the actor will be involved in the action - author, reviewer, witness, etc.",
-        "requirements" : "Element `PlanDefinition.action.participant.function` is will have a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
+        "requirements" : "Element `PlanDefinition.action.participant.function` is part of an existing definition because parent element `PlanDefinition.action.participant` requires a cross-version extension.\nElement `PlanDefinition.action.participant.function` has a context of PlanDefinition.action.participant based on following the parent source element upwards and mapping to `PlanDefinition`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2173,7 +2173,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "type",
         "short" : "create | update | remove | fire-event",
         "definition" : "The type of action to perform (create, update, remove).",
-        "requirements" : "Element `PlanDefinition.action.type` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.type` is mapped to FHIR R4 element `PlanDefinition.action.type`.",
+        "requirements" : "Element `PlanDefinition.action.type` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.type` has is mapped to FHIR R4 element `PlanDefinition.action.type`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2223,7 +2223,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "groupingBehavior",
         "short" : "visual-group | logical-group | sentence-group",
         "definition" : "Defines the grouping behavior for the action and its children.",
-        "requirements" : "Element `PlanDefinition.action.groupingBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.groupingBehavior` is mapped to FHIR R4 element `PlanDefinition.action.groupingBehavior`.",
+        "requirements" : "Element `PlanDefinition.action.groupingBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.groupingBehavior` has is mapped to FHIR R4 element `PlanDefinition.action.groupingBehavior`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2273,7 +2273,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "selectionBehavior",
         "short" : "any | all | all-or-none | exactly-one | at-most-one | one-or-more",
         "definition" : "Defines the selection behavior for the action and its children.",
-        "requirements" : "Element `PlanDefinition.action.selectionBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.selectionBehavior` is mapped to FHIR R4 element `PlanDefinition.action.selectionBehavior`.",
+        "requirements" : "Element `PlanDefinition.action.selectionBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.selectionBehavior` has is mapped to FHIR R4 element `PlanDefinition.action.selectionBehavior`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2323,7 +2323,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "requiredBehavior",
         "short" : "must | could | must-unless-documented",
         "definition" : "Defines the required behavior for the action.",
-        "requirements" : "Element `PlanDefinition.action.requiredBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.requiredBehavior` is mapped to FHIR R4 element `PlanDefinition.action.requiredBehavior`.",
+        "requirements" : "Element `PlanDefinition.action.requiredBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.requiredBehavior` has is mapped to FHIR R4 element `PlanDefinition.action.requiredBehavior`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2373,7 +2373,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "precheckBehavior",
         "short" : "yes | no",
         "definition" : "Defines whether the action should usually be preselected.",
-        "requirements" : "Element `PlanDefinition.action.precheckBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.precheckBehavior` is mapped to FHIR R4 element `PlanDefinition.action.precheckBehavior`.",
+        "requirements" : "Element `PlanDefinition.action.precheckBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.precheckBehavior` has is mapped to FHIR R4 element `PlanDefinition.action.precheckBehavior`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2423,7 +2423,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "cardinalityBehavior",
         "short" : "single | multiple",
         "definition" : "Defines whether the action can be selected multiple times.",
-        "requirements" : "Element `PlanDefinition.action.cardinalityBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.cardinalityBehavior` is mapped to FHIR R4 element `PlanDefinition.action.cardinalityBehavior`.",
+        "requirements" : "Element `PlanDefinition.action.cardinalityBehavior` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.cardinalityBehavior` has is mapped to FHIR R4 element `PlanDefinition.action.cardinalityBehavior`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2474,7 +2474,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Description of the activity to be performed",
         "definition" : "A reference to an ActivityDefinition that describes the action to be taken in detail, a MessageDefinition describing a message to be snet, a PlanDefinition that describes a series of actions to be taken, a Questionnaire that should be filled out, a SpecimenDefinition describing a specimen to be collected, or an ObservationDefinition that specifies what observation should be captured.",
         "comment" : "Note that the definition is optional, and if no definition is specified, a dynamicValue with a root ($this) path can be used to define the entire resource dynamically.",
-        "requirements" : "Element `PlanDefinition.action.definition[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nNote that the target element context `PlanDefinition.action.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.definition[x]` is mapped to FHIR R4 element `PlanDefinition.action.definition[x]`.\nNote that the target element context `PlanDefinition.action.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.",
+        "requirements" : "Element `PlanDefinition.action.definition[x]` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nNote that the target element context `PlanDefinition.action.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.\nElement `PlanDefinition.action.definition[x]` has is mapped to FHIR R4 element `PlanDefinition.action.definition[x]`, but has no comparisons.\nNote that the target element context `PlanDefinition.action.definition[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `PlanDefinition.action`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2538,7 +2538,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Transform to apply the template",
         "definition" : "A reference to a StructureMap resource that defines a transform that can be executed to produce the intent resource using the ActivityDefinition instance as the input.",
         "comment" : "Note that when a referenced ActivityDefinition also defines a transform, the transform specified here generally takes precedence. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform.",
-        "requirements" : "Element `PlanDefinition.action.transform` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.transform` is mapped to FHIR R4 element `PlanDefinition.action.transform`.",
+        "requirements" : "Element `PlanDefinition.action.transform` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.transform` has is mapped to FHIR R4 element `PlanDefinition.action.transform`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2589,7 +2589,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "Dynamic aspects of the definition",
         "definition" : "Customizations that should be applied to the statically defined resource. For example, if the dosage of a medication must be computed based on the patient's weight, a customization would be used to specify an expression that calculated the weight, and the path on the resource that would contain the result.",
         "comment" : "Dynamic values are applied in the order in which they are defined in the PlanDefinition resource. Note that when dynamic values are also specified by a referenced ActivityDefinition, the dynamicValues from the ActivityDefinition are applied first, followed by the dynamicValues specified here. In addition, if both a transform and dynamic values are specific, the dynamic values are applied to the result of the transform.",
-        "requirements" : "Element `PlanDefinition.action.dynamicValue` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.dynamicValue` is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue`.",
+        "requirements" : "Element `PlanDefinition.action.dynamicValue` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.dynamicValue` has is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -2626,7 +2626,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "The path to the element to be set dynamically",
         "definition" : "The path to the element to be customized. This is the path on the resource that will hold the result of the calculation defined by the expression. The specified path SHALL be a FHIRPath resolvable on the specified target type of the ActivityDefinition, and SHALL consist only of identifiers, constant indexers, and a restricted subset of functions. The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details).",
         "comment" : "To specify the path to the current action being realized, the %action environment variable is available in this path. For example, to specify the description element of the target action, the path would be %action.description. The path attribute contains a [Simple FHIRPath Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation.",
-        "requirements" : "Element `PlanDefinition.action.dynamicValue.path` is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue.path`.",
+        "requirements" : "Element `PlanDefinition.action.dynamicValue.path` is part of an existing definition because parent element `PlanDefinition.action.dynamicValue` requires a cross-version extension.\nElement `PlanDefinition.action.dynamicValue.path` has is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue.path`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2673,7 +2673,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "short" : "An expression that provides the dynamic value for the customization",
         "definition" : "An expression specifying the value of the customized element.",
         "comment" : "The expression may be inlined or may be a reference to a named expression within a logic library referenced by the library element.",
-        "requirements" : "Element `PlanDefinition.action.dynamicValue.expression` is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue.expression`.",
+        "requirements" : "Element `PlanDefinition.action.dynamicValue.expression` is part of an existing definition because parent element `PlanDefinition.action.dynamicValue` requires a cross-version extension.\nElement `PlanDefinition.action.dynamicValue.expression` has is mapped to FHIR R4 element `PlanDefinition.action.dynamicValue.expression`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -2742,7 +2742,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-PlanDefini
         "sliceName" : "action",
         "short" : "A sub-action",
         "definition" : "Sub actions that are contained within the action. The behavior of this action determines the functionality of the sub-actions. For example, a selection behavior of at-most-one indicates that of the sub-actions, at most one may be chosen as part of realizing the action definition.",
-        "requirements" : "Element `PlanDefinition.action.action` is part of an existing definition because parent element `PlanDefinition.action` requires a component extension (e.g., if this element is used as a content reference).\nElement `PlanDefinition.action.action` is mapped to FHIR R4 element `PlanDefinition.action.action`.",
+        "requirements" : "Element `PlanDefinition.action.action` is part of an existing definition because parent element `PlanDefinition.action` requires a cross-version extension.\nElement `PlanDefinition.action.action` has is mapped to FHIR R4 element `PlanDefinition.action.action`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

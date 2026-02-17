@@ -1,4 +1,4 @@
-# ConceptMapR5ScheduleElementsForR4Schedule - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ScheduleElementsForR4Schedule - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ScheduleElementsForR4Schedule 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2075212-06:00",
+  "date" : "2026-02-17T14:42:27.5319849-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Schedule` is representable via FHIR R4 Resource `Schedule`.\nElement `Schedule` is mapped to FHIR R4 element `Schedule`."
+              "comment" : "FHIR R5 Resource `Schedule` is representable via FHIR R4 Resource `Schedule`.\nElement `Schedule` has is mapped to FHIR R4 element `Schedule`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.meta` is mapped to FHIR R4 element `Schedule.meta`."
+              "comment" : "Element `Schedule.meta` has is mapped to FHIR R4 element `Schedule.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.implicitRules` is mapped to FHIR R4 element `Schedule.implicitRules`."
+              "comment" : "Element `Schedule.implicitRules` has is mapped to FHIR R4 element `Schedule.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.language` is mapped to FHIR R4 element `Schedule.language`."
+              "comment" : "Element `Schedule.language` has is mapped to FHIR R4 element `Schedule.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.text` is mapped to FHIR R4 element `Schedule.text`."
+              "comment" : "Element `Schedule.text` has is mapped to FHIR R4 element `Schedule.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.contained` is mapped to FHIR R4 element `Schedule.contained`."
+              "comment" : "Element `Schedule.contained` has is mapped to FHIR R4 element `Schedule.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.identifier` is mapped to FHIR R4 element `Schedule.identifier`."
+              "comment" : "Element `Schedule.identifier` has is mapped to FHIR R4 element `Schedule.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.active",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.active` is mapped to FHIR R4 element `Schedule.active`."
+              "comment" : "Element `Schedule.active` has is mapped to FHIR R4 element `Schedule.active`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.serviceCategory",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.serviceCategory` is mapped to FHIR R4 element `Schedule.serviceCategory`."
+              "comment" : "Element `Schedule.serviceCategory` has is mapped to FHIR R4 element `Schedule.serviceCategory`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.serviceType",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.serviceType` is mapped to FHIR R4 element `Schedule.serviceType`."
+              "comment" : "Element `Schedule.serviceType` has is mapped to FHIR R4 element `Schedule.serviceType`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.specialty",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.specialty` is mapped to FHIR R4 element `Schedule.specialty`."
+              "comment" : "Element `Schedule.specialty` has is mapped to FHIR R4 element `Schedule.specialty`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.name` is will have a context of Schedule based on following the parent source element upwards and mapping to `Schedule`."
+              "comment" : "Element `Schedule.name` has a context of Schedule based on following the parent source element upwards and mapping to `Schedule`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.actor",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Schedule.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Schedule.actor` is mapped to FHIR R4 element `Schedule.actor`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Schedule.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Schedule.actor` has is mapped to FHIR R4 element `Schedule.actor`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.planningHorizon",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.planningHorizon` is mapped to FHIR R4 element `Schedule.planningHorizon`."
+              "comment" : "Element `Schedule.planningHorizon` has is mapped to FHIR R4 element `Schedule.planningHorizon`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Schedule#Schedule.comment",
               "equivalence" : "relatedto",
-              "comment" : "Element `Schedule.comment` is mapped to FHIR R4 element `Schedule.comment`."
+              "comment" : "Element `Schedule.comment` has is mapped to FHIR R4 element `Schedule.comment`, but has no comparisons."
             }
           ]
         }

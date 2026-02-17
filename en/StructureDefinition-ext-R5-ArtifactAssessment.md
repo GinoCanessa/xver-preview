@@ -1,4 +1,4 @@
-# ExtensionArtifactAssessment - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionArtifactAssessment - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ArtifactAssessment` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
   "title" : "Cross-version Extension `R5.ArtifactAssessment` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "title"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.title"
       },
       {
         "id" : "Extension.extension:title.value[x]",
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "citeAs"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.citeAs"
       },
       {
         "id" : "Extension.extension:citeAs.value[x]",
@@ -301,7 +301,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "date"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.date"
       },
       {
         "id" : "Extension.extension:date.value[x]",
@@ -347,7 +347,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "copyright"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.copyright"
       },
       {
         "id" : "Extension.extension:copyright.value[x]",
@@ -393,7 +393,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "approvalDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.approvalDate"
       },
       {
         "id" : "Extension.extension:approvalDate.value[x]",
@@ -440,7 +440,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "lastReviewDate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.lastReviewDate"
       },
       {
         "id" : "Extension.extension:lastReviewDate.value[x]",
@@ -486,7 +486,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "artifact"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.artifact"
       },
       {
         "id" : "Extension.extension:artifact.value[x]",
@@ -529,6 +529,492 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
           "path" : "Extension.extension",
           "min" : 0,
           "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension",
+        "path" : "Extension.extension.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:informationType",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "informationType",
+        "short" : "comment | classifier | rating | container | response | change-request",
+        "definition" : "The type of information this component of the content represents.",
+        "requirements" : "Element `ArtifactAssessment.content.informationType` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:informationType.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.informationType"
+      },
+      {
+        "id" : "Extension.extension:content.extension:informationType.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "comment | classifier | rating | container | response | change-request",
+        "definition" : "The type of information this component of the content represents.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "code"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:content.extension:summary",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "summary",
+        "short" : "Brief summary of the content",
+        "definition" : "A brief summary of the content of this component.",
+        "requirements" : "Element `ArtifactAssessment.content.summary` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:summary.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.summary"
+      },
+      {
+        "id" : "Extension.extension:content.extension:summary.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "Brief summary of the content",
+        "definition" : "A brief summary of the content of this component.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "markdown"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:content.extension:type",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "type",
+        "short" : "What type of content",
+        "definition" : "Indicates what type of content this component represents.",
+        "requirements" : "Element `ArtifactAssessment.content.type` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:type.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.type"
+      },
+      {
+        "id" : "Extension.extension:content.extension:type.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "What type of content",
+        "definition" : "Indicates what type of content this component represents.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          }
+        ],
+        "binding" : {
+          "strength" : "example",
+          "valueSet" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-certainty-type-for-R4|0.0.1-snapshot-3"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:classifier",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "classifier",
+        "short" : "Rating, classifier, or assessment",
+        "definition" : "Represents a rating, classifier, or assessment of the artifact.",
+        "requirements" : "Element `ArtifactAssessment.content.classifier` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:classifier.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.classifier"
+      },
+      {
+        "id" : "Extension.extension:content.extension:classifier.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "Rating, classifier, or assessment",
+        "definition" : "Represents a rating, classifier, or assessment of the artifact.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "CodeableConcept"
+          }
+        ],
+        "binding" : {
+          "strength" : "example",
+          "valueSet" : "http://hl7.org/fhir/5.0/ValueSet/ValueSet-R5-certainty-rating-for-R4|0.0.1-snapshot-3"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:quantity",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "quantity",
+        "short" : "Quantitative rating",
+        "definition" : "A quantitative rating of the artifact.",
+        "requirements" : "Element `ArtifactAssessment.content.quantity` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:quantity.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.quantity"
+      },
+      {
+        "id" : "Extension.extension:content.extension:quantity.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "Quantitative rating",
+        "definition" : "A quantitative rating of the artifact.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "Quantity"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:content.extension:author",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "author",
+        "short" : "Who authored the content",
+        "definition" : "Indicates who or what authored the content.",
+        "requirements" : "Element `ArtifactAssessment.content.author` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:author.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.author"
+      },
+      {
+        "id" : "Extension.extension:content.extension:author.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "Who authored the content",
+        "definition" : "Indicates who or what authored the content.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "Reference",
+            "targetProfile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/profile-Patient|0.0.1-snapshot-3",
+              "http://hl7.org/fhir/StructureDefinition/Patient|4.0.1",
+              "http://hl7.org/fhir/5.0/StructureDefinition/profile-Practitioner|0.0.1-snapshot-3",
+              "http://hl7.org/fhir/StructureDefinition/Practitioner|4.0.1",
+              "http://hl7.org/fhir/5.0/StructureDefinition/profile-PractitionerRole|0.0.1-snapshot-3",
+              "http://hl7.org/fhir/StructureDefinition/PractitionerRole|4.0.1",
+              "http://hl7.org/fhir/5.0/StructureDefinition/profile-Organization|0.0.1-snapshot-3",
+              "http://hl7.org/fhir/StructureDefinition/Organization|4.0.1",
+              "http://hl7.org/fhir/5.0/StructureDefinition/profile-Device|0.0.1-snapshot-3",
+              "http://hl7.org/fhir/StructureDefinition/Device|4.0.1"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:content.extension:path",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "path",
+        "short" : "What the comment is directed to",
+        "definition" : "A URI that points to what the comment is about, such as a line of text in the CQL, or a specific element in a resource.",
+        "comment" : "The target element is used to point the comment to aspect of the artifact, such as a text range within a CQL library (e.g. #content?0:0-120:80).",
+        "requirements" : "Element `ArtifactAssessment.content.path` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:path.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.path"
+      },
+      {
+        "id" : "Extension.extension:content.extension:path.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "What the comment is directed to",
+        "definition" : "A URI that points to what the comment is about, such as a line of text in the CQL, or a specific element in a resource.",
+        "comment" : "The target element is used to point the comment to aspect of the artifact, such as a text range within a CQL library (e.g. #content?0:0-120:80).",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "uri"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:content.extension:relatedArtifact",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "relatedArtifact",
+        "short" : "Additional information",
+        "definition" : "Additional related artifacts that provide supporting documentation, additional evidence, or further information related to the content.",
+        "requirements" : "Element `ArtifactAssessment.content.relatedArtifact` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:relatedArtifact.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.relatedArtifact"
+      },
+      {
+        "id" : "Extension.extension:content.extension:relatedArtifact.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "Additional information",
+        "definition" : "Additional related artifacts that provide supporting documentation, additional evidence, or further information related to the content.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "RelatedArtifact"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:content.extension:freeToShare",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "freeToShare",
+        "short" : "Acceptable to publicly share the resource content",
+        "definition" : "Acceptable to publicly share the comment, classifier or rating.",
+        "requirements" : "Element `ArtifactAssessment.content.freeToShare` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:freeToShare.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content.freeToShare"
+      },
+      {
+        "id" : "Extension.extension:content.extension:freeToShare.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "short" : "Acceptable to publicly share the resource content",
+        "definition" : "Acceptable to publicly share the comment, classifier or rating.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
+        },
+        "type" : [
+          {
+            "code" : "boolean"
+          }
+        ]
+      },
+      {
+        "id" : "Extension.extension:content.extension:component",
+        "path" : "Extension.extension.extension",
+        "sliceName" : "component",
+        "short" : "Contained content",
+        "definition" : "If the informationType is container, the components of the content.",
+        "requirements" : "Element `ArtifactAssessment.content.component` is not mapped to FHIR R4, since FHIR R5 `ArtifactAssessment` is not mapped.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Extension.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Extension.extension:content.extension:component.url",
+        "path" : "Extension.extension.extension.url",
+        "min" : 1,
+        "max" : "1",
+        "base" : {
+          "path" : "Extension.url",
+          "min" : 1,
+          "max" : "1"
+        },
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.content"
+      },
+      {
+        "id" : "Extension.extension:content.extension:component.value[x]",
+        "path" : "Extension.extension.extension.value[x]",
+        "min" : 0,
+        "max" : "0",
+        "base" : {
+          "path" : "Extension.value[x]",
+          "min" : 0,
+          "max" : "1"
         }
       },
       {
@@ -579,7 +1065,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "workflowStatus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.workflowStatus"
       },
       {
         "id" : "Extension.extension:workflowStatus.value[x]",
@@ -624,7 +1110,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ArtifactAs
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "disposition"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-ArtifactAssessment.disposition"
       },
       {
         "id" : "Extension.extension:disposition.value[x]",

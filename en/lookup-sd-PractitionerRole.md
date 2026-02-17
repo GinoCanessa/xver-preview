@@ -1,4 +1,4 @@
-# Lookup for ProfilePractitionerRole - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfilePractitionerRole - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfilePractitionerRole
 
@@ -27,9 +27,9 @@ A computable version of the following element information is available in: [Conc
 | [`PractitionerRole.specialty`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [PractitionerRole.specialty](https://hl7.org/fhir/R4/PractitionerRole.html#resource) |
 | [`PractitionerRole.location`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [PractitionerRole.location](https://hl7.org/fhir/R4/PractitionerRole.html#resource) |
 | [`PractitionerRole.healthcareService`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [PractitionerRole.healthcareService](https://hl7.org/fhir/R4/PractitionerRole.html#resource) |
-| [`PractitionerRole.contact`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [PractitionerRole](https://hl7.org/fhir/R4/PractitionerRole.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.contact](StructureDefinition-ext-R5-PractitionerRole.contact.md) |
-| [`PractitionerRole.characteristic`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [PractitionerRole](https://hl7.org/fhir/R4/PractitionerRole.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.characteristic](StructureDefinition-ext-R5-PractitionerRole.characteristic.md) |
-| [`PractitionerRole.communication`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [PractitionerRole](https://hl7.org/fhir/R4/PractitionerRole.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.communication](StructureDefinition-ext-R5-PractitionerRole.communication.md) |
-| [`PractitionerRole.availability`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [PractitionerRole](https://hl7.org/fhir/R4/PractitionerRole.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-PractitionerRole.availability](StructureDefinition-ext-R5-PractitionerRole.availability.md) |
+| [`PractitionerRole.contact`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [Extension: ExtensionPractitionerRole_Contact](StructureDefinition-ext-R5-PractitionerRole.contact.md) |
+| [`PractitionerRole.characteristic`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [Extension: ExtensionPractitionerRole_Characteristic](StructureDefinition-ext-R5-PractitionerRole.characteristic.md) |
+| [`PractitionerRole.communication`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [Extension: ExtensionPractitionerRole_Communication](StructureDefinition-ext-R5-PractitionerRole.communication.md) |
+| [`PractitionerRole.availability`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [Extension: ExtensionPractitionerRole_Availability](StructureDefinition-ext-R5-PractitionerRole.availability.md) |
 | [`PractitionerRole.endpoint`](https://hl7.org/fhir/R5/PractitionerRole.html#resource) | [PractitionerRole.endpoint](https://hl7.org/fhir/R4/PractitionerRole.html#resource) |
 

@@ -1,4 +1,4 @@
-# ExtensionSpecimenDefinition_ApprovalDate - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionSpecimenDefinition_ApprovalDate - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.SpecimenDefinition.approvalDate` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SpecimenDe
   "title" : "Cross-version Extension `R5.SpecimenDefinition.approvalDate` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-SpecimenDe
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SpecimenDefinition.approvalDate` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SpecimenDefinition.approvalDate` 0..1 `date`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SpecimenDefinition.approvalDate` 0..1 `date`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SpecimenDefinition.approvalDate` is will have a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `SpecimenDefinition.approvalDate` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`SpecimenDefinition.approvalDate` 0..1 `date`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `SpecimenDefinition.approvalDate` 0..1 `date`\r\n\r\nFollowing are the generation technical comments:\r\nElement `SpecimenDefinition.approvalDate` has a context of SpecimenDefinition based on following the parent source element upwards and mapping to `SpecimenDefinition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

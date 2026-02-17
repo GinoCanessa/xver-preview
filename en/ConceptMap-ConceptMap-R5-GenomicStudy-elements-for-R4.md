@@ -1,4 +1,4 @@
-# ConceptMapR5GenomicStudyElementsForR4 - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5GenomicStudyElementsForR4 - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5GenomicStudyElementsForR4 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.8948762-06:00",
+  "date" : "2026-02-17T14:42:27.2816907-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -160,7 +160,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "status",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:status",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.status",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.status` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -171,7 +171,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.type",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.type` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -193,7 +193,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "encounter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:encounter",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.encounter",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.encounter` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -204,7 +204,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "startDate",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:startDate",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.startDate",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.startDate` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -215,7 +215,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "basedOn",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:basedOn",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.basedOn",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.basedOn` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -226,7 +226,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "referrer",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:referrer",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.referrer",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.referrer` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -237,7 +237,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "interpreter",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:interpreter",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.interpreter",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.interpreter` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -248,7 +248,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "reason",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:reason",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.reason",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.reason` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -259,7 +259,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "instantiatesCanonical",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:instantiatesCanonical",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.instantiatesCanonical",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.instantiatesCanonical` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -270,7 +270,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "instantiatesUri",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:instantiatesUri",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.instantiatesUri",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.instantiatesUri` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -281,7 +281,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "note",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:note",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.note",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.note` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -292,7 +292,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "description",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:description",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.description",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.description` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -314,7 +314,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "identifier",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:identifier",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.identifier",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.identifier` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -325,7 +325,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "methodType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:methodType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.methodType",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.methodType` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -336,7 +336,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "changeType",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:changeType",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.changeType",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.changeType` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -347,7 +347,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "genomeBuild",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:genomeBuild",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.genomeBuild",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.genomeBuild` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -358,7 +358,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "instantiatesCanonical",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:instantiatesCanonical",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.instantiatesCanonical",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.instantiatesCanonical` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -369,7 +369,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "instantiatesUri",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:instantiatesUri",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.instantiatesUri",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.instantiatesUri` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -380,7 +380,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "title",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:title",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.title",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.title` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -391,7 +391,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "focus",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:focus",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.focus",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.focus` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -402,7 +402,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "specimen",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:specimen",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.specimen",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.specimen` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -413,7 +413,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "date",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:date",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.date",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.date` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -424,7 +424,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "note",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:note",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.note",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.note` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -435,7 +435,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "protocolPerformed",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:protocolPerformed",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.protocolPerformed",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.protocolPerformed` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -446,7 +446,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "regionsStudied",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:regionsStudied",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.regionsStudied",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.regionsStudied` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -457,7 +457,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "regionsCalled",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:regionsCalled",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.regionsCalled",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.regionsCalled` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -479,7 +479,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "file",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:file",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input.file",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.input.file` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -490,7 +490,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input.type",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.input.type` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -501,7 +501,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "generatedBy[x]",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:generatedBy",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.input.generatedBy",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.input.generatedBy[x]` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -523,7 +523,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "file",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output:file",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output.file",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.output.file` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -534,7 +534,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "type",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output:type",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.output.type",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.output.type` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -556,7 +556,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "actor",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer:actor",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer.actor",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.performer.actor` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -567,7 +567,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "role",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer:role",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.performer.role",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.performer.role` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -589,7 +589,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "device",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device:device",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device.device",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.device.device` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }
@@ -600,7 +600,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
           "display" : "function",
           "target" : [
             {
-              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device:function",
+              "code" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device:http://hl7.org/fhir/5.0/StructureDefinition/extension-GenomicStudy.analysis.device.function",
               "equivalence" : "relatedto",
               "comment" : "Element `GenomicStudy.analysis.device.function` is not mapped to FHIR R4, since FHIR R5 `GenomicStudy` is not mapped."
             }

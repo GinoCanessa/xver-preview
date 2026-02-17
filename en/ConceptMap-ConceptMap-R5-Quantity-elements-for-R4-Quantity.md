@@ -1,4 +1,4 @@
-# ConceptMapR5QuantityElementsForR4Quantity - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5QuantityElementsForR4Quantity - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5QuantityElementsForR4Quantity 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.157214-06:00",
+  "date" : "2026-02-17T14:42:27.4915433-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Quantity` is representable via FHIR R4 extensions.\nElement `Quantity` is mapped to FHIR R4 element `Quantity`."
+              "comment" : "FHIR R5 ComplexType `Quantity` is representable via FHIR R4 extensions.\nElement `Quantity` has is mapped to FHIR R4 element `Quantity`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Quantity.value` is mapped to FHIR R4 element `Quantity.value`."
+              "comment" : "Element `Quantity.value` has is mapped to FHIR R4 element `Quantity.value`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity.comparator",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Quantity.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Quantity.comparator` is mapped to FHIR R4 element `Quantity.comparator`."
+              "comment" : "Note that the target element context `Quantity.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Quantity.comparator` has is mapped to FHIR R4 element `Quantity.comparator`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `Quantity.unit` is mapped to FHIR R4 element `Quantity.unit`."
+              "comment" : "Element `Quantity.unit` has is mapped to FHIR R4 element `Quantity.unit`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Quantity.system` is mapped to FHIR R4 element `Quantity.system`."
+              "comment" : "Element `Quantity.system` has is mapped to FHIR R4 element `Quantity.system`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Quantity#Quantity.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Quantity.code` is mapped to FHIR R4 element `Quantity.code`."
+              "comment" : "Element `Quantity.code` has is mapped to FHIR R4 element `Quantity.code`, but has no comparisons."
             }
           ]
         }

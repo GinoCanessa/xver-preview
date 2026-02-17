@@ -1,4 +1,4 @@
-# ConceptMapR5BundleElementsForR4Bundle - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5BundleElementsForR4Bundle - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5BundleElementsForR4Bundle 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.5020882-06:00",
+  "date" : "2026-02-17T14:42:27.0108112-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Bundle` is representable via FHIR R4 Resource `Bundle`.\nElement `Bundle` is mapped to FHIR R4 element `Bundle`."
+              "comment" : "FHIR R5 Resource `Bundle` is representable via FHIR R4 Resource `Bundle`.\nElement `Bundle` has is mapped to FHIR R4 element `Bundle`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.meta` is mapped to FHIR R4 element `Bundle.meta`."
+              "comment" : "Element `Bundle.meta` has is mapped to FHIR R4 element `Bundle.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.implicitRules` is mapped to FHIR R4 element `Bundle.implicitRules`."
+              "comment" : "Element `Bundle.implicitRules` has is mapped to FHIR R4 element `Bundle.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.language` is mapped to FHIR R4 element `Bundle.language`."
+              "comment" : "Element `Bundle.language` has is mapped to FHIR R4 element `Bundle.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.identifier` is mapped to FHIR R4 element `Bundle.identifier`."
+              "comment" : "Element `Bundle.identifier` has is mapped to FHIR R4 element `Bundle.identifier`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.type` is mapped to FHIR R4 element `Bundle.type`."
+              "comment" : "Element `Bundle.type` has is mapped to FHIR R4 element `Bundle.type`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.timestamp",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.timestamp` is mapped to FHIR R4 element `Bundle.timestamp`."
+              "comment" : "Element `Bundle.timestamp` has is mapped to FHIR R4 element `Bundle.timestamp`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.total",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.total` is mapped to FHIR R4 element `Bundle.total`."
+              "comment" : "Element `Bundle.total` has is mapped to FHIR R4 element `Bundle.total`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.link` is mapped to FHIR R4 element `Bundle.link`."
+              "comment" : "Element `Bundle.link` has is mapped to FHIR R4 element `Bundle.link`, but has no comparisons.\nNote available implied context: `Bundle.entry.link` because `Bundle.entry.link` is defined as a content reference to `Bundle.link`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.link.relation",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).\nElement `Bundle.link.relation` is mapped to FHIR R4 element `Bundle.link.relation`."
+              "comment" : "Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.\nElement `Bundle.link.relation` has is mapped to FHIR R4 element `Bundle.link.relation`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.link.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).\nElement `Bundle.link.url` is mapped to FHIR R4 element `Bundle.link.url`."
+              "comment" : "Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.\nElement `Bundle.link.url` has is mapped to FHIR R4 element `Bundle.link.url`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry` is mapped to FHIR R4 element `Bundle.entry`."
+              "comment" : "Element `Bundle.entry` has is mapped to FHIR R4 element `Bundle.entry`, but has no comparisons."
             }
           ]
         },
@@ -217,29 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.link",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.link` is mapped to FHIR R4 element `Bundle.entry.link`."
-            }
-          ]
-        },
-        {
-          "code" : "Bundle.entry.link.relation",
-          "display" : "relation",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.link.relation",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.link.relation` is mapped to FHIR R4 element `Bundle.entry.link.relation`."
-            }
-          ]
-        },
-        {
-          "code" : "Bundle.entry.link.url",
-          "display" : "url",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.link.url",
-              "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.link.url` is mapped to FHIR R4 element `Bundle.entry.link.url`."
+              "comment" : "Element `Bundle.entry.link` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.link` has is mapped to FHIR R4 element `Bundle.entry.link`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.fullUrl",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.fullUrl` is mapped to FHIR R4 element `Bundle.entry.fullUrl`."
+              "comment" : "Element `Bundle.entry.fullUrl` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.fullUrl` has is mapped to FHIR R4 element `Bundle.entry.fullUrl`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.resource",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.resource` is mapped to FHIR R4 element `Bundle.entry.resource`."
+              "comment" : "Element `Bundle.entry.resource` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.resource` has is mapped to FHIR R4 element `Bundle.entry.resource`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.search",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.search` is mapped to FHIR R4 element `Bundle.entry.search`."
+              "comment" : "Element `Bundle.entry.search` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.search` has is mapped to FHIR R4 element `Bundle.entry.search`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.search.mode",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.search.mode` is mapped to FHIR R4 element `Bundle.entry.search.mode`."
+              "comment" : "Element `Bundle.entry.search.mode` is part of an existing definition because parent element `Bundle.entry.search` requires a cross-version extension.\nElement `Bundle.entry.search.mode` has is mapped to FHIR R4 element `Bundle.entry.search.mode`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.search.score",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.search.score` is mapped to FHIR R4 element `Bundle.entry.search.score`."
+              "comment" : "Element `Bundle.entry.search.score` is part of an existing definition because parent element `Bundle.entry.search` requires a cross-version extension.\nElement `Bundle.entry.search.score` has is mapped to FHIR R4 element `Bundle.entry.search.score`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.request` is mapped to FHIR R4 element `Bundle.entry.request`."
+              "comment" : "Element `Bundle.entry.request` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.request` has is mapped to FHIR R4 element `Bundle.entry.request`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.method",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.request.method` is mapped to FHIR R4 element `Bundle.entry.request.method`."
+              "comment" : "Element `Bundle.entry.request.method` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.method` has is mapped to FHIR R4 element `Bundle.entry.request.method`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.request.url` is mapped to FHIR R4 element `Bundle.entry.request.url`."
+              "comment" : "Element `Bundle.entry.request.url` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.url` has is mapped to FHIR R4 element `Bundle.entry.request.url`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifNoneMatch",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.request.ifNoneMatch` is mapped to FHIR R4 element `Bundle.entry.request.ifNoneMatch`."
+              "comment" : "Element `Bundle.entry.request.ifNoneMatch` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifNoneMatch` has is mapped to FHIR R4 element `Bundle.entry.request.ifNoneMatch`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifModifiedSince",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.request.ifModifiedSince` is mapped to FHIR R4 element `Bundle.entry.request.ifModifiedSince`."
+              "comment" : "Element `Bundle.entry.request.ifModifiedSince` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifModifiedSince` has is mapped to FHIR R4 element `Bundle.entry.request.ifModifiedSince`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifMatch",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.request.ifMatch` is mapped to FHIR R4 element `Bundle.entry.request.ifMatch`."
+              "comment" : "Element `Bundle.entry.request.ifMatch` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifMatch` has is mapped to FHIR R4 element `Bundle.entry.request.ifMatch`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.request.ifNoneExist",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.request.ifNoneExist` is mapped to FHIR R4 element `Bundle.entry.request.ifNoneExist`."
+              "comment" : "Element `Bundle.entry.request.ifNoneExist` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifNoneExist` has is mapped to FHIR R4 element `Bundle.entry.request.ifNoneExist`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.response` is mapped to FHIR R4 element `Bundle.entry.response`."
+              "comment" : "Element `Bundle.entry.response` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.response` has is mapped to FHIR R4 element `Bundle.entry.response`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.response.status` is mapped to FHIR R4 element `Bundle.entry.response.status`."
+              "comment" : "Element `Bundle.entry.response.status` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.status` has is mapped to FHIR R4 element `Bundle.entry.response.status`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.response.location` is mapped to FHIR R4 element `Bundle.entry.response.location`."
+              "comment" : "Element `Bundle.entry.response.location` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.location` has is mapped to FHIR R4 element `Bundle.entry.response.location`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.etag",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.response.etag` is mapped to FHIR R4 element `Bundle.entry.response.etag`."
+              "comment" : "Element `Bundle.entry.response.etag` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.etag` has is mapped to FHIR R4 element `Bundle.entry.response.etag`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.lastModified",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.response.lastModified` is mapped to FHIR R4 element `Bundle.entry.response.lastModified`."
+              "comment" : "Element `Bundle.entry.response.lastModified` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.lastModified` has is mapped to FHIR R4 element `Bundle.entry.response.lastModified`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.entry.response.outcome",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.entry.response.outcome` is mapped to FHIR R4 element `Bundle.entry.response.outcome`."
+              "comment" : "Element `Bundle.entry.response.outcome` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.outcome` has is mapped to FHIR R4 element `Bundle.entry.response.outcome`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle.signature",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.signature` is mapped to FHIR R4 element `Bundle.signature`."
+              "comment" : "Element `Bundle.signature` has is mapped to FHIR R4 element `Bundle.signature`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Bundle#Bundle",
               "equivalence" : "relatedto",
-              "comment" : "Element `Bundle.issues` is will have a context of Bundle based on following the parent source element upwards and mapping to `Bundle`."
+              "comment" : "Element `Bundle.issues` has a context of Bundle based on following the parent source element upwards and mapping to `Bundle`."
             }
           ]
         }

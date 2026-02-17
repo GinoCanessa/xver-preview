@@ -1,4 +1,4 @@
-# ProfileContract - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileContract - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileContract 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 Contract content to be represented via FHIR
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Implementation Guide
+* Refer to this Profile: [Cross-version Extension `R5.PaymentReconciliation.allocation` for use in FHIR R4](StructureDefinition-ext-R5-PaymentReconciliation.allocation.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-Contract)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Contract.
   "title" : "Cross-version Profile for R5.Contract for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0500691-06:00",
+  "date" : "2026-02-17T14:42:26.7741796-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -169,7 +169,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Contract.
         "path" : "Contract.extension",
         "sliceName" : "legallyBinding",
         "short" : "Cross-version extension for Contract.legallyBinding[x] from R5 for use in FHIR R4",
-        "comment" : "Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nElement `Contract.legallyBinding[x]` is mapped to FHIR R4 element `Contract.legallyBinding[x]`.\nNote that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.",
+        "comment" : "Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nElement `Contract.legallyBinding[x]` has is mapped to FHIR R4 element `Contract.legallyBinding[x]`, but has no comparisons.\nNote that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -192,7 +192,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Contract.
         "sliceName" : "legallyBindingCanonical",
         "short" : "Cross-version extension for Contract.legallyBinding[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4",
-        "comment" : "Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nElement `Contract.legallyBinding[x]` is mapped to FHIR R4 element `Contract.legallyBinding[x]`.\nNote that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.",
+        "comment" : "Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nElement `Contract.legallyBinding[x]` has is mapped to FHIR R4 element `Contract.legallyBinding[x]`, but has no comparisons.\nNote that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -215,7 +215,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Contract.
         "sliceName" : "legallyBindingReference",
         "short" : "Cross-version extension for Contract.legallyBinding[x] from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DocumentReference in FHIR R4",
-        "comment" : "Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nElement `Contract.legallyBinding[x]` is mapped to FHIR R4 element `Contract.legallyBinding[x]`.\nNote that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.",
+        "comment" : "Note that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.\nElement `Contract.legallyBinding[x]` has is mapped to FHIR R4 element `Contract.legallyBinding[x]`, but has no comparisons.\nNote that the target element context `Contract.legallyBinding[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Contract`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -233,8 +233,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Contract.
         ]
       },
       {
-        "id" : "Contract.term.asset.answer.extension",
-        "path" : "Contract.term.asset.answer.extension",
+        "id" : "Contract.contentDefinition.extension",
+        "path" : "Contract.contentDefinition.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -254,11 +254,54 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Contract.
         }
       },
       {
-        "id" : "Contract.term.asset.answer.extension:answer",
-        "path" : "Contract.term.asset.answer.extension",
-        "sliceName" : "answer",
-        "short" : "Cross-version extension for Contract.term.asset.answer from R5 for use in FHIR R4",
-        "comment" : "Element `Contract.term.asset.answer` is mapped to FHIR R4 element `Contract.term.asset.answer`.",
+        "id" : "Contract.contentDefinition.extension:contentDefinition",
+        "path" : "Contract.contentDefinition.extension",
+        "sliceName" : "contentDefinition",
+        "short" : "Cross-version extension for Contract.contentDefinition from R5 for use in FHIR R4",
+        "comment" : "Element `Contract.contentDefinition` has is mapped to FHIR R4 element `Contract.contentDefinition`, but has no comparisons.",
+        "min" : 0,
+        "max" : "1",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.contentDefinition|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Contract.term.extension",
+        "path" : "Contract.term.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Contract.term.extension:term",
+        "path" : "Contract.term.extension",
+        "sliceName" : "term",
+        "short" : "Cross-version extension for Contract.term from R5 for use in FHIR R4",
+        "comment" : "Element `Contract.term` has is mapped to FHIR R4 element `Contract.term`, but has no comparisons.\nNote available implied context: `Contract.term.group` because `Contract.term.group` is defined as a content reference to `Contract.term`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -270,7 +313,50 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Contract.
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term.asset.answer|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.term|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Contract.signer.extension",
+        "path" : "Contract.signer.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Contract.signer.extension:signer",
+        "path" : "Contract.signer.extension",
+        "sliceName" : "signer",
+        "short" : "Cross-version extension for Contract.signer from R5 for use in FHIR R4",
+        "comment" : "Element `Contract.signer` has is mapped to FHIR R4 element `Contract.signer`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Contract.signer|0.0.1-snapshot-3"
             ]
           }
         ]
@@ -301,7 +387,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Contract.
         "path" : "Contract.friendly.extension",
         "sliceName" : "friendly",
         "short" : "Cross-version extension for Contract.friendly from R5 for use in FHIR R4",
-        "comment" : "Element `Contract.friendly` is mapped to FHIR R4 element `Contract.friendly`.",
+        "comment" : "Element `Contract.friendly` has is mapped to FHIR R4 element `Contract.friendly`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -344,7 +430,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Contract.
         "path" : "Contract.legal.extension",
         "sliceName" : "legal",
         "short" : "Cross-version extension for Contract.legal from R5 for use in FHIR R4",
-        "comment" : "Element `Contract.legal` is mapped to FHIR R4 element `Contract.legal`.",
+        "comment" : "Element `Contract.legal` has is mapped to FHIR R4 element `Contract.legal`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -387,7 +473,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Contract.
         "path" : "Contract.rule.extension",
         "sliceName" : "rule",
         "short" : "Cross-version extension for Contract.rule from R5 for use in FHIR R4",
-        "comment" : "Element `Contract.rule` is mapped to FHIR R4 element `Contract.rule`.",
+        "comment" : "Element `Contract.rule` has is mapped to FHIR R4 element `Contract.rule`, but has no comparisons.",
         "min" : 0,
         "max" : "*",
         "base" : {

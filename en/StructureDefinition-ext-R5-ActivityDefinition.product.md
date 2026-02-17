@@ -1,4 +1,4 @@
-# ExtensionActivityDefinition_Product - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionActivityDefinition_Product - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.ActivityDefinition.product[x]` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActivityDe
   "title" : "Cross-version Extension `R5.ActivityDefinition.product[x]` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-ActivityDe
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ActivityDefinition.product[x]` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ActivityDefinition.product[x]` 0..1 `CodeableConcept, Reference(http://hl7.org/fhir/StructureDefinition/Medication,http://hl7.org/fhir/StructureDefinition/Ingredient,http://hl7.org/fhir/StructureDefinition/Substance,http://hl7.org/fhir/StructureDefinition/SubstanceDefinition)`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ActivityDefinition.product[x]` 0..1 `CodeableConcept, Reference(http://hl7.org/fhir/StructureDefinition/Medication,http://hl7.org/fhir/StructureDefinition/Ingredient,http://hl7.org/fhir/StructureDefinition/Substance,http://hl7.org/fhir/StructureDefinition/SubstanceDefinition)`\n*  R4B: `ActivityDefinition.product[x]` 0..1 `CodeableConcept, Reference(http://hl7.org/fhir/StructureDefinition/Medication,http://hl7.org/fhir/StructureDefinition/Substance,http://hl7.org/fhir/StructureDefinition/Ingredient)`\n*  R4: `ActivityDefinition.product[x]` 0..1 `CodeableConcept, Reference(http://hl7.org/fhir/StructureDefinition/Medication,http://hl7.org/fhir/StructureDefinition/Substance)`\r\n\r\nFollowing are the generation technical comments:\r\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.product[x]` is mapped to FHIR R4 element `ActivityDefinition.product[x]`.\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `ActivityDefinition.product[x]` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`ActivityDefinition.product[x]` 0..1 `CodeableConcept, Reference(http://hl7.org/fhir/StructureDefinition/Medication,http://hl7.org/fhir/StructureDefinition/Ingredient,http://hl7.org/fhir/StructureDefinition/Substance,http://hl7.org/fhir/StructureDefinition/SubstanceDefinition)`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `ActivityDefinition.product[x]` 0..1 `CodeableConcept, Reference(http://hl7.org/fhir/StructureDefinition/Medication,http://hl7.org/fhir/StructureDefinition/Ingredient,http://hl7.org/fhir/StructureDefinition/Substance,http://hl7.org/fhir/StructureDefinition/SubstanceDefinition)`\n*  R4B: `ActivityDefinition.product[x]` 0..1 `CodeableConcept, Reference(http://hl7.org/fhir/StructureDefinition/Medication,http://hl7.org/fhir/StructureDefinition/Substance,http://hl7.org/fhir/StructureDefinition/Ingredient)`\n*  R4: `ActivityDefinition.product[x]` 0..1 `CodeableConcept, Reference(http://hl7.org/fhir/StructureDefinition/Medication,http://hl7.org/fhir/StructureDefinition/Substance)`\r\n\r\nFollowing are the generation technical comments:\r\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.product[x]` has is mapped to FHIR R4 element `ActivityDefinition.product[x]`, but has no comparisons.\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {

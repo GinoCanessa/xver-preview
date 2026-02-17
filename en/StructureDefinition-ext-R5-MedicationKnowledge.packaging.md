@@ -1,4 +1,4 @@
-# ExtensionMedicationKnowledge_Packaging - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionMedicationKnowledge_Packaging - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.MedicationKnowledge.packaging` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
   "title" : "Cross-version Extension `R5.MedicationKnowledge.packaging` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicationKnowledge.packaging` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicationKnowledge.packaging` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicationKnowledge.packaging` 0..* `BackboneElement`\n*  R4B: `MedicationKnowledge.packaging` 0..1 `BackboneElement`\n*  R4: `MedicationKnowledge.packaging` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicationKnowledge.packaging` is mapped to FHIR R4 element `MedicationKnowledge.packaging`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `MedicationKnowledge.packaging` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`MedicationKnowledge.packaging` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `MedicationKnowledge.packaging` 0..* `BackboneElement`\n*  R4B: `MedicationKnowledge.packaging` 0..1 `BackboneElement`\n*  R4: `MedicationKnowledge.packaging` 0..1 `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `MedicationKnowledge.packaging` has is mapped to FHIR R4 element `MedicationKnowledge.packaging`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "cost",
         "short" : "Cost of the packaged medication",
         "definition" : "The cost of the packaged medication.",
-        "requirements" : "Element `MedicationKnowledge.packaging.cost` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
+        "requirements" : "Element `MedicationKnowledge.packaging.cost` is part of an existing definition because parent element `MedicationKnowledge.packaging` requires a cross-version extension.\nElement `MedicationKnowledge.packaging.cost` has a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -222,7 +222,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
         "sliceName" : "packagedProduct",
         "short" : "The packaged medication that is being priced",
         "definition" : "A reference to a PackagedProductDefinition that provides the details of the product that is in the packaging and is being priced.",
-        "requirements" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.packaging.packagedProduct` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.packaging.packagedProduct` is will have a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
+        "requirements" : "Element `MedicationKnowledge.packaging.packagedProduct` is part of an existing definition because parent element `MedicationKnowledge.packaging` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.packaging.packagedProduct` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationKnowledge.packaging.packagedProduct` has a context of MedicationKnowledge.packaging based on following the parent source element upwards and mapping to `MedicationKnowledge`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -241,7 +241,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Medication
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "packagedProduct"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.packaging.packagedProduct"
       },
       {
         "id" : "Extension.extension:packagedProduct.value[x]",

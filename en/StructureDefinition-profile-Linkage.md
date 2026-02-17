@@ -1,4 +1,4 @@
-# ProfileLinkage - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileLinkage - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileLinkage 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Linkage.c
   "title" : "Cross-version Profile for R5.Linkage for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.1830594-06:00",
+  "date" : "2026-02-17T14:42:26.8361834-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -137,6 +137,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Linkage.c
       {
         "id" : "Linkage",
         "path" : "Linkage"
+      },
+      {
+        "id" : "Linkage.item.extension",
+        "path" : "Linkage.item.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Linkage.item.extension:item",
+        "path" : "Linkage.item.extension",
+        "sliceName" : "item",
+        "short" : "Cross-version extension for Linkage.item from R5 for use in FHIR R4",
+        "comment" : "Element `Linkage.item` has is mapped to FHIR R4 element `Linkage.item`, but has no comparisons.",
+        "min" : 1,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Linkage.item|0.0.1-snapshot-3"
+            ]
+          }
+        ]
       }
     ]
   }

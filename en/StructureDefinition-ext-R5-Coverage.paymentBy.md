@@ -1,4 +1,4 @@
-# ExtensionCoverage_PaymentBy - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionCoverage_PaymentBy - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Coverage.paymentBy` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Coverage.p
   "title" : "Cross-version Extension `R5.Coverage.paymentBy` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Coverage.p
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Coverage.paymentBy` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Coverage.paymentBy` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Coverage.paymentBy` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Coverage.paymentBy` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Coverage.paymentBy` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Coverage.paymentBy` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Coverage.paymentBy` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Coverage.paymentBy` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Coverage.p
         "sliceName" : "party",
         "short" : "Parties performing self-payment",
         "definition" : "The list of parties providing non-insurance payment for the treatment costs.",
-        "requirements" : "Element `Coverage.paymentBy.party` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Coverage.paymentBy.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Coverage.paymentBy.party` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.",
+        "requirements" : "Element `Coverage.paymentBy.party` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Coverage.paymentBy.party` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Coverage.paymentBy.party` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Coverage.p
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "party"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy.party"
       },
       {
         "id" : "Extension.extension:party.value[x]",
@@ -237,7 +237,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Coverage.p
         "sliceName" : "responsibility",
         "short" : "Party's responsibility",
         "definition" : "Description of the financial responsibility.",
-        "requirements" : "Element `Coverage.paymentBy.responsibility` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nElement `Coverage.paymentBy.responsibility` is will have a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.",
+        "requirements" : "Element `Coverage.paymentBy.responsibility` is part of an existing definition because parent element `Coverage.paymentBy` requires a cross-version extension.\nElement `Coverage.paymentBy.responsibility` has a context of Coverage based on following the parent source element upwards and mapping to `Coverage`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -256,7 +256,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Coverage.p
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "responsibility"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Coverage.paymentBy.responsibility"
       },
       {
         "id" : "Extension.extension:responsibility.value[x]",

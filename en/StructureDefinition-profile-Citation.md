@@ -1,4 +1,4 @@
-# ProfileCitation - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileCitation - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileCitation 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Citation.
   "title" : "Cross-version Profile for R5.Citation for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.0133986-06:00",
+  "date" : "2026-02-17T14:42:26.7506671-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

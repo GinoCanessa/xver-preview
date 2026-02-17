@@ -1,4 +1,4 @@
-# Lookup for ProfileGroup - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Lookup for ProfileGroup - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Lookup for ProfileGroup
 
@@ -20,20 +20,20 @@ A computable version of the following element information is available in: [Conc
 | [`Group.contained`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.contained](https://hl7.org/fhir/R4/Group.html#resource) |
 | [`Group.identifier`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.identifier](https://hl7.org/fhir/R4/Group.html#resource) |
 | [`Group.active`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.active](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.type`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.type](https://hl7.org/fhir/R4/Group.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.type](StructureDefinition-ext-R5-Group.type.md) |
-| [`Group.membership`](https://hl7.org/fhir/R5/Group.html#resource) | [Group](https://hl7.org/fhir/R4/Group.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership](StructureDefinition-ext-R5-Group.membership.md) |
+| [`Group.type`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.type](https://hl7.org/fhir/R4/Group.html#resource)[Extension: ExtensionGroup_Type](StructureDefinition-ext-R5-Group.type.md) |
+| [`Group.membership`](https://hl7.org/fhir/R5/Group.html#resource) | [Extension: ExtensionGroup_Membership](StructureDefinition-ext-R5-Group.membership.md) |
 | [`Group.code`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.code](https://hl7.org/fhir/R4/Group.html#resource) |
 | [`Group.name`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.name](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.description`](https://hl7.org/fhir/R5/Group.html#resource) | [Group](https://hl7.org/fhir/R4/Group.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description](StructureDefinition-ext-R5-Group.description.md) |
+| [`Group.description`](https://hl7.org/fhir/R5/Group.html#resource) | [Extension: ExtensionGroup_Description](StructureDefinition-ext-R5-Group.description.md) |
 | [`Group.quantity`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.quantity](https://hl7.org/fhir/R4/Group.html#resource) |
 | [`Group.managingEntity`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.managingEntity](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.characteristic`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.characteristic.code`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic.code](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.characteristic.value[x]`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic.value[x]](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.characteristic.exclude`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic.exclude](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.characteristic.period`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic.period](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.member`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.member](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.member.entity`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.member.entity](https://hl7.org/fhir/R4/Group.html#resource)[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member.entity](StructureDefinition-ext-R5-Group.mem.entity.md) |
-| [`Group.member.period`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.member.period](https://hl7.org/fhir/R4/Group.html#resource) |
-| [`Group.member.inactive`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.member.inactive](https://hl7.org/fhir/R4/Group.html#resource) |
+| [`Group.characteristic`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic](https://hl7.org/fhir/R4/Group.html#resource)[Extension: ExtensionGroup_Characteristic](StructureDefinition-ext-R5-Group.characteristic.md) |
+| [`Group.characteristic.code`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic.code](https://hl7.org/fhir/R4/Group.html#resource)[Extension: ExtensionGroup_Characteristic Slice:code](StructureDefinition-ext-R5-Group.characteristic.md) |
+| [`Group.characteristic.value[x]`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic.value[x]](https://hl7.org/fhir/R4/Group.html#resource)[Extension: ExtensionGroup_Characteristic Slice:value](StructureDefinition-ext-R5-Group.characteristic.md) |
+| [`Group.characteristic.exclude`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic.exclude](https://hl7.org/fhir/R4/Group.html#resource)[Extension: ExtensionGroup_Characteristic Slice:exclude](StructureDefinition-ext-R5-Group.characteristic.md) |
+| [`Group.characteristic.period`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.characteristic.period](https://hl7.org/fhir/R4/Group.html#resource)[Extension: ExtensionGroup_Characteristic Slice:period](StructureDefinition-ext-R5-Group.characteristic.md) |
+| [`Group.member`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.member](https://hl7.org/fhir/R4/Group.html#resource)[Extension: ExtensionGroup_Member](StructureDefinition-ext-R5-Group.member.md) |
+| [`Group.member.entity`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.member.entity](https://hl7.org/fhir/R4/Group.html#resource)[http://hl7.org/fhir/StructureDefinition/alternate-reference](http://hl7.org/fhir/StructureDefinition/alternate-reference) |
+| [`Group.member.period`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.member.period](https://hl7.org/fhir/R4/Group.html#resource)[Extension: ExtensionGroup_Member Slice:period](StructureDefinition-ext-R5-Group.member.md) |
+| [`Group.member.inactive`](https://hl7.org/fhir/R5/Group.html#resource) | [Group.member.inactive](https://hl7.org/fhir/R4/Group.html#resource)[Extension: ExtensionGroup_Member Slice:inactive](StructureDefinition-ext-R5-Group.member.md) |
 

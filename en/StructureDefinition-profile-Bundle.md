@@ -1,4 +1,4 @@
-# ProfileBundle - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileBundle - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileBundle 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Bundle.cs
   "title" : "Cross-version Profile for R5.Bundle for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:42.9940113-06:00",
+  "date" : "2026-02-17T14:42:26.7411658-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -174,7 +174,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Bundle.cs
         "path" : "Bundle.extension",
         "sliceName" : "issues",
         "short" : "Cross-version extension for Bundle.issues from R5 for use in FHIR R4",
-        "comment" : "Element `Bundle.issues` is will have a context of Bundle based on following the parent source element upwards and mapping to `Bundle`.",
+        "comment" : "Element `Bundle.issues` has a context of Bundle based on following the parent source element upwards and mapping to `Bundle`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -217,7 +217,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Bundle.cs
         "path" : "Bundle.type.extension",
         "sliceName" : "type",
         "short" : "Cross-version extension for Bundle.type from R5 for use in FHIR R4",
-        "comment" : "Element `Bundle.type` is mapped to FHIR R4 element `Bundle.type`.",
+        "comment" : "Element `Bundle.type` has is mapped to FHIR R4 element `Bundle.type`, but has no comparisons.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -235,51 +235,8 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Bundle.cs
         ]
       },
       {
-        "id" : "Bundle.link.relation.extension",
-        "path" : "Bundle.link.relation.extension",
-        "slicing" : {
-          "discriminator" : [
-            {
-              "type" : "value",
-              "path" : "url"
-            }
-          ],
-          "ordered" : false,
-          "rules" : "open"
-        },
-        "min" : 1,
-        "max" : "*",
-        "base" : {
-          "path" : "Bundle.link.relation",
-          "min" : 0,
-          "max" : "*"
-        }
-      },
-      {
-        "id" : "Bundle.link.relation.extension:relation",
-        "path" : "Bundle.link.relation.extension",
-        "sliceName" : "relation",
-        "short" : "Cross-version extension for Bundle.link.relation from R5 for use in FHIR R4",
-        "comment" : "Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a component extension (e.g., if this element is used as a content reference).\nElement `Bundle.link.relation` is mapped to FHIR R4 element `Bundle.link.relation`.",
-        "min" : 1,
-        "max" : "1",
-        "base" : {
-          "path" : "DomainResource.extension",
-          "min" : 0,
-          "max" : "*"
-        },
-        "type" : [
-          {
-            "code" : "Extension",
-            "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link.relation|0.0.1-snapshot-3"
-            ]
-          }
-        ]
-      },
-      {
-        "id" : "Bundle.entry.link.extension",
-        "path" : "Bundle.entry.link.extension",
+        "id" : "Bundle.link.extension",
+        "path" : "Bundle.link.extension",
         "slicing" : {
           "discriminator" : [
             {
@@ -299,11 +256,11 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Bundle.cs
         }
       },
       {
-        "id" : "Bundle.entry.link.extension:link",
-        "path" : "Bundle.entry.link.extension",
+        "id" : "Bundle.link.extension:link",
+        "path" : "Bundle.link.extension",
         "sliceName" : "link",
-        "short" : "Cross-version extension for Bundle.entry.link from R5 for use in FHIR R4",
-        "comment" : "Element `Bundle.entry.link` is mapped to FHIR R4 element `Bundle.entry.link`.",
+        "short" : "Cross-version extension for Bundle.link from R5 for use in FHIR R4",
+        "comment" : "Element `Bundle.link` has is mapped to FHIR R4 element `Bundle.link`, but has no comparisons.\nNote available implied context: `Bundle.entry.link` because `Bundle.entry.link` is defined as a content reference to `Bundle.link`.",
         "min" : 0,
         "max" : "*",
         "base" : {
@@ -315,7 +272,50 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Bundle.cs
           {
             "code" : "Extension",
             "profile" : [
-              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.link|0.0.1-snapshot-3"
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link|0.0.1-snapshot-3"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "Bundle.entry.extension",
+        "path" : "Bundle.entry.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "Bundle.entry.extension:entry",
+        "path" : "Bundle.entry.extension",
+        "sliceName" : "entry",
+        "short" : "Cross-version extension for Bundle.entry from R5 for use in FHIR R4",
+        "comment" : "Element `Bundle.entry` has is mapped to FHIR R4 element `Bundle.entry`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry|0.0.1-snapshot-3"
             ]
           }
         ]

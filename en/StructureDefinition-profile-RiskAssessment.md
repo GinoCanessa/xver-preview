@@ -1,4 +1,4 @@
-# ProfileRiskAssessment - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileRiskAssessment - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileRiskAssessment 
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-RiskAsses
   "title" : "Cross-version Profile for R5.RiskAssessment for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.3144408-06:00",
+  "date" : "2026-02-17T14:42:26.8948803-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -180,7 +180,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-RiskAsses
         "sliceName" : "performer",
         "short" : "Cross-version extension for RiskAssessment.performer from R5 for use in FHIR R4",
         "definition" : "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4",
-        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RiskAssessment.performer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RiskAssessment.performer` is mapped to FHIR R4 element `RiskAssessment.performer`.",
+        "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RiskAssessment.performer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `RiskAssessment.performer` has is mapped to FHIR R4 element `RiskAssessment.performer`, but has no comparisons.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -193,6 +193,49 @@ Other representations of profile: [CSV](../StructureDefinition-profile-RiskAsses
             "code" : "Extension",
             "profile" : [
               "http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0"
+            ]
+          }
+        ]
+      },
+      {
+        "id" : "RiskAssessment.prediction.extension",
+        "path" : "RiskAssessment.prediction.extension",
+        "slicing" : {
+          "discriminator" : [
+            {
+              "type" : "value",
+              "path" : "url"
+            }
+          ],
+          "ordered" : false,
+          "rules" : "open"
+        },
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "Element.extension",
+          "min" : 0,
+          "max" : "*"
+        }
+      },
+      {
+        "id" : "RiskAssessment.prediction.extension:prediction",
+        "path" : "RiskAssessment.prediction.extension",
+        "sliceName" : "prediction",
+        "short" : "Cross-version extension for RiskAssessment.prediction from R5 for use in FHIR R4",
+        "comment" : "Element `RiskAssessment.prediction` has is mapped to FHIR R4 element `RiskAssessment.prediction`, but has no comparisons.",
+        "min" : 0,
+        "max" : "*",
+        "base" : {
+          "path" : "DomainResource.extension",
+          "min" : 0,
+          "max" : "*"
+        },
+        "type" : [
+          {
+            "code" : "Extension",
+            "profile" : [
+              "http://hl7.org/fhir/5.0/StructureDefinition/extension-RiskAssessment.prediction|0.0.1-snapshot-3"
             ]
           }
         ]

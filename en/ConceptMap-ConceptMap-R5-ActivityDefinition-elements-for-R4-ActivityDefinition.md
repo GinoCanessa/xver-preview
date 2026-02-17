@@ -1,4 +1,4 @@
-# ConceptMapR5ActivityDefinitionElementsForR4ActivityDefinition - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ActivityDefinitionElementsForR4ActivityDefinition - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ActivityDefinitionElementsForR4ActivityDefinition 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.4269899-06:00",
+  "date" : "2026-02-17T14:42:26.9580571-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ActivityDefinition` is representable via FHIR R4 Resource `ActivityDefinition`.\nElement `ActivityDefinition` is mapped to FHIR R4 element `ActivityDefinition`."
+              "comment" : "FHIR R5 Resource `ActivityDefinition` is representable via FHIR R4 Resource `ActivityDefinition`.\nElement `ActivityDefinition` has is mapped to FHIR R4 element `ActivityDefinition`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.meta` is mapped to FHIR R4 element `ActivityDefinition.meta`."
+              "comment" : "Element `ActivityDefinition.meta` has is mapped to FHIR R4 element `ActivityDefinition.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.implicitRules` is mapped to FHIR R4 element `ActivityDefinition.implicitRules`."
+              "comment" : "Element `ActivityDefinition.implicitRules` has is mapped to FHIR R4 element `ActivityDefinition.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.language` is mapped to FHIR R4 element `ActivityDefinition.language`."
+              "comment" : "Element `ActivityDefinition.language` has is mapped to FHIR R4 element `ActivityDefinition.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.text` is mapped to FHIR R4 element `ActivityDefinition.text`."
+              "comment" : "Element `ActivityDefinition.text` has is mapped to FHIR R4 element `ActivityDefinition.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.contained` is mapped to FHIR R4 element `ActivityDefinition.contained`."
+              "comment" : "Element `ActivityDefinition.contained` has is mapped to FHIR R4 element `ActivityDefinition.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.url` is mapped to FHIR R4 element `ActivityDefinition.url`."
+              "comment" : "Element `ActivityDefinition.url` has is mapped to FHIR R4 element `ActivityDefinition.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.identifier` is mapped to FHIR R4 element `ActivityDefinition.identifier`."
+              "comment" : "Element `ActivityDefinition.identifier` has is mapped to FHIR R4 element `ActivityDefinition.identifier`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.version` is mapped to FHIR R4 element `ActivityDefinition.version`."
+              "comment" : "Element `ActivityDefinition.version` has is mapped to FHIR R4 element `ActivityDefinition.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.versionAlgorithm[x]` is will have a context of ActivityDefinition based on following the parent source element upwards and mapping to `ActivityDefinition`."
+              "comment" : "Element `ActivityDefinition.versionAlgorithm[x]` has a context of ActivityDefinition based on following the parent source element upwards and mapping to `ActivityDefinition`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.name` is mapped to FHIR R4 element `ActivityDefinition.name`."
+              "comment" : "Element `ActivityDefinition.name` has is mapped to FHIR R4 element `ActivityDefinition.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.title` is mapped to FHIR R4 element `ActivityDefinition.title`."
+              "comment" : "Element `ActivityDefinition.title` has is mapped to FHIR R4 element `ActivityDefinition.title`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.subtitle",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.subtitle` is mapped to FHIR R4 element `ActivityDefinition.subtitle`."
+              "comment" : "Element `ActivityDefinition.subtitle` has is mapped to FHIR R4 element `ActivityDefinition.subtitle`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.status` is mapped to FHIR R4 element `ActivityDefinition.status`."
+              "comment" : "Element `ActivityDefinition.status` has is mapped to FHIR R4 element `ActivityDefinition.status`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.experimental` is mapped to FHIR R4 element `ActivityDefinition.experimental`."
+              "comment" : "Element `ActivityDefinition.experimental` has is mapped to FHIR R4 element `ActivityDefinition.experimental`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.subject[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.subject[x]` is mapped to FHIR R4 element `ActivityDefinition.subject[x]`.\nNote that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`."
+              "comment" : "Note that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.subject[x]` has is mapped to FHIR R4 element `ActivityDefinition.subject[x]`, but has no comparisons.\nNote that the target element context `ActivityDefinition.subject[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.date` is mapped to FHIR R4 element `ActivityDefinition.date`."
+              "comment" : "Element `ActivityDefinition.date` has is mapped to FHIR R4 element `ActivityDefinition.date`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.publisher` is mapped to FHIR R4 element `ActivityDefinition.publisher`."
+              "comment" : "Element `ActivityDefinition.publisher` has is mapped to FHIR R4 element `ActivityDefinition.publisher`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.contact` is mapped to FHIR R4 element `ActivityDefinition.contact`."
+              "comment" : "Element `ActivityDefinition.contact` has is mapped to FHIR R4 element `ActivityDefinition.contact`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.description` is mapped to FHIR R4 element `ActivityDefinition.description`."
+              "comment" : "Element `ActivityDefinition.description` has is mapped to FHIR R4 element `ActivityDefinition.description`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.useContext` is mapped to FHIR R4 element `ActivityDefinition.useContext`."
+              "comment" : "Element `ActivityDefinition.useContext` has is mapped to FHIR R4 element `ActivityDefinition.useContext`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.jurisdiction` is mapped to FHIR R4 element `ActivityDefinition.jurisdiction`."
+              "comment" : "Element `ActivityDefinition.jurisdiction` has is mapped to FHIR R4 element `ActivityDefinition.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.purpose` is mapped to FHIR R4 element `ActivityDefinition.purpose`."
+              "comment" : "Element `ActivityDefinition.purpose` has is mapped to FHIR R4 element `ActivityDefinition.purpose`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.usage",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.usage` is mapped to FHIR R4 element `ActivityDefinition.usage`."
+              "comment" : "Element `ActivityDefinition.usage` has is mapped to FHIR R4 element `ActivityDefinition.usage`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.copyright` is mapped to FHIR R4 element `ActivityDefinition.copyright`."
+              "comment" : "Element `ActivityDefinition.copyright` has is mapped to FHIR R4 element `ActivityDefinition.copyright`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.copyrightLabel` is will have a context of ActivityDefinition based on following the parent source element upwards and mapping to `ActivityDefinition`."
+              "comment" : "Element `ActivityDefinition.copyrightLabel` has a context of ActivityDefinition based on following the parent source element upwards and mapping to `ActivityDefinition`."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.approvalDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.approvalDate` is mapped to FHIR R4 element `ActivityDefinition.approvalDate`."
+              "comment" : "Element `ActivityDefinition.approvalDate` has is mapped to FHIR R4 element `ActivityDefinition.approvalDate`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.lastReviewDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.lastReviewDate` is mapped to FHIR R4 element `ActivityDefinition.lastReviewDate`."
+              "comment" : "Element `ActivityDefinition.lastReviewDate` has is mapped to FHIR R4 element `ActivityDefinition.lastReviewDate`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.effectivePeriod",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.effectivePeriod` is mapped to FHIR R4 element `ActivityDefinition.effectivePeriod`."
+              "comment" : "Element `ActivityDefinition.effectivePeriod` has is mapped to FHIR R4 element `ActivityDefinition.effectivePeriod`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.topic",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.topic` is mapped to FHIR R4 element `ActivityDefinition.topic`."
+              "comment" : "Element `ActivityDefinition.topic` has is mapped to FHIR R4 element `ActivityDefinition.topic`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.author",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.author` is mapped to FHIR R4 element `ActivityDefinition.author`."
+              "comment" : "Element `ActivityDefinition.author` has is mapped to FHIR R4 element `ActivityDefinition.author`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.editor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.editor` is mapped to FHIR R4 element `ActivityDefinition.editor`."
+              "comment" : "Element `ActivityDefinition.editor` has is mapped to FHIR R4 element `ActivityDefinition.editor`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.reviewer",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.reviewer` is mapped to FHIR R4 element `ActivityDefinition.reviewer`."
+              "comment" : "Element `ActivityDefinition.reviewer` has is mapped to FHIR R4 element `ActivityDefinition.reviewer`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.endorser",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.endorser` is mapped to FHIR R4 element `ActivityDefinition.endorser`."
+              "comment" : "Element `ActivityDefinition.endorser` has is mapped to FHIR R4 element `ActivityDefinition.endorser`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.relatedArtifact",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.relatedArtifact` is mapped to FHIR R4 element `ActivityDefinition.relatedArtifact`."
+              "comment" : "Element `ActivityDefinition.relatedArtifact` has is mapped to FHIR R4 element `ActivityDefinition.relatedArtifact`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.library",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.library` is mapped to FHIR R4 element `ActivityDefinition.library`."
+              "comment" : "Element `ActivityDefinition.library` has is mapped to FHIR R4 element `ActivityDefinition.library`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.kind",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.kind` is mapped to FHIR R4 element `ActivityDefinition.kind`."
+              "comment" : "Element `ActivityDefinition.kind` has is mapped to FHIR R4 element `ActivityDefinition.kind`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.profile",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.profile` is mapped to FHIR R4 element `ActivityDefinition.profile`."
+              "comment" : "Element `ActivityDefinition.profile` has is mapped to FHIR R4 element `ActivityDefinition.profile`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.code` is mapped to FHIR R4 element `ActivityDefinition.code`."
+              "comment" : "Element `ActivityDefinition.code` has is mapped to FHIR R4 element `ActivityDefinition.code`, but has no comparisons."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.intent",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.intent` is mapped to FHIR R4 element `ActivityDefinition.intent`."
+              "comment" : "Element `ActivityDefinition.intent` has is mapped to FHIR R4 element `ActivityDefinition.intent`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.priority",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.priority` is mapped to FHIR R4 element `ActivityDefinition.priority`."
+              "comment" : "Element `ActivityDefinition.priority` has is mapped to FHIR R4 element `ActivityDefinition.priority`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.doNotPerform",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.doNotPerform` is mapped to FHIR R4 element `ActivityDefinition.doNotPerform`."
+              "comment" : "Element `ActivityDefinition.doNotPerform` has is mapped to FHIR R4 element `ActivityDefinition.doNotPerform`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.timing[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ActivityDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.timing[x]` is mapped to FHIR R4 element `ActivityDefinition.timing[x]`.\nNote that the target element context `ActivityDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`."
+              "comment" : "Note that the target element context `ActivityDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.timing[x]` has is mapped to FHIR R4 element `ActivityDefinition.timing[x]`, but has no comparisons.\nNote that the target element context `ActivityDefinition.timing[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.asNeeded[x]` is will have a context of ActivityDefinition based on following the parent source element upwards and mapping to `ActivityDefinition`."
+              "comment" : "Element `ActivityDefinition.asNeeded[x]` has a context of ActivityDefinition based on following the parent source element upwards and mapping to `ActivityDefinition`."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.location` is mapped to FHIR R4 element `ActivityDefinition.location`."
+              "comment" : "Element `ActivityDefinition.location` has is mapped to FHIR R4 element `ActivityDefinition.location`, but has no comparisons."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.participant` is mapped to FHIR R4 element `ActivityDefinition.participant`."
+              "comment" : "Element `ActivityDefinition.participant` has is mapped to FHIR R4 element `ActivityDefinition.participant`, but has no comparisons."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.participant.type` is mapped to FHIR R4 element `ActivityDefinition.participant.type`."
+              "comment" : "Element `ActivityDefinition.participant.type` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.type` has is mapped to FHIR R4 element `ActivityDefinition.participant.type`, but has no comparisons."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.participant.typeCanonical` is will have a context of ActivityDefinition.participant based on following the parent source element upwards and mapping to `ActivityDefinition`."
+              "comment" : "Element `ActivityDefinition.participant.typeCanonical` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.participant.typeCanonical` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.participant.typeCanonical` has a context of ActivityDefinition.participant based on following the parent source element upwards and mapping to `ActivityDefinition`."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ActivityDefinition.participant.typeReference` is will have a context of ActivityDefinition.participant based on following the parent source element upwards and mapping to `ActivityDefinition`."
+              "comment" : "Element `ActivityDefinition.participant.typeReference` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.participant.typeReference` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `ActivityDefinition.participant.typeReference` has a context of ActivityDefinition.participant based on following the parent source element upwards and mapping to `ActivityDefinition`."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant.role",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.participant.role` is mapped to FHIR R4 element `ActivityDefinition.participant.role`."
+              "comment" : "Element `ActivityDefinition.participant.role` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.role` has is mapped to FHIR R4 element `ActivityDefinition.participant.role`, but has no comparisons."
             }
           ]
         },
@@ -635,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.participant.function` is will have a context of ActivityDefinition.participant based on following the parent source element upwards and mapping to `ActivityDefinition`."
+              "comment" : "Element `ActivityDefinition.participant.function` is part of an existing definition because parent element `ActivityDefinition.participant` requires a cross-version extension.\nElement `ActivityDefinition.participant.function` has a context of ActivityDefinition.participant based on following the parent source element upwards and mapping to `ActivityDefinition`."
             }
           ]
         },
@@ -646,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.product[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.product[x]` is mapped to FHIR R4 element `ActivityDefinition.product[x]`.\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`."
+              "comment" : "Note that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`.\nElement `ActivityDefinition.product[x]` has is mapped to FHIR R4 element `ActivityDefinition.product[x]`, but has no comparisons.\nNote that the target element context `ActivityDefinition.product[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ActivityDefinition`."
             }
           ]
         },
@@ -657,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.quantity",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.quantity` is mapped to FHIR R4 element `ActivityDefinition.quantity`."
+              "comment" : "Element `ActivityDefinition.quantity` has is mapped to FHIR R4 element `ActivityDefinition.quantity`, but has no comparisons."
             }
           ]
         },
@@ -668,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dosage",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.dosage` is mapped to FHIR R4 element `ActivityDefinition.dosage`."
+              "comment" : "Element `ActivityDefinition.dosage` has is mapped to FHIR R4 element `ActivityDefinition.dosage`, but has no comparisons."
             }
           ]
         },
@@ -679,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.bodySite",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.bodySite` is mapped to FHIR R4 element `ActivityDefinition.bodySite`."
+              "comment" : "Element `ActivityDefinition.bodySite` has is mapped to FHIR R4 element `ActivityDefinition.bodySite`, but has no comparisons."
             }
           ]
         },
@@ -690,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.specimenRequirement",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.specimenRequirement` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.specimenRequirement` is mapped to FHIR R4 element `ActivityDefinition.specimenRequirement`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.specimenRequirement` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.specimenRequirement` has is mapped to FHIR R4 element `ActivityDefinition.specimenRequirement`, but has no comparisons."
             }
           ]
         },
@@ -701,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.observationRequirement",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.observationRequirement` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.observationRequirement` is mapped to FHIR R4 element `ActivityDefinition.observationRequirement`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.observationRequirement` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.observationRequirement` has is mapped to FHIR R4 element `ActivityDefinition.observationRequirement`, but has no comparisons."
             }
           ]
         },
@@ -712,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.observationResultRequirement",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.observationResultRequirement` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.observationResultRequirement` is mapped to FHIR R4 element `ActivityDefinition.observationResultRequirement`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ActivityDefinition.observationResultRequirement` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `ActivityDefinition.observationResultRequirement` has is mapped to FHIR R4 element `ActivityDefinition.observationResultRequirement`, but has no comparisons."
             }
           ]
         },
@@ -723,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.transform",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.transform` is mapped to FHIR R4 element `ActivityDefinition.transform`."
+              "comment" : "Element `ActivityDefinition.transform` has is mapped to FHIR R4 element `ActivityDefinition.transform`, but has no comparisons."
             }
           ]
         },
@@ -734,7 +734,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dynamicValue",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.dynamicValue` is mapped to FHIR R4 element `ActivityDefinition.dynamicValue`."
+              "comment" : "Element `ActivityDefinition.dynamicValue` has is mapped to FHIR R4 element `ActivityDefinition.dynamicValue`, but has no comparisons."
             }
           ]
         },
@@ -745,7 +745,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dynamicValue.path",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.dynamicValue.path` is mapped to FHIR R4 element `ActivityDefinition.dynamicValue.path`."
+              "comment" : "Element `ActivityDefinition.dynamicValue.path` is part of an existing definition because parent element `ActivityDefinition.dynamicValue` requires a cross-version extension.\nElement `ActivityDefinition.dynamicValue.path` has is mapped to FHIR R4 element `ActivityDefinition.dynamicValue.path`, but has no comparisons."
             }
           ]
         },
@@ -756,7 +756,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ActivityDefinition#ActivityDefinition.dynamicValue.expression",
               "equivalence" : "relatedto",
-              "comment" : "Element `ActivityDefinition.dynamicValue.expression` is mapped to FHIR R4 element `ActivityDefinition.dynamicValue.expression`."
+              "comment" : "Element `ActivityDefinition.dynamicValue.expression` is part of an existing definition because parent element `ActivityDefinition.dynamicValue` requires a cross-version extension.\nElement `ActivityDefinition.dynamicValue.expression` has is mapped to FHIR R4 element `ActivityDefinition.dynamicValue.expression`, but has no comparisons."
             }
           ]
         }

@@ -121,7 +121,7 @@
   fhir:title [ fhir:v "Cross-version Profile for R5.CommunicationRequest for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-09T22:05:43.0321754-06:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-17T14:42:26.7655414-06:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -551,7 +551,7 @@
        fhir:sliceName [ fhir:v "intent" ] ;
        fhir:short [ fhir:v "Cross-version extension for CommunicationRequest.intent from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "Indicates the level of authority/intentionality associated with the CommunicationRequest and where the request fits into the workflow chain." ] ;
-       fhir:comment [ fhir:v "Element `CommunicationRequest.intent` is will have a context of CommunicationRequest based on following the parent source element upwards and mapping to `CommunicationRequest`." ] ;
+       fhir:comment [ fhir:v "Element `CommunicationRequest.intent` has a context of CommunicationRequest based on following the parent source element upwards and mapping to `CommunicationRequest`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1379,7 +1379,7 @@
        fhir:sliceName [ fhir:v "payload" ] ;
        fhir:short [ fhir:v "Cross-version extension for CommunicationRequest.payload from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "Text, attachment(s), or resource(s) to be communicated to the recipient." ] ;
-       fhir:comment [ fhir:v "Element `CommunicationRequest.payload` is mapped to FHIR R4 element `CommunicationRequest.payload`." ] ;
+       fhir:comment [ fhir:v "Element `CommunicationRequest.payload` has is mapped to FHIR R4 element `CommunicationRequest.payload`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1821,7 +1821,7 @@
        fhir:sliceName [ fhir:v "recipient" ] ;
        fhir:short [ fhir:v "Cross-version extension for CommunicationRequest.recipient from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.recipient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.recipient` is mapped to FHIR R4 element `CommunicationRequest.recipient`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.recipient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.recipient` has is mapped to FHIR R4 element `CommunicationRequest.recipient`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2187,7 +2187,7 @@
        fhir:sliceName [ fhir:v "informationProvider" ] ;
        fhir:short [ fhir:v "Cross-version extension for CommunicationRequest.informationProvider from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.informationProvider` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.informationProvider` is mapped to FHIR R4 element `CommunicationRequest.sender`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.informationProvider` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.informationProvider` has is mapped to FHIR R4 element `CommunicationRequest.sender`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2582,7 +2582,7 @@
        fhir:path [ fhir:v "CommunicationRequest.extension" ] ;
        fhir:sliceName [ fhir:v "intent" ] ;
        fhir:short [ fhir:v "Cross-version extension for CommunicationRequest.intent from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `CommunicationRequest.intent` is will have a context of CommunicationRequest based on following the parent source element upwards and mapping to `CommunicationRequest`." ] ;
+       fhir:comment [ fhir:v "Element `CommunicationRequest.intent` has a context of CommunicationRequest based on following the parent source element upwards and mapping to `CommunicationRequest`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -2623,7 +2623,7 @@
        fhir:path [ fhir:v "CommunicationRequest.payload.extension" ] ;
        fhir:sliceName [ fhir:v "payload" ] ;
        fhir:short [ fhir:v "Cross-version extension for CommunicationRequest.payload from R5 for use in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Element `CommunicationRequest.payload` is mapped to FHIR R4 element `CommunicationRequest.payload`." ] ;
+       fhir:comment [ fhir:v "Element `CommunicationRequest.payload` has is mapped to FHIR R4 element `CommunicationRequest.payload`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2665,7 +2665,7 @@
        fhir:sliceName [ fhir:v "recipient" ] ;
        fhir:short [ fhir:v "Cross-version extension for CommunicationRequest.recipient from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.recipient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.recipient` is mapped to FHIR R4 element `CommunicationRequest.recipient`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.recipient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.recipient` has is mapped to FHIR R4 element `CommunicationRequest.recipient`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2707,7 +2707,7 @@
        fhir:sliceName [ fhir:v "informationProvider" ] ;
        fhir:short [ fhir:v "Cross-version extension for CommunicationRequest.informationProvider from R5 for use in FHIR R4" ] ;
        fhir:definition [ fhir:v "This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4" ] ;
-       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.informationProvider` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.informationProvider` is mapped to FHIR R4 element `CommunicationRequest.sender`." ] ;
+       fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CommunicationRequest.informationProvider` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `CommunicationRequest.informationProvider` has is mapped to FHIR R4 element `CommunicationRequest.sender`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

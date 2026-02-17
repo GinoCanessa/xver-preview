@@ -1,4 +1,4 @@
-# ConceptMapR5SampledDataElementsForR4SampledData - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5SampledDataElementsForR4SampledData - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5SampledDataElementsForR4SampledData 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2062511-06:00",
+  "date" : "2026-02-17T14:42:27.5306274-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `SampledData` is representable via FHIR R4 extensions.\nElement `SampledData` is mapped to FHIR R4 element `SampledData`."
+              "comment" : "FHIR R5 ComplexType `SampledData` is representable via FHIR R4 extensions.\nElement `SampledData` has is mapped to FHIR R4 element `SampledData`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData.origin",
               "equivalence" : "relatedto",
-              "comment" : "Element `SampledData.origin` is mapped to FHIR R4 element `SampledData.origin`."
+              "comment" : "Element `SampledData.origin` has is mapped to FHIR R4 element `SampledData.origin`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `SampledData.interval` is mapped to FHIR R4 element `SampledData.period`."
+              "comment" : "Element `SampledData.interval` has is mapped to FHIR R4 element `SampledData.period`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData",
               "equivalence" : "relatedto",
-              "comment" : "Element `SampledData.intervalUnit` is will have a context of SampledData based on following the parent source element upwards and mapping to `SampledData`."
+              "comment" : "Element `SampledData.intervalUnit` has a context of SampledData based on following the parent source element upwards and mapping to `SampledData`."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData.factor",
               "equivalence" : "relatedto",
-              "comment" : "Element `SampledData.factor` is mapped to FHIR R4 element `SampledData.factor`."
+              "comment" : "Element `SampledData.factor` has is mapped to FHIR R4 element `SampledData.factor`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData.lowerLimit",
               "equivalence" : "relatedto",
-              "comment" : "Element `SampledData.lowerLimit` is mapped to FHIR R4 element `SampledData.lowerLimit`."
+              "comment" : "Element `SampledData.lowerLimit` has is mapped to FHIR R4 element `SampledData.lowerLimit`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData.upperLimit",
               "equivalence" : "relatedto",
-              "comment" : "Element `SampledData.upperLimit` is mapped to FHIR R4 element `SampledData.upperLimit`."
+              "comment" : "Element `SampledData.upperLimit` has is mapped to FHIR R4 element `SampledData.upperLimit`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData.dimensions",
               "equivalence" : "relatedto",
-              "comment" : "Element `SampledData.dimensions` is mapped to FHIR R4 element `SampledData.dimensions`."
+              "comment" : "Element `SampledData.dimensions` has is mapped to FHIR R4 element `SampledData.dimensions`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SampledData.codeMap` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `SampledData.codeMap` is will have a context of SampledData based on following the parent source element upwards and mapping to `SampledData`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `SampledData.codeMap` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `SampledData.codeMap` has a context of SampledData based on following the parent source element upwards and mapping to `SampledData`."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData",
               "equivalence" : "relatedto",
-              "comment" : "Element `SampledData.offsets` is will have a context of SampledData based on following the parent source element upwards and mapping to `SampledData`."
+              "comment" : "Element `SampledData.offsets` has a context of SampledData based on following the parent source element upwards and mapping to `SampledData`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/SampledData#SampledData.data",
               "equivalence" : "relatedto",
-              "comment" : "Element `SampledData.data` is mapped to FHIR R4 element `SampledData.data`."
+              "comment" : "Element `SampledData.data` has is mapped to FHIR R4 element `SampledData.data`, but has no comparisons."
             }
           ]
         }

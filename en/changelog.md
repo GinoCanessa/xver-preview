@@ -1,4 +1,4 @@
-# Change Log - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# Change Log - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Change Log
 
@@ -31,6 +31,7 @@
 * Added: use `alternate-canonical` to represent any canonical definition
 * Added: use `alternate-reference` to represent any reference definition
 * Added: use `alternate-canonical` and `alternate-reference` in place of specific parts of choice types.
+* Added: FAQ page
 
 ### 0.0.1-snapshot-2
 

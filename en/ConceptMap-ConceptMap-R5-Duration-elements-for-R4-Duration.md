@@ -1,4 +1,4 @@
-# ConceptMapR5DurationElementsForR4Duration - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5DurationElementsForR4Duration - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5DurationElementsForR4Duration 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.7953752-06:00",
+  "date" : "2026-02-17T14:42:27.2022853-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Duration#Duration",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Duration` is representable via FHIR R4 extensions.\nElement `Duration` is mapped to FHIR R4 element `Duration`."
+              "comment" : "FHIR R5 ComplexType `Duration` is representable via FHIR R4 extensions.\nElement `Duration` has is mapped to FHIR R4 element `Duration`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Duration#Duration.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Duration.value` is mapped to FHIR R4 element `Duration.value`."
+              "comment" : "Element `Duration.value` has is mapped to FHIR R4 element `Duration.value`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Duration#Duration.comparator",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Duration.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Duration.comparator` is mapped to FHIR R4 element `Duration.comparator`."
+              "comment" : "Note that the target element context `Duration.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Duration.comparator` has is mapped to FHIR R4 element `Duration.comparator`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Duration#Duration.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `Duration.unit` is mapped to FHIR R4 element `Duration.unit`."
+              "comment" : "Element `Duration.unit` has is mapped to FHIR R4 element `Duration.unit`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Duration#Duration.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Duration.system` is mapped to FHIR R4 element `Duration.system`."
+              "comment" : "Element `Duration.system` has is mapped to FHIR R4 element `Duration.system`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Duration#Duration.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Duration.code` is mapped to FHIR R4 element `Duration.code`."
+              "comment" : "Element `Duration.code` has is mapped to FHIR R4 element `Duration.code`, but has no comparisons."
             }
           ]
         }

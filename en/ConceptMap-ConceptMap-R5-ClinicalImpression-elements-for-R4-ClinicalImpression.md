@@ -1,4 +1,4 @@
-# ConceptMapR5ClinicalImpressionElementsForR4ClinicalImpression - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5ClinicalImpressionElementsForR4ClinicalImpression - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5ClinicalImpressionElementsForR4ClinicalImpression 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.6342934-06:00",
+  "date" : "2026-02-17T14:42:27.0685435-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `ClinicalImpression` is representable via FHIR R4 Resource `ClinicalImpression`.\nElement `ClinicalImpression` is mapped to FHIR R4 element `ClinicalImpression`."
+              "comment" : "FHIR R5 Resource `ClinicalImpression` is representable via FHIR R4 Resource `ClinicalImpression`.\nElement `ClinicalImpression` has is mapped to FHIR R4 element `ClinicalImpression`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.meta` is mapped to FHIR R4 element `ClinicalImpression.meta`."
+              "comment" : "Element `ClinicalImpression.meta` has is mapped to FHIR R4 element `ClinicalImpression.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.implicitRules` is mapped to FHIR R4 element `ClinicalImpression.implicitRules`."
+              "comment" : "Element `ClinicalImpression.implicitRules` has is mapped to FHIR R4 element `ClinicalImpression.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.language` is mapped to FHIR R4 element `ClinicalImpression.language`."
+              "comment" : "Element `ClinicalImpression.language` has is mapped to FHIR R4 element `ClinicalImpression.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.text` is mapped to FHIR R4 element `ClinicalImpression.text`."
+              "comment" : "Element `ClinicalImpression.text` has is mapped to FHIR R4 element `ClinicalImpression.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.contained` is mapped to FHIR R4 element `ClinicalImpression.contained`."
+              "comment" : "Element `ClinicalImpression.contained` has is mapped to FHIR R4 element `ClinicalImpression.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.identifier` is mapped to FHIR R4 element `ClinicalImpression.identifier`."
+              "comment" : "Element `ClinicalImpression.identifier` has is mapped to FHIR R4 element `ClinicalImpression.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.status",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ClinicalImpression.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ClinicalImpression.status` is mapped to FHIR R4 element `ClinicalImpression.status`."
+              "comment" : "Note that the target element context `ClinicalImpression.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `ClinicalImpression.status` has is mapped to FHIR R4 element `ClinicalImpression.status`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.statusReason",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.statusReason` is mapped to FHIR R4 element `ClinicalImpression.statusReason`."
+              "comment" : "Element `ClinicalImpression.statusReason` has is mapped to FHIR R4 element `ClinicalImpression.statusReason`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.description` is mapped to FHIR R4 element `ClinicalImpression.description`."
+              "comment" : "Element `ClinicalImpression.description` has is mapped to FHIR R4 element `ClinicalImpression.description`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.subject",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.subject` is mapped to FHIR R4 element `ClinicalImpression.subject`."
+              "comment" : "Element `ClinicalImpression.subject` has is mapped to FHIR R4 element `ClinicalImpression.subject`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.encounter",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.encounter` is mapped to FHIR R4 element `ClinicalImpression.encounter`."
+              "comment" : "Element `ClinicalImpression.encounter` has is mapped to FHIR R4 element `ClinicalImpression.encounter`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.effective[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `ClinicalImpression.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression`.\nElement `ClinicalImpression.effective[x]` is mapped to FHIR R4 element `ClinicalImpression.effective[x]`.\nNote that the target element context `ClinicalImpression.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression`."
+              "comment" : "Note that the target element context `ClinicalImpression.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression`.\nElement `ClinicalImpression.effective[x]` has is mapped to FHIR R4 element `ClinicalImpression.effective[x]`, but has no comparisons.\nNote that the target element context `ClinicalImpression.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `ClinicalImpression`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.date` is mapped to FHIR R4 element `ClinicalImpression.date`."
+              "comment" : "Element `ClinicalImpression.date` has is mapped to FHIR R4 element `ClinicalImpression.date`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.assessor",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.performer` is mapped to FHIR R4 element `ClinicalImpression.assessor`."
+              "comment" : "Element `ClinicalImpression.performer` has is mapped to FHIR R4 element `ClinicalImpression.assessor`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.previous",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.previous` is mapped to FHIR R4 element `ClinicalImpression.previous`."
+              "comment" : "Element `ClinicalImpression.previous` has is mapped to FHIR R4 element `ClinicalImpression.previous`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.problem",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.problem` is mapped to FHIR R4 element `ClinicalImpression.problem`."
+              "comment" : "Element `ClinicalImpression.problem` has is mapped to FHIR R4 element `ClinicalImpression.problem`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.changePattern` is will have a context of ClinicalImpression based on following the parent source element upwards and mapping to `ClinicalImpression`."
+              "comment" : "Element `ClinicalImpression.changePattern` has a context of ClinicalImpression based on following the parent source element upwards and mapping to `ClinicalImpression`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.protocol",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.protocol` is mapped to FHIR R4 element `ClinicalImpression.protocol`."
+              "comment" : "Element `ClinicalImpression.protocol` has is mapped to FHIR R4 element `ClinicalImpression.protocol`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.summary",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.summary` is mapped to FHIR R4 element `ClinicalImpression.summary`."
+              "comment" : "Element `ClinicalImpression.summary` has is mapped to FHIR R4 element `ClinicalImpression.summary`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.finding` is mapped to FHIR R4 element `ClinicalImpression.finding`."
+              "comment" : "Element `ClinicalImpression.finding` has is mapped to FHIR R4 element `ClinicalImpression.finding`, but has no comparisons."
             }
           ]
         },
@@ -316,12 +316,12 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.itemCodeableConcept",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.finding.item` is mapped to FHIR R4 element `ClinicalImpression.finding.itemCodeableConcept`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR R4 element `ClinicalImpression.finding.itemReference`."
+              "comment" : "Element `ClinicalImpression.finding.item` is part of an existing definition because parent element `ClinicalImpression.finding` requires a cross-version extension.\nElement `ClinicalImpression.finding.item` has is mapped to FHIR R4 element `ClinicalImpression.finding.itemCodeableConcept`, but has no comparisons.\nElement `ClinicalImpression.finding.item` has is mapped to FHIR R4 element `ClinicalImpression.finding.itemReference`, but has no comparisons."
             },
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.itemReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.finding.item` is mapped to FHIR R4 element `ClinicalImpression.finding.itemCodeableConcept`.\nElement `ClinicalImpression.finding.item` is mapped to FHIR R4 element `ClinicalImpression.finding.itemReference`."
+              "comment" : "Element `ClinicalImpression.finding.item` is part of an existing definition because parent element `ClinicalImpression.finding` requires a cross-version extension.\nElement `ClinicalImpression.finding.item` has is mapped to FHIR R4 element `ClinicalImpression.finding.itemCodeableConcept`, but has no comparisons.\nElement `ClinicalImpression.finding.item` has is mapped to FHIR R4 element `ClinicalImpression.finding.itemReference`, but has no comparisons."
             }
           ]
         },
@@ -332,7 +332,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.finding.basis",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.finding.basis` is mapped to FHIR R4 element `ClinicalImpression.finding.basis`."
+              "comment" : "Element `ClinicalImpression.finding.basis` is part of an existing definition because parent element `ClinicalImpression.finding` requires a cross-version extension.\nElement `ClinicalImpression.finding.basis` has is mapped to FHIR R4 element `ClinicalImpression.finding.basis`, but has no comparisons."
             }
           ]
         },
@@ -343,7 +343,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.prognosisCodeableConcept",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.prognosisCodeableConcept` is mapped to FHIR R4 element `ClinicalImpression.prognosisCodeableConcept`."
+              "comment" : "Element `ClinicalImpression.prognosisCodeableConcept` has is mapped to FHIR R4 element `ClinicalImpression.prognosisCodeableConcept`, but has no comparisons."
             }
           ]
         },
@@ -354,7 +354,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.prognosisReference",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.prognosisReference` is mapped to FHIR R4 element `ClinicalImpression.prognosisReference`."
+              "comment" : "Element `ClinicalImpression.prognosisReference` has is mapped to FHIR R4 element `ClinicalImpression.prognosisReference`, but has no comparisons."
             }
           ]
         },
@@ -365,7 +365,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.supportingInfo",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.supportingInfo` is mapped to FHIR R4 element `ClinicalImpression.supportingInfo`."
+              "comment" : "Element `ClinicalImpression.supportingInfo` has is mapped to FHIR R4 element `ClinicalImpression.supportingInfo`, but has no comparisons."
             }
           ]
         },
@@ -376,7 +376,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/ClinicalImpression#ClinicalImpression.note",
               "equivalence" : "relatedto",
-              "comment" : "Element `ClinicalImpression.note` is mapped to FHIR R4 element `ClinicalImpression.note`."
+              "comment" : "Element `ClinicalImpression.note` has is mapped to FHIR R4 element `ClinicalImpression.note`, but has no comparisons."
             }
           ]
         }

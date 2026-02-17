@@ -1,4 +1,4 @@
-# ConceptMapR5PractitionerRoleElementsForR4PractitionerRole - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5PractitionerRoleElementsForR4PractitionerRole - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5PractitionerRoleElementsForR4PractitionerRole 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1462838-06:00",
+  "date" : "2026-02-17T14:42:27.4823113-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `PractitionerRole` is representable via FHIR R4 Resource `PractitionerRole`.\nElement `PractitionerRole` is mapped to FHIR R4 element `PractitionerRole`."
+              "comment" : "FHIR R5 Resource `PractitionerRole` is representable via FHIR R4 Resource `PractitionerRole`.\nElement `PractitionerRole` has is mapped to FHIR R4 element `PractitionerRole`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.meta` is mapped to FHIR R4 element `PractitionerRole.meta`."
+              "comment" : "Element `PractitionerRole.meta` has is mapped to FHIR R4 element `PractitionerRole.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.implicitRules` is mapped to FHIR R4 element `PractitionerRole.implicitRules`."
+              "comment" : "Element `PractitionerRole.implicitRules` has is mapped to FHIR R4 element `PractitionerRole.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.language` is mapped to FHIR R4 element `PractitionerRole.language`."
+              "comment" : "Element `PractitionerRole.language` has is mapped to FHIR R4 element `PractitionerRole.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.text` is mapped to FHIR R4 element `PractitionerRole.text`."
+              "comment" : "Element `PractitionerRole.text` has is mapped to FHIR R4 element `PractitionerRole.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.contained` is mapped to FHIR R4 element `PractitionerRole.contained`."
+              "comment" : "Element `PractitionerRole.contained` has is mapped to FHIR R4 element `PractitionerRole.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.identifier` is mapped to FHIR R4 element `PractitionerRole.identifier`."
+              "comment" : "Element `PractitionerRole.identifier` has is mapped to FHIR R4 element `PractitionerRole.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.active",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.active` is mapped to FHIR R4 element `PractitionerRole.active`."
+              "comment" : "Element `PractitionerRole.active` has is mapped to FHIR R4 element `PractitionerRole.active`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.period",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.period` is mapped to FHIR R4 element `PractitionerRole.period`."
+              "comment" : "Element `PractitionerRole.period` has is mapped to FHIR R4 element `PractitionerRole.period`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.practitioner",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.practitioner` is mapped to FHIR R4 element `PractitionerRole.practitioner`."
+              "comment" : "Element `PractitionerRole.practitioner` has is mapped to FHIR R4 element `PractitionerRole.practitioner`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.organization",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.organization` is mapped to FHIR R4 element `PractitionerRole.organization`."
+              "comment" : "Element `PractitionerRole.organization` has is mapped to FHIR R4 element `PractitionerRole.organization`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.code` is mapped to FHIR R4 element `PractitionerRole.code`."
+              "comment" : "Element `PractitionerRole.code` has is mapped to FHIR R4 element `PractitionerRole.code`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.specialty",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.specialty` is mapped to FHIR R4 element `PractitionerRole.specialty`."
+              "comment" : "Element `PractitionerRole.specialty` has is mapped to FHIR R4 element `PractitionerRole.specialty`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.location",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.location` is mapped to FHIR R4 element `PractitionerRole.location`."
+              "comment" : "Element `PractitionerRole.location` has is mapped to FHIR R4 element `PractitionerRole.location`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.healthcareService",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.healthcareService` is mapped to FHIR R4 element `PractitionerRole.healthcareService`."
+              "comment" : "Element `PractitionerRole.healthcareService` has is mapped to FHIR R4 element `PractitionerRole.healthcareService`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.contact` is will have a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`."
+              "comment" : "Element `PractitionerRole.contact` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.characteristic` is will have a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`."
+              "comment" : "Element `PractitionerRole.characteristic` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.communication` is will have a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`."
+              "comment" : "Element `PractitionerRole.communication` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.availability` is will have a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`."
+              "comment" : "Element `PractitionerRole.availability` has a context of PractitionerRole based on following the parent source element upwards and mapping to `PractitionerRole`."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/PractitionerRole#PractitionerRole.endpoint",
               "equivalence" : "relatedto",
-              "comment" : "Element `PractitionerRole.endpoint` is mapped to FHIR R4 element `PractitionerRole.endpoint`."
+              "comment" : "Element `PractitionerRole.endpoint` has is mapped to FHIR R4 element `PractitionerRole.endpoint`, but has no comparisons."
             }
           ]
         }

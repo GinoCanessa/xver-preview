@@ -1,4 +1,4 @@
-# ConceptMapR5RangeElementsForR4Range - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5RangeElementsForR4Range - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5RangeElementsForR4Range 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.1675592-06:00",
+  "date" : "2026-02-17T14:42:27.4996848-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Range#Range",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Range` is representable via FHIR R4 extensions.\nElement `Range` is mapped to FHIR R4 element `Range`."
+              "comment" : "FHIR R5 ComplexType `Range` is representable via FHIR R4 extensions.\nElement `Range` has is mapped to FHIR R4 element `Range`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Range#Range.low",
               "equivalence" : "relatedto",
-              "comment" : "Element `Range.low` is mapped to FHIR R4 element `Range.low`."
+              "comment" : "Element `Range.low` has is mapped to FHIR R4 element `Range.low`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Range#Range.high",
               "equivalence" : "relatedto",
-              "comment" : "Element `Range.high` is mapped to FHIR R4 element `Range.high`."
+              "comment" : "Element `Range.high` has is mapped to FHIR R4 element `Range.high`, but has no comparisons."
             }
           ]
         }

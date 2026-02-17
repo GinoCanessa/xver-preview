@@ -1,4 +1,4 @@
-# ConceptMapR5TestReportElementsForR4TestReport - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5TestReportElementsForR4TestReport - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5TestReportElementsForR4TestReport 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.3069688-06:00",
+  "date" : "2026-02-17T14:42:27.6306735-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `TestReport` is representable via FHIR R4 Resource `TestReport`.\nElement `TestReport` is mapped to FHIR R4 element `TestReport`."
+              "comment" : "FHIR R5 Resource `TestReport` is representable via FHIR R4 Resource `TestReport`.\nElement `TestReport` has is mapped to FHIR R4 element `TestReport`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.meta` is mapped to FHIR R4 element `TestReport.meta`."
+              "comment" : "Element `TestReport.meta` has is mapped to FHIR R4 element `TestReport.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.implicitRules` is mapped to FHIR R4 element `TestReport.implicitRules`."
+              "comment" : "Element `TestReport.implicitRules` has is mapped to FHIR R4 element `TestReport.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.language` is mapped to FHIR R4 element `TestReport.language`."
+              "comment" : "Element `TestReport.language` has is mapped to FHIR R4 element `TestReport.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.text` is mapped to FHIR R4 element `TestReport.text`."
+              "comment" : "Element `TestReport.text` has is mapped to FHIR R4 element `TestReport.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.contained` is mapped to FHIR R4 element `TestReport.contained`."
+              "comment" : "Element `TestReport.contained` has is mapped to FHIR R4 element `TestReport.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.identifier` is mapped to FHIR R4 element `TestReport.identifier`."
+              "comment" : "Element `TestReport.identifier` has is mapped to FHIR R4 element `TestReport.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.name` is mapped to FHIR R4 element `TestReport.name`."
+              "comment" : "Element `TestReport.name` has is mapped to FHIR R4 element `TestReport.name`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.status` is mapped to FHIR R4 element `TestReport.status`."
+              "comment" : "Element `TestReport.status` has is mapped to FHIR R4 element `TestReport.status`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.testScript",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestReport.testScript` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestReport.testScript` is mapped to FHIR R4 element `TestReport.testScript`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TestReport.testScript` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `TestReport.testScript` has is mapped to FHIR R4 element `TestReport.testScript`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.result",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.result` is mapped to FHIR R4 element `TestReport.result`."
+              "comment" : "Element `TestReport.result` has is mapped to FHIR R4 element `TestReport.result`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.score",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.score` is mapped to FHIR R4 element `TestReport.score`."
+              "comment" : "Element `TestReport.score` has is mapped to FHIR R4 element `TestReport.score`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.tester",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.tester` is mapped to FHIR R4 element `TestReport.tester`."
+              "comment" : "Element `TestReport.tester` has is mapped to FHIR R4 element `TestReport.tester`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.issued",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.issued` is mapped to FHIR R4 element `TestReport.issued`."
+              "comment" : "Element `TestReport.issued` has is mapped to FHIR R4 element `TestReport.issued`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.participant` is mapped to FHIR R4 element `TestReport.participant`."
+              "comment" : "Element `TestReport.participant` has is mapped to FHIR R4 element `TestReport.participant`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant.type",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.participant.type` is mapped to FHIR R4 element `TestReport.participant.type`."
+              "comment" : "Element `TestReport.participant.type` is part of an existing definition because parent element `TestReport.participant` requires a cross-version extension.\nElement `TestReport.participant.type` has is mapped to FHIR R4 element `TestReport.participant.type`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant.uri",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.participant.uri` is mapped to FHIR R4 element `TestReport.participant.uri`."
+              "comment" : "Element `TestReport.participant.uri` is part of an existing definition because parent element `TestReport.participant` requires a cross-version extension.\nElement `TestReport.participant.uri` has is mapped to FHIR R4 element `TestReport.participant.uri`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.participant.display",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.participant.display` is mapped to FHIR R4 element `TestReport.participant.display`."
+              "comment" : "Element `TestReport.participant.display` is part of an existing definition because parent element `TestReport.participant` requires a cross-version extension.\nElement `TestReport.participant.display` has is mapped to FHIR R4 element `TestReport.participant.display`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup` is mapped to FHIR R4 element `TestReport.setup`."
+              "comment" : "Element `TestReport.setup` has is mapped to FHIR R4 element `TestReport.setup`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action` is mapped to FHIR R4 element `TestReport.setup.action`."
+              "comment" : "Element `TestReport.setup.action` is part of an existing definition because parent element `TestReport.setup` requires a cross-version extension.\nElement `TestReport.setup.action` has is mapped to FHIR R4 element `TestReport.setup.action`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action.operation` is mapped to FHIR R4 element `TestReport.setup.action.operation`."
+              "comment" : "Element `TestReport.setup.action.operation` is part of an existing definition because parent element `TestReport.setup.action` requires a cross-version extension.\nElement `TestReport.setup.action.operation` has is mapped to FHIR R4 element `TestReport.setup.action.operation`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation.result",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action.operation.result` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.result` is mapped to FHIR R4 element `TestReport.setup.action.operation.result`."
+              "comment" : "Element `TestReport.setup.action.operation.result` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a cross-version extension.\nElement `TestReport.setup.action.operation.result` has is mapped to FHIR R4 element `TestReport.setup.action.operation.result`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation.message",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action.operation.message` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.message` is mapped to FHIR R4 element `TestReport.setup.action.operation.message`."
+              "comment" : "Element `TestReport.setup.action.operation.message` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a cross-version extension.\nElement `TestReport.setup.action.operation.message` has is mapped to FHIR R4 element `TestReport.setup.action.operation.message`, but has no comparisons."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.operation.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action.operation.detail` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.operation.detail` is mapped to FHIR R4 element `TestReport.setup.action.operation.detail`."
+              "comment" : "Element `TestReport.setup.action.operation.detail` is part of an existing definition because parent element `TestReport.setup.action.operation` requires a cross-version extension.\nElement `TestReport.setup.action.operation.detail` has is mapped to FHIR R4 element `TestReport.setup.action.operation.detail`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action.assert` is mapped to FHIR R4 element `TestReport.setup.action.assert`."
+              "comment" : "Element `TestReport.setup.action.assert` is part of an existing definition because parent element `TestReport.setup.action` requires a cross-version extension.\nElement `TestReport.setup.action.assert` has is mapped to FHIR R4 element `TestReport.setup.action.assert`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert.result",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action.assert.result` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.result` is mapped to FHIR R4 element `TestReport.setup.action.assert.result`."
+              "comment" : "Element `TestReport.setup.action.assert.result` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.result` has is mapped to FHIR R4 element `TestReport.setup.action.assert.result`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert.message",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action.assert.message` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.message` is mapped to FHIR R4 element `TestReport.setup.action.assert.message`."
+              "comment" : "Element `TestReport.setup.action.assert.message` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.message` has is mapped to FHIR R4 element `TestReport.setup.action.assert.message`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert.detail",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action.assert.detail` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.detail` is mapped to FHIR R4 element `TestReport.setup.action.assert.detail`."
+              "comment" : "Element `TestReport.setup.action.assert.detail` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.detail` has is mapped to FHIR R4 element `TestReport.setup.action.assert.detail`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a component extension (e.g., if this element is used as a content reference).\nElement `TestReport.setup.action.assert.requirement` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`."
+              "comment" : "Element `TestReport.setup.action.assert.requirement` is part of an existing definition because parent element `TestReport.setup.action.assert` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement` has a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.setup.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` is will have a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`."
+              "comment" : "Element `TestReport.setup.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.setup.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.setup.action.assert.requirement.link[x]` has a context of TestReport.setup.action.assert based on following the parent source element upwards and mapping to `TestReport`."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test` is mapped to FHIR R4 element `TestReport.test`."
+              "comment" : "Element `TestReport.test` has is mapped to FHIR R4 element `TestReport.test`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.name` is mapped to FHIR R4 element `TestReport.test.name`."
+              "comment" : "Element `TestReport.test.name` is part of an existing definition because parent element `TestReport.test` requires a cross-version extension.\nElement `TestReport.test.name` has is mapped to FHIR R4 element `TestReport.test.name`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.description` is mapped to FHIR R4 element `TestReport.test.description`."
+              "comment" : "Element `TestReport.test.description` is part of an existing definition because parent element `TestReport.test` requires a cross-version extension.\nElement `TestReport.test.description` has is mapped to FHIR R4 element `TestReport.test.description`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action` is mapped to FHIR R4 element `TestReport.test.action`."
+              "comment" : "Element `TestReport.test.action` is part of an existing definition because parent element `TestReport.test` requires a cross-version extension.\nElement `TestReport.test.action` has is mapped to FHIR R4 element `TestReport.test.action`, but has no comparisons."
             }
           ]
         },
@@ -459,40 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action.operation` is mapped to FHIR R4 element `TestReport.test.action.operation`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.test.action.operation.result",
-          "display" : "result",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation.result",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action.operation.result` is mapped to FHIR R4 element `TestReport.test.action.operation.result`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.test.action.operation.message",
-          "display" : "message",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation.message",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action.operation.message` is mapped to FHIR R4 element `TestReport.test.action.operation.message`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.test.action.operation.detail",
-          "display" : "detail",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.operation.detail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action.operation.detail` is mapped to FHIR R4 element `TestReport.test.action.operation.detail`."
+              "comment" : "Element `TestReport.test.action.operation` is part of an existing definition because parent element `TestReport.test.action` requires a cross-version extension.\nElement `TestReport.test.action.operation` has is mapped to FHIR R4 element `TestReport.test.action.operation`, but has no comparisons."
             }
           ]
         },
@@ -503,29 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action.assert` is mapped to FHIR R4 element `TestReport.test.action.assert`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.test.action.assert.result",
-          "display" : "result",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert.result",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action.assert.result` is mapped to FHIR R4 element `TestReport.test.action.assert.result`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.test.action.assert.message",
-          "display" : "message",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert.message",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action.assert.message` is mapped to FHIR R4 element `TestReport.test.action.assert.message`."
+              "comment" : "Element `TestReport.test.action.assert` is part of an existing definition because parent element `TestReport.test.action` requires a cross-version extension.\nElement `TestReport.test.action.assert` has is mapped to FHIR R4 element `TestReport.test.action.assert`, but has no comparisons."
             }
           ]
         },
@@ -536,29 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.teardown` is mapped to FHIR R4 element `TestReport.teardown`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.test.action.assert.detail",
-          "display" : "detail",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert.detail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action.assert.detail` is mapped to FHIR R4 element `TestReport.test.action.assert.detail`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.test.action.assert.requirement",
-          "display" : "requirement",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action.assert.requirement` is will have a context of TestReport.test.action.assert based on following the parent source element upwards and mapping to `TestReport`."
+              "comment" : "Element `TestReport.teardown` has is mapped to FHIR R4 element `TestReport.teardown`, but has no comparisons."
             }
           ]
         },
@@ -569,18 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.teardown.action` is mapped to FHIR R4 element `TestReport.teardown.action`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.test.action.assert.requirement.link[x]",
-          "display" : "link[x]",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.test.action.assert",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.test.action.assert.requirement.link[x]` is part of an existing definition because parent element `TestReport.test.action.assert.requirement` requires a cross-version extension.\nElement `TestReport.test.action.assert.requirement.link[x]` is will have a context of TestReport.test.action.assert based on following the parent source element upwards and mapping to `TestReport`."
+              "comment" : "Element `TestReport.teardown.action` is part of an existing definition because parent element `TestReport.teardown` requires a cross-version extension.\nElement `TestReport.teardown.action` has is mapped to FHIR R4 element `TestReport.teardown.action`, but has no comparisons."
             }
           ]
         },
@@ -591,40 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation",
               "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.teardown.action.operation` is mapped to FHIR R4 element `TestReport.teardown.action.operation`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.teardown.action.operation.result",
-          "display" : "result",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation.result",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.teardown.action.operation.result` is mapped to FHIR R4 element `TestReport.teardown.action.operation.result`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.teardown.action.operation.message",
-          "display" : "message",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation.message",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.teardown.action.operation.message` is mapped to FHIR R4 element `TestReport.teardown.action.operation.message`."
-            }
-          ]
-        },
-        {
-          "code" : "TestReport.teardown.action.operation.detail",
-          "display" : "detail",
-          "target" : [
-            {
-              "code" : "http://hl7.org/fhir/StructureDefinition/TestReport#TestReport.teardown.action.operation.detail",
-              "equivalence" : "relatedto",
-              "comment" : "Element `TestReport.teardown.action.operation.detail` is mapped to FHIR R4 element `TestReport.teardown.action.operation.detail`."
+              "comment" : "Element `TestReport.teardown.action.operation` is part of an existing definition because parent element `TestReport.teardown.action` requires a cross-version extension.\nElement `TestReport.teardown.action.operation` has is mapped to FHIR R4 element `TestReport.teardown.action.operation`, but has no comparisons."
             }
           ]
         }

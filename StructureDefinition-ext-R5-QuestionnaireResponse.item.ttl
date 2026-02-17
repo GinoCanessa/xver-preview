@@ -130,7 +130,7 @@
   fhir:title [ fhir:v "Cross-version Extension `R5.QuestionnaireResponse.item` for use in FHIR R4"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-10T04:05:33.0136333+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-17T20:42:20.5370068+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "FHIR Infrastructure" ] ;
@@ -150,7 +150,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `QuestionnaireResponse.item` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`QuestionnaireResponse.item` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `QuestionnaireResponse.item` 0..* `BackboneElement`\n*  R4B: `QuestionnaireResponse.item` 0..* `BackboneElement`\n*  R4: `QuestionnaireResponse.item` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `QuestionnaireResponse.item` is mapped to FHIR R4 element `QuestionnaireResponse.item`."] ; # 
+  fhir:purpose [ fhir:v "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `QuestionnaireResponse.item` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`QuestionnaireResponse.item` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `QuestionnaireResponse.item` 0..* `BackboneElement`\n*  R4B: `QuestionnaireResponse.item` 0..* `BackboneElement`\n*  R4: `QuestionnaireResponse.item` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `QuestionnaireResponse.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item`, but has no comparisons.\nNote available implied context: `QuestionnaireResponse.item.answer.item` because `QuestionnaireResponse.item.answer.item` is defined as a content reference to `QuestionnaireResponse.item`.\nNote available implied context: `QuestionnaireResponse.item.item` because `QuestionnaireResponse.item.item` is defined as a content reference to `QuestionnaireResponse.item`."] ; # 
   fhir:fhirVersion [ fhir:v "4.0.1"] ; # 
   fhir:mapping ( [
      fhir:identity [ fhir:v "rim" ] ;
@@ -164,7 +164,7 @@
   fhir:abstract [ fhir:v false] ; # 
   fhir:context ( [
      fhir:type [ fhir:v "element" ] ;
-     fhir:expression [ fhir:v "Extension.extension" ]
+     fhir:expression [ fhir:v "QuestionnaireResponse.item" ]
   ] ) ; # 
   fhir:type [
      fhir:v "Extension"^^xsd:anyURI ;
@@ -314,7 +314,7 @@
        fhir:sliceName [ fhir:v "linkId" ] ;
        fhir:short [ fhir:v "Pointer to specific item from Questionnaire" ] ;
        fhir:definition [ fhir:v "The item from the Questionnaire that corresponds to this item in the QuestionnaireResponse resource." ] ;
-       fhir:requirements [ fhir:v "Items can repeat in the answers, so a direct 1..1 correspondence by position might not exist - requiring correspondence by identifier. Element `QuestionnaireResponse.item.linkId` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.linkId` is mapped to FHIR R4 element `QuestionnaireResponse.item.linkId`." ] ;
+       fhir:requirements [ fhir:v "Items can repeat in the answers, so a direct 1..1 correspondence by position might not exist - requiring correspondence by identifier. Element `QuestionnaireResponse.item.linkId` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.linkId` has is mapped to FHIR R4 element `QuestionnaireResponse.item.linkId`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -526,7 +526,7 @@
        fhir:short [ fhir:v "ElementDefinition - details for the item" ] ;
        fhir:definition [ fhir:v "A reference to an [ElementDefinition](https://hl7.org/fhir/elementdefinition.html) that provides the details for the item." ] ;
        fhir:comment [ fhir:v "The ElementDefinition must be in a [StructureDefinition](https://hl7.org/fhir/s.html#), and must have a fragment identifier that identifies the specific data element by its id (Element.id). E.g. http://hl7.org/fhir/StructureDefinition/Observation#Observation.value[x].\n\nThere is no need for this element if the item pointed to by the linkId has a definition listed." ] ;
-       fhir:requirements [ fhir:v "A common pattern is to define a set of data elements, and then build multiple different questionnaires for different circumstances to gather the data. This element provides traceability to the common definition. Element `QuestionnaireResponse.item.definition` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.definition` is mapped to FHIR R4 element `QuestionnaireResponse.item.definition`." ] ;
+       fhir:requirements [ fhir:v "A common pattern is to define a set of data elements, and then build multiple different questionnaires for different circumstances to gather the data. This element provides traceability to the common definition. Element `QuestionnaireResponse.item.definition` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.definition` has is mapped to FHIR R4 element `QuestionnaireResponse.item.definition`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -739,7 +739,7 @@
        fhir:short [ fhir:v "Name for group or question text" ] ;
        fhir:definition [ fhir:v "Text that is displayed above the contents of the group or as the text of the question being answered." ] ;
        fhir:comment [ fhir:v "The text for an item SHOULD be identical to the text from the corresponding Questionnaire.item. This can't be strictly enforced because it's possible for the Questionnaire to be updated subsequent to the QuestionnaireResponse having been created, however the intention is that the text in the QuestionnaireResponse reflects what the user saw when completing the Questionnaire." ] ;
-       fhir:requirements [ fhir:v "Allows the questionnaire response to be read without access to the questionnaire. Element `QuestionnaireResponse.item.text` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.text` is mapped to FHIR R4 element `QuestionnaireResponse.item.text`." ] ;
+       fhir:requirements [ fhir:v "Allows the questionnaire response to be read without access to the questionnaire. Element `QuestionnaireResponse.item.text` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.text` has is mapped to FHIR R4 element `QuestionnaireResponse.item.text`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -952,7 +952,7 @@
        fhir:short [ fhir:v "The response(s) to the question" ] ;
        fhir:definition [ fhir:v "The respondent's answer(s) to the question." ] ;
        fhir:comment [ fhir:v "The value is nested because we cannot have a repeating structure that has variable type." ] ;
-       fhir:requirements [ fhir:v "Element `QuestionnaireResponse.item.answer` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.answer` is mapped to FHIR R4 element `QuestionnaireResponse.item.answer`." ] ;
+       fhir:requirements [ fhir:v "Element `QuestionnaireResponse.item.answer` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -1082,7 +1082,7 @@
        fhir:short [ fhir:v "Single-valued answer to the question" ] ;
        fhir:definition [ fhir:v "The answer (or one of the answers) provided by the respondent to the question." ] ;
        fhir:comment [ fhir:v "More complex structures (Attachment, Resource and Quantity) will typically be limited to electronic forms that can expose an appropriate user interface to capture the components and enforce the constraints of a complex data type.  Additional complex types can be introduced through extensions. Must match the datatype specified by Questionnaire.item.type in the corresponding Questionnaire.     Note that a question is answered using one of the possible choices defined with answerOption, answerValueSet or some other means and the answer has a complex data type, all elements within the answer in the QuestionnaireResponse **SHOULD** match the elements defined corresponding choice value in the Questionnaire.  However, it is possible that not all elements will be propagated.  Also, some systems might use language translations resulting in different displays.  Comparison of value to the values defined in the Questionnaire (whether by answerOption, answerValueSet or answerExpression) **SHALL NOT** pay attention to Coding.display, Reference.display, Quantity.unit unless those are the only elements present.  As well, systems are not required to check for a match on any extensions (e.g. ordinal values, translations, etc.).  Systems **MAY** enforce that if extensions such as ordinal values are present in both Questionnaire and QuestionnaireResponse, they match." ] ;
-       fhir:requirements [ fhir:v "Ability to retain a single-valued answer to a question. Note that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.\nElement `QuestionnaireResponse.item.answer.value[x]` is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.value[x]`.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`." ] ;
+       fhir:requirements [ fhir:v "Ability to retain a single-valued answer to a question. Element `QuestionnaireResponse.item.answer.value[x]` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.\nElement `QuestionnaireResponse.item.answer.value[x]` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.value[x]`, but has no comparisons.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -1369,7 +1369,7 @@
        fhir:short [ fhir:v "Child items of question" ] ;
        fhir:definition [ fhir:v "Nested groups and/or questions found within this particular answer." ] ;
        fhir:comment [ fhir:v "Only used when nesting beneath a question - see item.item for nesting beneath groups" ] ;
-       fhir:requirements [ fhir:v "It is useful to have \"sub-questions\", questions which normally appear when certain answers are given and which collect additional details. Element `QuestionnaireResponse.item.answer.item` is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.item`." ] ;
+       fhir:requirements [ fhir:v "It is useful to have \"sub-questions\", questions which normally appear when certain answers are given and which collect additional details. Element `QuestionnaireResponse.item.answer.item` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.item`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2148,7 +2148,7 @@
        fhir:short [ fhir:v "Child items of group item" ] ;
        fhir:definition [ fhir:v "Sub-questions, sub-groups or display items nested beneath a group." ] ;
        fhir:comment [ fhir:v "Only used when nesting beneath a group - see item.answer.item for nesting beneath questions" ] ;
-       fhir:requirements [ fhir:v "Reports can consist of complex nested groups. Element `QuestionnaireResponse.item.item` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.item` is mapped to FHIR R4 element `QuestionnaireResponse.item.item`." ] ;
+       fhir:requirements [ fhir:v "Reports can consist of complex nested groups. Element `QuestionnaireResponse.item.item` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.item`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -2961,7 +2961,7 @@
        fhir:sliceName [ fhir:v "linkId" ] ;
        fhir:short [ fhir:v "Pointer to specific item from Questionnaire" ] ;
        fhir:definition [ fhir:v "The item from the Questionnaire that corresponds to this item in the QuestionnaireResponse resource." ] ;
-       fhir:requirements [ fhir:v "Items can repeat in the answers, so a direct 1..1 correspondence by position might not exist - requiring correspondence by identifier. Element `QuestionnaireResponse.item.linkId` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.linkId` is mapped to FHIR R4 element `QuestionnaireResponse.item.linkId`." ] ;
+       fhir:requirements [ fhir:v "Items can repeat in the answers, so a direct 1..1 correspondence by position might not exist - requiring correspondence by identifier. Element `QuestionnaireResponse.item.linkId` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.linkId` has is mapped to FHIR R4 element `QuestionnaireResponse.item.linkId`, but has no comparisons." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3009,7 +3009,7 @@
        fhir:short [ fhir:v "ElementDefinition - details for the item" ] ;
        fhir:definition [ fhir:v "A reference to an [ElementDefinition](https://hl7.org/fhir/elementdefinition.html) that provides the details for the item." ] ;
        fhir:comment [ fhir:v "The ElementDefinition must be in a [StructureDefinition](https://hl7.org/fhir/s.html#), and must have a fragment identifier that identifies the specific data element by its id (Element.id). E.g. http://hl7.org/fhir/StructureDefinition/Observation#Observation.value[x].\n\nThere is no need for this element if the item pointed to by the linkId has a definition listed." ] ;
-       fhir:requirements [ fhir:v "A common pattern is to define a set of data elements, and then build multiple different questionnaires for different circumstances to gather the data. This element provides traceability to the common definition. Element `QuestionnaireResponse.item.definition` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.definition` is mapped to FHIR R4 element `QuestionnaireResponse.item.definition`." ] ;
+       fhir:requirements [ fhir:v "A common pattern is to define a set of data elements, and then build multiple different questionnaires for different circumstances to gather the data. This element provides traceability to the common definition. Element `QuestionnaireResponse.item.definition` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.definition` has is mapped to FHIR R4 element `QuestionnaireResponse.item.definition`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3058,7 +3058,7 @@
        fhir:short [ fhir:v "Name for group or question text" ] ;
        fhir:definition [ fhir:v "Text that is displayed above the contents of the group or as the text of the question being answered." ] ;
        fhir:comment [ fhir:v "The text for an item SHOULD be identical to the text from the corresponding Questionnaire.item. This can't be strictly enforced because it's possible for the Questionnaire to be updated subsequent to the QuestionnaireResponse having been created, however the intention is that the text in the QuestionnaireResponse reflects what the user saw when completing the Questionnaire." ] ;
-       fhir:requirements [ fhir:v "Allows the questionnaire response to be read without access to the questionnaire. Element `QuestionnaireResponse.item.text` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.text` is mapped to FHIR R4 element `QuestionnaireResponse.item.text`." ] ;
+       fhir:requirements [ fhir:v "Allows the questionnaire response to be read without access to the questionnaire. Element `QuestionnaireResponse.item.text` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.text` has is mapped to FHIR R4 element `QuestionnaireResponse.item.text`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3107,7 +3107,7 @@
        fhir:short [ fhir:v "The response(s) to the question" ] ;
        fhir:definition [ fhir:v "The respondent's answer(s) to the question." ] ;
        fhir:comment [ fhir:v "The value is nested because we cannot have a repeating structure that has variable type." ] ;
-       fhir:requirements [ fhir:v "Element `QuestionnaireResponse.item.answer` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.answer` is mapped to FHIR R4 element `QuestionnaireResponse.item.answer`." ] ;
+       fhir:requirements [ fhir:v "Element `QuestionnaireResponse.item.answer` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3140,7 +3140,7 @@
        fhir:short [ fhir:v "Single-valued answer to the question" ] ;
        fhir:definition [ fhir:v "The answer (or one of the answers) provided by the respondent to the question." ] ;
        fhir:comment [ fhir:v "More complex structures (Attachment, Resource and Quantity) will typically be limited to electronic forms that can expose an appropriate user interface to capture the components and enforce the constraints of a complex data type.  Additional complex types can be introduced through extensions. Must match the datatype specified by Questionnaire.item.type in the corresponding Questionnaire.     Note that a question is answered using one of the possible choices defined with answerOption, answerValueSet or some other means and the answer has a complex data type, all elements within the answer in the QuestionnaireResponse **SHOULD** match the elements defined corresponding choice value in the Questionnaire.  However, it is possible that not all elements will be propagated.  Also, some systems might use language translations resulting in different displays.  Comparison of value to the values defined in the Questionnaire (whether by answerOption, answerValueSet or answerExpression) **SHALL NOT** pay attention to Coding.display, Reference.display, Quantity.unit unless those are the only elements present.  As well, systems are not required to check for a match on any extensions (e.g. ordinal values, translations, etc.).  Systems **MAY** enforce that if extensions such as ordinal values are present in both Questionnaire and QuestionnaireResponse, they match." ] ;
-       fhir:requirements [ fhir:v "Ability to retain a single-valued answer to a question. Note that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.\nElement `QuestionnaireResponse.item.answer.value[x]` is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.value[x]`.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`." ] ;
+       fhir:requirements [ fhir:v "Ability to retain a single-valued answer to a question. Element `QuestionnaireResponse.item.answer.value[x]` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.\nElement `QuestionnaireResponse.item.answer.value[x]` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.value[x]`, but has no comparisons.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`." ] ;
        fhir:min [ fhir:v "1"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "1" ] ;
        fhir:base [
@@ -3263,7 +3263,7 @@
        fhir:short [ fhir:v "Child items of question" ] ;
        fhir:definition [ fhir:v "Nested groups and/or questions found within this particular answer." ] ;
        fhir:comment [ fhir:v "Only used when nesting beneath a question - see item.item for nesting beneath groups" ] ;
-       fhir:requirements [ fhir:v "It is useful to have \"sub-questions\", questions which normally appear when certain answers are given and which collect additional details. Element `QuestionnaireResponse.item.answer.item` is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.item`." ] ;
+       fhir:requirements [ fhir:v "It is useful to have \"sub-questions\", questions which normally appear when certain answers are given and which collect additional details. Element `QuestionnaireResponse.item.answer.item` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.item`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [
@@ -3328,7 +3328,7 @@
        fhir:short [ fhir:v "Child items of group item" ] ;
        fhir:definition [ fhir:v "Sub-questions, sub-groups or display items nested beneath a group." ] ;
        fhir:comment [ fhir:v "Only used when nesting beneath a group - see item.answer.item for nesting beneath questions" ] ;
-       fhir:requirements [ fhir:v "Reports can consist of complex nested groups. Element `QuestionnaireResponse.item.item` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a component extension (e.g., if this element is used as a content reference).\nElement `QuestionnaireResponse.item.item` is mapped to FHIR R4 element `QuestionnaireResponse.item.item`." ] ;
+       fhir:requirements [ fhir:v "Reports can consist of complex nested groups. Element `QuestionnaireResponse.item.item` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.item`, but has no comparisons." ] ;
        fhir:min [ fhir:v "0"^^xsd:nonNegativeInteger ] ;
        fhir:max [ fhir:v "*" ] ;
        fhir:base [

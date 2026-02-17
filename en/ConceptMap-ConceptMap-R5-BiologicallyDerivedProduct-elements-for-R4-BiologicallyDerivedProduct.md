@@ -1,4 +1,4 @@
-# ConceptMapR5BiologicallyDerivedProductElementsForR4BiologicallyDerivedProduct - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5BiologicallyDerivedProductElementsForR4BiologicallyDerivedProduct - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5BiologicallyDerivedProductElementsForR4BiologicallyDerivedProduct 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.4923977-06:00",
+  "date" : "2026-02-17T14:42:27.0005263-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `BiologicallyDerivedProduct` is representable via FHIR R4 Resource `BiologicallyDerivedProduct`.\nElement `BiologicallyDerivedProduct` is mapped to FHIR R4 element `BiologicallyDerivedProduct`."
+              "comment" : "FHIR R5 Resource `BiologicallyDerivedProduct` is representable via FHIR R4 Resource `BiologicallyDerivedProduct`.\nElement `BiologicallyDerivedProduct` has is mapped to FHIR R4 element `BiologicallyDerivedProduct`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.meta` is mapped to FHIR R4 element `BiologicallyDerivedProduct.meta`."
+              "comment" : "Element `BiologicallyDerivedProduct.meta` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.implicitRules` is mapped to FHIR R4 element `BiologicallyDerivedProduct.implicitRules`."
+              "comment" : "Element `BiologicallyDerivedProduct.implicitRules` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.language` is mapped to FHIR R4 element `BiologicallyDerivedProduct.language`."
+              "comment" : "Element `BiologicallyDerivedProduct.language` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.text` is mapped to FHIR R4 element `BiologicallyDerivedProduct.text`."
+              "comment" : "Element `BiologicallyDerivedProduct.text` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.contained` is mapped to FHIR R4 element `BiologicallyDerivedProduct.contained`."
+              "comment" : "Element `BiologicallyDerivedProduct.contained` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.productCategory",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.productCategory` is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCategory`."
+              "comment" : "Element `BiologicallyDerivedProduct.productCategory` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCategory`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.productCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.productCode` is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCode`."
+              "comment" : "Element `BiologicallyDerivedProduct.productCode` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.productCode`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.parent",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.parent` is mapped to FHIR R4 element `BiologicallyDerivedProduct.parent`."
+              "comment" : "Element `BiologicallyDerivedProduct.parent` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.parent`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.request",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.request` is mapped to FHIR R4 element `BiologicallyDerivedProduct.request`."
+              "comment" : "Element `BiologicallyDerivedProduct.request` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.request`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.identifier` is mapped to FHIR R4 element `BiologicallyDerivedProduct.identifier`."
+              "comment" : "Element `BiologicallyDerivedProduct.identifier` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.identifier`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.biologicalSourceEvent` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
+              "comment" : "Element `BiologicallyDerivedProduct.biologicalSourceEvent` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `BiologicallyDerivedProduct.processingFacility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `BiologicallyDerivedProduct.processingFacility` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `BiologicallyDerivedProduct.processingFacility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `BiologicallyDerivedProduct.processingFacility` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.division` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
+              "comment" : "Element `BiologicallyDerivedProduct.division` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.productStatus` is mapped to FHIR R4 element `BiologicallyDerivedProduct.status`."
+              "comment" : "Element `BiologicallyDerivedProduct.productStatus` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.status`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.expirationDate` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
+              "comment" : "Element `BiologicallyDerivedProduct.expirationDate` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.collection",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.collection` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection`."
+              "comment" : "Element `BiologicallyDerivedProduct.collection` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.collection.collector",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.collection.collector` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.collector`."
+              "comment" : "Element `BiologicallyDerivedProduct.collection.collector` is part of an existing definition because parent element `BiologicallyDerivedProduct.collection` requires a cross-version extension.\nElement `BiologicallyDerivedProduct.collection.collector` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.collector`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.collection.source",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.collection.source` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.source`."
+              "comment" : "Element `BiologicallyDerivedProduct.collection.source` is part of an existing definition because parent element `BiologicallyDerivedProduct.collection` requires a cross-version extension.\nElement `BiologicallyDerivedProduct.collection.source` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.source`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct.collection.collected[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `BiologicallyDerivedProduct.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `BiologicallyDerivedProduct.collection`.\nElement `BiologicallyDerivedProduct.collection.collected[x]` is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.collected[x]`.\nNote that the target element context `BiologicallyDerivedProduct.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `BiologicallyDerivedProduct.collection`."
+              "comment" : "Element `BiologicallyDerivedProduct.collection.collected[x]` is part of an existing definition because parent element `BiologicallyDerivedProduct.collection` requires a cross-version extension.\nNote that the target element context `BiologicallyDerivedProduct.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `BiologicallyDerivedProduct.collection`.\nElement `BiologicallyDerivedProduct.collection.collected[x]` has is mapped to FHIR R4 element `BiologicallyDerivedProduct.collection.collected[x]`, but has no comparisons.\nNote that the target element context `BiologicallyDerivedProduct.collection.collected[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `BiologicallyDerivedProduct.collection`."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.storageTempRequirements` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
+              "comment" : "Element `BiologicallyDerivedProduct.storageTempRequirements` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.property` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
+              "comment" : "Element `BiologicallyDerivedProduct.property` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.property.type` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.\nElement `BiologicallyDerivedProduct.property.type` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
+              "comment" : "Element `BiologicallyDerivedProduct.property.type` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.\nElement `BiologicallyDerivedProduct.property.type` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/BiologicallyDerivedProduct#BiologicallyDerivedProduct",
               "equivalence" : "relatedto",
-              "comment" : "Element `BiologicallyDerivedProduct.property.value[x]` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.\nElement `BiologicallyDerivedProduct.property.value[x]` is will have a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
+              "comment" : "Element `BiologicallyDerivedProduct.property.value[x]` is part of an existing definition because parent element `BiologicallyDerivedProduct.property` requires a cross-version extension.\nElement `BiologicallyDerivedProduct.property.value[x]` has a context of BiologicallyDerivedProduct based on following the parent source element upwards and mapping to `BiologicallyDerivedProduct`."
             }
           ]
         }

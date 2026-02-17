@@ -1,4 +1,4 @@
-# ExtensionDataRequirement_ValueFilter - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionDataRequirement_ValueFilter - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.DataRequirement.valueFilter` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DataRequir
   "title" : "Cross-version Extension `R5.DataRequirement.valueFilter` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DataRequir
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DataRequirement.valueFilter` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DataRequirement.valueFilter` 0..* `Element`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DataRequirement.valueFilter` 0..* `Element`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DataRequirement.valueFilter` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `DataRequirement.valueFilter` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`DataRequirement.valueFilter` 0..* `Element`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `DataRequirement.valueFilter` 0..* `Element`\r\n\r\nFollowing are the generation technical comments:\r\nElement `DataRequirement.valueFilter` has a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -185,7 +185,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DataRequir
         "short" : "An attribute to filter on",
         "definition" : "The attribute of the filter. The specified path SHALL be a FHIRPath resolvable on the specified type of the DataRequirement, and SHALL consist only of identifiers, constant indexers, and .resolve(). The path is allowed to contain qualifiers (.) to traverse sub-elements, as well as indexers ([x]) to traverse multiple-cardinality sub-elements (see the [Simple FHIRPath Profile](https://hl7.org/fhir/fhirpat.html#simple) for full details). Note that the index must be an integer constant. The path must resolve to an element of a type that is comparable to the valueFilter.value[x] element for the filter.",
         "comment" : "The path attribute contains a [Simple FHIR Subset](https://hl7.org/fhir/fhirpat.html#simple) that allows path traversal, but not calculation.",
-        "requirements" : "Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.path` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`.",
+        "requirements" : "Element `DataRequirement.valueFilter.path` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.path` has a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -204,7 +204,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DataRequir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "path"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter.path"
       },
       {
         "id" : "Extension.extension:path.value[x]",
@@ -231,7 +231,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DataRequir
         "sliceName" : "searchParam",
         "short" : "A parameter to search on",
         "definition" : "A search parameter defined on the specified type of the DataRequirement, and which searches on elements of a type compatible with the type of the valueFilter.value[x] for the filter.",
-        "requirements" : "Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.searchParam` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`.",
+        "requirements" : "Element `DataRequirement.valueFilter.searchParam` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.searchParam` has a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -250,7 +250,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DataRequir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "searchParam"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter.searchParam"
       },
       {
         "id" : "Extension.extension:searchParam.value[x]",
@@ -276,7 +276,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DataRequir
         "sliceName" : "comparator",
         "short" : "eq | gt | lt | ge | le | sa | eb",
         "definition" : "The comparator to be used to determine whether the value is matching.",
-        "requirements" : "Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.comparator` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`.",
+        "requirements" : "Element `DataRequirement.valueFilter.comparator` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.comparator` has a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -295,7 +295,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DataRequir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "comparator"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter.comparator"
       },
       {
         "id" : "Extension.extension:comparator.value[x]",
@@ -321,7 +321,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DataRequir
         "sliceName" : "value",
         "short" : "The value of the filter, as a Period, DateTime, or Duration value",
         "definition" : "The value of the filter.",
-        "requirements" : "Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.value[x]` is will have a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`.",
+        "requirements" : "Element `DataRequirement.valueFilter.value[x]` is part of an existing definition because parent element `DataRequirement.valueFilter` requires a cross-version extension.\nElement `DataRequirement.valueFilter.value[x]` has a context of DataRequirement based on following the parent source element upwards and mapping to `DataRequirement`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -340,7 +340,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-DataRequir
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-DataRequirement.valueFilter.value"
       },
       {
         "id" : "Extension.extension:value.value[x]",

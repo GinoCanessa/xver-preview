@@ -1,4 +1,4 @@
-# ProfileNutritionProduct - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ProfileNutritionProduct - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Resource Profile: ProfileNutritionProduct 
 
@@ -7,7 +7,7 @@ This cross-version profile allows R5 NutritionProduct content to be represented 
 
 **Usages:**
 
-* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.InventoryItem` for use in FHIR R4](StructureDefinition-ext-R5-InventoryItem.md), [Cross-version Extension `R5.InventoryReport` for use in FHIR R4](StructureDefinition-ext-R5-InventoryReport.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)... Show 5 more, [Cross-version Extension `R5.NutritionOrder.enteralFormula.additive.type` for use in FHIR R4](StructureDefinition-ext-R5-NutritionOrder.ent.add.type.md), [Cross-version Extension `R5.NutritionOrder.enteralFormula.baseFormulaType` for use in FHIR R4](StructureDefinition-ext-R5-NutritionOrder.ent.baseFormulaType.md), [Cross-version Extension `R5.NutritionOrder.supplement.type` for use in FHIR R4](StructureDefinition-ext-R5-NutritionOrder.sup.type.md), [Cross-version Extension `R5.NutritionProduct` for use in FHIR R4](StructureDefinition-ext-R5-NutritionProduct.md) and [Cross-version Extension `R5.SupplyDelivery.suppliedItem.item[x]` for use in FHIR R4](StructureDefinition-ext-R5-SupplyDelivery.sup.item.md)
+* Refer to this Profile: [Cross-version Extension `R5.ClinicalUseDefinition` for use in FHIR R4](StructureDefinition-ext-R5-ClinicalUseDefinition.md), [Cross-version Extension `R5.InventoryItem` for use in FHIR R4](StructureDefinition-ext-R5-InventoryItem.md), [Cross-version Extension `R5.InventoryReport` for use in FHIR R4](StructureDefinition-ext-R5-InventoryReport.md), [Cross-version Extension `R5.NutritionIntake` for use in FHIR R4](StructureDefinition-ext-R5-NutritionIntake.md)... Show 5 more, [Cross-version Extension `R5.NutritionOrder.enteralFormula` for use in FHIR R4](StructureDefinition-ext-R5-NutritionOrder.enteralFormula.md), [Cross-version Extension `R5.NutritionOrder.supplement` for use in FHIR R4](StructureDefinition-ext-R5-NutritionOrder.supplement.md), [Cross-version Extension `R5.NutritionProduct` for use in FHIR R4](StructureDefinition-ext-R5-NutritionProduct.md), [Cross-version Extension `R5.PackagedProductDefinition` for use in FHIR R4](StructureDefinition-ext-R5-PackagedProductDefinition.md) and [Cross-version Extension `R5.SupplyDelivery.suppliedItem` for use in FHIR R4](StructureDefinition-ext-R5-SupplyDelivery.suppliedItem.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/hl7.fhir.uv.xver-r5.r4|current/StructureDefinition/profile-NutritionProduct)
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-profile-Nutrition
   "title" : "Cross-version Profile for R5.NutritionProduct for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.2367537-06:00",
+  "date" : "2026-02-17T14:42:26.8624913-06:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {

@@ -1,4 +1,4 @@
-# ExtensionAccount_Balance - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionAccount_Balance - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Account.balance` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.ba
   "title" : "Cross-version Extension `R5.Account.balance` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.ba
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Account.balance` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Account.balance` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Account.balance` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Account.balance` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Account.balance` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Account.balance` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Account.balance` 0..* `BackboneElement`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Account.balance` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.ba
         "sliceName" : "aggregate",
         "short" : "Who is expected to pay this part of the balance",
         "definition" : "Who is expected to pay this part of the balance.",
-        "requirements" : "Element `Account.balance.aggregate` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.aggregate` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "requirements" : "Element `Account.balance.aggregate` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.aggregate` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.ba
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "aggregate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance.aggregate"
       },
       {
         "id" : "Extension.extension:aggregate.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.ba
         "sliceName" : "term",
         "short" : "current | 30 | 60 | 90 | 120",
         "definition" : "The term of the account balances - The balance value is the amount that was outstanding for this age.",
-        "requirements" : "Element `Account.balance.term` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.term` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "requirements" : "Element `Account.balance.term` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.term` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.ba
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "term"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance.term"
       },
       {
         "id" : "Extension.extension:term.value[x]",
@@ -274,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.ba
         "sliceName" : "estimate",
         "short" : "Estimated balance",
         "definition" : "The amount is only an estimated value - this is likely common for `current` term balances, but not with known terms (that were generated by a backend process).",
-        "requirements" : "Element `Account.balance.estimate` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.estimate` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "requirements" : "Element `Account.balance.estimate` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.estimate` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 0,
         "max" : "1",
         "base" : {
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.ba
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "estimate"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance.estimate"
       },
       {
         "id" : "Extension.extension:estimate.value[x]",
@@ -319,7 +319,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.ba
         "sliceName" : "amount",
         "short" : "Calculated amount",
         "definition" : "The actual balance value calculated for the age defined in the term property.",
-        "requirements" : "Element `Account.balance.amount` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.amount` is will have a context of Account based on following the parent source element upwards and mapping to `Account`.",
+        "requirements" : "Element `Account.balance.amount` is part of an existing definition because parent element `Account.balance` requires a cross-version extension.\nElement `Account.balance.amount` has a context of Account based on following the parent source element upwards and mapping to `Account`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -338,7 +338,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Account.ba
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "amount"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance.amount"
       },
       {
         "id" : "Extension.extension:amount.value[x]",

@@ -1,4 +1,4 @@
-# ExtensionInventoryItem - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionInventoryItem - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.InventoryItem` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
   "title" : "Cross-version Extension `R5.InventoryItem` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "status"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.status"
       },
       {
         "id" : "Extension.extension:status.value[x]",
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "category"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.category"
       },
       {
         "id" : "Extension.extension:category.value[x]",
@@ -293,7 +293,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "code"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.code"
       },
       {
         "id" : "Extension.extension:code.value[x]",
@@ -374,7 +374,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "nameType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.name.nameType"
       },
       {
         "id" : "Extension.extension:name.extension:nameType.value[x]",
@@ -419,7 +419,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "language"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.name.language"
       },
       {
         "id" : "Extension.extension:name.extension:language.value[x]",
@@ -469,7 +469,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "name"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.name.name"
       },
       {
         "id" : "Extension.extension:name.extension:name.value[x]",
@@ -573,7 +573,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "role"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.responsibleOrganization.role"
       },
       {
         "id" : "Extension.extension:responsibleOrganization.extension:role.value[x]",
@@ -618,7 +618,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "organization"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.responsibleOrganization.organization"
       },
       {
         "id" : "Extension.extension:responsibleOrganization.extension:organization.value[x]",
@@ -726,7 +726,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "language"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.description.language"
       },
       {
         "id" : "Extension.extension:description.extension:language.value[x]",
@@ -776,7 +776,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "description"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.description.description"
       },
       {
         "id" : "Extension.extension:description.extension:description.value[x]",
@@ -844,7 +844,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "inventoryStatus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.inventoryStatus"
       },
       {
         "id" : "Extension.extension:inventoryStatus.value[x]",
@@ -889,7 +889,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "baseUnit"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.baseUnit"
       },
       {
         "id" : "Extension.extension:baseUnit.value[x]",
@@ -934,7 +934,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "netContent"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.netContent"
       },
       {
         "id" : "Extension.extension:netContent.value[x]",
@@ -1018,7 +1018,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "associationType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.association.associationType"
       },
       {
         "id" : "Extension.extension:association.extension:associationType.value[x]",
@@ -1063,7 +1063,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "relatedItem"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.association.relatedItem"
       },
       {
         "id" : "Extension.extension:association.extension:relatedItem.value[x]",
@@ -1124,7 +1124,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "quantity"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.association.quantity"
       },
       {
         "id" : "Extension.extension:association.extension:quantity.value[x]",
@@ -1228,7 +1228,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "characteristicType"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.characteristic.characteristicType"
       },
       {
         "id" : "Extension.extension:characteristic.extension:characteristicType.value[x]",
@@ -1274,7 +1274,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "value"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.characteristic.value"
       },
       {
         "id" : "Extension.extension:characteristic.extension:value.value[x]",
@@ -1415,7 +1415,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "identifier"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.instance.identifier"
       },
       {
         "id" : "Extension.extension:instance.extension:identifier.value[x]",
@@ -1460,7 +1460,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "lotNumber"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.instance.lotNumber"
       },
       {
         "id" : "Extension.extension:instance.extension:lotNumber.value[x]",
@@ -1505,7 +1505,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "expiry"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.instance.expiry"
       },
       {
         "id" : "Extension.extension:instance.extension:expiry.value[x]",
@@ -1550,7 +1550,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "subject"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.instance.subject"
       },
       {
         "id" : "Extension.extension:instance.extension:subject.value[x]",
@@ -1601,7 +1601,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "location"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.instance.location"
       },
       {
         "id" : "Extension.extension:instance.extension:location.value[x]",
@@ -1673,7 +1673,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-InventoryI
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "productReference"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryItem.productReference"
       },
       {
         "id" : "Extension.extension:productReference.value[x]",

@@ -1,4 +1,4 @@
-# ConceptMapR5TerminologyCapabilitiesElementsForR4TerminologyCapabilities - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5TerminologyCapabilitiesElementsForR4TerminologyCapabilities - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5TerminologyCapabilitiesElementsForR4TerminologyCapabilities 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.2884204-06:00",
+  "date" : "2026-02-17T14:42:27.6211823-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `TerminologyCapabilities` is representable via FHIR R4 Resource `TerminologyCapabilities`.\nElement `TerminologyCapabilities` is mapped to FHIR R4 element `TerminologyCapabilities`."
+              "comment" : "FHIR R5 Resource `TerminologyCapabilities` is representable via FHIR R4 Resource `TerminologyCapabilities`.\nElement `TerminologyCapabilities` has is mapped to FHIR R4 element `TerminologyCapabilities`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.meta` is mapped to FHIR R4 element `TerminologyCapabilities.meta`."
+              "comment" : "Element `TerminologyCapabilities.meta` has is mapped to FHIR R4 element `TerminologyCapabilities.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.implicitRules` is mapped to FHIR R4 element `TerminologyCapabilities.implicitRules`."
+              "comment" : "Element `TerminologyCapabilities.implicitRules` has is mapped to FHIR R4 element `TerminologyCapabilities.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.language` is mapped to FHIR R4 element `TerminologyCapabilities.language`."
+              "comment" : "Element `TerminologyCapabilities.language` has is mapped to FHIR R4 element `TerminologyCapabilities.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.text` is mapped to FHIR R4 element `TerminologyCapabilities.text`."
+              "comment" : "Element `TerminologyCapabilities.text` has is mapped to FHIR R4 element `TerminologyCapabilities.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.contained` is mapped to FHIR R4 element `TerminologyCapabilities.contained`."
+              "comment" : "Element `TerminologyCapabilities.contained` has is mapped to FHIR R4 element `TerminologyCapabilities.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.url` is mapped to FHIR R4 element `TerminologyCapabilities.url`."
+              "comment" : "Element `TerminologyCapabilities.url` has is mapped to FHIR R4 element `TerminologyCapabilities.url`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities",
               "equivalence" : "relatedto",
-              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `TerminologyCapabilities.identifier` is will have a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`."
+              "comment" : "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `TerminologyCapabilities.identifier` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.version` is mapped to FHIR R4 element `TerminologyCapabilities.version`."
+              "comment" : "Element `TerminologyCapabilities.version` has is mapped to FHIR R4 element `TerminologyCapabilities.version`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.versionAlgorithm[x]` is will have a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`."
+              "comment" : "Element `TerminologyCapabilities.versionAlgorithm[x]` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.name` is mapped to FHIR R4 element `TerminologyCapabilities.name`."
+              "comment" : "Element `TerminologyCapabilities.name` has is mapped to FHIR R4 element `TerminologyCapabilities.name`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.title",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.title` is mapped to FHIR R4 element `TerminologyCapabilities.title`."
+              "comment" : "Element `TerminologyCapabilities.title` has is mapped to FHIR R4 element `TerminologyCapabilities.title`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.status` is mapped to FHIR R4 element `TerminologyCapabilities.status`."
+              "comment" : "Element `TerminologyCapabilities.status` has is mapped to FHIR R4 element `TerminologyCapabilities.status`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.experimental",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.experimental` is mapped to FHIR R4 element `TerminologyCapabilities.experimental`."
+              "comment" : "Element `TerminologyCapabilities.experimental` has is mapped to FHIR R4 element `TerminologyCapabilities.experimental`, but has no comparisons."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.date",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.date` is mapped to FHIR R4 element `TerminologyCapabilities.date`."
+              "comment" : "Element `TerminologyCapabilities.date` has is mapped to FHIR R4 element `TerminologyCapabilities.date`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.publisher",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.publisher` is mapped to FHIR R4 element `TerminologyCapabilities.publisher`."
+              "comment" : "Element `TerminologyCapabilities.publisher` has is mapped to FHIR R4 element `TerminologyCapabilities.publisher`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.contact",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.contact` is mapped to FHIR R4 element `TerminologyCapabilities.contact`."
+              "comment" : "Element `TerminologyCapabilities.contact` has is mapped to FHIR R4 element `TerminologyCapabilities.contact`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.description` is mapped to FHIR R4 element `TerminologyCapabilities.description`."
+              "comment" : "Element `TerminologyCapabilities.description` has is mapped to FHIR R4 element `TerminologyCapabilities.description`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.useContext",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.useContext` is mapped to FHIR R4 element `TerminologyCapabilities.useContext`."
+              "comment" : "Element `TerminologyCapabilities.useContext` has is mapped to FHIR R4 element `TerminologyCapabilities.useContext`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.jurisdiction",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.jurisdiction` is mapped to FHIR R4 element `TerminologyCapabilities.jurisdiction`."
+              "comment" : "Element `TerminologyCapabilities.jurisdiction` has is mapped to FHIR R4 element `TerminologyCapabilities.jurisdiction`, but has no comparisons."
             }
           ]
         },
@@ -305,7 +305,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.purpose",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.purpose` is mapped to FHIR R4 element `TerminologyCapabilities.purpose`."
+              "comment" : "Element `TerminologyCapabilities.purpose` has is mapped to FHIR R4 element `TerminologyCapabilities.purpose`, but has no comparisons."
             }
           ]
         },
@@ -316,7 +316,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.copyright",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.copyright` is mapped to FHIR R4 element `TerminologyCapabilities.copyright`."
+              "comment" : "Element `TerminologyCapabilities.copyright` has is mapped to FHIR R4 element `TerminologyCapabilities.copyright`, but has no comparisons."
             }
           ]
         },
@@ -327,7 +327,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.copyrightLabel` is will have a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`."
+              "comment" : "Element `TerminologyCapabilities.copyrightLabel` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`."
             }
           ]
         },
@@ -338,7 +338,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.kind",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.kind` is mapped to FHIR R4 element `TerminologyCapabilities.kind`."
+              "comment" : "Element `TerminologyCapabilities.kind` has is mapped to FHIR R4 element `TerminologyCapabilities.kind`, but has no comparisons."
             }
           ]
         },
@@ -349,7 +349,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.software",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.software` is mapped to FHIR R4 element `TerminologyCapabilities.software`."
+              "comment" : "Element `TerminologyCapabilities.software` has is mapped to FHIR R4 element `TerminologyCapabilities.software`, but has no comparisons."
             }
           ]
         },
@@ -360,7 +360,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.software.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.software.name` is mapped to FHIR R4 element `TerminologyCapabilities.software.name`."
+              "comment" : "Element `TerminologyCapabilities.software.name` is part of an existing definition because parent element `TerminologyCapabilities.software` requires a cross-version extension.\nElement `TerminologyCapabilities.software.name` has is mapped to FHIR R4 element `TerminologyCapabilities.software.name`, but has no comparisons."
             }
           ]
         },
@@ -371,7 +371,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.software.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.software.version` is mapped to FHIR R4 element `TerminologyCapabilities.software.version`."
+              "comment" : "Element `TerminologyCapabilities.software.version` is part of an existing definition because parent element `TerminologyCapabilities.software` requires a cross-version extension.\nElement `TerminologyCapabilities.software.version` has is mapped to FHIR R4 element `TerminologyCapabilities.software.version`, but has no comparisons."
             }
           ]
         },
@@ -382,7 +382,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.implementation",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.implementation` is mapped to FHIR R4 element `TerminologyCapabilities.implementation`."
+              "comment" : "Element `TerminologyCapabilities.implementation` has is mapped to FHIR R4 element `TerminologyCapabilities.implementation`, but has no comparisons."
             }
           ]
         },
@@ -393,7 +393,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.implementation.description",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.implementation.description` is mapped to FHIR R4 element `TerminologyCapabilities.implementation.description`."
+              "comment" : "Element `TerminologyCapabilities.implementation.description` is part of an existing definition because parent element `TerminologyCapabilities.implementation` requires a cross-version extension.\nElement `TerminologyCapabilities.implementation.description` has is mapped to FHIR R4 element `TerminologyCapabilities.implementation.description`, but has no comparisons."
             }
           ]
         },
@@ -404,7 +404,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.implementation.url",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.implementation.url` is mapped to FHIR R4 element `TerminologyCapabilities.implementation.url`."
+              "comment" : "Element `TerminologyCapabilities.implementation.url` is part of an existing definition because parent element `TerminologyCapabilities.implementation` requires a cross-version extension.\nElement `TerminologyCapabilities.implementation.url` has is mapped to FHIR R4 element `TerminologyCapabilities.implementation.url`, but has no comparisons."
             }
           ]
         },
@@ -415,7 +415,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.lockedDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.lockedDate` is mapped to FHIR R4 element `TerminologyCapabilities.lockedDate`."
+              "comment" : "Element `TerminologyCapabilities.lockedDate` has is mapped to FHIR R4 element `TerminologyCapabilities.lockedDate`, but has no comparisons."
             }
           ]
         },
@@ -426,7 +426,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem`, but has no comparisons."
             }
           ]
         },
@@ -437,7 +437,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.uri",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.uri` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.uri`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.uri` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.uri` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.uri`, but has no comparisons."
             }
           ]
         },
@@ -448,7 +448,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.version",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.version` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.version` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.version` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version`, but has no comparisons."
             }
           ]
         },
@@ -459,7 +459,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.version.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.version.code` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.code`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.version.code` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem.version` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.version.code` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.code`, but has no comparisons."
             }
           ]
         },
@@ -470,7 +470,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.version.isDefault",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.version.isDefault` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.isDefault`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.version.isDefault` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem.version` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.version.isDefault` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.isDefault`, but has no comparisons."
             }
           ]
         },
@@ -481,7 +481,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.version.compositional",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.version.compositional` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.compositional`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.version.compositional` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem.version` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.version.compositional` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.compositional`, but has no comparisons."
             }
           ]
         },
@@ -492,7 +492,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.version.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.version.language` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.language`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.version.language` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem.version` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.version.language` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.language`, but has no comparisons."
             }
           ]
         },
@@ -503,7 +503,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.version.filter",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.version.filter` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.version.filter` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem.version` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.version.filter` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter`, but has no comparisons."
             }
           ]
         },
@@ -514,7 +514,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.version.filter.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.version.filter.code` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter.code`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.version.filter.code` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem.version.filter` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.version.filter.code` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter.code`, but has no comparisons."
             }
           ]
         },
@@ -525,7 +525,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.version.filter.op",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.version.filter.op` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter.op`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.version.filter.op` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem.version.filter` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.version.filter.op` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.filter.op`, but has no comparisons."
             }
           ]
         },
@@ -536,7 +536,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.version.property",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.version.property` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.property`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.version.property` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem.version` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.version.property` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.version.property`, but has no comparisons."
             }
           ]
         },
@@ -547,7 +547,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.content` is will have a context of TerminologyCapabilities.codeSystem based on following the parent source element upwards and mapping to `TerminologyCapabilities`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.content` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.content` has a context of TerminologyCapabilities.codeSystem based on following the parent source element upwards and mapping to `TerminologyCapabilities`."
             }
           ]
         },
@@ -558,7 +558,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSystem.subsumption",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSystem.subsumption` is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.subsumption`."
+              "comment" : "Element `TerminologyCapabilities.codeSystem.subsumption` is part of an existing definition because parent element `TerminologyCapabilities.codeSystem` requires a cross-version extension.\nElement `TerminologyCapabilities.codeSystem.subsumption` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem.subsumption`, but has no comparisons."
             }
           ]
         },
@@ -569,7 +569,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.expansion",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.expansion` is mapped to FHIR R4 element `TerminologyCapabilities.expansion`."
+              "comment" : "Element `TerminologyCapabilities.expansion` has is mapped to FHIR R4 element `TerminologyCapabilities.expansion`, but has no comparisons."
             }
           ]
         },
@@ -580,7 +580,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.expansion.hierarchical",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.expansion.hierarchical` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.hierarchical`."
+              "comment" : "Element `TerminologyCapabilities.expansion.hierarchical` is part of an existing definition because parent element `TerminologyCapabilities.expansion` requires a cross-version extension.\nElement `TerminologyCapabilities.expansion.hierarchical` has is mapped to FHIR R4 element `TerminologyCapabilities.expansion.hierarchical`, but has no comparisons."
             }
           ]
         },
@@ -591,7 +591,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.expansion.paging",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.expansion.paging` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.paging`."
+              "comment" : "Element `TerminologyCapabilities.expansion.paging` is part of an existing definition because parent element `TerminologyCapabilities.expansion` requires a cross-version extension.\nElement `TerminologyCapabilities.expansion.paging` has is mapped to FHIR R4 element `TerminologyCapabilities.expansion.paging`, but has no comparisons."
             }
           ]
         },
@@ -602,7 +602,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.expansion.incomplete",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.expansion.incomplete` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.incomplete`."
+              "comment" : "Element `TerminologyCapabilities.expansion.incomplete` is part of an existing definition because parent element `TerminologyCapabilities.expansion` requires a cross-version extension.\nElement `TerminologyCapabilities.expansion.incomplete` has is mapped to FHIR R4 element `TerminologyCapabilities.expansion.incomplete`, but has no comparisons."
             }
           ]
         },
@@ -613,7 +613,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.expansion.parameter",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.expansion.parameter` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter`."
+              "comment" : "Element `TerminologyCapabilities.expansion.parameter` is part of an existing definition because parent element `TerminologyCapabilities.expansion` requires a cross-version extension.\nElement `TerminologyCapabilities.expansion.parameter` has is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter`, but has no comparisons."
             }
           ]
         },
@@ -624,7 +624,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.expansion.parameter.name",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.expansion.parameter.name` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter.name`."
+              "comment" : "Element `TerminologyCapabilities.expansion.parameter.name` is part of an existing definition because parent element `TerminologyCapabilities.expansion.parameter` requires a cross-version extension.\nElement `TerminologyCapabilities.expansion.parameter.name` has is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter.name`, but has no comparisons."
             }
           ]
         },
@@ -635,7 +635,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.expansion.parameter.documentation",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.expansion.parameter.documentation` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter.documentation`."
+              "comment" : "Element `TerminologyCapabilities.expansion.parameter.documentation` is part of an existing definition because parent element `TerminologyCapabilities.expansion.parameter` requires a cross-version extension.\nElement `TerminologyCapabilities.expansion.parameter.documentation` has is mapped to FHIR R4 element `TerminologyCapabilities.expansion.parameter.documentation`, but has no comparisons."
             }
           ]
         },
@@ -646,7 +646,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.expansion.textFilter",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.expansion.textFilter` is mapped to FHIR R4 element `TerminologyCapabilities.expansion.textFilter`."
+              "comment" : "Element `TerminologyCapabilities.expansion.textFilter` is part of an existing definition because parent element `TerminologyCapabilities.expansion` requires a cross-version extension.\nElement `TerminologyCapabilities.expansion.textFilter` has is mapped to FHIR R4 element `TerminologyCapabilities.expansion.textFilter`, but has no comparisons."
             }
           ]
         },
@@ -657,7 +657,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.codeSearch",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.codeSearch` is mapped to FHIR R4 element `TerminologyCapabilities.codeSearch`."
+              "comment" : "Element `TerminologyCapabilities.codeSearch` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSearch`, but has no comparisons."
             }
           ]
         },
@@ -668,7 +668,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.validateCode",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.validateCode` is mapped to FHIR R4 element `TerminologyCapabilities.validateCode`."
+              "comment" : "Element `TerminologyCapabilities.validateCode` has is mapped to FHIR R4 element `TerminologyCapabilities.validateCode`, but has no comparisons."
             }
           ]
         },
@@ -679,7 +679,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.validateCode.translations",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.validateCode.translations` is mapped to FHIR R4 element `TerminologyCapabilities.validateCode.translations`."
+              "comment" : "Element `TerminologyCapabilities.validateCode.translations` is part of an existing definition because parent element `TerminologyCapabilities.validateCode` requires a cross-version extension.\nElement `TerminologyCapabilities.validateCode.translations` has is mapped to FHIR R4 element `TerminologyCapabilities.validateCode.translations`, but has no comparisons."
             }
           ]
         },
@@ -690,7 +690,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.translation",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.translation` is mapped to FHIR R4 element `TerminologyCapabilities.translation`."
+              "comment" : "Element `TerminologyCapabilities.translation` has is mapped to FHIR R4 element `TerminologyCapabilities.translation`, but has no comparisons."
             }
           ]
         },
@@ -701,7 +701,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.translation.needsMap",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.translation.needsMap` is mapped to FHIR R4 element `TerminologyCapabilities.translation.needsMap`."
+              "comment" : "Element `TerminologyCapabilities.translation.needsMap` is part of an existing definition because parent element `TerminologyCapabilities.translation` requires a cross-version extension.\nElement `TerminologyCapabilities.translation.needsMap` has is mapped to FHIR R4 element `TerminologyCapabilities.translation.needsMap`, but has no comparisons."
             }
           ]
         },
@@ -712,7 +712,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.closure",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.closure` is mapped to FHIR R4 element `TerminologyCapabilities.closure`."
+              "comment" : "Element `TerminologyCapabilities.closure` has is mapped to FHIR R4 element `TerminologyCapabilities.closure`, but has no comparisons."
             }
           ]
         },
@@ -723,7 +723,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/TerminologyCapabilities#TerminologyCapabilities.closure.translation",
               "equivalence" : "relatedto",
-              "comment" : "Element `TerminologyCapabilities.closure.translation` is mapped to FHIR R4 element `TerminologyCapabilities.closure.translation`."
+              "comment" : "Element `TerminologyCapabilities.closure.translation` is part of an existing definition because parent element `TerminologyCapabilities.closure` requires a cross-version extension.\nElement `TerminologyCapabilities.closure.translation` has is mapped to FHIR R4 element `TerminologyCapabilities.closure.translation`, but has no comparisons."
             }
           ]
         }

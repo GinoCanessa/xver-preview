@@ -1,4 +1,4 @@
-# ConceptMapR5MedicationElementsForR4Medication - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5MedicationElementsForR4Medication - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5MedicationElementsForR4Medication 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:44.0038667-06:00",
+  "date" : "2026-02-17T14:42:27.3659581-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 Resource `Medication` is representable via FHIR R4 Resource `Medication`.\nElement `Medication` is mapped to FHIR R4 element `Medication`."
+              "comment" : "FHIR R5 Resource `Medication` is representable via FHIR R4 Resource `Medication`.\nElement `Medication` has is mapped to FHIR R4 element `Medication`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.meta",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.meta` is mapped to FHIR R4 element `Medication.meta`."
+              "comment" : "Element `Medication.meta` has is mapped to FHIR R4 element `Medication.meta`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.implicitRules",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.implicitRules` is mapped to FHIR R4 element `Medication.implicitRules`."
+              "comment" : "Element `Medication.implicitRules` has is mapped to FHIR R4 element `Medication.implicitRules`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.language",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.language` is mapped to FHIR R4 element `Medication.language`."
+              "comment" : "Element `Medication.language` has is mapped to FHIR R4 element `Medication.language`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.text",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.text` is mapped to FHIR R4 element `Medication.text`."
+              "comment" : "Element `Medication.text` has is mapped to FHIR R4 element `Medication.text`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.contained",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.contained` is mapped to FHIR R4 element `Medication.contained`."
+              "comment" : "Element `Medication.contained` has is mapped to FHIR R4 element `Medication.contained`, but has no comparisons."
             }
           ]
         },
@@ -151,7 +151,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.identifier",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.identifier` is mapped to FHIR R4 element `Medication.identifier`."
+              "comment" : "Element `Medication.identifier` has is mapped to FHIR R4 element `Medication.identifier`, but has no comparisons."
             }
           ]
         },
@@ -162,7 +162,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.code` is mapped to FHIR R4 element `Medication.code`."
+              "comment" : "Element `Medication.code` has is mapped to FHIR R4 element `Medication.code`, but has no comparisons."
             }
           ]
         },
@@ -173,7 +173,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.status",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.status` is mapped to FHIR R4 element `Medication.status`."
+              "comment" : "Element `Medication.status` has is mapped to FHIR R4 element `Medication.status`, but has no comparisons."
             }
           ]
         },
@@ -184,7 +184,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.manufacturer",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.marketingAuthorizationHolder` is mapped to FHIR R4 element `Medication.manufacturer`."
+              "comment" : "Element `Medication.marketingAuthorizationHolder` has is mapped to FHIR R4 element `Medication.manufacturer`, but has no comparisons."
             }
           ]
         },
@@ -195,7 +195,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.form",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.doseForm` is mapped to FHIR R4 element `Medication.form`."
+              "comment" : "Element `Medication.doseForm` has is mapped to FHIR R4 element `Medication.form`, but has no comparisons."
             }
           ]
         },
@@ -206,7 +206,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.amount",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.totalVolume` is mapped to FHIR R4 element `Medication.amount`."
+              "comment" : "Element `Medication.totalVolume` has is mapped to FHIR R4 element `Medication.amount`, but has no comparisons."
             }
           ]
         },
@@ -217,7 +217,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.ingredient",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.ingredient` is mapped to FHIR R4 element `Medication.ingredient`."
+              "comment" : "Element `Medication.ingredient` has is mapped to FHIR R4 element `Medication.ingredient`, but has no comparisons."
             }
           ]
         },
@@ -228,7 +228,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.ingredient.item[x]",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Medication.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Medication.ingredient`.\nElement `Medication.ingredient.item` is mapped to FHIR R4 element `Medication.ingredient.item[x]`.\nNote that the target element context `Medication.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Medication.ingredient`."
+              "comment" : "Element `Medication.ingredient.item` is part of an existing definition because parent element `Medication.ingredient` requires a cross-version extension.\nNote that the target element context `Medication.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Medication.ingredient`.\nElement `Medication.ingredient.item` has is mapped to FHIR R4 element `Medication.ingredient.item[x]`, but has no comparisons.\nNote that the target element context `Medication.ingredient.item[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Medication.ingredient`."
             }
           ]
         },
@@ -239,7 +239,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.ingredient.isActive",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.ingredient.isActive` is mapped to FHIR R4 element `Medication.ingredient.isActive`."
+              "comment" : "Element `Medication.ingredient.isActive` is part of an existing definition because parent element `Medication.ingredient` requires a cross-version extension.\nElement `Medication.ingredient.isActive` has is mapped to FHIR R4 element `Medication.ingredient.isActive`, but has no comparisons."
             }
           ]
         },
@@ -250,7 +250,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.ingredient.strength",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.ingredient.strength[x]` is mapped to FHIR R4 element `Medication.ingredient.strength`."
+              "comment" : "Element `Medication.ingredient.strength[x]` is part of an existing definition because parent element `Medication.ingredient` requires a cross-version extension.\nElement `Medication.ingredient.strength[x]` has is mapped to FHIR R4 element `Medication.ingredient.strength`, but has no comparisons."
             }
           ]
         },
@@ -261,7 +261,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.batch",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.batch` is mapped to FHIR R4 element `Medication.batch`."
+              "comment" : "Element `Medication.batch` has is mapped to FHIR R4 element `Medication.batch`, but has no comparisons."
             }
           ]
         },
@@ -272,7 +272,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.batch.lotNumber",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.batch.lotNumber` is mapped to FHIR R4 element `Medication.batch.lotNumber`."
+              "comment" : "Element `Medication.batch.lotNumber` is part of an existing definition because parent element `Medication.batch` requires a cross-version extension.\nElement `Medication.batch.lotNumber` has is mapped to FHIR R4 element `Medication.batch.lotNumber`, but has no comparisons."
             }
           ]
         },
@@ -283,7 +283,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication.batch.expirationDate",
               "equivalence" : "relatedto",
-              "comment" : "Element `Medication.batch.expirationDate` is mapped to FHIR R4 element `Medication.batch.expirationDate`."
+              "comment" : "Element `Medication.batch.expirationDate` is part of an existing definition because parent element `Medication.batch` requires a cross-version extension.\nElement `Medication.batch.expirationDate` has is mapped to FHIR R4 element `Medication.batch.expirationDate`, but has no comparisons."
             }
           ]
         },
@@ -294,7 +294,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Medication#Medication",
               "equivalence" : "relatedto",
-              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Medication.definition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Medication.definition` is will have a context of Medication based on following the parent source element upwards and mapping to `Medication`."
+              "comment" : "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Medication.definition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Medication.definition` has a context of Medication based on following the parent source element upwards and mapping to `Medication`."
             }
           ]
         }

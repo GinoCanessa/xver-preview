@@ -1,4 +1,4 @@
-# ExtensionImmunization_ProgramEligibility - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ExtensionImmunization_ProgramEligibility - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## Extension: Cross-version Extension `R5.Immunization.programEligibility` for use in FHIR R4 
 
@@ -96,7 +96,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Immunizati
   "title" : "Cross-version Extension `R5.Immunization.programEligibility` for use in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-10T04:05:33.0136333+00:00",
+  "date" : "2026-02-17T20:42:20.5370068+00:00",
   "publisher" : "FHIR Infrastructure",
   "contact" : [
     {
@@ -121,7 +121,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Immunizati
       ]
     }
   ],
-  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Immunization.programEligibility` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Immunization.programEligibility` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Immunization.programEligibility` 0..* `BackboneElement`\n*  R4B: `Immunization.programEligibility` 0..* `CodeableConcept`\n*  R4: `Immunization.programEligibility` 0..* `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Immunization.programEligibility` is mapped to FHIR R4 element `Immunization.programEligibility`.",
+  "purpose" : "This extension is part of the cross-version definitions generated to enable use of the\r\nelement `Immunization.programEligibility` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source element is defined as:\r\n`Immunization.programEligibility` 0..* `BackboneElement`\r\n\r\nAcross FHIR versions, the element set has been mapped as:\r\n*  R5: `Immunization.programEligibility` 0..* `BackboneElement`\n*  R4B: `Immunization.programEligibility` 0..* `CodeableConcept`\n*  R4: `Immunization.programEligibility` 0..* `CodeableConcept`\r\n\r\nFollowing are the generation technical comments:\r\nElement `Immunization.programEligibility` has is mapped to FHIR R4 element `Immunization.programEligibility`, but has no comparisons.",
   "fhirVersion" : "4.0.1",
   "mapping" : [
     {
@@ -184,7 +184,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Immunizati
         "sliceName" : "program",
         "short" : "The program that eligibility is declared for",
         "definition" : "Indicates which program the patient had their eligility evaluated for.",
-        "requirements" : "Element `Immunization.programEligibility.program` is will have a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.",
+        "requirements" : "Element `Immunization.programEligibility.program` is part of an existing definition because parent element `Immunization.programEligibility` requires a cross-version extension.\nElement `Immunization.programEligibility.program` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -203,7 +203,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Immunizati
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "program"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility.program"
       },
       {
         "id" : "Extension.extension:program.value[x]",
@@ -229,7 +229,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Immunizati
         "sliceName" : "programStatus",
         "short" : "The patient's eligibility status for the program",
         "definition" : "Indicates the patient's eligility status for for a specific payment program.",
-        "requirements" : "Element `Immunization.programEligibility.programStatus` is will have a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.",
+        "requirements" : "Element `Immunization.programEligibility.programStatus` is part of an existing definition because parent element `Immunization.programEligibility` requires a cross-version extension.\nElement `Immunization.programEligibility.programStatus` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.",
         "min" : 1,
         "max" : "1",
         "base" : {
@@ -248,7 +248,7 @@ Other representations of profile: [CSV](../StructureDefinition-ext-R5-Immunizati
           "min" : 1,
           "max" : "1"
         },
-        "fixedUri" : "programStatus"
+        "fixedUri" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility.programStatus"
       },
       {
         "id" : "Extension.extension:programStatus.value[x]",

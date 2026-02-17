@@ -26,12 +26,12 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DetectedIssue.extension:category","DetectedIssue.extension","category","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.category|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for DetectedIssue.category from R5 for use in FHIR R4","A code that classifies the general type of detected issue.","Element `DetectedIssue.category` is will have a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","Cross-version extension for DetectedIssue.category from R5 for use in FHIR R4","A code that classifies the general type of detected issue.","Element `DetectedIssue.category` has a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DetectedIssue.extension:encounter","DetectedIssue.extension","encounter","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
 ","Cross-version extension for DetectedIssue.encounter from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DetectedIssue.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
-Element `DetectedIssue.encounter` is will have a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+Element `DetectedIssue.encounter` has a context of DetectedIssue based on following the parent source element upwards and mapping to `DetectedIssue`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DetectedIssue.modifierExtension","DetectedIssue.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
@@ -54,7 +54,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DetectedIssue.status.extension:status","DetectedIssue.status.extension","status","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.status|0.0.1-snapshot-3]]} {[]}
 ","Cross-version extension for DetectedIssue.status from R5 for use in FHIR R4","Indicates the status of the detected issue.","Note that the target element context `DetectedIssue.status` is a modifier element, so this extension does not need to be defined as a modifier.
-Element `DetectedIssue.status` is mapped to FHIR R4 element `DetectedIssue.status`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+Element `DetectedIssue.status` has is mapped to FHIR R4 element `DetectedIssue.status`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DetectedIssue.status.value","DetectedIssue.status.value","","","",0,1,"","","","string {[]} {[]}
@@ -85,10 +85,14 @@ Period {[]} {[]}","When identified","The date or period when the detected issue 
 ","FiveWs.why[x]"
 "DetectedIssue.evidence.id","DetectedIssue.evidence.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
-"DetectedIssue.evidence.extension","DetectedIssue.evidence.extension","","extensions
-user content","",0,*,"","","","Extension {[]} {[]}
-","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
-ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
+"DetectedIssue.evidence.extension","DetectedIssue.evidence.extension","","","",0,*,"","","","Extension {[]} {[]}
+","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
+","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"DetectedIssue.evidence.extension:evidence","DetectedIssue.evidence.extension","evidence","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.evidence|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for DetectedIssue.evidence from R5 for use in FHIR R4","Supporting evidence or manifestations that provide the basis for identifying the detected issue such as a GuidanceResponse or MeasureReport.","Element `DetectedIssue.evidence` has is mapped to FHIR R4 element `DetectedIssue.evidence`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DetectedIssue.evidence.modifierExtension","DetectedIssue.evidence.modifierExtension","","extensions
 user contentmodifiers","",0,*,"","Y","Y","Extension {[]} {[]}
 ","Extensions that cannot be ignored even if unrecognized","May be used to represent additional information that is not part of the basic definition of the element and that modifies the understanding of the element in which it is contained and/or the understanding of the containing element's descendants. Usually modifier elements provide negation or qualification. To make the use of extensions safe and manageable, there is a strict set of governance applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension. Applications processing a resource are required to check for modifier extensions.
@@ -116,8 +120,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DetectedIssue.mitigation.extension:note","DetectedIssue.mitigation.extension","note","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation.note|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for DetectedIssue.mitigation.note from R5 for use in FHIR R4","Clinicians may add additional notes or justifications about the mitigation action. For example, patient can have this drug because they have had it before without any issues. Multiple justifications may be provided.","Element `DetectedIssue.mitigation.note` is will have a context of DetectedIssue.mitigation based on following the parent source element upwards and mapping to `DetectedIssue`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
+"DetectedIssue.mitigation.extension:mitigation","DetectedIssue.mitigation.extension","mitigation","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DetectedIssue.mitigation|0.0.1-snapshot-3]]} {[]}
+","Cross-version extension for DetectedIssue.mitigation from R5 for use in FHIR R4","Indicates an action that has been taken or is committed to reduce or eliminate the likelihood of the risk identified by the detected issue from manifesting.  Can also reflect an observation of known mitigating factors that may reduce/eliminate the need for any action.","Element `DetectedIssue.mitigation` has is mapped to FHIR R4 element `DetectedIssue.mitigation`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "DetectedIssue.mitigation.modifierExtension","DetectedIssue.mitigation.modifierExtension","","extensions

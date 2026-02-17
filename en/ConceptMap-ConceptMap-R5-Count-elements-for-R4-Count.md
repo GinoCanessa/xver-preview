@@ -1,4 +1,4 @@
-# ConceptMapR5CountElementsForR4Count - FHIR Cross-Version Extensions package to use FHIR R5 in FHIR R4 v0.0.1-snapshot-3
+# ConceptMapR5CountElementsForR4Count - Extensions for Using Data Elements from FHIR R5 in FHIR R4 v0.0.1-snapshot-3
 
 ## ConceptMap: ConceptMapR5CountElementsForR4Count 
 
@@ -49,7 +49,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
   "title" : "Cross-version ConceptMap for FHIR R5 resources in FHIR R4",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-02-09T22:05:43.7249223-06:00",
+  "date" : "2026-02-17T14:42:27.1415938-06:00",
   "contact" : [
     {
       "name" : "FHIR Infrastructure",
@@ -85,7 +85,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count",
               "equivalence" : "relatedto",
-              "comment" : "FHIR R5 ComplexType `Count` is representable via FHIR R4 extensions.\nElement `Count` is mapped to FHIR R4 element `Count`."
+              "comment" : "FHIR R5 ComplexType `Count` is representable via FHIR R4 extensions.\nElement `Count` has is mapped to FHIR R4 element `Count`, but has no comparisons."
             }
           ]
         },
@@ -96,7 +96,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count.value",
               "equivalence" : "relatedto",
-              "comment" : "Element `Count.value` is mapped to FHIR R4 element `Count.value`."
+              "comment" : "Element `Count.value` has is mapped to FHIR R4 element `Count.value`, but has no comparisons."
             }
           ]
         },
@@ -107,7 +107,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count.comparator",
               "equivalence" : "relatedto",
-              "comment" : "Note that the target element context `Count.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Count.comparator` is mapped to FHIR R4 element `Count.comparator`."
+              "comment" : "Note that the target element context `Count.comparator` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Count.comparator` has is mapped to FHIR R4 element `Count.comparator`, but has no comparisons."
             }
           ]
         },
@@ -118,7 +118,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count.unit",
               "equivalence" : "relatedto",
-              "comment" : "Element `Count.unit` is mapped to FHIR R4 element `Count.unit`."
+              "comment" : "Element `Count.unit` has is mapped to FHIR R4 element `Count.unit`, but has no comparisons."
             }
           ]
         },
@@ -129,7 +129,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count.system",
               "equivalence" : "relatedto",
-              "comment" : "Element `Count.system` is mapped to FHIR R4 element `Count.system`."
+              "comment" : "Element `Count.system` has is mapped to FHIR R4 element `Count.system`, but has no comparisons."
             }
           ]
         },
@@ -140,7 +140,7 @@ This ConceptMap represents the cross-version mapping of resource FHIR R5 for use
             {
               "code" : "http://hl7.org/fhir/StructureDefinition/Count#Count.code",
               "equivalence" : "relatedto",
-              "comment" : "Element `Count.code` is mapped to FHIR R4 element `Count.code`."
+              "comment" : "Element `Count.code` has is mapped to FHIR R4 element `Count.code`, but has no comparisons."
             }
           ]
         }
