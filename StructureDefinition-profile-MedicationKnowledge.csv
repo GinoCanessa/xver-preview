@@ -24,13 +24,22 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.extension:intendedJurisdiction","MedicationKnowledge.extension","intendedJurisdiction","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.intendedJurisdiction|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.extension:intendedJurisdiction","MedicationKnowledge.extension","intendedJurisdiction","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.intendedJurisdiction]]} {[]}
 ","Cross-version extension for MedicationKnowledge.intendedJurisdiction from R5 for use in FHIR R4","Lists the jurisdictions that this medication knowledge was written for.","Element `MedicationKnowledge.intendedJurisdiction` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.extension:storageGuideline","MedicationKnowledge.extension","storageGuideline","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.extension:storageGuideline","MedicationKnowledge.extension","storageGuideline","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.storageGuideline]]} {[]}
 ","Cross-version extension for MedicationKnowledge.storageGuideline from R5 for use in FHIR R4","Information on how the medication should be stored, for example, refrigeration temperatures and length of stability at a given temperature.","Element `MedicationKnowledge.storageGuideline` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"MedicationKnowledge.extension:author","MedicationKnowledge.extension","author","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
+","Cross-version extension for MedicationKnowledge.author from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.author`: `http://hl7.org/fhir/StructureDefinition/artifact-author`.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `MedicationKnowledge.author` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"MedicationKnowledge.extension:identifier","MedicationKnowledge.extension","identifier","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-identifier]]} {[]}
+","Cross-version extension for MedicationKnowledge.identifier from R5 for use in FHIR R4","A formal identifier that is used to identify this artifact when it is represented in other formats, or referenced in a specification, model, design or an instance.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.identifier`: `http://hl7.org/fhir/StructureDefinition/artifact-identifier`.
+Element `MedicationKnowledge.identifier` has a context of MedicationKnowledge based on following the parent source element upwards and mapping to `MedicationKnowledge`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "MedicationKnowledge.modifierExtension","MedicationKnowledge.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
@@ -65,7 +74,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.relatedMedicationKnowledge.extension:relatedMedicationKnowledge","MedicationKnowledge.relatedMedicationKnowledge.extension","relatedMedicationKnowledge","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.relatedMedicationKnowledge|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.relatedMedicationKnowledge.extension:relatedMedicationKnowledge","MedicationKnowledge.relatedMedicationKnowledge.extension","relatedMedicationKnowledge","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.relatedMedicationKnowledge]]} {[]}
 ","Cross-version extension for MedicationKnowledge.relatedMedicationKnowledge from R5 for use in FHIR R4","Associated or related medications. For example, if the medication is a branded product (e.g. Crestor), this is the Therapeutic Moeity (e.g. Rosuvastatin) or if this is a generic medication (e.g. Rosuvastatin), this would link to a branded product (e.g. Crestor.","Element `MedicationKnowledge.relatedMedicationKnowledge` has is mapped to FHIR R4 element `MedicationKnowledge.relatedMedicationKnowledge`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -96,7 +105,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.monograph.extension:monograph","MedicationKnowledge.monograph.extension","monograph","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.monograph|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.monograph.extension:monograph","MedicationKnowledge.monograph.extension","monograph","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.monograph]]} {[]}
 ","Cross-version extension for MedicationKnowledge.monograph from R5 for use in FHIR R4","Associated documentation about the medication.","Element `MedicationKnowledge.monograph` has is mapped to FHIR R4 element `MedicationKnowledge.monograph`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -151,7 +160,7 @@ Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Substance
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.cost.extension:cost","MedicationKnowledge.cost.extension","cost","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.cost.extension:cost","MedicationKnowledge.cost.extension","cost","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.cost]]} {[]}
 ","Cross-version extension for MedicationKnowledge.cost from R5 for use in FHIR R4","The price of the medication.","Element `MedicationKnowledge.cost` has is mapped to FHIR R4 element `MedicationKnowledge.cost`, but has no comparisons.
 Note available implied context: `MedicationKnowledge.packaging.cost` because `MedicationKnowledge.packaging.cost` is defined as a content reference to `MedicationKnowledge.cost`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -180,7 +189,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.monitoringProgram.extension:monitoringProgram","MedicationKnowledge.monitoringProgram.extension","monitoringProgram","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.monitoringProgram|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.monitoringProgram.extension:monitoringProgram","MedicationKnowledge.monitoringProgram.extension","monitoringProgram","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.monitoringProgram]]} {[]}
 ","Cross-version extension for MedicationKnowledge.monitoringProgram from R5 for use in FHIR R4","The program under which the medication is reviewed.","Element `MedicationKnowledge.monitoringProgram` has is mapped to FHIR R4 element `MedicationKnowledge.monitoringProgram`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -205,7 +214,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.administrationGuidelines.extension:indicationGuideline","MedicationKnowledge.administrationGuidelines.extension","indicationGuideline","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.administrationGuidelines.extension:indicationGuideline","MedicationKnowledge.administrationGuidelines.extension","indicationGuideline","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.indicationGuideline]]} {[]}
 ","Cross-version extension for MedicationKnowledge.indicationGuideline from R5 for use in FHIR R4","Guidelines or protocols that are applicable for the administration of the medication based on indication.","Element `MedicationKnowledge.indicationGuideline` has is mapped to FHIR R4 element `MedicationKnowledge.administrationGuidelines`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -269,7 +278,7 @@ Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.medicineClassification.extension:medicineClassification","MedicationKnowledge.medicineClassification.extension","medicineClassification","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.medicineClassification|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.medicineClassification.extension:medicineClassification","MedicationKnowledge.medicineClassification.extension","medicineClassification","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.medicineClassification]]} {[]}
 ","Cross-version extension for MedicationKnowledge.medicineClassification from R5 for use in FHIR R4","Categorization of the medication within a formulary or classification system.","Element `MedicationKnowledge.medicineClassification` has is mapped to FHIR R4 element `MedicationKnowledge.medicineClassification`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -294,7 +303,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.packaging.extension:packaging","MedicationKnowledge.packaging.extension","packaging","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.packaging|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.packaging.extension:packaging","MedicationKnowledge.packaging.extension","packaging","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.packaging]]} {[]}
 ","Cross-version extension for MedicationKnowledge.packaging from R5 for use in FHIR R4","Information that only applies to packages (not products).","Element `MedicationKnowledge.packaging` has is mapped to FHIR R4 element `MedicationKnowledge.packaging`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -319,7 +328,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.drugCharacteristic.extension:definitional","MedicationKnowledge.drugCharacteristic.extension","definitional","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.drugCharacteristic.extension:definitional","MedicationKnowledge.drugCharacteristic.extension","definitional","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.definitional]]} {[]}
 ","Cross-version extension for MedicationKnowledge.definitional from R5 for use in FHIR R4","Along with the link to a Medicinal Product Definition resource, this information provides common definitional elements that are needed to understand the specific medication that is being described.","Element `MedicationKnowledge.definitional` has is mapped to FHIR R4 element `MedicationKnowledge`, but has no comparisons.
 Element `MedicationKnowledge.definitional` has is mapped to FHIR R4 element `MedicationKnowledge.drugCharacteristic`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -345,7 +354,7 @@ string {[]} {[]}Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.contraindication.extension:clinicalUseIssue","MedicationKnowledge.contraindication.extension","clinicalUseIssue","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"MedicationKnowledge.contraindication.extension:clinicalUseIssue","MedicationKnowledge.contraindication.extension","clinicalUseIssue","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for MedicationKnowledge.clinicalUseIssue from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/ClinicalUseDefinition in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationKnowledge.clinicalUseIssue` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `MedicationKnowledge.clinicalUseIssue` has is mapped to FHIR R4 element `MedicationKnowledge.contraindication`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -379,7 +388,7 @@ Reference is intended to point to a structure that can potentially be expressed 
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"MedicationKnowledge.regulatory.extension:regulatory","MedicationKnowledge.regulatory.extension","regulatory","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.regulatory|0.0.1-snapshot-3]]} {[]}
+"MedicationKnowledge.regulatory.extension:regulatory","MedicationKnowledge.regulatory.extension","regulatory","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationKnowledge.regulatory]]} {[]}
 ","Cross-version extension for MedicationKnowledge.regulatory from R5 for use in FHIR R4","Regulatory information about a medication.","Element `MedicationKnowledge.regulatory` has is mapped to FHIR R4 element `MedicationKnowledge.regulatory`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

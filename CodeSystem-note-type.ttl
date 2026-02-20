@@ -72,25 +72,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fm"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/note-type"^^xsd:anyURI ;
      fhir:l <http://hl7.org/fhir/note-type>
   ] ; # 
-  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "NoteType"] ; # 
   fhir:title [ fhir:v "NoteType"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-03-25T23:21:02-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Financial Management"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Financial Management" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fm" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "The presentation types of notes."] ; # 
@@ -106,8 +106,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://hl7.org/fhir/ValueSet/note-type|4.0.1"^^xsd:anyURI ;
-     fhir:l <http://hl7.org/fhir/ValueSet/note-type?version=4.0.1>
+     fhir:v "http://hl7.org/fhir/ValueSet/note-type"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/note-type>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

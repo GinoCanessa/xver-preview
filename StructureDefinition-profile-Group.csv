@@ -24,16 +24,16 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Group.extension:membership","Group.extension","membership","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership|0.0.1-snapshot-3]]} {[]}
+"Group.extension:membership","Group.extension","membership","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership]]} {[]}
 ","Cross-version extension for Group.membership from R5 for use in FHIR R4","Basis for membership in the Group:
 
 * 'definitional': The Group.characteristics specified are both necessary and sufficient to determine membership. All entities that meet the criteria are considered to be members of the group, whether referenced by the group or not. If members are present, they are individuals that happen to be known as meeting the Group.characteristics. The list cannot be presumed to be complete.
 * 'enumerated': The Group.characteristics are necessary but not sufficient to determine membership. Membership is determined by being listed as one of the Group.member.","Element `Group.membership` has a context of Group based on following the parent source element upwards and mapping to `Group`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Group.extension:description","Group.extension","description","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.description|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Group.description from R5 for use in FHIR R4","Explanation of what the group represents and how it is intended to be used.","Element `Group.description` has a context of Group based on following the parent source element upwards and mapping to `Group`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Group.extension:description","Group.extension","description","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-description]]} {[]}
+","Cross-version extension for Group.description from R5 for use in FHIR R4","A free text natural language description of the artifact from a consumer's perspective.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.description`: `http://hl7.org/fhir/StructureDefinition/artifact-description`.
+Element `Group.description` has a context of Group based on following the parent source element upwards and mapping to `Group`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Group.modifierExtension","Group.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
@@ -56,7 +56,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Group.type.extension:type","Group.type.extension","type","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.type|0.0.1-snapshot-3]]} {[]}
+"Group.type.extension:type","Group.type.extension","type","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.type]]} {[]}
 ","Cross-version extension for Group.type from R5 for use in FHIR R4","Identifies the broad classification of the kind of resources the group includes.","Element `Group.type` has is mapped to FHIR R4 element `Group.type`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -87,7 +87,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Group.characteristic.extension:characteristic","Group.characteristic.extension","characteristic","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic|0.0.1-snapshot-3]]} {[]}
+"Group.characteristic.extension:characteristic","Group.characteristic.extension","characteristic","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic]]} {[]}
 ","Cross-version extension for Group.characteristic from R5 for use in FHIR R4","Identifies traits whose presence r absence is shared by members of the group.","Element `Group.characteristic` has is mapped to FHIR R4 element `Group.characteristic`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -119,7 +119,7 @@ boolean {[]} {[]}Quantity {[]} {[]}Range {[]} {[]}Reference {[]} {[]}","Value he
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Group.member.extension:member","Group.member.extension","member","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member|0.0.1-snapshot-3]]} {[]}
+"Group.member.extension:member","Group.member.extension","member","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member]]} {[]}
 ","Cross-version extension for Group.member from R5 for use in FHIR R4","Identifies the resource instances that are members of the group.","Element `Group.member` has is mapped to FHIR R4 element `Group.member`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

@@ -54,25 +54,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "oo"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/observation-category"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/observation-category>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "ObservationCategoryCodes"] ; # 
   fhir:title [ fhir:v "Observation Category Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Observation Category codes."] ; # 
@@ -88,8 +88,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/observation-category|1.0.1"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/observation-category?version=1.0.1>
+     fhir:v "http://terminology.hl7.org/ValueSet/observation-category"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/observation-category>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

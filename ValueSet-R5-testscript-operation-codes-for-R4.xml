@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="R5-testscript-operation-codes-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet R5-testscript-operation-codes-for-R4</b></p><a name="R5-testscript-operation-codes-for-R4"> </a><a name="hcR5-testscript-operation-codes-for-R4"> </a><p>This value set expansion contains 7 concepts.</p><table class="codes"><tr><td><b>System</b></td><td><b>Version</b></td><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name="R5-testscript-operation-codes-for-R4-http://hl7.org/fhir/restful-interaction-history-instance"> </a><code>http://hl7.org/fhir/restful-interaction</code></td><td>5.0.0</td><td style="white-space:nowrap">  history-instance</td><td>history-instance</td></tr><tr><td><a name="R5-testscript-operation-codes-for-R4-http://hl7.org/fhir/restful-interaction-history-system"> </a><code>http://hl7.org/fhir/restful-interaction</code></td><td>5.0.0</td><td style="white-space:nowrap">  history-system</td><td>history-system</td></tr><tr><td><a name="R5-testscript-operation-codes-for-R4-http://hl7.org/fhir/restful-interaction-history-type"> </a><code>http://hl7.org/fhir/restful-interaction</code></td><td>5.0.0</td><td style="white-space:nowrap">  history-type</td><td>history-type</td></tr><tr><td><a name="R5-testscript-operation-codes-for-R4-http://hl7.org/fhir/restful-interaction-operation"> </a><code>http://hl7.org/fhir/restful-interaction</code></td><td>5.0.0</td><td style="white-space:nowrap">  operation</td><td>operation</td></tr><tr><td><a name="R5-testscript-operation-codes-for-R4-http://hl7.org/fhir/restful-interaction-search-compartment"> </a><code>http://hl7.org/fhir/restful-interaction</code></td><td>5.0.0</td><td style="white-space:nowrap">  search-compartment</td><td>search-compartment</td></tr><tr><td><a name="R5-testscript-operation-codes-for-R4-http://hl7.org/fhir/restful-interaction-search-system"> </a><code>http://hl7.org/fhir/restful-interaction</code></td><td>5.0.0</td><td style="white-space:nowrap">  search-system</td><td>search-system</td></tr><tr><td><a name="R5-testscript-operation-codes-for-R4-http://hl7.org/fhir/restful-interaction-search-type"> </a><code>http://hl7.org/fhir/restful-interaction</code></td><td>5.0.0</td><td style="white-space:nowrap">  search-type</td><td>search-type</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="4"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/package-source">
+    <extension url="packageId">
+      <valueId value="hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+    <extension url="version">
+      <valueString value="0.0.1-snapshot-3"/>
+    </extension>
+    <extension url="uri">
+      <valueUri value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    </extension>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ValueSet/R5-testscript-operation-codes-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5TestscriptOperationCodesForR4"/>
+  <title value="Cross-version ValueSet R5.TestScriptOperationCode for use in FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-20T17:59:09.1776521+00:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1`."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <purpose value="This value set is part of the cross-version definitions generated to enable use of the&#xD;&#xA;value set `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` as defined in FHIR R5&#xD;&#xA;in FHIR R4.&#xD;&#xA;&#xD;&#xA;The source value set is bound to the following FHIR R5 elements:&#xD;&#xA;* `ExampleScenario.process.step.operation.type` as Extensible&#xA;* `TestScript.setup.action.operation.type` as Extensible&#xD;&#xA;&#xD;&#xA;Across FHIR versions, the value set has been mapped as:&#xD;&#xA;* `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0`&#xA;* `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0`&#xA;* `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1`&#xD;&#xA;&#xD;&#xA;The following concepts are not included in this cross-version definition because they have valid representations&#xD;&#xA;* `http://hl7.org/fhir/restful-interaction#batch`&#xA;* `http://hl7.org/fhir/restful-interaction#capabilities`&#xA;* `http://hl7.org/fhir/restful-interaction#create`&#xA;* `http://hl7.org/fhir/restful-interaction#delete`&#xA;* `http://hl7.org/fhir/restful-interaction#history`&#xA;* `http://hl7.org/fhir/restful-interaction#patch`&#xA;* `http://hl7.org/fhir/restful-interaction#read`&#xA;* `http://hl7.org/fhir/restful-interaction#search`&#xA;* `http://hl7.org/fhir/restful-interaction#transaction`&#xA;* `http://hl7.org/fhir/restful-interaction#update`&#xA;* `http://hl7.org/fhir/restful-interaction#vread`&#xD;&#xA;&#xD;&#xA;Following are the generation technical comments:&#xD;&#xA;One or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.&#xA;The source value set has fewer active concepts (18) than the target (45), so the source is narrower than the target.&#xA;All concepts in the comparison are listed as identical.&#xA;The source and target value sets have the same number of active concepts (45).&#xA;Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)"/>
+  <compose>
+    <include>
+      <system value="http://hl7.org/fhir/restful-interaction"/>
+      <version value="5.0.0"/>
+      <concept>
+        <code value="history-instance"/>
+        <display value="history-instance"/>
+      </concept>
+      <concept>
+        <code value="history-system"/>
+        <display value="history-system"/>
+      </concept>
+      <concept>
+        <code value="history-type"/>
+        <display value="history-type"/>
+      </concept>
+      <concept>
+        <code value="operation"/>
+        <display value="operation"/>
+      </concept>
+      <concept>
+        <code value="search-compartment"/>
+        <display value="search-compartment"/>
+      </concept>
+      <concept>
+        <code value="search-system"/>
+        <display value="search-system"/>
+      </concept>
+      <concept>
+        <code value="search-type"/>
+        <display value="search-type"/>
+      </concept>
+    </include>
+  </compose>
+  <expansion>
+    <timestamp value="2026-02-20T17:59:09.1776521+00:00"/>
+    <contains>
+      <system value="http://hl7.org/fhir/restful-interaction"/>
+      <version value="5.0.0"/>
+      <code value="history-instance"/>
+      <display value="history-instance"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/restful-interaction"/>
+      <version value="5.0.0"/>
+      <code value="history-system"/>
+      <display value="history-system"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/restful-interaction"/>
+      <version value="5.0.0"/>
+      <code value="history-type"/>
+      <display value="history-type"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/restful-interaction"/>
+      <version value="5.0.0"/>
+      <code value="operation"/>
+      <display value="operation"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/restful-interaction"/>
+      <version value="5.0.0"/>
+      <code value="search-compartment"/>
+      <display value="search-compartment"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/restful-interaction"/>
+      <version value="5.0.0"/>
+      <code value="search-system"/>
+      <display value="search-system"/>
+    </contains>
+    <contains>
+      <system value="http://hl7.org/fhir/restful-interaction"/>
+      <version value="5.0.0"/>
+      <code value="search-type"/>
+      <display value="search-type"/>
+    </contains>
+  </expansion>
+</ValueSet>

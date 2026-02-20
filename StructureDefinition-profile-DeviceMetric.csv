@@ -24,7 +24,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DeviceMetric.extension:measurementFrequency","DeviceMetric.extension","measurementFrequency","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceMetric.measurementFrequency|0.0.1-snapshot-3]]} {[]}
+"DeviceMetric.extension:measurementFrequency","DeviceMetric.extension","measurementFrequency","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceMetric.measurementFrequency]]} {[]}
 ","Cross-version extension for DeviceMetric.measurementFrequency from R5 for use in FHIR R4","The frequency at which the metric is taken or recorded. Devices measure metrics at a wide range of frequencies; for example, an ECG might sample measurements in the millisecond range, while an NIBP might trigger only once an hour. Less often, the measurementFrequency may be based on a unit other than time, such as distance (e.g. for a measuring wheel). The update period may be different than the measurement frequency, if the device does not update the published observed value with the same frequency as it was measured.","Element `DeviceMetric.measurementFrequency` has a context of DeviceMetric based on following the parent source element upwards and mapping to `DeviceMetric`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -70,7 +70,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DeviceMetric.calibration.extension:calibration","DeviceMetric.calibration.extension","calibration","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceMetric.calibration|0.0.1-snapshot-3]]} {[]}
+"DeviceMetric.calibration.extension:calibration","DeviceMetric.calibration.extension","calibration","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceMetric.calibration]]} {[]}
 ","Cross-version extension for DeviceMetric.calibration from R5 for use in FHIR R4","Describes the calibrations that have been performed or that are required to be performed.","Element `DeviceMetric.calibration` has is mapped to FHIR R4 element `DeviceMetric.calibration`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

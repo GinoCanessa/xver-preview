@@ -13,15 +13,15 @@
     <sch:title>f:VerificationResult/f:status</sch:title>
     <sch:rule context="f:VerificationResult/f:status">
       <sch:assert test="count(f:id) &lt;= 1">id: maximum cardinality of 'id' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status|0.0.1-snapshot-3']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status|0.0.1-snapshot-3': minimum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status|0.0.1-snapshot-3']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status|0.0.1-snapshot-3': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.status': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:value) &lt;= 1">value: maximum cardinality of 'value' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>f:VerificationResult/f:attestation</sch:title>
     <sch:rule context="f:VerificationResult/f:attestation">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.attestation|0.0.1-snapshot-3']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.attestation|0.0.1-snapshot-3': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.attestation']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-VerificationResult.attestation': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

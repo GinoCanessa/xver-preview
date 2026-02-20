@@ -24,7 +24,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ImagingStudy.extension:partOf","ImagingStudy.extension","partOf","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"ImagingStudy.extension:partOf","ImagingStudy.extension","partOf","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for ImagingStudy.partOf from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Procedure in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `ImagingStudy.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `ImagingStudy.partOf` has a context of ImagingStudy based on following the parent source element upwards and mapping to `ImagingStudy`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -51,7 +51,7 @@ AccessionNumber","",0,*,"","","Y","Identifier {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ImagingStudy.modality.extension:modality","ImagingStudy.modality.extension","modality","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.modality|0.0.1-snapshot-3]]} {[]}
+"ImagingStudy.modality.extension:modality","ImagingStudy.modality.extension","modality","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.modality]]} {[]}
 ","Cross-version extension for ImagingStudy.modality from R5 for use in FHIR R4","A list of all the distinct values of series.modality. This may include both acquisition and non-acquisition modalities.","Element `ImagingStudy.modality` has is mapped to FHIR R4 element `ImagingStudy.modality`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ImagingStudy.modality.system","ImagingStudy.modality.system","","","",0,1,"","","Y","uri {[]} {[]}
@@ -133,7 +133,7 @@ StudyTime","",0,1,"","","Y","dateTime {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ImagingStudy.series.extension:series","ImagingStudy.series.extension","series","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series|0.0.1-snapshot-3]]} {[]}
+"ImagingStudy.series.extension:series","ImagingStudy.series.extension","series","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ImagingStudy.series]]} {[]}
 ","Cross-version extension for ImagingStudy.series from R5 for use in FHIR R4","Each study has one or more series of images or other content.","Element `ImagingStudy.series` has is mapped to FHIR R4 element `ImagingStudy.series`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

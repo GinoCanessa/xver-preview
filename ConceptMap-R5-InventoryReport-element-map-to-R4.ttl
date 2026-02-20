@@ -1,0 +1,313 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-InventoryReport-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-InventoryReport-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-InventoryReport-element-map-to-R4</b></p><a name=\"R5-InventoryReport-element-map-to-R4\"> </a><a name=\"hcR5-InventoryReport-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/InventoryReport|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/basic.html\">Basicversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>InventoryReport.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.meta</td><td>Element `InventoryReport.meta` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead.</td></tr><tr><td>InventoryReport.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.implicitRules</td><td>Element `InventoryReport.implicitRules` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead.</td></tr><tr><td>InventoryReport.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.language</td><td>Element `InventoryReport.language` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead.</td></tr><tr><td>InventoryReport.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.text</td><td>Element `InventoryReport.text` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead.</td></tr><tr><td>InventoryReport.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.contained</td><td>Element `InventoryReport.contained` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead.</td></tr><tr><td>InventoryReport.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Basic.identifier</td><td>Element `InventoryReport.identifier` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Basic.identifier` and is compatible, use that element instead.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/InventoryReport|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>InventoryReport.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.status</td><td>Element `InventoryReport.status` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.countType (countType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.countType</td><td>Element `InventoryReport.countType` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.operationType (operationType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.operationType</td><td>Element `InventoryReport.operationType` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.operationTypeReason (operationTypeReason)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.operationTypeReason</td><td>Element `InventoryReport.operationTypeReason` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.reportedDateTime (reportedDateTime)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reportedDateTime</td><td>Element `InventoryReport.reportedDateTime` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.reporter (reporter)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reporter</td><td>Element `InventoryReport.reporter` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.reportingPeriod (reportingPeriod)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reportingPeriod</td><td>Element `InventoryReport.reportingPeriod` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.inventoryListing (inventoryListing)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing</td><td>Element `InventoryReport.inventoryListing` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.inventoryListing.location (location)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.location</td><td>Element `InventoryReport.inventoryListing.location` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.inventoryListing.itemStatus (itemStatus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.itemStatus</td><td>Element `InventoryReport.inventoryListing.itemStatus` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.inventoryListing.countingDateTime (countingDateTime)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.countingDateTime</td><td>Element `InventoryReport.inventoryListing.countingDateTime` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.inventoryListing.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item</td><td>Element `InventoryReport.inventoryListing.item` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.inventoryListing.item.category (category)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.category</td><td>Element `InventoryReport.inventoryListing.item.category` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.inventoryListing.item.quantity (quantity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.quantity</td><td>Element `InventoryReport.inventoryListing.item.quantity` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.inventoryListing.item.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.item</td><td>Element `InventoryReport.inventoryListing.item.item` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr><tr><td>InventoryReport.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.note</td><td>Element `InventoryReport.note` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-InventoryReport-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-InventoryReport-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5InventoryReportElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 InventoryReport to FHIR R4 Basic"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:24.5738164-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 InventoryReport to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/InventoryReport"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/InventoryReport>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Basic"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Basic>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "InventoryReport.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.meta" ] ;
+         fhir:display [ fhir:v "Resource.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.meta` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.implicitRules" ] ;
+         fhir:display [ fhir:v "Resource.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.implicitRules` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.language" ] ;
+         fhir:display [ fhir:v "Resource.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.language` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.text" ] ;
+         fhir:display [ fhir:v "DomainResource.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.text` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.contained" ] ;
+         fhir:display [ fhir:v "DomainResource.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.contained` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:display [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.identifier` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped.\nElement matches Basic element path `Basic.identifier` and is compatible, use that element instead." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/InventoryReport"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/InventoryReport>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "InventoryReport.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.status` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.countType" ] ;
+       fhir:display [ fhir:v "countType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.countType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.countType` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.operationType" ] ;
+       fhir:display [ fhir:v "operationType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.operationType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.operationType` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.operationTypeReason" ] ;
+       fhir:display [ fhir:v "operationTypeReason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.operationTypeReason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.operationTypeReason` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.reportedDateTime" ] ;
+       fhir:display [ fhir:v "reportedDateTime" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reportedDateTime" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.reportedDateTime` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.reporter" ] ;
+       fhir:display [ fhir:v "reporter" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reporter" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.reporter` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.reportingPeriod" ] ;
+       fhir:display [ fhir:v "reportingPeriod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.reportingPeriod" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.reportingPeriod` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.inventoryListing" ] ;
+       fhir:display [ fhir:v "inventoryListing" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.inventoryListing` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.inventoryListing.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.location" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.inventoryListing.location` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.inventoryListing.itemStatus" ] ;
+       fhir:display [ fhir:v "itemStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.itemStatus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.inventoryListing.itemStatus` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.inventoryListing.countingDateTime" ] ;
+       fhir:display [ fhir:v "countingDateTime" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.countingDateTime" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.inventoryListing.countingDateTime` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.inventoryListing.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.inventoryListing.item` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.inventoryListing.item.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.category" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.inventoryListing.item.category` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.inventoryListing.item.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.quantity" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.inventoryListing.item.quantity` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.inventoryListing.item.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.inventoryListing.item.item" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.inventoryListing.item.item` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "InventoryReport.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-InventoryReport.note" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `InventoryReport.note` is not mapped to FHIR R4, since FHIR R5 `InventoryReport` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

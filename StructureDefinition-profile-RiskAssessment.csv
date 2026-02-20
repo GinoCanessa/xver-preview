@@ -70,7 +70,7 @@ Period {[]} {[]}","When was assessment made?","The date (and possibly time) the 
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"RiskAssessment.performer.extension:performer","RiskAssessment.performer.extension","performer","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"RiskAssessment.performer.extension:performer","RiskAssessment.performer.extension","performer","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for RiskAssessment.performer from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `RiskAssessment.performer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `RiskAssessment.performer` has is mapped to FHIR R4 element `RiskAssessment.performer`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -113,7 +113,7 @@ ras-2:Must be <= 100 {probability is decimal implies (probability as decimal) <=
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"RiskAssessment.prediction.extension:prediction","RiskAssessment.prediction.extension","prediction","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-RiskAssessment.prediction|0.0.1-snapshot-3]]} {[]}
+"RiskAssessment.prediction.extension:prediction","RiskAssessment.prediction.extension","prediction","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-RiskAssessment.prediction]]} {[]}
 ","Cross-version extension for RiskAssessment.prediction from R5 for use in FHIR R4","Describes the expected outcome for the subject.","Element `RiskAssessment.prediction` has is mapped to FHIR R4 element `RiskAssessment.prediction`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

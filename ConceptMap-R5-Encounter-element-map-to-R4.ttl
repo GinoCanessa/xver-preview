@@ -1,0 +1,708 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Encounter-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Encounter-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Encounter-element-map-to-R4</b></p><a name=\"R5-Encounter-element-map-to-R4\"> </a><a name=\"hcR5-Encounter-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Encounter|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/encounter.html\">Encounterversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Encounter|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Encounter|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">Encounter.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.meta` has is mapped to FHIR R4 element `Encounter.meta`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.implicitRules` has is mapped to FHIR R4 element `Encounter.implicitRules`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.language` has is mapped to FHIR R4 element `Encounter.language`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.text` has is mapped to FHIR R4 element `Encounter.text`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.contained` has is mapped to FHIR R4 element `Encounter.contained`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.identifier` has is mapped to FHIR R4 element `Encounter.identifier`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Encounter.status` has is mapped to FHIR R4 element `Encounter.status`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.class</td><td style=\"border-left-width: 0px\">class</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.class` has is mapped to FHIR R4 element `Encounter.class`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.priority</td><td style=\"border-left-width: 0px\">priority</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.priority` has is mapped to FHIR R4 element `Encounter.priority`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.type` has is mapped to FHIR R4 element `Encounter.type`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.serviceType</td><td style=\"border-left-width: 0px\">serviceType</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.serviceType` has is mapped to FHIR R4 element `Encounter.serviceType`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.subject</td><td style=\"border-left-width: 0px\">subject</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.subject` has is mapped to FHIR R4 element `Encounter.subject`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.episodeOfCare</td><td style=\"border-left-width: 0px\">episodeOfCare</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.episodeOfCare` has is mapped to FHIR R4 element `Encounter.episodeOfCare`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.basedOn` has is mapped to FHIR R4 element `Encounter.basedOn`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.partOf</td><td style=\"border-left-width: 0px\">partOf</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.partOf` has is mapped to FHIR R4 element `Encounter.partOf`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.serviceProvider</td><td style=\"border-left-width: 0px\">serviceProvider</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.serviceProvider` has is mapped to FHIR R4 element `Encounter.serviceProvider`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.participant</td><td style=\"border-left-width: 0px\">participant</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.participant` has is mapped to FHIR R4 element `Encounter.participant`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.participant.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.participant.type` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nElement `Encounter.participant.type` has is mapped to FHIR R4 element `Encounter.participant.type`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.participant.period</td><td style=\"border-left-width: 0px\">period</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.participant.period` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nElement `Encounter.participant.period` has is mapped to FHIR R4 element `Encounter.participant.period`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.participant.actor</td><td style=\"border-left-width: 0px\">actor</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.participant.actor` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.participant.actor` has is mapped to FHIR R4 element `Encounter.participant.individual`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.appointment</td><td style=\"border-left-width: 0px\">appointment</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.appointment` has is mapped to FHIR R4 element `Encounter.appointment`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.actualPeriod</td><td style=\"border-left-width: 0px\">actualPeriod</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.actualPeriod` has is mapped to FHIR R4 element `Encounter.period`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.length</td><td style=\"border-left-width: 0px\">length</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.length` has is mapped to FHIR R4 element `Encounter.length`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.reason</td><td style=\"border-left-width: 0px\">reason</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.reason` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.reason.use</td><td style=\"border-left-width: 0px\">use</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.reason.use` is part of an existing definition because parent element `Encounter.reason` requires a cross-version extension.\nElement `Encounter.reason.use` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Encounter.reason.value</td><td style=\"border-left-width: 0px; border-bottom-style: none\">value</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.reason.value` is part of an existing definition because parent element `Encounter.reason` requires a cross-version extension.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonReference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.reason.value` is part of an existing definition because parent element `Encounter.reason` requires a cross-version extension.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonReference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.diagnosis</td><td style=\"border-left-width: 0px\">diagnosis</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.diagnosis` has is mapped to FHIR R4 element `Encounter.diagnosis`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.diagnosis.condition</td><td style=\"border-left-width: 0px\">condition</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.diagnosis.condition` is part of an existing definition because parent element `Encounter.diagnosis` requires a cross-version extension.\nElement `Encounter.diagnosis.condition` has is mapped to FHIR R4 element `Encounter.diagnosis.condition`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.diagnosis.use</td><td style=\"border-left-width: 0px\">use</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.diagnosis.use` is part of an existing definition because parent element `Encounter.diagnosis` requires a cross-version extension.\nElement `Encounter.diagnosis.use` has is mapped to FHIR R4 element `Encounter.diagnosis.use`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.account</td><td style=\"border-left-width: 0px\">account</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.account` has is mapped to FHIR R4 element `Encounter.account`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.dietPreference</td><td style=\"border-left-width: 0px\">dietPreference</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.dietPreference` has is mapped to FHIR R4 element `Encounter.hospitalization.dietPreference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.specialArrangement</td><td style=\"border-left-width: 0px\">specialArrangement</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.specialArrangement` has is mapped to FHIR R4 element `Encounter.hospitalization.specialArrangement`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.specialCourtesy</td><td style=\"border-left-width: 0px\">specialCourtesy</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.specialCourtesy` has is mapped to FHIR R4 element `Encounter.hospitalization.specialCourtesy`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.admission</td><td style=\"border-left-width: 0px\">admission</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.admission` has is mapped to FHIR R4 element `Encounter.hospitalization`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.admission.preAdmissionIdentifier</td><td style=\"border-left-width: 0px\">preAdmissionIdentifier</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.admission.preAdmissionIdentifier` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.preAdmissionIdentifier` has is mapped to FHIR R4 element `Encounter.hospitalization.preAdmissionIdentifier`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.admission.origin</td><td style=\"border-left-width: 0px\">origin</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.admission.origin` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.origin` has is mapped to FHIR R4 element `Encounter.hospitalization.origin`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.admission.admitSource</td><td style=\"border-left-width: 0px\">admitSource</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.admission.admitSource` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.admitSource` has is mapped to FHIR R4 element `Encounter.hospitalization.admitSource`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.admission.reAdmission</td><td style=\"border-left-width: 0px\">reAdmission</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.admission.reAdmission` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.reAdmission` has is mapped to FHIR R4 element `Encounter.hospitalization.reAdmission`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.admission.destination</td><td style=\"border-left-width: 0px\">destination</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.admission.destination` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.destination` has is mapped to FHIR R4 element `Encounter.hospitalization.destination`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.admission.dischargeDisposition</td><td style=\"border-left-width: 0px\">dischargeDisposition</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.admission.dischargeDisposition` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.dischargeDisposition` has is mapped to FHIR R4 element `Encounter.hospitalization.dischargeDisposition`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.location</td><td style=\"border-left-width: 0px\">location</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.location` has is mapped to FHIR R4 element `Encounter.location`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.location.location</td><td style=\"border-left-width: 0px\">location</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.location.location` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.location` has is mapped to FHIR R4 element `Encounter.location.location`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.location.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.location.status` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.status` has is mapped to FHIR R4 element `Encounter.location.status`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.location.form</td><td style=\"border-left-width: 0px\">form</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.location.form` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.form` has is mapped to FHIR R4 element `Encounter.location.physicalType`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Encounter.location.period</td><td style=\"border-left-width: 0px\">period</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Encounter.location.period` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.period` has is mapped to FHIR R4 element `Encounter.location.period`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Encounter|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Encounter.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.status</td><td>Note that the target element context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Encounter.status` has is mapped to FHIR R4 element `Encounter.status`, but has no comparisons.</td></tr><tr><td>Encounter.class (class)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.class</td><td>Element `Encounter.class` has is mapped to FHIR R4 element `Encounter.class`, but has no comparisons.</td></tr><tr><td>Encounter.serviceType (serviceType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.serviceType</td><td>Element `Encounter.serviceType` has is mapped to FHIR R4 element `Encounter.serviceType`, but has no comparisons.</td></tr><tr><td>Encounter.subjectStatus (subjectStatus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.subjectStatus</td><td>Element `Encounter.subjectStatus` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>Encounter.participant (participant)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.participant</td><td>Element `Encounter.participant` has is mapped to FHIR R4 element `Encounter.participant`, but has no comparisons.</td></tr><tr><td>Encounter.participant.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.participant.type</td><td>Element `Encounter.participant.type` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nElement `Encounter.participant.type` has is mapped to FHIR R4 element `Encounter.participant.type`, but has no comparisons.</td></tr><tr><td>Encounter.participant.period (period)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.participant.period</td><td>Element `Encounter.participant.period` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nElement `Encounter.participant.period` has is mapped to FHIR R4 element `Encounter.participant.period`, but has no comparisons.</td></tr><tr><td>Encounter.virtualService (virtualService)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.virtualService</td><td>Element `Encounter.virtualService` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>Encounter.plannedStartDate (plannedStartDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate</td><td>Element `Encounter.plannedStartDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>Encounter.plannedEndDate (plannedEndDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate</td><td>Element `Encounter.plannedEndDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>Encounter.reason (reason)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.reason</td><td>Element `Encounter.reason` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons.</td></tr><tr><td>Encounter.reason.use (use)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.reason.use</td><td>Element `Encounter.reason.use` is part of an existing definition because parent element `Encounter.reason` requires a cross-version extension.\nElement `Encounter.reason.use` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons.</td></tr><tr><td>Encounter.reason.value (value)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.reason.value</td><td>Element `Encounter.reason.value` is part of an existing definition because parent element `Encounter.reason` requires a cross-version extension.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonReference`, but has no comparisons.</td></tr><tr><td>Encounter.diagnosis (diagnosis)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis</td><td>Element `Encounter.diagnosis` has is mapped to FHIR R4 element `Encounter.diagnosis`, but has no comparisons.</td></tr><tr><td>Encounter.diagnosis.condition (condition)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis.condition</td><td>Element `Encounter.diagnosis.condition` is part of an existing definition because parent element `Encounter.diagnosis` requires a cross-version extension.\nElement `Encounter.diagnosis.condition` has is mapped to FHIR R4 element `Encounter.diagnosis.condition`, but has no comparisons.</td></tr><tr><td>Encounter.diagnosis.use (use)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis.use</td><td>Element `Encounter.diagnosis.use` is part of an existing definition because parent element `Encounter.diagnosis` requires a cross-version extension.\nElement `Encounter.diagnosis.use` has is mapped to FHIR R4 element `Encounter.diagnosis.use`, but has no comparisons.</td></tr><tr><td>Encounter.admission (admission)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission</td><td>Element `Encounter.admission` has is mapped to FHIR R4 element `Encounter.hospitalization`, but has no comparisons.</td></tr><tr><td>Encounter.admission.preAdmissionIdentifier (preAdmissionIdentifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.preAdmissionIdentifier</td><td>Element `Encounter.admission.preAdmissionIdentifier` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.preAdmissionIdentifier` has is mapped to FHIR R4 element `Encounter.hospitalization.preAdmissionIdentifier`, but has no comparisons.</td></tr><tr><td>Encounter.admission.origin (origin)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.origin</td><td>Element `Encounter.admission.origin` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.origin` has is mapped to FHIR R4 element `Encounter.hospitalization.origin`, but has no comparisons.</td></tr><tr><td>Encounter.admission.admitSource (admitSource)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.admitSource</td><td>Element `Encounter.admission.admitSource` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.admitSource` has is mapped to FHIR R4 element `Encounter.hospitalization.admitSource`, but has no comparisons.</td></tr><tr><td>Encounter.admission.reAdmission (reAdmission)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.reAdmission</td><td>Element `Encounter.admission.reAdmission` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.reAdmission` has is mapped to FHIR R4 element `Encounter.hospitalization.reAdmission`, but has no comparisons.</td></tr><tr><td>Encounter.admission.destination (destination)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.destination</td><td>Element `Encounter.admission.destination` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.destination` has is mapped to FHIR R4 element `Encounter.hospitalization.destination`, but has no comparisons.</td></tr><tr><td>Encounter.admission.dischargeDisposition (dischargeDisposition)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.dischargeDisposition</td><td>Element `Encounter.admission.dischargeDisposition` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.dischargeDisposition` has is mapped to FHIR R4 element `Encounter.hospitalization.dischargeDisposition`, but has no comparisons.</td></tr><tr><td>Encounter.location (location)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location</td><td>Element `Encounter.location` has is mapped to FHIR R4 element `Encounter.location`, but has no comparisons.</td></tr><tr><td>Encounter.location.location (location)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location.location</td><td>Element `Encounter.location.location` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.location` has is mapped to FHIR R4 element `Encounter.location.location`, but has no comparisons.</td></tr><tr><td>Encounter.location.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location.status</td><td>Element `Encounter.location.status` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.status` has is mapped to FHIR R4 element `Encounter.location.status`, but has no comparisons.</td></tr><tr><td>Encounter.location.form (form)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location.form</td><td>Element `Encounter.location.form` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.form` has is mapped to FHIR R4 element `Encounter.location.physicalType`, but has no comparisons.</td></tr><tr><td>Encounter.location.period (period)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location.period</td><td>Element `Encounter.location.period` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.period` has is mapped to FHIR R4 element `Encounter.location.period`, but has no comparisons.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Encounter|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Encounter.basedOn (basedOn)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.basedOn` has is mapped to FHIR R4 element `Encounter.basedOn`, but has no comparisons.</td></tr><tr><td>Encounter.careTeam (careTeam)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.careTeam` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.careTeam` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`.</td></tr><tr><td>Encounter.participant.actor (actor)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `Encounter.participant.actor` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.participant.actor` has is mapped to FHIR R4 element `Encounter.participant.individual`, but has no comparisons.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Encounter-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Encounter-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5EncounterElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Encounter to FHIR R4 Encounter"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:23.355774-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Encounter to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Encounter"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Encounter>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Encounter"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Encounter>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Encounter.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.meta` has is mapped to FHIR R4 element `Encounter.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.implicitRules` has is mapped to FHIR R4 element `Encounter.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.language` has is mapped to FHIR R4 element `Encounter.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.text` has is mapped to FHIR R4 element `Encounter.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.contained` has is mapped to FHIR R4 element `Encounter.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.identifier` has is mapped to FHIR R4 element `Encounter.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Encounter.status` has is mapped to FHIR R4 element `Encounter.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.class" ] ;
+       fhir:display [ fhir:v "class" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.class` has is mapped to FHIR R4 element `Encounter.class`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.priority` has is mapped to FHIR R4 element `Encounter.priority`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.type` has is mapped to FHIR R4 element `Encounter.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.serviceType" ] ;
+       fhir:display [ fhir:v "serviceType" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.serviceType` has is mapped to FHIR R4 element `Encounter.serviceType`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.subject` has is mapped to FHIR R4 element `Encounter.subject`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.episodeOfCare" ] ;
+       fhir:display [ fhir:v "episodeOfCare" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.episodeOfCare` has is mapped to FHIR R4 element `Encounter.episodeOfCare`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.basedOn` has is mapped to FHIR R4 element `Encounter.basedOn`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.partOf` has is mapped to FHIR R4 element `Encounter.partOf`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.serviceProvider" ] ;
+       fhir:display [ fhir:v "serviceProvider" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.serviceProvider` has is mapped to FHIR R4 element `Encounter.serviceProvider`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.participant` has is mapped to FHIR R4 element `Encounter.participant`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.participant.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.participant.type` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nElement `Encounter.participant.type` has is mapped to FHIR R4 element `Encounter.participant.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.participant.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.participant.period` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nElement `Encounter.participant.period` has is mapped to FHIR R4 element `Encounter.participant.period`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.participant.actor` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.participant.actor` has is mapped to FHIR R4 element `Encounter.participant.individual`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.appointment" ] ;
+       fhir:display [ fhir:v "appointment" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.appointment` has is mapped to FHIR R4 element `Encounter.appointment`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.actualPeriod" ] ;
+       fhir:display [ fhir:v "actualPeriod" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.actualPeriod` has is mapped to FHIR R4 element `Encounter.period`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.length" ] ;
+       fhir:display [ fhir:v "length" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.length` has is mapped to FHIR R4 element `Encounter.length`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.reason` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.reason.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.reason.use` is part of an existing definition because parent element `Encounter.reason` requires a cross-version extension.\nElement `Encounter.reason.use` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.reason.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.reason.value` is part of an existing definition because parent element `Encounter.reason` requires a cross-version extension.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonReference`, but has no comparisons." ]
+       ] [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.reason.value` is part of an existing definition because parent element `Encounter.reason` requires a cross-version extension.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonReference`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.diagnosis" ] ;
+       fhir:display [ fhir:v "diagnosis" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.diagnosis` has is mapped to FHIR R4 element `Encounter.diagnosis`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.diagnosis.condition" ] ;
+       fhir:display [ fhir:v "condition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.diagnosis.condition` is part of an existing definition because parent element `Encounter.diagnosis` requires a cross-version extension.\nElement `Encounter.diagnosis.condition` has is mapped to FHIR R4 element `Encounter.diagnosis.condition`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.diagnosis.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.diagnosis.use` is part of an existing definition because parent element `Encounter.diagnosis` requires a cross-version extension.\nElement `Encounter.diagnosis.use` has is mapped to FHIR R4 element `Encounter.diagnosis.use`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.account" ] ;
+       fhir:display [ fhir:v "account" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.account` has is mapped to FHIR R4 element `Encounter.account`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.dietPreference" ] ;
+       fhir:display [ fhir:v "dietPreference" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.dietPreference` has is mapped to FHIR R4 element `Encounter.hospitalization.dietPreference`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.specialArrangement" ] ;
+       fhir:display [ fhir:v "specialArrangement" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.specialArrangement` has is mapped to FHIR R4 element `Encounter.hospitalization.specialArrangement`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.specialCourtesy" ] ;
+       fhir:display [ fhir:v "specialCourtesy" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.specialCourtesy` has is mapped to FHIR R4 element `Encounter.hospitalization.specialCourtesy`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission" ] ;
+       fhir:display [ fhir:v "admission" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission` has is mapped to FHIR R4 element `Encounter.hospitalization`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.preAdmissionIdentifier" ] ;
+       fhir:display [ fhir:v "preAdmissionIdentifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.preAdmissionIdentifier` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.preAdmissionIdentifier` has is mapped to FHIR R4 element `Encounter.hospitalization.preAdmissionIdentifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.origin" ] ;
+       fhir:display [ fhir:v "origin" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.origin` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.origin` has is mapped to FHIR R4 element `Encounter.hospitalization.origin`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.admitSource" ] ;
+       fhir:display [ fhir:v "admitSource" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.admitSource` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.admitSource` has is mapped to FHIR R4 element `Encounter.hospitalization.admitSource`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.reAdmission" ] ;
+       fhir:display [ fhir:v "reAdmission" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.reAdmission` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.reAdmission` has is mapped to FHIR R4 element `Encounter.hospitalization.reAdmission`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.destination" ] ;
+       fhir:display [ fhir:v "destination" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.destination` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.destination` has is mapped to FHIR R4 element `Encounter.hospitalization.destination`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.dischargeDisposition" ] ;
+       fhir:display [ fhir:v "dischargeDisposition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.dischargeDisposition` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.dischargeDisposition` has is mapped to FHIR R4 element `Encounter.hospitalization.dischargeDisposition`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.location` has is mapped to FHIR R4 element `Encounter.location`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.location.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.location.location` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.location` has is mapped to FHIR R4 element `Encounter.location.location`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.location.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.location.status` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.status` has is mapped to FHIR R4 element `Encounter.location.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.location.form" ] ;
+       fhir:display [ fhir:v "form" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.location.form` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.form` has is mapped to FHIR R4 element `Encounter.location.physicalType`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.location.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.location.period` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.period` has is mapped to FHIR R4 element `Encounter.location.period`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Encounter"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Encounter>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Encounter.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Encounter.status` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Encounter.status` has is mapped to FHIR R4 element `Encounter.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.class" ] ;
+       fhir:display [ fhir:v "class" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.class" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.class` has is mapped to FHIR R4 element `Encounter.class`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.serviceType" ] ;
+       fhir:display [ fhir:v "serviceType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.serviceType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.serviceType` has is mapped to FHIR R4 element `Encounter.serviceType`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.subjectStatus" ] ;
+       fhir:display [ fhir:v "subjectStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.subjectStatus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.subjectStatus` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.participant" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.participant` has is mapped to FHIR R4 element `Encounter.participant`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.participant.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.participant.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.participant.type` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nElement `Encounter.participant.type` has is mapped to FHIR R4 element `Encounter.participant.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.participant.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.participant.period" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.participant.period` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nElement `Encounter.participant.period` has is mapped to FHIR R4 element `Encounter.participant.period`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.virtualService" ] ;
+       fhir:display [ fhir:v "virtualService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.virtualService" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.virtualService` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.plannedStartDate" ] ;
+       fhir:display [ fhir:v "plannedStartDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedStartDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.plannedStartDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.plannedEndDate" ] ;
+       fhir:display [ fhir:v "plannedEndDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.plannedEndDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.plannedEndDate` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.reason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.reason` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.reason.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.reason.use" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.reason.use` is part of an existing definition because parent element `Encounter.reason` requires a cross-version extension.\nElement `Encounter.reason.use` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.reason.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.reason.value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.reason.value` is part of an existing definition because parent element `Encounter.reason` requires a cross-version extension.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonCode`, but has no comparisons.\nElement `Encounter.reason.value` has is mapped to FHIR R4 element `Encounter.reasonReference`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.diagnosis" ] ;
+       fhir:display [ fhir:v "diagnosis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.diagnosis` has is mapped to FHIR R4 element `Encounter.diagnosis`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.diagnosis.condition" ] ;
+       fhir:display [ fhir:v "condition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis.condition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.diagnosis.condition` is part of an existing definition because parent element `Encounter.diagnosis` requires a cross-version extension.\nElement `Encounter.diagnosis.condition` has is mapped to FHIR R4 element `Encounter.diagnosis.condition`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.diagnosis.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.diagnosis.use" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.diagnosis.use` is part of an existing definition because parent element `Encounter.diagnosis` requires a cross-version extension.\nElement `Encounter.diagnosis.use` has is mapped to FHIR R4 element `Encounter.diagnosis.use`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission" ] ;
+       fhir:display [ fhir:v "admission" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission` has is mapped to FHIR R4 element `Encounter.hospitalization`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.preAdmissionIdentifier" ] ;
+       fhir:display [ fhir:v "preAdmissionIdentifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.preAdmissionIdentifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.preAdmissionIdentifier` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.preAdmissionIdentifier` has is mapped to FHIR R4 element `Encounter.hospitalization.preAdmissionIdentifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.origin" ] ;
+       fhir:display [ fhir:v "origin" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.origin" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.origin` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.origin` has is mapped to FHIR R4 element `Encounter.hospitalization.origin`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.admitSource" ] ;
+       fhir:display [ fhir:v "admitSource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.admitSource" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.admitSource` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.admitSource` has is mapped to FHIR R4 element `Encounter.hospitalization.admitSource`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.reAdmission" ] ;
+       fhir:display [ fhir:v "reAdmission" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.reAdmission" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.reAdmission` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.reAdmission` has is mapped to FHIR R4 element `Encounter.hospitalization.reAdmission`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.destination" ] ;
+       fhir:display [ fhir:v "destination" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.destination" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.destination` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.destination` has is mapped to FHIR R4 element `Encounter.hospitalization.destination`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.admission.dischargeDisposition" ] ;
+       fhir:display [ fhir:v "dischargeDisposition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.admission.dischargeDisposition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.admission.dischargeDisposition` is part of an existing definition because parent element `Encounter.admission` requires a cross-version extension.\nElement `Encounter.admission.dischargeDisposition` has is mapped to FHIR R4 element `Encounter.hospitalization.dischargeDisposition`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.location` has is mapped to FHIR R4 element `Encounter.location`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.location.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location.location" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.location.location` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.location` has is mapped to FHIR R4 element `Encounter.location.location`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.location.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.location.status` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.status` has is mapped to FHIR R4 element `Encounter.location.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.location.form" ] ;
+       fhir:display [ fhir:v "form" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location.form" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.location.form` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.form` has is mapped to FHIR R4 element `Encounter.location.physicalType`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.location.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Encounter.location.period" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.location.period` is part of an existing definition because parent element `Encounter.location` requires a cross-version extension.\nElement `Encounter.location.period` has is mapped to FHIR R4 element `Encounter.location.period`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Encounter"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Encounter>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Encounter.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.basedOn` has is mapped to FHIR R4 element `Encounter.basedOn`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.careTeam" ] ;
+       fhir:display [ fhir:v "careTeam" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.careTeam` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.careTeam` has a context of Encounter based on following the parent source element upwards and mapping to `Encounter`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Encounter.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Encounter.participant.actor` is part of an existing definition because parent element `Encounter.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Encounter.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Encounter.participant.actor` has is mapped to FHIR R4 element `Encounter.participant.individual`, but has no comparisons." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

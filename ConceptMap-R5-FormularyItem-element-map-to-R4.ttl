@@ -1,0 +1,201 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-FormularyItem-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-FormularyItem-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-FormularyItem-element-map-to-R4</b></p><a name=\"R5-FormularyItem-element-map-to-R4\"> </a><a name=\"hcR5-FormularyItem-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/FormularyItem|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/basic.html\">Basicversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>FormularyItem.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.meta</td><td>Element `FormularyItem.meta` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead.</td></tr><tr><td>FormularyItem.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.implicitRules</td><td>Element `FormularyItem.implicitRules` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead.</td></tr><tr><td>FormularyItem.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.language</td><td>Element `FormularyItem.language` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead.</td></tr><tr><td>FormularyItem.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.text</td><td>Element `FormularyItem.text` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead.</td></tr><tr><td>FormularyItem.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.contained</td><td>Element `FormularyItem.contained` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead.</td></tr><tr><td>FormularyItem.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Basic.identifier</td><td>Element `FormularyItem.identifier` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Basic.identifier` and is compatible, use that element instead.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/FormularyItem|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>FormularyItem.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FormularyItem.code</td><td>Element `FormularyItem.code` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.</td></tr><tr><td>FormularyItem.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-FormularyItem.status</td><td>Element `FormularyItem.status` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-FormularyItem-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-FormularyItem-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5FormularyItemElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 FormularyItem to FHIR R4 Basic"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:23.631898-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 FormularyItem to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/FormularyItem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/FormularyItem>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Basic"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Basic>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "FormularyItem.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.meta" ] ;
+         fhir:display [ fhir:v "Resource.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FormularyItem.meta` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FormularyItem.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.implicitRules" ] ;
+         fhir:display [ fhir:v "Resource.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FormularyItem.implicitRules` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FormularyItem.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.language" ] ;
+         fhir:display [ fhir:v "Resource.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FormularyItem.language` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FormularyItem.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.text" ] ;
+         fhir:display [ fhir:v "DomainResource.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FormularyItem.text` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FormularyItem.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.contained" ] ;
+         fhir:display [ fhir:v "DomainResource.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FormularyItem.contained` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FormularyItem.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:display [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `FormularyItem.identifier` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped.\nElement matches Basic element path `Basic.identifier` and is compatible, use that element instead." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/FormularyItem"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/FormularyItem>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "FormularyItem.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FormularyItem.code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FormularyItem.code` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "FormularyItem.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-FormularyItem.status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `FormularyItem.status` is not mapped to FHIR R4, since FHIR R5 `FormularyItem` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

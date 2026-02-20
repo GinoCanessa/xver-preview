@@ -1,0 +1,281 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Organization-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Organization-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Organization-element-map-to-R4</b></p><a name=\"R5-Organization-element-map-to-R4\"> </a><a name=\"hcR5-Organization-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Organization|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/organization.html\">Organizationversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Organization.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.meta` has is mapped to FHIR R4 element `Organization.meta`, but has no comparisons.</td></tr><tr><td>Organization.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.implicitRules` has is mapped to FHIR R4 element `Organization.implicitRules`, but has no comparisons.</td></tr><tr><td>Organization.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.language` has is mapped to FHIR R4 element `Organization.language`, but has no comparisons.</td></tr><tr><td>Organization.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.text` has is mapped to FHIR R4 element `Organization.text`, but has no comparisons.</td></tr><tr><td>Organization.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.contained` has is mapped to FHIR R4 element `Organization.contained`, but has no comparisons.</td></tr><tr><td>Organization.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.identifier` has is mapped to FHIR R4 element `Organization.identifier`, but has no comparisons.</td></tr><tr><td>Organization.active (active)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.active` has is mapped to FHIR R4 element `Organization.active`, but has no comparisons.</td></tr><tr><td>Organization.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.type` has is mapped to FHIR R4 element `Organization.type`, but has no comparisons.</td></tr><tr><td>Organization.name (name)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.name` has is mapped to FHIR R4 element `Organization.name`, but has no comparisons.</td></tr><tr><td>Organization.alias (alias)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.alias` has is mapped to FHIR R4 element `Organization.alias`, but has no comparisons.</td></tr><tr><td>Organization.contact (contact)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.contact` has is mapped to FHIR R4 element `Organization.contact`, but has no comparisons.</td></tr><tr><td>Organization.partOf (partOf)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.partOf` has is mapped to FHIR R4 element `Organization.partOf`, but has no comparisons.</td></tr><tr><td>Organization.endpoint (endpoint)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Organization.endpoint` has is mapped to FHIR R4 element `Organization.endpoint`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Organization|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Organization.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.description</td><td>Element `Organization.description` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.</td></tr><tr><td>Organization.qualification (qualification)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification</td><td>Element `Organization.qualification` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.</td></tr><tr><td>Organization.qualification.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification.identifier</td><td>Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.identifier` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.</td></tr><tr><td>Organization.qualification.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification.code</td><td>Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.code` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.</td></tr><tr><td>Organization.qualification.period (period)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification.period</td><td>Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.period` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Organization|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Organization.qualification.issuer (issuer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Organization.qualification.issuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Organization.qualification.issuer` has a context of Organization based on following the parent source element upwards and mapping to `Organization`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Organization-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Organization-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5OrganizationElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Organization to FHIR R4 Organization"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:25.4041145-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Organization to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Organization>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Organization>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Organization.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.meta` has is mapped to FHIR R4 element `Organization.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.implicitRules` has is mapped to FHIR R4 element `Organization.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.language` has is mapped to FHIR R4 element `Organization.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.text` has is mapped to FHIR R4 element `Organization.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.contained` has is mapped to FHIR R4 element `Organization.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.identifier` has is mapped to FHIR R4 element `Organization.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.active" ] ;
+       fhir:display [ fhir:v "active" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.active` has is mapped to FHIR R4 element `Organization.active`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.type` has is mapped to FHIR R4 element `Organization.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.name` has is mapped to FHIR R4 element `Organization.name`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.alias" ] ;
+       fhir:display [ fhir:v "alias" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.alias` has is mapped to FHIR R4 element `Organization.alias`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.contact` has is mapped to FHIR R4 element `Organization.contact`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.partOf` has is mapped to FHIR R4 element `Organization.partOf`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.endpoint" ] ;
+       fhir:display [ fhir:v "endpoint" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Organization.endpoint` has is mapped to FHIR R4 element `Organization.endpoint`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Organization>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Organization.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Organization.description` has a context of Organization based on following the parent source element upwards and mapping to `Organization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.qualification" ] ;
+       fhir:display [ fhir:v "qualification" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Organization.qualification` has a context of Organization based on following the parent source element upwards and mapping to `Organization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.qualification.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification.identifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Organization.qualification.identifier` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.identifier` has a context of Organization based on following the parent source element upwards and mapping to `Organization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.qualification.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification.code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Organization.qualification.code` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.code` has a context of Organization based on following the parent source element upwards and mapping to `Organization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Organization.qualification.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Organization.qualification.period" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Organization.qualification.period` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nElement `Organization.qualification.period` has a context of Organization based on following the parent source element upwards and mapping to `Organization`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Organization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Organization>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Organization.qualification.issuer" ] ;
+       fhir:display [ fhir:v "issuer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Organization.qualification.issuer` is part of an existing definition because parent element `Organization.qualification` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Organization.qualification.issuer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Organization.qualification.issuer` has a context of Organization based on following the parent source element upwards and mapping to `Organization`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

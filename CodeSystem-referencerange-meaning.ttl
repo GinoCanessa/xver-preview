@@ -54,25 +54,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "oo"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/referencerange-meaning"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/referencerange-meaning>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "ObservationReferenceRangeMeaningCodes"] ; # 
   fhir:title [ fhir:v "Observation Reference Range Meaning Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Orders and Observations"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Orders and Observations" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/orders" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population."] ; # 
@@ -88,8 +88,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/referencerange-meaning|1.0.1"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/referencerange-meaning?version=1.0.1>
+     fhir:v "http://terminology.hl7.org/ValueSet/referencerange-meaning"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/referencerange-meaning>
   ] ; # 
   fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
   fhir:content [ fhir:v "complete"] ; # 

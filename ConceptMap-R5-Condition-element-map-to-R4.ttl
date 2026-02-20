@@ -1,0 +1,367 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Condition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Condition-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Condition-element-map-to-R4</b></p><a name=\"R5-Condition-element-map-to-R4\"> </a><a name=\"hcR5-Condition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Condition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/condition.html\">Conditionversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Condition.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.meta` has is mapped to FHIR R4 element `Condition.meta`, but has no comparisons.</td></tr><tr><td>Condition.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.implicitRules` has is mapped to FHIR R4 element `Condition.implicitRules`, but has no comparisons.</td></tr><tr><td>Condition.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.language` has is mapped to FHIR R4 element `Condition.language`, but has no comparisons.</td></tr><tr><td>Condition.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.text` has is mapped to FHIR R4 element `Condition.text`, but has no comparisons.</td></tr><tr><td>Condition.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.contained` has is mapped to FHIR R4 element `Condition.contained`, but has no comparisons.</td></tr><tr><td>Condition.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.identifier` has is mapped to FHIR R4 element `Condition.identifier`, but has no comparisons.</td></tr><tr><td>Condition.clinicalStatus (clinicalStatus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that the target element context `Condition.clinicalStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Condition.clinicalStatus` has is mapped to FHIR R4 element `Condition.clinicalStatus`, but has no comparisons.</td></tr><tr><td>Condition.verificationStatus (verificationStatus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.verificationStatus` has is mapped to FHIR R4 element `Condition.verificationStatus`, but has no comparisons.</td></tr><tr><td>Condition.category (category)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.category` has is mapped to FHIR R4 element `Condition.category`, but has no comparisons.</td></tr><tr><td>Condition.severity (severity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.severity` has is mapped to FHIR R4 element `Condition.severity`, but has no comparisons.</td></tr><tr><td>Condition.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.code` has is mapped to FHIR R4 element `Condition.code`, but has no comparisons.</td></tr><tr><td>Condition.bodySite (bodySite)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.bodySite` has is mapped to FHIR R4 element `Condition.bodySite`, but has no comparisons.</td></tr><tr><td>Condition.subject (subject)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.subject` has is mapped to FHIR R4 element `Condition.subject`, but has no comparisons.</td></tr><tr><td>Condition.encounter (encounter)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.encounter` has is mapped to FHIR R4 element `Condition.encounter`, but has no comparisons.</td></tr><tr><td>Condition.onset[x] (onset[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `Condition.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`.\nElement `Condition.onset[x]` has is mapped to FHIR R4 element `Condition.onset[x]`, but has no comparisons.\nNote that the target element context `Condition.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`.</td></tr><tr><td>Condition.abatement[x] (abatement[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `Condition.abatement[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`.\nElement `Condition.abatement[x]` has is mapped to FHIR R4 element `Condition.abatement[x]`, but has no comparisons.\nNote that the target element context `Condition.abatement[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`.</td></tr><tr><td>Condition.recordedDate (recordedDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.recordedDate` has is mapped to FHIR R4 element `Condition.recordedDate`, but has no comparisons.</td></tr><tr><td>Condition.stage (stage)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Condition.stage` has is mapped to FHIR R4 element `Condition.stage`, but has no comparisons.</td></tr><tr><td>Condition.stage.summary (summary)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.stage.summary` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.summary` has is mapped to FHIR R4 element `Condition.stage.summary`, but has no comparisons.</td></tr><tr><td>Condition.stage.assessment (assessment)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.stage.assessment` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.assessment` has is mapped to FHIR R4 element `Condition.stage.assessment`, but has no comparisons.</td></tr><tr><td>Condition.stage.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.stage.type` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.type` has is mapped to FHIR R4 element `Condition.stage.type`, but has no comparisons.</td></tr><tr><td>Condition.evidence (evidence)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.evidence` has is mapped to FHIR R4 element `Condition.evidence`, but has no comparisons.</td></tr><tr><td>Condition.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Condition.note` has is mapped to FHIR R4 element `Condition.note`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Condition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Condition.clinicalStatus (clinicalStatus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.clinicalStatus</td><td>Note that the target element context `Condition.clinicalStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Condition.clinicalStatus` has is mapped to FHIR R4 element `Condition.clinicalStatus`, but has no comparisons.</td></tr><tr><td>Condition.participant (participant)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.participant</td><td>Element `Condition.participant` has a context of Condition based on following the parent source element upwards and mapping to `Condition`.</td></tr><tr><td>Condition.participant.function (function)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.participant.function</td><td>Element `Condition.participant.function` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.function` has a context of Condition based on following the parent source element upwards and mapping to `Condition`.</td></tr><tr><td>Condition.stage (stage)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.stage</td><td>Element `Condition.stage` has is mapped to FHIR R4 element `Condition.stage`, but has no comparisons.</td></tr><tr><td>Condition.stage.summary (summary)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.stage.summary</td><td>Element `Condition.stage.summary` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.summary` has is mapped to FHIR R4 element `Condition.stage.summary`, but has no comparisons.</td></tr><tr><td>Condition.stage.assessment (assessment)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.stage.assessment</td><td>Element `Condition.stage.assessment` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.assessment` has is mapped to FHIR R4 element `Condition.stage.assessment`, but has no comparisons.</td></tr><tr><td>Condition.stage.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.stage.type</td><td>Element `Condition.stage.type` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.type` has is mapped to FHIR R4 element `Condition.stage.type`, but has no comparisons.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Condition|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Condition.participant.actor (actor)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `Condition.participant.actor` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Condition.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Condition.participant.actor` has a context of Condition based on following the parent source element upwards and mapping to `Condition`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Condition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Condition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5ConditionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Condition to FHIR R4 Condition"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:22.8958417-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Condition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Condition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Condition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Condition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Condition>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Condition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.meta` has is mapped to FHIR R4 element `Condition.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.implicitRules` has is mapped to FHIR R4 element `Condition.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.language` has is mapped to FHIR R4 element `Condition.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.text` has is mapped to FHIR R4 element `Condition.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.contained` has is mapped to FHIR R4 element `Condition.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.identifier` has is mapped to FHIR R4 element `Condition.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.clinicalStatus" ] ;
+       fhir:display [ fhir:v "clinicalStatus" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Condition.clinicalStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Condition.clinicalStatus` has is mapped to FHIR R4 element `Condition.clinicalStatus`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.verificationStatus" ] ;
+       fhir:display [ fhir:v "verificationStatus" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.verificationStatus` has is mapped to FHIR R4 element `Condition.verificationStatus`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.category` has is mapped to FHIR R4 element `Condition.category`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.severity" ] ;
+       fhir:display [ fhir:v "severity" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.severity` has is mapped to FHIR R4 element `Condition.severity`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.code` has is mapped to FHIR R4 element `Condition.code`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.bodySite" ] ;
+       fhir:display [ fhir:v "bodySite" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.bodySite` has is mapped to FHIR R4 element `Condition.bodySite`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.subject` has is mapped to FHIR R4 element `Condition.subject`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.encounter` has is mapped to FHIR R4 element `Condition.encounter`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.onset[x]" ] ;
+       fhir:display [ fhir:v "onset[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Condition.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`.\nElement `Condition.onset[x]` has is mapped to FHIR R4 element `Condition.onset[x]`, but has no comparisons.\nNote that the target element context `Condition.onset[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.abatement[x]" ] ;
+       fhir:display [ fhir:v "abatement[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Condition.abatement[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`.\nElement `Condition.abatement[x]` has is mapped to FHIR R4 element `Condition.abatement[x]`, but has no comparisons.\nNote that the target element context `Condition.abatement[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Condition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.recordedDate" ] ;
+       fhir:display [ fhir:v "recordedDate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.recordedDate` has is mapped to FHIR R4 element `Condition.recordedDate`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.stage" ] ;
+       fhir:display [ fhir:v "stage" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Condition.stage` has is mapped to FHIR R4 element `Condition.stage`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.stage.summary" ] ;
+       fhir:display [ fhir:v "summary" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.stage.summary` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.summary` has is mapped to FHIR R4 element `Condition.stage.summary`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.stage.assessment" ] ;
+       fhir:display [ fhir:v "assessment" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.stage.assessment` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.assessment` has is mapped to FHIR R4 element `Condition.stage.assessment`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.stage.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.stage.type` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.type` has is mapped to FHIR R4 element `Condition.stage.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.evidence" ] ;
+       fhir:display [ fhir:v "evidence" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.evidence` has is mapped to FHIR R4 element `Condition.evidence`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.note` has is mapped to FHIR R4 element `Condition.note`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Condition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Condition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Condition.clinicalStatus" ] ;
+       fhir:display [ fhir:v "clinicalStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.clinicalStatus" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Condition.clinicalStatus` is a modifier element, so this extension does not need to be defined as a modifier.\nElement `Condition.clinicalStatus` has is mapped to FHIR R4 element `Condition.clinicalStatus`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.participant" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Condition.participant` has a context of Condition based on following the parent source element upwards and mapping to `Condition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.participant.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.participant.function" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Condition.participant.function` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nElement `Condition.participant.function` has a context of Condition based on following the parent source element upwards and mapping to `Condition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.stage" ] ;
+       fhir:display [ fhir:v "stage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.stage" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.stage` has is mapped to FHIR R4 element `Condition.stage`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.stage.summary" ] ;
+       fhir:display [ fhir:v "summary" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.stage.summary" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.stage.summary` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.summary` has is mapped to FHIR R4 element `Condition.stage.summary`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.stage.assessment" ] ;
+       fhir:display [ fhir:v "assessment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.stage.assessment" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.stage.assessment` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.assessment` has is mapped to FHIR R4 element `Condition.stage.assessment`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Condition.stage.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Condition.stage.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Condition.stage.type` is part of an existing definition because parent element `Condition.stage` requires a cross-version extension.\nElement `Condition.stage.type` has is mapped to FHIR R4 element `Condition.stage.type`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Condition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Condition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Condition.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Condition.participant.actor` is part of an existing definition because parent element `Condition.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Condition.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Condition.participant.actor` has a context of Condition based on following the parent source element upwards and mapping to `Condition`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

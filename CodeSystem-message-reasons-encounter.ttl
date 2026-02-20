@@ -63,25 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "inm"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/message-reasons-encounter"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/message-reasons-encounter>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "ExampleMessageReasonCodes"] ; # 
   fhir:title [ fhir:v "Example Message Reason Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Infrastructure And Messaging"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Infrastructure And Messaging" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/inm" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Example Message Reasons. These are the set of codes that might be used an updating an encounter using admin-update."] ; # 
@@ -97,8 +97,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/message-reason-encounter|1.0.1"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/message-reason-encounter?version=1.0.1>
+     fhir:v "http://terminology.hl7.org/ValueSet/message-reason-encounter"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/message-reason-encounter>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

@@ -24,19 +24,19 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DeviceRequest.extension:doNotPerform","DeviceRequest.extension","doNotPerform","","",0,1,"","Y","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.doNotPerform|0.0.1-snapshot-3]]} {[]}
+"DeviceRequest.extension:doNotPerform","DeviceRequest.extension","doNotPerform","","",0,1,"","Y","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.doNotPerform]]} {[]}
 ","Cross-version extension for DeviceRequest.doNotPerform from R5 for use in FHIR R4","If true, indicates that the provider is asking for the patient to either stop using or to not start using the specified device or category of devices. For example, the patient has undergone surgery and the provider is indicating that the patient should not wear contact lenses.","Element `DeviceRequest.doNotPerform` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DeviceRequest.extension:quantity","DeviceRequest.extension","quantity","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.quantity|0.0.1-snapshot-3]]} {[]}
+"DeviceRequest.extension:quantity","DeviceRequest.extension","quantity","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.quantity]]} {[]}
 ","Cross-version extension for DeviceRequest.quantity from R5 for use in FHIR R4","The number of devices to be provided.","Element `DeviceRequest.quantity` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DeviceRequest.extension:asNeeded","DeviceRequest.extension","asNeeded","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeeded|0.0.1-snapshot-3]]} {[]}
+"DeviceRequest.extension:asNeeded","DeviceRequest.extension","asNeeded","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeeded]]} {[]}
 ","Cross-version extension for DeviceRequest.asNeeded from R5 for use in FHIR R4","This status is to indicate whether the request is a PRN or may be given as needed.","Element `DeviceRequest.asNeeded` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DeviceRequest.extension:asNeededFor","DeviceRequest.extension","asNeededFor","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeededFor|0.0.1-snapshot-3]]} {[]}
+"DeviceRequest.extension:asNeededFor","DeviceRequest.extension","asNeededFor","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.asNeededFor]]} {[]}
 ","Cross-version extension for DeviceRequest.asNeededFor from R5 for use in FHIR R4","The reason for using the device.","Element `DeviceRequest.asNeededFor` has a context of DeviceRequest based on following the parent source element upwards and mapping to `DeviceRequest`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -67,7 +67,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DeviceRequest.priorRequest.extension:replaces","DeviceRequest.priorRequest.extension","replaces","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"DeviceRequest.priorRequest.extension:replaces","DeviceRequest.priorRequest.extension","replaces","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for DeviceRequest.replaces from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/DeviceRequest in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `DeviceRequest.replaces` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `DeviceRequest.replaces` has is mapped to FHIR R4 element `DeviceRequest.priorRequest`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -116,7 +116,7 @@ CodeableConcept {[]} {[]}","Device requested","The details of the device to be u
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"DeviceRequest.parameter.extension:parameter","DeviceRequest.parameter.extension","parameter","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.parameter|0.0.1-snapshot-3]]} {[]}
+"DeviceRequest.parameter.extension:parameter","DeviceRequest.parameter.extension","parameter","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-DeviceRequest.parameter]]} {[]}
 ","Cross-version extension for DeviceRequest.parameter from R5 for use in FHIR R4","Specific parameters for the ordered item.  For example, the prism value for lenses.","Element `DeviceRequest.parameter` has is mapped to FHIR R4 element `DeviceRequest.parameter`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

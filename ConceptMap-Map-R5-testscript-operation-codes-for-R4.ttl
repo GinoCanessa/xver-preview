@@ -1,0 +1,259 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/Map-R5-testscript-operation-codes-for-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "Map-R5-testscript-operation-codes-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap Map-R5-testscript-operation-codes-for-R4</b></p><a name=\"Map-R5-testscript-operation-codes-for-R4\"> </a><a name=\"hcMap-R5-testscript-operation-codes-for-R4\"> </a><p>Mapping from http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0 to <a href=\"http://hl7.org/fhir/R4/valueset-testscript-operation-codes.html\">Test script operation code</a></p><br/><p><b>Group 1 </b>Mapping from <a href=\"http://hl7.org/fhir/R4/codesystem-restful-interaction.html\">FHIR Restful Interactions</a> to <a href=\"http://terminology.hl7.org/7.0.1/CodeSystem-testscript-operation-codes.html\">Test script operation code</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>batch</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>batch</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#batch` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#batch` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>capabilities</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>capabilities</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#capabilities` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#capabilities` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>create</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>create</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#create` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#create` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>delete</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>delete</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#delete` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#delete` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>history</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>history</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#history` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#history` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>patch</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>patch</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#patch` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#patch` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>read</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>read</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#read` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#read` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>search</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>search</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#search` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#search` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>transaction</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>transaction</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#transaction` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#transaction` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>update</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>update</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#update` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#update` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>vread</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>vread (Version Read)</td><td>Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#vread` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#vread` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent.</td></tr><tr><td>history-instance</td><td colspan=\"3\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>history-system</td><td colspan=\"3\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>history-type</td><td colspan=\"3\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>operation</td><td colspan=\"3\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>search-compartment</td><td colspan=\"3\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>search-system</td><td colspan=\"3\" style=\"background-color: #efefef\">(not mapped)</td></tr><tr><td>search-type</td><td colspan=\"3\" style=\"background-color: #efefef\">(not mapped)</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-testscript-operation-codes-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-testscript-operation-codes-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "MapR5TestscriptOperationCodesForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ConceptMap for ValueSet R5-testscript-operation-codes-for-R4 from FHIR R5 to FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:14.2766645-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/testscript-operation-codes?version=5.0.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/testscript-operation-codes?version=4.0.1>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/restful-interaction"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/restful-interaction>
+     ] ;
+     fhir:target [
+       fhir:v "http://terminology.hl7.org/CodeSystem/testscript-operation-codes"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/testscript-operation-codes>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "batch" ] ;
+       fhir:display [ fhir:v "batch" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "batch" ] ;
+         fhir:display [ fhir:v "Batch" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#batch` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#batch` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "capabilities" ] ;
+       fhir:display [ fhir:v "capabilities" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "capabilities" ] ;
+         fhir:display [ fhir:v "Capabilities" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#capabilities` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#capabilities` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "create" ] ;
+       fhir:display [ fhir:v "create" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "create" ] ;
+         fhir:display [ fhir:v "Create" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#create` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#create` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "delete" ] ;
+       fhir:display [ fhir:v "delete" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "delete" ] ;
+         fhir:display [ fhir:v "Delete" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#delete` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#delete` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "history" ] ;
+       fhir:display [ fhir:v "history" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "history" ] ;
+         fhir:display [ fhir:v "History" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#history` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#history` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "patch" ] ;
+       fhir:display [ fhir:v "patch" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "patch" ] ;
+         fhir:display [ fhir:v "Patch" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#patch` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#patch` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "read" ] ;
+       fhir:display [ fhir:v "read" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "read" ] ;
+         fhir:display [ fhir:v "Read" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#read` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#read` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "search" ] ;
+       fhir:display [ fhir:v "search" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "search" ] ;
+         fhir:display [ fhir:v "Search" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#search` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#search` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "transaction" ] ;
+       fhir:display [ fhir:v "transaction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "transaction" ] ;
+         fhir:display [ fhir:v "Transaction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#transaction` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#transaction` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "update" ] ;
+       fhir:display [ fhir:v "update" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "update" ] ;
+         fhir:display [ fhir:v "Update" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#update` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#update` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "vread" ] ;
+       fhir:display [ fhir:v "vread" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "vread" ] ;
+         fhir:display [ fhir:v "Version Read" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Using explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` as Equivalent in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes` (`ConceptMap-R5-TestscriptOperationCodes-R4B-TestscriptOperationCodes.json`)\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.3.0` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1` as Equivalent in `http://hl7.org/fhir/uv/xver/4.3/ConceptMap/R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes` (`ConceptMap-R4B-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`)\nApplying explicit mapping from `http://hl7.org/fhir/ValueSet/testscript-operation-codes|5.0.0#vread` to `http://hl7.org/fhir/ValueSet/testscript-operation-codes|4.0.1#vread` as Equivalent in `ConceptMap-R5-TestscriptOperationCodes-R4-TestscriptOperationCodes.json`, which results in Equivalent." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "history-instance" ] ;
+       fhir:display [ fhir:v "history-instance" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "history-system" ] ;
+       fhir:display [ fhir:v "history-system" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "history-type" ] ;
+       fhir:display [ fhir:v "history-type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "operation" ] ;
+       fhir:display [ fhir:v "operation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "search-compartment" ] ;
+       fhir:display [ fhir:v "search-compartment" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "search-system" ] ;
+       fhir:display [ fhir:v "search-system" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "search-type" ] ;
+       fhir:display [ fhir:v "search-type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "unmatched" ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

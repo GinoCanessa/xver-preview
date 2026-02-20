@@ -63,30 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "fm"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/contract-content-derivative"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/contract-content-derivative>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "ContractContentDerivationCodes"] ; # 
   fhir:title [ fhir:v "Contract Content Derivation Codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Financial Management"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "FHIR project team" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://hl7.org/fhir" ]
-     ] )
-  ] [
-     fhir:telecom ( [
-       fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This is an example set of Content Derivative type codes, which represent the minimal content derived from the basal information source at a specific stage in its lifecycle, which is sufficient to manage that source information, for example, in a repository, registry, processes and workflows, for making access control decisions, and providing query responses."] ; # 
@@ -103,8 +98,8 @@
   fhir:copyright [ fhir:v "This is an example set."] ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/contract-content-derivative|1.0.1"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/contract-content-derivative?version=1.0.1>
+     fhir:v "http://terminology.hl7.org/ValueSet/contract-content-derivative"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/contract-content-derivative>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

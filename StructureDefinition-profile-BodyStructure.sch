@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:BodyStructure</sch:title>
     <sch:rule context="f:BodyStructure">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure|0.0.1-snapshot-3']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure|0.0.1-snapshot-3': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-BodyStructure.includedStructure': minimum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

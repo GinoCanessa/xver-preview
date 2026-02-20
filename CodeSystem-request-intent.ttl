@@ -72,25 +72,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "cds"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/request-intent"^^xsd:anyURI ;
      fhir:l <http://hl7.org/fhir/request-intent>
   ] ; # 
-  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "RequestIntent"] ; # 
   fhir:title [ fhir:v "RequestIntent"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v true] ; # 
   fhir:date [ fhir:v "2023-03-25T23:21:02-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Clinical Decision Support"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Clinical Decision Support" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/dss" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Codes indicating the degree of authority/intentionality associated with a request."] ; # 
@@ -106,8 +106,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://hl7.org/fhir/ValueSet/request-intent|4.0.1"^^xsd:anyURI ;
-     fhir:l <http://hl7.org/fhir/ValueSet/request-intent?version=4.0.1>
+     fhir:v "http://hl7.org/fhir/ValueSet/request-intent"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/request-intent>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

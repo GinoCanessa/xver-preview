@@ -24,13 +24,13 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CompartmentDefinition.extension:versionAlgorithm","CompartmentDefinition.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.versionAlgorithm|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for CompartmentDefinition.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Element `CompartmentDefinition.versionAlgorithm[x]` has a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"CompartmentDefinition.extension:title","CompartmentDefinition.extension","title","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-title]]} {[]}
+","Cross-version extension for CompartmentDefinition.title from R5 for use in FHIR R4","A short, descriptive, user-friendly title for the artifact.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CompartmentDefinition.title`: `http://hl7.org/fhir/StructureDefinition/artifact-title`.
+Element `CompartmentDefinition.title` has a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CompartmentDefinition.extension:title","CompartmentDefinition.extension","title","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.title|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for CompartmentDefinition.title from R5 for use in FHIR R4","A short, descriptive, user-friendly title for the capability statement.","Element `CompartmentDefinition.title` has a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"CompartmentDefinition.extension:versionAlgorithm","CompartmentDefinition.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm]]} {[]}
+","Cross-version extension for CompartmentDefinition.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CompartmentDefinition.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.
+Element `CompartmentDefinition.versionAlgorithm[x]` has a context of CompartmentDefinition based on following the parent source element upwards and mapping to `CompartmentDefinition`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CompartmentDefinition.modifierExtension","CompartmentDefinition.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
@@ -86,7 +86,7 @@ In some cases, the resource can no longer be found at the stated url, but the ur
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CompartmentDefinition.code.extension:code","CompartmentDefinition.code.extension","code","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.code|0.0.1-snapshot-3]]} {[]}
+"CompartmentDefinition.code.extension:code","CompartmentDefinition.code.extension","code","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.code]]} {[]}
 ","Cross-version extension for CompartmentDefinition.code from R5 for use in FHIR R4","Which compartment this definition describes.","Element `CompartmentDefinition.code` has is mapped to FHIR R4 element `CompartmentDefinition.code`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -104,7 +104,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CompartmentDefinition.resource.extension:resource","CompartmentDefinition.resource.extension","resource","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource|0.0.1-snapshot-3]]} {[]}
+"CompartmentDefinition.resource.extension:resource","CompartmentDefinition.resource.extension","resource","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CompartmentDefinition.resource]]} {[]}
 ","Cross-version extension for CompartmentDefinition.resource from R5 for use in FHIR R4","Information about how a resource is related to the compartment.","Element `CompartmentDefinition.resource` has is mapped to FHIR R4 element `CompartmentDefinition.resource`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

@@ -63,25 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "brr"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/state-change-reason"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/state-change-reason>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "StateChangeReason"] ; # 
   fhir:title [ fhir:v "StateChangeReason"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2020-04-09T16:10:28-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Biomedical Research and Regulation"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Biomedical Research and Regulation" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/rcrim" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Indicates why the state of the subject changed."] ; # 
@@ -97,8 +97,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/state-change-reason|1.0.0"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/state-change-reason?version=1.0.0>
+     fhir:v "http://terminology.hl7.org/ValueSet/state-change-reason"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/state-change-reason>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

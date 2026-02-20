@@ -25,13 +25,13 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"StructureDefinition.extension:versionAlgorithm","StructureDefinition.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.versionAlgorithm|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for StructureDefinition.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Element `StructureDefinition.versionAlgorithm[x]` has a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"StructureDefinition.extension:copyrightLabel","StructureDefinition.extension","copyrightLabel","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel]]} {[]}
+","Cross-version extension for StructureDefinition.copyrightLabel from R5 for use in FHIR R4","A short string (<50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `StructureDefinition.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.
+Element `StructureDefinition.copyrightLabel` has a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"StructureDefinition.extension:copyrightLabel","StructureDefinition.extension","copyrightLabel","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.copyrightLabel|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for StructureDefinition.copyrightLabel from R5 for use in FHIR R4","A short string (<50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').","Element `StructureDefinition.copyrightLabel` has a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"StructureDefinition.extension:versionAlgorithm","StructureDefinition.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm]]} {[]}
+","Cross-version extension for StructureDefinition.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `StructureDefinition.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.
+Element `StructureDefinition.versionAlgorithm[x]` has a context of StructureDefinition based on following the parent source element upwards and mapping to `StructureDefinition`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "StructureDefinition.modifierExtension","StructureDefinition.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
@@ -109,7 +109,7 @@ Restrictions","",0,1,"","","","markdown {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"StructureDefinition.fhirVersion.extension:fhirVersion","StructureDefinition.fhirVersion.extension","fhirVersion","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.fhirVersion|0.0.1-snapshot-3]]} {[]}
+"StructureDefinition.fhirVersion.extension:fhirVersion","StructureDefinition.fhirVersion.extension","fhirVersion","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.fhirVersion]]} {[]}
 ","Cross-version extension for StructureDefinition.fhirVersion from R5 for use in FHIR R4","The version of the FHIR specification on which this StructureDefinition is based - this is the formal version of the specification, without the revision number, e.g. [publication].[major].[minor], which is 4.6.0. for this version.","Element `StructureDefinition.fhirVersion` has is mapped to FHIR R4 element `StructureDefinition.fhirVersion`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -124,7 +124,7 @@ sdf-2:Must have at least a name or a uri (or both) {name.exists() or uri.exists(
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"StructureDefinition.mapping.extension:mapping","StructureDefinition.mapping.extension","mapping","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.mapping|0.0.1-snapshot-3]]} {[]}
+"StructureDefinition.mapping.extension:mapping","StructureDefinition.mapping.extension","mapping","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.mapping]]} {[]}
 ","Cross-version extension for StructureDefinition.mapping from R5 for use in FHIR R4","An external specification that the content is mapped to.","Element `StructureDefinition.mapping` has is mapped to FHIR R4 element `StructureDefinition.mapping`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -164,7 +164,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"StructureDefinition.context.extension:context","StructureDefinition.context.extension","context","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.context|0.0.1-snapshot-3]]} {[]}
+"StructureDefinition.context.extension:context","StructureDefinition.context.extension","context","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.context]]} {[]}
 ","Cross-version extension for StructureDefinition.context from R5 for use in FHIR R4","Identifies the types of resource or data type elements to which the extension can be applied. For more guidance on using the 'context' element, see the [defining extensions page](https://hl7.org/fhir/defining.html#context).","Element `StructureDefinition.context` has is mapped to FHIR R4 element `StructureDefinition.context`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -207,7 +207,7 @@ sdf-3:Each element definition in a snapshot must have a formal definition and ca
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"StructureDefinition.snapshot.extension:snapshot","StructureDefinition.snapshot.extension","snapshot","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.snapshot|0.0.1-snapshot-3]]} {[]}
+"StructureDefinition.snapshot.extension:snapshot","StructureDefinition.snapshot.extension","snapshot","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.snapshot]]} {[]}
 ","Cross-version extension for StructureDefinition.snapshot from R5 for use in FHIR R4","A snapshot view is expressed in a standalone form that can be used and interpreted without considering the base StructureDefinition.","Element `StructureDefinition.snapshot` has is mapped to FHIR R4 element `StructureDefinition.snapshot`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -231,7 +231,7 @@ sdf-20:No slicing on the root element {element.where(path.contains('.').not()).s
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"StructureDefinition.differential.extension:differential","StructureDefinition.differential.extension","differential","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.differential|0.0.1-snapshot-3]]} {[]}
+"StructureDefinition.differential.extension:differential","StructureDefinition.differential.extension","differential","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-StructureDefinition.differential]]} {[]}
 ","Cross-version extension for StructureDefinition.differential from R5 for use in FHIR R4","A differential view is expressed relative to the base StructureDefinition - a statement of differences that it applies.","Element `StructureDefinition.differential` has is mapped to FHIR R4 element `StructureDefinition.differential`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

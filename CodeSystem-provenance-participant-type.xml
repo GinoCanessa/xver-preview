@@ -20,26 +20,21 @@
     </extension>
   </extension>
   <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
-    <valueCode value="sec"/>
+    <valueCode value="fhir"/>
   </extension>
   <url value="http://terminology.hl7.org/CodeSystem/provenance-participant-type"/>
-  <version value="0.1.0"/>
+  <version value="0.0.1-snapshot-3"/>
   <name value="ProvenanceParticipantType"/>
   <title value="Provenance participant type"/>
   <status value="draft"/>
   <experimental value="false"/>
   <date value="2023-05-11T19:00:00-05:00"/>
-  <publisher value="Security"/>
+  <publisher value="FHIR Infrastructure"/>
   <contact>
+    <name value="FHIR Infrastructure"/>
     <telecom>
       <system value="url"/>
-      <value value="http://hl7.org/fhir"/>
-    </telecom>
-  </contact>
-  <contact>
-    <telecom>
-      <system value="email"/>
-      <value value="fhir@lists.hl7.org"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
     </telecom>
   </contact>
   <description value="The type of participation a provenance participant."/>
@@ -51,7 +46,7 @@
     </coding>
   </jurisdiction>
   <caseSensitive value="true"/>
-  <valueSet value="http://terminology.hl7.org/ValueSet/provenance-agent-type|1.0.1"/>
+  <valueSet value="http://terminology.hl7.org/ValueSet/provenance-agent-type"/>
   <hierarchyMeaning value="is-a"/>
   <content value="complete"/>
   <concept>

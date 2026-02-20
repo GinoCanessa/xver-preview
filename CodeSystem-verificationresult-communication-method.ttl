@@ -63,29 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "pa"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/verificationresult-communication-method>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "Verificationresult_communication_method"] ; # 
   fhir:title [ fhir:v "VerificationResult Communication Method"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2018-10-30T19:00:00-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
-       fhir:system [ fhir:v "other" ] ;
-       fhir:value [ fhir:v "http://hl7.org/fhir" ]
-     ] )
-  ] [
-     fhir:telecom ( [
-       fhir:system [ fhir:v "other" ] ;
-       fhir:value [ fhir:v "http://hl7.org/fhir" ]
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Attested information may be validated by process that are manual or automated. For automated processes it may accomplished by the system of record reaching out through another system's API or information may be sent to the system of record. This value set defines a set of codes to describing the process, the how, a resource or data element is validated."] ; # 
@@ -101,8 +97,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/verificationresult-communication-method|1.0.0"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/verificationresult-communication-method?version=1.0.0>
+     fhir:v "http://terminology.hl7.org/ValueSet/verificationresult-communication-method"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/verificationresult-communication-method>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

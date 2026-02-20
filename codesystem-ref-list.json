@@ -1,15 +1,27 @@
 {
   "codeSystems" : [
     {
-      "url" : "http://hl7.org/fhir/CodeSystem/fhirpath-types",
+      "url" : "http://hl7.org/fhir/5.0/fhir-types",
       "version" : "5.0.0",
+      "status" : "active",
+      "name" : "FHIRTypes",
+      "title" : "All FHIR Types",
+      "description" : "One of the types defined as part of this version of FHIR.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1802"],
+      "uses" : {
+      },
+      "http://hl7.org/fhir/R5/valueset-resource-types.html" : "Resource Types"
+    },
+    {
+      "url" : "http://hl7.org/fhir/CodeSystem/fhirpath-types",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "FHIRPathTypesCodeSystem",
       "title" : "FHIRPath Types",
       "description" : "Data types defined by FHIRPath and used within the FHIR specification",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-fhirpath-types-for-R4.html" : "Cross-version ValueSet R5.FHIRPathTypes for use in FHIR R4"
+      "ValueSet-R5-fhirpath-types-for-R4.html" : "Cross-version ValueSet R5.FHIRPathTypes for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/CodeSystem/status",
@@ -21,413 +33,433 @@
       "oids" : ["2.16.840.1.113883.4.642.1.885"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-verificationresult-status-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-verificationresult-status-for-R4 from FHIR R5 to FHIR R4"
+      "http://tx.fhir.org/r4/ValueSet/verificationresult-status" : "Status",
+      "ConceptMap-Map-R5-verificationresult-status-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-verificationresult-status-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/CodeSystem/verificationresult-status",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "Status",
       "title" : "status",
       "description" : "The validation status of the target",
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-verificationresult-status-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-verificationresult-status-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-verificationresult-status-for-R4.html" : "Cross-version ValueSet R5.VerificationResultStatus for use in FHIR R4"
+      "ValueSet-R5-verificationresult-status-for-R4.html" : "Cross-version ValueSet R5.VerificationResultStatus for use in FHIR R4",
+      "ConceptMap-Map-R5-verificationresult-status-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-verificationresult-status-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/FHIR-version",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "FHIRVersion",
       "title" : "FHIRVersion",
       "description" : "All published FHIR Versions.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1310"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-FHIR-version-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-FHIR-version-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-FHIR-version-for-R4.html" : "Cross-version ValueSet R5.FHIRVersion for use in FHIR R4"
+      "ValueSet-R5-FHIR-version-for-R4.html" : "Cross-version ValueSet R5.FHIRVersion for use in FHIR R4",
+      "ConceptMap-Map-R5-FHIR-version-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-FHIR-version-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/FHIR-version" : "FHIRVersion"
     },
     {
       "url" : "http://hl7.org/fhir/action-code",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ActionCode",
       "title" : "Action Code",
       "description" : "Provides examples of actions to be performed.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-action-code-for-R4.html" : "Cross-version ValueSet R5.ActionCode for use in FHIR R4"
+      "ValueSet-R5-action-code-for-R4.html" : "Cross-version ValueSet R5.ActionCode for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/action-participant-type",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "ActionParticipantType",
-      "title" : "Action Participant Type",
+      "title" : "ActionParticipantType",
       "description" : "The type of participant for the action.",
+      "oids" : ["2.16.840.1.113883.4.642.4.812"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-action-participant-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-action-participant-type-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-action-participant-type-for-R4.html" : "Cross-version ValueSet R5.ActionParticipantType for use in FHIR R4"
+      "ConceptMap-Map-R5-action-participant-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-action-participant-type-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/action-participant-type" : "ActionParticipantType",
+      "ValueSet-R5-action-participant-type-for-R4.html" : "Cross-version ValueSet R5.ActionParticipantType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/action-reason-code",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ActionReasonCode",
       "title" : "Action Reason Code",
       "description" : "Provides examples of reasons for actions to be performed.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-action-reason-code-for-R4.html" : "Cross-version ValueSet R5.ActionReasonCode for use in FHIR R4"
+      "ValueSet-R5-action-reason-code-for-R4.html" : "Cross-version ValueSet R5.ActionReasonCode for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/administrable-dose-form",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "AdministrableDoseForm",
       "title" : "Administrable Dose Form",
       "description" : "Dose form for a medication, in the form suitable for administering to the patient, after mixing, where necessary.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-administrable-dose-form-for-R4.html" : "Cross-version ValueSet R5.AdministrableDoseForm for use in FHIR R4"
+      "ValueSet-R5-administrable-dose-form-for-R4.html" : "Cross-version ValueSet R5.AdministrableDoseForm for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/animal-tissue-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "AnimalTissueType",
       "title" : "Animal Tissue Type",
       "description" : "A tissue type of an animal.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-animal-tissue-type-for-R4.html" : "Cross-version ValueSet R5.AnimalTissueType for use in FHIR R4"
+      "ValueSet-R5-animal-tissue-type-for-R4.html" : "Cross-version ValueSet R5.AnimalTissueType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/appointmentstatus",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "AppointmentStatus",
-      "title" : "Appointment Status",
+      "title" : "AppointmentStatus",
       "description" : "The free/busy status of an appointment.",
+      "oids" : ["2.16.840.1.113883.4.642.4.485"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-appointmentresponse-status-for-R4-participationstatus.html" : "Cross-version ValueSet R5.AppointmentResponseStatus for use in FHIR R4"
+      "ValueSet-R5-appointmentresponse-status-for-R4-participationstatus.html" : "Cross-version ValueSet R5.AppointmentResponseStatus for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/artifact-contribution-instance-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ArtifactContributionInstanceType",
       "title" : "Artifact Contribution Instance Type",
       "description" : "Artifact Contribution Instance Type",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-artifact-contribution-instance-type-for-R4.html" : "Cross-version ValueSet R5.ArtifactContributionInstanceType for use in FHIR R4"
+      "ValueSet-R5-artifact-contribution-instance-type-for-R4.html" : "Cross-version ValueSet R5.ArtifactContributionInstanceType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/artifact-contribution-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ArtifactContributionType",
       "title" : "Artifact Contribution Type",
       "description" : "Citation contribution.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-artifact-contribution-type-for-R4.html" : "Cross-version ValueSet R5.ArtifactContributionType for use in FHIR R4"
+      "ValueSet-R5-artifact-contribution-type-for-R4.html" : "Cross-version ValueSet R5.ArtifactContributionType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/assert-operator-codes",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "AssertionOperatorType",
-      "title" : "Assertion Operator Type",
+      "title" : "AssertionOperatorType",
       "description" : "The type of operator to use for assertion.",
+      "oids" : ["2.16.840.1.113883.4.642.4.709"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-assert-operator-codes-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-assert-operator-codes-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-assert-operator-codes-for-R4.html" : "Cross-version ValueSet R5.AssertionOperatorType for use in FHIR R4"
+      "ConceptMap-Map-R5-assert-operator-codes-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-assert-operator-codes-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-assert-operator-codes-for-R4.html" : "Cross-version ValueSet R5.AssertionOperatorType for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/assert-operator-codes" : "AssertionOperatorType"
     },
     {
       "url" : "http://hl7.org/fhir/assert-response-code-types",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "AssertionResponseTypes",
-      "title" : "Assertion Response Types",
+      "title" : "AssertionResponseTypes",
       "description" : "The type of response code to use for assertion.",
+      "oids" : ["2.16.840.1.113883.4.642.4.711"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-assert-response-code-types-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-assert-response-code-types-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-assert-response-code-types-for-R4.html" : "Cross-version ValueSet R5.AssertionResponseTypes for use in FHIR R4"
+      "http://tx.fhir.org/r4/ValueSet/assert-response-code-types" : "AssertionResponseTypes",
+      "ValueSet-R5-assert-response-code-types-for-R4.html" : "Cross-version ValueSet R5.AssertionResponseTypes for use in FHIR R4",
+      "ConceptMap-Map-R5-assert-response-code-types-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-assert-response-code-types-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/bundle-type",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "BundleType",
-      "title" : "Bundle Type",
+      "title" : "BundleType",
       "description" : "Indicates the purpose of a bundle - how it is intended to be used.",
+      "oids" : ["2.16.840.1.113883.4.642.4.621"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-bundle-type-for-R4.html" : "Cross-version ValueSet R5.BundleType for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-bundle-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-bundle-type-for-R4 from FHIR R5 to FHIR R4"
+      "ValueSet-R5-bundle-type-for-R4.html" : "Cross-version ValueSet R5.BundleType for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/bundle-type" : "BundleType",
+      "ConceptMap-Map-R5-bundle-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-bundle-type-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/certainty-rating",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "EvidenceCertaintyRating",
       "title" : "Evidence Certainty Rating",
       "description" : "The assessment of quality, confidence, or certainty.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-certainty-rating-for-R4.html" : "Cross-version ValueSet R5.EvidenceCertaintyRating for use in FHIR R4"
+      "ValueSet-R5-certainty-rating-for-R4.html" : "Cross-version ValueSet R5.EvidenceCertaintyRating for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/certainty-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "EvidenceCertaintyType",
       "title" : "Evidence Certainty Type",
       "description" : "The aspect of quality, confidence, or certainty.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-certainty-type-for-R4.html" : "Cross-version ValueSet R5.EvidenceCertaintyType for use in FHIR R4"
+      "ValueSet-R5-certainty-type-for-R4.html" : "Cross-version ValueSet R5.EvidenceCertaintyType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/characteristic-combination",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CharacteristicCombination",
       "title" : "Characteristic Combination",
       "description" : "Logical grouping of characteristics.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-characteristic-combination-for-R4.html" : "Cross-version ValueSet R5.CharacteristicCombination for use in FHIR R4"
+      "ValueSet-R5-characteristic-combination-for-R4.html" : "Cross-version ValueSet R5.CharacteristicCombination for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/citation-artifact-classifier",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "draft",
       "name" : "CitationArtifactClassifier",
       "title" : "Citation Artifact Classifier",
       "description" : "Citation artifact classifier",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-citation-artifact-classifier-for-R4.html" : "Cross-version ValueSet R5.CitationArtifactClassifier for use in FHIR R4"
+      "ValueSet-R5-citation-artifact-classifier-for-R4.html" : "Cross-version ValueSet R5.CitationArtifactClassifier for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/citation-classification-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CitationClassificationType",
       "title" : "Citation Classification Type",
       "description" : "Citation classification type",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-citation-classification-type-for-R4.html" : "Cross-version ValueSet R5.CitationClassificationType for use in FHIR R4"
+      "ValueSet-R5-citation-classification-type-for-R4.html" : "Cross-version ValueSet R5.CitationClassificationType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/citation-status-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CitationStatusType",
       "title" : "Citation Status Type",
       "description" : "Citation status type",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-citation-status-type-for-R4.html" : "Cross-version ValueSet R5.CitationStatusType for use in FHIR R4"
+      "ValueSet-R5-citation-status-type-for-R4.html" : "Cross-version ValueSet R5.CitationStatusType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/citation-summary-style",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CitationSummaryStyle",
       "title" : "Citation Summary Style",
       "description" : "The format for display of the citation.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-citation-summary-style-for-R4.html" : "Cross-version ValueSet R5.CitationSummaryStyle for use in FHIR R4"
+      "ValueSet-R5-citation-summary-style-for-R4.html" : "Cross-version ValueSet R5.CitationSummaryStyle for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/cited-artifact-abstract-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CitedArtifactAbstractType",
       "title" : "Cited Artifact Abstract Type",
       "description" : "Used to express the reason and specific aspect for the variant abstract, such as language and specific language",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-cited-artifact-abstract-type-for-R4.html" : "Cross-version ValueSet R5.CitedArtifactAbstractType for use in FHIR R4"
+      "ValueSet-R5-cited-artifact-abstract-type-for-R4.html" : "Cross-version ValueSet R5.CitedArtifactAbstractType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/cited-artifact-classification-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CitedArtifactClassificationType",
       "title" : "Cited Artifact Classification Type",
       "description" : "Cited Artifact Classification Type",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-cited-artifact-classification-type-for-R4.html" : "Cross-version ValueSet R5.CitedArtifactClassificationType for use in FHIR R4"
+      "ValueSet-R5-cited-artifact-classification-type-for-R4.html" : "Cross-version ValueSet R5.CitedArtifactClassificationType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/cited-artifact-part-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CitedArtifactPartType",
       "title" : "Cited Artifact Part Type",
       "description" : "To describe the reason for the variant citation, such as version number or subpart specification.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-cited-artifact-part-type-for-R4.html" : "Cross-version ValueSet R5.CitedArtifactPartType for use in FHIR R4"
+      "ValueSet-R5-cited-artifact-part-type-for-R4.html" : "Cross-version ValueSet R5.CitedArtifactPartType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/cited-artifact-status-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CitedArtifactStatusType",
       "title" : "Cited Artifact Status Type",
       "description" : "Cited Artifact Status Type",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-cited-artifact-status-type-for-R4.html" : "Cross-version ValueSet R5.CitedArtifactStatusType for use in FHIR R4"
+      "ValueSet-R5-cited-artifact-status-type-for-R4.html" : "Cross-version ValueSet R5.CitedArtifactStatusType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/cited-medium",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CitedMedium",
       "title" : "Cited Medium",
       "description" : "NLM codes Internet or Print.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-cited-medium-for-R4.html" : "Cross-version ValueSet R5.CitedMedium for use in FHIR R4"
+      "ValueSet-R5-cited-medium-for-R4.html" : "Cross-version ValueSet R5.CitedMedium for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/clinical-use-definition-category",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ClinicalUseDefinitionCategory",
       "title" : "Clinical Use Definition Category",
       "description" : "ClinicalUseDefinitionCategory",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-clinical-use-definition-category-for-R4.html" : "Cross-version ValueSet R5.ClinicalUseDefinitionCategory for use in FHIR R4"
+      "ValueSet-R5-clinical-use-definition-category-for-R4.html" : "Cross-version ValueSet R5.ClinicalUseDefinitionCategory for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/clinical-use-definition-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ClinicalUseDefinitionType",
       "title" : "Clinical Use Definition Type",
       "description" : "Overall defining type of this clinical use definition.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-clinical-use-definition-type-for-R4.html" : "Cross-version ValueSet R5.ClinicalUseDefinitionType for use in FHIR R4"
+      "ValueSet-R5-clinical-use-definition-type-for-R4.html" : "Cross-version ValueSet R5.ClinicalUseDefinitionType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/code-search-support",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "CodeSearchSupport",
-      "title" : "Code Search Support",
+      "title" : "CodeSearchSupport",
       "description" : "The degree to which the server supports the code search parameter on ValueSet, if it is supported.",
+      "oids" : ["2.16.840.1.113883.4.642.4.861"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-code-search-support-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-code-search-support-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-code-search-support-for-R4.html" : "Cross-version ValueSet R5.CodeSearchSupport for use in FHIR R4"
+      "http://tx.fhir.org/r4/ValueSet/code-search-support" : "CodeSearchSupport",
+      "ValueSet-R5-code-search-support-for-R4.html" : "Cross-version ValueSet R5.CodeSearchSupport for use in FHIR R4",
+      "ConceptMap-Map-R5-code-search-support-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-code-search-support-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/combined-dose-form",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CombinedDoseForm",
       "title" : "Combined Dose Form",
       "description" : "Dose forms for a product as a whole, considering all individual parts, but before any mixing",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-combined-dose-form-for-R4.html" : "Cross-version ValueSet R5.CombinedDoseForm for use in FHIR R4"
+      "ValueSet-R5-combined-dose-form-for-R4.html" : "Cross-version ValueSet R5.CombinedDoseForm for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/compartment-type",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "CompartmentType",
-      "title" : "Compartment Type",
+      "title" : "CompartmentType",
       "description" : "Which type a compartment definition describes.",
+      "oids" : ["2.16.840.1.113883.4.642.4.787"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-compartment-type-for-R4.html" : "Cross-version ValueSet R5.CompartmentType for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-compartment-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-compartment-type-for-R4 from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-compartment-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-compartment-type-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-compartment-type-for-R4.html" : "Cross-version ValueSet R5.CompartmentType for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/compartment-type" : "CompartmentType"
     },
     {
       "url" : "http://hl7.org/fhir/composition-status",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "CompositionStatus",
-      "title" : "Composition Status",
+      "title" : "CompositionStatus",
       "description" : "The workflow/clinical status of the composition.",
+      "oids" : ["2.16.840.1.113883.4.642.4.242"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-composition-status-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-composition-status-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-composition-status-for-R4.html" : "Cross-version ValueSet R5.CompositionStatus for use in FHIR R4"
+      "http://tx.fhir.org/r4/ValueSet/composition-status" : "CompositionStatus",
+      "ConceptMap-Map-R5-composition-status-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-composition-status-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-composition-status-for-R4.html" : "Cross-version ValueSet R5.CompositionStatus for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/consent-state-codes",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "ConsentState",
-      "title" : "Consent State",
+      "title" : "ConsentState",
       "description" : "Indicates the state of the consent.",
+      "oids" : ["2.16.840.1.113883.4.642.4.756"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-consent-state-codes-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-consent-state-codes-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-consent-state-codes-for-R4.html" : "Cross-version ValueSet R5.ConsentState for use in FHIR R4"
+      "ValueSet-R5-consent-state-codes-for-R4.html" : "Cross-version ValueSet R5.ConsentState for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/consent-state-codes" : "ConsentState",
+      "ConceptMap-Map-R5-consent-state-codes-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-consent-state-codes-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/contributor-role",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ContributorRole",
       "title" : "Contributor Role",
       "description" : "Used to code the format of the display string.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-contributor-role-for-R4.html" : "Cross-version ValueSet R5.ContributorRole for use in FHIR R4"
+      "ValueSet-R5-contributor-role-for-R4.html" : "Cross-version ValueSet R5.ContributorRole for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/contributor-summary-source",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ContributorSummarySource",
       "title" : "Contributor Summary Source",
       "description" : "Used to code the producer or rule for creating the display string.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-contributor-summary-source-for-R4.html" : "Cross-version ValueSet R5.ContributorSummarySource for use in FHIR R4"
+      "ValueSet-R5-contributor-summary-source-for-R4.html" : "Cross-version ValueSet R5.ContributorSummarySource for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/contributor-summary-style",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ContributorSummaryStyle",
       "title" : "Contributor Summary Style",
       "description" : "Used to code the format of the display string.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-contributor-summary-style-for-R4.html" : "Cross-version ValueSet R5.ContributorSummaryStyle for use in FHIR R4"
+      "ValueSet-R5-contributor-summary-style-for-R4.html" : "Cross-version ValueSet R5.ContributorSummaryStyle for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/contributor-summary-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ContributorSummaryType",
       "title" : "Contributor Summary Type",
       "description" : "Used to code author list statement, contributorship statement, and such.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-contributor-summary-type-for-R4.html" : "Cross-version ValueSet R5.ContributorSummaryType for use in FHIR R4"
+      "ValueSet-R5-contributor-summary-type-for-R4.html" : "Cross-version ValueSet R5.ContributorSummaryType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/data-types",
@@ -438,18 +470,19 @@
       "description" : "A version specific list of the data types defined by the FHIR specification for use as an element  type (any of the FHIR defined data types).",
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-data-types-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-data-types-for-R4 from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-data-types-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-data-types-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/data-types" : "DataType"
     },
     {
       "url" : "http://hl7.org/fhir/detectedissue-status",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "DetectedIssueStatus",
       "title" : "Detected Issue Status",
       "description" : "Indicates the status of the detected issue. This code system contains only status codes that are not already defined and used from the ObservationStatus code system.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-detectedissue-status-for-R4-observation-status.html" : "Cross-version ValueSet R5.DetectedIssueStatus for use in FHIR R4"
+      "ValueSet-R5-detectedissue-status-for-R4-observation-status.html" : "Cross-version ValueSet R5.DetectedIssueStatus for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/device-statement-status",
@@ -461,100 +494,109 @@
       "oids" : ["2.16.840.1.113883.4.642.4.215"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-deviceusage-status-for-R4-device-statement-status.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-deviceusage-status-for-R4-device-statement-status from FHIR R5 to FHIR R4"
+      "http://hl7.org/fhir/R4/valueset-device-statement-status.html" : "DeviceUseStatementStatus",
+      "ConceptMap-Map-R5-deviceusage-status-for-R4-device-statement-status.html" : "Cross-version ConceptMap for ValueSet R5-deviceusage-status-for-R4-device-statement-status from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/deviceusage-status",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "DeviceUsageStatus",
       "title" : "Device Usage Status",
       "description" : "A coded concept indicating the current status of the Device Usage.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-deviceusage-status-for-R4-device-statement-status.html" : "Cross-version ValueSet R5.DeviceUsageStatus for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-deviceusage-status-for-R4-device-statement-status.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-deviceusage-status-for-R4-device-statement-status from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-deviceusage-status-for-R4-device-statement-status.html" : "Cross-version ConceptMap for ValueSet R5-deviceusage-status-for-R4-device-statement-status from FHIR R5 to FHIR R4",
+      "ValueSet-R5-deviceusage-status-for-R4-device-statement-status.html" : "Cross-version ValueSet R5.DeviceUsageStatus for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/discriminator-type",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "DiscriminatorType",
       "title" : "DiscriminatorType",
       "description" : "How an element value is interpreted when discrimination is evaluated.",
+      "oids" : ["2.16.840.1.113883.4.642.4.92"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-discriminator-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-discriminator-type-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-discriminator-type-for-R4.html" : "Cross-version ValueSet R5.DiscriminatorType for use in FHIR R4"
+      "ValueSet-R5-discriminator-type-for-R4.html" : "Cross-version ValueSet R5.DiscriminatorType for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/discriminator-type" : "DiscriminatorType",
+      "ConceptMap-Map-R5-discriminator-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-discriminator-type-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/document-relationship-type",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "DocumentRelationshipType",
-      "title" : "Document Relationship Type",
+      "title" : "DocumentRelationshipType",
       "description" : "The type of relationship between documents.",
+      "oids" : ["2.16.840.1.113883.4.642.4.245"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-document-relationship-type-for-R4.html" : "Cross-version ValueSet R5.DocumentRelationshipType for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-document-relationship-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-document-relationship-type-for-R4 from FHIR R5 to FHIR R4"
+      "ValueSet-R5-document-relationship-type-for-R4.html" : "Cross-version ValueSet R5.DocumentRelationshipType for use in FHIR R4",
+      "ConceptMap-Map-R5-document-relationship-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-document-relationship-type-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/document-relationship-type" : "DocumentRelationshipType"
     },
     {
       "url" : "http://hl7.org/fhir/encounter-status",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "EncounterStatus",
-      "title" : "Encounter Status",
+      "title" : "EncounterStatus",
       "description" : "Current state of the encounter.",
+      "oids" : ["2.16.840.1.113883.4.642.4.247"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-encounter-status-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-encounter-status-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-encounter-status-for-R4.html" : "Cross-version ValueSet R5.EncounterStatus for use in FHIR R4"
+      "ConceptMap-Map-R5-encounter-status-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-encounter-status-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/encounter-status" : "EncounterStatus",
+      "ValueSet-R5-encounter-status-for-R4.html" : "Cross-version ValueSet R5.EncounterStatus for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/event-timing",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "EventTiming",
       "title" : "EventTiming",
-      "description" : "Real-world event relating to the schedule.",
+      "description" : "Real world event relating to the schedule.",
+      "oids" : ["2.16.840.1.113883.4.642.4.76"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-event-timing-for-R4.html" : "Cross-version ValueSet R5.EventTiming for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-event-timing-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-event-timing-for-R4 from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-event-timing-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-event-timing-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/event-timing" : "EventTiming",
+      "ValueSet-R5-event-timing-for-R4.html" : "Cross-version ValueSet R5.EventTiming for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/evidence-classifier-code",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "EvidenceClassifier",
       "title" : "Evidence Classifier",
       "description" : "Commonly used classifiers for evidence sets.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-evidence-classifier-code-for-R4.html" : "Cross-version ValueSet R5.EvidenceClassifier for use in FHIR R4"
+      "ValueSet-R5-evidence-classifier-code-for-R4.html" : "Cross-version ValueSet R5.EvidenceClassifier for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/evidence-report-section",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ReportSectionType",
       "title" : "Report Section Type",
       "description" : "Evidence Report Section Type.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-evidence-report-section-for-R4.html" : "Cross-version ValueSet R5.ReportSectionType for use in FHIR R4"
+      "ValueSet-R5-evidence-report-section-for-R4.html" : "Cross-version ValueSet R5.ReportSectionType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/evidence-report-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "EvidenceReportType",
       "title" : "Evidence Report Type",
       "description" : "The kind of report, such as grouping of classifiers, search results, or human-compiled expression.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-evidence-report-type-for-R4.html" : "Cross-version ValueSet R5.EvidenceReportType for use in FHIR R4"
+      "ValueSet-R5-evidence-report-type-for-R4.html" : "Cross-version ValueSet R5.EvidenceReportType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/fhir-types",
@@ -563,818 +605,849 @@
       "name" : "FHIRTypes",
       "title" : "All FHIR Types",
       "description" : "One of the types defined as part of this version of FHIR.",
+      "oids" : ["2.16.840.1.113883.4.642.4.1802"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-data-types-for-R4.html" : "Cross-version ValueSet R5.FHIRTypes for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-data-types-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-data-types-for-R4 from FHIR R5 to FHIR R4"
+      "ValueSet-R5-data-types-for-R4.html" : "Cross-version ValueSet R5.FHIRTypes for use in FHIR R4",
+      "ConceptMap-Map-R5-data-types-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-data-types-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/filter-operator",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "FilterOperator",
-      "title" : "Filter Operator",
+      "title" : "FilterOperator",
       "description" : "The kind of operation to perform as a part of a property based filter.",
+      "oids" : ["2.16.840.1.113883.4.642.4.479"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-filter-operator-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-filter-operator-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-filter-operator-for-R4.html" : "Cross-version ValueSet R5.FilterOperator for use in FHIR R4"
+      "http://tx.fhir.org/r4/ValueSet/filter-operator" : "FilterOperator",
+      "ValueSet-R5-filter-operator-for-R4.html" : "Cross-version ValueSet R5.FilterOperator for use in FHIR R4",
+      "ConceptMap-Map-R5-filter-operator-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-filter-operator-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/focus-characteristic-code",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "FocusCharacteristicCode",
       "title" : "Focus Characteristic Code",
       "description" : "Evidence focus characteristic code.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-focus-characteristic-code-for-R4.html" : "Cross-version ValueSet R5.FocusCharacteristicCode for use in FHIR R4"
+      "ValueSet-R5-focus-characteristic-code-for-R4.html" : "Cross-version ValueSet R5.FocusCharacteristicCode for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/group-type",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "GroupType",
-      "title" : "Group Type",
+      "title" : "GroupType",
       "description" : "Types of resources that are part of group.",
+      "oids" : ["2.16.840.1.113883.4.642.4.285"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-group-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-group-type-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-group-type-for-R4.html" : "Cross-version ValueSet R5.GroupType for use in FHIR R4"
+      "ValueSet-R5-group-type-for-R4.html" : "Cross-version ValueSet R5.GroupType for use in FHIR R4",
+      "ConceptMap-Map-R5-group-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-group-type-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/group-type" : "GroupType"
     },
     {
       "url" : "http://hl7.org/fhir/ingredient-function",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "IngredientFunction",
       "title" : "Ingredient Function",
       "description" : "A classification of the ingredient identifying its precise purpose(s) in the drug product (beyond e.g. active/inactive).",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-ingredient-function-for-R4.html" : "Cross-version ValueSet R5.IngredientFunction for use in FHIR R4"
+      "ValueSet-R5-ingredient-function-for-R4.html" : "Cross-version ValueSet R5.IngredientFunction for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/ingredient-manufacturer-role",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "IngredientManufacturerRole",
       "title" : "Ingredient Manufacturer Role",
       "description" : "The way in which this manufacturer is associated with the ingredient. For example whether it is a possible one (others allowed), or an exclusive authorized one for this ingredient. Note that this is not the manufacturing process role",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-ingredient-manufacturer-role-for-R4.html" : "Cross-version ValueSet R5.IngredientManufacturerRole for use in FHIR R4"
+      "ValueSet-R5-ingredient-manufacturer-role-for-R4.html" : "Cross-version ValueSet R5.IngredientManufacturerRole for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/ingredient-role",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "IngredientRole",
       "title" : "Ingredient Role",
       "description" : "A classification of the ingredient identifying its purpose within the product, e.g. active, inactive.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-ingredient-role-for-R4.html" : "Cross-version ValueSet R5.IngredientRole for use in FHIR R4"
+      "ValueSet-R5-ingredient-role-for-R4.html" : "Cross-version ValueSet R5.IngredientRole for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/interaction-incidence",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "InteractionIncidence",
       "title" : "Interaction Incidence",
       "description" : "A categorisation for a frequency of occurence of an undesirable effect.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-interaction-incidence-for-R4.html" : "Cross-version ValueSet R5.InteractionIncidence for use in FHIR R4"
+      "ValueSet-R5-interaction-incidence-for-R4.html" : "Cross-version ValueSet R5.InteractionIncidence for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/interaction-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "InteractionType",
       "title" : "Interaction Type",
       "description" : "A categorisation for an interaction between two substances.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-interaction-type-for-R4.html" : "Cross-version ValueSet R5.InteractionType for use in FHIR R4"
+      "ValueSet-R5-interaction-type-for-R4.html" : "Cross-version ValueSet R5.InteractionType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/issue-severity",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "IssueSeverity",
-      "title" : "Issue Severity",
+      "title" : "IssueSeverity",
       "description" : "How the issue affects the success of the action.",
+      "oids" : ["2.16.840.1.113883.4.642.4.409"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-issue-severity-for-R4.html" : "Cross-version ValueSet R5.IssueSeverity for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-issue-severity-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-issue-severity-for-R4 from FHIR R5 to FHIR R4"
+      "http://tx.fhir.org/r4/ValueSet/issue-severity" : "IssueSeverity",
+      "ValueSet-R5-issue-severity-for-R4.html" : "Cross-version ValueSet R5.IssueSeverity for use in FHIR R4",
+      "ConceptMap-Map-R5-issue-severity-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-issue-severity-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/issue-type",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "IssueType",
-      "title" : "Issue Type",
+      "title" : "IssueType",
       "description" : "A code that describes the type of issue.",
+      "oids" : ["2.16.840.1.113883.4.642.4.411"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-issue-type-for-R4.html" : "Cross-version ValueSet R5.IssueType for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-issue-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-issue-type-for-R4 from FHIR R5 to FHIR R4"
+      "http://tx.fhir.org/r4/ValueSet/issue-type" : "IssueType",
+      "ValueSet-R5-issue-type-for-R4.html" : "Cross-version ValueSet R5.IssueType for use in FHIR R4",
+      "ConceptMap-Map-R5-issue-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-issue-type-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/item-type",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "QuestionnaireItemType",
-      "title" : "Questionnaire Item Type",
+      "title" : "QuestionnaireItemType",
       "description" : "Distinguishes groups from questions and display text and indicates data type for questions.",
+      "oids" : ["2.16.840.1.113883.4.642.4.445"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-item-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-item-type-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-item-type-for-R4.html" : "Cross-version ValueSet R5.QuestionnaireItemType for use in FHIR R4"
+      "ValueSet-R5-item-type-for-R4.html" : "Cross-version ValueSet R5.QuestionnaireItemType for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/item-type" : "QuestionnaireItemType",
+      "ConceptMap-Map-R5-item-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-item-type-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/legal-status-of-supply",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "LegalStatusOfSupply",
       "title" : "Legal Status Of Supply",
       "description" : "The prescription supply types appropriate to a medicinal product",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-legal-status-of-supply-for-R4.html" : "Cross-version ValueSet R5.LegalStatusOfSupply for use in FHIR R4"
+      "ValueSet-R5-legal-status-of-supply-for-R4.html" : "Cross-version ValueSet R5.LegalStatusOfSupply for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-additional-monitoring",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "AdditionalMonitoring",
       "title" : "Additional Monitoring",
       "description" : "Extra monitoring defined for a Medicinal Product.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-additional-monitoring-for-R4.html" : "Cross-version ValueSet R5.AdditionalMonitoring for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-additional-monitoring-for-R4.html" : "Cross-version ValueSet R5.AdditionalMonitoring for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-confidentiality",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ProductConfidentiality",
       "title" : "Product Confidentiality",
       "description" : "Confidentiality rating, e.g. commercial sensitivity for a Medicinal Product.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-confidentiality-for-R4.html" : "Cross-version ValueSet R5.ProductConfidentiality for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-confidentiality-for-R4.html" : "Cross-version ValueSet R5.ProductConfidentiality for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-contact-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ProductContactType",
       "title" : "Product Contact Type",
       "description" : "Contact type for a Medicinal Product.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-contact-type-for-R4.html" : "Cross-version ValueSet R5.ProductContactType for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-contact-type-for-R4.html" : "Cross-version ValueSet R5.ProductContactType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-cross-reference-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ProductCrossReferenceType",
       "title" : "Product Cross Reference Type",
       "description" : "Relationship to another Medicinal Product.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-cross-reference-type-for-R4.html" : "Cross-version ValueSet R5.ProductCrossReferenceType for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-cross-reference-type-for-R4.html" : "Cross-version ValueSet R5.ProductCrossReferenceType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-domain",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "MedicinalProductDomain",
       "title" : "Medicinal Product Domain",
       "description" : "Applicable domain for this product (e.g. human, veterinary).",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-domain-for-R4.html" : "Cross-version ValueSet R5.MedicinalProductDomain for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-domain-for-R4.html" : "Cross-version ValueSet R5.MedicinalProductDomain for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-name-part-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ProductNamePartType",
       "title" : "Product Name Part Type",
       "description" : "Type of part of a name for a Medicinal Product.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-name-part-type-for-R4.html" : "Cross-version ValueSet R5.ProductNamePartType for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-name-part-type-for-R4.html" : "Cross-version ValueSet R5.ProductNamePartType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-name-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ProductNameType",
       "title" : "Product Name Type",
       "description" : "Type of a name for a Medicinal Product.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-name-type-for-R4.html" : "Cross-version ValueSet R5.ProductNameType for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-name-type-for-R4.html" : "Cross-version ValueSet R5.ProductNameType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-package-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "MedicinalProductPackageType",
       "title" : "Medicinal Product Package Type",
       "description" : "Types of medicinal product packs",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-package-type-for-R4.html" : "Cross-version ValueSet R5.MedicinalProductPackageType for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-package-type-for-R4.html" : "Cross-version ValueSet R5.MedicinalProductPackageType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-pediatric-use",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "PediatricUse",
       "title" : "Pediatric Use",
       "description" : "Suitability for age groups, in particular children.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-pediatric-use-for-R4.html" : "Cross-version ValueSet R5.PediatricUse for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-pediatric-use-for-R4.html" : "Cross-version ValueSet R5.PediatricUse for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-special-measures",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SpecialMeasures",
       "title" : "Special Measures",
       "description" : "Extra measures defined for a Medicinal Product, such as requirement to conduct post-authorization studies.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-special-measures-for-R4.html" : "Cross-version ValueSet R5.SpecialMeasures for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-special-measures-for-R4.html" : "Cross-version ValueSet R5.SpecialMeasures for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/medicinal-product-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "MedicinalProductType",
       "title" : "Medicinal Product Type",
       "description" : "Overall defining type of this Medicinal Product.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-medicinal-product-type-for-R4.html" : "Cross-version ValueSet R5.MedicinalProductType for use in FHIR R4"
+      "ValueSet-R5-medicinal-product-type-for-R4.html" : "Cross-version ValueSet R5.MedicinalProductType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/namingsystem-identifier-type",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "NamingSystemIdentifierType",
-      "title" : "Naming System Identifier Type",
+      "title" : "NamingSystemIdentifierType",
       "description" : "Identifies the style of unique identifier used to identify a namespace.",
+      "oids" : ["2.16.840.1.113883.4.642.4.493"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-namingsystem-identifier-type-for-R4.html" : "Cross-version ValueSet R5.NamingSystemIdentifierType for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-namingsystem-identifier-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-namingsystem-identifier-type-for-R4 from FHIR R5 to FHIR R4"
+      "ValueSet-R5-namingsystem-identifier-type-for-R4.html" : "Cross-version ValueSet R5.NamingSystemIdentifierType for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/namingsystem-identifier-type" : "NamingSystemIdentifierType",
+      "ConceptMap-Map-R5-namingsystem-identifier-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-namingsystem-identifier-type-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/nutritionproduct-status",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "NutritionProductStatus",
       "title" : "Nutrition Product Status",
       "description" : "Codes identifying the lifecycle stage of a product.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-nutritionproduct-status-for-R4.html" : "Cross-version ValueSet R5.NutritionProductStatus for use in FHIR R4"
+      "ValueSet-R5-nutritionproduct-status-for-R4.html" : "Cross-version ValueSet R5.NutritionProductStatus for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/observation-status",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "ObservationStatus",
-      "title" : "Observation Status",
+      "title" : "ObservationStatus",
       "description" : "Codes providing the status of an observation.",
+      "oids" : ["2.16.840.1.113883.4.642.4.401"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-detectedissue-status-for-R4-observation-status.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-detectedissue-status-for-R4-observation-status from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-detectedissue-status-for-R4-observation-status.html" : "Cross-version ConceptMap for ValueSet R5-detectedissue-status-for-R4-observation-status from FHIR R5 to FHIR R4",
+      "http://hl7.org/fhir/R4/valueset-observation-status.html" : "ObservationStatus"
     },
     {
       "url" : "http://hl7.org/fhir/package-material",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "PackageMaterial",
       "title" : "Package Material",
       "description" : "A material used in the construction of packages and their components.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-package-material-for-R4.html" : "Cross-version ValueSet R5.PackageMaterial for use in FHIR R4"
+      "ValueSet-R5-package-material-for-R4.html" : "Cross-version ValueSet R5.PackageMaterial for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/package-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "PackageType",
       "title" : "Package Type",
       "description" : "A high level categorisation of a package.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-package-type-for-R4.html" : "Cross-version ValueSet R5.PackageType for use in FHIR R4"
+      "ValueSet-R5-package-type-for-R4.html" : "Cross-version ValueSet R5.PackageType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/packaging-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "PackagingType",
       "title" : "Packaging Type",
       "description" : "A type of packaging.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-packaging-type-for-R4.html" : "Cross-version ValueSet R5.PackagingType for use in FHIR R4"
+      "ValueSet-R5-packaging-type-for-R4.html" : "Cross-version ValueSet R5.PackagingType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/participationstatus",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "ParticipationStatus",
-      "title" : "Participation Status",
+      "title" : "ParticipationStatus",
       "description" : "The Participation status of an appointment.",
+      "oids" : ["2.16.840.1.113883.4.642.4.487"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-appointmentresponse-status-for-R4-participationstatus.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-appointmentresponse-status-for-R4-participationstatus from FHIR R5 to FHIR R4"
+      "http://hl7.org/fhir/R4/valueset-participationstatus.html" : "ParticipationStatus",
+      "ConceptMap-Map-R5-appointmentresponse-status-for-R4-participationstatus.html" : "Cross-version ConceptMap for ValueSet R5-appointmentresponse-status-for-R4-participationstatus from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/product-intended-use",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ProductIntendedUse",
       "title" : "Product Intended Use",
       "description" : "ProductIntendedUse",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-product-intended-use-for-R4.html" : "Cross-version ValueSet R5.ProductIntendedUse for use in FHIR R4"
+      "ValueSet-R5-product-intended-use-for-R4.html" : "Cross-version ValueSet R5.ProductIntendedUse for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/provenance-entity-role",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "ProvenanceEntityRole",
-      "title" : "Provenance Entity Role",
+      "title" : "ProvenanceEntityRole",
       "description" : "How an entity was used in an activity.",
+      "oids" : ["2.16.840.1.113883.4.642.4.437"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-provenance-entity-role-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-provenance-entity-role-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-provenance-entity-role-for-R4.html" : "Cross-version ValueSet R5.ProvenanceEntityRole for use in FHIR R4"
+      "ConceptMap-Map-R5-provenance-entity-role-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-provenance-entity-role-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-provenance-entity-role-for-R4.html" : "Cross-version ValueSet R5.ProvenanceEntityRole for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/provenance-entity-role" : "ProvenanceEntityRole"
     },
     {
       "url" : "http://hl7.org/fhir/published-in-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "PublishedInType",
       "title" : "Published In Type",
       "description" : "The type of publication such as book, database, or journal.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-published-in-type-for-R4.html" : "Cross-version ValueSet R5.PublishedInType for use in FHIR R4"
+      "ValueSet-R5-published-in-type-for-R4.html" : "Cross-version ValueSet R5.PublishedInType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/quantity-comparator",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
       "name" : "QuantityComparator",
       "title" : "QuantityComparator",
       "description" : "How the Quantity should be understood and represented.",
+      "oids" : ["2.16.840.1.113883.4.642.4.60"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-quantity-comparator-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-quantity-comparator-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-quantity-comparator-for-R4.html" : "Cross-version ValueSet R5.QuantityComparator for use in FHIR R4"
+      "ConceptMap-Map-R5-quantity-comparator-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-quantity-comparator-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-quantity-comparator-for-R4.html" : "Cross-version ValueSet R5.QuantityComparator for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/quantity-comparator" : "QuantityComparator"
     },
     {
       "url" : "http://hl7.org/fhir/regulated-authorization-basis",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "RegulatedAuthorizationBasis",
       "title" : "Regulated Authorization Basis",
       "description" : "RegulatedAuthorizationBasis",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-regulated-authorization-basis-for-R4.html" : "Cross-version ValueSet R5.RegulatedAuthorizationBasis for use in FHIR R4"
+      "ValueSet-R5-regulated-authorization-basis-for-R4.html" : "Cross-version ValueSet R5.RegulatedAuthorizationBasis for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/regulated-authorization-case-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "RegulatedAuthorizationCaseType",
       "title" : "Regulated Authorization Case Type",
       "description" : "RegulatedAuthorizationCaseType",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-regulated-authorization-case-type-for-R4.html" : "Cross-version ValueSet R5.RegulatedAuthorizationCaseType for use in FHIR R4"
+      "ValueSet-R5-regulated-authorization-case-type-for-R4.html" : "Cross-version ValueSet R5.RegulatedAuthorizationCaseType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/regulated-authorization-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "RegulatedAuthorizationType",
       "title" : "Regulated Authorization Type",
       "description" : "RegulatedAuthorizationType",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-regulated-authorization-type-for-R4.html" : "Cross-version ValueSet R5.RegulatedAuthorizationType for use in FHIR R4"
+      "ValueSet-R5-regulated-authorization-type-for-R4.html" : "Cross-version ValueSet R5.RegulatedAuthorizationType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/related-artifact-type",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "RelatedArtifactType",
       "title" : "RelatedArtifactType",
       "description" : "The type of relationship to the related artifact.",
+      "oids" : ["2.16.840.1.113883.4.642.4.100"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-related-artifact-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-related-artifact-type-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-related-artifact-type-for-R4.html" : "Cross-version ValueSet R5.RelatedArtifactType for use in FHIR R4"
+      "ValueSet-R5-related-artifact-type-for-R4.html" : "Cross-version ValueSet R5.RelatedArtifactType for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/related-artifact-type" : "RelatedArtifactType",
+      "ConceptMap-Map-R5-related-artifact-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-related-artifact-type-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/report-relation-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "ReportRelationshipType",
       "title" : "Report Relationship Type",
       "description" : "The type of relationship between reports.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-report-relation-type-for-R4.html" : "Cross-version ValueSet R5.ReportRelationshipType for use in FHIR R4"
+      "ValueSet-R5-report-relation-type-for-R4.html" : "Cross-version ValueSet R5.ReportRelationshipType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/request-intent",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "draft",
       "name" : "RequestIntent",
       "title" : "RequestIntent",
       "description" : "Codes indicating the degree of authority/intentionality associated with a request.",
+      "oids" : ["2.16.840.1.113883.4.642.4.114"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-care-plan-intent-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-care-plan-intent-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-care-plan-intent-for-R4.html" : "Cross-version ValueSet R5.CarePlanIntent for use in FHIR R4"
+      "ConceptMap-Map-R5-care-plan-intent-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-care-plan-intent-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-care-plan-intent-for-R4.html" : "Cross-version ValueSet R5.CarePlanIntent for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/care-plan-intent" : "Care Plan Intent"
     },
     {
       "url" : "http://hl7.org/fhir/restful-interaction",
-      "version" : "5.0.0",
+      "version" : "4.0.1",
       "status" : "active",
-      "name" : "FHIRRestfulInteractions",
-      "title" : "FHIR Restful Interactions",
+      "name" : "FHIR Restful Interactions",
+      "title" : null,
       "description" : "The set of interactions defined by the RESTful part of the FHIR specification.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-testscript-operation-codes-for-R4.html" : "Cross-version ValueSet R5.TestScriptOperationCode for use in FHIR R4",
-      "ValueSet-ValueSet-R5-interaction-trigger-for-R4.html" : "Cross-version ValueSet R5.InteractionTrigger for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-testscript-operation-codes-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-testscript-operation-codes-for-R4 from FHIR R5 to FHIR R4"
+      "ValueSet-R5-interaction-trigger-for-R4.html" : "Cross-version ValueSet R5.InteractionTrigger for use in FHIR R4",
+      "ConceptMap-Map-R5-testscript-operation-codes-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-testscript-operation-codes-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-testscript-operation-codes-for-R4.html" : "Cross-version ValueSet R5.TestScriptOperationCode for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/search-modifier-code",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "SearchModifierCode",
-      "title" : "Search Modifier Code",
+      "title" : "SearchModifierCode",
       "description" : "A supported modifier for a search parameter.",
+      "oids" : ["2.16.840.1.113883.4.642.4.640"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-search-modifier-code-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-search-modifier-code-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-search-modifier-code-for-R4.html" : "Cross-version ValueSet R5.SearchModifierCode for use in FHIR R4"
+      "ConceptMap-Map-R5-search-modifier-code-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-search-modifier-code-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-search-modifier-code-for-R4.html" : "Cross-version ValueSet R5.SearchModifierCode for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/search-modifier-code" : "SearchModifierCode"
     },
     {
       "url" : "http://hl7.org/fhir/statistic-model-code",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "StatisticModelCode",
       "title" : "Statistic Model Code",
       "description" : "The role that the assertion variable plays.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-statistic-model-code-for-R4.html" : "Cross-version ValueSet R5.StatisticModelCode for use in FHIR R4"
+      "ValueSet-R5-statistic-model-code-for-R4.html" : "Cross-version ValueSet R5.StatisticModelCode for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/subscription-notification-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubscriptionNotificationType",
       "title" : "Subscription Notification Type",
       "description" : "The type of notification represented by the status message.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-subscription-notification-type-for-R4.html" : "Cross-version ValueSet R5.SubscriptionNotificationType for use in FHIR R4"
+      "ValueSet-R5-subscription-notification-type-for-R4.html" : "Cross-version ValueSet R5.SubscriptionNotificationType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/subscription-status",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "SubscriptionStatus",
-      "title" : "Subscription Status",
-      "description" : "This codesystem defines a set of codes that can be used to filter Subscription triggers.",
+      "title" : "SubscriptionStatus",
+      "description" : "The status of a subscription.",
+      "oids" : ["2.16.840.1.113883.4.642.4.503"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-subscription-status-for-R4.html" : "Cross-version ValueSet R5.SubscriptionStatusCodes for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-subscription-status-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-subscription-status-for-R4 from FHIR R5 to FHIR R4"
+      "http://tx.fhir.org/r4/ValueSet/subscription-status" : "SubscriptionStatus",
+      "ValueSet-R5-subscription-status-for-R4.html" : "Cross-version ValueSet R5.SubscriptionStatusCodes for use in FHIR R4",
+      "ConceptMap-Map-R5-subscription-status-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-subscription-status-for-R4 from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/subscriptiontopic-cr-behavior",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "CriteriaNotExistsBehavior",
       "title" : "Criteria Not Exists Behavior",
       "description" : "Behavior a server can exhibit when a criteria state does not exist (e.g., state prior to a create or after a delete).",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-subscriptiontopic-cr-behavior-for-R4.html" : "Cross-version ValueSet R5.CriteriaNotExistsBehavior for use in FHIR R4"
+      "ValueSet-R5-subscriptiontopic-cr-behavior-for-R4.html" : "Cross-version ValueSet R5.CriteriaNotExistsBehavior for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-amount-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceAmountType",
       "title" : "Substance Amount Type",
       "description" : "The type of a numeric quantity measurement.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-amount-type-for-R4.html" : "Cross-version ValueSet R5.SubstanceAmountType for use in FHIR R4"
+      "ValueSet-R5-substance-amount-type-for-R4.html" : "Cross-version ValueSet R5.SubstanceAmountType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-grade",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceGrade",
       "title" : "Substance Grade",
       "description" : "SubstanceGrade",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-grade-for-R4.html" : "Cross-version ValueSet R5.SubstanceGrade for use in FHIR R4"
+      "ValueSet-R5-substance-grade-for-R4.html" : "Cross-version ValueSet R5.SubstanceGrade for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-name-authority",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceNameAuthority",
       "title" : "Substance Name Authority",
       "description" : "SubstanceNameAuthority",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-name-authority-for-R4.html" : "Cross-version ValueSet R5.SubstanceNameAuthority for use in FHIR R4"
+      "ValueSet-R5-substance-name-authority-for-R4.html" : "Cross-version ValueSet R5.SubstanceNameAuthority for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-name-domain",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceNameDomain",
       "title" : "Substance Name Domain",
       "description" : "SubstanceNameDomain",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-name-domain-for-R4.html" : "Cross-version ValueSet R5.SubstanceNameDomain for use in FHIR R4"
+      "ValueSet-R5-substance-name-domain-for-R4.html" : "Cross-version ValueSet R5.SubstanceNameDomain for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-name-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceNameType",
       "title" : "Substance Name Type",
       "description" : "SubstanceNameType",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-name-type-for-R4.html" : "Cross-version ValueSet R5.SubstanceNameType for use in FHIR R4"
+      "ValueSet-R5-substance-name-type-for-R4.html" : "Cross-version ValueSet R5.SubstanceNameType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-optical-activity",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceOpticalActivity",
       "title" : "Substance Optical Activity",
       "description" : "The optical rotation type of a substance.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-optical-activity-for-R4.html" : "Cross-version ValueSet R5.OpticalActivity for use in FHIR R4"
+      "ValueSet-R5-substance-optical-activity-for-R4.html" : "Cross-version ValueSet R5.OpticalActivity for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-relationship-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceRelationshipType",
       "title" : "Substance Relationship Type",
       "description" : "The relationship between two substance types.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-relationship-type-for-R4.html" : "Cross-version ValueSet R5.SubstanceRelationshipType for use in FHIR R4"
+      "ValueSet-R5-substance-relationship-type-for-R4.html" : "Cross-version ValueSet R5.SubstanceRelationshipType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-representation-format",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceRepresentationFormat",
       "title" : "Substance Representation Format",
       "description" : "SubstanceRepresentationFormat",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-representation-format-for-R4.html" : "Cross-version ValueSet R5.SubstanceRepresentationFormat for use in FHIR R4"
+      "ValueSet-R5-substance-representation-format-for-R4.html" : "Cross-version ValueSet R5.SubstanceRepresentationFormat for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-representation-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceRepresentationType",
       "title" : "Substance Representation Type",
       "description" : "SubstanceRepresentationType",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-representation-type-for-R4.html" : "Cross-version ValueSet R5.SubstanceRepresentationType for use in FHIR R4"
+      "ValueSet-R5-substance-representation-type-for-R4.html" : "Cross-version ValueSet R5.SubstanceRepresentationType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-source-material-genus",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceSourceMaterialGenus",
       "title" : "Substance Source Material Genus",
       "description" : "SubstanceSourceMaterialGenus",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-source-material-genus-for-R4.html" : "Cross-version ValueSet R5.SourceMaterialGenus for use in FHIR R4"
+      "ValueSet-R5-substance-source-material-genus-for-R4.html" : "Cross-version ValueSet R5.SourceMaterialGenus for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-source-material-part",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceSourceMaterialPart",
       "title" : "Substance Source Material Part",
       "description" : "SubstanceSourceMaterialPart",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-source-material-part-for-R4.html" : "Cross-version ValueSet R5.SourceMaterialPart for use in FHIR R4"
+      "ValueSet-R5-substance-source-material-part-for-R4.html" : "Cross-version ValueSet R5.SourceMaterialPart for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-source-material-species",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceSourceMaterialSpecies",
       "title" : "Substance Source Material Species",
       "description" : "SubstanceSourceMaterialSpecies",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-source-material-species-for-R4.html" : "Cross-version ValueSet R5.SourceMaterialSpecies for use in FHIR R4"
+      "ValueSet-R5-substance-source-material-species-for-R4.html" : "Cross-version ValueSet R5.SourceMaterialSpecies for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-source-material-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceSourceMaterialType",
       "title" : "Substance Source Material Type",
       "description" : "SubstanceSourceMaterialType",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-source-material-type-for-R4.html" : "Cross-version ValueSet R5.SourceMaterialType for use in FHIR R4"
+      "ValueSet-R5-substance-source-material-type-for-R4.html" : "Cross-version ValueSet R5.SourceMaterialType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-stereochemistry",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceStereochemistry",
       "title" : "Substance Stereochemistry",
       "description" : "The stereochemistry type of a substance.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-stereochemistry-for-R4.html" : "Cross-version ValueSet R5.Stereochemistry for use in FHIR R4"
+      "ValueSet-R5-substance-stereochemistry-for-R4.html" : "Cross-version ValueSet R5.Stereochemistry for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-structure-technique",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceStructureTechnique",
       "title" : "Substance Structure Technique",
       "description" : "SubstanceStructureTechnique",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-structure-technique-for-R4.html" : "Cross-version ValueSet R5.StructureTechnique for use in FHIR R4"
+      "ValueSet-R5-substance-structure-technique-for-R4.html" : "Cross-version ValueSet R5.StructureTechnique for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-weight-method",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceWeightMethod",
       "title" : "Substance Weight Method",
       "description" : "SubstanceWeightMethod",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-weight-method-for-R4.html" : "Cross-version ValueSet R5.WeightMethod for use in FHIR R4"
+      "ValueSet-R5-substance-weight-method-for-R4.html" : "Cross-version ValueSet R5.WeightMethod for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/substance-weight-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SubstanceWeightType",
       "title" : "Substance Weight Type",
       "description" : "SubstanceWeightType",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-substance-weight-type-for-R4.html" : "Cross-version ValueSet R5.WeightType for use in FHIR R4"
+      "ValueSet-R5-substance-weight-type-for-R4.html" : "Cross-version ValueSet R5.WeightType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/supplydelivery-supplyitemtype",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "SupplyDeliverySupplyItemType",
       "title" : "Supply Delivery Supply Item Type",
       "description" : "Status of the supply delivery.",
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type.html" : "Cross-version ValueSet R5.SupplyDeliverySupplyItemType for use in FHIR R4"
+      "ConceptMap-Map-R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type.html" : "Cross-version ConceptMap for ValueSet R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type from FHIR R5 to FHIR R4",
+      "ValueSet-R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type.html" : "Cross-version ValueSet R5.SupplyDeliverySupplyItemType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/target-species",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "TargetSpecies",
       "title" : "Target Species",
       "description" : "A species for which a medicinal product is intended.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-target-species-for-R4.html" : "Cross-version ValueSet R5.TargetSpecies for use in FHIR R4"
+      "ValueSet-R5-target-species-for-R4.html" : "Cross-version ValueSet R5.TargetSpecies for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/therapy-relationship-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "TherapyRelationshipType",
       "title" : "Therapy Relationship Type",
       "description" : "Classification of relationship between a therapy and a contraindication or an indication.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-therapy-relationship-type-for-R4.html" : "Cross-version ValueSet R5.TherapyRelationshipType for use in FHIR R4"
+      "ValueSet-R5-therapy-relationship-type-for-R4.html" : "Cross-version ValueSet R5.TherapyRelationshipType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/title-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "TitleType",
       "title" : "Title Type",
       "description" : "Used to express the reason and specific aspect for the variant title, such as language and specific language.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-title-type-for-R4.html" : "Cross-version ValueSet R5.TitleType for use in FHIR R4"
+      "ValueSet-R5-title-type-for-R4.html" : "Cross-version ValueSet R5.TitleType for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/udi-entry-type",
-      "version" : "5.0.0",
-      "status" : "active",
+      "version" : "4.0.1",
+      "status" : "draft",
       "name" : "UDIEntryType",
-      "title" : "UDI Entry Type",
+      "title" : "UDIEntryType",
       "description" : "Codes to identify how UDI data was entered.",
+      "oids" : ["2.16.840.1.113883.4.642.4.212"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-udi-entry-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-udi-entry-type-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-udi-entry-type-for-R4.html" : "Cross-version ValueSet R5.UDIEntryType for use in FHIR R4"
+      "ConceptMap-Map-R5-udi-entry-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-udi-entry-type-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-udi-entry-type-for-R4.html" : "Cross-version ValueSet R5.UDIEntryType for use in FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/udi-entry-type" : "UDIEntryType"
     },
     {
       "url" : "http://hl7.org/fhir/undesirable-effect-frequency",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "UndesirablEffectFrequency",
       "title" : "Undesirabl Effect Frequency",
       "description" : "A categorisation for a frequency of occurence of an undesirable effect.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-undesirable-effect-frequency-for-R4.html" : "Cross-version ValueSet R5.UndesirablEffectFrequency for use in FHIR R4"
+      "ValueSet-R5-undesirable-effect-frequency-for-R4.html" : "Cross-version ValueSet R5.UndesirablEffectFrequency for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/unit-of-presentation",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "UnitOfPresentation",
       "title" : "Unit Of Presentation",
       "description" : "The presentation type in which an administrable medicinal product is given to a patient.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-unit-of-presentation-for-R4.html" : "Cross-version ValueSet R5.UnitOfPresentation for use in FHIR R4"
+      "ValueSet-R5-unit-of-presentation-for-R4.html" : "Cross-version ValueSet R5.UnitOfPresentation for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/variable-handling",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "EvidenceVariableHandling",
       "title" : "Evidence Variable Handling",
       "description" : "The handling of the variable in statistical analysis for exposures or outcomes (E.g. Dichotomous, Continuous, Descriptive).",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-variable-handling-for-R4.html" : "Cross-version ValueSet R5.EvidenceVariableHandling for use in FHIR R4"
+      "ValueSet-R5-variable-handling-for-R4.html" : "Cross-version ValueSet R5.EvidenceVariableHandling for use in FHIR R4"
     },
     {
       "url" : "http://hl7.org/fhir/warning-type",
-      "version" : "5.0.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "WarningType",
       "title" : "Warning Type",
       "description" : "Classification of warning type.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-warning-type-for-R4.html" : "Cross-version ValueSet R5.WarningType for use in FHIR R4"
+      "ValueSet-R5-warning-type-for-R4.html" : "Cross-version ValueSet R5.WarningType for use in FHIR R4"
     },
     {
       "url" : "http://ihe.net/fhir/ihe.formatcode.fhir/CodeSystem/formatcode",
@@ -1386,8 +1459,8 @@
       "oids" : ["1.3.6.1.4.1.19376.1.2.3"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-endpoint-payload-type-for-R4.html" : "Cross-version ValueSet R5.EndpointPayloadType for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-endpoint-payload-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-endpoint-payload-type-for-R4 from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-endpoint-payload-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-endpoint-payload-type-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-endpoint-payload-type-for-R4.html" : "Cross-version ValueSet R5.EndpointPayloadType for use in FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/attribute-estimate-type",
@@ -1399,7 +1472,7 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1413"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-attribute-estimate-type-for-R4.html" : "Cross-version ValueSet R5.AttributeEstimateType for use in FHIR R4"
+      "ValueSet-R5-attribute-estimate-type-for-R4.html" : "Cross-version ValueSet R5.AttributeEstimateType for use in FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/characteristic-method",
@@ -1411,11 +1484,11 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1453"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-characteristic-method-for-R4.html" : "Cross-version ValueSet R5.CharacteristicMethod for use in FHIR R4"
+      "ValueSet-R5-characteristic-method-for-R4.html" : "Cross-version ValueSet R5.CharacteristicMethod for use in FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/designation-usage",
-      "version" : "4.2.0",
+      "version" : "0.0.1-snapshot-3",
       "status" : "draft",
       "name" : "DesignationUsage",
       "title" : "Designation Usage",
@@ -1434,7 +1507,7 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1459"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-directness-for-R4.html" : "Cross-version ValueSet R5.EvidenceDirectness for use in FHIR R4"
+      "ValueSet-R5-directness-for-R4.html" : "Cross-version ValueSet R5.EvidenceDirectness for use in FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/endpoint-payload-type",
@@ -1446,7 +1519,8 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1139"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-endpoint-payload-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-endpoint-payload-type-for-R4 from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-endpoint-payload-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-endpoint-payload-type-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/endpoint-payload-type" : "Endpoint Payload Type"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/media-type",
@@ -1458,7 +1532,8 @@
       "oids" : ["2.16.840.1.113883.4.642.1.326"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-v3-MediaType-for-R4-media-type.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-v3-MediaType-for-R4-media-type from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-v3-MediaType-for-R4-media-type.html" : "Cross-version ConceptMap for ValueSet R5-v3-MediaType-for-R4-media-type from FHIR R5 to FHIR R4",
+      "http://hl7.org/fhir/R4/valueset-media-type.html" : "Media Type"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/statistic-type",
@@ -1470,19 +1545,7 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1411"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-statistic-type-for-R4.html" : "Cross-version ValueSet R5.StatisticType for use in FHIR R4"
-    },
-    {
-      "url" : "http://terminology.hl7.org/CodeSystem/study-type",
-      "version" : "1.0.0",
-      "status" : "draft",
-      "name" : "StatisticStudyType",
-      "title" : "StatisticStudyType",
-      "description" : "The type of study a statistic was derived from.",
-      "oids" : ["2.16.840.1.113883.4.642.1.1350"],
-      "uses" : {
-      },
-      "ConceptMap-ConceptMap-R5-study-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-study-type-for-R4 from FHIR R5 to FHIR R4"
+      "ValueSet-R5-statistic-type-for-R4.html" : "Cross-version ValueSet R5.StatisticType for use in FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/study-type",
@@ -1494,7 +1557,9 @@
       "oids" : ["2.16.840.1.113883.4.642.4.1350"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-study-type-for-R4.html" : "Cross-version ValueSet R5.StatisticStudyType for use in FHIR R4"
+      "ConceptMap-Map-R5-study-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-study-type-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/study-type" : "StudyType",
+      "ValueSet-R5-study-type-for-R4.html" : "Cross-version ValueSet R5.StatisticStudyType for use in FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/subscription-error",
@@ -1506,7 +1571,7 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1438"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-subscription-error-for-R4.html" : "Cross-version ValueSet R5.SubscriptionErrorCodes for use in FHIR R4"
+      "ValueSet-R5-subscription-error-for-R4.html" : "Cross-version ValueSet R5.SubscriptionErrorCodes for use in FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/supply-item-type",
@@ -1518,7 +1583,8 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1194"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type.html" : "Cross-version ConceptMap for ValueSet R5-supplydelivery-supplyitemtype-for-R4-supplydelivery-type from FHIR R5 to FHIR R4",
+      "http://hl7.org/fhir/R4/valueset-supplydelivery-type.html" : "Supply Item Type"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/testscript-operation-codes",
@@ -1530,7 +1596,8 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1195"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-testscript-operation-codes-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-testscript-operation-codes-for-R4 from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-testscript-operation-codes-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-testscript-operation-codes-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/testscript-operation-codes" : "Test script operation code"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifier",
@@ -1542,8 +1609,9 @@
       "oids" : ["2.16.840.1.113883.5.43"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier.html" : "Cross-version ValueSet R5.EntityNamePartQualifier for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier from FHIR R5 to FHIR R4"
+      "http://hl7.org/fhir/R4/valueset-name-part-qualifier.html" : "EntityNamePartQualifier",
+      "ConceptMap-Map-R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier.html" : "Cross-version ConceptMap for ValueSet R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier from FHIR R5 to FHIR R4",
+      "ValueSet-R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier.html" : "Cross-version ValueSet R5.EntityNamePartQualifier for use in FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartQualifierR2",
@@ -1555,7 +1623,8 @@
       "oids" : ["2.16.840.1.113883.5.1122"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier from FHIR R5 to FHIR R4"
+      "http://hl7.org/fhir/R4/valueset-name-part-qualifier.html" : "EntityNamePartQualifier",
+      "ConceptMap-Map-R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier.html" : "Cross-version ConceptMap for ValueSet R5-v3-EntityNamePartQualifier-for-R4-name-part-qualifier from FHIR R5 to FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-HL7DocumentFormatCodes",
@@ -1567,8 +1636,8 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1407"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-endpoint-payload-type-for-R4.html" : "Cross-version ValueSet R5.EndpointPayloadType for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-endpoint-payload-type-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-endpoint-payload-type-for-R4 from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-endpoint-payload-type-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-endpoint-payload-type-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-endpoint-payload-type-for-R4.html" : "Cross-version ValueSet R5.EndpointPayloadType for use in FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
@@ -1580,8 +1649,9 @@
       "oids" : ["2.16.840.1.113883.5.83"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-observation-interpretation-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-observation-interpretation-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-observation-interpretation-for-R4.html" : "Cross-version ValueSet R5.ObservationInterpretationCodes for use in FHIR R4"
+      "ValueSet-R5-observation-interpretation-for-R4.html" : "Cross-version ValueSet R5.ObservationInterpretationCodes for use in FHIR R4",
+      "ConceptMap-Map-R5-observation-interpretation-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-observation-interpretation-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/observation-interpretation" : "Observation Interpretation Codes"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-TimingEvent",
@@ -1593,7 +1663,8 @@
       "oids" : ["2.16.840.1.113883.5.139"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-event-timing-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-event-timing-for-R4 from FHIR R5 to FHIR R4"
+      "ConceptMap-Map-R5-event-timing-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-event-timing-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/event-timing" : "EventTiming"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/v3-mediaType",
@@ -1605,8 +1676,8 @@
       "oids" : ["2.16.840.1.113883.5.79"],
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-v3-MediaType-for-R4-media-type.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-v3-MediaType-for-R4-media-type from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-v3-MediaType-for-R4-media-type.html" : "Cross-version ValueSet R5.MediaType for use in FHIR R4"
+      "ConceptMap-Map-R5-v3-MediaType-for-R4-media-type.html" : "Cross-version ConceptMap for ValueSet R5-v3-MediaType-for-R4-media-type from FHIR R5 to FHIR R4",
+      "ValueSet-R5-v3-MediaType-for-R4-media-type.html" : "Cross-version ValueSet R5.MediaType for use in FHIR R4"
     },
     {
       "url" : "http://terminology.hl7.org/CodeSystem/variable-role",
@@ -1618,31 +1689,33 @@
       "oids" : ["2.16.840.1.113883.4.642.1.1457"],
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-variable-role-for-R4.html" : "Cross-version ValueSet R5.EvidenceVariableRole for use in FHIR R4"
+      "ValueSet-R5-variable-role-for-R4.html" : "Cross-version ValueSet R5.EvidenceVariableRole for use in FHIR R4"
     },
     {
       "url" : "http://unitsofmeasure.org",
-      "version" : "3.0.1",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "UCUM",
       "title" : "Unified Code for Units of Measure (UCUM)",
       "description" : "The Unified Code for Units of Measure (UCUM) is a code system intended to include all units of measures being contemporarily used in international science, engineering, and business. The purpose is to facilitate unambiguous electronic communication of quantities together with their units. The focus is on electronic communication, as opposed to communication between humans. A typical application of The Unified Code for Units of Measure are electronic data interchange (EDI) protocols, but there is nothing that prevents it from being used in other types of machine communication.",
       "uses" : {
       },
-      "ValueSet-ValueSet-R5-ucum-common-for-R4.html" : "Cross-version ValueSet R5.CommonUCUMUnits for use in FHIR R4",
-      "ConceptMap-ConceptMap-R5-ucum-common-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-ucum-common-for-R4 from FHIR R5 to FHIR R4"
+      "ValueSet-R5-ucum-common-for-R4.html" : "Cross-version ValueSet R5.CommonUCUMUnits for use in FHIR R4",
+      "ConceptMap-Map-R5-ucum-common-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-ucum-common-for-R4 from FHIR R5 to FHIR R4",
+      "http://tx.fhir.org/r4/ValueSet/ucum-common" : "Common UCUM units"
     },
     {
       "url" : "urn:ietf:bcp:47",
-      "version" : "2.0.1",
+      "version" : "0.0.1-snapshot-3",
       "status" : "active",
       "name" : "Ietf3066",
       "title" : "Tags for the Identification of Languages",
       "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
       "uses" : {
       },
-      "ConceptMap-ConceptMap-R5-languages-for-R4.html" : "Cross-version ConceptMap for ValueSet ValueSet-R5-languages-for-R4 from FHIR R5 to FHIR R4",
-      "ValueSet-ValueSet-R5-languages-for-R4.html" : "Cross-version ValueSet R5.CommonLanguages for use in FHIR R4"
+      "http://tx.fhir.org/r4/ValueSet/languages" : "Common Languages",
+      "ConceptMap-Map-R5-languages-for-R4.html" : "Cross-version ConceptMap for ValueSet R5-languages-for-R4 from FHIR R5 to FHIR R4",
+      "ValueSet-R5-languages-for-R4.html" : "Cross-version ValueSet R5.CommonLanguages for use in FHIR R4"
     }
   ]
 }

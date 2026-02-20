@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="R5-AuditEvent-element-map-to-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap R5-AuditEvent-element-map-to-R4</b></p><a name="R5-AuditEvent-element-map-to-R4"> </a><a name="hcR5-AuditEvent-element-map-to-R4"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AuditEvent|5.0.0</code> to <a href="http://hl7.org/fhir/R4/auditevent.html">AuditEventversion: 4.0.1)</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AuditEvent.meta (meta)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.meta` has is mapped to FHIR R4 element `AuditEvent.meta`, but has no comparisons.</td></tr><tr><td>AuditEvent.implicitRules (implicitRules)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.implicitRules` has is mapped to FHIR R4 element `AuditEvent.implicitRules`, but has no comparisons.</td></tr><tr><td>AuditEvent.language (language)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.language` has is mapped to FHIR R4 element `AuditEvent.language`, but has no comparisons.</td></tr><tr><td>AuditEvent.text (text)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.text` has is mapped to FHIR R4 element `AuditEvent.text`, but has no comparisons.</td></tr><tr><td>AuditEvent.contained (contained)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.contained` has is mapped to FHIR R4 element `AuditEvent.contained`, but has no comparisons.</td></tr><tr><td>AuditEvent.category (category)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.category` has is mapped to FHIR R4 element `AuditEvent.type`, but has no comparisons.</td></tr><tr><td>AuditEvent.code (code)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto" title="relatedto">is related to</a></td><td/><td>Element `AuditEvent.code` has is mapped to FHIR R4 element `AuditEvent.subtype`, but has no comparisons.</td></tr><tr><td>AuditEvent.action (action)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.action` has is mapped to FHIR R4 element `AuditEvent.action`, but has no comparisons.</td></tr><tr><td>AuditEvent.occurred[x] (occurred[x])</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.occurred[x]` has is mapped to FHIR R4 element `AuditEvent.period`, but has no comparisons.</td></tr><tr><td>AuditEvent.recorded (recorded)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.recorded` has is mapped to FHIR R4 element `AuditEvent.recorded`, but has no comparisons.</td></tr><tr><td>AuditEvent.outcome (outcome)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.outcome` has is mapped to FHIR R4 element `AuditEvent.outcome`, but has no comparisons.</td></tr><tr><td>AuditEvent.authorization (authorization)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.authorization` has is mapped to FHIR R4 element `AuditEvent.purposeOfEvent`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent (agent)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.agent` has is mapped to FHIR R4 element `AuditEvent.agent`, but has no comparisons.
+Note available implied context: `AuditEvent.entity.agent` because `AuditEvent.entity.agent` is defined as a content reference to `AuditEvent.agent`.</td></tr><tr><td>AuditEvent.agent.type (type)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.agent.type` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.type` has is mapped to FHIR R4 element `AuditEvent.agent.type`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.role (role)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.agent.role` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.role` has is mapped to FHIR R4 element `AuditEvent.agent.role`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.who (who)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AuditEvent.agent.who` has is mapped to FHIR R4 element `AuditEvent.agent.who`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.requestor (requestor)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.agent.requestor` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.requestor` has is mapped to FHIR R4 element `AuditEvent.agent.requestor`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.location (location)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.agent.location` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.location` has is mapped to FHIR R4 element `AuditEvent.agent.location`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.policy (policy)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.agent.policy` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.policy` has is mapped to FHIR R4 element `AuditEvent.agent.policy`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.network[x] (network[x])</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.agent.network[x]` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.network[x]` has is mapped to FHIR R4 element `AuditEvent.agent.network`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.authorization (authorization)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.agent.authorization` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.authorization` has is mapped to FHIR R4 element `AuditEvent.agent.purposeOfUse`, but has no comparisons.</td></tr><tr><td>AuditEvent.source (source)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.source` has is mapped to FHIR R4 element `AuditEvent.source`, but has no comparisons.</td></tr><tr><td>AuditEvent.source.site (site)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.source.site` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AuditEvent.source.site` has is mapped to FHIR R4 element `AuditEvent.source.site`, but has no comparisons.</td></tr><tr><td>AuditEvent.source.observer (observer)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.source.observer` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.observer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AuditEvent.source.observer` has is mapped to FHIR R4 element `AuditEvent.source.observer`, but has no comparisons.</td></tr><tr><td>AuditEvent.source.type (type)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.source.type` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.
+Element `AuditEvent.source.type` has is mapped to FHIR R4 element `AuditEvent.source.type`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity (entity)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.entity` has is mapped to FHIR R4 element `AuditEvent.entity`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.what (what)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.entity.what` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.what` has is mapped to FHIR R4 element `AuditEvent.entity.what`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.role (role)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.entity.role` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.role` has is mapped to FHIR R4 element `AuditEvent.entity.role`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.securityLabel (securityLabel)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.entity.securityLabel` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.securityLabel` has is mapped to FHIR R4 element `AuditEvent.entity.securityLabel`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.query (query)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td/><td>Element `AuditEvent.entity.query` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.query` has is mapped to FHIR R4 element `AuditEvent.entity.query`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.detail (detail)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.entity.detail` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.detail` has is mapped to FHIR R4 element `AuditEvent.entity.detail`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.detail.type (type)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.entity.detail.type` is part of an existing definition because parent element `AuditEvent.entity.detail` requires a cross-version extension.
+Element `AuditEvent.entity.detail.type` has is mapped to FHIR R4 element `AuditEvent.entity.detail.type`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.detail.value[x] (value[x])</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td/><td>Element `AuditEvent.entity.detail.value[x]` is part of an existing definition because parent element `AuditEvent.entity.detail` requires a cross-version extension.
+Note that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`.
+Element `AuditEvent.entity.detail.value[x]` has is mapped to FHIR R4 element `AuditEvent.entity.detail.value[x]`, but has no comparisons.
+Note that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AuditEvent|5.0.0</code> to <a href="index.html">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AuditEvent.category (category)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.category</td><td>Element `AuditEvent.category` has is mapped to FHIR R4 element `AuditEvent.type`, but has no comparisons.</td></tr><tr><td>AuditEvent.code (code)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.code</td><td>Element `AuditEvent.code` has is mapped to FHIR R4 element `AuditEvent.subtype`, but has no comparisons.</td></tr><tr><td>AuditEvent.severity (severity)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.severity</td><td>Element `AuditEvent.severity` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.</td></tr><tr><td>AuditEvent.occurred[x] (occurred[x])</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.occurred</td><td>Element `AuditEvent.occurred[x]` has is mapped to FHIR R4 element `AuditEvent.period`, but has no comparisons.</td></tr><tr><td>AuditEvent.outcome (outcome)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome</td><td>Element `AuditEvent.outcome` has is mapped to FHIR R4 element `AuditEvent.outcome`, but has no comparisons.</td></tr><tr><td>AuditEvent.outcome.code (code)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome.code</td><td>Element `AuditEvent.outcome.code` is part of an existing definition because parent element `AuditEvent.outcome` requires a cross-version extension.
+Element `AuditEvent.outcome.code` has a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`.</td></tr><tr><td>AuditEvent.outcome.detail (detail)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome.detail</td><td>Element `AuditEvent.outcome.detail` is part of an existing definition because parent element `AuditEvent.outcome` requires a cross-version extension.
+Element `AuditEvent.outcome.detail` has a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`.</td></tr><tr><td>AuditEvent.agent (agent)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent</td><td>Element `AuditEvent.agent` has is mapped to FHIR R4 element `AuditEvent.agent`, but has no comparisons.
+Note available implied context: `AuditEvent.entity.agent` because `AuditEvent.entity.agent` is defined as a content reference to `AuditEvent.agent`.</td></tr><tr><td>AuditEvent.agent.type (type)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.type</td><td>Element `AuditEvent.agent.type` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.type` has is mapped to FHIR R4 element `AuditEvent.agent.type`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.role (role)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.role</td><td>Element `AuditEvent.agent.role` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.role` has is mapped to FHIR R4 element `AuditEvent.agent.role`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.requestor (requestor)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.requestor</td><td>Element `AuditEvent.agent.requestor` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.requestor` has is mapped to FHIR R4 element `AuditEvent.agent.requestor`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.location (location)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.location</td><td>Element `AuditEvent.agent.location` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.location` has is mapped to FHIR R4 element `AuditEvent.agent.location`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.policy (policy)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.policy</td><td>Element `AuditEvent.agent.policy` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.policy` has is mapped to FHIR R4 element `AuditEvent.agent.policy`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.network[x] (network[x])</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.network</td><td>Element `AuditEvent.agent.network[x]` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.network[x]` has is mapped to FHIR R4 element `AuditEvent.agent.network`, but has no comparisons.</td></tr><tr><td>AuditEvent.agent.authorization (authorization)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.authorization</td><td>Element `AuditEvent.agent.authorization` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Element `AuditEvent.agent.authorization` has is mapped to FHIR R4 element `AuditEvent.agent.purposeOfUse`, but has no comparisons.</td></tr><tr><td>AuditEvent.source (source)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source</td><td>Element `AuditEvent.source` has is mapped to FHIR R4 element `AuditEvent.source`, but has no comparisons.</td></tr><tr><td>AuditEvent.source.type (type)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source.type</td><td>Element `AuditEvent.source.type` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.
+Element `AuditEvent.source.type` has is mapped to FHIR R4 element `AuditEvent.source.type`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity (entity)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity</td><td>Element `AuditEvent.entity` has is mapped to FHIR R4 element `AuditEvent.entity`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.what (what)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.what</td><td>Element `AuditEvent.entity.what` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.what` has is mapped to FHIR R4 element `AuditEvent.entity.what`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.role (role)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.role</td><td>Element `AuditEvent.entity.role` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.role` has is mapped to FHIR R4 element `AuditEvent.entity.role`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.securityLabel (securityLabel)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.securityLabel</td><td>Element `AuditEvent.entity.securityLabel` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.securityLabel` has is mapped to FHIR R4 element `AuditEvent.entity.securityLabel`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.query (query)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.query</td><td>Element `AuditEvent.entity.query` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.query` has is mapped to FHIR R4 element `AuditEvent.entity.query`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.detail (detail)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.detail</td><td>Element `AuditEvent.entity.detail` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.detail` has is mapped to FHIR R4 element `AuditEvent.entity.detail`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.detail.type (type)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.detail.type</td><td>Element `AuditEvent.entity.detail.type` is part of an existing definition because parent element `AuditEvent.entity.detail` requires a cross-version extension.
+Element `AuditEvent.entity.detail.type` has is mapped to FHIR R4 element `AuditEvent.entity.detail.type`, but has no comparisons.</td></tr><tr><td>AuditEvent.entity.detail.value[x] (value[x])</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.detail.value</td><td>Element `AuditEvent.entity.detail.value[x]` is part of an existing definition because parent element `AuditEvent.entity.detail` requires a cross-version extension.
+Note that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`.
+Element `AuditEvent.entity.detail.value[x]` has is mapped to FHIR R4 element `AuditEvent.entity.detail.value[x]`, but has no comparisons.
+Note that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`.</td></tr><tr><td>AuditEvent.entity.agent (agent)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent</td><td>Element `AuditEvent.entity.agent` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.
+Element `AuditEvent.entity.agent` has a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AuditEvent|5.0.0</code> to <a href="http://hl7.org/fhir/extensions/5.2.0/index.html">FHIR Extensions Pack</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AuditEvent.basedOn (basedOn)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AuditEvent.basedOn` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.</td></tr><tr><td>AuditEvent.patient (patient)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AuditEvent.patient` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.</td></tr><tr><td>AuditEvent.encounter (encounter)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider" title="wider">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AuditEvent.encounter` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.</td></tr><tr><td>AuditEvent.agent.who (who)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AuditEvent.agent.who` has is mapped to FHIR R4 element `AuditEvent.agent.who`, but has no comparisons.</td></tr><tr><td>AuditEvent.source.site (site)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `AuditEvent.source.site` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AuditEvent.source.site` has is mapped to FHIR R4 element `AuditEvent.source.site`, but has no comparisons.</td></tr><tr><td>AuditEvent.source.observer (observer)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `AuditEvent.source.observer` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.
+Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.observer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
+Element `AuditEvent.source.observer` has is mapped to FHIR R4 element `AuditEvent.source.observer`, but has no comparisons.</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-AuditEvent-element-map-to-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="R5AuditEventElementMapToR4"/>
+  <title value="Cross-version mapping for FHIR R5 AuditEvent to FHIR R4 AuditEvent"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-20T11:59:22.160423-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents cross-version mappings for elements from a FHIR R5 AuditEvent to FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceCanonical value="http://hl7.org/fhir/5.0"/>
+  <targetUri value="http://hl7.org/fhir/4.0"/>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/AuditEvent"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/StructureDefinition/AuditEvent"/>
+    <targetVersion value="4.0.1"/>
+    <element>
+      <code value="AuditEvent.meta"/>
+      <display value="meta"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.meta` has is mapped to FHIR R4 element `AuditEvent.meta`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.implicitRules"/>
+      <display value="implicitRules"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.implicitRules` has is mapped to FHIR R4 element `AuditEvent.implicitRules`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.language"/>
+      <display value="language"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.language` has is mapped to FHIR R4 element `AuditEvent.language`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.text"/>
+      <display value="text"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.text` has is mapped to FHIR R4 element `AuditEvent.text`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.contained"/>
+      <display value="contained"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.contained` has is mapped to FHIR R4 element `AuditEvent.contained`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.category"/>
+      <display value="category"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.category` has is mapped to FHIR R4 element `AuditEvent.type`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.code"/>
+      <display value="code"/>
+      <target>
+        <equivalence value="relatedto"/>
+        <comment value="Element `AuditEvent.code` has is mapped to FHIR R4 element `AuditEvent.subtype`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.action"/>
+      <display value="action"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.action` has is mapped to FHIR R4 element `AuditEvent.action`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.occurred[x]"/>
+      <display value="occurred[x]"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.occurred[x]` has is mapped to FHIR R4 element `AuditEvent.period`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.recorded"/>
+      <display value="recorded"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.recorded` has is mapped to FHIR R4 element `AuditEvent.recorded`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.outcome"/>
+      <display value="outcome"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.outcome` has is mapped to FHIR R4 element `AuditEvent.outcome`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.authorization"/>
+      <display value="authorization"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.authorization` has is mapped to FHIR R4 element `AuditEvent.purposeOfEvent`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent"/>
+      <display value="agent"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.agent` has is mapped to FHIR R4 element `AuditEvent.agent`, but has no comparisons.&#xA;Note available implied context: `AuditEvent.entity.agent` because `AuditEvent.entity.agent` is defined as a content reference to `AuditEvent.agent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.type"/>
+      <display value="type"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.type` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.type` has is mapped to FHIR R4 element `AuditEvent.agent.type`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.role"/>
+      <display value="role"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.role` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.role` has is mapped to FHIR R4 element `AuditEvent.agent.role`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.who"/>
+      <display value="who"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.agent.who` has is mapped to FHIR R4 element `AuditEvent.agent.who`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.requestor"/>
+      <display value="requestor"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.requestor` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.requestor` has is mapped to FHIR R4 element `AuditEvent.agent.requestor`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.location"/>
+      <display value="location"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.location` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.location` has is mapped to FHIR R4 element `AuditEvent.agent.location`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.policy"/>
+      <display value="policy"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.policy` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.policy` has is mapped to FHIR R4 element `AuditEvent.agent.policy`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.network[x]"/>
+      <display value="network[x]"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.network[x]` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.network[x]` has is mapped to FHIR R4 element `AuditEvent.agent.network`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.authorization"/>
+      <display value="authorization"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.authorization` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.authorization` has is mapped to FHIR R4 element `AuditEvent.agent.purposeOfUse`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.source"/>
+      <display value="source"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.source` has is mapped to FHIR R4 element `AuditEvent.source`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.source.site"/>
+      <display value="site"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.source.site` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.source.site` has is mapped to FHIR R4 element `AuditEvent.source.site`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.source.observer"/>
+      <display value="observer"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.source.observer` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.observer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.source.observer` has is mapped to FHIR R4 element `AuditEvent.source.observer`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.source.type"/>
+      <display value="type"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.source.type` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.&#xA;Element `AuditEvent.source.type` has is mapped to FHIR R4 element `AuditEvent.source.type`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity"/>
+      <display value="entity"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.entity` has is mapped to FHIR R4 element `AuditEvent.entity`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.what"/>
+      <display value="what"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.entity.what` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.what` has is mapped to FHIR R4 element `AuditEvent.entity.what`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.role"/>
+      <display value="role"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.entity.role` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.role` has is mapped to FHIR R4 element `AuditEvent.entity.role`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.securityLabel"/>
+      <display value="securityLabel"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.entity.securityLabel` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.securityLabel` has is mapped to FHIR R4 element `AuditEvent.entity.securityLabel`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.query"/>
+      <display value="query"/>
+      <target>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.entity.query` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.query` has is mapped to FHIR R4 element `AuditEvent.entity.query`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.detail"/>
+      <display value="detail"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.entity.detail` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.detail` has is mapped to FHIR R4 element `AuditEvent.entity.detail`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.detail.type"/>
+      <display value="type"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.entity.detail.type` is part of an existing definition because parent element `AuditEvent.entity.detail` requires a cross-version extension.&#xA;Element `AuditEvent.entity.detail.type` has is mapped to FHIR R4 element `AuditEvent.entity.detail.type`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.detail.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.entity.detail.value[x]` is part of an existing definition because parent element `AuditEvent.entity.detail` requires a cross-version extension.&#xA;Note that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`.&#xA;Element `AuditEvent.entity.detail.value[x]` has is mapped to FHIR R4 element `AuditEvent.entity.detail.value[x]`, but has no comparisons.&#xA;Note that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/AuditEvent"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+    <element>
+      <code value="AuditEvent.category"/>
+      <display value="category"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.category"/>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.category` has is mapped to FHIR R4 element `AuditEvent.type`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.code` has is mapped to FHIR R4 element `AuditEvent.subtype`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.severity"/>
+      <display value="severity"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.severity"/>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.severity` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.occurred[x]"/>
+      <display value="occurred[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.occurred"/>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.occurred[x]` has is mapped to FHIR R4 element `AuditEvent.period`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.outcome"/>
+      <display value="outcome"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.outcome` has is mapped to FHIR R4 element `AuditEvent.outcome`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.outcome.code"/>
+      <display value="code"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome.code"/>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.outcome.code` is part of an existing definition because parent element `AuditEvent.outcome` requires a cross-version extension.&#xA;Element `AuditEvent.outcome.code` has a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.outcome.detail"/>
+      <display value="detail"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome.detail"/>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.outcome.detail` is part of an existing definition because parent element `AuditEvent.outcome` requires a cross-version extension.&#xA;Element `AuditEvent.outcome.detail` has a context of AuditEvent.outcome based on following the parent source element upwards and mapping to `AuditEvent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent"/>
+      <display value="agent"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent` has is mapped to FHIR R4 element `AuditEvent.agent`, but has no comparisons.&#xA;Note available implied context: `AuditEvent.entity.agent` because `AuditEvent.entity.agent` is defined as a content reference to `AuditEvent.agent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.type` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.type` has is mapped to FHIR R4 element `AuditEvent.agent.type`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.role"/>
+      <display value="role"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.role"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.role` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.role` has is mapped to FHIR R4 element `AuditEvent.agent.role`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.requestor"/>
+      <display value="requestor"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.requestor"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.requestor` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.requestor` has is mapped to FHIR R4 element `AuditEvent.agent.requestor`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.location"/>
+      <display value="location"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.location"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.location` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.location` has is mapped to FHIR R4 element `AuditEvent.agent.location`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.policy"/>
+      <display value="policy"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.policy"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.policy` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.policy` has is mapped to FHIR R4 element `AuditEvent.agent.policy`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.network[x]"/>
+      <display value="network[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.network"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.network[x]` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.network[x]` has is mapped to FHIR R4 element `AuditEvent.agent.network`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.authorization"/>
+      <display value="authorization"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent.authorization"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.authorization` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Element `AuditEvent.agent.authorization` has is mapped to FHIR R4 element `AuditEvent.agent.purposeOfUse`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.source"/>
+      <display value="source"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.source` has is mapped to FHIR R4 element `AuditEvent.source`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.source.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.source.type` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.&#xA;Element `AuditEvent.source.type` has is mapped to FHIR R4 element `AuditEvent.source.type`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity"/>
+      <display value="entity"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.entity` has is mapped to FHIR R4 element `AuditEvent.entity`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.what"/>
+      <display value="what"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.what"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.entity.what` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.what` has is mapped to FHIR R4 element `AuditEvent.entity.what`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.role"/>
+      <display value="role"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.role"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.entity.role` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.role` has is mapped to FHIR R4 element `AuditEvent.entity.role`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.securityLabel"/>
+      <display value="securityLabel"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.securityLabel"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.entity.securityLabel` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.securityLabel` has is mapped to FHIR R4 element `AuditEvent.entity.securityLabel`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.query"/>
+      <display value="query"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.query"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.entity.query` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.query` has is mapped to FHIR R4 element `AuditEvent.entity.query`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.detail"/>
+      <display value="detail"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.detail"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.entity.detail` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.detail` has is mapped to FHIR R4 element `AuditEvent.entity.detail`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.detail.type"/>
+      <display value="type"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.detail.type"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.entity.detail.type` is part of an existing definition because parent element `AuditEvent.entity.detail` requires a cross-version extension.&#xA;Element `AuditEvent.entity.detail.type` has is mapped to FHIR R4 element `AuditEvent.entity.detail.type`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.detail.value[x]"/>
+      <display value="value[x]"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity.detail.value"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.entity.detail.value[x]` is part of an existing definition because parent element `AuditEvent.entity.detail` requires a cross-version extension.&#xA;Note that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`.&#xA;Element `AuditEvent.entity.detail.value[x]` has is mapped to FHIR R4 element `AuditEvent.entity.detail.value[x]`, but has no comparisons.&#xA;Note that the target element context `AuditEvent.entity.detail.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `AuditEvent.entity.detail`."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.entity.agent"/>
+      <display value="agent"/>
+      <target>
+        <code value="http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent"/>
+        <equivalence value="wider"/>
+        <comment value="Element `AuditEvent.entity.agent` is part of an existing definition because parent element `AuditEvent.entity` requires a cross-version extension.&#xA;Element `AuditEvent.entity.agent` has a context of AuditEvent.entity based on following the parent source element upwards and mapping to `AuditEvent`."/>
+      </target>
+    </element>
+  </group>
+  <group>
+    <source value="http://hl7.org/fhir/StructureDefinition/AuditEvent"/>
+    <sourceVersion value="5.0.0"/>
+    <target value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <element>
+      <code value="AuditEvent.basedOn"/>
+      <display value="basedOn"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.basedOn` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.patient"/>
+      <display value="patient"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.patient` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.encounter"/>
+      <display value="encounter"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="wider"/>
+        <comment value="Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.encounter` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.agent.who"/>
+      <display value="who"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.agent.who` is part of an existing definition because parent element `AuditEvent.agent` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.agent.who` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.agent.who` has is mapped to FHIR R4 element `AuditEvent.agent.who`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.source.site"/>
+      <display value="site"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.source.site` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.site` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.source.site` has is mapped to FHIR R4 element `AuditEvent.source.site`, but has no comparisons."/>
+      </target>
+    </element>
+    <element>
+      <code value="AuditEvent.source.observer"/>
+      <display value="observer"/>
+      <target>
+        <code value="http://hl7.org/fhir/StructureDefinition/alternate-reference"/>
+        <equivalence value="equivalent"/>
+        <comment value="Element `AuditEvent.source.observer` is part of an existing definition because parent element `AuditEvent.source` requires a cross-version extension.&#xA;Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.source.observer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.&#xA;Element `AuditEvent.source.observer` has is mapped to FHIR R4 element `AuditEvent.source.observer`, but has no comparisons."/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

@@ -1,0 +1,751 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-unit-of-presentation-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-unit-of-presentation-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-unit-of-presentation-for-R4</b></p><a name=\"R5-unit-of-presentation-for-R4\"> </a><a name=\"hcR5-unit-of-presentation-for-R4\"> </a><p>This value set expansion contains 56 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002108\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002108</td><td>Barrel</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002109\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002109</td><td>Blister</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002110\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002110</td><td>Block</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002111\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002111</td><td>Bottle</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002112\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002112</td><td>Cachet</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002113\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002113</td><td>Capsule</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002114\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002114</td><td>Cartridge</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002115\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002115</td><td>Collar</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002116\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002116</td><td>Container</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002117\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002117</td><td>Cup</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002118\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002118</td><td>Cylinder</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002119\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002119</td><td>Dart</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002120\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002120</td><td>Dressing</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002121\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002121</td><td>Drop</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002122\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002122</td><td>Film</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002123\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002123</td><td>Chewing gum</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002124\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002124</td><td>Implant</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002125\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002125</td><td>Inhaler</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002126\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002126</td><td>Insert</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002127\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002127</td><td>Jar</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002128\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002128</td><td>Lozenge</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002129\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002129</td><td>Lyophilisate</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002130\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002130</td><td>Matrix</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002131\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002131</td><td>Pad</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002132\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002132</td><td>Paper</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002133\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002133</td><td>Pastille</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002134\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002134</td><td>Patch</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002135\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002135</td><td>Pen</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002136\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002136</td><td>Pendant</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002137\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002137</td><td>Pessary</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002138\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002138</td><td>Pillule</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002139\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002139</td><td>Pipette</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002140\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002140</td><td>Plaster</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002141\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002141</td><td>Plug</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002142\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002142</td><td>Pouch</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002143\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002143</td><td>Sachet</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002144\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002144</td><td>Sponge</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002145\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002145</td><td>Spoonful</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002146\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002146</td><td>Stick</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002147\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002147</td><td>Straw</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002148\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002148</td><td>Strip</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002149\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002149</td><td>Suppository</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002150\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002150</td><td>Syringe</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002151\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002151</td><td>System</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002152\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002152</td><td>Tablet</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002153\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002153</td><td>Tag</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002154\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002154</td><td>Tampon</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002155\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002155</td><td>Thread</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002156\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002156</td><td>Tube</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002157\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002157</td><td>Vessel</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002158\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002158</td><td>Vial</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002159\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002159</td><td>Puff</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002163\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002163</td><td>Actuation</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002164\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002164</td><td>Ampoule</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002165\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002165</td><td>Applicator</td></tr><tr><td><a name=\"R5-unit-of-presentation-for-R4-http://hl7.org/fhir/unit-of-presentation-200000002166\"> </a><code>http://hl7.org/fhir/unit-of-presentation</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000002166</td><td>Bag</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-unit-of-presentation-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-unit-of-presentation-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5UnitOfPresentationForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.UnitOfPresentation for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/unit-of-presentation|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/unit-of-presentation|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `AdministrableProductDefinition.unitOfPresentation` as Example\n* `ManufacturedItemDefinition.unitOfPresentation` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/unit-of-presentation|5.0.0`\n* `http://hl7.org/fhir/ValueSet/unit-of-presentation|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (56)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "200000002108" ] ;
+         fhir:display [ fhir:v "Barrel" ]
+       ] [
+         fhir:code [ fhir:v "200000002109" ] ;
+         fhir:display [ fhir:v "Blister" ]
+       ] [
+         fhir:code [ fhir:v "200000002110" ] ;
+         fhir:display [ fhir:v "Block" ]
+       ] [
+         fhir:code [ fhir:v "200000002111" ] ;
+         fhir:display [ fhir:v "Bottle" ]
+       ] [
+         fhir:code [ fhir:v "200000002112" ] ;
+         fhir:display [ fhir:v "Cachet" ]
+       ] [
+         fhir:code [ fhir:v "200000002113" ] ;
+         fhir:display [ fhir:v "Capsule" ]
+       ] [
+         fhir:code [ fhir:v "200000002114" ] ;
+         fhir:display [ fhir:v "Cartridge" ]
+       ] [
+         fhir:code [ fhir:v "200000002115" ] ;
+         fhir:display [ fhir:v "Collar" ]
+       ] [
+         fhir:code [ fhir:v "200000002116" ] ;
+         fhir:display [ fhir:v "Container" ]
+       ] [
+         fhir:code [ fhir:v "200000002117" ] ;
+         fhir:display [ fhir:v "Cup" ]
+       ] [
+         fhir:code [ fhir:v "200000002118" ] ;
+         fhir:display [ fhir:v "Cylinder" ]
+       ] [
+         fhir:code [ fhir:v "200000002119" ] ;
+         fhir:display [ fhir:v "Dart" ]
+       ] [
+         fhir:code [ fhir:v "200000002120" ] ;
+         fhir:display [ fhir:v "Dressing" ]
+       ] [
+         fhir:code [ fhir:v "200000002121" ] ;
+         fhir:display [ fhir:v "Drop" ]
+       ] [
+         fhir:code [ fhir:v "200000002122" ] ;
+         fhir:display [ fhir:v "Film" ]
+       ] [
+         fhir:code [ fhir:v "200000002123" ] ;
+         fhir:display [ fhir:v "Chewing gum" ]
+       ] [
+         fhir:code [ fhir:v "200000002124" ] ;
+         fhir:display [ fhir:v "Implant" ]
+       ] [
+         fhir:code [ fhir:v "200000002125" ] ;
+         fhir:display [ fhir:v "Inhaler" ]
+       ] [
+         fhir:code [ fhir:v "200000002126" ] ;
+         fhir:display [ fhir:v "Insert" ]
+       ] [
+         fhir:code [ fhir:v "200000002127" ] ;
+         fhir:display [ fhir:v "Jar" ]
+       ] [
+         fhir:code [ fhir:v "200000002128" ] ;
+         fhir:display [ fhir:v "Lozenge" ]
+       ] [
+         fhir:code [ fhir:v "200000002129" ] ;
+         fhir:display [ fhir:v "Lyophilisate" ]
+       ] [
+         fhir:code [ fhir:v "200000002130" ] ;
+         fhir:display [ fhir:v "Matrix" ]
+       ] [
+         fhir:code [ fhir:v "200000002131" ] ;
+         fhir:display [ fhir:v "Pad" ]
+       ] [
+         fhir:code [ fhir:v "200000002132" ] ;
+         fhir:display [ fhir:v "Paper" ]
+       ] [
+         fhir:code [ fhir:v "200000002133" ] ;
+         fhir:display [ fhir:v "Pastille" ]
+       ] [
+         fhir:code [ fhir:v "200000002134" ] ;
+         fhir:display [ fhir:v "Patch" ]
+       ] [
+         fhir:code [ fhir:v "200000002135" ] ;
+         fhir:display [ fhir:v "Pen" ]
+       ] [
+         fhir:code [ fhir:v "200000002136" ] ;
+         fhir:display [ fhir:v "Pendant" ]
+       ] [
+         fhir:code [ fhir:v "200000002137" ] ;
+         fhir:display [ fhir:v "Pessary" ]
+       ] [
+         fhir:code [ fhir:v "200000002138" ] ;
+         fhir:display [ fhir:v "Pillule" ]
+       ] [
+         fhir:code [ fhir:v "200000002139" ] ;
+         fhir:display [ fhir:v "Pipette" ]
+       ] [
+         fhir:code [ fhir:v "200000002140" ] ;
+         fhir:display [ fhir:v "Plaster" ]
+       ] [
+         fhir:code [ fhir:v "200000002141" ] ;
+         fhir:display [ fhir:v "Plug" ]
+       ] [
+         fhir:code [ fhir:v "200000002142" ] ;
+         fhir:display [ fhir:v "Pouch" ]
+       ] [
+         fhir:code [ fhir:v "200000002143" ] ;
+         fhir:display [ fhir:v "Sachet" ]
+       ] [
+         fhir:code [ fhir:v "200000002144" ] ;
+         fhir:display [ fhir:v "Sponge" ]
+       ] [
+         fhir:code [ fhir:v "200000002145" ] ;
+         fhir:display [ fhir:v "Spoonful" ]
+       ] [
+         fhir:code [ fhir:v "200000002146" ] ;
+         fhir:display [ fhir:v "Stick" ]
+       ] [
+         fhir:code [ fhir:v "200000002147" ] ;
+         fhir:display [ fhir:v "Straw" ]
+       ] [
+         fhir:code [ fhir:v "200000002148" ] ;
+         fhir:display [ fhir:v "Strip" ]
+       ] [
+         fhir:code [ fhir:v "200000002149" ] ;
+         fhir:display [ fhir:v "Suppository" ]
+       ] [
+         fhir:code [ fhir:v "200000002150" ] ;
+         fhir:display [ fhir:v "Syringe" ]
+       ] [
+         fhir:code [ fhir:v "200000002151" ] ;
+         fhir:display [ fhir:v "System" ]
+       ] [
+         fhir:code [ fhir:v "200000002152" ] ;
+         fhir:display [ fhir:v "Tablet" ]
+       ] [
+         fhir:code [ fhir:v "200000002153" ] ;
+         fhir:display [ fhir:v "Tag" ]
+       ] [
+         fhir:code [ fhir:v "200000002154" ] ;
+         fhir:display [ fhir:v "Tampon" ]
+       ] [
+         fhir:code [ fhir:v "200000002155" ] ;
+         fhir:display [ fhir:v "Thread" ]
+       ] [
+         fhir:code [ fhir:v "200000002156" ] ;
+         fhir:display [ fhir:v "Tube" ]
+       ] [
+         fhir:code [ fhir:v "200000002157" ] ;
+         fhir:display [ fhir:v "Vessel" ]
+       ] [
+         fhir:code [ fhir:v "200000002158" ] ;
+         fhir:display [ fhir:v "Vial" ]
+       ] [
+         fhir:code [ fhir:v "200000002159" ] ;
+         fhir:display [ fhir:v "Puff" ]
+       ] [
+         fhir:code [ fhir:v "200000002163" ] ;
+         fhir:display [ fhir:v "Actuation" ]
+       ] [
+         fhir:code [ fhir:v "200000002164" ] ;
+         fhir:display [ fhir:v "Ampoule" ]
+       ] [
+         fhir:code [ fhir:v "200000002165" ] ;
+         fhir:display [ fhir:v "Applicator" ]
+       ] [
+         fhir:code [ fhir:v "200000002166" ] ;
+         fhir:display [ fhir:v "Bag" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002108" ] ;
+       fhir:display [ fhir:v "Barrel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002109" ] ;
+       fhir:display [ fhir:v "Blister" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002110" ] ;
+       fhir:display [ fhir:v "Block" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002111" ] ;
+       fhir:display [ fhir:v "Bottle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002112" ] ;
+       fhir:display [ fhir:v "Cachet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002113" ] ;
+       fhir:display [ fhir:v "Capsule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002114" ] ;
+       fhir:display [ fhir:v "Cartridge" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002115" ] ;
+       fhir:display [ fhir:v "Collar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002116" ] ;
+       fhir:display [ fhir:v "Container" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002117" ] ;
+       fhir:display [ fhir:v "Cup" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002118" ] ;
+       fhir:display [ fhir:v "Cylinder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002119" ] ;
+       fhir:display [ fhir:v "Dart" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002120" ] ;
+       fhir:display [ fhir:v "Dressing" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002121" ] ;
+       fhir:display [ fhir:v "Drop" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002122" ] ;
+       fhir:display [ fhir:v "Film" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002123" ] ;
+       fhir:display [ fhir:v "Chewing gum" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002124" ] ;
+       fhir:display [ fhir:v "Implant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002125" ] ;
+       fhir:display [ fhir:v "Inhaler" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002126" ] ;
+       fhir:display [ fhir:v "Insert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002127" ] ;
+       fhir:display [ fhir:v "Jar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002128" ] ;
+       fhir:display [ fhir:v "Lozenge" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002129" ] ;
+       fhir:display [ fhir:v "Lyophilisate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002130" ] ;
+       fhir:display [ fhir:v "Matrix" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002131" ] ;
+       fhir:display [ fhir:v "Pad" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002132" ] ;
+       fhir:display [ fhir:v "Paper" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002133" ] ;
+       fhir:display [ fhir:v "Pastille" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002134" ] ;
+       fhir:display [ fhir:v "Patch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002135" ] ;
+       fhir:display [ fhir:v "Pen" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002136" ] ;
+       fhir:display [ fhir:v "Pendant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002137" ] ;
+       fhir:display [ fhir:v "Pessary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002138" ] ;
+       fhir:display [ fhir:v "Pillule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002139" ] ;
+       fhir:display [ fhir:v "Pipette" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002140" ] ;
+       fhir:display [ fhir:v "Plaster" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002141" ] ;
+       fhir:display [ fhir:v "Plug" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002142" ] ;
+       fhir:display [ fhir:v "Pouch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002143" ] ;
+       fhir:display [ fhir:v "Sachet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002144" ] ;
+       fhir:display [ fhir:v "Sponge" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002145" ] ;
+       fhir:display [ fhir:v "Spoonful" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002146" ] ;
+       fhir:display [ fhir:v "Stick" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002147" ] ;
+       fhir:display [ fhir:v "Straw" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002148" ] ;
+       fhir:display [ fhir:v "Strip" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002149" ] ;
+       fhir:display [ fhir:v "Suppository" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002150" ] ;
+       fhir:display [ fhir:v "Syringe" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002151" ] ;
+       fhir:display [ fhir:v "System" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002152" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002153" ] ;
+       fhir:display [ fhir:v "Tag" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002154" ] ;
+       fhir:display [ fhir:v "Tampon" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002155" ] ;
+       fhir:display [ fhir:v "Thread" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002156" ] ;
+       fhir:display [ fhir:v "Tube" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002157" ] ;
+       fhir:display [ fhir:v "Vessel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002158" ] ;
+       fhir:display [ fhir:v "Vial" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002159" ] ;
+       fhir:display [ fhir:v "Puff" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002163" ] ;
+       fhir:display [ fhir:v "Actuation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002164" ] ;
+       fhir:display [ fhir:v "Ampoule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002165" ] ;
+       fhir:display [ fhir:v "Applicator" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/unit-of-presentation"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/unit-of-presentation>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000002166" ] ;
+       fhir:display [ fhir:v "Bag" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

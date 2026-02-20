@@ -1,0 +1,567 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-CoverageEligibilityRequest-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-CoverageEligibilityRequest-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-CoverageEligibilityRequest-element-map-to-R4</b></p><a name=\"R5-CoverageEligibilityRequest-element-map-to-R4\"> </a><a name=\"hcR5-CoverageEligibilityRequest-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/coverageeligibilityrequest.html\">CoverageEligibilityRequestversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CoverageEligibilityRequest.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.meta` has is mapped to FHIR R4 element `CoverageEligibilityRequest.meta`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.implicitRules` has is mapped to FHIR R4 element `CoverageEligibilityRequest.implicitRules`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.language` has is mapped to FHIR R4 element `CoverageEligibilityRequest.language`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.text` has is mapped to FHIR R4 element `CoverageEligibilityRequest.text`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.contained` has is mapped to FHIR R4 element `CoverageEligibilityRequest.contained`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.identifier` has is mapped to FHIR R4 element `CoverageEligibilityRequest.identifier`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.status` has is mapped to FHIR R4 element `CoverageEligibilityRequest.status`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.priority (priority)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.priority` has is mapped to FHIR R4 element `CoverageEligibilityRequest.priority`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.purpose (purpose)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.purpose` has is mapped to FHIR R4 element `CoverageEligibilityRequest.purpose`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.patient (patient)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.patient` has is mapped to FHIR R4 element `CoverageEligibilityRequest.patient`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.serviced[x] (serviced[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `CoverageEligibilityRequest.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest`.\nElement `CoverageEligibilityRequest.serviced[x]` has is mapped to FHIR R4 element `CoverageEligibilityRequest.serviced[x]`, but has no comparisons.\nNote that the target element context `CoverageEligibilityRequest.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest`.</td></tr><tr><td>CoverageEligibilityRequest.created (created)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.created` has is mapped to FHIR R4 element `CoverageEligibilityRequest.created`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.enterer (enterer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.enterer` has is mapped to FHIR R4 element `CoverageEligibilityRequest.enterer`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.provider (provider)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.provider` has is mapped to FHIR R4 element `CoverageEligibilityRequest.provider`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.insurer (insurer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.insurer` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurer`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.facility (facility)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.facility` has is mapped to FHIR R4 element `CoverageEligibilityRequest.facility`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.supportingInfo (supportingInfo)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CoverageEligibilityRequest.supportingInfo` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.supportingInfo.sequence (sequence)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.supportingInfo.sequence` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.sequence` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.sequence`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.supportingInfo.information (information)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.supportingInfo.information` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.information` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.information`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.supportingInfo.appliesToAll (appliesToAll)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.supportingInfo.appliesToAll` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.appliesToAll` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.appliesToAll`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.insurance (insurance)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CoverageEligibilityRequest.insurance` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.insurance.focal (focal)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.insurance.focal` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.focal` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.focal`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.insurance.coverage (coverage)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.insurance.coverage` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.coverage` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.coverage`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.insurance.businessArrangement (businessArrangement)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.insurance.businessArrangement` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.businessArrangement` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.businessArrangement`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CoverageEligibilityRequest.item` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.supportingInfoSequence (supportingInfoSequence)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.item.supportingInfoSequence` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.supportingInfoSequence` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.supportingInfoSequence`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.category (category)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.item.category` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.category` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.category`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.productOrService (productOrService)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.item.productOrService` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.productOrService` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.productOrService`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.modifier (modifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.item.modifier` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.modifier` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.modifier`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.provider (provider)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.item.provider` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.provider` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.provider`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.quantity (quantity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.item.quantity` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.quantity` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.quantity`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.unitPrice (unitPrice)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.item.unitPrice` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.unitPrice` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.unitPrice`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.facility (facility)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.item.facility` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.facility` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.facility`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.diagnosis (diagnosis)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `CoverageEligibilityRequest.item.diagnosis` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.diagnosis` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.diagnosis`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.diagnosis.diagnosis[x] (diagnosis[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is part of an existing definition because parent element `CoverageEligibilityRequest.item.diagnosis` requires a cross-version extension.\nNote that the target element context `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest.item.diagnosis`.\nElement `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]`, but has no comparisons.\nNote that the target element context `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest.item.diagnosis`.</td></tr><tr><td>CoverageEligibilityRequest.item.detail (detail)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `CoverageEligibilityRequest.item.detail` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.detail` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.detail`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CoverageEligibilityRequest.event (event)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.event</td><td>Element `CoverageEligibilityRequest.event` has a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.</td></tr><tr><td>CoverageEligibilityRequest.event.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.event.type</td><td>Element `CoverageEligibilityRequest.event.type` is part of an existing definition because parent element `CoverageEligibilityRequest.event` requires a cross-version extension.\nElement `CoverageEligibilityRequest.event.type` has a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.</td></tr><tr><td>CoverageEligibilityRequest.event.when[x] (when[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.event.when</td><td>Element `CoverageEligibilityRequest.event.when[x]` is part of an existing definition because parent element `CoverageEligibilityRequest.event` requires a cross-version extension.\nElement `CoverageEligibilityRequest.event.when[x]` has a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`.</td></tr><tr><td>CoverageEligibilityRequest.supportingInfo (supportingInfo)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.supportingInfo</td><td>Element `CoverageEligibilityRequest.supportingInfo` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.supportingInfo.sequence (sequence)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.supportingInfo.sequence</td><td>Element `CoverageEligibilityRequest.supportingInfo.sequence` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.sequence` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.sequence`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.supportingInfo.information (information)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.supportingInfo.information</td><td>Element `CoverageEligibilityRequest.supportingInfo.information` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.information` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.information`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.supportingInfo.appliesToAll (appliesToAll)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.supportingInfo.appliesToAll</td><td>Element `CoverageEligibilityRequest.supportingInfo.appliesToAll` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.appliesToAll` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.appliesToAll`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.insurance (insurance)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.insurance</td><td>Element `CoverageEligibilityRequest.insurance` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.insurance.focal (focal)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.insurance.focal</td><td>Element `CoverageEligibilityRequest.insurance.focal` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.focal` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.focal`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.insurance.coverage (coverage)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.insurance.coverage</td><td>Element `CoverageEligibilityRequest.insurance.coverage` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.coverage` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.coverage`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.insurance.businessArrangement (businessArrangement)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.insurance.businessArrangement</td><td>Element `CoverageEligibilityRequest.insurance.businessArrangement` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.businessArrangement` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.businessArrangement`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item</td><td>Element `CoverageEligibilityRequest.item` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.supportingInfoSequence (supportingInfoSequence)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.supportingInfoSequence</td><td>Element `CoverageEligibilityRequest.item.supportingInfoSequence` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.supportingInfoSequence` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.supportingInfoSequence`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.category (category)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.category</td><td>Element `CoverageEligibilityRequest.item.category` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.category` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.category`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.productOrService (productOrService)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.productOrService</td><td>Element `CoverageEligibilityRequest.item.productOrService` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.productOrService` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.productOrService`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.modifier (modifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.modifier</td><td>Element `CoverageEligibilityRequest.item.modifier` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.modifier` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.modifier`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.provider (provider)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.provider</td><td>Element `CoverageEligibilityRequest.item.provider` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.provider` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.provider`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.quantity (quantity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.quantity</td><td>Element `CoverageEligibilityRequest.item.quantity` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.quantity` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.quantity`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.unitPrice (unitPrice)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.unitPrice</td><td>Element `CoverageEligibilityRequest.item.unitPrice` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.unitPrice` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.unitPrice`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.facility (facility)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.facility</td><td>Element `CoverageEligibilityRequest.item.facility` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.facility` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.facility`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.diagnosis (diagnosis)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.diagnosis</td><td>Element `CoverageEligibilityRequest.item.diagnosis` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.diagnosis` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.diagnosis`, but has no comparisons.</td></tr><tr><td>CoverageEligibilityRequest.item.diagnosis.diagnosis[x] (diagnosis[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.diagnosis.diagnosis</td><td>Element `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is part of an existing definition because parent element `CoverageEligibilityRequest.item.diagnosis` requires a cross-version extension.\nNote that the target element context `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest.item.diagnosis`.\nElement `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]`, but has no comparisons.\nNote that the target element context `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest.item.diagnosis`.</td></tr><tr><td>CoverageEligibilityRequest.item.detail (detail)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.detail</td><td>Element `CoverageEligibilityRequest.item.detail` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.detail` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.detail`, but has no comparisons.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-CoverageEligibilityRequest-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-CoverageEligibilityRequest-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5CoverageEligibilityRequestElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 CoverageEligibilityRequest to FHIR R4 CoverageEligibilityRequest"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:23.1029319-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 CoverageEligibilityRequest to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.meta` has is mapped to FHIR R4 element `CoverageEligibilityRequest.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.implicitRules` has is mapped to FHIR R4 element `CoverageEligibilityRequest.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.language` has is mapped to FHIR R4 element `CoverageEligibilityRequest.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.text` has is mapped to FHIR R4 element `CoverageEligibilityRequest.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.contained` has is mapped to FHIR R4 element `CoverageEligibilityRequest.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.identifier` has is mapped to FHIR R4 element `CoverageEligibilityRequest.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.status` has is mapped to FHIR R4 element `CoverageEligibilityRequest.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.priority` has is mapped to FHIR R4 element `CoverageEligibilityRequest.priority`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.purpose` has is mapped to FHIR R4 element `CoverageEligibilityRequest.purpose`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.patient` has is mapped to FHIR R4 element `CoverageEligibilityRequest.patient`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.serviced[x]" ] ;
+       fhir:display [ fhir:v "serviced[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `CoverageEligibilityRequest.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest`.\nElement `CoverageEligibilityRequest.serviced[x]` has is mapped to FHIR R4 element `CoverageEligibilityRequest.serviced[x]`, but has no comparisons.\nNote that the target element context `CoverageEligibilityRequest.serviced[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.created` has is mapped to FHIR R4 element `CoverageEligibilityRequest.created`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.enterer" ] ;
+       fhir:display [ fhir:v "enterer" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.enterer` has is mapped to FHIR R4 element `CoverageEligibilityRequest.enterer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.provider" ] ;
+       fhir:display [ fhir:v "provider" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.provider` has is mapped to FHIR R4 element `CoverageEligibilityRequest.provider`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.insurer" ] ;
+       fhir:display [ fhir:v "insurer" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.insurer` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.facility" ] ;
+       fhir:display [ fhir:v "facility" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.facility` has is mapped to FHIR R4 element `CoverageEligibilityRequest.facility`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.supportingInfo` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.supportingInfo.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.supportingInfo.sequence` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.sequence` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.sequence`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.supportingInfo.information" ] ;
+       fhir:display [ fhir:v "information" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.supportingInfo.information` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.information` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.information`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.supportingInfo.appliesToAll" ] ;
+       fhir:display [ fhir:v "appliesToAll" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.supportingInfo.appliesToAll` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.appliesToAll` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.appliesToAll`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.insurance" ] ;
+       fhir:display [ fhir:v "insurance" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.insurance` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.insurance.focal" ] ;
+       fhir:display [ fhir:v "focal" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.insurance.focal` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.focal` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.focal`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.insurance.coverage" ] ;
+       fhir:display [ fhir:v "coverage" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.insurance.coverage` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.coverage` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.coverage`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.insurance.businessArrangement" ] ;
+       fhir:display [ fhir:v "businessArrangement" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.insurance.businessArrangement` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.businessArrangement` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.businessArrangement`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.supportingInfoSequence" ] ;
+       fhir:display [ fhir:v "supportingInfoSequence" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.supportingInfoSequence` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.supportingInfoSequence` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.supportingInfoSequence`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.category` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.category` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.category`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.productOrService" ] ;
+       fhir:display [ fhir:v "productOrService" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.productOrService` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.productOrService` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.productOrService`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.modifier` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.modifier` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.modifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.provider" ] ;
+       fhir:display [ fhir:v "provider" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.provider` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.provider` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.provider`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.quantity` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.quantity` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.quantity`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.unitPrice" ] ;
+       fhir:display [ fhir:v "unitPrice" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.unitPrice` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.unitPrice` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.unitPrice`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.facility" ] ;
+       fhir:display [ fhir:v "facility" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.facility` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.facility` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.facility`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.diagnosis" ] ;
+       fhir:display [ fhir:v "diagnosis" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.diagnosis` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.diagnosis` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.diagnosis`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.diagnosis.diagnosis[x]" ] ;
+       fhir:display [ fhir:v "diagnosis[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is part of an existing definition because parent element `CoverageEligibilityRequest.item.diagnosis` requires a cross-version extension.\nNote that the target element context `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest.item.diagnosis`.\nElement `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]`, but has no comparisons.\nNote that the target element context `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest.item.diagnosis`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.detail` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.detail` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.detail`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CoverageEligibilityRequest>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.event" ] ;
+       fhir:display [ fhir:v "event" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.event" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.event` has a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.event.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.event.type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.event.type` is part of an existing definition because parent element `CoverageEligibilityRequest.event` requires a cross-version extension.\nElement `CoverageEligibilityRequest.event.type` has a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.event.when[x]" ] ;
+       fhir:display [ fhir:v "when[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.event.when" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.event.when[x]` is part of an existing definition because parent element `CoverageEligibilityRequest.event` requires a cross-version extension.\nElement `CoverageEligibilityRequest.event.when[x]` has a context of CoverageEligibilityRequest based on following the parent source element upwards and mapping to `CoverageEligibilityRequest`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.supportingInfo` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.supportingInfo.sequence" ] ;
+       fhir:display [ fhir:v "sequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.supportingInfo.sequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.supportingInfo.sequence` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.sequence` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.sequence`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.supportingInfo.information" ] ;
+       fhir:display [ fhir:v "information" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.supportingInfo.information" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.supportingInfo.information` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.information` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.information`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.supportingInfo.appliesToAll" ] ;
+       fhir:display [ fhir:v "appliesToAll" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.supportingInfo.appliesToAll" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.supportingInfo.appliesToAll` is part of an existing definition because parent element `CoverageEligibilityRequest.supportingInfo` requires a cross-version extension.\nElement `CoverageEligibilityRequest.supportingInfo.appliesToAll` has is mapped to FHIR R4 element `CoverageEligibilityRequest.supportingInfo.appliesToAll`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.insurance" ] ;
+       fhir:display [ fhir:v "insurance" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.insurance" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.insurance` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.insurance.focal" ] ;
+       fhir:display [ fhir:v "focal" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.insurance.focal" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.insurance.focal` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.focal` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.focal`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.insurance.coverage" ] ;
+       fhir:display [ fhir:v "coverage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.insurance.coverage" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.insurance.coverage` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.coverage` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.coverage`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.insurance.businessArrangement" ] ;
+       fhir:display [ fhir:v "businessArrangement" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.insurance.businessArrangement" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.insurance.businessArrangement` is part of an existing definition because parent element `CoverageEligibilityRequest.insurance` requires a cross-version extension.\nElement `CoverageEligibilityRequest.insurance.businessArrangement` has is mapped to FHIR R4 element `CoverageEligibilityRequest.insurance.businessArrangement`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.supportingInfoSequence" ] ;
+       fhir:display [ fhir:v "supportingInfoSequence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.supportingInfoSequence" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.supportingInfoSequence` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.supportingInfoSequence` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.supportingInfoSequence`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.category` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.category` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.category`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.productOrService" ] ;
+       fhir:display [ fhir:v "productOrService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.productOrService" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.productOrService` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.productOrService` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.productOrService`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.modifier" ] ;
+       fhir:display [ fhir:v "modifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.modifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.modifier` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.modifier` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.modifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.provider" ] ;
+       fhir:display [ fhir:v "provider" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.provider" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.provider` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.provider` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.provider`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.quantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.quantity` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.quantity` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.quantity`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.unitPrice" ] ;
+       fhir:display [ fhir:v "unitPrice" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.unitPrice" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.unitPrice` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.unitPrice` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.unitPrice`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.facility" ] ;
+       fhir:display [ fhir:v "facility" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.facility" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.facility` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.facility` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.facility`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.diagnosis" ] ;
+       fhir:display [ fhir:v "diagnosis" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.diagnosis" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.diagnosis` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.diagnosis` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.diagnosis`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.diagnosis.diagnosis[x]" ] ;
+       fhir:display [ fhir:v "diagnosis[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.diagnosis.diagnosis" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is part of an existing definition because parent element `CoverageEligibilityRequest.item.diagnosis` requires a cross-version extension.\nNote that the target element context `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest.item.diagnosis`.\nElement `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]`, but has no comparisons.\nNote that the target element context `CoverageEligibilityRequest.item.diagnosis.diagnosis[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `CoverageEligibilityRequest.item.diagnosis`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CoverageEligibilityRequest.item.detail" ] ;
+       fhir:display [ fhir:v "detail" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CoverageEligibilityRequest.item.detail" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CoverageEligibilityRequest.item.detail` is part of an existing definition because parent element `CoverageEligibilityRequest.item` requires a cross-version extension.\nElement `CoverageEligibilityRequest.item.detail` has is mapped to FHIR R4 element `CoverageEligibilityRequest.item.detail`, but has no comparisons." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

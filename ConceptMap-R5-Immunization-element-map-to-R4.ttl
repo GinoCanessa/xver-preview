@@ -1,0 +1,586 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Immunization-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Immunization-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Immunization-element-map-to-R4</b></p><a name=\"R5-Immunization-element-map-to-R4\"> </a><a name=\"hcR5-Immunization-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Immunization|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/immunization.html\">Immunizationversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Immunization|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Immunization|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">Immunization.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.meta` has is mapped to FHIR R4 element `Immunization.meta`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.implicitRules` has is mapped to FHIR R4 element `Immunization.implicitRules`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.language` has is mapped to FHIR R4 element `Immunization.language`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.text` has is mapped to FHIR R4 element `Immunization.text`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.contained` has is mapped to FHIR R4 element `Immunization.contained`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.identifier` has is mapped to FHIR R4 element `Immunization.identifier`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.status` has is mapped to FHIR R4 element `Immunization.status`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.statusReason</td><td style=\"border-left-width: 0px\">statusReason</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.statusReason` has is mapped to FHIR R4 element `Immunization.statusReason`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.vaccineCode</td><td style=\"border-left-width: 0px\">vaccineCode</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.vaccineCode` has is mapped to FHIR R4 element `Immunization.vaccineCode`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.manufacturer</td><td style=\"border-left-width: 0px\">manufacturer</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.manufacturer` has is mapped to FHIR R4 element `Immunization.manufacturer`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.lotNumber</td><td style=\"border-left-width: 0px\">lotNumber</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.lotNumber` has is mapped to FHIR R4 element `Immunization.lotNumber`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.expirationDate</td><td style=\"border-left-width: 0px\">expirationDate</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.expirationDate` has is mapped to FHIR R4 element `Immunization.expirationDate`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.patient</td><td style=\"border-left-width: 0px\">patient</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.patient` has is mapped to FHIR R4 element `Immunization.patient`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.encounter` has is mapped to FHIR R4 element `Immunization.encounter`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.occurrence[x]</td><td style=\"border-left-width: 0px\">occurrence[x]</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Note that the target element context `Immunization.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization`.\nElement `Immunization.occurrence[x]` has is mapped to FHIR R4 element `Immunization.occurrence[x]`, but has no comparisons.\nNote that the target element context `Immunization.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.primarySource</td><td style=\"border-left-width: 0px\">primarySource</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.primarySource` has is mapped to FHIR R4 element `Immunization.primarySource`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.location</td><td style=\"border-left-width: 0px\">location</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.location` has is mapped to FHIR R4 element `Immunization.location`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.site</td><td style=\"border-left-width: 0px\">site</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.site` has is mapped to FHIR R4 element `Immunization.site`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.route</td><td style=\"border-left-width: 0px\">route</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.route` has is mapped to FHIR R4 element `Immunization.route`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.doseQuantity</td><td style=\"border-left-width: 0px\">doseQuantity</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.doseQuantity` has is mapped to FHIR R4 element `Immunization.doseQuantity`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.performer</td><td style=\"border-left-width: 0px\">performer</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.performer` has is mapped to FHIR R4 element `Immunization.performer`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.performer.function</td><td style=\"border-left-width: 0px\">function</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.performer.function` is part of an existing definition because parent element `Immunization.performer` requires a cross-version extension.\nElement `Immunization.performer.function` has is mapped to FHIR R4 element `Immunization.performer.function`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.performer.actor</td><td style=\"border-left-width: 0px\">actor</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.performer.actor` is part of an existing definition because parent element `Immunization.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.performer.actor` has is mapped to FHIR R4 element `Immunization.performer.actor`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.note` has is mapped to FHIR R4 element `Immunization.note`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Immunization.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonCode`, but has no comparisons.\nElement `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonReference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonCode`, but has no comparisons.\nElement `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonReference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.isSubpotent</td><td style=\"border-left-width: 0px\">isSubpotent</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.isSubpotent` has is mapped to FHIR R4 element `Immunization.isSubpotent`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.subpotentReason</td><td style=\"border-left-width: 0px\">subpotentReason</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.subpotentReason` has is mapped to FHIR R4 element `Immunization.subpotentReason`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.programEligibility</td><td style=\"border-left-width: 0px\">programEligibility</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.programEligibility` has is mapped to FHIR R4 element `Immunization.programEligibility`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.fundingSource</td><td style=\"border-left-width: 0px\">fundingSource</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.fundingSource` has is mapped to FHIR R4 element `Immunization.fundingSource`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.reaction</td><td style=\"border-left-width: 0px\">reaction</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.reaction` has is mapped to FHIR R4 element `Immunization.reaction`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.reaction.date</td><td style=\"border-left-width: 0px\">date</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.reaction.date` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.date` has is mapped to FHIR R4 element `Immunization.reaction.date`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.reaction.manifestation</td><td style=\"border-left-width: 0px\">manifestation</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.reaction.manifestation` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.manifestation` has is mapped to FHIR R4 element `Immunization.reaction.detail`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.reaction.reported</td><td style=\"border-left-width: 0px\">reported</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.reaction.reported` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.reported` has is mapped to FHIR R4 element `Immunization.reaction.reported`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied</td><td style=\"border-left-width: 0px\">protocolApplied</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.protocolApplied` has is mapped to FHIR R4 element `Immunization.protocolApplied`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied.series</td><td style=\"border-left-width: 0px\">series</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.protocolApplied.series` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.series` has is mapped to FHIR R4 element `Immunization.protocolApplied.series`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied.authority</td><td style=\"border-left-width: 0px\">authority</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.protocolApplied.authority` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.authority` has is mapped to FHIR R4 element `Immunization.protocolApplied.authority`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied.targetDisease</td><td style=\"border-left-width: 0px\">targetDisease</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.protocolApplied.targetDisease` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.targetDisease` has is mapped to FHIR R4 element `Immunization.protocolApplied.targetDisease`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied.doseNumber</td><td style=\"border-left-width: 0px\">doseNumber</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.protocolApplied.doseNumber` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.doseNumber` has is mapped to FHIR R4 element `Immunization.protocolApplied.doseNumber[x]`, but has no comparisons.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.</td></tr><tr><td style=\"border-right-width: 0px\">Immunization.protocolApplied.seriesDoses</td><td style=\"border-left-width: 0px\">seriesDoses</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Immunization.protocolApplied.seriesDoses` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.seriesDoses` has is mapped to FHIR R4 element `Immunization.protocolApplied.seriesDoses[x]`, but has no comparisons.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Immunization|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Immunization.basedOn (basedOn)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.basedOn` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.</td></tr><tr><td>Immunization.supportingInformation (supportingInformation)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.supportingInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.supportingInformation` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.</td></tr><tr><td>Immunization.performer.actor (actor)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `Immunization.performer.actor` is part of an existing definition because parent element `Immunization.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.performer.actor` has is mapped to FHIR R4 element `Immunization.performer.actor`, but has no comparisons.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Immunization|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Immunization.administeredProduct (administeredProduct)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.administeredProduct</td><td>Element `Immunization.administeredProduct` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.</td></tr><tr><td>Immunization.manufacturer (manufacturer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.manufacturer</td><td>Element `Immunization.manufacturer` has is mapped to FHIR R4 element `Immunization.manufacturer`, but has no comparisons.</td></tr><tr><td>Immunization.informationSource (informationSource)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.informationSource</td><td>Element `Immunization.informationSource` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`.</td></tr><tr><td>Immunization.performer (performer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.performer</td><td>Element `Immunization.performer` has is mapped to FHIR R4 element `Immunization.performer`, but has no comparisons.</td></tr><tr><td>Immunization.performer.function (function)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.performer.function</td><td>Element `Immunization.performer.function` is part of an existing definition because parent element `Immunization.performer` requires a cross-version extension.\nElement `Immunization.performer.function` has is mapped to FHIR R4 element `Immunization.performer.function`, but has no comparisons.</td></tr><tr><td>Immunization.programEligibility (programEligibility)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility</td><td>Element `Immunization.programEligibility` has is mapped to FHIR R4 element `Immunization.programEligibility`, but has no comparisons.</td></tr><tr><td>Immunization.programEligibility.program (program)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility.program</td><td>Element `Immunization.programEligibility.program` is part of an existing definition because parent element `Immunization.programEligibility` requires a cross-version extension.\nElement `Immunization.programEligibility.program` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.</td></tr><tr><td>Immunization.programEligibility.programStatus (programStatus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility.programStatus</td><td>Element `Immunization.programEligibility.programStatus` is part of an existing definition because parent element `Immunization.programEligibility` requires a cross-version extension.\nElement `Immunization.programEligibility.programStatus` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`.</td></tr><tr><td>Immunization.reaction (reaction)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reaction</td><td>Element `Immunization.reaction` has is mapped to FHIR R4 element `Immunization.reaction`, but has no comparisons.</td></tr><tr><td>Immunization.reaction.date (date)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reaction.date</td><td>Element `Immunization.reaction.date` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.date` has is mapped to FHIR R4 element `Immunization.reaction.date`, but has no comparisons.</td></tr><tr><td>Immunization.reaction.manifestation (manifestation)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reaction.manifestation</td><td>Element `Immunization.reaction.manifestation` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.manifestation` has is mapped to FHIR R4 element `Immunization.reaction.detail`, but has no comparisons.</td></tr><tr><td>Immunization.reaction.reported (reported)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reaction.reported</td><td>Element `Immunization.reaction.reported` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.reported` has is mapped to FHIR R4 element `Immunization.reaction.reported`, but has no comparisons.</td></tr><tr><td>Immunization.protocolApplied (protocolApplied)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied</td><td>Element `Immunization.protocolApplied` has is mapped to FHIR R4 element `Immunization.protocolApplied`, but has no comparisons.</td></tr><tr><td>Immunization.protocolApplied.series (series)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied.series</td><td>Element `Immunization.protocolApplied.series` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.series` has is mapped to FHIR R4 element `Immunization.protocolApplied.series`, but has no comparisons.</td></tr><tr><td>Immunization.protocolApplied.authority (authority)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied.authority</td><td>Element `Immunization.protocolApplied.authority` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.authority` has is mapped to FHIR R4 element `Immunization.protocolApplied.authority`, but has no comparisons.</td></tr><tr><td>Immunization.protocolApplied.targetDisease (targetDisease)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied.targetDisease</td><td>Element `Immunization.protocolApplied.targetDisease` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.targetDisease` has is mapped to FHIR R4 element `Immunization.protocolApplied.targetDisease`, but has no comparisons.</td></tr><tr><td>Immunization.protocolApplied.doseNumber (doseNumber)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied.doseNumber</td><td>Element `Immunization.protocolApplied.doseNumber` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.doseNumber` has is mapped to FHIR R4 element `Immunization.protocolApplied.doseNumber[x]`, but has no comparisons.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.</td></tr><tr><td>Immunization.protocolApplied.seriesDoses (seriesDoses)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied.seriesDoses</td><td>Element `Immunization.protocolApplied.seriesDoses` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.seriesDoses` has is mapped to FHIR R4 element `Immunization.protocolApplied.seriesDoses[x]`, but has no comparisons.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Immunization-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Immunization-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5ImmunizationElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Immunization to FHIR R4 Immunization"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:24.2223546-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Immunization to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Immunization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Immunization>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Immunization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Immunization>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Immunization.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.meta` has is mapped to FHIR R4 element `Immunization.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.implicitRules` has is mapped to FHIR R4 element `Immunization.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.language` has is mapped to FHIR R4 element `Immunization.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.text` has is mapped to FHIR R4 element `Immunization.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.contained` has is mapped to FHIR R4 element `Immunization.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.identifier` has is mapped to FHIR R4 element `Immunization.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.status` has is mapped to FHIR R4 element `Immunization.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.statusReason" ] ;
+       fhir:display [ fhir:v "statusReason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.statusReason` has is mapped to FHIR R4 element `Immunization.statusReason`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.vaccineCode" ] ;
+       fhir:display [ fhir:v "vaccineCode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.vaccineCode` has is mapped to FHIR R4 element `Immunization.vaccineCode`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.manufacturer` has is mapped to FHIR R4 element `Immunization.manufacturer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.lotNumber" ] ;
+       fhir:display [ fhir:v "lotNumber" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.lotNumber` has is mapped to FHIR R4 element `Immunization.lotNumber`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.expirationDate" ] ;
+       fhir:display [ fhir:v "expirationDate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.expirationDate` has is mapped to FHIR R4 element `Immunization.expirationDate`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.patient" ] ;
+       fhir:display [ fhir:v "patient" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.patient` has is mapped to FHIR R4 element `Immunization.patient`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.encounter` has is mapped to FHIR R4 element `Immunization.encounter`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `Immunization.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization`.\nElement `Immunization.occurrence[x]` has is mapped to FHIR R4 element `Immunization.occurrence[x]`, but has no comparisons.\nNote that the target element context `Immunization.occurrence[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.primarySource" ] ;
+       fhir:display [ fhir:v "primarySource" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.primarySource` has is mapped to FHIR R4 element `Immunization.primarySource`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.location` has is mapped to FHIR R4 element `Immunization.location`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.site" ] ;
+       fhir:display [ fhir:v "site" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.site` has is mapped to FHIR R4 element `Immunization.site`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.route" ] ;
+       fhir:display [ fhir:v "route" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.route` has is mapped to FHIR R4 element `Immunization.route`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.doseQuantity" ] ;
+       fhir:display [ fhir:v "doseQuantity" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.doseQuantity` has is mapped to FHIR R4 element `Immunization.doseQuantity`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.performer` has is mapped to FHIR R4 element `Immunization.performer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.performer.function` is part of an existing definition because parent element `Immunization.performer` requires a cross-version extension.\nElement `Immunization.performer.function` has is mapped to FHIR R4 element `Immunization.performer.function`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.performer.actor` is part of an existing definition because parent element `Immunization.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.performer.actor` has is mapped to FHIR R4 element `Immunization.performer.actor`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.note` has is mapped to FHIR R4 element `Immunization.note`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonCode`, but has no comparisons.\nElement `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonReference`, but has no comparisons." ]
+       ] [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonCode`, but has no comparisons.\nElement `Immunization.reason` has is mapped to FHIR R4 element `Immunization.reasonReference`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.isSubpotent" ] ;
+       fhir:display [ fhir:v "isSubpotent" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.isSubpotent` has is mapped to FHIR R4 element `Immunization.isSubpotent`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.subpotentReason" ] ;
+       fhir:display [ fhir:v "subpotentReason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.subpotentReason` has is mapped to FHIR R4 element `Immunization.subpotentReason`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.programEligibility" ] ;
+       fhir:display [ fhir:v "programEligibility" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.programEligibility` has is mapped to FHIR R4 element `Immunization.programEligibility`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.fundingSource" ] ;
+       fhir:display [ fhir:v "fundingSource" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.fundingSource` has is mapped to FHIR R4 element `Immunization.fundingSource`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction" ] ;
+       fhir:display [ fhir:v "reaction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction` has is mapped to FHIR R4 element `Immunization.reaction`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction.date` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.date` has is mapped to FHIR R4 element `Immunization.reaction.date`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction.manifestation" ] ;
+       fhir:display [ fhir:v "manifestation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction.manifestation` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.manifestation` has is mapped to FHIR R4 element `Immunization.reaction.detail`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction.reported" ] ;
+       fhir:display [ fhir:v "reported" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction.reported` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.reported` has is mapped to FHIR R4 element `Immunization.reaction.reported`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied" ] ;
+       fhir:display [ fhir:v "protocolApplied" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied` has is mapped to FHIR R4 element `Immunization.protocolApplied`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.series" ] ;
+       fhir:display [ fhir:v "series" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.series` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.series` has is mapped to FHIR R4 element `Immunization.protocolApplied.series`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.authority" ] ;
+       fhir:display [ fhir:v "authority" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.authority` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.authority` has is mapped to FHIR R4 element `Immunization.protocolApplied.authority`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.targetDisease" ] ;
+       fhir:display [ fhir:v "targetDisease" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.targetDisease` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.targetDisease` has is mapped to FHIR R4 element `Immunization.protocolApplied.targetDisease`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.doseNumber" ] ;
+       fhir:display [ fhir:v "doseNumber" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.doseNumber` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.doseNumber` has is mapped to FHIR R4 element `Immunization.protocolApplied.doseNumber[x]`, but has no comparisons.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.seriesDoses" ] ;
+       fhir:display [ fhir:v "seriesDoses" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.seriesDoses` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.seriesDoses` has is mapped to FHIR R4 element `Immunization.protocolApplied.seriesDoses[x]`, but has no comparisons.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Immunization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Immunization>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Immunization.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.basedOn` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.supportingInformation" ] ;
+       fhir:display [ fhir:v "supportingInformation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.supportingInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.supportingInformation` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.performer.actor` is part of an existing definition because parent element `Immunization.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Immunization.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Immunization.performer.actor` has is mapped to FHIR R4 element `Immunization.performer.actor`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Immunization"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Immunization>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Immunization.administeredProduct" ] ;
+       fhir:display [ fhir:v "administeredProduct" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.administeredProduct" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.administeredProduct` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.manufacturer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.manufacturer` has is mapped to FHIR R4 element `Immunization.manufacturer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.informationSource" ] ;
+       fhir:display [ fhir:v "informationSource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.informationSource" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.informationSource` has a context of Immunization based on following the parent source element upwards and mapping to `Immunization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.performer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.performer` has is mapped to FHIR R4 element `Immunization.performer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.performer.function" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.performer.function` is part of an existing definition because parent element `Immunization.performer` requires a cross-version extension.\nElement `Immunization.performer.function` has is mapped to FHIR R4 element `Immunization.performer.function`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.programEligibility" ] ;
+       fhir:display [ fhir:v "programEligibility" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.programEligibility` has is mapped to FHIR R4 element `Immunization.programEligibility`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.programEligibility.program" ] ;
+       fhir:display [ fhir:v "program" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility.program" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.programEligibility.program` is part of an existing definition because parent element `Immunization.programEligibility` requires a cross-version extension.\nElement `Immunization.programEligibility.program` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.programEligibility.programStatus" ] ;
+       fhir:display [ fhir:v "programStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.programEligibility.programStatus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.programEligibility.programStatus` is part of an existing definition because parent element `Immunization.programEligibility` requires a cross-version extension.\nElement `Immunization.programEligibility.programStatus` has a context of Immunization.programEligibility based on following the parent source element upwards and mapping to `Immunization`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction" ] ;
+       fhir:display [ fhir:v "reaction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reaction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction` has is mapped to FHIR R4 element `Immunization.reaction`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reaction.date" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction.date` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.date` has is mapped to FHIR R4 element `Immunization.reaction.date`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction.manifestation" ] ;
+       fhir:display [ fhir:v "manifestation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reaction.manifestation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction.manifestation` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.manifestation` has is mapped to FHIR R4 element `Immunization.reaction.detail`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.reaction.reported" ] ;
+       fhir:display [ fhir:v "reported" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.reaction.reported" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.reaction.reported` is part of an existing definition because parent element `Immunization.reaction` requires a cross-version extension.\nElement `Immunization.reaction.reported` has is mapped to FHIR R4 element `Immunization.reaction.reported`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied" ] ;
+       fhir:display [ fhir:v "protocolApplied" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied` has is mapped to FHIR R4 element `Immunization.protocolApplied`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.series" ] ;
+       fhir:display [ fhir:v "series" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied.series" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.series` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.series` has is mapped to FHIR R4 element `Immunization.protocolApplied.series`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.authority" ] ;
+       fhir:display [ fhir:v "authority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied.authority" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.authority` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.authority` has is mapped to FHIR R4 element `Immunization.protocolApplied.authority`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.targetDisease" ] ;
+       fhir:display [ fhir:v "targetDisease" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied.targetDisease" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.targetDisease` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nElement `Immunization.protocolApplied.targetDisease` has is mapped to FHIR R4 element `Immunization.protocolApplied.targetDisease`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.doseNumber" ] ;
+       fhir:display [ fhir:v "doseNumber" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied.doseNumber" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.doseNumber` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.doseNumber` has is mapped to FHIR R4 element `Immunization.protocolApplied.doseNumber[x]`, but has no comparisons.\nNote that the target element context `Immunization.protocolApplied.doseNumber[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Immunization.protocolApplied.seriesDoses" ] ;
+       fhir:display [ fhir:v "seriesDoses" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Immunization.protocolApplied.seriesDoses" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Immunization.protocolApplied.seriesDoses` is part of an existing definition because parent element `Immunization.protocolApplied` requires a cross-version extension.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`.\nElement `Immunization.protocolApplied.seriesDoses` has is mapped to FHIR R4 element `Immunization.protocolApplied.seriesDoses[x]`, but has no comparisons.\nNote that the target element context `Immunization.protocolApplied.seriesDoses[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Immunization.protocolApplied`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

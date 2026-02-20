@@ -27,7 +27,6 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","N/A"
 "Extension.extension:account","Extension.extension","account","","",1,1,"","","","Extension {[]} {[]}
 ","Reference to an associated Account","Reference to an associated Account.","","Element `Account.relatedAccount.account` is part of an existing definition because parent element `Account.relatedAccount` requires a cross-version extension.
-Element `Account.relatedAccount.account` has a context of Account based on following the parent source element upwards and mapping to `Account`.
 Element `Account.relatedAccount.account` has is mapped to FHIR R4 element `Account.partOf`, but has no comparisons.","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Extension.extension:account.id","Extension.extension.id","","","",0,1,"","","","string {[]} {[]}
@@ -39,7 +38,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Extension.extension:account.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.relatedAccount.account""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension:account.value[x]","Extension.extension.value[x]","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/profile-Account|0.0.1-snapshot-3], CanonicalType[http://hl7.org/fhir/StructureDefinition/Account|4.0.1]]}
+"Extension.extension:account.value[x]","Extension.extension.value[x]","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/profile-Account], CanonicalType[http://hl7.org/fhir/StructureDefinition/Account]]}
 ","Reference to an associated Account","Reference to an associated Account.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}

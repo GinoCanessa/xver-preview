@@ -63,25 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "phx"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/medicationrequest-admin-location>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "MedicationRequest_Administration_Location_Codes"] ; # 
   fhir:title [ fhir:v "Medication request  administration  location  codes"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2023-02-25T12:07:30-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Pharmacy"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Pharmacy" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/medication" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "MedicationRequest Administration Location Codes"] ; # 
@@ -97,8 +97,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/medicationrequest-admin-location|1.0.1"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/medicationrequest-admin-location?version=1.0.1>
+     fhir:v "http://terminology.hl7.org/ValueSet/medicationrequest-admin-location"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/medicationrequest-admin-location>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

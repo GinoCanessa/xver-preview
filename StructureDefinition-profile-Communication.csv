@@ -64,7 +64,7 @@ Cancelled Reason","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","routine | urgent | asap | stat","Characterizes how quickly the planned or in progress communication must be addressed. Includes concepts such as stat, urgent, routine.","Used to prioritize workflow (such as which communication to read first) when the communication is planned or in progress.","","","If missing, this communication should be treated with normal priority","","","","","",,"required","Codes indicating the relative importance of a communication.","http://hl7.org/fhir/ValueSet/request-priority|4.0.1","",,,,"Communication.priority",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","FiveWs.grade"
 "Communication.medium","Communication.medium","","","",0,*,"","","","CodeableConcept {[]} {[]}
-","A channel of communication","A channel that was used for this communication (e.g. email, fax).","","","","","","","","","",,"example","Codes for communication mediums such as phone, fax, email, in person, etc.","http://terminology.hl7.org/ValueSet/v3-ParticipationMode|3.0.0","",,,,"Communication.medium",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","A channel of communication","A channel that was used for this communication (e.g. email, fax).","","","","","","","","","",,"example","Codes for communication mediums such as phone, fax, email, in person, etc.","http://terminology.hl7.org/ValueSet/v3-ParticipationMode","",,,,"Communication.medium",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Communication.subject","Communication.subject","","patient
 ","",0,1,"","","Y","Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Patient|4.0.1], CanonicalType[http://hl7.org/fhir/StructureDefinition/Group|4.0.1]]}
@@ -94,7 +94,7 @@ Cancelled Reason","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Communication.recipient.extension:recipient","Communication.recipient.extension","recipient","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"Communication.recipient.extension:recipient","Communication.recipient.extension","recipient","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for Communication.recipient from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Endpoint,http://hl7.org/fhir/StructureDefinition/Location in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Communication.recipient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Communication.recipient` has is mapped to FHIR R4 element `Communication.recipient`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -128,7 +128,7 @@ Reference is intended to point to a structure that can potentially be expressed 
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Communication.sender.extension:sender","Communication.sender.extension","sender","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"Communication.sender.extension:sender","Communication.sender.extension","sender","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for Communication.sender from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CareTeam,http://hl7.org/fhir/StructureDefinition/Endpoint in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Communication.sender` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Communication.sender` has is mapped to FHIR R4 element `Communication.sender`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -168,7 +168,7 @@ Reference is intended to point to a structure that can potentially be expressed 
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Communication.payload.extension:payload","Communication.payload.extension","payload","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Communication.payload|0.0.1-snapshot-3]]} {[]}
+"Communication.payload.extension:payload","Communication.payload.extension","payload","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Communication.payload]]} {[]}
 ","Cross-version extension for Communication.payload from R5 for use in FHIR R4","Text, attachment(s), or resource(s) that was communicated to the recipient.","Element `Communication.payload` has is mapped to FHIR R4 element `Communication.payload`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

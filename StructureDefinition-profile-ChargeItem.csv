@@ -24,11 +24,11 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ChargeItem.extension:unitPriceComponent","ChargeItem.extension","unitPriceComponent","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.unitPriceComponent|0.0.1-snapshot-3]]} {[]}
+"ChargeItem.extension:unitPriceComponent","ChargeItem.extension","unitPriceComponent","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.unitPriceComponent]]} {[]}
 ","Cross-version extension for ChargeItem.unitPriceComponent from R5 for use in FHIR R4","The unit price of the chargable item.","Element `ChargeItem.unitPriceComponent` has a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ChargeItem.extension:totalPriceComponent","ChargeItem.extension","totalPriceComponent","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.totalPriceComponent|0.0.1-snapshot-3]]} {[]}
+"ChargeItem.extension:totalPriceComponent","ChargeItem.extension","totalPriceComponent","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.totalPriceComponent]]} {[]}
 ","Cross-version extension for ChargeItem.totalPriceComponent from R5 for use in FHIR R4","The total price for the chargable item, accounting for the quantity.","Element `ChargeItem.totalPriceComponent` has a context of ChargeItem based on following the parent source element upwards and mapping to `ChargeItem`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -81,7 +81,7 @@ Period {[]} {[]}Timing {[]} {[]}","When the charged service was applied","Date/t
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ChargeItem.performer.extension:performer","ChargeItem.performer.extension","performer","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.performer|0.0.1-snapshot-3]]} {[]}
+"ChargeItem.performer.extension:performer","ChargeItem.performer.extension","performer","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.performer]]} {[]}
 ","Cross-version extension for ChargeItem.performer from R5 for use in FHIR R4","Indicates who or what performed or participated in the charged service.","Element `ChargeItem.performer` has is mapped to FHIR R4 element `ChargeItem.performer`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -127,7 +127,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ChargeItem.overrideReason.extension:overrideReason","ChargeItem.overrideReason.extension","overrideReason","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.overrideReason|0.0.1-snapshot-3]]} {[]}
+"ChargeItem.overrideReason.extension:overrideReason","ChargeItem.overrideReason.extension","overrideReason","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.overrideReason]]} {[]}
 ","Cross-version extension for ChargeItem.overrideReason from R5 for use in FHIR R4","If the list price or the rule-based factor associated with the code is overridden, this attribute can capture a text to indicate the  reason for this action.","Element `ChargeItem.overrideReason` has is mapped to FHIR R4 element `ChargeItem.overrideReason`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -151,7 +151,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"ChargeItem.service.extension:service","ChargeItem.service.extension","service","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.service|0.0.1-snapshot-3]]} {[]}
+"ChargeItem.service.extension:service","ChargeItem.service.extension","service","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-ChargeItem.service]]} {[]}
 ","Cross-version extension for ChargeItem.service from R5 for use in FHIR R4","Indicated the rendered service that caused this charge.","Element `ChargeItem.service` has is mapped to FHIR R4 element `ChargeItem.service`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "ChargeItem.service.reference","ChargeItem.service.reference","","","",0,1,"","","Y","string {[]} {[]}

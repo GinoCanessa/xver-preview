@@ -1,0 +1,785 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Evidence-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Evidence-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Evidence-element-map-to-R4</b></p><a name=\"R5-Evidence-element-map-to-R4\"> </a><a name=\"hcR5-Evidence-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Evidence|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/evidence.html\">Evidenceversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Evidence.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.meta` has is mapped to FHIR R4 element `Evidence.meta`, but has no comparisons.</td></tr><tr><td>Evidence.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.implicitRules` has is mapped to FHIR R4 element `Evidence.implicitRules`, but has no comparisons.</td></tr><tr><td>Evidence.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.language` has is mapped to FHIR R4 element `Evidence.language`, but has no comparisons.</td></tr><tr><td>Evidence.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.text` has is mapped to FHIR R4 element `Evidence.text`, but has no comparisons.</td></tr><tr><td>Evidence.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.contained` has is mapped to FHIR R4 element `Evidence.contained`, but has no comparisons.</td></tr><tr><td>Evidence.url (url)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.url` has is mapped to FHIR R4 element `Evidence.url`, but has no comparisons.</td></tr><tr><td>Evidence.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.identifier` has is mapped to FHIR R4 element `Evidence.identifier`, but has no comparisons.</td></tr><tr><td>Evidence.version (version)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.version` has is mapped to FHIR R4 element `Evidence.version`, but has no comparisons.</td></tr><tr><td>Evidence.title (title)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.title` has is mapped to FHIR R4 element `Evidence.title`, but has no comparisons.</td></tr><tr><td>Evidence.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.status` has is mapped to FHIR R4 element `Evidence.status`, but has no comparisons.</td></tr><tr><td>Evidence.date (date)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.date` has is mapped to FHIR R4 element `Evidence.date`, but has no comparisons.</td></tr><tr><td>Evidence.approvalDate (approvalDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.approvalDate` has is mapped to FHIR R4 element `Evidence.approvalDate`, but has no comparisons.</td></tr><tr><td>Evidence.lastReviewDate (lastReviewDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.lastReviewDate` has is mapped to FHIR R4 element `Evidence.lastReviewDate`, but has no comparisons.</td></tr><tr><td>Evidence.publisher (publisher)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.publisher` has is mapped to FHIR R4 element `Evidence.publisher`, but has no comparisons.</td></tr><tr><td>Evidence.contact (contact)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.contact` has is mapped to FHIR R4 element `Evidence.contact`, but has no comparisons.</td></tr><tr><td>Evidence.author (author)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.author` has is mapped to FHIR R4 element `Evidence.author`, but has no comparisons.</td></tr><tr><td>Evidence.editor (editor)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.editor` has is mapped to FHIR R4 element `Evidence.editor`, but has no comparisons.</td></tr><tr><td>Evidence.reviewer (reviewer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.reviewer` has is mapped to FHIR R4 element `Evidence.reviewer`, but has no comparisons.</td></tr><tr><td>Evidence.endorser (endorser)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.endorser` has is mapped to FHIR R4 element `Evidence.endorser`, but has no comparisons.</td></tr><tr><td>Evidence.useContext (useContext)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.useContext` has is mapped to FHIR R4 element `Evidence.useContext`, but has no comparisons.</td></tr><tr><td>Evidence.relatedArtifact (relatedArtifact)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.relatedArtifact` has is mapped to FHIR R4 element `Evidence.relatedArtifact`, but has no comparisons.</td></tr><tr><td>Evidence.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.description` has is mapped to FHIR R4 element `Evidence.description`, but has no comparisons.</td></tr><tr><td>Evidence.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Evidence.note` has is mapped to FHIR R4 element `Evidence.note`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Evidence|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Evidence.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.versionAlgorithm</td><td>Element `Evidence.versionAlgorithm[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.name (name)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.name</td><td>Element `Evidence.name` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.citeAs[x] (citeAs[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.citeAs</td><td>Element `Evidence.citeAs[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Evidence|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Evidence|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4</td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Evidence.citeAs[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">citeAs[x]</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td style=\"border-left-width: 0px\"/><td>Element `Evidence.citeAs[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `Evidence.citeAs[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Evidence|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Evidence.experimental (experimental)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.experimental</td><td>Element `Evidence.experimental` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.purpose (purpose)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.purpose</td><td>Element `Evidence.purpose` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.copyright (copyright)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.copyright</td><td>Element `Evidence.copyright` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.copyrightLabel (copyrightLabel)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.copyrightLabel</td><td>Element `Evidence.copyrightLabel` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.assertion (assertion)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.assertion</td><td>Element `Evidence.assertion` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.variableDefinition (variableDefinition)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition</td><td>Element `Evidence.variableDefinition` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.variableDefinition.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.description</td><td>Element `Evidence.variableDefinition.description` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.variableDefinition.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.note</td><td>Element `Evidence.variableDefinition.note` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.variableDefinition.variableRole (variableRole)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.variableRole</td><td>Element `Evidence.variableDefinition.variableRole` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.variableRole` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.variableDefinition.directnessMatch (directnessMatch)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.directnessMatch</td><td>Element `Evidence.variableDefinition.directnessMatch` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.directnessMatch` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.synthesisType (synthesisType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.synthesisType</td><td>Element `Evidence.synthesisType` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.studyDesign (studyDesign)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.studyDesign</td><td>Element `Evidence.studyDesign` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic (statistic)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic</td><td>Element `Evidence.statistic` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.description</td><td>Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.note</td><td>Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.statisticType (statisticType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.statisticType</td><td>Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.statisticType` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.category (category)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.category</td><td>Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.category` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.quantity (quantity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.quantity</td><td>Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.quantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.numberOfEvents (numberOfEvents)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.numberOfEvents</td><td>Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberOfEvents` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.numberAffected (numberAffected)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.numberAffected</td><td>Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberAffected` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.sampleSize (sampleSize)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize</td><td>Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.sampleSize.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize.description</td><td>Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.sampleSize.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize.note</td><td>Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.sampleSize.numberOfStudies (numberOfStudies)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize.numberOfStudies</td><td>Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfStudies` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.sampleSize.numberOfParticipants (numberOfParticipants)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize.numberOfParticipants</td><td>Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.sampleSize.knownDataCount (knownDataCount)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize.knownDataCount</td><td>Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.knownDataCount` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.attributeEstimate (attributeEstimate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate</td><td>Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.attributeEstimate.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.description</td><td>Element `Evidence.statistic.attributeEstimate.description` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.attributeEstimate.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.note</td><td>Element `Evidence.statistic.attributeEstimate.note` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.attributeEstimate.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.type</td><td>Element `Evidence.statistic.attributeEstimate.type` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.type` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.attributeEstimate.quantity (quantity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.quantity</td><td>Element `Evidence.statistic.attributeEstimate.quantity` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.quantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.attributeEstimate.level (level)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.level</td><td>Element `Evidence.statistic.attributeEstimate.level` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.level` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.attributeEstimate.range (range)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.range</td><td>Element `Evidence.statistic.attributeEstimate.range` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.range` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.attributeEstimate.attributeEstimate (attributeEstimate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate</td><td>Element `Evidence.statistic.attributeEstimate.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.modelCharacteristic (modelCharacteristic)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic</td><td>Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.modelCharacteristic.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.code</td><td>Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.code` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.modelCharacteristic.value (value)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.value</td><td>Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.value` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.modelCharacteristic.variable (variable)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.variable</td><td>Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.modelCharacteristic.variable.handling (handling)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.variable.handling</td><td>Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.modelCharacteristic.variable.valueCategory (valueCategory)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.variable.valueCategory</td><td>Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.modelCharacteristic.variable.valueQuantity (valueQuantity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.variable.valueQuantity</td><td>Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.modelCharacteristic.variable.valueRange (valueRange)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.variable.valueRange</td><td>Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.modelCharacteristic.attributeEstimate (attributeEstimate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate</td><td>Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.certainty (certainty)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty</td><td>Element `Evidence.certainty` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.certainty.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.description</td><td>Element `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.certainty.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.note</td><td>Element `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.certainty.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.type</td><td>Element `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.type` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.certainty.rating (rating)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.rating</td><td>Element `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rating` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.certainty.rater (rater)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.rater</td><td>Element `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rater` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.certainty.subcomponent (subcomponent)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty</td><td>Element `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.subcomponent` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr></table><hr/><p><b>Group 5 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Evidence|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Evidence.variableDefinition.observed (observed)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `Evidence.variableDefinition.observed` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.observed` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.variableDefinition.observed` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.variableDefinition.intended (intended)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `Evidence.variableDefinition.intended` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.intended` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.variableDefinition.intended` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr><tr><td>Evidence.statistic.modelCharacteristic.variable.variableDefinition (variableDefinition)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Evidence-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Evidence-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5EvidenceElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Evidence to FHIR R4 Evidence"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:23.378984-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Evidence to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Evidence"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Evidence>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Evidence"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Evidence>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Evidence.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.meta` has is mapped to FHIR R4 element `Evidence.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.implicitRules` has is mapped to FHIR R4 element `Evidence.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.language` has is mapped to FHIR R4 element `Evidence.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.text` has is mapped to FHIR R4 element `Evidence.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.contained` has is mapped to FHIR R4 element `Evidence.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.url` has is mapped to FHIR R4 element `Evidence.url`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.identifier` has is mapped to FHIR R4 element `Evidence.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.version` has is mapped to FHIR R4 element `Evidence.version`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.title` has is mapped to FHIR R4 element `Evidence.title`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.status` has is mapped to FHIR R4 element `Evidence.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.date` has is mapped to FHIR R4 element `Evidence.date`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.approvalDate" ] ;
+       fhir:display [ fhir:v "approvalDate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.approvalDate` has is mapped to FHIR R4 element `Evidence.approvalDate`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.lastReviewDate" ] ;
+       fhir:display [ fhir:v "lastReviewDate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.lastReviewDate` has is mapped to FHIR R4 element `Evidence.lastReviewDate`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.publisher` has is mapped to FHIR R4 element `Evidence.publisher`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.contact` has is mapped to FHIR R4 element `Evidence.contact`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.author` has is mapped to FHIR R4 element `Evidence.author`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.editor" ] ;
+       fhir:display [ fhir:v "editor" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.editor` has is mapped to FHIR R4 element `Evidence.editor`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.reviewer" ] ;
+       fhir:display [ fhir:v "reviewer" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.reviewer` has is mapped to FHIR R4 element `Evidence.reviewer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.endorser" ] ;
+       fhir:display [ fhir:v "endorser" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.endorser` has is mapped to FHIR R4 element `Evidence.endorser`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.useContext` has is mapped to FHIR R4 element `Evidence.useContext`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.relatedArtifact" ] ;
+       fhir:display [ fhir:v "relatedArtifact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.relatedArtifact` has is mapped to FHIR R4 element `Evidence.relatedArtifact`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.description` has is mapped to FHIR R4 element `Evidence.description`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.note` has is mapped to FHIR R4 element `Evidence.note`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Evidence"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Evidence>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Evidence.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.versionAlgorithm[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.name" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.name` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.citeAs[x]" ] ;
+       fhir:display [ fhir:v "citeAs[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.citeAs" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.citeAs[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Evidence"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Evidence>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Evidence.citeAs[x]" ] ;
+       fhir:display [ fhir:v "citeAs[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.citeAs[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.citeAs[x]` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Evidence"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Evidence>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Evidence.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.experimental" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.experimental` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.purpose" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.purpose` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.copyright" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.copyright` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.copyrightLabel` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.assertion" ] ;
+       fhir:display [ fhir:v "assertion" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.assertion" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.assertion` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.variableDefinition" ] ;
+       fhir:display [ fhir:v "variableDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.variableDefinition` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.variableDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.variableDefinition.description` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.variableDefinition.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.variableDefinition.note` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.variableDefinition.variableRole" ] ;
+       fhir:display [ fhir:v "variableRole" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.variableRole" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.variableDefinition.variableRole` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.variableRole` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.variableDefinition.directnessMatch" ] ;
+       fhir:display [ fhir:v "directnessMatch" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.variableDefinition.directnessMatch" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.variableDefinition.directnessMatch` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nElement `Evidence.variableDefinition.directnessMatch` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.synthesisType" ] ;
+       fhir:display [ fhir:v "synthesisType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.synthesisType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.synthesisType` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.studyDesign" ] ;
+       fhir:display [ fhir:v "studyDesign" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.studyDesign" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.studyDesign` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic" ] ;
+       fhir:display [ fhir:v "statistic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.description` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.note` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.statisticType" ] ;
+       fhir:display [ fhir:v "statisticType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.statisticType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.statisticType` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.statisticType` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.category" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.category` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.category` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.quantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.quantity` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.quantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.numberOfEvents" ] ;
+       fhir:display [ fhir:v "numberOfEvents" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.numberOfEvents" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.numberOfEvents` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberOfEvents` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.numberAffected" ] ;
+       fhir:display [ fhir:v "numberAffected" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.numberAffected" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.numberAffected` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.numberAffected` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.sampleSize" ] ;
+       fhir:display [ fhir:v "sampleSize" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.sampleSize` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.sampleSize.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.sampleSize.description` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.sampleSize.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.sampleSize.note` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.sampleSize.numberOfStudies" ] ;
+       fhir:display [ fhir:v "numberOfStudies" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize.numberOfStudies" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.sampleSize.numberOfStudies` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfStudies` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.sampleSize.numberOfParticipants" ] ;
+       fhir:display [ fhir:v "numberOfParticipants" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize.numberOfParticipants" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.sampleSize.numberOfParticipants` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.numberOfParticipants` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.sampleSize.knownDataCount" ] ;
+       fhir:display [ fhir:v "knownDataCount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.sampleSize.knownDataCount" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.sampleSize.knownDataCount` is part of an existing definition because parent element `Evidence.statistic.sampleSize` requires a cross-version extension.\nElement `Evidence.statistic.sampleSize.knownDataCount` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.attributeEstimate" ] ;
+       fhir:display [ fhir:v "attributeEstimate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.attributeEstimate.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.attributeEstimate.description` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.attributeEstimate.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.attributeEstimate.note` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.attributeEstimate.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.attributeEstimate.type` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.type` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.attributeEstimate.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.quantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.attributeEstimate.quantity` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.quantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.attributeEstimate.level" ] ;
+       fhir:display [ fhir:v "level" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.level" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.attributeEstimate.level` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.level` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.attributeEstimate.range" ] ;
+       fhir:display [ fhir:v "range" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate.range" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.attributeEstimate.range` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.range` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.attributeEstimate.attributeEstimate" ] ;
+       fhir:display [ fhir:v "attributeEstimate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.attributeEstimate.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.attributeEstimate` requires a cross-version extension.\nElement `Evidence.statistic.attributeEstimate.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.modelCharacteristic" ] ;
+       fhir:display [ fhir:v "modelCharacteristic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.modelCharacteristic` is part of an existing definition because parent element `Evidence.statistic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.modelCharacteristic.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.modelCharacteristic.code` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.code` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.modelCharacteristic.value" ] ;
+       fhir:display [ fhir:v "value" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.value" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.modelCharacteristic.value` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.value` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.modelCharacteristic.variable" ] ;
+       fhir:display [ fhir:v "variable" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.variable" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.modelCharacteristic.variable.handling" ] ;
+       fhir:display [ fhir:v "handling" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.variable.handling" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.handling` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.handling` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.modelCharacteristic.variable.valueCategory" ] ;
+       fhir:display [ fhir:v "valueCategory" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.variable.valueCategory" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueCategory` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueCategory` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.modelCharacteristic.variable.valueQuantity" ] ;
+       fhir:display [ fhir:v "valueQuantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.variable.valueQuantity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueQuantity` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueQuantity` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.modelCharacteristic.variable.valueRange" ] ;
+       fhir:display [ fhir:v "valueRange" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.modelCharacteristic.variable.valueRange" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.valueRange` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.variable.valueRange` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.modelCharacteristic.attributeEstimate" ] ;
+       fhir:display [ fhir:v "attributeEstimate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.statistic.attributeEstimate" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.modelCharacteristic.attributeEstimate` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic` requires a cross-version extension.\nElement `Evidence.statistic.modelCharacteristic.attributeEstimate` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.certainty" ] ;
+       fhir:display [ fhir:v "certainty" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.certainty` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.certainty.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.certainty.description` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.description` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.certainty.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.note" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.certainty.note` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.note` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.certainty.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.certainty.type` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.type` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.certainty.rating" ] ;
+       fhir:display [ fhir:v "rating" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.rating" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.certainty.rating` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rating` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.certainty.rater" ] ;
+       fhir:display [ fhir:v "rater" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty.rater" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.certainty.rater` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.rater` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.certainty.subcomponent" ] ;
+       fhir:display [ fhir:v "subcomponent" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Evidence.certainty" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.certainty.subcomponent` is part of an existing definition because parent element `Evidence.certainty` requires a cross-version extension.\nElement `Evidence.certainty.subcomponent` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Evidence"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Evidence>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Evidence.variableDefinition.observed" ] ;
+       fhir:display [ fhir:v "observed" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.variableDefinition.observed` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.observed` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.variableDefinition.observed` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.variableDefinition.intended" ] ;
+       fhir:display [ fhir:v "intended" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.variableDefinition.intended` is part of an existing definition because parent element `Evidence.variableDefinition` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.variableDefinition.intended` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.variableDefinition.intended` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Evidence.statistic.modelCharacteristic.variable.variableDefinition" ] ;
+       fhir:display [ fhir:v "variableDefinition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` is part of an existing definition because parent element `Evidence.statistic.modelCharacteristic.variable` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Evidence.statistic.modelCharacteristic.variable.variableDefinition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Evidence.statistic.modelCharacteristic.variable.variableDefinition` has a context of Evidence based on following the parent source element upwards and mapping to `Evidence`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

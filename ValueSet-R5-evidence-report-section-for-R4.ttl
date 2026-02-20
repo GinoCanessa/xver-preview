@@ -1,0 +1,443 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-evidence-report-section-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-evidence-report-section-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-evidence-report-section-for-R4</b></p><a name=\"R5-evidence-report-section-for-R4\"> </a><a name=\"hcR5-evidence-report-section-for-R4\"> </a><p>This value set expansion contains 28 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Assertion\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Assertion</td><td>Assertion</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Certainty-of-Evidence\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Certainty-of-Evidence</td><td>Certainty of Evidence</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Column-Header\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Column-Header</td><td>Column Header</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Column-Headers\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Column-Headers</td><td>Column Headers</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Control-group-alone-Evidence\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Control-group-alone-Evidence</td><td>Evidence Results for the control exposure only</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Efficacy-outcomes\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Efficacy-outcomes</td><td>Efficacy-outcomes</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Evidence\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Evidence</td><td>Evidence Results</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Evidence-Classifier\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Evidence-Classifier</td><td>Evidence Classifier section</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-EvidenceVariable\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  EvidenceVariable</td><td>Evidence Variables used</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-EvidenceVariable-exposure\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  EvidenceVariable-exposure</td><td>Evidence Variable in variable role Exposure</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-EvidenceVariable-intended\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  EvidenceVariable-intended</td><td>Evidence Variables intended for interpretation</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-EvidenceVariable-observed\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  EvidenceVariable-observed</td><td>Evidence Variables actually observed</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-EvidenceVariable-outcome\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  EvidenceVariable-outcome</td><td>Evidence Variable in variable role Outcome (MeasuredVariable)</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-EvidenceVariable-population\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  EvidenceVariable-population</td><td>Evidence Variable in variable role Population</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Harms-outcomes\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Harms-outcomes</td><td>Harms outcomes</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Header\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Header</td><td>Header</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Intervention-group-alone-Evidence\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Intervention-group-alone-Evidence</td><td>Evidence Results for the intervention exposure only</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Intervention-vs-Control-Evidence\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Intervention-vs-Control-Evidence</td><td>Evidence Results for comparison of Intervention and Control</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Reasons\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Reasons</td><td>Reasons</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-References\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  References</td><td>References</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Row-Headers\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Row-Headers</td><td>Row Headers</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-SampleSize\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  SampleSize</td><td>Sample Size</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-SummaryOfBodyOfEvidenceFindings\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  SummaryOfBodyOfEvidenceFindings</td><td>Summary of Body of Evidence Findings</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-SummaryOfIndividualStudyFindings\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  SummaryOfIndividualStudyFindings</td><td>Summary of Individual Study Findings</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Table\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Table</td><td>Table</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Tables\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Tables</td><td>Tables</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Text-Summary\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Text-Summary</td><td>Text Summary</td></tr><tr><td><a name=\"R5-evidence-report-section-for-R4-http://hl7.org/fhir/evidence-report-section-Warnings\"> </a><code>http://hl7.org/fhir/evidence-report-section</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  Warnings</td><td>Warnings</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-evidence-report-section-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-evidence-report-section-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5EvidenceReportSectionForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.ReportSectionType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/evidence-report-section|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/evidence-report-section|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `EvidenceReport.section.focus` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/evidence-report-section|5.0.0`\n* `http://hl7.org/fhir/ValueSet/evidence-report-section|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (28)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "Assertion" ] ;
+         fhir:display [ fhir:v "Assertion" ]
+       ] [
+         fhir:code [ fhir:v "Certainty-of-Evidence" ] ;
+         fhir:display [ fhir:v "Certainty of Evidence" ]
+       ] [
+         fhir:code [ fhir:v "Column-Header" ] ;
+         fhir:display [ fhir:v "Column Header" ]
+       ] [
+         fhir:code [ fhir:v "Column-Headers" ] ;
+         fhir:display [ fhir:v "Column Headers" ]
+       ] [
+         fhir:code [ fhir:v "Control-group-alone-Evidence" ] ;
+         fhir:display [ fhir:v "Evidence Results for the control exposure only" ]
+       ] [
+         fhir:code [ fhir:v "Efficacy-outcomes" ] ;
+         fhir:display [ fhir:v "Efficacy-outcomes" ]
+       ] [
+         fhir:code [ fhir:v "Evidence" ] ;
+         fhir:display [ fhir:v "Evidence Results" ]
+       ] [
+         fhir:code [ fhir:v "Evidence-Classifier" ] ;
+         fhir:display [ fhir:v "Evidence Classifier section" ]
+       ] [
+         fhir:code [ fhir:v "EvidenceVariable" ] ;
+         fhir:display [ fhir:v "Evidence Variables used" ]
+       ] [
+         fhir:code [ fhir:v "EvidenceVariable-exposure" ] ;
+         fhir:display [ fhir:v "Evidence Variable in variable role Exposure" ]
+       ] [
+         fhir:code [ fhir:v "EvidenceVariable-intended" ] ;
+         fhir:display [ fhir:v "Evidence Variables intended for interpretation" ]
+       ] [
+         fhir:code [ fhir:v "EvidenceVariable-observed" ] ;
+         fhir:display [ fhir:v "Evidence Variables actually observed" ]
+       ] [
+         fhir:code [ fhir:v "EvidenceVariable-outcome" ] ;
+         fhir:display [ fhir:v "Evidence Variable in variable role Outcome (MeasuredVariable)" ]
+       ] [
+         fhir:code [ fhir:v "EvidenceVariable-population" ] ;
+         fhir:display [ fhir:v "Evidence Variable in variable role Population" ]
+       ] [
+         fhir:code [ fhir:v "Harms-outcomes" ] ;
+         fhir:display [ fhir:v "Harms outcomes" ]
+       ] [
+         fhir:code [ fhir:v "Header" ] ;
+         fhir:display [ fhir:v "Header" ]
+       ] [
+         fhir:code [ fhir:v "Intervention-group-alone-Evidence" ] ;
+         fhir:display [ fhir:v "Evidence Results for the intervention exposure only" ]
+       ] [
+         fhir:code [ fhir:v "Intervention-vs-Control-Evidence" ] ;
+         fhir:display [ fhir:v "Evidence Results for comparison of Intervention and Control" ]
+       ] [
+         fhir:code [ fhir:v "Reasons" ] ;
+         fhir:display [ fhir:v "Reasons" ]
+       ] [
+         fhir:code [ fhir:v "References" ] ;
+         fhir:display [ fhir:v "References" ]
+       ] [
+         fhir:code [ fhir:v "Row-Headers" ] ;
+         fhir:display [ fhir:v "Row Headers" ]
+       ] [
+         fhir:code [ fhir:v "SampleSize" ] ;
+         fhir:display [ fhir:v "Sample Size" ]
+       ] [
+         fhir:code [ fhir:v "SummaryOfBodyOfEvidenceFindings" ] ;
+         fhir:display [ fhir:v "Summary of Body of Evidence Findings" ]
+       ] [
+         fhir:code [ fhir:v "SummaryOfIndividualStudyFindings" ] ;
+         fhir:display [ fhir:v "Summary of Individual Study Findings" ]
+       ] [
+         fhir:code [ fhir:v "Table" ] ;
+         fhir:display [ fhir:v "Table" ]
+       ] [
+         fhir:code [ fhir:v "Tables" ] ;
+         fhir:display [ fhir:v "Tables" ]
+       ] [
+         fhir:code [ fhir:v "Text-Summary" ] ;
+         fhir:display [ fhir:v "Text Summary" ]
+       ] [
+         fhir:code [ fhir:v "Warnings" ] ;
+         fhir:display [ fhir:v "Warnings" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Assertion" ] ;
+       fhir:display [ fhir:v "Assertion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Certainty-of-Evidence" ] ;
+       fhir:display [ fhir:v "Certainty of Evidence" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Column-Header" ] ;
+       fhir:display [ fhir:v "Column Header" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Column-Headers" ] ;
+       fhir:display [ fhir:v "Column Headers" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Control-group-alone-Evidence" ] ;
+       fhir:display [ fhir:v "Evidence Results for the control exposure only" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Efficacy-outcomes" ] ;
+       fhir:display [ fhir:v "Efficacy-outcomes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Evidence" ] ;
+       fhir:display [ fhir:v "Evidence Results" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Evidence-Classifier" ] ;
+       fhir:display [ fhir:v "Evidence Classifier section" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "EvidenceVariable" ] ;
+       fhir:display [ fhir:v "Evidence Variables used" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "EvidenceVariable-exposure" ] ;
+       fhir:display [ fhir:v "Evidence Variable in variable role Exposure" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "EvidenceVariable-intended" ] ;
+       fhir:display [ fhir:v "Evidence Variables intended for interpretation" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "EvidenceVariable-observed" ] ;
+       fhir:display [ fhir:v "Evidence Variables actually observed" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "EvidenceVariable-outcome" ] ;
+       fhir:display [ fhir:v "Evidence Variable in variable role Outcome (MeasuredVariable)" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "EvidenceVariable-population" ] ;
+       fhir:display [ fhir:v "Evidence Variable in variable role Population" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Harms-outcomes" ] ;
+       fhir:display [ fhir:v "Harms outcomes" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Header" ] ;
+       fhir:display [ fhir:v "Header" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Intervention-group-alone-Evidence" ] ;
+       fhir:display [ fhir:v "Evidence Results for the intervention exposure only" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Intervention-vs-Control-Evidence" ] ;
+       fhir:display [ fhir:v "Evidence Results for comparison of Intervention and Control" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Reasons" ] ;
+       fhir:display [ fhir:v "Reasons" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "References" ] ;
+       fhir:display [ fhir:v "References" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Row-Headers" ] ;
+       fhir:display [ fhir:v "Row Headers" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SampleSize" ] ;
+       fhir:display [ fhir:v "Sample Size" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SummaryOfBodyOfEvidenceFindings" ] ;
+       fhir:display [ fhir:v "Summary of Body of Evidence Findings" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "SummaryOfIndividualStudyFindings" ] ;
+       fhir:display [ fhir:v "Summary of Individual Study Findings" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Table" ] ;
+       fhir:display [ fhir:v "Table" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Tables" ] ;
+       fhir:display [ fhir:v "Tables" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Text-Summary" ] ;
+       fhir:display [ fhir:v "Text Summary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/evidence-report-section"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/evidence-report-section>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "Warnings" ] ;
+       fhir:display [ fhir:v "Warnings" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

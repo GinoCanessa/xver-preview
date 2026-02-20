@@ -24,19 +24,19 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.extension:severity","AuditEvent.extension","severity","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.severity|0.0.1-snapshot-3]]} {[]}
+"AuditEvent.extension:severity","AuditEvent.extension","severity","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.severity]]} {[]}
 ","Cross-version extension for AuditEvent.severity from R5 for use in FHIR R4","Indicates and enables segmentation of various severity including debugging from critical.","Element `AuditEvent.severity` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.extension:basedOn","AuditEvent.extension","basedOn","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"AuditEvent.extension:basedOn","AuditEvent.extension","basedOn","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for AuditEvent.basedOn from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CarePlan,http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation,http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/ServiceRequest,http://hl7.org/fhir/StructureDefinition/Task in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `AuditEvent.basedOn` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.extension:patient","AuditEvent.extension","patient","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"AuditEvent.extension:patient","AuditEvent.extension","patient","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for AuditEvent.patient from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `AuditEvent.patient` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.extension:encounter","AuditEvent.extension","encounter","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"AuditEvent.extension:encounter","AuditEvent.extension","encounter","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for AuditEvent.encounter from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AuditEvent.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `AuditEvent.encounter` has a context of AuditEvent based on following the parent source element upwards and mapping to `AuditEvent`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -55,7 +55,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.type.extension:category","AuditEvent.type.extension","category","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.category|0.0.1-snapshot-3]]} {[]}
+"AuditEvent.type.extension:category","AuditEvent.type.extension","category","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.category]]} {[]}
 ","Cross-version extension for AuditEvent.category from R5 for use in FHIR R4","Classification of the type of event.","Element `AuditEvent.category` has is mapped to FHIR R4 element `AuditEvent.type`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "AuditEvent.type.system","AuditEvent.type.system","","","",0,1,"","","Y","uri {[]} {[]}
@@ -82,7 +82,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.subtype.extension:code","AuditEvent.subtype.extension","code","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.code|0.0.1-snapshot-3]]} {[]}
+"AuditEvent.subtype.extension:code","AuditEvent.subtype.extension","code","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.code]]} {[]}
 ","Cross-version extension for AuditEvent.code from R5 for use in FHIR R4","Describes what happened. The most specific code for the event.","Element `AuditEvent.code` has is mapped to FHIR R4 element `AuditEvent.subtype`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "AuditEvent.subtype.system","AuditEvent.subtype.system","","","",0,1,"","","Y","uri {[]} {[]}
@@ -112,7 +112,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.period.extension:occurred","AuditEvent.period.extension","occurred","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.occurred|0.0.1-snapshot-3]]} {[]}
+"AuditEvent.period.extension:occurred","AuditEvent.period.extension","occurred","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.occurred]]} {[]}
 ","Cross-version extension for AuditEvent.occurred[x] from R5 for use in FHIR R4","The time or period during which the activity occurred.","Element `AuditEvent.occurred[x]` has is mapped to FHIR R4 element `AuditEvent.period`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "AuditEvent.period.start","AuditEvent.period.start","","","",0,1,"","","Y","dateTime {[]} {[]}
@@ -135,7 +135,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.outcome.extension:outcome","AuditEvent.outcome.extension","outcome","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome|0.0.1-snapshot-3]]} {[]}
+"AuditEvent.outcome.extension:outcome","AuditEvent.outcome.extension","outcome","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.outcome]]} {[]}
 ","Cross-version extension for AuditEvent.outcome from R5 for use in FHIR R4","Indicates whether the event succeeded or failed. A free text descripiton can be given in outcome.text.","Element `AuditEvent.outcome` has is mapped to FHIR R4 element `AuditEvent.outcome`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -145,7 +145,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Description of the event outcome","A free text description of the outcome of the event.","","","","","","","","","",,,,,"",,,,"AuditEvent.outcomeDesc",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=OUT].target.text","EventOutcomeDescription","FiveWs.what[x]"
 "AuditEvent.purposeOfEvent","AuditEvent.purposeOfEvent","","","",0,*,"","","Y","CodeableConcept {[]} {[]}
-","The purposeOfUse of the event","The purposeOfUse (reason) that was used during the event being recorded.","Use AuditEvent.agent.purposeOfUse when you know that it is specific to the agent, otherwise use AuditEvent.purposeOfEvent. For example, during a machine-to-machine transfer it might not be obvious to the audit system who caused the event, but it does know why.","","","","","","","","",,"extensible","The reason the activity took place.","http://terminology.hl7.org/ValueSet/v3-PurposeOfUse|3.1.0","",,,,"AuditEvent.purposeOfEvent",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","The purposeOfUse of the event","The purposeOfUse (reason) that was used during the event being recorded.","Use AuditEvent.agent.purposeOfUse when you know that it is specific to the agent, otherwise use AuditEvent.purposeOfEvent. For example, during a machine-to-machine transfer it might not be obvious to the audit system who caused the event, but it does know why.","","","","","","","","",,"extensible","The reason the activity took place.","http://terminology.hl7.org/ValueSet/v3-PurposeOfUse","",,,,"AuditEvent.purposeOfEvent",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.reasonCode","* .reasonCode [ControlActReason when Act.class = CACT Control Act]
 *.outboundRelationship[typeCode=RSON].target","EventPurposeOfUse","FiveWs.why[x]","Activity.Activity","Provenance.reason, Provenance.activity"
 "AuditEvent.agent","AuditEvent.agent","","ActiveParticipant
@@ -160,7 +160,7 @@ For example, an activity may be initiated by one user for other users or involve
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.agent.extension:agent","AuditEvent.agent.extension","agent","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent|0.0.1-snapshot-3]]} {[]}
+"AuditEvent.agent.extension:agent","AuditEvent.agent.extension","agent","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.agent]]} {[]}
 ","Cross-version extension for AuditEvent.agent from R5 for use in FHIR R4","An actor taking an active role in the event or activity that is logged.","Element `AuditEvent.agent` has is mapped to FHIR R4 element `AuditEvent.agent`, but has no comparisons.
 Note available implied context: `AuditEvent.entity.agent` because `AuditEvent.entity.agent` is defined as a content reference to `AuditEvent.agent`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -224,7 +224,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","The type of network access point","An identifier for the type of network access point that originated the audit event.","","This datum identifies the type of network access point identifier of the user device for the audit event. It is an optional value that may be used to group events recorded on separate servers for analysis of access according to a network access point's type.","","","","","","","",,"required","The type of network access point of this agent in the audit event.","http://hl7.org/fhir/ValueSet/network-type|4.0.1","",,,,"AuditEvent.agent.network.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","pre-coordinated into URL","NetworkAccessPointTypeCode","FiveWs.where[x]"
 "AuditEvent.agent.purposeOfUse","AuditEvent.agent.purposeOfUse","","","",0,*,"","","","CodeableConcept {[]} {[]}
-","Reason given for this user","The reason (purpose of use), specific to this agent, that was used during the event being recorded.","Use AuditEvent.agent.purposeOfUse when you know that is specific to the agent, otherwise use AuditEvent.purposeOfEvent. For example, during a machine-to-machine transfer it might not be obvious to the audit system who caused the event, but it does know why.","","","","","","","","",,"extensible","The reason the activity took place.","http://terminology.hl7.org/ValueSet/v3-PurposeOfUse|3.1.0","",,,,"AuditEvent.agent.purposeOfUse",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Reason given for this user","The reason (purpose of use), specific to this agent, that was used during the event being recorded.","Use AuditEvent.agent.purposeOfUse when you know that is specific to the agent, otherwise use AuditEvent.purposeOfEvent. For example, during a machine-to-machine transfer it might not be obvious to the audit system who caused the event, but it does know why.","","","","","","","","",,"extensible","The reason the activity took place.","http://terminology.hl7.org/ValueSet/v3-PurposeOfUse","",,,,"AuditEvent.agent.purposeOfUse",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","*.reasonCode [ActHealthInformationPurposeOfUseReason codes/v:PurposeOfUse
 (2.16.840.1.113883.1.11.20448)
 * .outboundRelationship[typeCode=RSON or SUBJ].target","FiveWs.why[x]","Agent.Activity"
@@ -237,7 +237,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.source.extension:source","AuditEvent.source.extension","source","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source|0.0.1-snapshot-3]]} {[]}
+"AuditEvent.source.extension:source","AuditEvent.source.extension","source","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.source]]} {[]}
 ","Cross-version extension for AuditEvent.source from R5 for use in FHIR R4","The actor that is reporting the event.","Element `AuditEvent.source` has is mapped to FHIR R4 element `AuditEvent.source`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -267,7 +267,7 @@ sev-1:Either a name or a query (NOT both) {name.empty() or query.empty()}",".out
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"AuditEvent.entity.extension:entity","AuditEvent.entity.extension","entity","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity|0.0.1-snapshot-3]]} {[]}
+"AuditEvent.entity.extension:entity","AuditEvent.entity.extension","entity","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-AuditEvent.entity]]} {[]}
 ","Cross-version extension for AuditEvent.entity from R5 for use in FHIR R4","Specific instances of data or objects that have been accessed.","Element `AuditEvent.entity` has is mapped to FHIR R4 element `AuditEvent.entity`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="Map-R5-study-type-for-R4"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ConceptMap Map-R5-study-type-for-R4</b></p><a name="Map-R5-study-type-for-R4"> </a><a name="hcMap-R5-study-type-for-R4"> </a><p>Mapping from http://terminology.hl7.org/ValueSet/study-type|0.1.0 to <a href="http://hl7.org/fhir/R4/valueset-study-type.html">StudyType</a></p><br/><p><b>Group 1 </b>Mapping from <a href="http://terminology.hl7.org/7.0.1/CodeSystem-study-type.html">StatisticStudyType</a> to <a href="http://terminology.hl7.org/7.0.1/CodeSystem-study-type.html">StatisticStudyType</a></p><table class="grid"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CCT (controlled trial (non-randomized))</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>CCT (controlled trial (non-randomized))</td><td>TODO</td></tr><tr><td>RCT (randomized trial)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>RCT (randomized trial)</td><td>TODO</td></tr><tr><td>case-control (case-control study)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>case-control (case-control study)</td><td>TODO</td></tr><tr><td>case-report</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>case-report</td><td>TODO</td></tr><tr><td>cohort (comparative cohort study)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>cohort (comparative cohort study)</td><td>TODO</td></tr><tr><td>series (uncontrolled case series)</td><td><a href="http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent" title="equivalent">is equivalent to</a></td><td>series (uncontrolled cohort or case series)</td><td>TODO</td></tr><tr><td>RCTandCohort (mixed RCT and cohort)</td><td colspan="3" style="background-color: #efefef">(not mapped)</td></tr><tr><td>cross-section (cross sectional study)</td><td colspan="3" style="background-color: #efefef">(not mapped)</td></tr></table></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-wg">
+    <valueCode value="fhir"/>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm">
+    <valueInteger value="0">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueInteger>
+  </extension>
+  <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status">
+    <valueCode value="trial-use">
+      <extension url="http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom">
+        <valueCanonical value="http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"/>
+      </extension>
+    </valueCode>
+  </extension>
+  <url value="http://hl7.org/fhir/uv/xver/ConceptMap/R5-study-type-for-R4"/>
+  <version value="0.0.1-snapshot-3"/>
+  <name value="MapR5StudyTypeForR4"/>
+  <title value="Cross-version ConceptMap for ValueSet R5-study-type-for-R4 from FHIR R5 to FHIR R4"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2026-02-20T11:59:14.26643-06:00"/>
+  <publisher value="FHIR Infrastructure"/>
+  <contact>
+    <name value="FHIR Infrastructure"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://www.hl7.org/Special/committees/fiwg"/>
+    </telecom>
+  </contact>
+  <description value="This ConceptMap represents the cross-version mapping of concepts from ValueSet `http://terminology.hl7.org/ValueSet/study-type|0.1.0` for use in FHIR R4."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="001"/>
+      <display value="World"/>
+    </coding>
+  </jurisdiction>
+  <sourceUri value="http://terminology.hl7.org/ValueSet/study-type|0.1.0"/>
+  <targetUri value="http://hl7.org/fhir/ValueSet/study-type|4.0.1"/>
+  <group>
+    <source value="http://terminology.hl7.org/CodeSystem/study-type"/>
+    <target value="http://terminology.hl7.org/CodeSystem/study-type"/>
+    <element>
+      <code value="CCT"/>
+      <display value="controlled trial (non-randomized)"/>
+      <target>
+        <code value="CCT"/>
+        <display value="controlled trial (non-randomized)"/>
+        <equivalence value="equivalent"/>
+        <comment value="TODO"/>
+      </target>
+    </element>
+    <element>
+      <code value="RCT"/>
+      <display value="randomized trial"/>
+      <target>
+        <code value="RCT"/>
+        <display value="randomized trial"/>
+        <equivalence value="equivalent"/>
+        <comment value="TODO"/>
+      </target>
+    </element>
+    <element>
+      <code value="case-control"/>
+      <display value="case-control study"/>
+      <target>
+        <code value="case-control"/>
+        <display value="case-control study"/>
+        <equivalence value="equivalent"/>
+        <comment value="TODO"/>
+      </target>
+    </element>
+    <element>
+      <code value="case-report"/>
+      <display value="case report"/>
+      <target>
+        <code value="case-report"/>
+        <display value="case report"/>
+        <equivalence value="equivalent"/>
+        <comment value="TODO"/>
+      </target>
+    </element>
+    <element>
+      <code value="cohort"/>
+      <display value="comparative cohort study"/>
+      <target>
+        <code value="cohort"/>
+        <display value="comparative cohort study"/>
+        <equivalence value="equivalent"/>
+        <comment value="TODO"/>
+      </target>
+    </element>
+    <element>
+      <code value="series"/>
+      <display value="uncontrolled case series"/>
+      <target>
+        <code value="series"/>
+        <display value="uncontrolled cohort or case series"/>
+        <equivalence value="equivalent"/>
+        <comment value="TODO"/>
+      </target>
+    </element>
+    <element>
+      <code value="RCTandCohort"/>
+      <display value="mixed RCT and cohort"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="cross-section"/>
+      <display value="cross sectional study"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

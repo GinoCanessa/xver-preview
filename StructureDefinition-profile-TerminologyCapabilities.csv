@@ -24,13 +24,17 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TerminologyCapabilities.extension:versionAlgorithm","TerminologyCapabilities.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.versionAlgorithm|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for TerminologyCapabilities.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Element `TerminologyCapabilities.versionAlgorithm[x]` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"TerminologyCapabilities.extension:copyrightLabel","TerminologyCapabilities.extension","copyrightLabel","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel]]} {[]}
+","Cross-version extension for TerminologyCapabilities.copyrightLabel from R5 for use in FHIR R4","A short string (<50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TerminologyCapabilities.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.
+Element `TerminologyCapabilities.copyrightLabel` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TerminologyCapabilities.extension:copyrightLabel","TerminologyCapabilities.extension","copyrightLabel","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.copyrightLabel|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for TerminologyCapabilities.copyrightLabel from R5 for use in FHIR R4","A short string (<50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').","Element `TerminologyCapabilities.copyrightLabel` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"TerminologyCapabilities.extension:identifier","TerminologyCapabilities.extension","identifier","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-identifier]]} {[]}
+","Cross-version extension for TerminologyCapabilities.identifier from R5 for use in FHIR R4","A formal identifier that is used to identify this artifact when it is represented in other formats, or referenced in a specification, model, design or an instance.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TerminologyCapabilities.identifier`: `http://hl7.org/fhir/StructureDefinition/artifact-identifier`.
+Element `TerminologyCapabilities.identifier` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"TerminologyCapabilities.extension:versionAlgorithm","TerminologyCapabilities.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm]]} {[]}
+","Cross-version extension for TerminologyCapabilities.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `TerminologyCapabilities.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.
+Element `TerminologyCapabilities.versionAlgorithm[x]` has a context of TerminologyCapabilities based on following the parent source element upwards and mapping to `TerminologyCapabilities`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "TerminologyCapabilities.modifierExtension","TerminologyCapabilities.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
@@ -101,7 +105,7 @@ tcp-4tcp-5","ele-1:All FHIR elements must have a @value or children {hasValue() 
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TerminologyCapabilities.software.extension:software","TerminologyCapabilities.software.extension","software","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.software|0.0.1-snapshot-3]]} {[]}
+"TerminologyCapabilities.software.extension:software","TerminologyCapabilities.software.extension","software","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.software]]} {[]}
 ","Cross-version extension for TerminologyCapabilities.software from R5 for use in FHIR R4","Software that is covered by this terminology capability statement.  It is used when the statement describes the capabilities of a particular software version, independent of an installation.","Element `TerminologyCapabilities.software` has is mapped to FHIR R4 element `TerminologyCapabilities.software`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -127,7 +131,7 @@ tcp-5","ele-1:All FHIR elements must have a @value or children {hasValue() or (c
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TerminologyCapabilities.implementation.extension:implementation","TerminologyCapabilities.implementation.extension","implementation","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.implementation|0.0.1-snapshot-3]]} {[]}
+"TerminologyCapabilities.implementation.extension:implementation","TerminologyCapabilities.implementation.extension","implementation","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.implementation]]} {[]}
 ","Cross-version extension for TerminologyCapabilities.implementation from R5 for use in FHIR R4","Identifies a specific implementation instance that is described by the terminology capability statement - i.e. a particular installation, rather than the capabilities of a software program.","Element `TerminologyCapabilities.implementation` has is mapped to FHIR R4 element `TerminologyCapabilities.implementation`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -156,7 +160,7 @@ tcp-1:If there is more than one version, a version code must be defined {version
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TerminologyCapabilities.codeSystem.extension:codeSystem","TerminologyCapabilities.codeSystem.extension","codeSystem","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSystem|0.0.1-snapshot-3]]} {[]}
+"TerminologyCapabilities.codeSystem.extension:codeSystem","TerminologyCapabilities.codeSystem.extension","codeSystem","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSystem]]} {[]}
 ","Cross-version extension for TerminologyCapabilities.codeSystem from R5 for use in FHIR R4","Identifies a code system that is supported by the server. If there is a no code system URL, then this declares the general assumptions a client can make about support for any CodeSystem resource.","Element `TerminologyCapabilities.codeSystem` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSystem`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -233,7 +237,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TerminologyCapabilities.expansion.extension:expansion","TerminologyCapabilities.expansion.extension","expansion","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.expansion|0.0.1-snapshot-3]]} {[]}
+"TerminologyCapabilities.expansion.extension:expansion","TerminologyCapabilities.expansion.extension","expansion","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.expansion]]} {[]}
 ","Cross-version extension for TerminologyCapabilities.expansion from R5 for use in FHIR R4","Information about the [ValueSet/$expand](https://hl7.org/fhir/valueset-operation-expand.html) operation.","Element `TerminologyCapabilities.expansion` has is mapped to FHIR R4 element `TerminologyCapabilities.expansion`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -285,7 +289,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TerminologyCapabilities.codeSearch.extension:codeSearch","TerminologyCapabilities.codeSearch.extension","codeSearch","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSearch|0.0.1-snapshot-3]]} {[]}
+"TerminologyCapabilities.codeSearch.extension:codeSearch","TerminologyCapabilities.codeSearch.extension","codeSearch","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.codeSearch]]} {[]}
 ","Cross-version extension for TerminologyCapabilities.codeSearch from R5 for use in FHIR R4","The degree to which the server supports the code search parameter on ValueSet, if it is supported.","Element `TerminologyCapabilities.codeSearch` has is mapped to FHIR R4 element `TerminologyCapabilities.codeSearch`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -300,7 +304,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TerminologyCapabilities.validateCode.extension:validateCode","TerminologyCapabilities.validateCode.extension","validateCode","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.validateCode|0.0.1-snapshot-3]]} {[]}
+"TerminologyCapabilities.validateCode.extension:validateCode","TerminologyCapabilities.validateCode.extension","validateCode","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.validateCode]]} {[]}
 ","Cross-version extension for TerminologyCapabilities.validateCode from R5 for use in FHIR R4","Information about the [ValueSet/$validate-code](https://hl7.org/fhir/valueset-operation-validate-code.html) operation.","Element `TerminologyCapabilities.validateCode` has is mapped to FHIR R4 element `TerminologyCapabilities.validateCode`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -322,7 +326,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TerminologyCapabilities.translation.extension:translation","TerminologyCapabilities.translation.extension","translation","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.translation|0.0.1-snapshot-3]]} {[]}
+"TerminologyCapabilities.translation.extension:translation","TerminologyCapabilities.translation.extension","translation","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.translation]]} {[]}
 ","Cross-version extension for TerminologyCapabilities.translation from R5 for use in FHIR R4","Information about the [ConceptMap/$translate](https://hl7.org/fhir/conceptmap-operation-translate.html) operation.","Element `TerminologyCapabilities.translation` has is mapped to FHIR R4 element `TerminologyCapabilities.translation`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -344,7 +348,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"TerminologyCapabilities.closure.extension:closure","TerminologyCapabilities.closure.extension","closure","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.closure|0.0.1-snapshot-3]]} {[]}
+"TerminologyCapabilities.closure.extension:closure","TerminologyCapabilities.closure.extension","closure","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-TerminologyCapabilities.closure]]} {[]}
 ","Cross-version extension for TerminologyCapabilities.closure from R5 for use in FHIR R4","Whether the $closure operation is supported.","Element `TerminologyCapabilities.closure` has is mapped to FHIR R4 element `TerminologyCapabilities.closure`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

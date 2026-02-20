@@ -74,7 +74,7 @@ ServicePractitionerDepartmentCompanyPerformer","",0,1,"","","Y","Reference {[]} 
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"QuestionnaireResponse.source.extension:source","QuestionnaireResponse.source.extension","source","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"QuestionnaireResponse.source.extension:source","QuestionnaireResponse.source.extension","source","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for QuestionnaireResponse.source from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Device,http://hl7.org/fhir/StructureDefinition/Organization in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `QuestionnaireResponse.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `QuestionnaireResponse.source` has is mapped to FHIR R4 element `QuestionnaireResponse.source`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -108,7 +108,7 @@ qrs-1:Nested item can't be beneath both item and answer {(answer.exists() and it
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"QuestionnaireResponse.item.extension:item","QuestionnaireResponse.item.extension","item","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item|0.0.1-snapshot-3]]} {[]}
+"QuestionnaireResponse.item.extension:item","QuestionnaireResponse.item.extension","item","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item]]} {[]}
 ","Cross-version extension for QuestionnaireResponse.item from R5 for use in FHIR R4","A group or question item from the original questionnaire for which answers are provided.","Element `QuestionnaireResponse.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item`, but has no comparisons.
 Note available implied context: `QuestionnaireResponse.item.answer.item` because `QuestionnaireResponse.item.answer.item` is defined as a content reference to `QuestionnaireResponse.item`.
 Note available implied context: `QuestionnaireResponse.item.item` because `QuestionnaireResponse.item.item` is defined as a content reference to `QuestionnaireResponse.item`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1

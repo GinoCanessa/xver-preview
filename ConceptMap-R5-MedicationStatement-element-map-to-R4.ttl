@@ -1,0 +1,326 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicationStatement-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-MedicationStatement-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-MedicationStatement-element-map-to-R4</b></p><a name=\"R5-MedicationStatement-element-map-to-R4\"> </a><a name=\"hcR5-MedicationStatement-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationStatement|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/medicationstatement.html\">MedicationStatementversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/MedicationStatement|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/MedicationStatement|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.meta` has is mapped to FHIR R4 element `MedicationStatement.meta`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.implicitRules` has is mapped to FHIR R4 element `MedicationStatement.implicitRules`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.language` has is mapped to FHIR R4 element `MedicationStatement.language`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.text` has is mapped to FHIR R4 element `MedicationStatement.text`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.contained` has is mapped to FHIR R4 element `MedicationStatement.contained`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.identifier` has is mapped to FHIR R4 element `MedicationStatement.identifier`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.partOf</td><td style=\"border-left-width: 0px\">partOf</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.partOf` has is mapped to FHIR R4 element `MedicationStatement.partOf`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.status` has is mapped to FHIR R4 element `MedicationStatement.status`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.category</td><td style=\"border-left-width: 0px\">category</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.category` has is mapped to FHIR R4 element `MedicationStatement.category`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.medication</td><td style=\"border-left-width: 0px\">medication</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Note that the target element context `MedicationStatement.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.medication` has is mapped to FHIR R4 element `MedicationStatement.medication[x]`, but has no comparisons.\nNote that the target element context `MedicationStatement.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.subject</td><td style=\"border-left-width: 0px\">subject</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.subject` has is mapped to FHIR R4 element `MedicationStatement.subject`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.encounter</td><td style=\"border-left-width: 0px\">encounter</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.encounter` has is mapped to FHIR R4 element `MedicationStatement.context`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.effective[x]</td><td style=\"border-left-width: 0px\">effective[x]</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Note that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.effective[x]` has is mapped to FHIR R4 element `MedicationStatement.effective[x]`, but has no comparisons.\nNote that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.dateAsserted</td><td style=\"border-left-width: 0px\">dateAsserted</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.dateAsserted` has is mapped to FHIR R4 element `MedicationStatement.dateAsserted`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.informationSource</td><td style=\"border-left-width: 0px\">informationSource</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.informationSource` has is mapped to FHIR R4 element `MedicationStatement.informationSource`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.derivedFrom</td><td style=\"border-left-width: 0px\">derivedFrom</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.derivedFrom` has is mapped to FHIR R4 element `MedicationStatement.derivedFrom`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MedicationStatement.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.reason` has is mapped to FHIR R4 element `MedicationStatement.reasonCode`, but has no comparisons.\nElement `MedicationStatement.reason` has is mapped to FHIR R4 element `MedicationStatement.reasonReference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.reason` has is mapped to FHIR R4 element `MedicationStatement.reasonCode`, but has no comparisons.\nElement `MedicationStatement.reason` has is mapped to FHIR R4 element `MedicationStatement.reasonReference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.note` has is mapped to FHIR R4 element `MedicationStatement.note`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MedicationStatement.dosage</td><td style=\"border-left-width: 0px\">dosage</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `MedicationStatement.dosage` has is mapped to FHIR R4 element `MedicationStatement.dosage`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationStatement|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicationStatement.effective[x] (effective[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.effective</td><td>Note that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.effective[x]` has is mapped to FHIR R4 element `MedicationStatement.effective[x]`, but has no comparisons.\nNote that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.</td></tr><tr><td>MedicationStatement.renderedDosageInstruction (renderedDosageInstruction)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.renderedDosageInstruction</td><td>Element `MedicationStatement.renderedDosageInstruction` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.</td></tr><tr><td>MedicationStatement.adherence (adherence)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence</td><td>Element `MedicationStatement.adherence` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.</td></tr><tr><td>MedicationStatement.adherence.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence.code</td><td>Element `MedicationStatement.adherence.code` is part of an existing definition because parent element `MedicationStatement.adherence` requires a cross-version extension.\nElement `MedicationStatement.adherence.code` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.</td></tr><tr><td>MedicationStatement.adherence.reason (reason)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence.reason</td><td>Element `MedicationStatement.adherence.reason` is part of an existing definition because parent element `MedicationStatement.adherence` requires a cross-version extension.\nElement `MedicationStatement.adherence.reason` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationStatement|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicationStatement.relatedClinicalInformation (relatedClinicalInformation)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationStatement.relatedClinicalInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationStatement.relatedClinicalInformation` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicationStatement-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicationStatement-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5MedicationStatementElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 MedicationStatement to FHIR R4 MedicationStatement"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:25.0153567-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 MedicationStatement to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationStatement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicationStatement>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationStatement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicationStatement>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicationStatement.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.meta` has is mapped to FHIR R4 element `MedicationStatement.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.implicitRules` has is mapped to FHIR R4 element `MedicationStatement.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.language` has is mapped to FHIR R4 element `MedicationStatement.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.text` has is mapped to FHIR R4 element `MedicationStatement.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.contained` has is mapped to FHIR R4 element `MedicationStatement.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.identifier` has is mapped to FHIR R4 element `MedicationStatement.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.partOf` has is mapped to FHIR R4 element `MedicationStatement.partOf`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.status` has is mapped to FHIR R4 element `MedicationStatement.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.category` has is mapped to FHIR R4 element `MedicationStatement.category`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.medication" ] ;
+       fhir:display [ fhir:v "medication" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MedicationStatement.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.medication` has is mapped to FHIR R4 element `MedicationStatement.medication[x]`, but has no comparisons.\nNote that the target element context `MedicationStatement.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.subject` has is mapped to FHIR R4 element `MedicationStatement.subject`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.encounter` has is mapped to FHIR R4 element `MedicationStatement.context`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.effective[x]" ] ;
+       fhir:display [ fhir:v "effective[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.effective[x]` has is mapped to FHIR R4 element `MedicationStatement.effective[x]`, but has no comparisons.\nNote that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.dateAsserted" ] ;
+       fhir:display [ fhir:v "dateAsserted" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.dateAsserted` has is mapped to FHIR R4 element `MedicationStatement.dateAsserted`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.informationSource" ] ;
+       fhir:display [ fhir:v "informationSource" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.informationSource` has is mapped to FHIR R4 element `MedicationStatement.informationSource`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.derivedFrom" ] ;
+       fhir:display [ fhir:v "derivedFrom" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.derivedFrom` has is mapped to FHIR R4 element `MedicationStatement.derivedFrom`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.reason` has is mapped to FHIR R4 element `MedicationStatement.reasonCode`, but has no comparisons.\nElement `MedicationStatement.reason` has is mapped to FHIR R4 element `MedicationStatement.reasonReference`, but has no comparisons." ]
+       ] [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.reason` has is mapped to FHIR R4 element `MedicationStatement.reasonCode`, but has no comparisons.\nElement `MedicationStatement.reason` has is mapped to FHIR R4 element `MedicationStatement.reasonReference`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.note` has is mapped to FHIR R4 element `MedicationStatement.note`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.dosage" ] ;
+       fhir:display [ fhir:v "dosage" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.dosage` has is mapped to FHIR R4 element `MedicationStatement.dosage`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationStatement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicationStatement>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicationStatement.effective[x]" ] ;
+       fhir:display [ fhir:v "effective[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.effective" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`.\nElement `MedicationStatement.effective[x]` has is mapped to FHIR R4 element `MedicationStatement.effective[x]`, but has no comparisons.\nNote that the target element context `MedicationStatement.effective[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationStatement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.renderedDosageInstruction" ] ;
+       fhir:display [ fhir:v "renderedDosageInstruction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.renderedDosageInstruction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.renderedDosageInstruction` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.adherence" ] ;
+       fhir:display [ fhir:v "adherence" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.adherence` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.adherence.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence.code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.adherence.code` is part of an existing definition because parent element `MedicationStatement.adherence` requires a cross-version extension.\nElement `MedicationStatement.adherence.code` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationStatement.adherence.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationStatement.adherence.reason" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationStatement.adherence.reason` is part of an existing definition because parent element `MedicationStatement.adherence` requires a cross-version extension.\nElement `MedicationStatement.adherence.reason` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationStatement"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicationStatement>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicationStatement.relatedClinicalInformation" ] ;
+       fhir:display [ fhir:v "relatedClinicalInformation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationStatement.relatedClinicalInformation` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationStatement.relatedClinicalInformation` has a context of MedicationStatement based on following the parent source element upwards and mapping to `MedicationStatement`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

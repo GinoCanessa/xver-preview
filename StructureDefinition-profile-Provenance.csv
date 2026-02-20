@@ -25,15 +25,15 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Provenance.extension:basedOn","Provenance.extension","basedOn","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"Provenance.extension:basedOn","Provenance.extension","basedOn","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for Provenance.basedOn from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/CarePlan,http://hl7.org/fhir/StructureDefinition/DeviceRequest,http://hl7.org/fhir/StructureDefinition/ImmunizationRecommendation,http://hl7.org/fhir/StructureDefinition/MedicationRequest,http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/ServiceRequest,http://hl7.org/fhir/StructureDefinition/Task in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Provenance.basedOn` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Provenance.extension:patient","Provenance.extension","patient","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"Provenance.extension:patient","Provenance.extension","patient","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for Provenance.patient from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.patient` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Provenance.patient` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Provenance.extension:encounter","Provenance.extension","encounter","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"Provenance.extension:encounter","Provenance.extension","encounter","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for Provenance.encounter from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Provenance.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Provenance.encounter` has a context of Provenance based on following the parent source element upwards and mapping to `Provenance`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -59,7 +59,7 @@ dateTime {[]} {[]}","When the activity occurred","The period during which the ac
 ","Where the activity occurred, if relevant","Where the activity occurred, if relevant.","","","","","","","","","",,,,,"",,,,"Provenance.location",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.location","unique(./participation[isNormalParticipation() and typeCode=LOC]/role[isNormalRole() and subsumes(SDLOC, classCode)]/player[isNormalEntity and classCode=""LOC"" and determinerCode=""INST""]","Activity.location","FiveWs.where[x]","AuditEvent.agent.location"
 "Provenance.reason","Provenance.reason","","","",0,*,"","","","CodeableConcept {[]} {[]}
-","Reason the activity is occurring","The reason that the activity was taking place.","","","","","","","","","",,"extensible","The reason the activity took place.","http://terminology.hl7.org/ValueSet/v3-PurposeOfUse|3.1.0","",,,,"Provenance.reason",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Reason the activity is occurring","The reason that the activity was taking place.","","","","","","","","","",,"extensible","The reason the activity took place.","http://terminology.hl7.org/ValueSet/v3-PurposeOfUse","",,,,"Provenance.reason",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.reasonCode","unique(./reasonCode)","Activity.Activity","FiveWs.why[x]","AuditEvent.purposeOfEvent"
 "Provenance.reason.id","Provenance.reason.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"","","n/a"
@@ -67,7 +67,7 @@ dateTime {[]} {[]}","When the activity occurred","The period during which the ac
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Provenance.reason.extension:authorization","Provenance.reason.extension","authorization","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.authorization|0.0.1-snapshot-3]]} {[]}
+"Provenance.reason.extension:authorization","Provenance.reason.extension","authorization","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.authorization]]} {[]}
 ","Cross-version extension for Provenance.authorization from R5 for use in FHIR R4","The authorization (e.g., PurposeOfUse) that was used during the event being recorded.","Element `Provenance.authorization` has is mapped to FHIR R4 element `Provenance.reason`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Provenance.reason.coding","Provenance.reason.coding","","","",0,*,"","","Y","Coding {[]} {[]}
@@ -88,7 +88,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Provenance.agent.extension:agent","Provenance.agent.extension","agent","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.agent|0.0.1-snapshot-3]]} {[]}
+"Provenance.agent.extension:agent","Provenance.agent.extension","agent","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.agent]]} {[]}
 ","Cross-version extension for Provenance.agent from R5 for use in FHIR R4","An actor taking a role in an activity  for which it can be assigned some degree of responsibility for the activity taking place.","Element `Provenance.agent` has is mapped to FHIR R4 element `Provenance.agent`, but has no comparisons.
 Note available implied context: `Provenance.entity.agent` because `Provenance.entity.agent` is defined as a content reference to `Provenance.agent`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -120,7 +120,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Provenance.entity.extension:entity","Provenance.entity.extension","entity","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity|0.0.1-snapshot-3]]} {[]}
+"Provenance.entity.extension:entity","Provenance.entity.extension","entity","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Provenance.entity]]} {[]}
 ","Cross-version extension for Provenance.entity from R5 for use in FHIR R4","An entity used in this activity.","Element `Provenance.entity` has is mapped to FHIR R4 element `Provenance.entity`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

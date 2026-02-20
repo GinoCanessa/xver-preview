@@ -54,25 +54,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "vocab"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://cds-hooks.hl7.org/CodeSystem/indicator"^^xsd:anyURI ;
      fhir:l <http://cds-hooks.hl7.org/CodeSystem/indicator>
   ] ; # 
-  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "Indicator"] ; # 
   fhir:title [ fhir:v "CDS Hooks Indicator"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2026-02-17T15:29:43-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "HL7 International / Terminology Infrastructure"] ; # 
+  fhir:date [ fhir:v "2026-02-20T12:00:12-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "HL7 International / Terminology Infrastructure" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/Vocab" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "This codesystem captures the indicator codes defined by the CDS Hooks specification. The indicator is included as an element of the cards in a CDS Hooks response and conveys the urgency and/or importance of the information in each card. See [Card Attributes](https://cds-hooks.hl7.org/1.0/#card-attributes) in the CDS Hooks specification for more information."] ; # 
@@ -88,8 +88,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://hl7.org/fhir/ValueSet/cdshooks-indicator|4.0.1"^^xsd:anyURI ;
-     fhir:l <http://hl7.org/fhir/ValueSet/cdshooks-indicator?version=4.0.1>
+     fhir:v "http://hl7.org/fhir/ValueSet/cdshooks-indicator"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/cdshooks-indicator>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

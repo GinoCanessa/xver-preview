@@ -1,0 +1,576 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-AdverseEvent-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-AdverseEvent-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-AdverseEvent-element-map-to-R4</b></p><a name=\"R5-AdverseEvent-element-map-to-R4\"> </a><a name=\"hcR5-AdverseEvent-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AdverseEvent|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/adverseevent.html\">AdverseEventversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AdverseEvent.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.meta` has is mapped to FHIR R4 element `AdverseEvent.meta`, but has no comparisons.</td></tr><tr><td>AdverseEvent.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.implicitRules` has is mapped to FHIR R4 element `AdverseEvent.implicitRules`, but has no comparisons.</td></tr><tr><td>AdverseEvent.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.language` has is mapped to FHIR R4 element `AdverseEvent.language`, but has no comparisons.</td></tr><tr><td>AdverseEvent.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.text` has is mapped to FHIR R4 element `AdverseEvent.text`, but has no comparisons.</td></tr><tr><td>AdverseEvent.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.contained` has is mapped to FHIR R4 element `AdverseEvent.contained`, but has no comparisons.</td></tr><tr><td>AdverseEvent.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.identifier` has is mapped to FHIR R4 element `AdverseEvent.identifier`, but has no comparisons.</td></tr><tr><td>AdverseEvent.actuality (actuality)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.actuality` has is mapped to FHIR R4 element `AdverseEvent.actuality`, but has no comparisons.</td></tr><tr><td>AdverseEvent.category (category)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.category` has is mapped to FHIR R4 element `AdverseEvent.category`, but has no comparisons.</td></tr><tr><td>AdverseEvent.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.code` has is mapped to FHIR R4 element `AdverseEvent.event`, but has no comparisons.</td></tr><tr><td>AdverseEvent.subject (subject)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.subject` has is mapped to FHIR R4 element `AdverseEvent.subject`, but has no comparisons.</td></tr><tr><td>AdverseEvent.encounter (encounter)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.encounter` has is mapped to FHIR R4 element `AdverseEvent.encounter`, but has no comparisons.</td></tr><tr><td>AdverseEvent.occurrence[x] (occurrence[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `AdverseEvent.occurrence[x]` has is mapped to FHIR R4 element `AdverseEvent.date`, but has no comparisons.</td></tr><tr><td>AdverseEvent.detected (detected)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.detected` has is mapped to FHIR R4 element `AdverseEvent.detected`, but has no comparisons.</td></tr><tr><td>AdverseEvent.recordedDate (recordedDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.recordedDate` has is mapped to FHIR R4 element `AdverseEvent.recordedDate`, but has no comparisons.</td></tr><tr><td>AdverseEvent.resultingEffect (resultingEffect)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.resultingEffect` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.resultingEffect` has is mapped to FHIR R4 element `AdverseEvent.resultingCondition`, but has no comparisons.</td></tr><tr><td>AdverseEvent.location (location)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.location` has is mapped to FHIR R4 element `AdverseEvent.location`, but has no comparisons.</td></tr><tr><td>AdverseEvent.seriousness (seriousness)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.seriousness` has is mapped to FHIR R4 element `AdverseEvent.seriousness`, but has no comparisons.</td></tr><tr><td>AdverseEvent.outcome (outcome)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.outcome` has is mapped to FHIR R4 element `AdverseEvent.outcome`, but has no comparisons.</td></tr><tr><td>AdverseEvent.recorder (recorder)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.recorder` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.recorder` has is mapped to FHIR R4 element `AdverseEvent.recorder`, but has no comparisons.</td></tr><tr><td>AdverseEvent.study (study)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.study` has is mapped to FHIR R4 element `AdverseEvent.study`, but has no comparisons.</td></tr><tr><td>AdverseEvent.suspectEntity (suspectEntity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `AdverseEvent.suspectEntity` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity`, but has no comparisons.</td></tr><tr><td>AdverseEvent.suspectEntity.instance[x] (instance[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `AdverseEvent.suspectEntity.instance[x]` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.instance[x]` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`, but has no comparisons.</td></tr><tr><td>AdverseEvent.suspectEntity.causality (causality)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `AdverseEvent.suspectEntity.causality` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality`, but has no comparisons.</td></tr><tr><td>AdverseEvent.suspectEntity.causality.assessmentMethod (assessmentMethod)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `AdverseEvent.suspectEntity.causality.assessmentMethod` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.assessmentMethod` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.assessment`, but has no comparisons.</td></tr><tr><td>AdverseEvent.suspectEntity.causality.entityRelatedness (entityRelatedness)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.entityRelatedness` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.productRelatedness`, but has no comparisons.</td></tr><tr><td>AdverseEvent.suspectEntity.causality.author (author)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `AdverseEvent.suspectEntity.causality.author` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.suspectEntity.causality.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.suspectEntity.causality.author` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.author`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AdverseEvent|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>AdverseEvent.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.status</td><td>Element `AdverseEvent.status` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.occurrence[x] (occurrence[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.occurrence</td><td>Element `AdverseEvent.occurrence[x]` has is mapped to FHIR R4 element `AdverseEvent.date`, but has no comparisons.</td></tr><tr><td>AdverseEvent.participant (participant)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant</td><td>Element `AdverseEvent.participant` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.participant.function (function)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant.function</td><td>Element `AdverseEvent.participant.function` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.function` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.expectedInResearchStudy (expectedInResearchStudy)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.expectedInResearchStudy</td><td>Element `AdverseEvent.expectedInResearchStudy` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.suspectEntity (suspectEntity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity</td><td>Element `AdverseEvent.suspectEntity` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity`, but has no comparisons.</td></tr><tr><td>AdverseEvent.suspectEntity.instance[x] (instance[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.instance</td><td>Element `AdverseEvent.suspectEntity.instance[x]` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.instance[x]` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`, but has no comparisons.</td></tr><tr><td>AdverseEvent.suspectEntity.causality (causality)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.causality</td><td>Element `AdverseEvent.suspectEntity.causality` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality`, but has no comparisons.</td></tr><tr><td>AdverseEvent.suspectEntity.causality.assessmentMethod (assessmentMethod)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.causality.assessmentMethod</td><td>Element `AdverseEvent.suspectEntity.causality.assessmentMethod` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.assessmentMethod` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.assessment`, but has no comparisons.</td></tr><tr><td>AdverseEvent.suspectEntity.causality.entityRelatedness (entityRelatedness)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.causality.entityRelatedness</td><td>Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.entityRelatedness` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.productRelatedness`, but has no comparisons.</td></tr><tr><td>AdverseEvent.contributingFactor (contributingFactor)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.contributingFactor</td><td>Element `AdverseEvent.contributingFactor` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.contributingFactor.item[x] (item[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.contributingFactor.item</td><td>Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.\nElement `AdverseEvent.contributingFactor.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.preventiveAction (preventiveAction)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.preventiveAction</td><td>Element `AdverseEvent.preventiveAction` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.preventiveAction.item[x] (item[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.preventiveAction.item</td><td>Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.mitigatingAction (mitigatingAction)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.mitigatingAction</td><td>Element `AdverseEvent.mitigatingAction` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.mitigatingAction.item[x] (item[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.mitigatingAction.item</td><td>Element `AdverseEvent.mitigatingAction.item[x]` is part of an existing definition because parent element `AdverseEvent.mitigatingAction` requires a cross-version extension.\nElement `AdverseEvent.mitigatingAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.supportingInfo (supportingInfo)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.supportingInfo</td><td>Element `AdverseEvent.supportingInfo` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.supportingInfo.item[x] (item[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.supportingInfo.item</td><td>Element `AdverseEvent.supportingInfo.item[x]` is part of an existing definition because parent element `AdverseEvent.supportingInfo` requires a cross-version extension.\nElement `AdverseEvent.supportingInfo.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td>AdverseEvent.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.note</td><td>Element `AdverseEvent.note` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/AdverseEvent|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/AdverseEvent|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions</td><td/></tr><tr><td style=\"border-right-width: 0px\">AdverseEvent.subject</td><td style=\"border-left-width: 0px\">subject</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.subject` has is mapped to FHIR R4 element `AdverseEvent.subject`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">AdverseEvent.resultingEffect</td><td style=\"border-left-width: 0px\">resultingEffect</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.resultingEffect` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.resultingEffect` has is mapped to FHIR R4 element `AdverseEvent.resultingCondition`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">AdverseEvent.recorder</td><td style=\"border-left-width: 0px\">recorder</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.recorder` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.recorder` has is mapped to FHIR R4 element `AdverseEvent.recorder`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">AdverseEvent.participant.actor</td><td style=\"border-left-width: 0px\">actor</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.participant.actor` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.participant.actor` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.suspectEntity.instance[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">instance[x]</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.instance[x]` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.instance[x]` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.instance[x]` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.instance[x]` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">AdverseEvent.suspectEntity.causality.author</td><td style=\"border-left-width: 0px\">author</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.suspectEntity.causality.author` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.suspectEntity.causality.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.suspectEntity.causality.author` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.author`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.contributingFactor.item[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item[x]</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.\nElement `AdverseEvent.contributingFactor.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.\nElement `AdverseEvent.contributingFactor.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.preventiveAction.item[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item[x]</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.mitigatingAction.item[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item[x]</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.mitigatingAction.item[x]` is part of an existing definition because parent element `AdverseEvent.mitigatingAction` requires a cross-version extension.\nElement `AdverseEvent.mitigatingAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.mitigatingAction.item[x]` is part of an existing definition because parent element `AdverseEvent.mitigatingAction` requires a cross-version extension.\nElement `AdverseEvent.mitigatingAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">AdverseEvent.supportingInfo.item[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">item[x]</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.supportingInfo.item[x]` is part of an existing definition because parent element `AdverseEvent.supportingInfo` requires a cross-version extension.\nElement `AdverseEvent.supportingInfo.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `AdverseEvent.supportingInfo.item[x]` is part of an existing definition because parent element `AdverseEvent.supportingInfo` requires a cross-version extension.\nElement `AdverseEvent.supportingInfo.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-AdverseEvent-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-AdverseEvent-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5AdverseEventElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 AdverseEvent to FHIR R4 AdverseEvent"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:21.9643106-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 AdverseEvent to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AdverseEvent>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AdverseEvent>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AdverseEvent.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.meta` has is mapped to FHIR R4 element `AdverseEvent.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.implicitRules` has is mapped to FHIR R4 element `AdverseEvent.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.language` has is mapped to FHIR R4 element `AdverseEvent.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.text` has is mapped to FHIR R4 element `AdverseEvent.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.contained` has is mapped to FHIR R4 element `AdverseEvent.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.identifier` has is mapped to FHIR R4 element `AdverseEvent.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.actuality" ] ;
+       fhir:display [ fhir:v "actuality" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.actuality` has is mapped to FHIR R4 element `AdverseEvent.actuality`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.category` has is mapped to FHIR R4 element `AdverseEvent.category`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.code` has is mapped to FHIR R4 element `AdverseEvent.event`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.subject` has is mapped to FHIR R4 element `AdverseEvent.subject`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.encounter` has is mapped to FHIR R4 element `AdverseEvent.encounter`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.occurrence[x]` has is mapped to FHIR R4 element `AdverseEvent.date`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.detected" ] ;
+       fhir:display [ fhir:v "detected" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.detected` has is mapped to FHIR R4 element `AdverseEvent.detected`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.recordedDate" ] ;
+       fhir:display [ fhir:v "recordedDate" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.recordedDate` has is mapped to FHIR R4 element `AdverseEvent.recordedDate`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.resultingEffect" ] ;
+       fhir:display [ fhir:v "resultingEffect" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.resultingEffect` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.resultingEffect` has is mapped to FHIR R4 element `AdverseEvent.resultingCondition`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.location` has is mapped to FHIR R4 element `AdverseEvent.location`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.seriousness" ] ;
+       fhir:display [ fhir:v "seriousness" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.seriousness` has is mapped to FHIR R4 element `AdverseEvent.seriousness`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.outcome` has is mapped to FHIR R4 element `AdverseEvent.outcome`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.recorder" ] ;
+       fhir:display [ fhir:v "recorder" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.recorder` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.recorder` has is mapped to FHIR R4 element `AdverseEvent.recorder`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.study" ] ;
+       fhir:display [ fhir:v "study" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.study` has is mapped to FHIR R4 element `AdverseEvent.study`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity" ] ;
+       fhir:display [ fhir:v "suspectEntity" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.instance[x]" ] ;
+       fhir:display [ fhir:v "instance[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.instance[x]` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.instance[x]` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality" ] ;
+       fhir:display [ fhir:v "causality" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality.assessmentMethod" ] ;
+       fhir:display [ fhir:v "assessmentMethod" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.assessmentMethod` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.assessmentMethod` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.assessment`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality.entityRelatedness" ] ;
+       fhir:display [ fhir:v "entityRelatedness" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.entityRelatedness` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.productRelatedness`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.author` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.suspectEntity.causality.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.suspectEntity.causality.author` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.author`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AdverseEvent>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AdverseEvent.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.status` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.occurrence[x]" ] ;
+       fhir:display [ fhir:v "occurrence[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.occurrence" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.occurrence[x]` has is mapped to FHIR R4 element `AdverseEvent.date`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.participant` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.participant.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.participant.function" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.participant.function` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nElement `AdverseEvent.participant.function` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.expectedInResearchStudy" ] ;
+       fhir:display [ fhir:v "expectedInResearchStudy" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.expectedInResearchStudy" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.expectedInResearchStudy` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity" ] ;
+       fhir:display [ fhir:v "suspectEntity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.instance[x]" ] ;
+       fhir:display [ fhir:v "instance[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.instance" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.instance[x]` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.instance[x]` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality" ] ;
+       fhir:display [ fhir:v "causality" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.causality" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality.assessmentMethod" ] ;
+       fhir:display [ fhir:v "assessmentMethod" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.causality.assessmentMethod" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.assessmentMethod` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.assessmentMethod` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.assessment`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality.entityRelatedness" ] ;
+       fhir:display [ fhir:v "entityRelatedness" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.suspectEntity.causality.entityRelatedness" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.entityRelatedness` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.causality.entityRelatedness` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.productRelatedness`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.contributingFactor" ] ;
+       fhir:display [ fhir:v "contributingFactor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.contributingFactor" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.contributingFactor` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.contributingFactor.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.contributingFactor.item" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.\nElement `AdverseEvent.contributingFactor.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.preventiveAction" ] ;
+       fhir:display [ fhir:v "preventiveAction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.preventiveAction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.preventiveAction` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.preventiveAction.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.preventiveAction.item" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.mitigatingAction" ] ;
+       fhir:display [ fhir:v "mitigatingAction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.mitigatingAction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.mitigatingAction` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.mitigatingAction.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.mitigatingAction.item" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.mitigatingAction.item[x]` is part of an existing definition because parent element `AdverseEvent.mitigatingAction` requires a cross-version extension.\nElement `AdverseEvent.mitigatingAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.supportingInfo" ] ;
+       fhir:display [ fhir:v "supportingInfo" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.supportingInfo" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.supportingInfo` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.supportingInfo.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.supportingInfo.item" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.supportingInfo.item[x]` is part of an existing definition because parent element `AdverseEvent.supportingInfo` requires a cross-version extension.\nElement `AdverseEvent.supportingInfo.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-AdverseEvent.note" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.note` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/AdverseEvent"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/AdverseEvent>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "AdverseEvent.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.subject` has is mapped to FHIR R4 element `AdverseEvent.subject`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.resultingEffect" ] ;
+       fhir:display [ fhir:v "resultingEffect" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.resultingEffect` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.resultingEffect` has is mapped to FHIR R4 element `AdverseEvent.resultingCondition`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.recorder" ] ;
+       fhir:display [ fhir:v "recorder" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.recorder` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.recorder` has is mapped to FHIR R4 element `AdverseEvent.recorder`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.participant.actor` is part of an existing definition because parent element `AdverseEvent.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.participant.actor` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.instance[x]" ] ;
+       fhir:display [ fhir:v "instance[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.instance[x]` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.instance[x]` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`, but has no comparisons." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.instance[x]` is part of an existing definition because parent element `AdverseEvent.suspectEntity` requires a cross-version extension.\nElement `AdverseEvent.suspectEntity.instance[x]` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.instance`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.suspectEntity.causality.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.suspectEntity.causality.author` is part of an existing definition because parent element `AdverseEvent.suspectEntity.causality` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `AdverseEvent.suspectEntity.causality.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `AdverseEvent.suspectEntity.causality.author` has is mapped to FHIR R4 element `AdverseEvent.suspectEntity.causality.author`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.contributingFactor.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.\nElement `AdverseEvent.contributingFactor.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.contributingFactor.item[x]` is part of an existing definition because parent element `AdverseEvent.contributingFactor` requires a cross-version extension.\nElement `AdverseEvent.contributingFactor.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.preventiveAction.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.preventiveAction.item[x]` is part of an existing definition because parent element `AdverseEvent.preventiveAction` requires a cross-version extension.\nElement `AdverseEvent.preventiveAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.mitigatingAction.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.mitigatingAction.item[x]` is part of an existing definition because parent element `AdverseEvent.mitigatingAction` requires a cross-version extension.\nElement `AdverseEvent.mitigatingAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.mitigatingAction.item[x]` is part of an existing definition because parent element `AdverseEvent.mitigatingAction` requires a cross-version extension.\nElement `AdverseEvent.mitigatingAction.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "AdverseEvent.supportingInfo.item[x]" ] ;
+       fhir:display [ fhir:v "item[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.supportingInfo.item[x]` is part of an existing definition because parent element `AdverseEvent.supportingInfo` requires a cross-version extension.\nElement `AdverseEvent.supportingInfo.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `AdverseEvent.supportingInfo.item[x]` is part of an existing definition because parent element `AdverseEvent.supportingInfo` requires a cross-version extension.\nElement `AdverseEvent.supportingInfo.item[x]` has a context of AdverseEvent based on following the parent source element upwards and mapping to `AdverseEvent`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

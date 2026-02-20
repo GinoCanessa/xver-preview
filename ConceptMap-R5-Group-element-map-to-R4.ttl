@@ -1,0 +1,385 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Group-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Group-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Group-element-map-to-R4</b></p><a name=\"R5-Group-element-map-to-R4\"> </a><a name=\"hcR5-Group-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Group|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/group.html\">Groupversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Group.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.meta` has is mapped to FHIR R4 element `Group.meta`, but has no comparisons.</td></tr><tr><td>Group.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.implicitRules` has is mapped to FHIR R4 element `Group.implicitRules`, but has no comparisons.</td></tr><tr><td>Group.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.language` has is mapped to FHIR R4 element `Group.language`, but has no comparisons.</td></tr><tr><td>Group.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.text` has is mapped to FHIR R4 element `Group.text`, but has no comparisons.</td></tr><tr><td>Group.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.contained` has is mapped to FHIR R4 element `Group.contained`, but has no comparisons.</td></tr><tr><td>Group.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.identifier` has is mapped to FHIR R4 element `Group.identifier`, but has no comparisons.</td></tr><tr><td>Group.active (active)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.active` has is mapped to FHIR R4 element `Group.active`, but has no comparisons.</td></tr><tr><td>Group.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Group.type` has is mapped to FHIR R4 element `Group.type`, but has no comparisons.</td></tr><tr><td>Group.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.code` has is mapped to FHIR R4 element `Group.code`, but has no comparisons.</td></tr><tr><td>Group.name (name)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.name`: `http://hl7.org/fhir/StructureDefinition/artifact-name`.\nElement `Group.name` has is mapped to FHIR R4 element `Group.name`, but has no comparisons.</td></tr><tr><td>Group.quantity (quantity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.quantity` has is mapped to FHIR R4 element `Group.quantity`, but has no comparisons.</td></tr><tr><td>Group.managingEntity (managingEntity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.managingEntity` has is mapped to FHIR R4 element `Group.managingEntity`, but has no comparisons.</td></tr><tr><td>Group.characteristic (characteristic)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Group.characteristic` has is mapped to FHIR R4 element `Group.characteristic`, but has no comparisons.</td></tr><tr><td>Group.characteristic.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.characteristic.code` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.code` has is mapped to FHIR R4 element `Group.characteristic.code`, but has no comparisons.</td></tr><tr><td>Group.characteristic.value[x] (value[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.characteristic.value[x]` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.\nElement `Group.characteristic.value[x]` has is mapped to FHIR R4 element `Group.characteristic.value[x]`, but has no comparisons.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.</td></tr><tr><td>Group.characteristic.exclude (exclude)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.characteristic.exclude` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.exclude` has is mapped to FHIR R4 element `Group.characteristic.exclude`, but has no comparisons.</td></tr><tr><td>Group.characteristic.period (period)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.characteristic.period` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.period` has is mapped to FHIR R4 element `Group.characteristic.period`, but has no comparisons.</td></tr><tr><td>Group.member (member)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Group.member` has is mapped to FHIR R4 element `Group.member`, but has no comparisons.</td></tr><tr><td>Group.member.entity (entity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Group.member.entity` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.member.entity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Group.member.entity` has is mapped to FHIR R4 element `Group.member.entity`, but has no comparisons.</td></tr><tr><td>Group.member.period (period)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.member.period` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nElement `Group.member.period` has is mapped to FHIR R4 element `Group.member.period`, but has no comparisons.</td></tr><tr><td>Group.member.inactive (inactive)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Group.member.inactive` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nElement `Group.member.inactive` has is mapped to FHIR R4 element `Group.member.inactive`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Group|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Group.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.type</td><td>Element `Group.type` has is mapped to FHIR R4 element `Group.type`, but has no comparisons.</td></tr><tr><td>Group.membership (membership)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership</td><td>Element `Group.membership` has a context of Group based on following the parent source element upwards and mapping to `Group`.</td></tr><tr><td>Group.characteristic (characteristic)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic</td><td>Element `Group.characteristic` has is mapped to FHIR R4 element `Group.characteristic`, but has no comparisons.</td></tr><tr><td>Group.characteristic.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic.code</td><td>Element `Group.characteristic.code` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.code` has is mapped to FHIR R4 element `Group.characteristic.code`, but has no comparisons.</td></tr><tr><td>Group.characteristic.value[x] (value[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic.value</td><td>Element `Group.characteristic.value[x]` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.\nElement `Group.characteristic.value[x]` has is mapped to FHIR R4 element `Group.characteristic.value[x]`, but has no comparisons.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.</td></tr><tr><td>Group.characteristic.exclude (exclude)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic.exclude</td><td>Element `Group.characteristic.exclude` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.exclude` has is mapped to FHIR R4 element `Group.characteristic.exclude`, but has no comparisons.</td></tr><tr><td>Group.characteristic.period (period)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic.period</td><td>Element `Group.characteristic.period` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.period` has is mapped to FHIR R4 element `Group.characteristic.period`, but has no comparisons.</td></tr><tr><td>Group.member (member)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member</td><td>Element `Group.member` has is mapped to FHIR R4 element `Group.member`, but has no comparisons.</td></tr><tr><td>Group.member.period (period)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member.period</td><td>Element `Group.member.period` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nElement `Group.member.period` has is mapped to FHIR R4 element `Group.member.period`, but has no comparisons.</td></tr><tr><td>Group.member.inactive (inactive)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member.inactive</td><td>Element `Group.member.inactive` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nElement `Group.member.inactive` has is mapped to FHIR R4 element `Group.member.inactive`, but has no comparisons.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Group|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Group.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-description</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.description`: `http://hl7.org/fhir/StructureDefinition/artifact-description`.\nElement `Group.description` has a context of Group based on following the parent source element upwards and mapping to `Group`.</td></tr><tr><td>Group.member.entity (entity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `Group.member.entity` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.member.entity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Group.member.entity` has is mapped to FHIR R4 element `Group.member.entity`, but has no comparisons.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Group-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Group-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5GroupElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Group to FHIR R4 Group"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:23.9938066-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Group to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Group"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Group>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Group"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Group>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Group.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.meta` has is mapped to FHIR R4 element `Group.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.implicitRules` has is mapped to FHIR R4 element `Group.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.language` has is mapped to FHIR R4 element `Group.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.text` has is mapped to FHIR R4 element `Group.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.contained` has is mapped to FHIR R4 element `Group.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.identifier` has is mapped to FHIR R4 element `Group.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.active" ] ;
+       fhir:display [ fhir:v "active" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.active` has is mapped to FHIR R4 element `Group.active`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Group.type` has is mapped to FHIR R4 element `Group.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.code` has is mapped to FHIR R4 element `Group.code`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.name`: `http://hl7.org/fhir/StructureDefinition/artifact-name`.\nElement `Group.name` has is mapped to FHIR R4 element `Group.name`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.quantity` has is mapped to FHIR R4 element `Group.quantity`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.managingEntity" ] ;
+       fhir:display [ fhir:v "managingEntity" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.managingEntity` has is mapped to FHIR R4 element `Group.managingEntity`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic" ] ;
+       fhir:display [ fhir:v "characteristic" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic` has is mapped to FHIR R4 element `Group.characteristic`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.code` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.code` has is mapped to FHIR R4 element `Group.characteristic.code`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.value[x]` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.\nElement `Group.characteristic.value[x]` has is mapped to FHIR R4 element `Group.characteristic.value[x]`, but has no comparisons.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.exclude" ] ;
+       fhir:display [ fhir:v "exclude" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.exclude` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.exclude` has is mapped to FHIR R4 element `Group.characteristic.exclude`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.period` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.period` has is mapped to FHIR R4 element `Group.characteristic.period`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member" ] ;
+       fhir:display [ fhir:v "member" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Group.member` has is mapped to FHIR R4 element `Group.member`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member.entity" ] ;
+       fhir:display [ fhir:v "entity" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Group.member.entity` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.member.entity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Group.member.entity` has is mapped to FHIR R4 element `Group.member.entity`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.member.period` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nElement `Group.member.period` has is mapped to FHIR R4 element `Group.member.period`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member.inactive" ] ;
+       fhir:display [ fhir:v "inactive" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.member.inactive` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nElement `Group.member.inactive` has is mapped to FHIR R4 element `Group.member.inactive`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Group"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Group>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Group.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.type` has is mapped to FHIR R4 element `Group.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.membership" ] ;
+       fhir:display [ fhir:v "membership" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.membership" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Group.membership` has a context of Group based on following the parent source element upwards and mapping to `Group`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic" ] ;
+       fhir:display [ fhir:v "characteristic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic` has is mapped to FHIR R4 element `Group.characteristic`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.code` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.code` has is mapped to FHIR R4 element `Group.characteristic.code`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic.value" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.value[x]` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`.\nElement `Group.characteristic.value[x]` has is mapped to FHIR R4 element `Group.characteristic.value[x]`, but has no comparisons.\nNote that the target element context `Group.characteristic.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `Group.characteristic`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.exclude" ] ;
+       fhir:display [ fhir:v "exclude" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic.exclude" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.exclude` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.exclude` has is mapped to FHIR R4 element `Group.characteristic.exclude`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.characteristic.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.characteristic.period" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.characteristic.period` is part of an existing definition because parent element `Group.characteristic` requires a cross-version extension.\nElement `Group.characteristic.period` has is mapped to FHIR R4 element `Group.characteristic.period`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member" ] ;
+       fhir:display [ fhir:v "member" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.member` has is mapped to FHIR R4 element `Group.member`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member.period" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.member.period` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nElement `Group.member.period` has is mapped to FHIR R4 element `Group.member.period`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member.inactive" ] ;
+       fhir:display [ fhir:v "inactive" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Group.member.inactive" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.member.inactive` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nElement `Group.member.inactive` has is mapped to FHIR R4 element `Group.member.inactive`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Group"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Group>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Group.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.description`: `http://hl7.org/fhir/StructureDefinition/artifact-description`.\nElement `Group.description` has a context of Group based on following the parent source element upwards and mapping to `Group`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Group.member.entity" ] ;
+       fhir:display [ fhir:v "entity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Group.member.entity` is part of an existing definition because parent element `Group.member` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Group.member.entity` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Group.member.entity` has is mapped to FHIR R4 element `Group.member.entity`, but has no comparisons." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

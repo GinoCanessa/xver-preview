@@ -23,7 +23,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Extension.extension:device.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.device""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension:device.value[x]","Extension.extension.value[x]","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/profile-Device|0.0.1-snapshot-3], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device|4.0.1]]}
+"Extension.extension:device.value[x]","Extension.extension.value[x]","","","",1,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/profile-Device], CanonicalType[http://hl7.org/fhir/StructureDefinition/Device]]}
 ","Device resource for the container","The device resource for the the container holding the specimen. If the container is in a holder then the referenced device will point to a parent device.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:location","Extension.extension","location","","",0,1,"","","","Extension {[]} {[]}
@@ -40,7 +40,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Extension.extension:location.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.location""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension:location.value[x]","Extension.extension.value[x]","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/profile-Location|0.0.1-snapshot-3], CanonicalType[http://hl7.org/fhir/StructureDefinition/Location|4.0.1]]}
+"Extension.extension:location.value[x]","Extension.extension.value[x]","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/profile-Location], CanonicalType[http://hl7.org/fhir/StructureDefinition/Location]]}
 ","Where the container is","The location of the container holding the specimen.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:specimenQuantity","Extension.extension","specimenQuantity","","",0,1,"","","","Extension {[]} {[]}
@@ -56,7 +56,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Extension.extension:specimenQuantity.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.container.specimenQuantity""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension:specimenQuantity.value[x]","Extension.extension.value[x]","","","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
+"Extension.extension:specimenQuantity.value[x]","Extension.extension.value[x]","","","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
 ","Quantity of specimen within container","The quantity of specimen in the container; may be volume, dimensions, or other appropriate measurements, depending on the specimen type.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.url","Extension.url","","","",1,1,"","","","uri {[]} {[]}

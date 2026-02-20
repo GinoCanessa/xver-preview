@@ -63,25 +63,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "pa"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://terminology.hl7.org/CodeSystem/service-referral-method"^^xsd:anyURI ;
      fhir:l <http://terminology.hl7.org/CodeSystem/service-referral-method>
   ] ; # 
-  fhir:version [ fhir:v "0.1.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "ReferralMethod"] ; # 
   fhir:title [ fhir:v "ReferralMethod"] ; # 
   fhir:status [ fhir:v "draft"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2020-04-09T16:10:28-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Patient Administration"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Patient Administration" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/pafm" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "The methods of referral can be used when referring to a specific HealthCareService resource."] ; # 
@@ -97,8 +97,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://terminology.hl7.org/ValueSet/service-referral-method|1.0.1"^^xsd:anyURI ;
-     fhir:l <http://terminology.hl7.org/ValueSet/service-referral-method?version=1.0.1>
+     fhir:v "http://terminology.hl7.org/ValueSet/service-referral-method"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/ValueSet/service-referral-method>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

@@ -32,7 +32,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Extension.extension:initialFill.extension:quantity.url","Extension.extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.initialFill.quantity""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension:initialFill.extension:quantity.value[x]","Extension.extension.extension.value[x]","","","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
+"Extension.extension:initialFill.extension:quantity.value[x]","Extension.extension.extension.value[x]","","","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
 ","First fill quantity","The amount or quantity to provide as part of the first dispense.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:initialFill.extension:duration","Extension.extension.extension","duration","","",0,1,"","","","Extension {[]} {[]}
@@ -117,7 +117,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Extension.extension:quantity.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.quantity""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension:quantity.value[x]","Extension.extension.value[x]","","","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity|4.0.1]]} {[]}
+"Extension.extension:quantity.value[x]","Extension.extension.value[x]","","","",0,1,"","","","Quantity {[CanonicalType[http://hl7.org/fhir/StructureDefinition/SimpleQuantity]]} {[]}
 ","Amount of medication to supply per dispense","The amount that is to be dispensed for one fill.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:expectedSupplyDuration","Extension.extension","expectedSupplyDuration","","",0,1,"","","","Extension {[]} {[]}
@@ -149,7 +149,7 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
 "Extension.extension:dispenser.url","Extension.extension.url","","","",1,1,"","","","uri {[]} {[]}
 ","identifies the meaning of the extension","Source of the definition for the extension code - a logical name or a URL.","The definition may point directly to a computable or human-readable definition of the extensibility codes, or it may be a logical URI as declared in some other specification. The definition SHALL be a URI for the Structure Definition defining the extension.","","","","<valueUri xmlns=""http://hl7.org/fhir"" value=""http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationRequest.dispenseRequest.dispenser""/>","","","","",,,,,"",,,,"Extension.url",1,1,"","","N/A"
-"Extension.extension:dispenser.value[x]","Extension.extension.value[x]","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/profile-Organization|0.0.1-snapshot-3], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization|4.0.1]]}
+"Extension.extension:dispenser.value[x]","Extension.extension.value[x]","","","",0,1,"","","","Reference {[]} {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/profile-Organization], CanonicalType[http://hl7.org/fhir/StructureDefinition/Organization]]}
 ","Intended performer of dispense","Indicates the intended performing Organization that will dispense the medication as specified by the prescriber.","","","","","","","","","",,,,,"",,,,"Extension.value[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A"
 "Extension.extension:dispenserInstruction","Extension.extension","dispenserInstruction","","",0,*,"","","","Extension {[]} {[]}

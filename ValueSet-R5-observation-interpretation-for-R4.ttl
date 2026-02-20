@@ -1,0 +1,245 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-observation-interpretation-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-observation-interpretation-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-observation-interpretation-for-R4</b></p><a name=\"R5-observation-interpretation-for-R4\"> </a><a name=\"hcR5-observation-interpretation-for-R4\"> </a><p>This value set expansion contains 10 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-AC\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  AC</td><td>Anti-complementary substances present</td></tr><tr><td><a name=\"R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-Carrier\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  Carrier</td><td>Carrier</td></tr><tr><td><a name=\"R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-H|3e\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  H&gt;</td><td>Significantly high</td></tr><tr><td><a name=\"R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-HM\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  HM</td><td>Hold for Medical Review</td></tr><tr><td><a name=\"R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-L|3c\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  L&lt;</td><td>Significantly low</td></tr><tr><td><a name=\"R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-MS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  MS</td><td>moderately susceptible</td></tr><tr><td><a name=\"R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-OBX\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  OBX</td><td>Interpretation qualifiers in separate OBX segments</td></tr><tr><td><a name=\"R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-QCF\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  QCF</td><td>Quality control failure</td></tr><tr><td><a name=\"R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-TOX\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  TOX</td><td>Cytotoxic substance present</td></tr><tr><td><a name=\"R5-observation-interpretation-for-R4-http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation-VS\"> </a><code>http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation</code></td><td>2.1.0</td><td style=\"white-space:nowrap\">  VS</td><td>very susceptible</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 5
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-observation-interpretation-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-observation-interpretation-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5ObservationInterpretationForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.ObservationInterpretationCodes for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1`."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `Observation.component.interpretation` as Extensible\n* `Observation.interpretation` as Extensible\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/observation-interpretation|5.0.0`\n* `http://hl7.org/fhir/ValueSet/observation-interpretation|4.3.0`\n* `http://hl7.org/fhir/ValueSet/observation-interpretation|4.0.1`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#<`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#>`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#A`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#AA`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#B`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#CAR`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#D`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#DET`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#E`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#EX`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#EXP`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#H`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#HH`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#HU`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#HX`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#I`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#IE`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#IND`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#L`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#LL`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#LU`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#LX`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#N`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NCL`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#ND`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NEG`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NR`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#NS`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#ObservationInterpretationDetection`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#ObservationInterpretationExpectation`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#POS`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#R`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#RR`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#ReactivityObservationInterpretation`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#S`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#SDD`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#SYN-R`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#SYN-S`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#U`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#UNE`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#W`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#WR`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#_GeneticObservationInterpretation`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#_ObservationInterpretationChange`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#_ObservationInterpretationExceptions`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#_ObservationInterpretationNormality`\n* `http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation#_ObservationInterpretationSusceptibility`\r\n\r\nFollowing are the generation technical comments:\r\nOne or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.\nThe source value set has more active concepts (49) than the target (39), so the source is broader than the target.\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (39)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AC" ] ;
+         fhir:display [ fhir:v "Anti-complementary substances present" ]
+       ] [
+         fhir:code [ fhir:v "Carrier" ] ;
+         fhir:display [ fhir:v "Carrier" ]
+       ] [
+         fhir:code [ fhir:v "H>" ] ;
+         fhir:display [ fhir:v "Significantly high" ]
+       ] [
+         fhir:code [ fhir:v "HM" ] ;
+         fhir:display [ fhir:v "Hold for Medical Review" ]
+       ] [
+         fhir:code [ fhir:v "L<" ] ;
+         fhir:display [ fhir:v "Significantly low" ]
+       ] [
+         fhir:code [ fhir:v "MS" ] ;
+         fhir:display [ fhir:v "moderately susceptible" ]
+       ] [
+         fhir:code [ fhir:v "OBX" ] ;
+         fhir:display [ fhir:v "Interpretation qualifiers in separate OBX segments" ]
+       ] [
+         fhir:code [ fhir:v "QCF" ] ;
+         fhir:display [ fhir:v "Quality control failure" ]
+       ] [
+         fhir:code [ fhir:v "TOX" ] ;
+         fhir:display [ fhir:v "Cytotoxic substance present" ]
+       ] [
+         fhir:code [ fhir:v "VS" ] ;
+         fhir:display [ fhir:v "very susceptible" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "AC" ] ;
+       fhir:display [ fhir:v "Anti-complementary substances present" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "Carrier" ] ;
+       fhir:display [ fhir:v "Carrier" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "H>" ] ;
+       fhir:display [ fhir:v "Significantly high" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "HM" ] ;
+       fhir:display [ fhir:v "Hold for Medical Review" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "L<" ] ;
+       fhir:display [ fhir:v "Significantly low" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "MS" ] ;
+       fhir:display [ fhir:v "moderately susceptible" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "OBX" ] ;
+       fhir:display [ fhir:v "Interpretation qualifiers in separate OBX segments" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "QCF" ] ;
+       fhir:display [ fhir:v "Quality control failure" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "TOX" ] ;
+       fhir:display [ fhir:v "Cytotoxic substance present" ]
+     ] [
+       fhir:system [
+         fhir:v "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"^^xsd:anyURI ;
+         fhir:l <http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation>
+       ] ;
+       fhir:version [ fhir:v "2.1.0" ] ;
+       fhir:code [ fhir:v "VS" ] ;
+       fhir:display [ fhir:v "very susceptible" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

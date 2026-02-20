@@ -1,0 +1,465 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-FHIR-version-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-FHIR-version-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-FHIR-version-for-R4</b></p><a name=\"R5-FHIR-version-for-R4\"> </a><a name=\"hcR5-FHIR-version-for-R4\"> </a><p>This value set expansion contains 30 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-0.0\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  0.0</td><td>0.0</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-0.4\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  0.4</td><td>0.4</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-0.5\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  0.5</td><td>0.5</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-1.0\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  1.0</td><td>1.0</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-1.1\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  1.1</td><td>1.1</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-1.4\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  1.4</td><td>1.4</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-1.6\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  1.6</td><td>1.6</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-1.8\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  1.8</td><td>1.8</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-3.0\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  3.0</td><td>3.0</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-3.3\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  3.3</td><td>3.3</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-3.5\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  3.5</td><td>3.5</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.0\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.0</td><td>4.0</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.1\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.1</td><td>4.1</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.2\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.2</td><td>4.2</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.2.0\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.2.0</td><td>4.2.0</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.3\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.3</td><td>4.3</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.4\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.4</td><td>4.4</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.4.0\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.4.0</td><td>4.4.0</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.5\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.5</td><td>4.5</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.5.0\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.5.0</td><td>4.5.0</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.6\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.6</td><td>4.6</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-4.6.0\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  4.6.0</td><td>4.6.0</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-5.0\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  5.0</td><td>5.0</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-5.0.0\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  5.0.0</td><td>5.0.0</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-5.0.0-ballot\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  5.0.0-ballot</td><td>5.0.0-ballot</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-5.0.0-cibuild\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  5.0.0-cibuild</td><td>5.0.0-cibuild</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-5.0.0-draft-final\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  5.0.0-draft-final</td><td>5.0.0-draft-final</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-5.0.0-snapshot1\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  5.0.0-snapshot1</td><td>5.0.0-snapshot1</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-5.0.0-snapshot2\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  5.0.0-snapshot2</td><td>5.0.0-snapshot2</td></tr><tr><td><a name=\"R5-FHIR-version-for-R4-http://hl7.org/fhir/FHIR-version-5.0.0-snapshot3\"> </a><code>http://hl7.org/fhir/FHIR-version</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  5.0.0-snapshot3</td><td>5.0.0-snapshot3</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 5
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-FHIR-version-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-FHIR-version-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5FHIRVersionForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.FHIRVersion for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/FHIR-version|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1`."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/FHIR-version|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `CapabilityStatement.fhirVersion` as Required\n* `ImplementationGuide.definition.resource.fhirVersion` as Required\n* `ImplementationGuide.fhirVersion` as Required\n* `StructureDefinition.fhirVersion` as Required\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/FHIR-version|5.0.0`\n* `http://hl7.org/fhir/ValueSet/FHIR-version|4.3.0`\n* `http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* `http://hl7.org/fhir/FHIR-version#0.0.80`\n* `http://hl7.org/fhir/FHIR-version#0.0.81`\n* `http://hl7.org/fhir/FHIR-version#0.0.82`\n* `http://hl7.org/fhir/FHIR-version#0.01`\n* `http://hl7.org/fhir/FHIR-version#0.05`\n* `http://hl7.org/fhir/FHIR-version#0.06`\n* `http://hl7.org/fhir/FHIR-version#0.11`\n* `http://hl7.org/fhir/FHIR-version#0.4.0`\n* `http://hl7.org/fhir/FHIR-version#0.5.0`\n* `http://hl7.org/fhir/FHIR-version#1.0.0`\n* `http://hl7.org/fhir/FHIR-version#1.0.1`\n* `http://hl7.org/fhir/FHIR-version#1.0.2`\n* `http://hl7.org/fhir/FHIR-version#1.1.0`\n* `http://hl7.org/fhir/FHIR-version#1.4.0`\n* `http://hl7.org/fhir/FHIR-version#1.6.0`\n* `http://hl7.org/fhir/FHIR-version#1.8.0`\n* `http://hl7.org/fhir/FHIR-version#3.0.0`\n* `http://hl7.org/fhir/FHIR-version#3.0.1`\n* `http://hl7.org/fhir/FHIR-version#3.0.2`\n* `http://hl7.org/fhir/FHIR-version#3.3.0`\n* `http://hl7.org/fhir/FHIR-version#3.5.0`\n* `http://hl7.org/fhir/FHIR-version#4.0.0`\n* `http://hl7.org/fhir/FHIR-version#4.0.1`\n* `http://hl7.org/fhir/FHIR-version#4.1.0`\n* `http://hl7.org/fhir/FHIR-version#4.3.0`\n* `http://hl7.org/fhir/FHIR-version#4.3.0-cibuild`\n* `http://hl7.org/fhir/FHIR-version#4.3.0-snapshot1`\r\n\r\nFollowing are the generation technical comments:\r\nOne or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.\nThe source value set has more active concepts (57) than the target (27), so the source is broader than the target.\nOne or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.\nThe source value set has more active concepts (27) than the target (22), so the source is broader than the target.\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/FHIR-version|5.0.0` to `http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1` in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-FHIRVersion-R4-FHIRVersion` (`ConceptMap-R5-FHIRVersion-R4-FHIRVersion.json`)"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "0.0" ] ;
+         fhir:display [ fhir:v "0.0" ]
+       ] [
+         fhir:code [ fhir:v "0.4" ] ;
+         fhir:display [ fhir:v "0.4" ]
+       ] [
+         fhir:code [ fhir:v "0.5" ] ;
+         fhir:display [ fhir:v "0.5" ]
+       ] [
+         fhir:code [ fhir:v "1.0" ] ;
+         fhir:display [ fhir:v "1.0" ]
+       ] [
+         fhir:code [ fhir:v "1.1" ] ;
+         fhir:display [ fhir:v "1.1" ]
+       ] [
+         fhir:code [ fhir:v "1.4" ] ;
+         fhir:display [ fhir:v "1.4" ]
+       ] [
+         fhir:code [ fhir:v "1.6" ] ;
+         fhir:display [ fhir:v "1.6" ]
+       ] [
+         fhir:code [ fhir:v "1.8" ] ;
+         fhir:display [ fhir:v "1.8" ]
+       ] [
+         fhir:code [ fhir:v "3.0" ] ;
+         fhir:display [ fhir:v "3.0" ]
+       ] [
+         fhir:code [ fhir:v "3.3" ] ;
+         fhir:display [ fhir:v "3.3" ]
+       ] [
+         fhir:code [ fhir:v "3.5" ] ;
+         fhir:display [ fhir:v "3.5" ]
+       ] [
+         fhir:code [ fhir:v "4.0" ] ;
+         fhir:display [ fhir:v "4.0" ]
+       ] [
+         fhir:code [ fhir:v "4.1" ] ;
+         fhir:display [ fhir:v "4.1" ]
+       ] [
+         fhir:code [ fhir:v "4.2" ] ;
+         fhir:display [ fhir:v "4.2" ]
+       ] [
+         fhir:code [ fhir:v "4.2.0" ] ;
+         fhir:display [ fhir:v "4.2.0" ]
+       ] [
+         fhir:code [ fhir:v "4.3" ] ;
+         fhir:display [ fhir:v "4.3" ]
+       ] [
+         fhir:code [ fhir:v "4.4" ] ;
+         fhir:display [ fhir:v "4.4" ]
+       ] [
+         fhir:code [ fhir:v "4.4.0" ] ;
+         fhir:display [ fhir:v "4.4.0" ]
+       ] [
+         fhir:code [ fhir:v "4.5" ] ;
+         fhir:display [ fhir:v "4.5" ]
+       ] [
+         fhir:code [ fhir:v "4.5.0" ] ;
+         fhir:display [ fhir:v "4.5.0" ]
+       ] [
+         fhir:code [ fhir:v "4.6" ] ;
+         fhir:display [ fhir:v "4.6" ]
+       ] [
+         fhir:code [ fhir:v "4.6.0" ] ;
+         fhir:display [ fhir:v "4.6.0" ]
+       ] [
+         fhir:code [ fhir:v "5.0" ] ;
+         fhir:display [ fhir:v "5.0" ]
+       ] [
+         fhir:code [ fhir:v "5.0.0" ] ;
+         fhir:display [ fhir:v "5.0.0" ]
+       ] [
+         fhir:code [ fhir:v "5.0.0-ballot" ] ;
+         fhir:display [ fhir:v "5.0.0-ballot" ]
+       ] [
+         fhir:code [ fhir:v "5.0.0-cibuild" ] ;
+         fhir:display [ fhir:v "5.0.0-cibuild" ]
+       ] [
+         fhir:code [ fhir:v "5.0.0-draft-final" ] ;
+         fhir:display [ fhir:v "5.0.0-draft-final" ]
+       ] [
+         fhir:code [ fhir:v "5.0.0-snapshot1" ] ;
+         fhir:display [ fhir:v "5.0.0-snapshot1" ]
+       ] [
+         fhir:code [ fhir:v "5.0.0-snapshot2" ] ;
+         fhir:display [ fhir:v "5.0.0-snapshot2" ]
+       ] [
+         fhir:code [ fhir:v "5.0.0-snapshot3" ] ;
+         fhir:display [ fhir:v "5.0.0-snapshot3" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "0.0" ] ;
+       fhir:display [ fhir:v "0.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "0.4" ] ;
+       fhir:display [ fhir:v "0.4" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "0.5" ] ;
+       fhir:display [ fhir:v "0.5" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "1.0" ] ;
+       fhir:display [ fhir:v "1.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "1.1" ] ;
+       fhir:display [ fhir:v "1.1" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "1.4" ] ;
+       fhir:display [ fhir:v "1.4" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "1.6" ] ;
+       fhir:display [ fhir:v "1.6" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "1.8" ] ;
+       fhir:display [ fhir:v "1.8" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "3.0" ] ;
+       fhir:display [ fhir:v "3.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "3.3" ] ;
+       fhir:display [ fhir:v "3.3" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "3.5" ] ;
+       fhir:display [ fhir:v "3.5" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.0" ] ;
+       fhir:display [ fhir:v "4.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.1" ] ;
+       fhir:display [ fhir:v "4.1" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.2" ] ;
+       fhir:display [ fhir:v "4.2" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.2.0" ] ;
+       fhir:display [ fhir:v "4.2.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.3" ] ;
+       fhir:display [ fhir:v "4.3" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.4" ] ;
+       fhir:display [ fhir:v "4.4" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.4.0" ] ;
+       fhir:display [ fhir:v "4.4.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.5" ] ;
+       fhir:display [ fhir:v "4.5" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.5.0" ] ;
+       fhir:display [ fhir:v "4.5.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.6" ] ;
+       fhir:display [ fhir:v "4.6" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "4.6.0" ] ;
+       fhir:display [ fhir:v "4.6.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "5.0" ] ;
+       fhir:display [ fhir:v "5.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "5.0.0" ] ;
+       fhir:display [ fhir:v "5.0.0" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "5.0.0-ballot" ] ;
+       fhir:display [ fhir:v "5.0.0-ballot" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "5.0.0-cibuild" ] ;
+       fhir:display [ fhir:v "5.0.0-cibuild" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "5.0.0-draft-final" ] ;
+       fhir:display [ fhir:v "5.0.0-draft-final" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "5.0.0-snapshot1" ] ;
+       fhir:display [ fhir:v "5.0.0-snapshot1" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "5.0.0-snapshot2" ] ;
+       fhir:display [ fhir:v "5.0.0-snapshot2" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/FHIR-version"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/FHIR-version>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "5.0.0-snapshot3" ] ;
+       fhir:display [ fhir:v "5.0.0-snapshot3" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

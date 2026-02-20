@@ -1,0 +1,492 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicationDispense-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-MedicationDispense-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-MedicationDispense-element-map-to-R4</b></p><a name=\"R5-MedicationDispense-element-map-to-R4\"> </a><a name=\"hcR5-MedicationDispense-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationDispense|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/medicationdispense.html\">MedicationDispenseversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicationDispense.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.meta` has is mapped to FHIR R4 element `MedicationDispense.meta`, but has no comparisons.</td></tr><tr><td>MedicationDispense.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.implicitRules` has is mapped to FHIR R4 element `MedicationDispense.implicitRules`, but has no comparisons.</td></tr><tr><td>MedicationDispense.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.language` has is mapped to FHIR R4 element `MedicationDispense.language`, but has no comparisons.</td></tr><tr><td>MedicationDispense.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.text` has is mapped to FHIR R4 element `MedicationDispense.text`, but has no comparisons.</td></tr><tr><td>MedicationDispense.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.contained` has is mapped to FHIR R4 element `MedicationDispense.contained`, but has no comparisons.</td></tr><tr><td>MedicationDispense.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.identifier` has is mapped to FHIR R4 element `MedicationDispense.identifier`, but has no comparisons.</td></tr><tr><td>MedicationDispense.partOf (partOf)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.partOf` has is mapped to FHIR R4 element `MedicationDispense.partOf`, but has no comparisons.</td></tr><tr><td>MedicationDispense.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.status` has is mapped to FHIR R4 element `MedicationDispense.status`, but has no comparisons.</td></tr><tr><td>MedicationDispense.notPerformedReason (notPerformedReason)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `MedicationDispense.statusReason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`.\nElement `MedicationDispense.notPerformedReason` has is mapped to FHIR R4 element `MedicationDispense.statusReason[x]`, but has no comparisons.\nNote that the target element context `MedicationDispense.statusReason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`.</td></tr><tr><td>MedicationDispense.category (category)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.category` has is mapped to FHIR R4 element `MedicationDispense.category`, but has no comparisons.</td></tr><tr><td>MedicationDispense.medication (medication)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `MedicationDispense.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`.\nElement `MedicationDispense.medication` has is mapped to FHIR R4 element `MedicationDispense.medication[x]`, but has no comparisons.\nNote that the target element context `MedicationDispense.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`.</td></tr><tr><td>MedicationDispense.subject (subject)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.subject` has is mapped to FHIR R4 element `MedicationDispense.subject`, but has no comparisons.</td></tr><tr><td>MedicationDispense.encounter (encounter)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.encounter` has is mapped to FHIR R4 element `MedicationDispense.context`, but has no comparisons.</td></tr><tr><td>MedicationDispense.supportingInformation (supportingInformation)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.supportingInformation` has is mapped to FHIR R4 element `MedicationDispense.supportingInformation`, but has no comparisons.</td></tr><tr><td>MedicationDispense.performer (performer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicationDispense.performer` has is mapped to FHIR R4 element `MedicationDispense.performer`, but has no comparisons.</td></tr><tr><td>MedicationDispense.performer.function (function)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.performer.function` is part of an existing definition because parent element `MedicationDispense.performer` requires a cross-version extension.\nElement `MedicationDispense.performer.function` has is mapped to FHIR R4 element `MedicationDispense.performer.function`, but has no comparisons.</td></tr><tr><td>MedicationDispense.performer.actor (actor)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicationDispense.performer.actor` is part of an existing definition because parent element `MedicationDispense.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.performer.actor` has is mapped to FHIR R4 element `MedicationDispense.performer.actor`, but has no comparisons.</td></tr><tr><td>MedicationDispense.location (location)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.location`: `http://hl7.org/fhir/StructureDefinition/event-location`.\nElement `MedicationDispense.location` has is mapped to FHIR R4 element `MedicationDispense.location`, but has no comparisons.</td></tr><tr><td>MedicationDispense.authorizingPrescription (authorizingPrescription)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.authorizingPrescription` has is mapped to FHIR R4 element `MedicationDispense.authorizingPrescription`, but has no comparisons.</td></tr><tr><td>MedicationDispense.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.type` has is mapped to FHIR R4 element `MedicationDispense.type`, but has no comparisons.</td></tr><tr><td>MedicationDispense.quantity (quantity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.quantity` has is mapped to FHIR R4 element `MedicationDispense.quantity`, but has no comparisons.</td></tr><tr><td>MedicationDispense.daysSupply (daysSupply)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.daysSupply` has is mapped to FHIR R4 element `MedicationDispense.daysSupply`, but has no comparisons.</td></tr><tr><td>MedicationDispense.whenPrepared (whenPrepared)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.whenPrepared` has is mapped to FHIR R4 element `MedicationDispense.whenPrepared`, but has no comparisons.</td></tr><tr><td>MedicationDispense.whenHandedOver (whenHandedOver)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.whenHandedOver` has is mapped to FHIR R4 element `MedicationDispense.whenHandedOver`, but has no comparisons.</td></tr><tr><td>MedicationDispense.destination (destination)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.destination` has is mapped to FHIR R4 element `MedicationDispense.destination`, but has no comparisons.</td></tr><tr><td>MedicationDispense.receiver (receiver)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.receiver` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.receiver` has is mapped to FHIR R4 element `MedicationDispense.receiver`, but has no comparisons.</td></tr><tr><td>MedicationDispense.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.note` has is mapped to FHIR R4 element `MedicationDispense.note`, but has no comparisons.</td></tr><tr><td>MedicationDispense.dosageInstruction (dosageInstruction)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.dosageInstruction` has is mapped to FHIR R4 element `MedicationDispense.dosageInstruction`, but has no comparisons.</td></tr><tr><td>MedicationDispense.substitution (substitution)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicationDispense.substitution` has is mapped to FHIR R4 element `MedicationDispense.substitution`, but has no comparisons.</td></tr><tr><td>MedicationDispense.substitution.wasSubstituted (wasSubstituted)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.substitution.wasSubstituted` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.wasSubstituted` has is mapped to FHIR R4 element `MedicationDispense.substitution.wasSubstituted`, but has no comparisons.</td></tr><tr><td>MedicationDispense.substitution.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.substitution.type` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.type` has is mapped to FHIR R4 element `MedicationDispense.substitution.type`, but has no comparisons.</td></tr><tr><td>MedicationDispense.substitution.reason (reason)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.substitution.reason` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.reason` has is mapped to FHIR R4 element `MedicationDispense.substitution.reason`, but has no comparisons.</td></tr><tr><td>MedicationDispense.substitution.responsibleParty (responsibleParty)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MedicationDispense.substitution.responsibleParty` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.substitution.responsibleParty` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.substitution.responsibleParty` has is mapped to FHIR R4 element `MedicationDispense.substitution.responsibleParty`, but has no comparisons.</td></tr><tr><td>MedicationDispense.eventHistory (eventHistory)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MedicationDispense.eventHistory` has is mapped to FHIR R4 element `MedicationDispense.eventHistory`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationDispense|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicationDispense.basedOn (basedOn)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.basedOn` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.</td></tr><tr><td>MedicationDispense.partOf (partOf)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.partOf` has is mapped to FHIR R4 element `MedicationDispense.partOf`, but has no comparisons.</td></tr><tr><td>MedicationDispense.performer.actor (actor)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `MedicationDispense.performer.actor` is part of an existing definition because parent element `MedicationDispense.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.performer.actor` has is mapped to FHIR R4 element `MedicationDispense.performer.actor`, but has no comparisons.</td></tr><tr><td>MedicationDispense.receiver (receiver)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.receiver` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.receiver` has is mapped to FHIR R4 element `MedicationDispense.receiver`, but has no comparisons.</td></tr><tr><td>MedicationDispense.substitution.responsibleParty (responsibleParty)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `MedicationDispense.substitution.responsibleParty` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.substitution.responsibleParty` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.substitution.responsibleParty` has is mapped to FHIR R4 element `MedicationDispense.substitution.responsibleParty`, but has no comparisons.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MedicationDispense|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MedicationDispense.statusChanged (statusChanged)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.statusChanged</td><td>Element `MedicationDispense.statusChanged` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.</td></tr><tr><td>MedicationDispense.performer (performer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.performer</td><td>Element `MedicationDispense.performer` has is mapped to FHIR R4 element `MedicationDispense.performer`, but has no comparisons.</td></tr><tr><td>MedicationDispense.performer.function (function)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.performer.function</td><td>Element `MedicationDispense.performer.function` is part of an existing definition because parent element `MedicationDispense.performer` requires a cross-version extension.\nElement `MedicationDispense.performer.function` has is mapped to FHIR R4 element `MedicationDispense.performer.function`, but has no comparisons.</td></tr><tr><td>MedicationDispense.recorded (recorded)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.recorded</td><td>Element `MedicationDispense.recorded` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.</td></tr><tr><td>MedicationDispense.renderedDosageInstruction (renderedDosageInstruction)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.renderedDosageInstruction</td><td>Element `MedicationDispense.renderedDosageInstruction` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`.</td></tr><tr><td>MedicationDispense.substitution (substitution)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.substitution</td><td>Element `MedicationDispense.substitution` has is mapped to FHIR R4 element `MedicationDispense.substitution`, but has no comparisons.</td></tr><tr><td>MedicationDispense.substitution.wasSubstituted (wasSubstituted)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.substitution.wasSubstituted</td><td>Element `MedicationDispense.substitution.wasSubstituted` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.wasSubstituted` has is mapped to FHIR R4 element `MedicationDispense.substitution.wasSubstituted`, but has no comparisons.</td></tr><tr><td>MedicationDispense.substitution.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.substitution.type</td><td>Element `MedicationDispense.substitution.type` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.type` has is mapped to FHIR R4 element `MedicationDispense.substitution.type`, but has no comparisons.</td></tr><tr><td>MedicationDispense.substitution.reason (reason)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.substitution.reason</td><td>Element `MedicationDispense.substitution.reason` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.reason` has is mapped to FHIR R4 element `MedicationDispense.substitution.reason`, but has no comparisons.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicationDispense-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-MedicationDispense-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5MedicationDispenseElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 MedicationDispense to FHIR R4 MedicationDispense"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:24.9971515-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 MedicationDispense to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationDispense"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicationDispense>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationDispense"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicationDispense>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicationDispense.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.meta` has is mapped to FHIR R4 element `MedicationDispense.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.implicitRules` has is mapped to FHIR R4 element `MedicationDispense.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.language` has is mapped to FHIR R4 element `MedicationDispense.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.text` has is mapped to FHIR R4 element `MedicationDispense.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.contained` has is mapped to FHIR R4 element `MedicationDispense.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.identifier` has is mapped to FHIR R4 element `MedicationDispense.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.partOf` has is mapped to FHIR R4 element `MedicationDispense.partOf`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.status` has is mapped to FHIR R4 element `MedicationDispense.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.notPerformedReason" ] ;
+       fhir:display [ fhir:v "notPerformedReason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MedicationDispense.statusReason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`.\nElement `MedicationDispense.notPerformedReason` has is mapped to FHIR R4 element `MedicationDispense.statusReason[x]`, but has no comparisons.\nNote that the target element context `MedicationDispense.statusReason[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.category` has is mapped to FHIR R4 element `MedicationDispense.category`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.medication" ] ;
+       fhir:display [ fhir:v "medication" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MedicationDispense.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`.\nElement `MedicationDispense.medication` has is mapped to FHIR R4 element `MedicationDispense.medication[x]`, but has no comparisons.\nNote that the target element context `MedicationDispense.medication[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MedicationDispense`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.subject` has is mapped to FHIR R4 element `MedicationDispense.subject`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.encounter` has is mapped to FHIR R4 element `MedicationDispense.context`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.supportingInformation" ] ;
+       fhir:display [ fhir:v "supportingInformation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.supportingInformation` has is mapped to FHIR R4 element `MedicationDispense.supportingInformation`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.performer` has is mapped to FHIR R4 element `MedicationDispense.performer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.performer.function` is part of an existing definition because parent element `MedicationDispense.performer` requires a cross-version extension.\nElement `MedicationDispense.performer.function` has is mapped to FHIR R4 element `MedicationDispense.performer.function`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.performer.actor` is part of an existing definition because parent element `MedicationDispense.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.performer.actor` has is mapped to FHIR R4 element `MedicationDispense.performer.actor`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.location`: `http://hl7.org/fhir/StructureDefinition/event-location`.\nElement `MedicationDispense.location` has is mapped to FHIR R4 element `MedicationDispense.location`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.authorizingPrescription" ] ;
+       fhir:display [ fhir:v "authorizingPrescription" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.authorizingPrescription` has is mapped to FHIR R4 element `MedicationDispense.authorizingPrescription`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.type` has is mapped to FHIR R4 element `MedicationDispense.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.quantity` has is mapped to FHIR R4 element `MedicationDispense.quantity`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.daysSupply" ] ;
+       fhir:display [ fhir:v "daysSupply" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.daysSupply` has is mapped to FHIR R4 element `MedicationDispense.daysSupply`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.whenPrepared" ] ;
+       fhir:display [ fhir:v "whenPrepared" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.whenPrepared` has is mapped to FHIR R4 element `MedicationDispense.whenPrepared`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.whenHandedOver" ] ;
+       fhir:display [ fhir:v "whenHandedOver" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.whenHandedOver` has is mapped to FHIR R4 element `MedicationDispense.whenHandedOver`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.destination" ] ;
+       fhir:display [ fhir:v "destination" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.destination` has is mapped to FHIR R4 element `MedicationDispense.destination`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.receiver" ] ;
+       fhir:display [ fhir:v "receiver" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.receiver` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.receiver` has is mapped to FHIR R4 element `MedicationDispense.receiver`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.note` has is mapped to FHIR R4 element `MedicationDispense.note`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.dosageInstruction" ] ;
+       fhir:display [ fhir:v "dosageInstruction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.dosageInstruction` has is mapped to FHIR R4 element `MedicationDispense.dosageInstruction`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.substitution" ] ;
+       fhir:display [ fhir:v "substitution" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.substitution` has is mapped to FHIR R4 element `MedicationDispense.substitution`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.substitution.wasSubstituted" ] ;
+       fhir:display [ fhir:v "wasSubstituted" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.substitution.wasSubstituted` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.wasSubstituted` has is mapped to FHIR R4 element `MedicationDispense.substitution.wasSubstituted`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.substitution.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.substitution.type` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.type` has is mapped to FHIR R4 element `MedicationDispense.substitution.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.substitution.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.substitution.reason` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.reason` has is mapped to FHIR R4 element `MedicationDispense.substitution.reason`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.substitution.responsibleParty" ] ;
+       fhir:display [ fhir:v "responsibleParty" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.substitution.responsibleParty` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.substitution.responsibleParty` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.substitution.responsibleParty` has is mapped to FHIR R4 element `MedicationDispense.substitution.responsibleParty`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.eventHistory" ] ;
+       fhir:display [ fhir:v "eventHistory" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.eventHistory` has is mapped to FHIR R4 element `MedicationDispense.eventHistory`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationDispense"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicationDispense>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicationDispense.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.basedOn` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.partOf` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.partOf` has is mapped to FHIR R4 element `MedicationDispense.partOf`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.performer.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.performer.actor` is part of an existing definition because parent element `MedicationDispense.performer` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.performer.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.performer.actor` has is mapped to FHIR R4 element `MedicationDispense.performer.actor`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.receiver" ] ;
+       fhir:display [ fhir:v "receiver" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.receiver` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.receiver` has is mapped to FHIR R4 element `MedicationDispense.receiver`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.substitution.responsibleParty" ] ;
+       fhir:display [ fhir:v "responsibleParty" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.substitution.responsibleParty` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MedicationDispense.substitution.responsibleParty` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MedicationDispense.substitution.responsibleParty` has is mapped to FHIR R4 element `MedicationDispense.substitution.responsibleParty`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MedicationDispense"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MedicationDispense>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MedicationDispense.statusChanged" ] ;
+       fhir:display [ fhir:v "statusChanged" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.statusChanged" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.statusChanged` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.performer" ] ;
+       fhir:display [ fhir:v "performer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.performer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.performer` has is mapped to FHIR R4 element `MedicationDispense.performer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.performer.function" ] ;
+       fhir:display [ fhir:v "function" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.performer.function" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.performer.function` is part of an existing definition because parent element `MedicationDispense.performer` requires a cross-version extension.\nElement `MedicationDispense.performer.function` has is mapped to FHIR R4 element `MedicationDispense.performer.function`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.recorded" ] ;
+       fhir:display [ fhir:v "recorded" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.recorded" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.recorded` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.renderedDosageInstruction" ] ;
+       fhir:display [ fhir:v "renderedDosageInstruction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.renderedDosageInstruction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.renderedDosageInstruction` has a context of MedicationDispense based on following the parent source element upwards and mapping to `MedicationDispense`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.substitution" ] ;
+       fhir:display [ fhir:v "substitution" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.substitution" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.substitution` has is mapped to FHIR R4 element `MedicationDispense.substitution`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.substitution.wasSubstituted" ] ;
+       fhir:display [ fhir:v "wasSubstituted" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.substitution.wasSubstituted" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.substitution.wasSubstituted` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.wasSubstituted` has is mapped to FHIR R4 element `MedicationDispense.substitution.wasSubstituted`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.substitution.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.substitution.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.substitution.type` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.type` has is mapped to FHIR R4 element `MedicationDispense.substitution.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MedicationDispense.substitution.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MedicationDispense.substitution.reason" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MedicationDispense.substitution.reason` is part of an existing definition because parent element `MedicationDispense.substitution` requires a cross-version extension.\nElement `MedicationDispense.substitution.reason` has is mapped to FHIR R4 element `MedicationDispense.substitution.reason`, but has no comparisons." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

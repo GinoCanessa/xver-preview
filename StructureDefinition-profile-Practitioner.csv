@@ -24,7 +24,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Practitioner.extension:deceased","Practitioner.extension","deceased","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.deceased|0.0.1-snapshot-3]]} {[]}
+"Practitioner.extension:deceased","Practitioner.extension","deceased","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.deceased]]} {[]}
 ","Cross-version extension for Practitioner.deceased[x] from R5 for use in FHIR R4","Indicates if the practitioner is deceased or not.","Element `Practitioner.deceased[x]` has a context of Practitioner based on following the parent source element upwards and mapping to `Practitioner`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -67,7 +67,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Practitioner.qualification.extension:qualification","Practitioner.qualification.extension","qualification","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.qualification|0.0.1-snapshot-3]]} {[]}
+"Practitioner.qualification.extension:qualification","Practitioner.qualification.extension","qualification","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.qualification]]} {[]}
 ","Cross-version extension for Practitioner.qualification from R5 for use in FHIR R4","The official qualifications, certifications, accreditations, training, licenses (and other types of educations/skills/capabilities) that authorize or otherwise pertain to the provision of care by the practitioner.For example, a medical license issued by a medical board of licensure authorizing the practitioner to practice medicine within a certain locality.","Element `Practitioner.qualification` has is mapped to FHIR R4 element `Practitioner.qualification`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -81,7 +81,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","An identifier for this qualification for the practitioner","An identifier that applies to this person's qualification in this role.","","Often, specific identities are assigned for the qualification.","","","","","","","",,,,,"",,,,"Practitioner.qualification.identifier",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".playingEntity.playingRole[classCode=QUAL].id"
 "Practitioner.qualification.code","Practitioner.qualification.code","","","",1,1,"","","","CodeableConcept {[]} {[]}
-","Coded representation of the qualification","Coded representation of the qualification.","","","","","","","","","",,"example","Specific qualification the practitioner has to provide a service.","http://terminology.hl7.org/ValueSet/v2-2.7-0360|0360","",,,,"Practitioner.qualification.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Coded representation of the qualification","Coded representation of the qualification.","","","","","","","","","",,"example","Specific qualification the practitioner has to provide a service.","http://terminology.hl7.org/ValueSet/v2-2.7-0360","",,,,"Practitioner.qualification.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".playingEntity.playingRole[classCode=QUAL].code","./Qualifications.Value"
 "Practitioner.qualification.period","Practitioner.qualification.period","","","",0,1,"","","","Period {[]} {[]}
 ","Period during which the qualification is valid","Period during which the qualification is valid.","","Qualifications are often for a limited period of time, and can be revoked.","","","","","","","",,,,,"",,,,"Practitioner.qualification.period",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -98,7 +98,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Practitioner.communication.extension:communication","Practitioner.communication.extension","communication","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.communication|0.0.1-snapshot-3]]} {[]}
+"Practitioner.communication.extension:communication","Practitioner.communication.extension","communication","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Practitioner.communication]]} {[]}
 ","Cross-version extension for Practitioner.communication from R5 for use in FHIR R4","A language which may be used to communicate with the practitioner, often for correspondence/administrative purposes.The `PractitionerRole.communication` property should be used for publishing the languages that a practitioner is able to communicate with patients (on a per Organization/Role basis).","Element `Practitioner.communication` has is mapped to FHIR R4 element `Practitioner.communication`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Practitioner.communication.coding","Practitioner.communication.coding","","","",0,*,"","","Y","Coding {[]} {[]}

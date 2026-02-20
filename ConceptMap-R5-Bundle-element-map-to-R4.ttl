@@ -1,0 +1,548 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Bundle-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Bundle-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Bundle-element-map-to-R4</b></p><a name=\"R5-Bundle-element-map-to-R4\"> </a><a name=\"hcR5-Bundle-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Bundle|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/bundle.html\">Bundleversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Bundle.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.meta` has is mapped to FHIR R4 element `Bundle.meta`, but has no comparisons.</td></tr><tr><td>Bundle.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.implicitRules` has is mapped to FHIR R4 element `Bundle.implicitRules`, but has no comparisons.</td></tr><tr><td>Bundle.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.language` has is mapped to FHIR R4 element `Bundle.language`, but has no comparisons.</td></tr><tr><td>Bundle.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.identifier` has is mapped to FHIR R4 element `Bundle.identifier`, but has no comparisons.</td></tr><tr><td>Bundle.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Bundle.type` has is mapped to FHIR R4 element `Bundle.type`, but has no comparisons.</td></tr><tr><td>Bundle.timestamp (timestamp)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.timestamp` has is mapped to FHIR R4 element `Bundle.timestamp`, but has no comparisons.</td></tr><tr><td>Bundle.total (total)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.total` has is mapped to FHIR R4 element `Bundle.total`, but has no comparisons.</td></tr><tr><td>Bundle.link (link)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Bundle.link` has is mapped to FHIR R4 element `Bundle.link`, but has no comparisons.\nNote available implied context: `Bundle.entry.link` because `Bundle.entry.link` is defined as a content reference to `Bundle.link`.</td></tr><tr><td>Bundle.link.relation (relation)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.\nElement `Bundle.link.relation` has is mapped to FHIR R4 element `Bundle.link.relation`, but has no comparisons.</td></tr><tr><td>Bundle.link.url (url)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.\nElement `Bundle.link.url` has is mapped to FHIR R4 element `Bundle.link.url`, but has no comparisons.</td></tr><tr><td>Bundle.entry (entry)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Bundle.entry` has is mapped to FHIR R4 element `Bundle.entry`, but has no comparisons.</td></tr><tr><td>Bundle.entry.link (link)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.link` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.link` has is mapped to FHIR R4 element `Bundle.entry.link`, but has no comparisons.</td></tr><tr><td>Bundle.entry.fullUrl (fullUrl)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.fullUrl` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.fullUrl` has is mapped to FHIR R4 element `Bundle.entry.fullUrl`, but has no comparisons.</td></tr><tr><td>Bundle.entry.resource (resource)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.resource` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.resource` has is mapped to FHIR R4 element `Bundle.entry.resource`, but has no comparisons.</td></tr><tr><td>Bundle.entry.search (search)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Bundle.entry.search` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.search` has is mapped to FHIR R4 element `Bundle.entry.search`, but has no comparisons.</td></tr><tr><td>Bundle.entry.search.mode (mode)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.search.mode` is part of an existing definition because parent element `Bundle.entry.search` requires a cross-version extension.\nElement `Bundle.entry.search.mode` has is mapped to FHIR R4 element `Bundle.entry.search.mode`, but has no comparisons.</td></tr><tr><td>Bundle.entry.search.score (score)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.search.score` is part of an existing definition because parent element `Bundle.entry.search` requires a cross-version extension.\nElement `Bundle.entry.search.score` has is mapped to FHIR R4 element `Bundle.entry.search.score`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request (request)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Bundle.entry.request` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.request` has is mapped to FHIR R4 element `Bundle.entry.request`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.method (method)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.method` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.method` has is mapped to FHIR R4 element `Bundle.entry.request.method`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.url (url)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.url` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.url` has is mapped to FHIR R4 element `Bundle.entry.request.url`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.ifNoneMatch (ifNoneMatch)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.ifNoneMatch` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifNoneMatch` has is mapped to FHIR R4 element `Bundle.entry.request.ifNoneMatch`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.ifModifiedSince (ifModifiedSince)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.ifModifiedSince` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifModifiedSince` has is mapped to FHIR R4 element `Bundle.entry.request.ifModifiedSince`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.ifMatch (ifMatch)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.ifMatch` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifMatch` has is mapped to FHIR R4 element `Bundle.entry.request.ifMatch`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.ifNoneExist (ifNoneExist)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.request.ifNoneExist` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifNoneExist` has is mapped to FHIR R4 element `Bundle.entry.request.ifNoneExist`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response (response)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `Bundle.entry.response` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.response` has is mapped to FHIR R4 element `Bundle.entry.response`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.response.status` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.status` has is mapped to FHIR R4 element `Bundle.entry.response.status`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response.location (location)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.response.location` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.location` has is mapped to FHIR R4 element `Bundle.entry.response.location`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response.etag (etag)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.response.etag` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.etag` has is mapped to FHIR R4 element `Bundle.entry.response.etag`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response.lastModified (lastModified)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.response.lastModified` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.lastModified` has is mapped to FHIR R4 element `Bundle.entry.response.lastModified`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response.outcome (outcome)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.entry.response.outcome` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.outcome` has is mapped to FHIR R4 element `Bundle.entry.response.outcome`, but has no comparisons.</td></tr><tr><td>Bundle.signature (signature)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `Bundle.signature` has is mapped to FHIR R4 element `Bundle.signature`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Bundle|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Bundle.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.type</td><td>Element `Bundle.type` has is mapped to FHIR R4 element `Bundle.type`, but has no comparisons.</td></tr><tr><td>Bundle.link (link)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link</td><td>Element `Bundle.link` has is mapped to FHIR R4 element `Bundle.link`, but has no comparisons.\nNote available implied context: `Bundle.entry.link` because `Bundle.entry.link` is defined as a content reference to `Bundle.link`.</td></tr><tr><td>Bundle.link.relation (relation)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link.relation</td><td>Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.\nElement `Bundle.link.relation` has is mapped to FHIR R4 element `Bundle.link.relation`, but has no comparisons.</td></tr><tr><td>Bundle.link.url (url)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link.url</td><td>Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.\nElement `Bundle.link.url` has is mapped to FHIR R4 element `Bundle.link.url`, but has no comparisons.</td></tr><tr><td>Bundle.entry (entry)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry</td><td>Element `Bundle.entry` has is mapped to FHIR R4 element `Bundle.entry`, but has no comparisons.</td></tr><tr><td>Bundle.entry.link (link)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link</td><td>Element `Bundle.entry.link` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.link` has is mapped to FHIR R4 element `Bundle.entry.link`, but has no comparisons.</td></tr><tr><td>Bundle.entry.fullUrl (fullUrl)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.fullUrl</td><td>Element `Bundle.entry.fullUrl` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.fullUrl` has is mapped to FHIR R4 element `Bundle.entry.fullUrl`, but has no comparisons.</td></tr><tr><td>Bundle.entry.resource (resource)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.resource</td><td>Element `Bundle.entry.resource` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.resource` has is mapped to FHIR R4 element `Bundle.entry.resource`, but has no comparisons.</td></tr><tr><td>Bundle.entry.search (search)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.search</td><td>Element `Bundle.entry.search` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.search` has is mapped to FHIR R4 element `Bundle.entry.search`, but has no comparisons.</td></tr><tr><td>Bundle.entry.search.mode (mode)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.search.mode</td><td>Element `Bundle.entry.search.mode` is part of an existing definition because parent element `Bundle.entry.search` requires a cross-version extension.\nElement `Bundle.entry.search.mode` has is mapped to FHIR R4 element `Bundle.entry.search.mode`, but has no comparisons.</td></tr><tr><td>Bundle.entry.search.score (score)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.search.score</td><td>Element `Bundle.entry.search.score` is part of an existing definition because parent element `Bundle.entry.search` requires a cross-version extension.\nElement `Bundle.entry.search.score` has is mapped to FHIR R4 element `Bundle.entry.search.score`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request (request)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request</td><td>Element `Bundle.entry.request` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.request` has is mapped to FHIR R4 element `Bundle.entry.request`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.method (method)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.method</td><td>Element `Bundle.entry.request.method` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.method` has is mapped to FHIR R4 element `Bundle.entry.request.method`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.url (url)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.url</td><td>Element `Bundle.entry.request.url` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.url` has is mapped to FHIR R4 element `Bundle.entry.request.url`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.ifNoneMatch (ifNoneMatch)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.ifNoneMatch</td><td>Element `Bundle.entry.request.ifNoneMatch` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifNoneMatch` has is mapped to FHIR R4 element `Bundle.entry.request.ifNoneMatch`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.ifModifiedSince (ifModifiedSince)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.ifModifiedSince</td><td>Element `Bundle.entry.request.ifModifiedSince` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifModifiedSince` has is mapped to FHIR R4 element `Bundle.entry.request.ifModifiedSince`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.ifMatch (ifMatch)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.ifMatch</td><td>Element `Bundle.entry.request.ifMatch` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifMatch` has is mapped to FHIR R4 element `Bundle.entry.request.ifMatch`, but has no comparisons.</td></tr><tr><td>Bundle.entry.request.ifNoneExist (ifNoneExist)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.ifNoneExist</td><td>Element `Bundle.entry.request.ifNoneExist` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifNoneExist` has is mapped to FHIR R4 element `Bundle.entry.request.ifNoneExist`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response (response)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response</td><td>Element `Bundle.entry.response` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.response` has is mapped to FHIR R4 element `Bundle.entry.response`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.status</td><td>Element `Bundle.entry.response.status` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.status` has is mapped to FHIR R4 element `Bundle.entry.response.status`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response.location (location)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.location</td><td>Element `Bundle.entry.response.location` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.location` has is mapped to FHIR R4 element `Bundle.entry.response.location`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response.etag (etag)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.etag</td><td>Element `Bundle.entry.response.etag` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.etag` has is mapped to FHIR R4 element `Bundle.entry.response.etag`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response.lastModified (lastModified)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.lastModified</td><td>Element `Bundle.entry.response.lastModified` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.lastModified` has is mapped to FHIR R4 element `Bundle.entry.response.lastModified`, but has no comparisons.</td></tr><tr><td>Bundle.entry.response.outcome (outcome)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.outcome</td><td>Element `Bundle.entry.response.outcome` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.outcome` has is mapped to FHIR R4 element `Bundle.entry.response.outcome`, but has no comparisons.</td></tr><tr><td>Bundle.issues (issues)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.issues</td><td>Element `Bundle.issues` has a context of Bundle based on following the parent source element upwards and mapping to `Bundle`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Bundle-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Bundle-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5BundleElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Bundle to FHIR R4 Bundle"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:22.3755463-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Bundle to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Bundle>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Bundle>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Bundle.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.meta` has is mapped to FHIR R4 element `Bundle.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.implicitRules` has is mapped to FHIR R4 element `Bundle.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.language` has is mapped to FHIR R4 element `Bundle.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.identifier` has is mapped to FHIR R4 element `Bundle.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.type` has is mapped to FHIR R4 element `Bundle.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.timestamp" ] ;
+       fhir:display [ fhir:v "timestamp" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.timestamp` has is mapped to FHIR R4 element `Bundle.timestamp`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.total" ] ;
+       fhir:display [ fhir:v "total" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.total` has is mapped to FHIR R4 element `Bundle.total`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.link` has is mapped to FHIR R4 element `Bundle.link`, but has no comparisons.\nNote available implied context: `Bundle.entry.link` because `Bundle.entry.link` is defined as a content reference to `Bundle.link`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.link.relation" ] ;
+       fhir:display [ fhir:v "relation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.\nElement `Bundle.link.relation` has is mapped to FHIR R4 element `Bundle.link.relation`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.link.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.\nElement `Bundle.link.url` has is mapped to FHIR R4 element `Bundle.link.url`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry" ] ;
+       fhir:display [ fhir:v "entry" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry` has is mapped to FHIR R4 element `Bundle.entry`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.link` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.link` has is mapped to FHIR R4 element `Bundle.entry.link`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.fullUrl" ] ;
+       fhir:display [ fhir:v "fullUrl" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.fullUrl` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.fullUrl` has is mapped to FHIR R4 element `Bundle.entry.fullUrl`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.resource` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.resource` has is mapped to FHIR R4 element `Bundle.entry.resource`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.search" ] ;
+       fhir:display [ fhir:v "search" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.search` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.search` has is mapped to FHIR R4 element `Bundle.entry.search`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.search.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.search.mode` is part of an existing definition because parent element `Bundle.entry.search` requires a cross-version extension.\nElement `Bundle.entry.search.mode` has is mapped to FHIR R4 element `Bundle.entry.search.mode`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.search.score" ] ;
+       fhir:display [ fhir:v "score" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.search.score` is part of an existing definition because parent element `Bundle.entry.search` requires a cross-version extension.\nElement `Bundle.entry.search.score` has is mapped to FHIR R4 element `Bundle.entry.search.score`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.request` has is mapped to FHIR R4 element `Bundle.entry.request`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.method" ] ;
+       fhir:display [ fhir:v "method" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.method` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.method` has is mapped to FHIR R4 element `Bundle.entry.request.method`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.url` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.url` has is mapped to FHIR R4 element `Bundle.entry.request.url`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifNoneMatch" ] ;
+       fhir:display [ fhir:v "ifNoneMatch" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifNoneMatch` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifNoneMatch` has is mapped to FHIR R4 element `Bundle.entry.request.ifNoneMatch`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifModifiedSince" ] ;
+       fhir:display [ fhir:v "ifModifiedSince" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifModifiedSince` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifModifiedSince` has is mapped to FHIR R4 element `Bundle.entry.request.ifModifiedSince`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifMatch" ] ;
+       fhir:display [ fhir:v "ifMatch" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifMatch` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifMatch` has is mapped to FHIR R4 element `Bundle.entry.request.ifMatch`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifNoneExist" ] ;
+       fhir:display [ fhir:v "ifNoneExist" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifNoneExist` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifNoneExist` has is mapped to FHIR R4 element `Bundle.entry.request.ifNoneExist`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response" ] ;
+       fhir:display [ fhir:v "response" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.response` has is mapped to FHIR R4 element `Bundle.entry.response`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.status` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.status` has is mapped to FHIR R4 element `Bundle.entry.response.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.location` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.location` has is mapped to FHIR R4 element `Bundle.entry.response.location`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.etag" ] ;
+       fhir:display [ fhir:v "etag" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.etag` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.etag` has is mapped to FHIR R4 element `Bundle.entry.response.etag`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.lastModified" ] ;
+       fhir:display [ fhir:v "lastModified" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.lastModified` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.lastModified` has is mapped to FHIR R4 element `Bundle.entry.response.lastModified`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.outcome` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.outcome` has is mapped to FHIR R4 element `Bundle.entry.response.outcome`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.signature" ] ;
+       fhir:display [ fhir:v "signature" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.signature` has is mapped to FHIR R4 element `Bundle.signature`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Bundle"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Bundle>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Bundle.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.type` has is mapped to FHIR R4 element `Bundle.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.link` has is mapped to FHIR R4 element `Bundle.link`, but has no comparisons.\nNote available implied context: `Bundle.entry.link` because `Bundle.entry.link` is defined as a content reference to `Bundle.link`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.link.relation" ] ;
+       fhir:display [ fhir:v "relation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link.relation" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.link.relation` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.\nElement `Bundle.link.relation` has is mapped to FHIR R4 element `Bundle.link.relation`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.link.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link.url" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.link.url` is part of an existing definition because parent element `Bundle.link` requires a cross-version extension.\nElement `Bundle.link.url` has is mapped to FHIR R4 element `Bundle.link.url`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry" ] ;
+       fhir:display [ fhir:v "entry" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry` has is mapped to FHIR R4 element `Bundle.entry`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.link` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.link` has is mapped to FHIR R4 element `Bundle.entry.link`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.fullUrl" ] ;
+       fhir:display [ fhir:v "fullUrl" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.fullUrl" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.fullUrl` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.fullUrl` has is mapped to FHIR R4 element `Bundle.entry.fullUrl`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.resource" ] ;
+       fhir:display [ fhir:v "resource" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.resource" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.resource` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.resource` has is mapped to FHIR R4 element `Bundle.entry.resource`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.search" ] ;
+       fhir:display [ fhir:v "search" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.search" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.search` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.search` has is mapped to FHIR R4 element `Bundle.entry.search`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.search.mode" ] ;
+       fhir:display [ fhir:v "mode" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.search.mode" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.search.mode` is part of an existing definition because parent element `Bundle.entry.search` requires a cross-version extension.\nElement `Bundle.entry.search.mode` has is mapped to FHIR R4 element `Bundle.entry.search.mode`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.search.score" ] ;
+       fhir:display [ fhir:v "score" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.search.score" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.search.score` is part of an existing definition because parent element `Bundle.entry.search` requires a cross-version extension.\nElement `Bundle.entry.search.score` has is mapped to FHIR R4 element `Bundle.entry.search.score`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request" ] ;
+       fhir:display [ fhir:v "request" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.request` has is mapped to FHIR R4 element `Bundle.entry.request`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.method" ] ;
+       fhir:display [ fhir:v "method" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.method" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.method` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.method` has is mapped to FHIR R4 element `Bundle.entry.request.method`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.url" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.url` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.url` has is mapped to FHIR R4 element `Bundle.entry.request.url`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifNoneMatch" ] ;
+       fhir:display [ fhir:v "ifNoneMatch" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.ifNoneMatch" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifNoneMatch` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifNoneMatch` has is mapped to FHIR R4 element `Bundle.entry.request.ifNoneMatch`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifModifiedSince" ] ;
+       fhir:display [ fhir:v "ifModifiedSince" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.ifModifiedSince" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifModifiedSince` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifModifiedSince` has is mapped to FHIR R4 element `Bundle.entry.request.ifModifiedSince`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifMatch" ] ;
+       fhir:display [ fhir:v "ifMatch" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.ifMatch" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifMatch` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifMatch` has is mapped to FHIR R4 element `Bundle.entry.request.ifMatch`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.request.ifNoneExist" ] ;
+       fhir:display [ fhir:v "ifNoneExist" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.request.ifNoneExist" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.request.ifNoneExist` is part of an existing definition because parent element `Bundle.entry.request` requires a cross-version extension.\nElement `Bundle.entry.request.ifNoneExist` has is mapped to FHIR R4 element `Bundle.entry.request.ifNoneExist`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response" ] ;
+       fhir:display [ fhir:v "response" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response` is part of an existing definition because parent element `Bundle.entry` requires a cross-version extension.\nElement `Bundle.entry.response` has is mapped to FHIR R4 element `Bundle.entry.response`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.status` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.status` has is mapped to FHIR R4 element `Bundle.entry.response.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.location" ] ;
+       fhir:display [ fhir:v "location" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.location" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.location` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.location` has is mapped to FHIR R4 element `Bundle.entry.response.location`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.etag" ] ;
+       fhir:display [ fhir:v "etag" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.etag" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.etag` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.etag` has is mapped to FHIR R4 element `Bundle.entry.response.etag`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.lastModified" ] ;
+       fhir:display [ fhir:v "lastModified" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.lastModified" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.lastModified` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.lastModified` has is mapped to FHIR R4 element `Bundle.entry.response.lastModified`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.entry.response.outcome" ] ;
+       fhir:display [ fhir:v "outcome" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry.response.outcome" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.entry.response.outcome` is part of an existing definition because parent element `Bundle.entry.response` requires a cross-version extension.\nElement `Bundle.entry.response.outcome` has is mapped to FHIR R4 element `Bundle.entry.response.outcome`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Bundle.issues" ] ;
+       fhir:display [ fhir:v "issues" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.issues" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Bundle.issues` has a context of Bundle based on following the parent source element upwards and mapping to `Bundle`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

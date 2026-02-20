@@ -50,7 +50,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.basedOn.extension:basedOn","CarePlan.basedOn.extension","basedOn","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"CarePlan.basedOn.extension:basedOn","CarePlan.basedOn.extension","basedOn","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for CarePlan.basedOn from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/NutritionOrder,http://hl7.org/fhir/StructureDefinition/RequestOrchestration,http://hl7.org/fhir/StructureDefinition/ServiceRequest in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `CarePlan.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `CarePlan.basedOn` has is mapped to FHIR R4 element `CarePlan.basedOn`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -96,7 +96,7 @@ This element is labeled as a modifier because the status contains the code enter
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.intent.extension:intent","CarePlan.intent.extension","intent","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.intent|0.0.1-snapshot-3]]} {[]}
+"CarePlan.intent.extension:intent","CarePlan.intent.extension","intent","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.intent]]} {[]}
 ","Cross-version extension for CarePlan.intent from R5 for use in FHIR R4","Indicates the level of authority/intentionality associated with the care plan and where the care plan fits into the workflow chain.","Note that the target element context `CarePlan.intent` is a modifier element, so this extension does not need to be defined as a modifier.
 Element `CarePlan.intent` has is mapped to FHIR R4 element `CarePlan.intent`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -145,7 +145,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.addresses.extension:addresses","CarePlan.addresses.extension","addresses","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.addresses|0.0.1-snapshot-3]]} {[]}
+"CarePlan.addresses.extension:addresses","CarePlan.addresses.extension","addresses","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.addresses]]} {[]}
 ","Cross-version extension for CarePlan.addresses from R5 for use in FHIR R4","Identifies the conditions/problems/concerns/diagnoses/etc. whose management and/or mitigation are handled by this plan.","Element `CarePlan.addresses` has is mapped to FHIR R4 element `CarePlan.addresses`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CarePlan.addresses.reference","CarePlan.addresses.reference","","","",0,1,"","","Y","string {[]} {[]}
@@ -185,7 +185,7 @@ NOTE: This is a list of contained Request-Event tuples!}",".outboundRelationship
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CarePlan.activity.extension:activity","CarePlan.activity.extension","activity","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.activity|0.0.1-snapshot-3]]} {[]}
+"CarePlan.activity.extension:activity","CarePlan.activity.extension","activity","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-CarePlan.activity]]} {[]}
 ","Cross-version extension for CarePlan.activity from R5 for use in FHIR R4","Identifies an action that has occurred or is a planned action to occur as part of the plan. For example, a medication to be used, lab tests to perform, self-monitoring that has occurred, education etc.","Element `CarePlan.activity` has is mapped to FHIR R4 element `CarePlan.activity`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

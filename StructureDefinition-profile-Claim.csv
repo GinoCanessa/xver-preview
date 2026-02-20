@@ -25,23 +25,23 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.extension:traceNumber","Claim.extension","traceNumber","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.traceNumber|0.0.1-snapshot-3]]} {[]}
+"Claim.extension:traceNumber","Claim.extension","traceNumber","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.traceNumber]]} {[]}
 ","Cross-version extension for Claim.traceNumber from R5 for use in FHIR R4","Trace number for tracking purposes. May be defined at the jurisdiction level or between trading partners.","Element `Claim.traceNumber` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.extension:diagnosisRelatedGroup","Claim.extension","diagnosisRelatedGroup","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosisRelatedGroup|0.0.1-snapshot-3]]} {[]}
+"Claim.extension:diagnosisRelatedGroup","Claim.extension","diagnosisRelatedGroup","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosisRelatedGroup]]} {[]}
 ","Cross-version extension for Claim.diagnosisRelatedGroup from R5 for use in FHIR R4","A package billing code or bundle code used to group products and services to a particular health condition (such as heart attack) which is based on a predetermined grouping code system.","Element `Claim.diagnosisRelatedGroup` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.extension:event","Claim.extension","event","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event|0.0.1-snapshot-3]]} {[]}
+"Claim.extension:event","Claim.extension","event","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.event]]} {[]}
 ","Cross-version extension for Claim.event from R5 for use in FHIR R4","Information code for an event with a corresponding date or period.","Element `Claim.event` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.extension:patientPaid","Claim.extension","patientPaid","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.patientPaid|0.0.1-snapshot-3]]} {[]}
+"Claim.extension:patientPaid","Claim.extension","patientPaid","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.patientPaid]]} {[]}
 ","Cross-version extension for Claim.patientPaid from R5 for use in FHIR R4","The amount paid by the patient, in total at the claim claim level or specifically for the item and detail level, to the provider for goods and services.","Element `Claim.patientPaid` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.extension:encounter","Claim.extension","encounter","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"Claim.extension:encounter","Claim.extension","encounter","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for Claim.encounter from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Encounter in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Claim.encounter` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Claim.encounter` has a context of Claim based on following the parent source element upwards and mapping to `Claim`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -85,7 +85,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.enterer.extension:enterer","Claim.enterer.extension","enterer","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"Claim.enterer.extension:enterer","Claim.enterer.extension","enterer","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for Claim.enterer from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Patient,http://hl7.org/fhir/StructureDefinition/RelatedPerson in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Claim.enterer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Claim.enterer` has is mapped to FHIR R4 element `Claim.enterer`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -132,7 +132,7 @@ Reference is intended to point to a structure that can potentially be expressed 
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.related.extension:related","Claim.related.extension","related","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related|0.0.1-snapshot-3]]} {[]}
+"Claim.related.extension:related","Claim.related.extension","related","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.related]]} {[]}
 ","Cross-version extension for Claim.related from R5 for use in FHIR R4","Other claims which are related to this claim such as prior submissions or claims for related services or for the same event.","Element `Claim.related` has is mapped to FHIR R4 element `Claim.related`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -166,7 +166,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.payee.extension:payee","Claim.payee.extension","payee","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.payee|0.0.1-snapshot-3]]} {[]}
+"Claim.payee.extension:payee","Claim.payee.extension","payee","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.payee]]} {[]}
 ","Cross-version extension for Claim.payee from R5 for use in FHIR R4","The party to be reimbursed for cost of the products and services according to the terms of the policy.","Element `Claim.payee` has is mapped to FHIR R4 element `Claim.payee`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -194,7 +194,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.facility.extension:facility","Claim.facility.extension","facility","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"Claim.facility.extension:facility","Claim.facility.extension","facility","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for Claim.facility from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/Organization in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Claim.facility` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Claim.facility` has is mapped to FHIR R4 element `Claim.facility`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -228,7 +228,7 @@ Reference is intended to point to a structure that can potentially be expressed 
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.careTeam.extension:careTeam","Claim.careTeam.extension","careTeam","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam|0.0.1-snapshot-3]]} {[]}
+"Claim.careTeam.extension:careTeam","Claim.careTeam.extension","careTeam","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.careTeam]]} {[]}
 ","Cross-version extension for Claim.careTeam from R5 for use in FHIR R4","The members of the team who provided the products and services.","Element `Claim.careTeam` has is mapped to FHIR R4 element `Claim.careTeam`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -266,7 +266,7 @@ Value codes
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.supportingInfo.extension:supportingInfo","Claim.supportingInfo.extension","supportingInfo","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo|0.0.1-snapshot-3]]} {[]}
+"Claim.supportingInfo.extension:supportingInfo","Claim.supportingInfo.extension","supportingInfo","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.supportingInfo]]} {[]}
 ","Cross-version extension for Claim.supportingInfo from R5 for use in FHIR R4","Additional information codes regarding exceptions, special considerations, the condition, situation, prior or concurrent issues.","Element `Claim.supportingInfo` has is mapped to FHIR R4 element `Claim.supportingInfo`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -303,7 +303,7 @@ string {[]} {[]}Quantity {[]} {[]}Attachment {[]} {[]}Reference {[]} {[Canonical
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.diagnosis.extension:diagnosis","Claim.diagnosis.extension","diagnosis","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosis|0.0.1-snapshot-3]]} {[]}
+"Claim.diagnosis.extension:diagnosis","Claim.diagnosis.extension","diagnosis","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.diagnosis]]} {[]}
 ","Cross-version extension for Claim.diagnosis from R5 for use in FHIR R4","Information about diagnoses relevant to the claim items.","Element `Claim.diagnosis` has is mapped to FHIR R4 element `Claim.diagnosis`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -337,7 +337,7 @@ Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Condition
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.procedure.extension:procedure","Claim.procedure.extension","procedure","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure|0.0.1-snapshot-3]]} {[]}
+"Claim.procedure.extension:procedure","Claim.procedure.extension","procedure","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.procedure]]} {[]}
 ","Cross-version extension for Claim.procedure from R5 for use in FHIR R4","Procedures performed on the patient relevant to the billing items with the claim.","Element `Claim.procedure` has is mapped to FHIR R4 element `Claim.procedure`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -371,7 +371,7 @@ Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Procedure
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.insurance.extension:insurance","Claim.insurance.extension","insurance","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.insurance|0.0.1-snapshot-3]]} {[]}
+"Claim.insurance.extension:insurance","Claim.insurance.extension","insurance","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.insurance]]} {[]}
 ","Cross-version extension for Claim.insurance from R5 for use in FHIR R4","Financial instruments for reimbursement for the health care products and services specified on the claim.","Element `Claim.insurance` has is mapped to FHIR R4 element `Claim.insurance`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -411,7 +411,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.accident.extension:accident","Claim.accident.extension","accident","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.accident|0.0.1-snapshot-3]]} {[]}
+"Claim.accident.extension:accident","Claim.accident.extension","accident","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.accident]]} {[]}
 ","Cross-version extension for Claim.accident from R5 for use in FHIR R4","Details of an accident which resulted in injuries which required the products and services listed in the claim.","Element `Claim.accident` has is mapped to FHIR R4 element `Claim.accident`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -425,7 +425,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","When the incident occurred","Date of an accident event  related to the products and services contained in the claim.","The date of the accident has to precede the dates of the products and services but within a reasonable timeframe.","Required for audit purposes and adjudication.","","","","","","","",,,,,"",,,,"Claim.accident.date",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Claim.accident.type","Claim.accident.type","","","",0,1,"","","","CodeableConcept {[]} {[]}
-","The nature of the accident","The type or context of the accident event for the purposes of selection of potential insurance coverages and determination of coordination between insurers.","","Coverage may be dependant on the type of accident.","","","","","","","",,"extensible","Type of accident: work place, auto, etc.","http://terminology.hl7.org/ValueSet/v3-ActIncidentCode|3.0.0","",,,,"Claim.accident.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","The nature of the accident","The type or context of the accident event for the purposes of selection of potential insurance coverages and determination of coordination between insurers.","","Coverage may be dependant on the type of accident.","","","","","","","",,"extensible","Type of accident: work place, auto, etc.","http://terminology.hl7.org/ValueSet/v3-ActIncidentCode","",,,,"Claim.accident.type",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 "
 "Claim.accident.location[x]","Claim.accident.location[x]","","","",0,1,"","","","Address {[]} {[]}
 Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Location|4.0.1]]}","Where the event occurred","The physical location of the accident event.","","Required for audit purposes and determination of applicable insurance liability.","","","","","","","",,,,,"",,,,"Claim.accident.location[x]",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -439,7 +439,7 @@ Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Location|
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Claim.item.extension:item","Claim.item.extension","item","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item|0.0.1-snapshot-3]]} {[]}
+"Claim.item.extension:item","Claim.item.extension","item","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Claim.item]]} {[]}
 ","Cross-version extension for Claim.item from R5 for use in FHIR R4","A claim line. Either a simple  product or service or a 'group' of details which can each be a simple items or groups of sub-details.","Element `Claim.item` has is mapped to FHIR R4 element `Claim.item`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

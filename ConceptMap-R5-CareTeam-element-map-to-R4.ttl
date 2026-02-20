@@ -1,0 +1,307 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-CareTeam-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-CareTeam-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-CareTeam-element-map-to-R4</b></p><a name=\"R5-CareTeam-element-map-to-R4\"> </a><a name=\"hcR5-CareTeam-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CareTeam|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/careteam.html\">CareTeamversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/CareTeam|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/CareTeam|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">CareTeam.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.meta` has is mapped to FHIR R4 element `CareTeam.meta`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.implicitRules` has is mapped to FHIR R4 element `CareTeam.implicitRules`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.language` has is mapped to FHIR R4 element `CareTeam.language`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.text` has is mapped to FHIR R4 element `CareTeam.text`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.contained` has is mapped to FHIR R4 element `CareTeam.contained`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.identifier` has is mapped to FHIR R4 element `CareTeam.identifier`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.status` has is mapped to FHIR R4 element `CareTeam.status`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.category</td><td style=\"border-left-width: 0px\">category</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.category` has is mapped to FHIR R4 element `CareTeam.category`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.name</td><td style=\"border-left-width: 0px\">name</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.name` has is mapped to FHIR R4 element `CareTeam.name`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.subject</td><td style=\"border-left-width: 0px\">subject</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.subject` has is mapped to FHIR R4 element `CareTeam.subject`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.period</td><td style=\"border-left-width: 0px\">period</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.period` has is mapped to FHIR R4 element `CareTeam.period`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.participant</td><td style=\"border-left-width: 0px\">participant</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant` has is mapped to FHIR R4 element `CareTeam.participant`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.participant.role</td><td style=\"border-left-width: 0px\">role</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.role` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.role` has is mapped to FHIR R4 element `CareTeam.participant.role`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.participant.member</td><td style=\"border-left-width: 0px\">member</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.member` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.member` has is mapped to FHIR R4 element `CareTeam.participant.member`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.participant.onBehalfOf</td><td style=\"border-left-width: 0px\">onBehalfOf</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.participant.onBehalfOf` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.onBehalfOf` has is mapped to FHIR R4 element `CareTeam.participant.onBehalfOf`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">CareTeam.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonCode`, but has no comparisons.\nElement `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonReference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonCode`, but has no comparisons.\nElement `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonReference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.managingOrganization</td><td style=\"border-left-width: 0px\">managingOrganization</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.managingOrganization` has is mapped to FHIR R4 element `CareTeam.managingOrganization`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.telecom</td><td style=\"border-left-width: 0px\">telecom</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.telecom` has is mapped to FHIR R4 element `CareTeam.telecom`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">CareTeam.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `CareTeam.note` has is mapped to FHIR R4 element `CareTeam.note`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/CareTeam|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>CareTeam.participant (participant)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant</td><td>Element `CareTeam.participant` has is mapped to FHIR R4 element `CareTeam.participant`, but has no comparisons.</td></tr><tr><td>CareTeam.participant.role (role)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.role</td><td>Element `CareTeam.participant.role` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.role` has is mapped to FHIR R4 element `CareTeam.participant.role`, but has no comparisons.</td></tr><tr><td>CareTeam.participant.member (member)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.member</td><td>Element `CareTeam.participant.member` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.member` has is mapped to FHIR R4 element `CareTeam.participant.member`, but has no comparisons.</td></tr><tr><td>CareTeam.participant.onBehalfOf (onBehalfOf)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.onBehalfOf</td><td>Element `CareTeam.participant.onBehalfOf` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.onBehalfOf` has is mapped to FHIR R4 element `CareTeam.participant.onBehalfOf`, but has no comparisons.</td></tr><tr><td>CareTeam.participant.coverage[x] (coverage[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.coverage</td><td>Element `CareTeam.participant.coverage[x]` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.coverage[x]` has a context of CareTeam.participant based on following the parent source element upwards and mapping to `CareTeam`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-CareTeam-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-CareTeam-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5CareTeamElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 CareTeam to FHIR R4 CareTeam"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:22.3950358-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 CareTeam to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CareTeam>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CareTeam>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CareTeam.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.meta` has is mapped to FHIR R4 element `CareTeam.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.implicitRules` has is mapped to FHIR R4 element `CareTeam.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.language` has is mapped to FHIR R4 element `CareTeam.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.text` has is mapped to FHIR R4 element `CareTeam.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.contained` has is mapped to FHIR R4 element `CareTeam.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.identifier` has is mapped to FHIR R4 element `CareTeam.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.status` has is mapped to FHIR R4 element `CareTeam.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.category" ] ;
+       fhir:display [ fhir:v "category" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.category` has is mapped to FHIR R4 element `CareTeam.category`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.name` has is mapped to FHIR R4 element `CareTeam.name`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.subject` has is mapped to FHIR R4 element `CareTeam.subject`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.period` has is mapped to FHIR R4 element `CareTeam.period`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant` has is mapped to FHIR R4 element `CareTeam.participant`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.role` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.role` has is mapped to FHIR R4 element `CareTeam.participant.role`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.member" ] ;
+       fhir:display [ fhir:v "member" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.member` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.member` has is mapped to FHIR R4 element `CareTeam.participant.member`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.onBehalfOf" ] ;
+       fhir:display [ fhir:v "onBehalfOf" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.onBehalfOf` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.onBehalfOf` has is mapped to FHIR R4 element `CareTeam.participant.onBehalfOf`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonCode`, but has no comparisons.\nElement `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonReference`, but has no comparisons." ]
+       ] [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonCode`, but has no comparisons.\nElement `CareTeam.reason` has is mapped to FHIR R4 element `CareTeam.reasonReference`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.managingOrganization" ] ;
+       fhir:display [ fhir:v "managingOrganization" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.managingOrganization` has is mapped to FHIR R4 element `CareTeam.managingOrganization`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.telecom" ] ;
+       fhir:display [ fhir:v "telecom" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.telecom` has is mapped to FHIR R4 element `CareTeam.telecom`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.note` has is mapped to FHIR R4 element `CareTeam.note`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/CareTeam"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/CareTeam>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "CareTeam.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant` has is mapped to FHIR R4 element `CareTeam.participant`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.role" ] ;
+       fhir:display [ fhir:v "role" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.role" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.role` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.role` has is mapped to FHIR R4 element `CareTeam.participant.role`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.member" ] ;
+       fhir:display [ fhir:v "member" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.member" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.member` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.member` has is mapped to FHIR R4 element `CareTeam.participant.member`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.onBehalfOf" ] ;
+       fhir:display [ fhir:v "onBehalfOf" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.onBehalfOf" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.onBehalfOf` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.onBehalfOf` has is mapped to FHIR R4 element `CareTeam.participant.onBehalfOf`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CareTeam.participant.coverage[x]" ] ;
+       fhir:display [ fhir:v "coverage[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-CareTeam.participant.coverage" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `CareTeam.participant.coverage[x]` is part of an existing definition because parent element `CareTeam.participant` requires a cross-version extension.\nElement `CareTeam.participant.coverage[x]` has a context of CareTeam.participant based on following the parent source element upwards and mapping to `CareTeam`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

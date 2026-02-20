@@ -25,31 +25,31 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Account.extension:billingStatus","Account.extension","billingStatus","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.billingStatus|0.0.1-snapshot-3]]} {[]}
+"Account.extension:billingStatus","Account.extension","billingStatus","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.billingStatus]]} {[]}
 ","Cross-version extension for Account.billingStatus from R5 for use in FHIR R4","The BillingStatus tracks the lifecycle of the account through the billing process. It indicates how transactions are treated when they are allocated to the account.","Element `Account.billingStatus` has a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Account.extension:diagnosis","Account.extension","diagnosis","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis|0.0.1-snapshot-3]]} {[]}
+"Account.extension:diagnosis","Account.extension","diagnosis","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.diagnosis]]} {[]}
 ","Cross-version extension for Account.diagnosis from R5 for use in FHIR R4","When using an account for billing a specific Encounter the set of diagnoses that are relevant for billing are stored here on the account where they are able to be sequenced appropriately prior to processing to produce claim(s).","Element `Account.diagnosis` has a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Account.extension:procedure","Account.extension","procedure","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure|0.0.1-snapshot-3]]} {[]}
+"Account.extension:procedure","Account.extension","procedure","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.procedure]]} {[]}
 ","Cross-version extension for Account.procedure from R5 for use in FHIR R4","When using an account for billing a specific Encounter the set of procedures that are relevant for billing are stored here on the account where they are able to be sequenced appropriately prior to processing to produce claim(s).","Element `Account.procedure` has a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Account.extension:relatedAccount","Account.extension","relatedAccount","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.relatedAccount|0.0.1-snapshot-3]]} {[]}
+"Account.extension:relatedAccount","Account.extension","relatedAccount","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.relatedAccount]]} {[]}
 ","Cross-version extension for Account.relatedAccount from R5 for use in FHIR R4","Other associated accounts related to this account.","Element `Account.relatedAccount` has is mapped to FHIR R4 element `Account`, but has no comparisons.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Account.extension:currency","Account.extension","currency","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.currency|0.0.1-snapshot-3]]} {[]}
+"Account.extension:currency","Account.extension","currency","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.currency]]} {[]}
 ","Cross-version extension for Account.currency from R5 for use in FHIR R4","The default currency for the account.","Element `Account.currency` has a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Account.extension:balance","Account.extension","balance","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance|0.0.1-snapshot-3]]} {[]}
+"Account.extension:balance","Account.extension","balance","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.balance]]} {[]}
 ","Cross-version extension for Account.balance from R5 for use in FHIR R4","The calculated account balances - these are calculated and processed by the finance system.The balances with a `term` that is not current are usually generated/updated by an invoicing or similar process.","Element `Account.balance` has a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Account.extension:calculatedAt","Account.extension","calculatedAt","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.calculatedAt|0.0.1-snapshot-3]]} {[]}
+"Account.extension:calculatedAt","Account.extension","calculatedAt","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.calculatedAt]]} {[]}
 ","Cross-version extension for Account.calculatedAt from R5 for use in FHIR R4","Time the balance amount was calculated.","Element `Account.calculatedAt` has a context of Account based on following the parent source element upwards and mapping to `Account`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -91,7 +91,7 @@ Where the order is important, a local/jurisdictional extension may be defined to
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Account.coverage.extension:coverage","Account.coverage.extension","coverage","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.coverage|0.0.1-snapshot-3]]} {[]}
+"Account.coverage.extension:coverage","Account.coverage.extension","coverage","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.coverage]]} {[]}
 ","Cross-version extension for Account.coverage from R5 for use in FHIR R4","The party(s) that are responsible for covering the payment of this account, and what order should they be applied to the account.","Element `Account.coverage` has is mapped to FHIR R4 element `Account.coverage`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -125,7 +125,7 @@ A coverage may only be responsible for specific types of charges, and the sequen
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Account.guarantor.extension:guarantor","Account.guarantor.extension","guarantor","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.guarantor|0.0.1-snapshot-3]]} {[]}
+"Account.guarantor.extension:guarantor","Account.guarantor.extension","guarantor","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Account.guarantor]]} {[]}
 ","Cross-version extension for Account.guarantor from R5 for use in FHIR R4","The parties responsible for balancing the account if other payment options fall short.","Element `Account.guarantor` has is mapped to FHIR R4 element `Account.guarantor`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

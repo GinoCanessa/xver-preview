@@ -1,0 +1,722 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-Appointment-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-Appointment-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-Appointment-element-map-to-R4</b></p><a name=\"R5-Appointment-element-map-to-R4\"> </a><a name=\"hcR5-Appointment-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Appointment|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/appointment.html\">Appointmentversion: 4.0.1)</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Appointment|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/Appointment|4.0.1</td><td/></tr><tr><td style=\"border-right-width: 0px\">Appointment.meta</td><td style=\"border-left-width: 0px\">meta</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.meta` has is mapped to FHIR R4 element `Appointment.meta`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.implicitRules</td><td style=\"border-left-width: 0px\">implicitRules</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.implicitRules` has is mapped to FHIR R4 element `Appointment.implicitRules`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.language</td><td style=\"border-left-width: 0px\">language</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.language` has is mapped to FHIR R4 element `Appointment.language`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.text</td><td style=\"border-left-width: 0px\">text</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.text` has is mapped to FHIR R4 element `Appointment.text`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.contained</td><td style=\"border-left-width: 0px\">contained</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.contained` has is mapped to FHIR R4 element `Appointment.contained`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.identifier</td><td style=\"border-left-width: 0px\">identifier</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.identifier` has is mapped to FHIR R4 element `Appointment.identifier`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.status` has is mapped to FHIR R4 element `Appointment.status`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.cancellationReason</td><td style=\"border-left-width: 0px\">cancellationReason</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.cancellationReason` has is mapped to FHIR R4 element `Appointment.cancelationReason`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.serviceCategory</td><td style=\"border-left-width: 0px\">serviceCategory</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.serviceCategory` has is mapped to FHIR R4 element `Appointment.serviceCategory`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.serviceType</td><td style=\"border-left-width: 0px\">serviceType</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.serviceType` has is mapped to FHIR R4 element `Appointment.serviceType`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.specialty</td><td style=\"border-left-width: 0px\">specialty</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.specialty` has is mapped to FHIR R4 element `Appointment.specialty`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.appointmentType</td><td style=\"border-left-width: 0px\">appointmentType</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.appointmentType` has is mapped to FHIR R4 element `Appointment.appointmentType`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">Appointment.reason</td><td style=\"border-left-width: 0px; border-bottom-style: none\">reason</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.reason` has is mapped to FHIR R4 element `Appointment.reasonCode`, but has no comparisons.\nElement `Appointment.reason` has is mapped to FHIR R4 element `Appointment.reasonReference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#relatedto\" title=\"relatedto\">is related to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.reason` has is mapped to FHIR R4 element `Appointment.reasonCode`, but has no comparisons.\nElement `Appointment.reason` has is mapped to FHIR R4 element `Appointment.reasonReference`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.priority</td><td style=\"border-left-width: 0px\">priority</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.priority` has is mapped to FHIR R4 element `Appointment.priority`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.description</td><td style=\"border-left-width: 0px\">description</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.description` has is mapped to FHIR R4 element `Appointment.description`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.supportingInformation</td><td style=\"border-left-width: 0px\">supportingInformation</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.supportingInformation` has is mapped to FHIR R4 element `Appointment.supportingInformation`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.start</td><td style=\"border-left-width: 0px\">start</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.start` has is mapped to FHIR R4 element `Appointment.start`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.end</td><td style=\"border-left-width: 0px\">end</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.end` has is mapped to FHIR R4 element `Appointment.end`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.minutesDuration</td><td style=\"border-left-width: 0px\">minutesDuration</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.minutesDuration` has is mapped to FHIR R4 element `Appointment.minutesDuration`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.requestedPeriod</td><td style=\"border-left-width: 0px\">requestedPeriod</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.requestedPeriod` has is mapped to FHIR R4 element `Appointment.requestedPeriod`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.slot</td><td style=\"border-left-width: 0px\">slot</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.slot` has is mapped to FHIR R4 element `Appointment.slot`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.created</td><td style=\"border-left-width: 0px\">created</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.created` has is mapped to FHIR R4 element `Appointment.created`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.note</td><td style=\"border-left-width: 0px\">note</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.note` has is mapped to FHIR R4 element `Appointment.comment`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.patientInstruction</td><td style=\"border-left-width: 0px\">patientInstruction</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.patientInstruction` has is mapped to FHIR R4 element `Appointment.patientInstruction`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.basedOn</td><td style=\"border-left-width: 0px\">basedOn</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.basedOn` has is mapped to FHIR R4 element `Appointment.basedOn`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.participant</td><td style=\"border-left-width: 0px\">participant</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.participant` has is mapped to FHIR R4 element `Appointment.participant`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.participant.type</td><td style=\"border-left-width: 0px\">type</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.participant.type` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.type` has is mapped to FHIR R4 element `Appointment.participant.type`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.participant.period</td><td style=\"border-left-width: 0px\">period</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.participant.period` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.period` has is mapped to FHIR R4 element `Appointment.participant.period`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.participant.actor</td><td style=\"border-left-width: 0px\">actor</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.participant.actor` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.participant.actor` has is mapped to FHIR R4 element `Appointment.participant.actor`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.participant.required</td><td style=\"border-left-width: 0px\">required</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.participant.required` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.required` has is mapped to FHIR R4 element `Appointment.participant.required`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">Appointment.participant.status</td><td style=\"border-left-width: 0px\">status</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\"/><td style=\"border-left-width: 0px\"/><td>Element `Appointment.participant.status` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.status` has is mapped to FHIR R4 element `Appointment.participant.status`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Appointment|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Appointment.class (class)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.class</td><td>Element `Appointment.class` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.serviceType (serviceType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.serviceType</td><td>Element `Appointment.serviceType` has is mapped to FHIR R4 element `Appointment.serviceType`, but has no comparisons.</td></tr><tr><td>Appointment.priority (priority)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.priority</td><td>Element `Appointment.priority` has is mapped to FHIR R4 element `Appointment.priority`, but has no comparisons.</td></tr><tr><td>Appointment.virtualService (virtualService)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.virtualService</td><td>Element `Appointment.virtualService` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.cancellationDate (cancellationDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.cancellationDate</td><td>Element `Appointment.cancellationDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.note (note)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.note</td><td>Element `Appointment.note` has is mapped to FHIR R4 element `Appointment.comment`, but has no comparisons.</td></tr><tr><td>Appointment.patientInstruction (patientInstruction)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.patientInstruction</td><td>Element `Appointment.patientInstruction` has is mapped to FHIR R4 element `Appointment.patientInstruction`, but has no comparisons.</td></tr><tr><td>Appointment.participant (participant)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant</td><td>Element `Appointment.participant` has is mapped to FHIR R4 element `Appointment.participant`, but has no comparisons.</td></tr><tr><td>Appointment.participant.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.type</td><td>Element `Appointment.participant.type` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.type` has is mapped to FHIR R4 element `Appointment.participant.type`, but has no comparisons.</td></tr><tr><td>Appointment.participant.period (period)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.period</td><td>Element `Appointment.participant.period` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.period` has is mapped to FHIR R4 element `Appointment.participant.period`, but has no comparisons.</td></tr><tr><td>Appointment.participant.required (required)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.required</td><td>Element `Appointment.participant.required` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.required` has is mapped to FHIR R4 element `Appointment.participant.required`, but has no comparisons.</td></tr><tr><td>Appointment.participant.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.status</td><td>Element `Appointment.participant.status` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.status` has is mapped to FHIR R4 element `Appointment.participant.status`, but has no comparisons.</td></tr><tr><td>Appointment.recurrenceId (recurrenceId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceId</td><td>Element `Appointment.recurrenceId` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.occurrenceChanged (occurrenceChanged)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.occurrenceChanged</td><td>Element `Appointment.occurrenceChanged` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate (recurrenceTemplate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate</td><td>Element `Appointment.recurrenceTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.timezone (timezone)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.timezone</td><td>Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.timezone` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.recurrenceType (recurrenceType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.recurrenceType</td><td>Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.recurrenceType` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.lastOccurrenceDate (lastOccurrenceDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.lastOccurrenceDate</td><td>Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.lastOccurrenceDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.occurrenceCount (occurrenceCount)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.occurrenceCount</td><td>Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceCount` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.occurrenceDate (occurrenceDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.occurrenceDate</td><td>Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate (weeklyTemplate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.monday (monday)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.monday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.monday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.tuesday (tuesday)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.tuesday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.wednesday (wednesday)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.wednesday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.thursday (thursday)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.thursday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.thursday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.friday (friday)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.friday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.friday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.saturday (saturday)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.saturday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.saturday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.sunday (sunday)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.sunday</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.sunday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.weeklyTemplate.weekInterval (weekInterval)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.weekInterval</td><td>Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.monthlyTemplate (monthlyTemplate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate</td><td>Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth (dayOfMonth)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth</td><td>Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth (nthWeekOfMonth)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth</td><td>Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek (dayOfWeek)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek</td><td>Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.monthlyTemplate.monthInterval (monthInterval)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.monthInterval</td><td>Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.yearlyTemplate (yearlyTemplate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.yearlyTemplate</td><td>Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.yearlyTemplate.yearInterval (yearInterval)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.yearlyTemplate.yearInterval</td><td>Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.excludingDate (excludingDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.excludingDate</td><td>Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.recurrenceTemplate.excludingRecurrenceId (excludingRecurrenceId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.excludingRecurrenceId</td><td>Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingRecurrenceId` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/Appointment|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>Appointment.replaces (replaces)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.replaces` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.replaces` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.previousAppointment (previousAppointment)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.previousAppointment` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.previousAppointment` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.originatingAppointment (originatingAppointment)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.originatingAppointment` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.originatingAppointment` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.account (account)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.account` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.account` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.basedOn (basedOn)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.basedOn` has is mapped to FHIR R4 element `Appointment.basedOn`, but has no comparisons.</td></tr><tr><td>Appointment.subject (subject)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.subject` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`.</td></tr><tr><td>Appointment.participant.actor (actor)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `Appointment.participant.actor` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.participant.actor` has is mapped to FHIR R4 element `Appointment.participant.actor`, but has no comparisons.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-Appointment-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-Appointment-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5AppointmentElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 Appointment to FHIR R4 Appointment"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:21.9717406-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 Appointment to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Appointment"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Appointment>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Appointment"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Appointment>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Appointment.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.meta` has is mapped to FHIR R4 element `Appointment.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.implicitRules` has is mapped to FHIR R4 element `Appointment.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.language` has is mapped to FHIR R4 element `Appointment.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.text` has is mapped to FHIR R4 element `Appointment.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.contained` has is mapped to FHIR R4 element `Appointment.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.identifier` has is mapped to FHIR R4 element `Appointment.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.status` has is mapped to FHIR R4 element `Appointment.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.cancellationReason" ] ;
+       fhir:display [ fhir:v "cancellationReason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.cancellationReason` has is mapped to FHIR R4 element `Appointment.cancelationReason`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.serviceCategory" ] ;
+       fhir:display [ fhir:v "serviceCategory" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.serviceCategory` has is mapped to FHIR R4 element `Appointment.serviceCategory`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.serviceType" ] ;
+       fhir:display [ fhir:v "serviceType" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.serviceType` has is mapped to FHIR R4 element `Appointment.serviceType`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.specialty" ] ;
+       fhir:display [ fhir:v "specialty" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.specialty` has is mapped to FHIR R4 element `Appointment.specialty`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.appointmentType" ] ;
+       fhir:display [ fhir:v "appointmentType" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.appointmentType` has is mapped to FHIR R4 element `Appointment.appointmentType`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.reason` has is mapped to FHIR R4 element `Appointment.reasonCode`, but has no comparisons.\nElement `Appointment.reason` has is mapped to FHIR R4 element `Appointment.reasonReference`, but has no comparisons." ]
+       ] [
+         fhir:equivalence [ fhir:v "relatedto" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.reason` has is mapped to FHIR R4 element `Appointment.reasonCode`, but has no comparisons.\nElement `Appointment.reason` has is mapped to FHIR R4 element `Appointment.reasonReference`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.priority` has is mapped to FHIR R4 element `Appointment.priority`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.description` has is mapped to FHIR R4 element `Appointment.description`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.supportingInformation" ] ;
+       fhir:display [ fhir:v "supportingInformation" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.supportingInformation` has is mapped to FHIR R4 element `Appointment.supportingInformation`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.start" ] ;
+       fhir:display [ fhir:v "start" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.start` has is mapped to FHIR R4 element `Appointment.start`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.end" ] ;
+       fhir:display [ fhir:v "end" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.end` has is mapped to FHIR R4 element `Appointment.end`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.minutesDuration" ] ;
+       fhir:display [ fhir:v "minutesDuration" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.minutesDuration` has is mapped to FHIR R4 element `Appointment.minutesDuration`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.requestedPeriod" ] ;
+       fhir:display [ fhir:v "requestedPeriod" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.requestedPeriod` has is mapped to FHIR R4 element `Appointment.requestedPeriod`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.slot" ] ;
+       fhir:display [ fhir:v "slot" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.slot` has is mapped to FHIR R4 element `Appointment.slot`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.created" ] ;
+       fhir:display [ fhir:v "created" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.created` has is mapped to FHIR R4 element `Appointment.created`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.note` has is mapped to FHIR R4 element `Appointment.comment`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.patientInstruction" ] ;
+       fhir:display [ fhir:v "patientInstruction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.patientInstruction` has is mapped to FHIR R4 element `Appointment.patientInstruction`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.basedOn` has is mapped to FHIR R4 element `Appointment.basedOn`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant` has is mapped to FHIR R4 element `Appointment.participant`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant.type` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.type` has is mapped to FHIR R4 element `Appointment.participant.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant.period` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.period` has is mapped to FHIR R4 element `Appointment.participant.period`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant.actor` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.participant.actor` has is mapped to FHIR R4 element `Appointment.participant.actor`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant.required" ] ;
+       fhir:display [ fhir:v "required" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant.required` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.required` has is mapped to FHIR R4 element `Appointment.participant.required`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant.status` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.status` has is mapped to FHIR R4 element `Appointment.participant.status`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Appointment"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Appointment>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Appointment.class" ] ;
+       fhir:display [ fhir:v "class" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.class" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.class` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.serviceType" ] ;
+       fhir:display [ fhir:v "serviceType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.serviceType" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.serviceType` has is mapped to FHIR R4 element `Appointment.serviceType`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.priority" ] ;
+       fhir:display [ fhir:v "priority" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.priority" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.priority` has is mapped to FHIR R4 element `Appointment.priority`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.virtualService" ] ;
+       fhir:display [ fhir:v "virtualService" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.virtualService" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.virtualService` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.cancellationDate" ] ;
+       fhir:display [ fhir:v "cancellationDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.cancellationDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.cancellationDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.note" ] ;
+       fhir:display [ fhir:v "note" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.note" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.note` has is mapped to FHIR R4 element `Appointment.comment`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.patientInstruction" ] ;
+       fhir:display [ fhir:v "patientInstruction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.patientInstruction" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.patientInstruction` has is mapped to FHIR R4 element `Appointment.patientInstruction`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant" ] ;
+       fhir:display [ fhir:v "participant" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant` has is mapped to FHIR R4 element `Appointment.participant`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.type" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant.type` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.type` has is mapped to FHIR R4 element `Appointment.participant.type`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant.period" ] ;
+       fhir:display [ fhir:v "period" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.period" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant.period` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.period` has is mapped to FHIR R4 element `Appointment.participant.period`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant.required" ] ;
+       fhir:display [ fhir:v "required" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.required" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant.required` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.required` has is mapped to FHIR R4 element `Appointment.participant.required`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.participant.status" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant.status` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nElement `Appointment.participant.status` has is mapped to FHIR R4 element `Appointment.participant.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceId" ] ;
+       fhir:display [ fhir:v "recurrenceId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceId` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.occurrenceChanged" ] ;
+       fhir:display [ fhir:v "occurrenceChanged" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.occurrenceChanged" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.occurrenceChanged` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate" ] ;
+       fhir:display [ fhir:v "recurrenceTemplate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.timezone" ] ;
+       fhir:display [ fhir:v "timezone" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.timezone" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.timezone` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.timezone` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.recurrenceType" ] ;
+       fhir:display [ fhir:v "recurrenceType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.recurrenceType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.recurrenceType` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.recurrenceType` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.lastOccurrenceDate" ] ;
+       fhir:display [ fhir:v "lastOccurrenceDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.lastOccurrenceDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.lastOccurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.lastOccurrenceDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.occurrenceCount" ] ;
+       fhir:display [ fhir:v "occurrenceCount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.occurrenceCount" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.occurrenceCount` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceCount` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.occurrenceDate" ] ;
+       fhir:display [ fhir:v "occurrenceDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.occurrenceDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.occurrenceDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.occurrenceDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.weeklyTemplate" ] ;
+       fhir:display [ fhir:v "weeklyTemplate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.weeklyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.weeklyTemplate.monday" ] ;
+       fhir:display [ fhir:v "monday" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.monday" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.weeklyTemplate.monday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.monday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.weeklyTemplate.tuesday" ] ;
+       fhir:display [ fhir:v "tuesday" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.tuesday" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.tuesday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.weeklyTemplate.wednesday" ] ;
+       fhir:display [ fhir:v "wednesday" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.wednesday" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.wednesday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.weeklyTemplate.thursday" ] ;
+       fhir:display [ fhir:v "thursday" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.thursday" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.weeklyTemplate.thursday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.thursday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.weeklyTemplate.friday" ] ;
+       fhir:display [ fhir:v "friday" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.friday" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.weeklyTemplate.friday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.friday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.weeklyTemplate.saturday" ] ;
+       fhir:display [ fhir:v "saturday" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.saturday" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.weeklyTemplate.saturday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.saturday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.weeklyTemplate.sunday" ] ;
+       fhir:display [ fhir:v "sunday" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.sunday" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.weeklyTemplate.sunday` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.sunday` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.weeklyTemplate.weekInterval" ] ;
+       fhir:display [ fhir:v "weekInterval" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.weeklyTemplate.weekInterval" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.weeklyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.weeklyTemplate.weekInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.monthlyTemplate" ] ;
+       fhir:display [ fhir:v "monthlyTemplate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.monthlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth" ] ;
+       fhir:display [ fhir:v "dayOfMonth" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfMonth` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth" ] ;
+       fhir:display [ fhir:v "nthWeekOfMonth" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.nthWeekOfMonth` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek" ] ;
+       fhir:display [ fhir:v "dayOfWeek" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.dayOfWeek` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.monthlyTemplate.monthInterval" ] ;
+       fhir:display [ fhir:v "monthInterval" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.monthlyTemplate.monthInterval" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.monthlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.monthlyTemplate.monthInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.yearlyTemplate" ] ;
+       fhir:display [ fhir:v "yearlyTemplate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.yearlyTemplate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.yearlyTemplate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.yearlyTemplate.yearInterval" ] ;
+       fhir:display [ fhir:v "yearInterval" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.yearlyTemplate.yearInterval" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` is part of an existing definition because parent element `Appointment.recurrenceTemplate.yearlyTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.yearlyTemplate.yearInterval` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.excludingDate" ] ;
+       fhir:display [ fhir:v "excludingDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.excludingDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.excludingDate` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingDate` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.recurrenceTemplate.excludingRecurrenceId" ] ;
+       fhir:display [ fhir:v "excludingRecurrenceId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-Appointment.recurrenceTemplate.excludingRecurrenceId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.recurrenceTemplate.excludingRecurrenceId` is part of an existing definition because parent element `Appointment.recurrenceTemplate` requires a cross-version extension.\nElement `Appointment.recurrenceTemplate.excludingRecurrenceId` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Appointment"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Appointment>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "Appointment.replaces" ] ;
+       fhir:display [ fhir:v "replaces" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.replaces` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.replaces` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.previousAppointment" ] ;
+       fhir:display [ fhir:v "previousAppointment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.previousAppointment` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.previousAppointment` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.originatingAppointment" ] ;
+       fhir:display [ fhir:v "originatingAppointment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.originatingAppointment` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.originatingAppointment` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.account" ] ;
+       fhir:display [ fhir:v "account" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.account` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.account` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.basedOn` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.basedOn` has is mapped to FHIR R4 element `Appointment.basedOn`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.subject` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.subject` has a context of Appointment based on following the parent source element upwards and mapping to `Appointment`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "Appointment.participant.actor" ] ;
+       fhir:display [ fhir:v "actor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `Appointment.participant.actor` is part of an existing definition because parent element `Appointment.participant` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Appointment.participant.actor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `Appointment.participant.actor` has is mapped to FHIR R4 element `Appointment.participant.actor`, but has no comparisons." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

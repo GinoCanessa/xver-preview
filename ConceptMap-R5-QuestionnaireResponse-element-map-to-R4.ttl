@@ -1,0 +1,375 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-QuestionnaireResponse-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-QuestionnaireResponse-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-QuestionnaireResponse-element-map-to-R4</b></p><a name=\"R5-QuestionnaireResponse-element-map-to-R4\"> </a><a name=\"hcR5-QuestionnaireResponse-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/questionnaireresponse.html\">QuestionnaireResponseversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>QuestionnaireResponse.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.meta` has is mapped to FHIR R4 element `QuestionnaireResponse.meta`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.implicitRules` has is mapped to FHIR R4 element `QuestionnaireResponse.implicitRules`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.language` has is mapped to FHIR R4 element `QuestionnaireResponse.language`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.text` has is mapped to FHIR R4 element `QuestionnaireResponse.text`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.contained` has is mapped to FHIR R4 element `QuestionnaireResponse.contained`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.identifier` has is mapped to FHIR R4 element `QuestionnaireResponse.identifier`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.basedOn (basedOn)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.basedOn` has is mapped to FHIR R4 element `QuestionnaireResponse.basedOn`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.partOf (partOf)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.partOf` has is mapped to FHIR R4 element `QuestionnaireResponse.partOf`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.questionnaire (questionnaire)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.questionnaire` has is mapped to FHIR R4 element `QuestionnaireResponse.questionnaire`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.status` has is mapped to FHIR R4 element `QuestionnaireResponse.status`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.subject (subject)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.subject` has is mapped to FHIR R4 element `QuestionnaireResponse.subject`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.encounter (encounter)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.encounter` has is mapped to FHIR R4 element `QuestionnaireResponse.encounter`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.authored (authored)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.authored` has is mapped to FHIR R4 element `QuestionnaireResponse.authored`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.author (author)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.author` has is mapped to FHIR R4 element `QuestionnaireResponse.author`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.source (source)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `QuestionnaireResponse.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `QuestionnaireResponse.source` has is mapped to FHIR R4 element `QuestionnaireResponse.source`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `QuestionnaireResponse.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item`, but has no comparisons.\nNote available implied context: `QuestionnaireResponse.item.answer.item` because `QuestionnaireResponse.item.answer.item` is defined as a content reference to `QuestionnaireResponse.item`.\nNote available implied context: `QuestionnaireResponse.item.item` because `QuestionnaireResponse.item.item` is defined as a content reference to `QuestionnaireResponse.item`.</td></tr><tr><td>QuestionnaireResponse.item.linkId (linkId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.item.linkId` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.linkId` has is mapped to FHIR R4 element `QuestionnaireResponse.item.linkId`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item.definition (definition)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.item.definition` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.definition` has is mapped to FHIR R4 element `QuestionnaireResponse.item.definition`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.item.text` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.text` has is mapped to FHIR R4 element `QuestionnaireResponse.item.text`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item.answer (answer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `QuestionnaireResponse.item.answer` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item.answer.value[x] (value[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.item.answer.value[x]` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.\nElement `QuestionnaireResponse.item.answer.value[x]` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.value[x]`, but has no comparisons.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.</td></tr><tr><td>QuestionnaireResponse.item.answer.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.item.answer.item` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.item`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `QuestionnaireResponse.item.item` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.item`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>QuestionnaireResponse.source (source)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `QuestionnaireResponse.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `QuestionnaireResponse.source` has is mapped to FHIR R4 element `QuestionnaireResponse.source`, but has no comparisons.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>QuestionnaireResponse.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item</td><td>Element `QuestionnaireResponse.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item`, but has no comparisons.\nNote available implied context: `QuestionnaireResponse.item.answer.item` because `QuestionnaireResponse.item.answer.item` is defined as a content reference to `QuestionnaireResponse.item`.\nNote available implied context: `QuestionnaireResponse.item.item` because `QuestionnaireResponse.item.item` is defined as a content reference to `QuestionnaireResponse.item`.</td></tr><tr><td>QuestionnaireResponse.item.linkId (linkId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item.linkId</td><td>Element `QuestionnaireResponse.item.linkId` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.linkId` has is mapped to FHIR R4 element `QuestionnaireResponse.item.linkId`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item.definition (definition)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item.definition</td><td>Element `QuestionnaireResponse.item.definition` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.definition` has is mapped to FHIR R4 element `QuestionnaireResponse.item.definition`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item.text</td><td>Element `QuestionnaireResponse.item.text` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.text` has is mapped to FHIR R4 element `QuestionnaireResponse.item.text`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item.answer (answer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item.answer</td><td>Element `QuestionnaireResponse.item.answer` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item.answer.value[x] (value[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item.answer.value</td><td>Element `QuestionnaireResponse.item.answer.value[x]` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.\nElement `QuestionnaireResponse.item.answer.value[x]` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.value[x]`, but has no comparisons.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.</td></tr><tr><td>QuestionnaireResponse.item.answer.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item</td><td>Element `QuestionnaireResponse.item.answer.item` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.item`, but has no comparisons.</td></tr><tr><td>QuestionnaireResponse.item.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item</td><td>Element `QuestionnaireResponse.item.item` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.item`, but has no comparisons.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-QuestionnaireResponse-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-QuestionnaireResponse-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5QuestionnaireResponseElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 QuestionnaireResponse to FHIR R4 QuestionnaireResponse"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:25.8076238-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 QuestionnaireResponse to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "QuestionnaireResponse.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.meta` has is mapped to FHIR R4 element `QuestionnaireResponse.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.implicitRules` has is mapped to FHIR R4 element `QuestionnaireResponse.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.language` has is mapped to FHIR R4 element `QuestionnaireResponse.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.text` has is mapped to FHIR R4 element `QuestionnaireResponse.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.contained` has is mapped to FHIR R4 element `QuestionnaireResponse.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.identifier` has is mapped to FHIR R4 element `QuestionnaireResponse.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.basedOn" ] ;
+       fhir:display [ fhir:v "basedOn" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.basedOn` has is mapped to FHIR R4 element `QuestionnaireResponse.basedOn`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.partOf" ] ;
+       fhir:display [ fhir:v "partOf" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.partOf` has is mapped to FHIR R4 element `QuestionnaireResponse.partOf`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.questionnaire" ] ;
+       fhir:display [ fhir:v "questionnaire" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.questionnaire` has is mapped to FHIR R4 element `QuestionnaireResponse.questionnaire`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.status` has is mapped to FHIR R4 element `QuestionnaireResponse.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.subject" ] ;
+       fhir:display [ fhir:v "subject" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.subject` has is mapped to FHIR R4 element `QuestionnaireResponse.subject`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.encounter" ] ;
+       fhir:display [ fhir:v "encounter" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.encounter` has is mapped to FHIR R4 element `QuestionnaireResponse.encounter`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.authored" ] ;
+       fhir:display [ fhir:v "authored" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.authored` has is mapped to FHIR R4 element `QuestionnaireResponse.authored`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.author` has is mapped to FHIR R4 element `QuestionnaireResponse.author`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `QuestionnaireResponse.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `QuestionnaireResponse.source` has is mapped to FHIR R4 element `QuestionnaireResponse.source`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item`, but has no comparisons.\nNote available implied context: `QuestionnaireResponse.item.answer.item` because `QuestionnaireResponse.item.answer.item` is defined as a content reference to `QuestionnaireResponse.item`.\nNote available implied context: `QuestionnaireResponse.item.item` because `QuestionnaireResponse.item.item` is defined as a content reference to `QuestionnaireResponse.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.linkId` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.linkId` has is mapped to FHIR R4 element `QuestionnaireResponse.item.linkId`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.definition` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.definition` has is mapped to FHIR R4 element `QuestionnaireResponse.item.definition`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.text` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.text` has is mapped to FHIR R4 element `QuestionnaireResponse.item.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.answer" ] ;
+       fhir:display [ fhir:v "answer" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.answer` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.answer.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.answer.value[x]` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.\nElement `QuestionnaireResponse.item.answer.value[x]` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.value[x]`, but has no comparisons.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.answer.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.answer.item` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.item`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.item` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.item`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "QuestionnaireResponse.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `QuestionnaireResponse.source` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `QuestionnaireResponse.source` has is mapped to FHIR R4 element `QuestionnaireResponse.source`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/QuestionnaireResponse>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "QuestionnaireResponse.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item`, but has no comparisons.\nNote available implied context: `QuestionnaireResponse.item.answer.item` because `QuestionnaireResponse.item.answer.item` is defined as a content reference to `QuestionnaireResponse.item`.\nNote available implied context: `QuestionnaireResponse.item.item` because `QuestionnaireResponse.item.item` is defined as a content reference to `QuestionnaireResponse.item`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.linkId" ] ;
+       fhir:display [ fhir:v "linkId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item.linkId" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.linkId` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.linkId` has is mapped to FHIR R4 element `QuestionnaireResponse.item.linkId`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item.definition" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.definition` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.definition` has is mapped to FHIR R4 element `QuestionnaireResponse.item.definition`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.text` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.text` has is mapped to FHIR R4 element `QuestionnaireResponse.item.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.answer" ] ;
+       fhir:display [ fhir:v "answer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item.answer" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.answer` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.answer.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item.answer.value" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.answer.value[x]` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`.\nElement `QuestionnaireResponse.item.answer.value[x]` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.value[x]`, but has no comparisons.\nNote that the target element context `QuestionnaireResponse.item.answer.value[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `QuestionnaireResponse.item.answer`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.answer.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.answer.item` is part of an existing definition because parent element `QuestionnaireResponse.item.answer` requires a cross-version extension.\nElement `QuestionnaireResponse.item.answer.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.answer.item`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "QuestionnaireResponse.item.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-QuestionnaireResponse.item" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `QuestionnaireResponse.item.item` is part of an existing definition because parent element `QuestionnaireResponse.item` requires a cross-version extension.\nElement `QuestionnaireResponse.item.item` has is mapped to FHIR R4 element `QuestionnaireResponse.item.item`, but has no comparisons." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

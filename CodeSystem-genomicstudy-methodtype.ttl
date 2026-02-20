@@ -72,25 +72,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "cg"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/genomicstudy-methodtype"^^xsd:anyURI ;
      fhir:l <http://hl7.org/fhir/genomicstudy-methodtype>
   ] ; # 
-  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "GenomicStudyMethodType"] ; # 
   fhir:title [ fhir:v "Genomic Study Method Type"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v true] ; # 
   fhir:date [ fhir:v "2022-08-16T16:49:24-05:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Clinical Genomics"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Clinical Genomics" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/clingenomics" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "The method type of the GenomicStudy analysis. These method types and relevant codes were pulled from [National Library of Medicine-Genetic Testing Registry](https://www.ncbi.nlm.nih.gov/gtr/) (NCBI-GTR) values of describing different testing methods on various levels: [major method category](https://ftp.ncbi.nlm.nih.gov/pub/GTR/standard_terms/Major_method_category.txt), [method category](https://ftp.ncbi.nlm.nih.gov/pub/GTR/standard_terms/Method_category.txt), and [primary methodology](https://ftp.ncbi.nlm.nih.gov/pub/GTR/standard_terms/Primary_test_methodology.txt)"] ; # 

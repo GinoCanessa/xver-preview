@@ -26,26 +26,21 @@
   },
   {
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
-    "valueCode" : "pa"
+    "valueCode" : "fhir"
   }],
   "url" : "http://terminology.hl7.org/CodeSystem/verificationresult-communication-method",
-  "version" : "0.1.0",
+  "version" : "0.0.1-snapshot-3",
   "name" : "Verificationresult_communication_method",
   "title" : "VerificationResult Communication Method",
   "status" : "active",
   "experimental" : false,
   "date" : "2018-10-30T19:00:00-05:00",
-  "publisher" : "Patient Administration",
+  "publisher" : "FHIR Infrastructure",
   "contact" : [{
+    "name" : "FHIR Infrastructure",
     "telecom" : [{
-      "system" : "other",
-      "value" : "http://hl7.org/fhir"
-    }]
-  },
-  {
-    "telecom" : [{
-      "system" : "other",
-      "value" : "http://hl7.org/fhir"
+      "system" : "url",
+      "value" : "http://www.hl7.org/Special/committees/fiwg"
     }]
   }],
   "description" : "Attested information may be validated by process that are manual or automated. For automated processes it may accomplished by the system of record reaching out through another system's API or information may be sent to the system of record. This value set defines a set of codes to describing the process, the how, a resource or data element is validated.",
@@ -57,7 +52,7 @@
     }]
   }],
   "caseSensitive" : true,
-  "valueSet" : "http://terminology.hl7.org/ValueSet/verificationresult-communication-method|1.0.0",
+  "valueSet" : "http://terminology.hl7.org/ValueSet/verificationresult-communication-method",
   "content" : "complete",
   "concept" : [{
     "code" : "manual",

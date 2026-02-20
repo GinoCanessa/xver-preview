@@ -1,0 +1,451 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-PackagedProductDefinition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-PackagedProductDefinition-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-PackagedProductDefinition-element-map-to-R4</b></p><a name=\"R5-PackagedProductDefinition-element-map-to-R4\"> </a><a name=\"hcR5-PackagedProductDefinition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/basic.html\">Basicversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PackagedProductDefinition.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.meta</td><td>Element matches Basic element path `Resource.meta`, use that element instead.\nElement `PackagedProductDefinition.meta` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.implicitRules</td><td>Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `PackagedProductDefinition.implicitRules` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.language</td><td>Element matches Basic element path `Resource.language`, use that element instead.\nElement `PackagedProductDefinition.language` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.text</td><td>Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `PackagedProductDefinition.text` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.contained</td><td>Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `PackagedProductDefinition.contained` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Basic.identifier</td><td>Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `PackagedProductDefinition.identifier` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition|5.0.0</code> to <code>unspecified code system</code></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PackagedProductDefinition.name (name)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>name</td><td>Element `PackagedProductDefinition.name` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>type</td><td>Element `PackagedProductDefinition.type` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>status</td><td>Element `PackagedProductDefinition.status` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.statusDate (statusDate)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>statusDate</td><td>Element `PackagedProductDefinition.statusDate` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.containedItemQuantity (containedItemQuantity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>containedItemQuantity</td><td>Element `PackagedProductDefinition.containedItemQuantity` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>description</td><td>Element `PackagedProductDefinition.description` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.legalStatusOfSupply (legalStatusOfSupply)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>legalStatusOfSupply</td><td>Element `PackagedProductDefinition.legalStatusOfSupply` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.legalStatusOfSupply.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>code</td><td>Element `PackagedProductDefinition.legalStatusOfSupply.code` is part of an existing definition because parent element `PackagedProductDefinition.legalStatusOfSupply` requires a cross-version extension.\nElement `PackagedProductDefinition.legalStatusOfSupply.code` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.legalStatusOfSupply.jurisdiction (jurisdiction)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>jurisdiction</td><td>Element `PackagedProductDefinition.legalStatusOfSupply.jurisdiction` is part of an existing definition because parent element `PackagedProductDefinition.legalStatusOfSupply` requires a cross-version extension.\nElement `PackagedProductDefinition.legalStatusOfSupply.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.marketingStatus (marketingStatus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>marketingStatus</td><td>Element `PackagedProductDefinition.marketingStatus` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.copackagedIndicator (copackagedIndicator)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>copackagedIndicator</td><td>Element `PackagedProductDefinition.copackagedIndicator` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging (packaging)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>packaging</td><td>Element `PackagedProductDefinition.packaging` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>identifier</td><td>Element `PackagedProductDefinition.packaging.identifier` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.identifier` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>type</td><td>Element `PackagedProductDefinition.packaging.type` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.type` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.componentPart (componentPart)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>componentPart</td><td>Element `PackagedProductDefinition.packaging.componentPart` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.componentPart` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.quantity (quantity)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>quantity</td><td>Element `PackagedProductDefinition.packaging.quantity` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.quantity` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.material (material)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>material</td><td>Element `PackagedProductDefinition.packaging.material` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.material` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.alternateMaterial (alternateMaterial)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>alternateMaterial</td><td>Element `PackagedProductDefinition.packaging.alternateMaterial` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.alternateMaterial` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.shelfLifeStorage (shelfLifeStorage)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>shelfLifeStorage</td><td>Element `PackagedProductDefinition.packaging.shelfLifeStorage` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.shelfLifeStorage` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.property (property)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>property</td><td>Element `PackagedProductDefinition.packaging.property` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.property` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.property.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>type</td><td>Element `PackagedProductDefinition.packaging.property.type` is part of an existing definition because parent element `PackagedProductDefinition.packaging.property` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.property.type` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.property.value[x] (value[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>value</td><td>Element `PackagedProductDefinition.packaging.property.value[x]` is part of an existing definition because parent element `PackagedProductDefinition.packaging.property` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.containedItem (containedItem)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>containedItem</td><td>Element `PackagedProductDefinition.packaging.containedItem` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.containedItem` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.containedItem.item (item)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>item</td><td>Element `PackagedProductDefinition.packaging.containedItem.item` is part of an existing definition because parent element `PackagedProductDefinition.packaging.containedItem` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.containedItem.item` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.containedItem.amount (amount)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>amount</td><td>Element `PackagedProductDefinition.packaging.containedItem.amount` is part of an existing definition because parent element `PackagedProductDefinition.packaging.containedItem` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.containedItem.amount` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PackagedProductDefinition.packageFor (packageFor)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PackagedProductDefinition.packageFor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PackagedProductDefinition.packageFor` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.manufacturer (manufacturer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PackagedProductDefinition.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PackagedProductDefinition.manufacturer` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.attachedDocument (attachedDocument)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PackagedProductDefinition.attachedDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PackagedProductDefinition.attachedDocument` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.packaging.manufacturer (manufacturer)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td>Element `PackagedProductDefinition.packaging.manufacturer` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PackagedProductDefinition.packaging.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PackagedProductDefinition.packaging.manufacturer` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>PackagedProductDefinition.packaging.packaging (packaging)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.packaging</td><td>Element `PackagedProductDefinition.packaging.packaging` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.packaging` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr><tr><td>PackagedProductDefinition.characteristic (characteristic)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.packaging.property</td><td>Element `PackagedProductDefinition.characteristic` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-PackagedProductDefinition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-PackagedProductDefinition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5PackagedProductDefinitionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 PackagedProductDefinition to FHIR R4 Basic"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:25.4085145-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 PackagedProductDefinition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Basic"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Basic>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "PackagedProductDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.meta" ] ;
+         fhir:display [ fhir:v "Resource.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.meta`, use that element instead.\nElement `PackagedProductDefinition.meta` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.implicitRules" ] ;
+         fhir:display [ fhir:v "Resource.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.implicitRules`, use that element instead.\nElement `PackagedProductDefinition.implicitRules` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.language" ] ;
+         fhir:display [ fhir:v "Resource.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Resource.language`, use that element instead.\nElement `PackagedProductDefinition.language` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.text" ] ;
+         fhir:display [ fhir:v "DomainResource.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.text`, use that element instead.\nElement `PackagedProductDefinition.text` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.contained" ] ;
+         fhir:display [ fhir:v "DomainResource.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `DomainResource.contained`, use that element instead.\nElement `PackagedProductDefinition.contained` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Basic.identifier" ] ;
+         fhir:display [ fhir:v "Basic.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element matches Basic element path `Basic.identifier`, use that element instead.\nElement `PackagedProductDefinition.identifier` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "PackagedProductDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "name" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.name` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.type` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.status` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.statusDate" ] ;
+       fhir:display [ fhir:v "statusDate" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "statusDate" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.statusDate` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.containedItemQuantity" ] ;
+       fhir:display [ fhir:v "containedItemQuantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "containedItemQuantity" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.containedItemQuantity` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.description` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.legalStatusOfSupply" ] ;
+       fhir:display [ fhir:v "legalStatusOfSupply" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "legalStatusOfSupply" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.legalStatusOfSupply` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.legalStatusOfSupply.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.legalStatusOfSupply.code` is part of an existing definition because parent element `PackagedProductDefinition.legalStatusOfSupply` requires a cross-version extension.\nElement `PackagedProductDefinition.legalStatusOfSupply.code` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.legalStatusOfSupply.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "jurisdiction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.legalStatusOfSupply.jurisdiction` is part of an existing definition because parent element `PackagedProductDefinition.legalStatusOfSupply` requires a cross-version extension.\nElement `PackagedProductDefinition.legalStatusOfSupply.jurisdiction` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.marketingStatus" ] ;
+       fhir:display [ fhir:v "marketingStatus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "marketingStatus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.marketingStatus` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.copackagedIndicator" ] ;
+       fhir:display [ fhir:v "copackagedIndicator" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "copackagedIndicator" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.copackagedIndicator` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging" ] ;
+       fhir:display [ fhir:v "packaging" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "packaging" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "identifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.identifier` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.identifier` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.type` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.type` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.componentPart" ] ;
+       fhir:display [ fhir:v "componentPart" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "componentPart" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.componentPart` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.componentPart` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.quantity" ] ;
+       fhir:display [ fhir:v "quantity" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "quantity" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.quantity` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.quantity` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.material" ] ;
+       fhir:display [ fhir:v "material" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "material" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.material` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.material` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.alternateMaterial" ] ;
+       fhir:display [ fhir:v "alternateMaterial" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "alternateMaterial" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.alternateMaterial` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.alternateMaterial` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.shelfLifeStorage" ] ;
+       fhir:display [ fhir:v "shelfLifeStorage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "shelfLifeStorage" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.shelfLifeStorage` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.shelfLifeStorage` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.property" ] ;
+       fhir:display [ fhir:v "property" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "property" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.property` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.property` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.property.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.property.type` is part of an existing definition because parent element `PackagedProductDefinition.packaging.property` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.property.type` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.property.value[x]" ] ;
+       fhir:display [ fhir:v "value[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "value" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.property.value[x]` is part of an existing definition because parent element `PackagedProductDefinition.packaging.property` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.property.value[x]` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.containedItem" ] ;
+       fhir:display [ fhir:v "containedItem" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "containedItem" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.containedItem` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.containedItem` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.containedItem.item" ] ;
+       fhir:display [ fhir:v "item" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "item" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.containedItem.item` is part of an existing definition because parent element `PackagedProductDefinition.packaging.containedItem` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.containedItem.item` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.containedItem.amount" ] ;
+       fhir:display [ fhir:v "amount" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "amount" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.containedItem.amount` is part of an existing definition because parent element `PackagedProductDefinition.packaging.containedItem` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.containedItem.amount` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "PackagedProductDefinition.packageFor" ] ;
+       fhir:display [ fhir:v "packageFor" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PackagedProductDefinition.packageFor` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PackagedProductDefinition.packageFor` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PackagedProductDefinition.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PackagedProductDefinition.manufacturer` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.attachedDocument" ] ;
+       fhir:display [ fhir:v "attachedDocument" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PackagedProductDefinition.attachedDocument` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PackagedProductDefinition.attachedDocument` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.manufacturer" ] ;
+       fhir:display [ fhir:v "manufacturer" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.manufacturer` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `PackagedProductDefinition.packaging.manufacturer` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `PackagedProductDefinition.packaging.manufacturer` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/PackagedProductDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "PackagedProductDefinition.packaging.packaging" ] ;
+       fhir:display [ fhir:v "packaging" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.packaging" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.packaging.packaging` is part of an existing definition because parent element `PackagedProductDefinition.packaging` requires a cross-version extension.\nElement `PackagedProductDefinition.packaging.packaging` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "PackagedProductDefinition.characteristic" ] ;
+       fhir:display [ fhir:v "characteristic" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-PackagedProductDefinition.packaging.property" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `PackagedProductDefinition.characteristic` is not mapped to FHIR R4, since FHIR R5 `PackagedProductDefinition` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

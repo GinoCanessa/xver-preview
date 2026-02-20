@@ -24,7 +24,7 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Medication.extension:definition","Medication.extension","definition","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference|5.2.0]]} {[]}
+"Medication.extension:definition","Medication.extension","definition","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/alternate-reference]]} {[]}
 ","Cross-version extension for Medication.definition from R5 for use in FHIR R4","This extension can be used as a substitute for elements with reference targets of http://hl7.org/fhir/StructureDefinition/MedicationKnowledge in FHIR R4","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Medication.definition` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.
 Element `Medication.definition` has a context of Medication based on following the parent source element upwards and mapping to `Medication`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -58,7 +58,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Medication.amount.extension:totalVolume","Medication.amount.extension","totalVolume","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.totalVolume|0.0.1-snapshot-3]]} {[]}
+"Medication.amount.extension:totalVolume","Medication.amount.extension","totalVolume","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.totalVolume]]} {[]}
 ","Cross-version extension for Medication.totalVolume from R5 for use in FHIR R4","When the specified product code does not infer a package size, this is the specific amount of drug in the product.  For example, when specifying a product that has the same strength (For example, Insulin glargine 100 unit per mL solution for injection), this attribute provides additional clarification of the package amount (For example, 3 mL, 10mL, etc.).","Element `Medication.totalVolume` has is mapped to FHIR R4 element `Medication.amount`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Medication.amount.numerator","Medication.amount.numerator","","","",0,1,"","","Y","Quantity {[]} {[]}
@@ -76,7 +76,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Medication.ingredient.extension:ingredient","Medication.ingredient.extension","ingredient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient|0.0.1-snapshot-3]]} {[]}
+"Medication.ingredient.extension:ingredient","Medication.ingredient.extension","ingredient","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.ingredient]]} {[]}
 ","Cross-version extension for Medication.ingredient from R5 for use in FHIR R4","Identifies a particular constituent of interest in the product.","Element `Medication.ingredient` has is mapped to FHIR R4 element `Medication.ingredient`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -104,7 +104,7 @@ Reference {[]} {[CanonicalType[http://hl7.org/fhir/StructureDefinition/Substance
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Medication.batch.extension:batch","Medication.batch.extension","batch","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.batch|0.0.1-snapshot-3]]} {[]}
+"Medication.batch.extension:batch","Medication.batch.extension","batch","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Medication.batch]]} {[]}
 ","Cross-version extension for Medication.batch from R5 for use in FHIR R4","Information that only applies to packages (not products).","Element `Medication.batch` has is mapped to FHIR R4 element `Medication.batch`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

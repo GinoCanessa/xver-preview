@@ -1,0 +1,464 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-SubstanceSourceMaterial-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-SubstanceSourceMaterial-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-SubstanceSourceMaterial-element-map-to-R4</b></p><a name=\"R5-SubstanceSourceMaterial-element-map-to-R4\"> </a><a name=\"hcR5-SubstanceSourceMaterial-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SubstanceSourceMaterial|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/basic.html\">Basicversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SubstanceSourceMaterial.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.meta</td><td>Element `SubstanceSourceMaterial.meta` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead.</td></tr><tr><td>SubstanceSourceMaterial.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.implicitRules</td><td>Element `SubstanceSourceMaterial.implicitRules` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead.</td></tr><tr><td>SubstanceSourceMaterial.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>Resource.language</td><td>Element `SubstanceSourceMaterial.language` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead.</td></tr><tr><td>SubstanceSourceMaterial.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.text</td><td>Element `SubstanceSourceMaterial.text` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead.</td></tr><tr><td>SubstanceSourceMaterial.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>DomainResource.contained</td><td>Element `SubstanceSourceMaterial.contained` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/SubstanceSourceMaterial|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>SubstanceSourceMaterial.sourceMaterialClass (sourceMaterialClass)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialClass</td><td>Element `SubstanceSourceMaterial.sourceMaterialClass` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.sourceMaterialType (sourceMaterialType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialType</td><td>Element `SubstanceSourceMaterial.sourceMaterialType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.sourceMaterialState (sourceMaterialState)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialState</td><td>Element `SubstanceSourceMaterial.sourceMaterialState` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organismId (organismId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organismId</td><td>Element `SubstanceSourceMaterial.organismId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organismName (organismName)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organismName</td><td>Element `SubstanceSourceMaterial.organismName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.parentSubstanceId (parentSubstanceId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.parentSubstanceId</td><td>Element `SubstanceSourceMaterial.parentSubstanceId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.parentSubstanceName (parentSubstanceName)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.parentSubstanceName</td><td>Element `SubstanceSourceMaterial.parentSubstanceName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.countryOfOrigin (countryOfOrigin)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.countryOfOrigin</td><td>Element `SubstanceSourceMaterial.countryOfOrigin` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.geographicalLocation (geographicalLocation)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.geographicalLocation</td><td>Element `SubstanceSourceMaterial.geographicalLocation` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.developmentStage (developmentStage)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.developmentStage</td><td>Element `SubstanceSourceMaterial.developmentStage` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.fractionDescription (fractionDescription)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription</td><td>Element `SubstanceSourceMaterial.fractionDescription` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.fractionDescription.fraction (fraction)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription.fraction</td><td>Element `SubstanceSourceMaterial.fractionDescription.fraction` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.fractionDescription.materialType (materialType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription.materialType</td><td>Element `SubstanceSourceMaterial.fractionDescription.materialType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism (organism)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism</td><td>Element `SubstanceSourceMaterial.organism` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.family (family)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.family</td><td>Element `SubstanceSourceMaterial.organism.family` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.genus (genus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.genus</td><td>Element `SubstanceSourceMaterial.organism.genus` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.species (species)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.species</td><td>Element `SubstanceSourceMaterial.organism.species` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.intraspecificType (intraspecificType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.intraspecificType</td><td>Element `SubstanceSourceMaterial.organism.intraspecificType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.intraspecificDescription (intraspecificDescription)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.intraspecificDescription</td><td>Element `SubstanceSourceMaterial.organism.intraspecificDescription` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.author (author)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author</td><td>Element `SubstanceSourceMaterial.organism.author` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.author.authorType (authorType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author.authorType</td><td>Element `SubstanceSourceMaterial.organism.author.authorType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.author.authorDescription (authorDescription)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author.authorDescription</td><td>Element `SubstanceSourceMaterial.organism.author.authorDescription` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.hybrid (hybrid)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid</td><td>Element `SubstanceSourceMaterial.organism.hybrid` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.hybrid.maternalOrganismId (maternalOrganismId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.maternalOrganismId</td><td>Element `SubstanceSourceMaterial.organism.hybrid.maternalOrganismId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.hybrid.maternalOrganismName (maternalOrganismName)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.maternalOrganismName</td><td>Element `SubstanceSourceMaterial.organism.hybrid.maternalOrganismName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.hybrid.paternalOrganismId (paternalOrganismId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.paternalOrganismId</td><td>Element `SubstanceSourceMaterial.organism.hybrid.paternalOrganismId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.hybrid.paternalOrganismName (paternalOrganismName)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.paternalOrganismName</td><td>Element `SubstanceSourceMaterial.organism.hybrid.paternalOrganismName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.hybrid.hybridType (hybridType)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.hybridType</td><td>Element `SubstanceSourceMaterial.organism.hybrid.hybridType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.organismGeneral (organismGeneral)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral</td><td>Element `SubstanceSourceMaterial.organism.organismGeneral` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.organismGeneral.kingdom (kingdom)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.kingdom</td><td>Element `SubstanceSourceMaterial.organism.organismGeneral.kingdom` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.organismGeneral.phylum (phylum)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.phylum</td><td>Element `SubstanceSourceMaterial.organism.organismGeneral.phylum` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.organismGeneral.class (class)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.class</td><td>Element `SubstanceSourceMaterial.organism.organismGeneral.class` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.organism.organismGeneral.order (order)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.order</td><td>Element `SubstanceSourceMaterial.organism.organismGeneral.order` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.partDescription (partDescription)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription</td><td>Element `SubstanceSourceMaterial.partDescription` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.partDescription.part (part)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription.part</td><td>Element `SubstanceSourceMaterial.partDescription.part` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr><tr><td>SubstanceSourceMaterial.partDescription.partLocation (partLocation)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription.partLocation</td><td>Element `SubstanceSourceMaterial.partDescription.partLocation` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-SubstanceSourceMaterial-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-SubstanceSourceMaterial-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5SubstanceSourceMaterialElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 SubstanceSourceMaterial to FHIR R4 Basic"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:27.2801376-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 SubstanceSourceMaterial to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SubstanceSourceMaterial"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SubstanceSourceMaterial>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/Basic"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/Basic>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.meta" ] ;
+         fhir:display [ fhir:v "Resource.meta" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.meta` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.\nElement matches Basic element path `Resource.meta` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.implicitRules" ] ;
+         fhir:display [ fhir:v "Resource.implicitRules" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.implicitRules` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.\nElement matches Basic element path `Resource.implicitRules` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "Resource.language" ] ;
+         fhir:display [ fhir:v "Resource.language" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.language` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.\nElement matches Basic element path `Resource.language` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.text" ] ;
+         fhir:display [ fhir:v "DomainResource.text" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.text` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.\nElement matches Basic element path `DomainResource.text` and is compatible, use that element instead." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "DomainResource.contained" ] ;
+         fhir:display [ fhir:v "DomainResource.contained" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.contained` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped.\nElement matches Basic element path `DomainResource.contained` and is compatible, use that element instead." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/SubstanceSourceMaterial"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/SubstanceSourceMaterial>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.sourceMaterialClass" ] ;
+       fhir:display [ fhir:v "sourceMaterialClass" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialClass" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.sourceMaterialClass` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.sourceMaterialType" ] ;
+       fhir:display [ fhir:v "sourceMaterialType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.sourceMaterialType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.sourceMaterialState" ] ;
+       fhir:display [ fhir:v "sourceMaterialState" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.sourceMaterialState" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.sourceMaterialState` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organismId" ] ;
+       fhir:display [ fhir:v "organismId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organismId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organismId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organismName" ] ;
+       fhir:display [ fhir:v "organismName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organismName" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organismName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.parentSubstanceId" ] ;
+       fhir:display [ fhir:v "parentSubstanceId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.parentSubstanceId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.parentSubstanceId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.parentSubstanceName" ] ;
+       fhir:display [ fhir:v "parentSubstanceName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.parentSubstanceName" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.parentSubstanceName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.countryOfOrigin" ] ;
+       fhir:display [ fhir:v "countryOfOrigin" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.countryOfOrigin" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.countryOfOrigin` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.geographicalLocation" ] ;
+       fhir:display [ fhir:v "geographicalLocation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.geographicalLocation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.geographicalLocation` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.developmentStage" ] ;
+       fhir:display [ fhir:v "developmentStage" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.developmentStage" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.developmentStage` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.fractionDescription" ] ;
+       fhir:display [ fhir:v "fractionDescription" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.fractionDescription` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.fractionDescription.fraction" ] ;
+       fhir:display [ fhir:v "fraction" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription.fraction" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.fractionDescription.fraction` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.fractionDescription.materialType" ] ;
+       fhir:display [ fhir:v "materialType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.fractionDescription.materialType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.fractionDescription.materialType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism" ] ;
+       fhir:display [ fhir:v "organism" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.family" ] ;
+       fhir:display [ fhir:v "family" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.family" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.family` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.genus" ] ;
+       fhir:display [ fhir:v "genus" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.genus" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.genus` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.species" ] ;
+       fhir:display [ fhir:v "species" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.species" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.species` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.intraspecificType" ] ;
+       fhir:display [ fhir:v "intraspecificType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.intraspecificType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.intraspecificType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.intraspecificDescription" ] ;
+       fhir:display [ fhir:v "intraspecificDescription" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.intraspecificDescription" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.intraspecificDescription` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.author` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.author.authorType" ] ;
+       fhir:display [ fhir:v "authorType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author.authorType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.author.authorType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.author.authorDescription" ] ;
+       fhir:display [ fhir:v "authorDescription" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.author.authorDescription" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.author.authorDescription` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.hybrid" ] ;
+       fhir:display [ fhir:v "hybrid" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.hybrid` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.hybrid.maternalOrganismId" ] ;
+       fhir:display [ fhir:v "maternalOrganismId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.maternalOrganismId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.hybrid.maternalOrganismId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.hybrid.maternalOrganismName" ] ;
+       fhir:display [ fhir:v "maternalOrganismName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.maternalOrganismName" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.hybrid.maternalOrganismName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.hybrid.paternalOrganismId" ] ;
+       fhir:display [ fhir:v "paternalOrganismId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.paternalOrganismId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.hybrid.paternalOrganismId` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.hybrid.paternalOrganismName" ] ;
+       fhir:display [ fhir:v "paternalOrganismName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.paternalOrganismName" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.hybrid.paternalOrganismName` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.hybrid.hybridType" ] ;
+       fhir:display [ fhir:v "hybridType" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.hybrid.hybridType" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.hybrid.hybridType` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.organismGeneral" ] ;
+       fhir:display [ fhir:v "organismGeneral" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.organismGeneral` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.organismGeneral.kingdom" ] ;
+       fhir:display [ fhir:v "kingdom" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.kingdom" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.organismGeneral.kingdom` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.organismGeneral.phylum" ] ;
+       fhir:display [ fhir:v "phylum" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.phylum" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.organismGeneral.phylum` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.organismGeneral.class" ] ;
+       fhir:display [ fhir:v "class" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.class" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.organismGeneral.class` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.organism.organismGeneral.order" ] ;
+       fhir:display [ fhir:v "order" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.organism.organismGeneral.order" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.organism.organismGeneral.order` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.partDescription" ] ;
+       fhir:display [ fhir:v "partDescription" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.partDescription` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.partDescription.part" ] ;
+       fhir:display [ fhir:v "part" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription.part" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.partDescription.part` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "SubstanceSourceMaterial.partDescription.partLocation" ] ;
+       fhir:display [ fhir:v "partLocation" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-SubstanceSourceMaterial.partDescription.partLocation" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `SubstanceSourceMaterial.partDescription.partLocation` is not mapped to FHIR R4, since FHIR R5 `SubstanceSourceMaterial` is not mapped." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

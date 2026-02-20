@@ -1,0 +1,513 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-MessageHeader-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-MessageHeader-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-MessageHeader-element-map-to-R4</b></p><a name=\"R5-MessageHeader-element-map-to-R4\"> </a><a name=\"hcR5-MessageHeader-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/messageheader.html\">MessageHeaderversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MessageHeader.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.meta` has is mapped to FHIR R4 element `MessageHeader.meta`, but has no comparisons.</td></tr><tr><td>MessageHeader.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.implicitRules` has is mapped to FHIR R4 element `MessageHeader.implicitRules`, but has no comparisons.</td></tr><tr><td>MessageHeader.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.language` has is mapped to FHIR R4 element `MessageHeader.language`, but has no comparisons.</td></tr><tr><td>MessageHeader.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.text` has is mapped to FHIR R4 element `MessageHeader.text`, but has no comparisons.</td></tr><tr><td>MessageHeader.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.contained` has is mapped to FHIR R4 element `MessageHeader.contained`, but has no comparisons.</td></tr><tr><td>MessageHeader.event[x] (event[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Note that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`.\nElement `MessageHeader.event[x]` has is mapped to FHIR R4 element `MessageHeader.event[x]`, but has no comparisons.\nNote that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`.</td></tr><tr><td>MessageHeader.destination (destination)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MessageHeader.destination` has is mapped to FHIR R4 element `MessageHeader.destination`, but has no comparisons.</td></tr><tr><td>MessageHeader.destination.endpoint[x] (endpoint[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MessageHeader.destination.endpoint[x]` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.destination.endpoint`, but has no comparisons.</td></tr><tr><td>MessageHeader.destination.name (name)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.destination.name` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.name` has is mapped to FHIR R4 element `MessageHeader.destination.name`, but has no comparisons.</td></tr><tr><td>MessageHeader.destination.target (target)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.destination.target` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.target` has is mapped to FHIR R4 element `MessageHeader.destination.target`, but has no comparisons.</td></tr><tr><td>MessageHeader.destination.receiver (receiver)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.destination.receiver` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.receiver` has is mapped to FHIR R4 element `MessageHeader.destination.receiver`, but has no comparisons.</td></tr><tr><td>MessageHeader.sender (sender)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.sender` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.sender` has is mapped to FHIR R4 element `MessageHeader.sender`, but has no comparisons.</td></tr><tr><td>MessageHeader.author (author)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.author` has is mapped to FHIR R4 element `MessageHeader.author`, but has no comparisons.</td></tr><tr><td>MessageHeader.source (source)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MessageHeader.source` has is mapped to FHIR R4 element `MessageHeader.source`, but has no comparisons.</td></tr><tr><td>MessageHeader.source.endpoint[x] (endpoint[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MessageHeader.source.endpoint[x]` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.source.endpoint`, but has no comparisons.</td></tr><tr><td>MessageHeader.source.name (name)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.source.name` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.name` has is mapped to FHIR R4 element `MessageHeader.source.name`, but has no comparisons.</td></tr><tr><td>MessageHeader.source.software (software)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.source.software` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.software` has is mapped to FHIR R4 element `MessageHeader.source.software`, but has no comparisons.</td></tr><tr><td>MessageHeader.source.version (version)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.source.version` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.version` has is mapped to FHIR R4 element `MessageHeader.source.version`, but has no comparisons.</td></tr><tr><td>MessageHeader.source.contact (contact)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.source.contact` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.contact` has is mapped to FHIR R4 element `MessageHeader.source.contact`, but has no comparisons.</td></tr><tr><td>MessageHeader.responsible (responsible)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.responsible` has is mapped to FHIR R4 element `MessageHeader.responsible`, but has no comparisons.</td></tr><tr><td>MessageHeader.reason (reason)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.reason` has is mapped to FHIR R4 element `MessageHeader.reason`, but has no comparisons.</td></tr><tr><td>MessageHeader.response (response)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MessageHeader.response` has is mapped to FHIR R4 element `MessageHeader.response`, but has no comparisons.</td></tr><tr><td>MessageHeader.response.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `MessageHeader.response.identifier` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.identifier` has is mapped to FHIR R4 element `MessageHeader.response.identifier`, but has no comparisons.</td></tr><tr><td>MessageHeader.response.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.response.code` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.code` has is mapped to FHIR R4 element `MessageHeader.response.code`, but has no comparisons.</td></tr><tr><td>MessageHeader.response.details (details)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.response.details` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.details` has is mapped to FHIR R4 element `MessageHeader.response.details`, but has no comparisons.</td></tr><tr><td>MessageHeader.focus (focus)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.focus` has is mapped to FHIR R4 element `MessageHeader.focus`, but has no comparisons.</td></tr><tr><td>MessageHeader.definition (definition)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `MessageHeader.definition` has is mapped to FHIR R4 element `MessageHeader.definition`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MessageHeader.destination (destination)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination</td><td>Element `MessageHeader.destination` has is mapped to FHIR R4 element `MessageHeader.destination`, but has no comparisons.</td></tr><tr><td>MessageHeader.destination.endpoint[x] (endpoint[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.endpoint</td><td>Element `MessageHeader.destination.endpoint[x]` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.destination.endpoint`, but has no comparisons.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4</td><td/></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MessageHeader.destination.endpoint[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">endpoint[x]</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.destination.endpoint[x]` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.destination.endpoint`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.destination.endpoint[x]` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.destination.endpoint`, but has no comparisons.</td></tr></table><hr/><p><b>Group 4 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>MessageHeader.destination.name (name)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.name</td><td>Element `MessageHeader.destination.name` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.name` has is mapped to FHIR R4 element `MessageHeader.destination.name`, but has no comparisons.</td></tr><tr><td>MessageHeader.destination.target (target)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.target</td><td>Element `MessageHeader.destination.target` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.target` has is mapped to FHIR R4 element `MessageHeader.destination.target`, but has no comparisons.</td></tr><tr><td>MessageHeader.destination.receiver (receiver)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.receiver</td><td>Element `MessageHeader.destination.receiver` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.receiver` has is mapped to FHIR R4 element `MessageHeader.destination.receiver`, but has no comparisons.</td></tr><tr><td>MessageHeader.source (source)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source</td><td>Element `MessageHeader.source` has is mapped to FHIR R4 element `MessageHeader.source`, but has no comparisons.</td></tr><tr><td>MessageHeader.source.endpoint[x] (endpoint[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.endpoint</td><td>Element `MessageHeader.source.endpoint[x]` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.source.endpoint`, but has no comparisons.</td></tr><tr><td>MessageHeader.source.name (name)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.name</td><td>Element `MessageHeader.source.name` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.name` has is mapped to FHIR R4 element `MessageHeader.source.name`, but has no comparisons.</td></tr><tr><td>MessageHeader.source.software (software)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.software</td><td>Element `MessageHeader.source.software` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.software` has is mapped to FHIR R4 element `MessageHeader.source.software`, but has no comparisons.</td></tr><tr><td>MessageHeader.source.version (version)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.version</td><td>Element `MessageHeader.source.version` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.version` has is mapped to FHIR R4 element `MessageHeader.source.version`, but has no comparisons.</td></tr><tr><td>MessageHeader.source.contact (contact)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.contact</td><td>Element `MessageHeader.source.contact` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.contact` has is mapped to FHIR R4 element `MessageHeader.source.contact`, but has no comparisons.</td></tr><tr><td>MessageHeader.response (response)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response</td><td>Element `MessageHeader.response` has is mapped to FHIR R4 element `MessageHeader.response`, but has no comparisons.</td></tr><tr><td>MessageHeader.response.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response.identifier</td><td>Element `MessageHeader.response.identifier` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.identifier` has is mapped to FHIR R4 element `MessageHeader.response.identifier`, but has no comparisons.</td></tr><tr><td>MessageHeader.response.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response.code</td><td>Element `MessageHeader.response.code` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.code` has is mapped to FHIR R4 element `MessageHeader.response.code`, but has no comparisons.</td></tr><tr><td>MessageHeader.response.details (details)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response.details</td><td>Element `MessageHeader.response.details` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.details` has is mapped to FHIR R4 element `MessageHeader.response.details`, but has no comparisons.</td></tr></table><hr/><p><b>Group 5 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td colspan=\"2\"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan=\"2\"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/StructureDefinition/MessageHeader|5.0.0</td><td/><td colspan=\"2\"><b>Codes</b> from http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions</td><td/></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.sender</td><td style=\"border-left-width: 0px\">sender</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.sender` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.sender` has is mapped to FHIR R4 element `MessageHeader.sender`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px\">MessageHeader.author</td><td style=\"border-left-width: 0px\">author</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.author` has is mapped to FHIR R4 element `MessageHeader.author`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-bottom-style: none\">MessageHeader.source.endpoint[x]</td><td style=\"border-left-width: 0px; border-bottom-style: none\">endpoint[x]</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.source.endpoint[x]` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.source.endpoint`, but has no comparisons.</td></tr><tr><td style=\"border-right-width: 0px; border-top-style: none\"/><td style=\"border-top-style: none; border-left-width: 0px\"/><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td style=\"border-right-width: 0px\">http://hl7.org/fhir/StructureDefinition/alternate-reference</td><td style=\"border-left-width: 0px\"/><td>Element `MessageHeader.source.endpoint[x]` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.source.endpoint`, but has no comparisons.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-MessageHeader-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-MessageHeader-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5MessageHeaderElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 MessageHeader to FHIR R4 MessageHeader"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:25.0276166-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 MessageHeader to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MessageHeader>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MessageHeader>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MessageHeader.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.meta` has is mapped to FHIR R4 element `MessageHeader.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.implicitRules` has is mapped to FHIR R4 element `MessageHeader.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.language` has is mapped to FHIR R4 element `MessageHeader.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.text` has is mapped to FHIR R4 element `MessageHeader.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.contained` has is mapped to FHIR R4 element `MessageHeader.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.event[x]" ] ;
+       fhir:display [ fhir:v "event[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`.\nElement `MessageHeader.event[x]` has is mapped to FHIR R4 element `MessageHeader.event[x]`, but has no comparisons.\nNote that the target element context `MessageHeader.event[x]` is a choice-type element and cannot directly hold extensions. The context is moved up to parent element `MessageHeader`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination" ] ;
+       fhir:display [ fhir:v "destination" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination` has is mapped to FHIR R4 element `MessageHeader.destination`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.endpoint[x]" ] ;
+       fhir:display [ fhir:v "endpoint[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.endpoint[x]` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.destination.endpoint`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.name` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.name` has is mapped to FHIR R4 element `MessageHeader.destination.name`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.target" ] ;
+       fhir:display [ fhir:v "target" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.target` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.target` has is mapped to FHIR R4 element `MessageHeader.destination.target`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.receiver" ] ;
+       fhir:display [ fhir:v "receiver" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.receiver` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.receiver` has is mapped to FHIR R4 element `MessageHeader.destination.receiver`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.sender" ] ;
+       fhir:display [ fhir:v "sender" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.sender` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.sender` has is mapped to FHIR R4 element `MessageHeader.sender`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.author` has is mapped to FHIR R4 element `MessageHeader.author`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source` has is mapped to FHIR R4 element `MessageHeader.source`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.endpoint[x]" ] ;
+       fhir:display [ fhir:v "endpoint[x]" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.endpoint[x]` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.source.endpoint`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.name` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.name` has is mapped to FHIR R4 element `MessageHeader.source.name`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.software" ] ;
+       fhir:display [ fhir:v "software" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.software` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.software` has is mapped to FHIR R4 element `MessageHeader.source.software`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.version` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.version` has is mapped to FHIR R4 element `MessageHeader.source.version`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.contact` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.contact` has is mapped to FHIR R4 element `MessageHeader.source.contact`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.responsible" ] ;
+       fhir:display [ fhir:v "responsible" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.responsible` has is mapped to FHIR R4 element `MessageHeader.responsible`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.reason" ] ;
+       fhir:display [ fhir:v "reason" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.reason` has is mapped to FHIR R4 element `MessageHeader.reason`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response" ] ;
+       fhir:display [ fhir:v "response" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response` has is mapped to FHIR R4 element `MessageHeader.response`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response.identifier` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.identifier` has is mapped to FHIR R4 element `MessageHeader.response.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response.code` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.code` has is mapped to FHIR R4 element `MessageHeader.response.code`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response.details" ] ;
+       fhir:display [ fhir:v "details" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response.details` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.details` has is mapped to FHIR R4 element `MessageHeader.response.details`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.focus" ] ;
+       fhir:display [ fhir:v "focus" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.focus` has is mapped to FHIR R4 element `MessageHeader.focus`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.definition" ] ;
+       fhir:display [ fhir:v "definition" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.definition` has is mapped to FHIR R4 element `MessageHeader.definition`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MessageHeader>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MessageHeader.destination" ] ;
+       fhir:display [ fhir:v "destination" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination` has is mapped to FHIR R4 element `MessageHeader.destination`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.endpoint[x]" ] ;
+       fhir:display [ fhir:v "endpoint[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.endpoint" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.endpoint[x]` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.destination.endpoint`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MessageHeader>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MessageHeader.destination.endpoint[x]" ] ;
+       fhir:display [ fhir:v "endpoint[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.endpoint[x]` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.destination.endpoint`, but has no comparisons." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.endpoint[x]` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.destination.endpoint`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MessageHeader>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MessageHeader.destination.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.name` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.name` has is mapped to FHIR R4 element `MessageHeader.destination.name`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.target" ] ;
+       fhir:display [ fhir:v "target" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.target" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.target` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.target` has is mapped to FHIR R4 element `MessageHeader.destination.target`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.destination.receiver" ] ;
+       fhir:display [ fhir:v "receiver" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.destination.receiver" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.destination.receiver` is part of an existing definition because parent element `MessageHeader.destination` requires a cross-version extension.\nElement `MessageHeader.destination.receiver` has is mapped to FHIR R4 element `MessageHeader.destination.receiver`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source" ] ;
+       fhir:display [ fhir:v "source" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source` has is mapped to FHIR R4 element `MessageHeader.source`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.endpoint[x]" ] ;
+       fhir:display [ fhir:v "endpoint[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.endpoint" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.endpoint[x]` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.source.endpoint`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.name" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.name` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.name` has is mapped to FHIR R4 element `MessageHeader.source.name`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.software" ] ;
+       fhir:display [ fhir:v "software" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.software" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.software` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.software` has is mapped to FHIR R4 element `MessageHeader.source.software`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.version" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.version` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.version` has is mapped to FHIR R4 element `MessageHeader.source.version`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.source.contact" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.contact` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.contact` has is mapped to FHIR R4 element `MessageHeader.source.contact`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response" ] ;
+       fhir:display [ fhir:v "response" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response` has is mapped to FHIR R4 element `MessageHeader.response`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response.identifier" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response.identifier` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.identifier` has is mapped to FHIR R4 element `MessageHeader.response.identifier`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response.code" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response.code` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.code` has is mapped to FHIR R4 element `MessageHeader.response.code`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.response.details" ] ;
+       fhir:display [ fhir:v "details" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-MessageHeader.response.details" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.response.details` is part of an existing definition because parent element `MessageHeader.response` requires a cross-version extension.\nElement `MessageHeader.response.details` has is mapped to FHIR R4 element `MessageHeader.response.details`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/MessageHeader"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/MessageHeader>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "MessageHeader.sender" ] ;
+       fhir:display [ fhir:v "sender" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.sender` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.sender` has is mapped to FHIR R4 element `MessageHeader.sender`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.author" ] ;
+       fhir:display [ fhir:v "author" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `MessageHeader.author` with an unmapped Reference type: `http://hl7.org/fhir/StructureDefinition/alternate-reference`.\nElement `MessageHeader.author` has is mapped to FHIR R4 element `MessageHeader.author`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "MessageHeader.source.endpoint[x]" ] ;
+       fhir:display [ fhir:v "endpoint[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.endpoint[x]` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.source.endpoint`, but has no comparisons." ]
+       ] [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-reference" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `MessageHeader.source.endpoint[x]` is part of an existing definition because parent element `MessageHeader.source` requires a cross-version extension.\nElement `MessageHeader.source.endpoint[x]` has is mapped to FHIR R4 element `MessageHeader.source.endpoint`, but has no comparisons." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

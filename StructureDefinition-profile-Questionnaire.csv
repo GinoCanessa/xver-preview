@@ -25,13 +25,13 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.extension:versionAlgorithm","Questionnaire.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.versionAlgorithm|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Questionnaire.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Element `Questionnaire.versionAlgorithm[x]` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Questionnaire.extension:copyrightLabel","Questionnaire.extension","copyrightLabel","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel]]} {[]}
+","Cross-version extension for Questionnaire.copyrightLabel from R5 for use in FHIR R4","A short string (<50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Questionnaire.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.
+Element `Questionnaire.copyrightLabel` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.extension:copyrightLabel","Questionnaire.extension","copyrightLabel","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.copyrightLabel|0.0.1-snapshot-3]]} {[]}
-","Cross-version extension for Questionnaire.copyrightLabel from R5 for use in FHIR R4","A short string (<50 characters), suitable for inclusion in a page footer that identifies the copyright holder, effective period, and optionally whether rights are resctricted. (e.g. 'All rights reserved', 'Some rights reserved').","Element `Questionnaire.copyrightLabel` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
-","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+"Questionnaire.extension:versionAlgorithm","Questionnaire.extension","versionAlgorithm","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm]]} {[]}
+","Cross-version extension for Questionnaire.versionAlgorithm[x] from R5 for use in FHIR R4","Indicates the mechanism used to compare versions to determine which is more current.","Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `Questionnaire.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.
+Element `Questionnaire.versionAlgorithm[x]` has a context of Questionnaire based on following the parent source element upwards and mapping to `Questionnaire`.","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Questionnaire.modifierExtension","Questionnaire.modifierExtension","","extensions
 user content","",0,*,"","Y","","Extension {[]} {[]}
@@ -73,7 +73,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.subjectType.extension:subjectType","Questionnaire.subjectType.extension","subjectType","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.subjectType|0.0.1-snapshot-3]]} {[]}
+"Questionnaire.subjectType.extension:subjectType","Questionnaire.subjectType.extension","subjectType","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.subjectType]]} {[]}
 ","Cross-version extension for Questionnaire.subjectType from R5 for use in FHIR R4","The types of subjects that can be the subject of responses created for the questionnaire.","Element `Questionnaire.subjectType` has is mapped to FHIR R4 element `Questionnaire.subjectType`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -127,7 +127,7 @@ que-1:Group items must have nested items, display items cannot have nested items
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Questionnaire.item.extension:item","Questionnaire.item.extension","item","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item|0.0.1-snapshot-3]]} {[]}
+"Questionnaire.item.extension:item","Questionnaire.item.extension","item","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Questionnaire.item]]} {[]}
 ","Cross-version extension for Questionnaire.item from R5 for use in FHIR R4","A particular question, question grouping or display text that is part of the questionnaire.","Element `Questionnaire.item` has is mapped to FHIR R4 element `Questionnaire.item`, but has no comparisons.
 Note available implied context: `Questionnaire.item.item` because `Questionnaire.item.item` is defined as a content reference to `Questionnaire.item`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

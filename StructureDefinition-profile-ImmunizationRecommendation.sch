@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:ImmunizationRecommendation/f:recommendation</sch:title>
     <sch:rule context="f:ImmunizationRecommendation/f:recommendation">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation|0.0.1-snapshot-3']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation|0.0.1-snapshot-3': minimum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation']) &gt;= 1">extension with URL = 'http://hl7.org/fhir/5.0/StructureDefinition/extension-ImmunizationRecommendation.recommendation': minimum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

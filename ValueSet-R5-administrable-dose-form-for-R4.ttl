@@ -1,0 +1,2346 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-administrable-dose-form-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-administrable-dose-form-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-administrable-dose-form-for-R4</b></p><a name=\"R5-administrable-dose-form-for-R4\"> </a><a name=\"hcR5-administrable-dose-form-for-R4\"> </a><p>This value set expansion contains 201 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073362\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073362</td><td>Oral suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073363\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073363</td><td>Oral gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073364\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073364</td><td>Powder for oral solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073365\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073365</td><td>Granules for oral solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073367\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073367</td><td>Lyophilisate for suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073368\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073368</td><td>Powder for syrup</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073369\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073369</td><td>Soluble tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073370\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073370</td><td>Herbal tea</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073371\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073371</td><td>Instant herbal tea</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073372\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073372</td><td>Granules</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073373\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073373</td><td>Gastro-resistant granules</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073374\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073374</td><td>Modified-release granules</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073375\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073375</td><td>Capsule, hard</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073376\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073376</td><td>Gastro-resistant capsule, hard</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073377\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073377</td><td>Chewable capsule, soft</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073378\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073378</td><td>Prolonged-release capsule, soft</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073379\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073379</td><td>Modified-release capsule, soft</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073380\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073380</td><td>Coated tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073642\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073642</td><td>Oral drops, solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073643\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073643</td><td>Oral drops, suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073644\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073644</td><td>Oral drops, emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073645\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073645</td><td>Oral liquid</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073646\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073646</td><td>Oral solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073647\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073647</td><td>Oral emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073648\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073648</td><td>Oral paste</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073649\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073649</td><td>Powder for oral suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073650\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073650</td><td>Granules for oral suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073652\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073652</td><td>Syrup</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073653\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073653</td><td>Granules for syrup</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073654\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073654</td><td>Dispersible tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073655\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073655</td><td>Oral powder</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073656\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073656</td><td>Effervescent powder</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073657\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073657</td><td>Effervescent granules</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073658\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073658</td><td>Prolonged-release granules</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073659\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073659</td><td>Cachet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073660\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073660</td><td>Capsule, soft</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073661\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073661</td><td>Gastro-resistant capsule, soft</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073662\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073662</td><td>Prolonged-release capsule, hard</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073663\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073663</td><td>Modified-release capsule, hard</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073664\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073664</td><td>Tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073665\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073665</td><td>Film-coated tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073666\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073666</td><td>Orodispersible tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073667\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073667</td><td>Gastro-resistant tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073668\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073668</td><td>Modified-release tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073669\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073669</td><td>Medicated chewing-gum</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073670\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073670</td><td>Pillules</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073671\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073671</td><td>Pulsatile-release intraruminal device</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073672\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073672</td><td>Premix for medicated feeding stuff</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073673\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073673</td><td>Gargle</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073674\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073674</td><td>Gargle, powder for solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073675\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073675</td><td>Oromucosal suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073676\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073676</td><td>Oromucosal spray</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073677\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073677</td><td>Mouthwash</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073678\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073678</td><td>Gingival solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073679\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073679</td><td>Oromucosal paste</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073680\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073680</td><td>Gingival gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073681\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073681</td><td>Effervescent tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073682\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073682</td><td>Oral lyophilisate</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073683\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073683</td><td>Prolonged-release tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073684\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073684</td><td>Chewable tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073685\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073685</td><td>Oral gum</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073686\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073686</td><td>Continuous-release intraruminal device</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073687\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073687</td><td>Lick block</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073688\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073688</td><td>Medicated pellets</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073689\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073689</td><td>Concentrate for gargle</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073690\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073690</td><td>Gargle, tablet for solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073691\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073691</td><td>Oromucosal solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073692\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073692</td><td>Oromucosal drops</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073693\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073693</td><td>Sublingual spray</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073694\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073694</td><td>Mouthwash, tablet for solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073695\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073695</td><td>Oromucosal gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073696\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073696</td><td>Oromucosal cream</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073697\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073697</td><td>Gingival paste</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073698\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073698</td><td>Sublingual tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073699\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073699</td><td>Buccal tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073700\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073700</td><td>Compressed lozenge</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073701\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073701</td><td>Oromucosal capsule</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073702\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073702</td><td>Muco-adhesive buccal tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073703\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073703</td><td>Lozenge</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073704\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073704</td><td>Pastille</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073705\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073705</td><td>Dental gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073706\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073706</td><td>Dental insert</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073707\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073707</td><td>Dental powder</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073708\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073708</td><td>Dental suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073709\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073709</td><td>Toothpaste</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073710\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073710</td><td>Periodontal gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073711\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073711</td><td>Bath additive</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073712\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073712</td><td>Cream</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073713\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073713</td><td>Ointment</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073714\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073714</td><td>Medicated plaster</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073715\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073715</td><td>Shampoo</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073716\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073716</td><td>Cutaneous spray, suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073717\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073717</td><td>Cutaneous liquid</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073718\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073718</td><td>Concentrate for cutaneous solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073719\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073719</td><td>Cutaneous emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073720\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073720</td><td>Cutaneous patch</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073721\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073721</td><td>Periodontal powder</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073722\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073722</td><td>Dental stick</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073723\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073723</td><td>Dental solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073724\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073724</td><td>Dental emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073725\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073725</td><td>Periodontal insert</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073726\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073726</td><td>Gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073727\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073727</td><td>Cutaneous paste</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073728\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073728</td><td>Cutaneous foam</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073729\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073729</td><td>Cutaneous spray, solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073730\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073730</td><td>Cutaneous spray, powder</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073731\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073731</td><td>Cutaneous solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073732\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073732</td><td>Cutaneous suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073733\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073733</td><td>Cutaneous powder</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073734\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073734</td><td>Solution for iontophoresis</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073735\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073735</td><td>Collodion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073736\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073736</td><td>Poultice</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073737\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073737</td><td>Cutaneous sponge</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073738\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073738</td><td>Collar</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073739\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073739</td><td>Ear tag</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073740\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073740</td><td>Dip suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073741\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073741</td><td>Transdermal patch</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073742\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073742</td><td>Medicated nail lacquer</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073743\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073743</td><td>Cutaneous stick</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073744\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073744</td><td>Impregnated dressing</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073745\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073745</td><td>Medicated pendant</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073746\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073746</td><td>Dip solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073747\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073747</td><td>Dip emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073748\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073748</td><td>Concentrate for dip suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073749\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073749</td><td>Powder for dip solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073750\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073750</td><td>Powder for suspension for fish treatment</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073751\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073751</td><td>Pour-on suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073752\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073752</td><td>Spot-on solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073753\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073753</td><td>Spot-on emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073754\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073754</td><td>Teat dip suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073755\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073755</td><td>Teat spray solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073756\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073756</td><td>Solution for skin-prick test</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073757\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073757</td><td>Plaster for provocation test</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073758\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073758</td><td>Eye gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073759\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073759</td><td>Eye drops, solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073760\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073760</td><td>Eye drops, suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073761\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073761</td><td>Concentrate for dip solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073762\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073762</td><td>Concentrate for dip emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073763\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073763</td><td>Concentrate for solution for fish treatment</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073764\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073764</td><td>Pour-on solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073765\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073765</td><td>Pour-on emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073766\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073766</td><td>Spot-on suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073767\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073767</td><td>Teat dip solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073768\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073768</td><td>Teat dip emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073769\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073769</td><td>Transdermal system</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073770\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073770</td><td>Solution for skin-scratch test</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073771\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073771</td><td>Eye cream</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073772\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073772</td><td>Eye ointment</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073773\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073773</td><td>Eye drops, emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073775\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073775</td><td>Eye drops, solvent for reconstitution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073776\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073776</td><td>Eye lotion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073777\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073777</td><td>Ophthalmic insert</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073778\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073778</td><td>Ear cream</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073779\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073779</td><td>Ear ointment</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073780\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073780</td><td>Ear drops, suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073782\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073782</td><td>Eye drops, prolonged-release</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073783\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073783</td><td>Eye lotion, solvent for reconstitution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073784\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073784</td><td>Ophthalmic strip</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073785\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073785</td><td>Ear gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073786\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073786</td><td>Ear drops, solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073787\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073787</td><td>Ear drops, emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073788\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073788</td><td>Ear powder</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073789\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073789</td><td>Ear spray, suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073790\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073790</td><td>Ear wash, solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073791\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073791</td><td>Ear tampon</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073792\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073792</td><td>Nasal cream</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073793\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073793</td><td>Nasal gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073794\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073794</td><td>Nasal drops, solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073795\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073795</td><td>Nasal drops, emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073796\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073796</td><td>Nasal spray, solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073797\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073797</td><td>Nasal spray, emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073798\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073798</td><td>Nasal stick</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073799\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073799</td><td>Vaginal gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073800\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073800</td><td>Vaginal foam</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073802\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073802</td><td>Ear spray, solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073803\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073803</td><td>Ear spray, emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073804\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073804</td><td>Ear wash, emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073805\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073805</td><td>Ear stick</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073806\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073806</td><td>Nasal ointment</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073807\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073807</td><td>Nasal drops, suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073808\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073808</td><td>Nasal powder</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073809\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073809</td><td>Nasal spray, suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073810\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073810</td><td>Nasal wash</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073811\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073811</td><td>Vaginal cream</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073812\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073812</td><td>Vaginal ointment</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073813\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073813</td><td>Vaginal solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073814\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073814</td><td>Vaginal emulsion</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073815\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073815</td><td>Pessary</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073816\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073816</td><td>Vaginal capsule, soft</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073817\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073817</td><td>Effervescent vaginal tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073818\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073818</td><td>Vaginal delivery system</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073819\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073819</td><td>Rectal cream</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073820\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073820</td><td>Rectal foam</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073821\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073821</td><td>Vaginal suspension</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073822\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073822</td><td>Tablet for vaginal solution</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073823\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073823</td><td>Vaginal capsule, hard</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073824\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073824</td><td>Vaginal tablet</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073825\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073825</td><td>Medicated vaginal tampon</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073826\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073826</td><td>Vaginal sponge</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073827\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073827</td><td>Rectal gel</td></tr><tr><td><a name=\"R5-administrable-dose-form-for-R4-http://hl7.org/fhir/administrable-dose-form-100000073863\"> </a><code>http://hl7.org/fhir/administrable-dose-form</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  100000073863</td><td>Solution for injection</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-administrable-dose-form-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-administrable-dose-form-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5AdministrableDoseFormForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.AdministrableDoseForm for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/administrable-dose-form|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/administrable-dose-form|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `AdministrableProductDefinition.administrableDoseForm` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/administrable-dose-form|5.0.0`\n* `http://hl7.org/fhir/ValueSet/administrable-dose-form|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (201)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "100000073362" ] ;
+         fhir:display [ fhir:v "Oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073363" ] ;
+         fhir:display [ fhir:v "Oral gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073364" ] ;
+         fhir:display [ fhir:v "Powder for oral solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073365" ] ;
+         fhir:display [ fhir:v "Granules for oral solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073367" ] ;
+         fhir:display [ fhir:v "Lyophilisate for suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073368" ] ;
+         fhir:display [ fhir:v "Powder for syrup" ]
+       ] [
+         fhir:code [ fhir:v "100000073369" ] ;
+         fhir:display [ fhir:v "Soluble tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073370" ] ;
+         fhir:display [ fhir:v "Herbal tea" ]
+       ] [
+         fhir:code [ fhir:v "100000073371" ] ;
+         fhir:display [ fhir:v "Instant herbal tea" ]
+       ] [
+         fhir:code [ fhir:v "100000073372" ] ;
+         fhir:display [ fhir:v "Granules" ]
+       ] [
+         fhir:code [ fhir:v "100000073373" ] ;
+         fhir:display [ fhir:v "Gastro-resistant granules" ]
+       ] [
+         fhir:code [ fhir:v "100000073374" ] ;
+         fhir:display [ fhir:v "Modified-release granules" ]
+       ] [
+         fhir:code [ fhir:v "100000073375" ] ;
+         fhir:display [ fhir:v "Capsule, hard" ]
+       ] [
+         fhir:code [ fhir:v "100000073376" ] ;
+         fhir:display [ fhir:v "Gastro-resistant capsule, hard" ]
+       ] [
+         fhir:code [ fhir:v "100000073377" ] ;
+         fhir:display [ fhir:v "Chewable capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "100000073378" ] ;
+         fhir:display [ fhir:v "Prolonged-release capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "100000073379" ] ;
+         fhir:display [ fhir:v "Modified-release capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "100000073380" ] ;
+         fhir:display [ fhir:v "Coated tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073642" ] ;
+         fhir:display [ fhir:v "Oral drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073643" ] ;
+         fhir:display [ fhir:v "Oral drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073644" ] ;
+         fhir:display [ fhir:v "Oral drops, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073645" ] ;
+         fhir:display [ fhir:v "Oral liquid" ]
+       ] [
+         fhir:code [ fhir:v "100000073646" ] ;
+         fhir:display [ fhir:v "Oral solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073647" ] ;
+         fhir:display [ fhir:v "Oral emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073648" ] ;
+         fhir:display [ fhir:v "Oral paste" ]
+       ] [
+         fhir:code [ fhir:v "100000073649" ] ;
+         fhir:display [ fhir:v "Powder for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073650" ] ;
+         fhir:display [ fhir:v "Granules for oral suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073652" ] ;
+         fhir:display [ fhir:v "Syrup" ]
+       ] [
+         fhir:code [ fhir:v "100000073653" ] ;
+         fhir:display [ fhir:v "Granules for syrup" ]
+       ] [
+         fhir:code [ fhir:v "100000073654" ] ;
+         fhir:display [ fhir:v "Dispersible tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073655" ] ;
+         fhir:display [ fhir:v "Oral powder" ]
+       ] [
+         fhir:code [ fhir:v "100000073656" ] ;
+         fhir:display [ fhir:v "Effervescent powder" ]
+       ] [
+         fhir:code [ fhir:v "100000073657" ] ;
+         fhir:display [ fhir:v "Effervescent granules" ]
+       ] [
+         fhir:code [ fhir:v "100000073658" ] ;
+         fhir:display [ fhir:v "Prolonged-release granules" ]
+       ] [
+         fhir:code [ fhir:v "100000073659" ] ;
+         fhir:display [ fhir:v "Cachet" ]
+       ] [
+         fhir:code [ fhir:v "100000073660" ] ;
+         fhir:display [ fhir:v "Capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "100000073661" ] ;
+         fhir:display [ fhir:v "Gastro-resistant capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "100000073662" ] ;
+         fhir:display [ fhir:v "Prolonged-release capsule, hard" ]
+       ] [
+         fhir:code [ fhir:v "100000073663" ] ;
+         fhir:display [ fhir:v "Modified-release capsule, hard" ]
+       ] [
+         fhir:code [ fhir:v "100000073664" ] ;
+         fhir:display [ fhir:v "Tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073665" ] ;
+         fhir:display [ fhir:v "Film-coated tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073666" ] ;
+         fhir:display [ fhir:v "Orodispersible tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073667" ] ;
+         fhir:display [ fhir:v "Gastro-resistant tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073668" ] ;
+         fhir:display [ fhir:v "Modified-release tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073669" ] ;
+         fhir:display [ fhir:v "Medicated chewing-gum" ]
+       ] [
+         fhir:code [ fhir:v "100000073670" ] ;
+         fhir:display [ fhir:v "Pillules" ]
+       ] [
+         fhir:code [ fhir:v "100000073671" ] ;
+         fhir:display [ fhir:v "Pulsatile-release intraruminal device" ]
+       ] [
+         fhir:code [ fhir:v "100000073672" ] ;
+         fhir:display [ fhir:v "Premix for medicated feeding stuff" ]
+       ] [
+         fhir:code [ fhir:v "100000073673" ] ;
+         fhir:display [ fhir:v "Gargle" ]
+       ] [
+         fhir:code [ fhir:v "100000073674" ] ;
+         fhir:display [ fhir:v "Gargle, powder for solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073675" ] ;
+         fhir:display [ fhir:v "Oromucosal suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073676" ] ;
+         fhir:display [ fhir:v "Oromucosal spray" ]
+       ] [
+         fhir:code [ fhir:v "100000073677" ] ;
+         fhir:display [ fhir:v "Mouthwash" ]
+       ] [
+         fhir:code [ fhir:v "100000073678" ] ;
+         fhir:display [ fhir:v "Gingival solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073679" ] ;
+         fhir:display [ fhir:v "Oromucosal paste" ]
+       ] [
+         fhir:code [ fhir:v "100000073680" ] ;
+         fhir:display [ fhir:v "Gingival gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073681" ] ;
+         fhir:display [ fhir:v "Effervescent tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073682" ] ;
+         fhir:display [ fhir:v "Oral lyophilisate" ]
+       ] [
+         fhir:code [ fhir:v "100000073683" ] ;
+         fhir:display [ fhir:v "Prolonged-release tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073684" ] ;
+         fhir:display [ fhir:v "Chewable tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073685" ] ;
+         fhir:display [ fhir:v "Oral gum" ]
+       ] [
+         fhir:code [ fhir:v "100000073686" ] ;
+         fhir:display [ fhir:v "Continuous-release intraruminal device" ]
+       ] [
+         fhir:code [ fhir:v "100000073687" ] ;
+         fhir:display [ fhir:v "Lick block" ]
+       ] [
+         fhir:code [ fhir:v "100000073688" ] ;
+         fhir:display [ fhir:v "Medicated pellets" ]
+       ] [
+         fhir:code [ fhir:v "100000073689" ] ;
+         fhir:display [ fhir:v "Concentrate for gargle" ]
+       ] [
+         fhir:code [ fhir:v "100000073690" ] ;
+         fhir:display [ fhir:v "Gargle, tablet for solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073691" ] ;
+         fhir:display [ fhir:v "Oromucosal solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073692" ] ;
+         fhir:display [ fhir:v "Oromucosal drops" ]
+       ] [
+         fhir:code [ fhir:v "100000073693" ] ;
+         fhir:display [ fhir:v "Sublingual spray" ]
+       ] [
+         fhir:code [ fhir:v "100000073694" ] ;
+         fhir:display [ fhir:v "Mouthwash, tablet for solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073695" ] ;
+         fhir:display [ fhir:v "Oromucosal gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073696" ] ;
+         fhir:display [ fhir:v "Oromucosal cream" ]
+       ] [
+         fhir:code [ fhir:v "100000073697" ] ;
+         fhir:display [ fhir:v "Gingival paste" ]
+       ] [
+         fhir:code [ fhir:v "100000073698" ] ;
+         fhir:display [ fhir:v "Sublingual tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073699" ] ;
+         fhir:display [ fhir:v "Buccal tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073700" ] ;
+         fhir:display [ fhir:v "Compressed lozenge" ]
+       ] [
+         fhir:code [ fhir:v "100000073701" ] ;
+         fhir:display [ fhir:v "Oromucosal capsule" ]
+       ] [
+         fhir:code [ fhir:v "100000073702" ] ;
+         fhir:display [ fhir:v "Muco-adhesive buccal tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073703" ] ;
+         fhir:display [ fhir:v "Lozenge" ]
+       ] [
+         fhir:code [ fhir:v "100000073704" ] ;
+         fhir:display [ fhir:v "Pastille" ]
+       ] [
+         fhir:code [ fhir:v "100000073705" ] ;
+         fhir:display [ fhir:v "Dental gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073706" ] ;
+         fhir:display [ fhir:v "Dental insert" ]
+       ] [
+         fhir:code [ fhir:v "100000073707" ] ;
+         fhir:display [ fhir:v "Dental powder" ]
+       ] [
+         fhir:code [ fhir:v "100000073708" ] ;
+         fhir:display [ fhir:v "Dental suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073709" ] ;
+         fhir:display [ fhir:v "Toothpaste" ]
+       ] [
+         fhir:code [ fhir:v "100000073710" ] ;
+         fhir:display [ fhir:v "Periodontal gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073711" ] ;
+         fhir:display [ fhir:v "Bath additive" ]
+       ] [
+         fhir:code [ fhir:v "100000073712" ] ;
+         fhir:display [ fhir:v "Cream" ]
+       ] [
+         fhir:code [ fhir:v "100000073713" ] ;
+         fhir:display [ fhir:v "Ointment" ]
+       ] [
+         fhir:code [ fhir:v "100000073714" ] ;
+         fhir:display [ fhir:v "Medicated plaster" ]
+       ] [
+         fhir:code [ fhir:v "100000073715" ] ;
+         fhir:display [ fhir:v "Shampoo" ]
+       ] [
+         fhir:code [ fhir:v "100000073716" ] ;
+         fhir:display [ fhir:v "Cutaneous spray, suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073717" ] ;
+         fhir:display [ fhir:v "Cutaneous liquid" ]
+       ] [
+         fhir:code [ fhir:v "100000073718" ] ;
+         fhir:display [ fhir:v "Concentrate for cutaneous solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073719" ] ;
+         fhir:display [ fhir:v "Cutaneous emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073720" ] ;
+         fhir:display [ fhir:v "Cutaneous patch" ]
+       ] [
+         fhir:code [ fhir:v "100000073721" ] ;
+         fhir:display [ fhir:v "Periodontal powder" ]
+       ] [
+         fhir:code [ fhir:v "100000073722" ] ;
+         fhir:display [ fhir:v "Dental stick" ]
+       ] [
+         fhir:code [ fhir:v "100000073723" ] ;
+         fhir:display [ fhir:v "Dental solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073724" ] ;
+         fhir:display [ fhir:v "Dental emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073725" ] ;
+         fhir:display [ fhir:v "Periodontal insert" ]
+       ] [
+         fhir:code [ fhir:v "100000073726" ] ;
+         fhir:display [ fhir:v "Gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073727" ] ;
+         fhir:display [ fhir:v "Cutaneous paste" ]
+       ] [
+         fhir:code [ fhir:v "100000073728" ] ;
+         fhir:display [ fhir:v "Cutaneous foam" ]
+       ] [
+         fhir:code [ fhir:v "100000073729" ] ;
+         fhir:display [ fhir:v "Cutaneous spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073730" ] ;
+         fhir:display [ fhir:v "Cutaneous spray, powder" ]
+       ] [
+         fhir:code [ fhir:v "100000073731" ] ;
+         fhir:display [ fhir:v "Cutaneous solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073732" ] ;
+         fhir:display [ fhir:v "Cutaneous suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073733" ] ;
+         fhir:display [ fhir:v "Cutaneous powder" ]
+       ] [
+         fhir:code [ fhir:v "100000073734" ] ;
+         fhir:display [ fhir:v "Solution for iontophoresis" ]
+       ] [
+         fhir:code [ fhir:v "100000073735" ] ;
+         fhir:display [ fhir:v "Collodion" ]
+       ] [
+         fhir:code [ fhir:v "100000073736" ] ;
+         fhir:display [ fhir:v "Poultice" ]
+       ] [
+         fhir:code [ fhir:v "100000073737" ] ;
+         fhir:display [ fhir:v "Cutaneous sponge" ]
+       ] [
+         fhir:code [ fhir:v "100000073738" ] ;
+         fhir:display [ fhir:v "Collar" ]
+       ] [
+         fhir:code [ fhir:v "100000073739" ] ;
+         fhir:display [ fhir:v "Ear tag" ]
+       ] [
+         fhir:code [ fhir:v "100000073740" ] ;
+         fhir:display [ fhir:v "Dip suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073741" ] ;
+         fhir:display [ fhir:v "Transdermal patch" ]
+       ] [
+         fhir:code [ fhir:v "100000073742" ] ;
+         fhir:display [ fhir:v "Medicated nail lacquer" ]
+       ] [
+         fhir:code [ fhir:v "100000073743" ] ;
+         fhir:display [ fhir:v "Cutaneous stick" ]
+       ] [
+         fhir:code [ fhir:v "100000073744" ] ;
+         fhir:display [ fhir:v "Impregnated dressing" ]
+       ] [
+         fhir:code [ fhir:v "100000073745" ] ;
+         fhir:display [ fhir:v "Medicated pendant" ]
+       ] [
+         fhir:code [ fhir:v "100000073746" ] ;
+         fhir:display [ fhir:v "Dip solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073747" ] ;
+         fhir:display [ fhir:v "Dip emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073748" ] ;
+         fhir:display [ fhir:v "Concentrate for dip suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073749" ] ;
+         fhir:display [ fhir:v "Powder for dip solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073750" ] ;
+         fhir:display [ fhir:v "Powder for suspension for fish treatment" ]
+       ] [
+         fhir:code [ fhir:v "100000073751" ] ;
+         fhir:display [ fhir:v "Pour-on suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073752" ] ;
+         fhir:display [ fhir:v "Spot-on solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073753" ] ;
+         fhir:display [ fhir:v "Spot-on emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073754" ] ;
+         fhir:display [ fhir:v "Teat dip suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073755" ] ;
+         fhir:display [ fhir:v "Teat spray solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073756" ] ;
+         fhir:display [ fhir:v "Solution for skin-prick test" ]
+       ] [
+         fhir:code [ fhir:v "100000073757" ] ;
+         fhir:display [ fhir:v "Plaster for provocation test" ]
+       ] [
+         fhir:code [ fhir:v "100000073758" ] ;
+         fhir:display [ fhir:v "Eye gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073759" ] ;
+         fhir:display [ fhir:v "Eye drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073760" ] ;
+         fhir:display [ fhir:v "Eye drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073761" ] ;
+         fhir:display [ fhir:v "Concentrate for dip solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073762" ] ;
+         fhir:display [ fhir:v "Concentrate for dip emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073763" ] ;
+         fhir:display [ fhir:v "Concentrate for solution for fish treatment" ]
+       ] [
+         fhir:code [ fhir:v "100000073764" ] ;
+         fhir:display [ fhir:v "Pour-on solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073765" ] ;
+         fhir:display [ fhir:v "Pour-on emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073766" ] ;
+         fhir:display [ fhir:v "Spot-on suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073767" ] ;
+         fhir:display [ fhir:v "Teat dip solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073768" ] ;
+         fhir:display [ fhir:v "Teat dip emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073769" ] ;
+         fhir:display [ fhir:v "Transdermal system" ]
+       ] [
+         fhir:code [ fhir:v "100000073770" ] ;
+         fhir:display [ fhir:v "Solution for skin-scratch test" ]
+       ] [
+         fhir:code [ fhir:v "100000073771" ] ;
+         fhir:display [ fhir:v "Eye cream" ]
+       ] [
+         fhir:code [ fhir:v "100000073772" ] ;
+         fhir:display [ fhir:v "Eye ointment" ]
+       ] [
+         fhir:code [ fhir:v "100000073773" ] ;
+         fhir:display [ fhir:v "Eye drops, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073775" ] ;
+         fhir:display [ fhir:v "Eye drops, solvent for reconstitution" ]
+       ] [
+         fhir:code [ fhir:v "100000073776" ] ;
+         fhir:display [ fhir:v "Eye lotion" ]
+       ] [
+         fhir:code [ fhir:v "100000073777" ] ;
+         fhir:display [ fhir:v "Ophthalmic insert" ]
+       ] [
+         fhir:code [ fhir:v "100000073778" ] ;
+         fhir:display [ fhir:v "Ear cream" ]
+       ] [
+         fhir:code [ fhir:v "100000073779" ] ;
+         fhir:display [ fhir:v "Ear ointment" ]
+       ] [
+         fhir:code [ fhir:v "100000073780" ] ;
+         fhir:display [ fhir:v "Ear drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073782" ] ;
+         fhir:display [ fhir:v "Eye drops, prolonged-release" ]
+       ] [
+         fhir:code [ fhir:v "100000073783" ] ;
+         fhir:display [ fhir:v "Eye lotion, solvent for reconstitution" ]
+       ] [
+         fhir:code [ fhir:v "100000073784" ] ;
+         fhir:display [ fhir:v "Ophthalmic strip" ]
+       ] [
+         fhir:code [ fhir:v "100000073785" ] ;
+         fhir:display [ fhir:v "Ear gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073786" ] ;
+         fhir:display [ fhir:v "Ear drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073787" ] ;
+         fhir:display [ fhir:v "Ear drops, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073788" ] ;
+         fhir:display [ fhir:v "Ear powder" ]
+       ] [
+         fhir:code [ fhir:v "100000073789" ] ;
+         fhir:display [ fhir:v "Ear spray, suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073790" ] ;
+         fhir:display [ fhir:v "Ear wash, solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073791" ] ;
+         fhir:display [ fhir:v "Ear tampon" ]
+       ] [
+         fhir:code [ fhir:v "100000073792" ] ;
+         fhir:display [ fhir:v "Nasal cream" ]
+       ] [
+         fhir:code [ fhir:v "100000073793" ] ;
+         fhir:display [ fhir:v "Nasal gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073794" ] ;
+         fhir:display [ fhir:v "Nasal drops, solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073795" ] ;
+         fhir:display [ fhir:v "Nasal drops, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073796" ] ;
+         fhir:display [ fhir:v "Nasal spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073797" ] ;
+         fhir:display [ fhir:v "Nasal spray, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073798" ] ;
+         fhir:display [ fhir:v "Nasal stick" ]
+       ] [
+         fhir:code [ fhir:v "100000073799" ] ;
+         fhir:display [ fhir:v "Vaginal gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073800" ] ;
+         fhir:display [ fhir:v "Vaginal foam" ]
+       ] [
+         fhir:code [ fhir:v "100000073802" ] ;
+         fhir:display [ fhir:v "Ear spray, solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073803" ] ;
+         fhir:display [ fhir:v "Ear spray, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073804" ] ;
+         fhir:display [ fhir:v "Ear wash, emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073805" ] ;
+         fhir:display [ fhir:v "Ear stick" ]
+       ] [
+         fhir:code [ fhir:v "100000073806" ] ;
+         fhir:display [ fhir:v "Nasal ointment" ]
+       ] [
+         fhir:code [ fhir:v "100000073807" ] ;
+         fhir:display [ fhir:v "Nasal drops, suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073808" ] ;
+         fhir:display [ fhir:v "Nasal powder" ]
+       ] [
+         fhir:code [ fhir:v "100000073809" ] ;
+         fhir:display [ fhir:v "Nasal spray, suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073810" ] ;
+         fhir:display [ fhir:v "Nasal wash" ]
+       ] [
+         fhir:code [ fhir:v "100000073811" ] ;
+         fhir:display [ fhir:v "Vaginal cream" ]
+       ] [
+         fhir:code [ fhir:v "100000073812" ] ;
+         fhir:display [ fhir:v "Vaginal ointment" ]
+       ] [
+         fhir:code [ fhir:v "100000073813" ] ;
+         fhir:display [ fhir:v "Vaginal solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073814" ] ;
+         fhir:display [ fhir:v "Vaginal emulsion" ]
+       ] [
+         fhir:code [ fhir:v "100000073815" ] ;
+         fhir:display [ fhir:v "Pessary" ]
+       ] [
+         fhir:code [ fhir:v "100000073816" ] ;
+         fhir:display [ fhir:v "Vaginal capsule, soft" ]
+       ] [
+         fhir:code [ fhir:v "100000073817" ] ;
+         fhir:display [ fhir:v "Effervescent vaginal tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073818" ] ;
+         fhir:display [ fhir:v "Vaginal delivery system" ]
+       ] [
+         fhir:code [ fhir:v "100000073819" ] ;
+         fhir:display [ fhir:v "Rectal cream" ]
+       ] [
+         fhir:code [ fhir:v "100000073820" ] ;
+         fhir:display [ fhir:v "Rectal foam" ]
+       ] [
+         fhir:code [ fhir:v "100000073821" ] ;
+         fhir:display [ fhir:v "Vaginal suspension" ]
+       ] [
+         fhir:code [ fhir:v "100000073822" ] ;
+         fhir:display [ fhir:v "Tablet for vaginal solution" ]
+       ] [
+         fhir:code [ fhir:v "100000073823" ] ;
+         fhir:display [ fhir:v "Vaginal capsule, hard" ]
+       ] [
+         fhir:code [ fhir:v "100000073824" ] ;
+         fhir:display [ fhir:v "Vaginal tablet" ]
+       ] [
+         fhir:code [ fhir:v "100000073825" ] ;
+         fhir:display [ fhir:v "Medicated vaginal tampon" ]
+       ] [
+         fhir:code [ fhir:v "100000073826" ] ;
+         fhir:display [ fhir:v "Vaginal sponge" ]
+       ] [
+         fhir:code [ fhir:v "100000073827" ] ;
+         fhir:display [ fhir:v "Rectal gel" ]
+       ] [
+         fhir:code [ fhir:v "100000073863" ] ;
+         fhir:display [ fhir:v "Solution for injection" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073362" ] ;
+       fhir:display [ fhir:v "Oral suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073363" ] ;
+       fhir:display [ fhir:v "Oral gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073364" ] ;
+       fhir:display [ fhir:v "Powder for oral solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073365" ] ;
+       fhir:display [ fhir:v "Granules for oral solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073367" ] ;
+       fhir:display [ fhir:v "Lyophilisate for suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073368" ] ;
+       fhir:display [ fhir:v "Powder for syrup" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073369" ] ;
+       fhir:display [ fhir:v "Soluble tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073370" ] ;
+       fhir:display [ fhir:v "Herbal tea" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073371" ] ;
+       fhir:display [ fhir:v "Instant herbal tea" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073372" ] ;
+       fhir:display [ fhir:v "Granules" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073373" ] ;
+       fhir:display [ fhir:v "Gastro-resistant granules" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073374" ] ;
+       fhir:display [ fhir:v "Modified-release granules" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073375" ] ;
+       fhir:display [ fhir:v "Capsule, hard" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073376" ] ;
+       fhir:display [ fhir:v "Gastro-resistant capsule, hard" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073377" ] ;
+       fhir:display [ fhir:v "Chewable capsule, soft" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073378" ] ;
+       fhir:display [ fhir:v "Prolonged-release capsule, soft" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073379" ] ;
+       fhir:display [ fhir:v "Modified-release capsule, soft" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073380" ] ;
+       fhir:display [ fhir:v "Coated tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073642" ] ;
+       fhir:display [ fhir:v "Oral drops, solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073643" ] ;
+       fhir:display [ fhir:v "Oral drops, suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073644" ] ;
+       fhir:display [ fhir:v "Oral drops, emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073645" ] ;
+       fhir:display [ fhir:v "Oral liquid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073646" ] ;
+       fhir:display [ fhir:v "Oral solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073647" ] ;
+       fhir:display [ fhir:v "Oral emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073648" ] ;
+       fhir:display [ fhir:v "Oral paste" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073649" ] ;
+       fhir:display [ fhir:v "Powder for oral suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073650" ] ;
+       fhir:display [ fhir:v "Granules for oral suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073652" ] ;
+       fhir:display [ fhir:v "Syrup" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073653" ] ;
+       fhir:display [ fhir:v "Granules for syrup" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073654" ] ;
+       fhir:display [ fhir:v "Dispersible tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073655" ] ;
+       fhir:display [ fhir:v "Oral powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073656" ] ;
+       fhir:display [ fhir:v "Effervescent powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073657" ] ;
+       fhir:display [ fhir:v "Effervescent granules" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073658" ] ;
+       fhir:display [ fhir:v "Prolonged-release granules" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073659" ] ;
+       fhir:display [ fhir:v "Cachet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073660" ] ;
+       fhir:display [ fhir:v "Capsule, soft" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073661" ] ;
+       fhir:display [ fhir:v "Gastro-resistant capsule, soft" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073662" ] ;
+       fhir:display [ fhir:v "Prolonged-release capsule, hard" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073663" ] ;
+       fhir:display [ fhir:v "Modified-release capsule, hard" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073664" ] ;
+       fhir:display [ fhir:v "Tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073665" ] ;
+       fhir:display [ fhir:v "Film-coated tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073666" ] ;
+       fhir:display [ fhir:v "Orodispersible tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073667" ] ;
+       fhir:display [ fhir:v "Gastro-resistant tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073668" ] ;
+       fhir:display [ fhir:v "Modified-release tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073669" ] ;
+       fhir:display [ fhir:v "Medicated chewing-gum" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073670" ] ;
+       fhir:display [ fhir:v "Pillules" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073671" ] ;
+       fhir:display [ fhir:v "Pulsatile-release intraruminal device" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073672" ] ;
+       fhir:display [ fhir:v "Premix for medicated feeding stuff" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073673" ] ;
+       fhir:display [ fhir:v "Gargle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073674" ] ;
+       fhir:display [ fhir:v "Gargle, powder for solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073675" ] ;
+       fhir:display [ fhir:v "Oromucosal suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073676" ] ;
+       fhir:display [ fhir:v "Oromucosal spray" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073677" ] ;
+       fhir:display [ fhir:v "Mouthwash" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073678" ] ;
+       fhir:display [ fhir:v "Gingival solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073679" ] ;
+       fhir:display [ fhir:v "Oromucosal paste" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073680" ] ;
+       fhir:display [ fhir:v "Gingival gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073681" ] ;
+       fhir:display [ fhir:v "Effervescent tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073682" ] ;
+       fhir:display [ fhir:v "Oral lyophilisate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073683" ] ;
+       fhir:display [ fhir:v "Prolonged-release tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073684" ] ;
+       fhir:display [ fhir:v "Chewable tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073685" ] ;
+       fhir:display [ fhir:v "Oral gum" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073686" ] ;
+       fhir:display [ fhir:v "Continuous-release intraruminal device" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073687" ] ;
+       fhir:display [ fhir:v "Lick block" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073688" ] ;
+       fhir:display [ fhir:v "Medicated pellets" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073689" ] ;
+       fhir:display [ fhir:v "Concentrate for gargle" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073690" ] ;
+       fhir:display [ fhir:v "Gargle, tablet for solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073691" ] ;
+       fhir:display [ fhir:v "Oromucosal solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073692" ] ;
+       fhir:display [ fhir:v "Oromucosal drops" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073693" ] ;
+       fhir:display [ fhir:v "Sublingual spray" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073694" ] ;
+       fhir:display [ fhir:v "Mouthwash, tablet for solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073695" ] ;
+       fhir:display [ fhir:v "Oromucosal gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073696" ] ;
+       fhir:display [ fhir:v "Oromucosal cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073697" ] ;
+       fhir:display [ fhir:v "Gingival paste" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073698" ] ;
+       fhir:display [ fhir:v "Sublingual tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073699" ] ;
+       fhir:display [ fhir:v "Buccal tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073700" ] ;
+       fhir:display [ fhir:v "Compressed lozenge" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073701" ] ;
+       fhir:display [ fhir:v "Oromucosal capsule" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073702" ] ;
+       fhir:display [ fhir:v "Muco-adhesive buccal tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073703" ] ;
+       fhir:display [ fhir:v "Lozenge" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073704" ] ;
+       fhir:display [ fhir:v "Pastille" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073705" ] ;
+       fhir:display [ fhir:v "Dental gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073706" ] ;
+       fhir:display [ fhir:v "Dental insert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073707" ] ;
+       fhir:display [ fhir:v "Dental powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073708" ] ;
+       fhir:display [ fhir:v "Dental suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073709" ] ;
+       fhir:display [ fhir:v "Toothpaste" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073710" ] ;
+       fhir:display [ fhir:v "Periodontal gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073711" ] ;
+       fhir:display [ fhir:v "Bath additive" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073712" ] ;
+       fhir:display [ fhir:v "Cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073713" ] ;
+       fhir:display [ fhir:v "Ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073714" ] ;
+       fhir:display [ fhir:v "Medicated plaster" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073715" ] ;
+       fhir:display [ fhir:v "Shampoo" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073716" ] ;
+       fhir:display [ fhir:v "Cutaneous spray, suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073717" ] ;
+       fhir:display [ fhir:v "Cutaneous liquid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073718" ] ;
+       fhir:display [ fhir:v "Concentrate for cutaneous solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073719" ] ;
+       fhir:display [ fhir:v "Cutaneous emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073720" ] ;
+       fhir:display [ fhir:v "Cutaneous patch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073721" ] ;
+       fhir:display [ fhir:v "Periodontal powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073722" ] ;
+       fhir:display [ fhir:v "Dental stick" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073723" ] ;
+       fhir:display [ fhir:v "Dental solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073724" ] ;
+       fhir:display [ fhir:v "Dental emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073725" ] ;
+       fhir:display [ fhir:v "Periodontal insert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073726" ] ;
+       fhir:display [ fhir:v "Gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073727" ] ;
+       fhir:display [ fhir:v "Cutaneous paste" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073728" ] ;
+       fhir:display [ fhir:v "Cutaneous foam" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073729" ] ;
+       fhir:display [ fhir:v "Cutaneous spray, solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073730" ] ;
+       fhir:display [ fhir:v "Cutaneous spray, powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073731" ] ;
+       fhir:display [ fhir:v "Cutaneous solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073732" ] ;
+       fhir:display [ fhir:v "Cutaneous suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073733" ] ;
+       fhir:display [ fhir:v "Cutaneous powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073734" ] ;
+       fhir:display [ fhir:v "Solution for iontophoresis" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073735" ] ;
+       fhir:display [ fhir:v "Collodion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073736" ] ;
+       fhir:display [ fhir:v "Poultice" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073737" ] ;
+       fhir:display [ fhir:v "Cutaneous sponge" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073738" ] ;
+       fhir:display [ fhir:v "Collar" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073739" ] ;
+       fhir:display [ fhir:v "Ear tag" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073740" ] ;
+       fhir:display [ fhir:v "Dip suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073741" ] ;
+       fhir:display [ fhir:v "Transdermal patch" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073742" ] ;
+       fhir:display [ fhir:v "Medicated nail lacquer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073743" ] ;
+       fhir:display [ fhir:v "Cutaneous stick" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073744" ] ;
+       fhir:display [ fhir:v "Impregnated dressing" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073745" ] ;
+       fhir:display [ fhir:v "Medicated pendant" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073746" ] ;
+       fhir:display [ fhir:v "Dip solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073747" ] ;
+       fhir:display [ fhir:v "Dip emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073748" ] ;
+       fhir:display [ fhir:v "Concentrate for dip suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073749" ] ;
+       fhir:display [ fhir:v "Powder for dip solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073750" ] ;
+       fhir:display [ fhir:v "Powder for suspension for fish treatment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073751" ] ;
+       fhir:display [ fhir:v "Pour-on suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073752" ] ;
+       fhir:display [ fhir:v "Spot-on solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073753" ] ;
+       fhir:display [ fhir:v "Spot-on emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073754" ] ;
+       fhir:display [ fhir:v "Teat dip suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073755" ] ;
+       fhir:display [ fhir:v "Teat spray solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073756" ] ;
+       fhir:display [ fhir:v "Solution for skin-prick test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073757" ] ;
+       fhir:display [ fhir:v "Plaster for provocation test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073758" ] ;
+       fhir:display [ fhir:v "Eye gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073759" ] ;
+       fhir:display [ fhir:v "Eye drops, solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073760" ] ;
+       fhir:display [ fhir:v "Eye drops, suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073761" ] ;
+       fhir:display [ fhir:v "Concentrate for dip solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073762" ] ;
+       fhir:display [ fhir:v "Concentrate for dip emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073763" ] ;
+       fhir:display [ fhir:v "Concentrate for solution for fish treatment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073764" ] ;
+       fhir:display [ fhir:v "Pour-on solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073765" ] ;
+       fhir:display [ fhir:v "Pour-on emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073766" ] ;
+       fhir:display [ fhir:v "Spot-on suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073767" ] ;
+       fhir:display [ fhir:v "Teat dip solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073768" ] ;
+       fhir:display [ fhir:v "Teat dip emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073769" ] ;
+       fhir:display [ fhir:v "Transdermal system" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073770" ] ;
+       fhir:display [ fhir:v "Solution for skin-scratch test" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073771" ] ;
+       fhir:display [ fhir:v "Eye cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073772" ] ;
+       fhir:display [ fhir:v "Eye ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073773" ] ;
+       fhir:display [ fhir:v "Eye drops, emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073775" ] ;
+       fhir:display [ fhir:v "Eye drops, solvent for reconstitution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073776" ] ;
+       fhir:display [ fhir:v "Eye lotion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073777" ] ;
+       fhir:display [ fhir:v "Ophthalmic insert" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073778" ] ;
+       fhir:display [ fhir:v "Ear cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073779" ] ;
+       fhir:display [ fhir:v "Ear ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073780" ] ;
+       fhir:display [ fhir:v "Ear drops, suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073782" ] ;
+       fhir:display [ fhir:v "Eye drops, prolonged-release" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073783" ] ;
+       fhir:display [ fhir:v "Eye lotion, solvent for reconstitution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073784" ] ;
+       fhir:display [ fhir:v "Ophthalmic strip" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073785" ] ;
+       fhir:display [ fhir:v "Ear gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073786" ] ;
+       fhir:display [ fhir:v "Ear drops, solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073787" ] ;
+       fhir:display [ fhir:v "Ear drops, emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073788" ] ;
+       fhir:display [ fhir:v "Ear powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073789" ] ;
+       fhir:display [ fhir:v "Ear spray, suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073790" ] ;
+       fhir:display [ fhir:v "Ear wash, solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073791" ] ;
+       fhir:display [ fhir:v "Ear tampon" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073792" ] ;
+       fhir:display [ fhir:v "Nasal cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073793" ] ;
+       fhir:display [ fhir:v "Nasal gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073794" ] ;
+       fhir:display [ fhir:v "Nasal drops, solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073795" ] ;
+       fhir:display [ fhir:v "Nasal drops, emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073796" ] ;
+       fhir:display [ fhir:v "Nasal spray, solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073797" ] ;
+       fhir:display [ fhir:v "Nasal spray, emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073798" ] ;
+       fhir:display [ fhir:v "Nasal stick" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073799" ] ;
+       fhir:display [ fhir:v "Vaginal gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073800" ] ;
+       fhir:display [ fhir:v "Vaginal foam" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073802" ] ;
+       fhir:display [ fhir:v "Ear spray, solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073803" ] ;
+       fhir:display [ fhir:v "Ear spray, emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073804" ] ;
+       fhir:display [ fhir:v "Ear wash, emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073805" ] ;
+       fhir:display [ fhir:v "Ear stick" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073806" ] ;
+       fhir:display [ fhir:v "Nasal ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073807" ] ;
+       fhir:display [ fhir:v "Nasal drops, suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073808" ] ;
+       fhir:display [ fhir:v "Nasal powder" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073809" ] ;
+       fhir:display [ fhir:v "Nasal spray, suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073810" ] ;
+       fhir:display [ fhir:v "Nasal wash" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073811" ] ;
+       fhir:display [ fhir:v "Vaginal cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073812" ] ;
+       fhir:display [ fhir:v "Vaginal ointment" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073813" ] ;
+       fhir:display [ fhir:v "Vaginal solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073814" ] ;
+       fhir:display [ fhir:v "Vaginal emulsion" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073815" ] ;
+       fhir:display [ fhir:v "Pessary" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073816" ] ;
+       fhir:display [ fhir:v "Vaginal capsule, soft" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073817" ] ;
+       fhir:display [ fhir:v "Effervescent vaginal tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073818" ] ;
+       fhir:display [ fhir:v "Vaginal delivery system" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073819" ] ;
+       fhir:display [ fhir:v "Rectal cream" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073820" ] ;
+       fhir:display [ fhir:v "Rectal foam" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073821" ] ;
+       fhir:display [ fhir:v "Vaginal suspension" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073822" ] ;
+       fhir:display [ fhir:v "Tablet for vaginal solution" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073823" ] ;
+       fhir:display [ fhir:v "Vaginal capsule, hard" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073824" ] ;
+       fhir:display [ fhir:v "Vaginal tablet" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073825" ] ;
+       fhir:display [ fhir:v "Medicated vaginal tampon" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073826" ] ;
+       fhir:display [ fhir:v "Vaginal sponge" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073827" ] ;
+       fhir:display [ fhir:v "Rectal gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/administrable-dose-form"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/administrable-dose-form>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "100000073863" ] ;
+       fhir:display [ fhir:v "Solution for injection" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

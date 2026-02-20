@@ -1,0 +1,168 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-namingsystem-identifier-type-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-namingsystem-identifier-type-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-namingsystem-identifier-type-for-R4</b></p><a name=\"R5-namingsystem-identifier-type-for-R4\"> </a><a name=\"hcR5-namingsystem-identifier-type-for-R4\"> </a><p>This value set expansion contains 3 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-iri-stem\"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  iri-stem</td><td>IRI stem</td></tr><tr><td><a name=\"R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-other\"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  other</td><td>Other</td></tr><tr><td><a name=\"R5-namingsystem-identifier-type-for-R4-http://hl7.org/fhir/namingsystem-identifier-type-v2csmnemonic\"> </a><code>http://hl7.org/fhir/namingsystem-identifier-type</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  v2csmnemonic</td><td>V2CSMNemonic</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 4
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-namingsystem-identifier-type-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-namingsystem-identifier-type-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5NamingsystemIdentifierTypeForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.NamingSystemIdentifierType for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0 for use in FHIR R4 that is appropriate for use but unavailable in `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1`."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `NamingSystem.uniqueId.type` as Required\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0`\n* `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.3.0`\n* `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* `http://hl7.org/fhir/namingsystem-identifier-type#oid`\n* `http://hl7.org/fhir/namingsystem-identifier-type#uri`\n* `http://hl7.org/fhir/namingsystem-identifier-type#uuid`\r\n\r\nFollowing are the generation technical comments:\r\nOne or more source concepts are either not mapped or broader than their targets, so the value set relationship is broadened.\nOne or more source concepts are narrower than their targets, so the value set relationship is narrowed.\nThe source value set has more active concepts (6) than the target (4), so the source is broader than the target.\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (4).\nUsing explicit mapping from `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|5.0.0` to `http://hl7.org/fhir/ValueSet/namingsystem-identifier-type|4.0.1` in `http://hl7.org/fhir/uv/xver/5.0/ConceptMap/R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType` (`ConceptMap-R5-NamingsystemIdentifierType-R4-NamingsystemIdentifierType.json`)"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/namingsystem-identifier-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/namingsystem-identifier-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "iri-stem" ] ;
+         fhir:display [ fhir:v "IRI stem" ]
+       ] [
+         fhir:code [ fhir:v "other" ] ;
+         fhir:display [ fhir:v "Other" ]
+       ] [
+         fhir:code [ fhir:v "v2csmnemonic" ] ;
+         fhir:display [ fhir:v "V2CSMNemonic" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/namingsystem-identifier-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/namingsystem-identifier-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "iri-stem" ] ;
+       fhir:display [ fhir:v "IRI stem" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/namingsystem-identifier-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/namingsystem-identifier-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "other" ] ;
+       fhir:display [ fhir:v "Other" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/namingsystem-identifier-type"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/namingsystem-identifier-type>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "v2csmnemonic" ] ;
+       fhir:display [ fhir:v "V2CSMNemonic" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

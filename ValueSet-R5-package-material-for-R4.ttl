@@ -1,0 +1,608 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ValueSet/R5-package-material-for-R4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-package-material-for-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet R5-package-material-for-R4</b></p><a name=\"R5-package-material-for-R4\"> </a><a name=\"hcR5-package-material-for-R4\"> </a><p>This value set expansion contains 43 concepts.</p><table class=\"codes\"><tr><td><b>System</b></td><td><b>Version</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003200\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003200</td><td>Aluminium</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003201\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003201</td><td>Cyclic Olefin Copolymer</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003202\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003202</td><td>Epoxyphenol</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003203\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003203</td><td>Glass</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003204\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003204</td><td>Glass type I</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003205\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003205</td><td>Glass type II</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003206\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003206</td><td>Glass type III</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003207\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003207</td><td>Paper</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003208\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003208</td><td>Plastic</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003209\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003209</td><td>PolyAmide</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003210\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003210</td><td>Orientated PolyAmide</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003211\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003211</td><td>PolyCarbonate</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003212\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003212</td><td>PolyChloroTriFluoroEthylene</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003213\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003213</td><td>Polyester</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003214\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003214</td><td>PolyEthylene</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003215\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003215</td><td>High Density PolyEthylene</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003216\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003216</td><td>Low Density PolyEthylene</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003217\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003217</td><td>PolyEthylene TerePhthalate</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003218\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003218</td><td>Polyolefin</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003219\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003219</td><td>PolyPropylene</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003220\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003220</td><td>PolyStyrene</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003221\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003221</td><td>PolyVinyl Acetate</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003222\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003222</td><td>PolyVinyl Chloride</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003223\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003223</td><td>Plasticised PolyVinyl Chloride</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003224\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003224</td><td>Non-plasticised PolyVinyl Chloride / Unplasticised PolyVinyl Chloride</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003225\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003225</td><td>PolyVinylidene Chloride</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003226\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003226</td><td>Rubber</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003227\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003227</td><td>Silicone oil</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003228\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003228</td><td>Silicone elastomer</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003229\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003229</td><td>Steel</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000003529\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000003529</td><td>Cardboard</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000012514\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000012514</td><td>PolyAcryloNitrile</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000012515\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000012515</td><td>Ethylene acrylic acid copolymer</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000012521\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000012521</td><td>Ethylene meta-acrylic acid</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000012522\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000012522</td><td>Ethylene-Vinyl Alcohol copolymer</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000012523\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000012523</td><td>PolyVinylidene Fluoride</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000012524\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000012524</td><td>Medium Density PolyEthylene</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000012538\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000012538</td><td>Syndiotactic Polypropylene</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000015521\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000015521</td><td>PolyEthylene copolymer</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000023330\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000023330</td><td>Expanded Polyethylene</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000023332\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000023332</td><td>Cyclic Olefin Polymer</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000025255\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000025255</td><td>Silica gel</td></tr><tr><td><a name=\"R5-package-material-for-R4-http://hl7.org/fhir/package-material-200000025257\"> </a><code>http://hl7.org/fhir/package-material</code></td><td>5.0.0</td><td style=\"white-space:nowrap\">  200000025257</td><td>Linear Low Density PolyEthylene</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 1
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:extension ( [
+       fhir:url [
+         fhir:v "packageId"^^xsd:anyURI ;
+         fhir:l fhir:packageId
+       ] ;
+       fhir:value [
+         a fhir:Id ;
+         fhir:v "hl7.fhir.uv.xver-r5.r4"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "version"^^xsd:anyURI ;
+         fhir:l fhir:version
+       ] ;
+       fhir:value [
+         a fhir:String ;
+         fhir:v "0.0.1-snapshot-3"
+       ]
+     ] [
+       fhir:url [
+         fhir:v "uri"^^xsd:anyURI ;
+         fhir:l fhir:uri
+       ] ;
+       fhir:value [
+         a fhir:Uri ;
+         fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+       ]
+     ] ) ;
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/package-source"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/package-source>
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ValueSet/R5-package-material-for-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ValueSet/R5-package-material-for-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5PackageMaterialForR4"] ; # 
+  fhir:title [ fhir:v "Cross-version ValueSet R5.PackageMaterial for use in FHIR R4"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This cross-version ValueSet represents content from `http://hl7.org/fhir/ValueSet/package-material|5.0.0` for use in FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:purpose [ fhir:v "This value set is part of the cross-version definitions generated to enable use of the\r\nvalue set `http://hl7.org/fhir/ValueSet/package-material|5.0.0` as defined in FHIR R5\r\nin FHIR R4.\r\n\r\nThe source value set is bound to the following FHIR R5 elements:\r\n* `PackagedProductDefinition.packaging.alternateMaterial` as Example\n* `PackagedProductDefinition.packaging.material` as Example\r\n\r\nAcross FHIR versions, the value set has been mapped as:\r\n* `http://hl7.org/fhir/ValueSet/package-material|5.0.0`\n* `http://hl7.org/fhir/ValueSet/package-material|4.3.0`\r\n\r\nThe following concepts are not included in this cross-version definition because they have valid representations\r\n* _no concepts_\r\n\r\nFollowing are the generation technical comments:\r\nAll concepts in the comparison are listed as identical.\nThe source and target value sets have the same number of active concepts (43)."] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "200000003200" ] ;
+         fhir:display [ fhir:v "Aluminium" ]
+       ] [
+         fhir:code [ fhir:v "200000003201" ] ;
+         fhir:display [ fhir:v "Cyclic Olefin Copolymer" ]
+       ] [
+         fhir:code [ fhir:v "200000003202" ] ;
+         fhir:display [ fhir:v "Epoxyphenol" ]
+       ] [
+         fhir:code [ fhir:v "200000003203" ] ;
+         fhir:display [ fhir:v "Glass" ]
+       ] [
+         fhir:code [ fhir:v "200000003204" ] ;
+         fhir:display [ fhir:v "Glass type I" ]
+       ] [
+         fhir:code [ fhir:v "200000003205" ] ;
+         fhir:display [ fhir:v "Glass type II" ]
+       ] [
+         fhir:code [ fhir:v "200000003206" ] ;
+         fhir:display [ fhir:v "Glass type III" ]
+       ] [
+         fhir:code [ fhir:v "200000003207" ] ;
+         fhir:display [ fhir:v "Paper" ]
+       ] [
+         fhir:code [ fhir:v "200000003208" ] ;
+         fhir:display [ fhir:v "Plastic" ]
+       ] [
+         fhir:code [ fhir:v "200000003209" ] ;
+         fhir:display [ fhir:v "PolyAmide" ]
+       ] [
+         fhir:code [ fhir:v "200000003210" ] ;
+         fhir:display [ fhir:v "Orientated PolyAmide" ]
+       ] [
+         fhir:code [ fhir:v "200000003211" ] ;
+         fhir:display [ fhir:v "PolyCarbonate" ]
+       ] [
+         fhir:code [ fhir:v "200000003212" ] ;
+         fhir:display [ fhir:v "PolyChloroTriFluoroEthylene" ]
+       ] [
+         fhir:code [ fhir:v "200000003213" ] ;
+         fhir:display [ fhir:v "Polyester" ]
+       ] [
+         fhir:code [ fhir:v "200000003214" ] ;
+         fhir:display [ fhir:v "PolyEthylene" ]
+       ] [
+         fhir:code [ fhir:v "200000003215" ] ;
+         fhir:display [ fhir:v "High Density PolyEthylene" ]
+       ] [
+         fhir:code [ fhir:v "200000003216" ] ;
+         fhir:display [ fhir:v "Low Density PolyEthylene" ]
+       ] [
+         fhir:code [ fhir:v "200000003217" ] ;
+         fhir:display [ fhir:v "PolyEthylene TerePhthalate" ]
+       ] [
+         fhir:code [ fhir:v "200000003218" ] ;
+         fhir:display [ fhir:v "Polyolefin" ]
+       ] [
+         fhir:code [ fhir:v "200000003219" ] ;
+         fhir:display [ fhir:v "PolyPropylene" ]
+       ] [
+         fhir:code [ fhir:v "200000003220" ] ;
+         fhir:display [ fhir:v "PolyStyrene" ]
+       ] [
+         fhir:code [ fhir:v "200000003221" ] ;
+         fhir:display [ fhir:v "PolyVinyl Acetate" ]
+       ] [
+         fhir:code [ fhir:v "200000003222" ] ;
+         fhir:display [ fhir:v "PolyVinyl Chloride" ]
+       ] [
+         fhir:code [ fhir:v "200000003223" ] ;
+         fhir:display [ fhir:v "Plasticised PolyVinyl Chloride" ]
+       ] [
+         fhir:code [ fhir:v "200000003224" ] ;
+         fhir:display [ fhir:v "Non-plasticised PolyVinyl Chloride / Unplasticised PolyVinyl Chloride" ]
+       ] [
+         fhir:code [ fhir:v "200000003225" ] ;
+         fhir:display [ fhir:v "PolyVinylidene Chloride" ]
+       ] [
+         fhir:code [ fhir:v "200000003226" ] ;
+         fhir:display [ fhir:v "Rubber" ]
+       ] [
+         fhir:code [ fhir:v "200000003227" ] ;
+         fhir:display [ fhir:v "Silicone oil" ]
+       ] [
+         fhir:code [ fhir:v "200000003228" ] ;
+         fhir:display [ fhir:v "Silicone elastomer" ]
+       ] [
+         fhir:code [ fhir:v "200000003229" ] ;
+         fhir:display [ fhir:v "Steel" ]
+       ] [
+         fhir:code [ fhir:v "200000003529" ] ;
+         fhir:display [ fhir:v "Cardboard" ]
+       ] [
+         fhir:code [ fhir:v "200000012514" ] ;
+         fhir:display [ fhir:v "PolyAcryloNitrile" ]
+       ] [
+         fhir:code [ fhir:v "200000012515" ] ;
+         fhir:display [ fhir:v "Ethylene acrylic acid copolymer" ]
+       ] [
+         fhir:code [ fhir:v "200000012521" ] ;
+         fhir:display [ fhir:v "Ethylene meta-acrylic acid" ]
+       ] [
+         fhir:code [ fhir:v "200000012522" ] ;
+         fhir:display [ fhir:v "Ethylene-Vinyl Alcohol copolymer" ]
+       ] [
+         fhir:code [ fhir:v "200000012523" ] ;
+         fhir:display [ fhir:v "PolyVinylidene Fluoride" ]
+       ] [
+         fhir:code [ fhir:v "200000012524" ] ;
+         fhir:display [ fhir:v "Medium Density PolyEthylene" ]
+       ] [
+         fhir:code [ fhir:v "200000012538" ] ;
+         fhir:display [ fhir:v "Syndiotactic Polypropylene" ]
+       ] [
+         fhir:code [ fhir:v "200000015521" ] ;
+         fhir:display [ fhir:v "PolyEthylene copolymer" ]
+       ] [
+         fhir:code [ fhir:v "200000023330" ] ;
+         fhir:display [ fhir:v "Expanded Polyethylene" ]
+       ] [
+         fhir:code [ fhir:v "200000023332" ] ;
+         fhir:display [ fhir:v "Cyclic Olefin Polymer" ]
+       ] [
+         fhir:code [ fhir:v "200000025255" ] ;
+         fhir:display [ fhir:v "Silica gel" ]
+       ] [
+         fhir:code [ fhir:v "200000025257" ] ;
+         fhir:display [ fhir:v "Linear Low Density PolyEthylene" ]
+       ] )
+     ] )
+  ] ; # 
+  fhir:expansion [
+     fhir:timestamp [ fhir:v "2026-02-20T17:59:09.1776521+00:00"^^xsd:dateTime ] ;
+     fhir:contains ( [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003200" ] ;
+       fhir:display [ fhir:v "Aluminium" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003201" ] ;
+       fhir:display [ fhir:v "Cyclic Olefin Copolymer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003202" ] ;
+       fhir:display [ fhir:v "Epoxyphenol" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003203" ] ;
+       fhir:display [ fhir:v "Glass" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003204" ] ;
+       fhir:display [ fhir:v "Glass type I" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003205" ] ;
+       fhir:display [ fhir:v "Glass type II" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003206" ] ;
+       fhir:display [ fhir:v "Glass type III" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003207" ] ;
+       fhir:display [ fhir:v "Paper" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003208" ] ;
+       fhir:display [ fhir:v "Plastic" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003209" ] ;
+       fhir:display [ fhir:v "PolyAmide" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003210" ] ;
+       fhir:display [ fhir:v "Orientated PolyAmide" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003211" ] ;
+       fhir:display [ fhir:v "PolyCarbonate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003212" ] ;
+       fhir:display [ fhir:v "PolyChloroTriFluoroEthylene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003213" ] ;
+       fhir:display [ fhir:v "Polyester" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003214" ] ;
+       fhir:display [ fhir:v "PolyEthylene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003215" ] ;
+       fhir:display [ fhir:v "High Density PolyEthylene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003216" ] ;
+       fhir:display [ fhir:v "Low Density PolyEthylene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003217" ] ;
+       fhir:display [ fhir:v "PolyEthylene TerePhthalate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003218" ] ;
+       fhir:display [ fhir:v "Polyolefin" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003219" ] ;
+       fhir:display [ fhir:v "PolyPropylene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003220" ] ;
+       fhir:display [ fhir:v "PolyStyrene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003221" ] ;
+       fhir:display [ fhir:v "PolyVinyl Acetate" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003222" ] ;
+       fhir:display [ fhir:v "PolyVinyl Chloride" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003223" ] ;
+       fhir:display [ fhir:v "Plasticised PolyVinyl Chloride" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003224" ] ;
+       fhir:display [ fhir:v "Non-plasticised PolyVinyl Chloride / Unplasticised PolyVinyl Chloride" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003225" ] ;
+       fhir:display [ fhir:v "PolyVinylidene Chloride" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003226" ] ;
+       fhir:display [ fhir:v "Rubber" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003227" ] ;
+       fhir:display [ fhir:v "Silicone oil" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003228" ] ;
+       fhir:display [ fhir:v "Silicone elastomer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003229" ] ;
+       fhir:display [ fhir:v "Steel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000003529" ] ;
+       fhir:display [ fhir:v "Cardboard" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000012514" ] ;
+       fhir:display [ fhir:v "PolyAcryloNitrile" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000012515" ] ;
+       fhir:display [ fhir:v "Ethylene acrylic acid copolymer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000012521" ] ;
+       fhir:display [ fhir:v "Ethylene meta-acrylic acid" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000012522" ] ;
+       fhir:display [ fhir:v "Ethylene-Vinyl Alcohol copolymer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000012523" ] ;
+       fhir:display [ fhir:v "PolyVinylidene Fluoride" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000012524" ] ;
+       fhir:display [ fhir:v "Medium Density PolyEthylene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000012538" ] ;
+       fhir:display [ fhir:v "Syndiotactic Polypropylene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000015521" ] ;
+       fhir:display [ fhir:v "PolyEthylene copolymer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000023330" ] ;
+       fhir:display [ fhir:v "Expanded Polyethylene" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000023332" ] ;
+       fhir:display [ fhir:v "Cyclic Olefin Polymer" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000025255" ] ;
+       fhir:display [ fhir:v "Silica gel" ]
+     ] [
+       fhir:system [
+         fhir:v "http://hl7.org/fhir/package-material"^^xsd:anyURI ;
+         fhir:l <http://hl7.org/fhir/package-material>
+       ] ;
+       fhir:version [ fhir:v "5.0.0" ] ;
+       fhir:code [ fhir:v "200000025257" ] ;
+       fhir:display [ fhir:v "Linear Low Density PolyEthylene" ]
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,510 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/uv/xver/ConceptMap/R5-GraphDefinition-element-map-to-R4> a fhir:ConceptMap ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "R5-GraphDefinition-element-map-to-R4"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ConceptMap R5-GraphDefinition-element-map-to-R4</b></p><a name=\"R5-GraphDefinition-element-map-to-R4\"> </a><a name=\"hcR5-GraphDefinition-element-map-to-R4\"> </a><p>Mapping from http://hl7.org/fhir/5.0 to http://hl7.org/fhir/4.0</p><br/><p><b>Group 1 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/GraphDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/R4/graphdefinition.html\">GraphDefinitionversion: 4.0.1)</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>GraphDefinition.meta (meta)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.meta` has is mapped to FHIR R4 element `GraphDefinition.meta`, but has no comparisons.</td></tr><tr><td>GraphDefinition.implicitRules (implicitRules)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.implicitRules` has is mapped to FHIR R4 element `GraphDefinition.implicitRules`, but has no comparisons.</td></tr><tr><td>GraphDefinition.language (language)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.language` has is mapped to FHIR R4 element `GraphDefinition.language`, but has no comparisons.</td></tr><tr><td>GraphDefinition.text (text)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.text` has is mapped to FHIR R4 element `GraphDefinition.text`, but has no comparisons.</td></tr><tr><td>GraphDefinition.contained (contained)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.contained` has is mapped to FHIR R4 element `GraphDefinition.contained`, but has no comparisons.</td></tr><tr><td>GraphDefinition.url (url)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.url` has is mapped to FHIR R4 element `GraphDefinition.url`, but has no comparisons.</td></tr><tr><td>GraphDefinition.version (version)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.version` has is mapped to FHIR R4 element `GraphDefinition.version`, but has no comparisons.</td></tr><tr><td>GraphDefinition.name (name)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.name` has is mapped to FHIR R4 element `GraphDefinition.name`, but has no comparisons.</td></tr><tr><td>GraphDefinition.status (status)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.status` has is mapped to FHIR R4 element `GraphDefinition.status`, but has no comparisons.</td></tr><tr><td>GraphDefinition.experimental (experimental)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.experimental` has is mapped to FHIR R4 element `GraphDefinition.experimental`, but has no comparisons.</td></tr><tr><td>GraphDefinition.date (date)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.date` has is mapped to FHIR R4 element `GraphDefinition.date`, but has no comparisons.</td></tr><tr><td>GraphDefinition.publisher (publisher)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.publisher` has is mapped to FHIR R4 element `GraphDefinition.publisher`, but has no comparisons.</td></tr><tr><td>GraphDefinition.contact (contact)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.contact` has is mapped to FHIR R4 element `GraphDefinition.contact`, but has no comparisons.</td></tr><tr><td>GraphDefinition.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.description` has is mapped to FHIR R4 element `GraphDefinition.description`, but has no comparisons.</td></tr><tr><td>GraphDefinition.useContext (useContext)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.useContext` has is mapped to FHIR R4 element `GraphDefinition.useContext`, but has no comparisons.</td></tr><tr><td>GraphDefinition.jurisdiction (jurisdiction)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.jurisdiction` has is mapped to FHIR R4 element `GraphDefinition.jurisdiction`, but has no comparisons.</td></tr><tr><td>GraphDefinition.purpose (purpose)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.purpose` has is mapped to FHIR R4 element `GraphDefinition.purpose`, but has no comparisons.</td></tr><tr><td>GraphDefinition.start (start)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.start` has is mapped to FHIR R4 element `GraphDefinition.start`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link (link)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td/><td>Element `GraphDefinition.link` has is mapped to FHIR R4 element `GraphDefinition.link`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.link.description` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.description` has is mapped to FHIR R4 element `GraphDefinition.link.description`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.min (min)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.link.min` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.min` has is mapped to FHIR R4 element `GraphDefinition.link.min`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.max (max)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.link.max` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.max` has is mapped to FHIR R4 element `GraphDefinition.link.max`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.path (path)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.link.path` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.path` has is mapped to FHIR R4 element `GraphDefinition.link.path`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.sliceName (sliceName)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td/><td>Element `GraphDefinition.link.sliceName` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sliceName` has is mapped to FHIR R4 element `GraphDefinition.link.sliceName`, but has no comparisons.</td></tr></table><hr/><p><b>Group 2 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/GraphDefinition|5.0.0</code> to <a href=\"http://hl7.org/fhir/extensions/5.2.0/index.html\">FHIR Extensions Pack</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>GraphDefinition.identifier (identifier)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-identifier</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.identifier`: `http://hl7.org/fhir/StructureDefinition/artifact-identifier`.\nElement `GraphDefinition.identifier` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.versionAlgorithm[x] (versionAlgorithm[x])</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `GraphDefinition.versionAlgorithm[x]` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.title (title)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-title</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.title`: `http://hl7.org/fhir/StructureDefinition/artifact-title`.\nElement `GraphDefinition.title` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.copyright (copyright)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-copyright</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.copyright`: `http://hl7.org/fhir/StructureDefinition/artifact-copyright`.\nElement `GraphDefinition.copyright` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.copyrightLabel (copyrightLabel)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel</td><td>Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `GraphDefinition.copyrightLabel` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.node.profile (profile)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/StructureDefinition/alternate-canonical</td><td>Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.node.profile` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `GraphDefinition.node.profile` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr></table><hr/><p><b>Group 3 </b>Mapping from <code>http://hl7.org/fhir/StructureDefinition/GraphDefinition|5.0.0</code> to <a href=\"index.html\">Extensions for Using Data Elements from FHIR R5 in FHIR R4</a></p><table class=\"grid\"><tr><td><b>Source Code</b></td><td><b>Relationship</b></td><td><b>Target Code</b></td><td><b>Comment</b></td></tr><tr><td>GraphDefinition.node (node)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node</td><td>Element `GraphDefinition.node` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.node.nodeId (nodeId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node.nodeId</td><td>Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.nodeId` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.node.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node.description</td><td>Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.description` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.node.type (type)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node.type</td><td>Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.type` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.link (link)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link</td><td>Element `GraphDefinition.link` has is mapped to FHIR R4 element `GraphDefinition.link`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.description</td><td>Element `GraphDefinition.link.description` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.description` has is mapped to FHIR R4 element `GraphDefinition.link.description`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.min (min)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.min</td><td>Element `GraphDefinition.link.min` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.min` has is mapped to FHIR R4 element `GraphDefinition.link.min`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.max (max)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.max</td><td>Element `GraphDefinition.link.max` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.max` has is mapped to FHIR R4 element `GraphDefinition.link.max`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.sourceId (sourceId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.sourceId</td><td>Element `GraphDefinition.link.sourceId` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sourceId` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.link.path (path)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.path</td><td>Element `GraphDefinition.link.path` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.path` has is mapped to FHIR R4 element `GraphDefinition.link.path`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.sliceName (sliceName)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#equivalent\" title=\"equivalent\">is equivalent to</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.sliceName</td><td>Element `GraphDefinition.link.sliceName` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sliceName` has is mapped to FHIR R4 element `GraphDefinition.link.sliceName`, but has no comparisons.</td></tr><tr><td>GraphDefinition.link.targetId (targetId)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.targetId</td><td>Element `GraphDefinition.link.targetId` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.targetId` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.link.params (params)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.params</td><td>Element `GraphDefinition.link.params` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.params` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.link.compartment (compartment)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment</td><td>Element `GraphDefinition.link.compartment` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.compartment` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.link.compartment.use (use)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment.use</td><td>Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.link.compartment.rule (rule)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment.rule</td><td>Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.link.compartment.code (code)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment.code</td><td>Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.link.compartment.expression (expression)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment.expression</td><td>Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr><tr><td>GraphDefinition.link.compartment.description (description)</td><td><a href=\"http://hl7.org/fhir/R5/codesystem-concept-map-relationship.html#wider\" title=\"wider\">maps to wider concept</a></td><td>http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment.description</td><td>Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`.</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-wg>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "fhir"
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm>
+     ] ;
+     fhir:value [
+       a fhir:Integer ;
+       fhir:v 0 ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] [
+     fhir:url [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status>
+     ] ;
+     fhir:value [
+       a fhir:Code ;
+       fhir:v "trial-use" ;
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom>
+         ] ;
+         fhir:value [
+           a fhir:Canonical ;
+           fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+         ]
+       ] )
+     ]
+  ] ) ; # 
+  fhir:url [
+     fhir:v "http://hl7.org/fhir/uv/xver/ConceptMap/R5-GraphDefinition-element-map-to-R4"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/uv/xver/ConceptMap/R5-GraphDefinition-element-map-to-R4>
+  ] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
+  fhir:name [ fhir:v "R5GraphDefinitionElementMapToR4"] ; # 
+  fhir:title [ fhir:v "Cross-version mapping for FHIR R5 GraphDefinition to FHIR R4 GraphDefinition"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2026-02-20T11:59:23.9884109-06:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "This ConceptMap represents cross-version mappings for elements from a FHIR R5 GraphDefinition to FHIR R4."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "http://unstats.un.org/unsd/methods/m49/m49.htm"^^xsd:anyURI ;
+         fhir:l <http://unstats.un.org/unsd/methods/m49/m49.htm>
+       ] ;
+       fhir:code [ fhir:v "001" ] ;
+       fhir:display [ fhir:v "World" ]
+     ] )
+  ] ) ; # 
+  fhir:source [
+     a fhir:Canonical ;
+     fhir:v "http://hl7.org/fhir/5.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/5.0>
+  ] ; # 
+  fhir:target [
+     a fhir:Uri ;
+     fhir:v "http://hl7.org/fhir/4.0"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/4.0>
+  ] ; # 
+  fhir:group ( [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/GraphDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/GraphDefinition>
+     ] ;
+     fhir:targetVersion [ fhir:v "4.0.1" ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "GraphDefinition.meta" ] ;
+       fhir:display [ fhir:v "meta" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.meta` has is mapped to FHIR R4 element `GraphDefinition.meta`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.implicitRules" ] ;
+       fhir:display [ fhir:v "implicitRules" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.implicitRules` has is mapped to FHIR R4 element `GraphDefinition.implicitRules`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.language" ] ;
+       fhir:display [ fhir:v "language" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.language` has is mapped to FHIR R4 element `GraphDefinition.language`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.text" ] ;
+       fhir:display [ fhir:v "text" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.text` has is mapped to FHIR R4 element `GraphDefinition.text`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.contained" ] ;
+       fhir:display [ fhir:v "contained" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.contained` has is mapped to FHIR R4 element `GraphDefinition.contained`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.url" ] ;
+       fhir:display [ fhir:v "url" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.url` has is mapped to FHIR R4 element `GraphDefinition.url`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.version" ] ;
+       fhir:display [ fhir:v "version" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.version` has is mapped to FHIR R4 element `GraphDefinition.version`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.name" ] ;
+       fhir:display [ fhir:v "name" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.name` has is mapped to FHIR R4 element `GraphDefinition.name`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.status" ] ;
+       fhir:display [ fhir:v "status" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.status` has is mapped to FHIR R4 element `GraphDefinition.status`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.experimental" ] ;
+       fhir:display [ fhir:v "experimental" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.experimental` has is mapped to FHIR R4 element `GraphDefinition.experimental`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.date" ] ;
+       fhir:display [ fhir:v "date" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.date` has is mapped to FHIR R4 element `GraphDefinition.date`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.publisher" ] ;
+       fhir:display [ fhir:v "publisher" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.publisher` has is mapped to FHIR R4 element `GraphDefinition.publisher`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.contact" ] ;
+       fhir:display [ fhir:v "contact" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.contact` has is mapped to FHIR R4 element `GraphDefinition.contact`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.description` has is mapped to FHIR R4 element `GraphDefinition.description`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.useContext" ] ;
+       fhir:display [ fhir:v "useContext" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.useContext` has is mapped to FHIR R4 element `GraphDefinition.useContext`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.jurisdiction" ] ;
+       fhir:display [ fhir:v "jurisdiction" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.jurisdiction` has is mapped to FHIR R4 element `GraphDefinition.jurisdiction`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.purpose" ] ;
+       fhir:display [ fhir:v "purpose" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.purpose` has is mapped to FHIR R4 element `GraphDefinition.purpose`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.start" ] ;
+       fhir:display [ fhir:v "start" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.start` has is mapped to FHIR R4 element `GraphDefinition.start`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link` has is mapped to FHIR R4 element `GraphDefinition.link`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.description` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.description` has is mapped to FHIR R4 element `GraphDefinition.link.description`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.min" ] ;
+       fhir:display [ fhir:v "min" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.min` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.min` has is mapped to FHIR R4 element `GraphDefinition.link.min`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.max" ] ;
+       fhir:display [ fhir:v "max" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.max` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.max` has is mapped to FHIR R4 element `GraphDefinition.link.max`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.path` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.path` has is mapped to FHIR R4 element `GraphDefinition.link.path`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.sliceName" ] ;
+       fhir:display [ fhir:v "sliceName" ] ;
+       fhir:target ( [
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.sliceName` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sliceName` has is mapped to FHIR R4 element `GraphDefinition.link.sliceName`, but has no comparisons." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/GraphDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "GraphDefinition.identifier" ] ;
+       fhir:display [ fhir:v "identifier" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-identifier" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.identifier`: `http://hl7.org/fhir/StructureDefinition/artifact-identifier`.\nElement `GraphDefinition.identifier` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.versionAlgorithm[x]" ] ;
+       fhir:display [ fhir:v "versionAlgorithm[x]" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.versionAlgorithm[x]`: `http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm`.\nElement `GraphDefinition.versionAlgorithm[x]` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.title" ] ;
+       fhir:display [ fhir:v "title" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-title" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.title`: `http://hl7.org/fhir/StructureDefinition/artifact-title`.\nElement `GraphDefinition.title` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.copyright" ] ;
+       fhir:display [ fhir:v "copyright" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-copyright" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.copyright`: `http://hl7.org/fhir/StructureDefinition/artifact-copyright`.\nElement `GraphDefinition.copyright` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.copyrightLabel" ] ;
+       fhir:display [ fhir:v "copyrightLabel" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Note that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.copyrightLabel`: `http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel`.\nElement `GraphDefinition.copyrightLabel` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.node.profile" ] ;
+       fhir:display [ fhir:v "profile" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/StructureDefinition/alternate-canonical" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.profile` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nNote that there is an externally-defined extension that has been flagged as the representation of FHIR R5 element `GraphDefinition.node.profile` with an unmapped Canonical type: `http://hl7.org/fhir/StructureDefinition/alternate-canonical`.\nElement `GraphDefinition.node.profile` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] )
+  ] [
+     fhir:source [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/GraphDefinition"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/StructureDefinition/GraphDefinition>
+     ] ;
+     fhir:sourceVersion [ fhir:v "5.0.0" ] ;
+     fhir:target [
+       fhir:v "http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/uv/xver/ImplementationGuide/hl7.fhir.uv.xver-r5.r4>
+     ] ;
+     fhir:element ( [
+       fhir:code [ fhir:v "GraphDefinition.node" ] ;
+       fhir:display [ fhir:v "node" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.node.nodeId" ] ;
+       fhir:display [ fhir:v "nodeId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node.nodeId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.nodeId` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.nodeId` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.node.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node.description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.description` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.description` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.node.type" ] ;
+       fhir:display [ fhir:v "type" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.node.type" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.node.type` is part of an existing definition because parent element `GraphDefinition.node` requires a cross-version extension.\nElement `GraphDefinition.node.type` has a context of GraphDefinition based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link" ] ;
+       fhir:display [ fhir:v "link" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link` has is mapped to FHIR R4 element `GraphDefinition.link`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.description" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.description` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.description` has is mapped to FHIR R4 element `GraphDefinition.link.description`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.min" ] ;
+       fhir:display [ fhir:v "min" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.min" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.min` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.min` has is mapped to FHIR R4 element `GraphDefinition.link.min`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.max" ] ;
+       fhir:display [ fhir:v "max" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.max" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.max` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.max` has is mapped to FHIR R4 element `GraphDefinition.link.max`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.sourceId" ] ;
+       fhir:display [ fhir:v "sourceId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.sourceId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.sourceId` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sourceId` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.path" ] ;
+       fhir:display [ fhir:v "path" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.path" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.path` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.path` has is mapped to FHIR R4 element `GraphDefinition.link.path`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.sliceName" ] ;
+       fhir:display [ fhir:v "sliceName" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.sliceName" ] ;
+         fhir:equivalence [ fhir:v "equivalent" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.sliceName` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.sliceName` has is mapped to FHIR R4 element `GraphDefinition.link.sliceName`, but has no comparisons." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.targetId" ] ;
+       fhir:display [ fhir:v "targetId" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.targetId" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.targetId` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.targetId` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.params" ] ;
+       fhir:display [ fhir:v "params" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.params" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.params` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.params` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment" ] ;
+       fhir:display [ fhir:v "compartment" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment` is part of an existing definition because parent element `GraphDefinition.link` requires a cross-version extension.\nElement `GraphDefinition.link.compartment` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment.use" ] ;
+       fhir:display [ fhir:v "use" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment.use" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.use` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.use` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment.rule" ] ;
+       fhir:display [ fhir:v "rule" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment.rule" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.rule` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.rule` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment.code" ] ;
+       fhir:display [ fhir:v "code" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment.code" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.code` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.code` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment.expression" ] ;
+       fhir:display [ fhir:v "expression" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment.expression" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.expression` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.expression` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "GraphDefinition.link.compartment.description" ] ;
+       fhir:display [ fhir:v "description" ] ;
+       fhir:target ( [
+         fhir:code [ fhir:v "http://hl7.org/fhir/5.0/StructureDefinition/extension-GraphDefinition.link.compartment.description" ] ;
+         fhir:equivalence [ fhir:v "wider" ] ;
+         fhir:comment [ fhir:v "Element `GraphDefinition.link.compartment.description` is part of an existing definition because parent element `GraphDefinition.link.compartment` requires a cross-version extension.\nElement `GraphDefinition.link.compartment.description` has a context of GraphDefinition.link based on following the parent source element upwards and mapping to `GraphDefinition`." ]
+       ] )
+     ] )
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

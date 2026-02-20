@@ -72,25 +72,25 @@
      ] ;
      fhir:value [
        a fhir:Code ;
-       fhir:v "pc"
+       fhir:v "fhir"
      ]
   ] ) ; # 
   fhir:url [
      fhir:v "http://hl7.org/fhir/linkage-type"^^xsd:anyURI ;
      fhir:l <http://hl7.org/fhir/linkage-type>
   ] ; # 
-  fhir:version [ fhir:v "5.0.0"] ; # 
+  fhir:version [ fhir:v "0.0.1-snapshot-3"] ; # 
   fhir:name [ fhir:v "LinkageType"] ; # 
   fhir:title [ fhir:v "Linkage Type"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
   fhir:date [ fhir:v "2021-01-04T17:01:24-06:00"^^xsd:dateTime] ; # 
-  fhir:publisher [ fhir:v "Patient Care"] ; # 
+  fhir:publisher [ fhir:v "FHIR Infrastructure"] ; # 
   fhir:contact ( [
-     fhir:name [ fhir:v "Patient Care" ] ;
+     fhir:name [ fhir:v "FHIR Infrastructure" ] ;
      fhir:telecom ( [
        fhir:system [ fhir:v "url" ] ;
-       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/patientcare" ]
+       fhir:value [ fhir:v "http://www.hl7.org/Special/committees/fiwg" ]
      ] )
   ] ) ; # 
   fhir:description [ fhir:v "Used to distinguish different roles a resource can play within a set of linked resources."] ; # 
@@ -106,8 +106,8 @@
   ] ) ; # 
   fhir:caseSensitive [ fhir:v true] ; # 
   fhir:valueSet [
-     fhir:v "http://hl7.org/fhir/ValueSet/linkage-type|4.0.1"^^xsd:anyURI ;
-     fhir:l <http://hl7.org/fhir/ValueSet/linkage-type?version=4.0.1>
+     fhir:v "http://hl7.org/fhir/ValueSet/linkage-type"^^xsd:anyURI ;
+     fhir:l <http://hl7.org/fhir/ValueSet/linkage-type>
   ] ; # 
   fhir:content [ fhir:v "complete"] ; # 
   fhir:concept ( [

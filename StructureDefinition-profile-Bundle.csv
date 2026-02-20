@@ -49,7 +49,7 @@ This specification defines some specific uses of Bundle.link for [searching](htt
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Bundle.link.extension:link","Bundle.link.extension","link","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link|0.0.1-snapshot-3]]} {[]}
+"Bundle.link.extension:link","Bundle.link.extension","link","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.link]]} {[]}
 ","Cross-version extension for Bundle.link from R5 for use in FHIR R4","A series of links that provide context to this bundle.","Element `Bundle.link` has is mapped to FHIR R4 element `Bundle.link`, but has no comparisons.
 Note available implied context: `Bundle.entry.link` because `Bundle.entry.link` is defined as a content reference to `Bundle.link`.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -75,7 +75,7 @@ bdl-8:fullUrl cannot be a version specific reference {fullUrl.contains('/_histor
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Bundle.entry.extension:entry","Bundle.entry.extension","entry","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry|0.0.1-snapshot-3]]} {[]}
+"Bundle.entry.extension:entry","Bundle.entry.extension","entry","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/5.0/StructureDefinition/extension-Bundle.entry]]} {[]}
 ","Cross-version extension for Bundle.entry from R5 for use in FHIR R4","An entry in a bundle resource - will either contain a resource or information about a resource (transactions and history only).","Element `Bundle.entry` has is mapped to FHIR R4 element `Bundle.entry`, but has no comparisons.","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
